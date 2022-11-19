@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:element name="AttestationStatus">
+		<xs:annotation>
+			<xs:documentation>00110</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="0"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CompanyID">
+		<xs:annotation>
+			<xs:documentation>00014</xs:documentation>
+			<xs:appinfo source="ConversionID">CompanyID_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:companyId</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1999999943"/>
+				<xs:totalDigits value="10"/>
+				<xs:pattern value="0|\d{9}|\d{10}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="DataOption" type="DataOptionType">
+		<xs:annotation>
+			<xs:documentation>90493</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="EmployerId" type="EmployerIdType">
+		<xs:annotation>
+			<xs:documentation>90256</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="Form">
+		<xs:annotation>
+			<xs:documentation>90059</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="FormType">
+					<xs:sequence>
+						<xs:element ref="Reference" minOccurs="0"/>
+						<xs:element ref="EmployerId"/>
+						<xs:element ref="ReferencePeriod" minOccurs="0"/>
+						<xs:element ref="DataOption" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="FormCreationDate">
+		<xs:annotation>
+			<xs:documentation>00218</xs:documentation>
+			<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FormCreationHour">
+		<xs:annotation>
+			<xs:documentation>00299</xs:documentation>
+			<xs:appinfo source="ConversionID">Time_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:time">
+				<xs:pattern value="\d{2}:\d{2}:\d{2}.\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Identification">
+		<xs:annotation>
+			<xs:documentation>00296</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="7"/>
+				<xs:enumeration value="PFREQ"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Location">
+		<xs:annotation>
+			<xs:documentation>00295</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="200"/>
+				<xs:enumeration value="QuotaFeatures"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSLPARegistrationNbr">
+		<xs:annotation>
+			<xs:documentation>00109</xs:documentation>
+			<xs:appinfo source="ConversionID">NossAPL_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:nossLpaRegistrationNbr</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999926"/>
+				<xs:totalDigits value="8"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSRegistrationNbr">
+		<xs:annotation>
+			<xs:documentation>00011</xs:documentation>
+			<xs:appinfo source="ConversionID">Noss_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:nossRegistrationNbr</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="199999934"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="PersonnelFileConsultationRequest">
+		<xs:annotation>
+			<xs:documentation>90426</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Form"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ProvisionalNSSONbr">
+		<xs:annotation>
+			<xs:documentation>00948</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="5000000120"/>
+				<xs:maxInclusive value="5999999989"/>
+				<xs:totalDigits value="10"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="RefEndingDate">
+		<xs:annotation>
+			<xs:documentation>00075</xs:documentation>
+			<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Reference" type="ReferenceType">
+		<xs:annotation>
+			<xs:documentation>90082</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ReferenceNbr">
+		<xs:annotation>
+			<xs:documentation>00222</xs:documentation>
+			<xs:appinfo source="ConversionID">TicketNumber_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1"/>
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReferenceOrigin">
+		<xs:annotation>
+			<xs:documentation>00298</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReferencePeriod" type="ReferencePeriodType">
+		<xs:annotation>
+			<xs:documentation>90077</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ReferenceType">
+		<xs:annotation>
+			<xs:documentation>00221</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="RefStartingDate">
+		<xs:annotation>
+			<xs:documentation>00074</xs:documentation>
+			<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TypeForm">
+		<xs:annotation>
+			<xs:documentation>00297</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="2"/>
+				<xs:enumeration value="RE"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Value">
+		<xs:annotation>
+			<xs:documentation>00236</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string"/>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:complexType name="DataOptionType">
+		<xs:sequence>
+			<xs:element ref="Location"/>
+			<xs:element ref="Value" minOccurs="0" maxOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="EmployerIdType">
+		<xs:sequence>
+			<xs:choice>
+				<xs:element ref="NOSSRegistrationNbr"/>
+				<xs:element ref="ProvisionalNSSONbr" minOccurs="0" maxOccurs="0"/>
+				<xs:element ref="NOSSLPARegistrationNbr"/>
+			</xs:choice>
+			<xs:element ref="CompanyID"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="FormType">
+		<xs:sequence>
+			<xs:element ref="Identification"/>
+			<xs:element ref="FormCreationDate"/>
+			<xs:element ref="FormCreationHour"/>
+			<xs:element ref="AttestationStatus"/>
+			<xs:element ref="TypeForm"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ReferencePeriodType">
+		<xs:sequence>
+			<xs:element ref="RefStartingDate" minOccurs="0"/>
+			<xs:element ref="RefEndingDate" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ReferenceType">
+		<xs:sequence>
+			<xs:element ref="ReferenceType"/>
+			<xs:element ref="ReferenceOrigin"/>
+			<xs:element ref="ReferenceNbr"/>
+		</xs:sequence>
+	</xs:complexType>	
+		
+</xs:schema>
