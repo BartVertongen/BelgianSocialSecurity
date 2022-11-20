@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann21 (Code?, DescrSSCode?, DescrSSAPLCode?, DescFr?, RemarkFr?, Geldig_vanaf?, Geldig_tot?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann21+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescrSSCode (#PCDATA)>
+     <!ELEMENT DescrSSAPLCode (#PCDATA)>
+     <!ELEMENT DescFr (#PCDATA)>
+     <!ELEMENT RemarkFr (#PCDATA)>
+     <!ELEMENT Geldig_vanaf (#PCDATA)>
+     <!ELEMENT Geldig_tot (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann21>
+<Code>A</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Artiste</DescFr>
+<RemarkFr>Il s'agit des musiciens et des artistes de spectacle, qu' ils soient occupés dans le cadre d'un contrat de travail ou prestent dans des conditions similaires à celles d'un contrat de travail, tel que défini à l'article 3.2° de L'A.R. du 28 novembre 1969.</RemarkFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2003/2</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2003</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>A1</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Artiste avec un contrat de travail</DescFr>
+<Geldig_vanaf>2014/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2014</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>A2</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Artiste sans contrat de travail (article 1bis)</DescFr>
+<Geldig_vanaf>2014/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2014</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>B</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Pompiers volontaires</DescFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>B</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Pompiers volontaires</DescFr>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>BA</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Travailleur occupé en dehors du circuit normal du travail</DescFr>
+<RemarkFr>Il s'agit de travailleurs qui sont occupés, en dehors du circuit de travail normal, dans une entreprise qui ressortit à la CP n° 327.xx.</RemarkFr>
+<Geldig_vanaf>2020/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/07/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>C</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Concierges</DescFr>
+<RemarkFr>Il s'agit d'un gardien ou surveillant de bâtiment, dans lequel il est habitant</RemarkFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>CM</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Candidat militaire</DescFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2003/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2003</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>D</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Travailleur à domicile</DescFr>
+<RemarkFr>Il s'agit des travailleurs à domicile, tels qu'ils sont définis à l'article 3.4° de l'A.R. du 28 novembre 1969 pris en exécution de la loi du 27 juin 1969 révisant l'arrêté-loi du 28 décembre 1944 concernant la sécurité sociale des travailleurs.</RemarkFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>D1</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Travailleur à domicile Accueillants d'enfants Communauté flamande</DescFr>
+<RemarkFr>Accueillants d'enfants avec un statut de travailleur occupés chez certains organisateurs disposant d'une autorisation pour l'accueil familial et, pour le secteur privé, ressortissant à la CP 331.00.10</RemarkFr>
+<Geldig_vanaf>2015/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>D2</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Travailleur à domicile Accueillants d'enfants Communauté française</DescFr>
+<RemarkFr>Accueillants d'enfants avec un statut de salarié occupés chez certains organisateurs disposant d'une autorisation pour l'accueil familial et, pour le secteur privé, ressortissant à la CP 332.00.10</RemarkFr>
+<Geldig_vanaf>2018/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>E</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Personnel des établissements d'enseignement qui est déclaré en Dimona auprès d'une administration provinciale ou locale</DescFr>
+<RemarkFr>Il s'agit du personnel enseignant, administratif et technique des établissements d'enseignement qui reçoivent d'une administration locale une indemnité non-subsidiée, à l'exception de ceux qui sont déclarés sous le code O ou le code ET.</RemarkFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>E</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Personnel des établissements d'enseignement qui est déclaré en Dimona auprès d'une administration provinciale ou locale</DescFr>
+<RemarkFr>Il s'agit du personnel enseignant, administratif et technique des établissements d'enseignement qui reçoivent d'une administration locale une indemnité non-subsidiée, à l'exception de ceux qui sont déclarés sous le code TS.</RemarkFr>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>EC</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Ministres des cultes et conseillers laïcs</DescFr>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>ET</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Statutaire temporaire dans l'enseignement déclaré en Dimona par une administration provinciale ou locale</DescFr>
+<RemarkFr>Il s'agit des travailleurs qui sont soumis au statut des temporaires dans l'enseignement  communal ou provincial et qui sont rémunérés par l'administration communale et provinciale. Sont exclus ceux qui sont engagés dans le lien d'un contrat de travail (loi 3 juillet 1978).</RemarkFr>
+<Geldig_vanaf>2017/2</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/04/2017</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>F1</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Stagiaires avec le régime d'indemnisation accident du travail/maladie professionnelle des apprentis</DescFr>
+<RemarkFr>Concerne les stagiaires qui effectuent un travail dans le cadre d'une formation pour un travail rémunéré mais ne sont pas soumis à la sécurité sociale et qui bénéficient du régime d'indemnisation accident du travail/maladie professionnelle  des apprentis.</RemarkFr>
+<Geldig_vanaf>2020/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>F2</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Stagiaires avec un régime d'indemnisation accident du travail/maladie professionnelle autre que celui des apprentis</DescFr>
+<RemarkFr>Concerne les stagiaires qui effectuent un travail dans le cadre d'une formation pour un travail rémunéré mais ne sont pas soumis à la sécurité sociale et qui bénéficient du régime d'indemnisation accident du travail/maladie professionnelle autre que celui des apprentis.</RemarkFr>
+<Geldig_vanaf>2020/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>FE</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Cadre étranger</DescFr>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>LP</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Travailleurs avec des prestations réduites</DescFr>
+<RemarkFr>Il s'agit de travailleurs qui sont liés à un employeur par un contrat de courte durée et pour une occupation qui n'atteint pas la durée journalière habituelle. Cela concerne par exemple les extras dans le secteur HORECA, les moniteurs dans le secteur socio-culturel,... qui sont engagés pour quelques heures seulement.</RemarkFr>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>M</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Médecins</DescFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>MA</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Mandataires contractuels dans un service public à qui est accordé un complément pension</DescFr>
+<RemarkFr>Personnes contractuelles (non déclarées avec le code travailleur 673) désignées pour exercer une fonction de management ou d'encadrement dans un service public et qui bénéficient du complément pension prévu par la loi du 4 mars 2004.</RemarkFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>O</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Personnel des établissements d'enseignement qui est déclaré en Dimona auprès d'un employeur autre qu'une administration provinciale ou locale</DescFr>
+<RemarkFr>Il s'agit du personnel enseignant, administratif et technique des établissements d'enseignement qui reçoivent d'une administration locale
+- exclusivement des indemnités non-subsidiées sans effectuer de prestations supplémentaires et/ou
+- exclusivement des indemnités non-subsidiées pour des surveillances ou des accompagnements dans le bus qui sont exécutés comme prestations supplémentaires.</RemarkFr>
+<Geldig_vanaf>2007/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>P</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Personnel de police</DescFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>PC</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Personnel civil de police</DescFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>PJ</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Journaliste professionnel reconnu</DescFr>
+<RemarkFr>Journaliste professionnel reconnu au sens de la loi du 30/3/1963</RemarkFr>
+<Geldig_vanaf>2021/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/04/2021</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>RM</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Militaire de réserve</DescFr>
+<Geldig_vanaf>2020/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>S</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Saisonnier</DescFr>
+<RemarkFr>Il s'agit des travailleurs qui effectuent des périodes de travail dont la durée est limitée, soit en raison de la nature saisonnière du travail, soit parce que les entreprises qui les engagent sont obligées de recruter du personnel de renfort à certaines époques de l'année.</RemarkFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>SA</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Personnel technique et administratif professionnel des services d'incendie</DescFr>
+<RemarkFr>Il s'agit du personnel technique et administratif qui effectue des prestations pour les services d'incendie dans le cadre du personnel spécifique des services d'incendie.</RemarkFr>
+<Geldig_vanaf>2013/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>SA</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Personnel technique et administratif professionnel des services d'incendie</DescFr>
+<RemarkFr>Il s'agit du personnel technique et administratif qui effectue des prestations pour les services d'incendie dans le cadre du personnel spécifique des services d'incendie.</RemarkFr>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>SP</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Personnel opérationnel professionnel des services d'incendie</DescFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>SP</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Personnel opérationnel professionnel des services d'incendie</DescFr>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>SS</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Stagiaire judiciaire</DescFr>
+<RemarkFr>Personne en stage judiciaire (avec assujettissement  ou non à un régime de pension du secteur public). Le code ne vise pas les attachés judiciaires.</RemarkFr>
+<Geldig_vanaf>2017/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/04/2017</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>T</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Temporaire</DescFr>
+<RemarkFr>Il s'agit de travailleurs engagés dans le cadre d'un contrat à durée déterminée en vue de pourvoir au remplacement d'un travailleur fixe ou de répondre à un accroissement temporaire du travail ou d'assurer l'exécution d'un travail exceptionnel (cela ne concerne pas les travailleurs intérimaires mis à disposition d'un employeur via une société d'intérim).</RemarkFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>TS</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Statutaire temporaire dans l'enseignement rémunéré par une communauté, une université, une haute école ou une administration locale ou provinciale</DescFr>
+<RemarkFr>Il s'agit des travailleurs qui sont soumis au statut des temporaires dans l'enseignement. En sont donc exclus, ceux qui sont engagés dans le lien d'un contrat de travail (loi 3 juillet 1978).</RemarkFr>
+<Geldig_vanaf>2017/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/04/2017</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>TW</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Chercheur d'emploi expérience professionnelle temporaire dans la Région flamande, engagé dans le cadre de l'article 60 § 7 de la loi organique des CPAS du 8 juillet 1976</DescFr>
+<Geldig_vanaf>2019/2</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/04/2019</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>TW</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>No</DescrSSAPLCode>
+<DescFr>Chercheur d'emploi expérience professionnelle temporaire dans la Région flamande, engagé dans le cadre de l'article 60 § 7 de la loi organique des CPAS du 8 juillet 1976</DescFr>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>V</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Personnel soignant, infirmier et paramédical qui n'appartient pas aux secteurs de santé fédéraux</DescFr>
+<Geldig_vanaf>1900/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>VA</Code>
+<DescrSSCode>Yes</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Ambulancier volontaire ou volontaire de la Sécurité Civile</DescFr>
+<RemarkFr>Il s'agit des ambulanciers volontaires (non pompier) occupés par une zone de secours, des secouristes-ambulanciers volontaires en possession d'un brevet occupés dans les services d'ambulance agréés et des volontaires de la protection civile.</RemarkFr>
+<Geldig_vanaf>2018/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>VF</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Personnel soignant, infirmier et paramédical qui appartient aux secteurs de santé fédéraux</DescFr>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+<ann21>
+<Code>WF</Code>
+<DescrSSCode>No</DescrSSCode>
+<DescrSSAPLCode>Yes</DescrSSAPLCode>
+<DescFr>Personnel des secteurs de santé fédéraux et qui n'est pas du personnel soignant, infirmier et paramédical</DescFr>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann21>
+</List>

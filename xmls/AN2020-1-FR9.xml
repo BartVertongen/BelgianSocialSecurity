@@ -1,0 +1,2669 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann9 (Ventilation?, Categorie?, Code?, Leeftijd?, Fonction?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann9+)>
+     <!ELEMENT Ventilation (#PCDATA)>
+     <!ELEMENT Categorie (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Leeftijd (#PCDATA)>
+     <!ELEMENT Fonction (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>27</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Porteurs de bagages</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>32</Code>
+<Leeftijd>15</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>33</Code>
+<Leeftijd>16</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>34</Code>
+<Leeftijd>17</Leeftijd>
+<Fonction>Adjoint chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>35</Code>
+<Leeftijd>18</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>36</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>37</Code>
+<Leeftijd>20</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>38</Code>
+<Leeftijd>-,21,-,18,18,-,-</Leeftijd>
+<Fonction>Voiturier, Portier, Bagagiste, Valet de chambre, Femme de chambre, Préposée à la toilette, Préposée au vestiaire, Autres travailleurs</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>39</Code>
+<Leeftijd>21</Leeftijd>
+<Fonction>Concierge</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>40</Code>
+<Leeftijd>23</Leeftijd>
+<Fonction>Chef concierge</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>41</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Valet de chambre, femme de chambre</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>43</Code>
+<Leeftijd>15</Leeftijd>
+<Fonction>Apprenti de salle</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>44</Code>
+<Leeftijd>16</Leeftijd>
+<Fonction>Apprenti de salle</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>45</Code>
+<Leeftijd>17</Leeftijd>
+<Fonction>Commis débarrasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>46</Code>
+<Leeftijd>18</Leeftijd>
+<Fonction>Commis de suite, Commis de suite/ banquet, Commis barman, Commis d'étage</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>47</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Commis de rang, Garçon de banquet</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>48</Code>
+<Leeftijd>20</Leeftijd>
+<Fonction>1/2 chef de rang restaurant, 1/2 chef de rang banquet, Commis barman</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>49</Code>
+<Leeftijd>21,21,21,21,21,21,22,-</Leeftijd>
+<Fonction>Garçon de restaurant, Chef de rang restaurant, Garçon de banquet, Chef de rang banquet, Garçon de brasserie, taverne, bistro,  Garçon de café, Barman, Garçon d'étage</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>50</Code>
+<Leeftijd>22,22,22,-</Leeftijd>
+<Fonction>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>51</Code>
+<Leeftijd>23</Leeftijd>
+<Fonction>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>52</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel restaurant, Assistant maître d'hôtel banquet, Assistant maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>16</Categorie>
+<Code>98</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleur occasionnel dans l'Horeca</Fonction>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>27</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Porteurs de bagages</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>32</Code>
+<Leeftijd>15</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>33</Code>
+<Leeftijd>16</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>34</Code>
+<Leeftijd>17</Leeftijd>
+<Fonction>Adjoint chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>35</Code>
+<Leeftijd>18</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>36</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>37</Code>
+<Leeftijd>20</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>38</Code>
+<Leeftijd>-,21,-,18,18,-,-</Leeftijd>
+<Fonction>Voiturier, Portier, Bagagiste, Valet de chambre, Femme de chambre, Préposée à la toilette, Préposée au vestiaire, Autres travailleurs</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>39</Code>
+<Leeftijd>21</Leeftijd>
+<Fonction>Concierge</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>40</Code>
+<Leeftijd>23</Leeftijd>
+<Fonction>Chef concierge</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>41</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Valet de chambre, femme de chambre</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>43</Code>
+<Leeftijd>15</Leeftijd>
+<Fonction>Apprenti de salle</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>44</Code>
+<Leeftijd>16</Leeftijd>
+<Fonction>Apprenti de salle</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>45</Code>
+<Leeftijd>17</Leeftijd>
+<Fonction>Commis débarrasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>46</Code>
+<Leeftijd>18</Leeftijd>
+<Fonction>Commis de suite, Commis de suite/ banquet, Commis barman, Commis d'étage</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>47</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Commis de rang, Garçon de banquet</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>48</Code>
+<Leeftijd>20</Leeftijd>
+<Fonction>1/2 chef de rang restaurant, 1/2 chef de rang banquet, Commis barman</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>49</Code>
+<Leeftijd>21,21,21,21,21,21,22,-</Leeftijd>
+<Fonction>Garçon de restaurant, Chef de rang restaurant, Garçon de banquet, Chef de rang banquet, Garçon de brasserie, taverne, bistro, Garçon de café, Barman, Garçon d'étage</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>50</Code>
+<Leeftijd>22</Leeftijd>
+<Fonction>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>51</Code>
+<Leeftijd>23</Leeftijd>
+<Fonction>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>52</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel restaurant, Assistant maître d'hôtel banquet, Assistant maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>17</Categorie>
+<Code>98</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleur occasionnel dans l'Horeca</Fonction>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>19</Categorie>
+<Code>81</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Marins pêcheurs : équipage des bâtiments de pêche à l'exception des apprentis mousses</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>19</Categorie>
+<Code>82</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Marins pêcheurs : apprentis mousses</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>20</Categorie>
+<Code>20</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les théâtres</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>20</Categorie>
+<Code>25</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les salles de spectacles cinématographiques pendant au moins 40 heures/semaine</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>20</Categorie>
+<Code>26</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins de 40 heures/semaine ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>20</Categorie>
+<Code>29</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Tous les autres travailleurs rémunérés totalement ou partiellement au pourboire</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>23</Categorie>
+<Code>20</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les théâtres</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>23</Categorie>
+<Code>25</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les salles de spectacles cinématographiques pendant au moins 40 heures/semaine</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>23</Categorie>
+<Code>26</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins de 40 heures/semaine ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>23</Categorie>
+<Code>29</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Tous les autres travailleurs rémunérés totalement ou partiellement au pourboire</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>68</Categorie>
+<Code>28</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Autres chauffeurs de taxis-camionnettes</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>68</Categorie>
+<Code>30</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chauffeurs de taxis-camionnettes : chauffeurs occupés à raison au maximum de 6 heures/jour et 30 heures/semaine</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>97</Categorie>
+<Code>91</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>97</Categorie>
+<Code>98</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleur occasionnel dans l'Horeca</Fonction>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>97</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans  l'agriculture (jusqu'au 4/2006) et l'horticulture</Fonction>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>27</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Porteurs de bagages</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>32</Code>
+<Leeftijd>15</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>33</Code>
+<Leeftijd>16</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>34</Code>
+<Leeftijd>17</Leeftijd>
+<Fonction>Adjoint chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>35</Code>
+<Leeftijd>18</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>36</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>37</Code>
+<Leeftijd>20</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>38</Code>
+<Leeftijd>-,21,-,18,18,-,-</Leeftijd>
+<Fonction>Voiturier, Portier,Bagagiste, Valet de chambre, Femme de chambre, Préposée à la toilette, Préposée au vestiaire, Autres travailleurs</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>39</Code>
+<Leeftijd>21</Leeftijd>
+<Fonction>Concierge</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>40</Code>
+<Leeftijd>23</Leeftijd>
+<Fonction>Chef concierge</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>41</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Valet de chambre, femme de chambre</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>43</Code>
+<Leeftijd>15</Leeftijd>
+<Fonction>Apprenti de salle</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>44</Code>
+<Leeftijd>16</Leeftijd>
+<Fonction>Apprenti de salle</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>45</Code>
+<Leeftijd>17</Leeftijd>
+<Fonction>Commis débarrasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>46</Code>
+<Leeftijd>18</Leeftijd>
+<Fonction>Commis de suite, Commis de suite banquet, Commis barman, Commis d'étage</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>47</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Commis de rang, Garçon de banquet</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>48</Code>
+<Leeftijd>20</Leeftijd>
+<Fonction>1/2 chef de rang, 1/2 chef de rang banquet, Commis barman</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>49</Code>
+<Leeftijd>21,21,21,21,21,21,22,-</Leeftijd>
+<Fonction>Garçon de restaurant, Chef de rang restaurant, Garçon de banquet, Chef de rang banquet, Garçon de brasserie, taverne, bistro, Garçon de café, Barman, Garçon d'étage</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>50</Code>
+<Leeftijd>22,22,22,-</Leeftijd>
+<Fonction>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>51</Code>
+<Leeftijd>23</Leeftijd>
+<Fonction>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>146</Categorie>
+<Code>52</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel restaurant, Assistant maître d'hôtel banquet, Assistant maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>27</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Porteurs de bagages</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>32</Code>
+<Leeftijd>15</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>33</Code>
+<Leeftijd>16</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>34</Code>
+<Leeftijd>17</Leeftijd>
+<Fonction>Adjoint chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>35</Code>
+<Leeftijd>18</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>36</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>37</Code>
+<Leeftijd>20</Leeftijd>
+<Fonction>Chef chasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>38</Code>
+<Leeftijd>-,21,-,18,18,-,-</Leeftijd>
+<Fonction>Voiturier, Portier, Bagagiste, Valet de chambre, Femme de chambre, Préposée à la toilette, Préposée au vestiaire, Autres travailleurs</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>39</Code>
+<Leeftijd>21</Leeftijd>
+<Fonction>Concierge</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>40</Code>
+<Leeftijd>23</Leeftijd>
+<Fonction>Chef concierge</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>41</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Valet de chambre, femme de chambre</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>43</Code>
+<Leeftijd>15</Leeftijd>
+<Fonction>Apprenti de salle</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>44</Code>
+<Leeftijd>16</Leeftijd>
+<Fonction>Apprenti de salle</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>45</Code>
+<Leeftijd>17</Leeftijd>
+<Fonction>Commis débarrasseur</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>46</Code>
+<Leeftijd>18</Leeftijd>
+<Fonction>Commis de suite, Commis de suite banquet, Commis barman, Commis d'étage</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>47</Code>
+<Leeftijd>19</Leeftijd>
+<Fonction>Commis de rang, Garçon de banquet</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>48</Code>
+<Leeftijd>20</Leeftijd>
+<Fonction>1/2 chef de rang, 1/2 chef de rang banquet, Commis barman</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>49</Code>
+<Leeftijd>21,21,21,21,21,21,22,-</Leeftijd>
+<Fonction>Garçon de restaurant, Chef de rang restaurant, Garçon de banquet, Chef de rang banquet, Garçon de brasserie, taverne, bistro, Garçon de café, Barman, Garçon d'étage</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>50</Code>
+<Leeftijd>22,22,22,-</Leeftijd>
+<Fonction>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>51</Code>
+<Leeftijd>23</Leeftijd>
+<Fonction>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>158</Categorie>
+<Code>52</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel restaurant, Assistant maître d'hôtel banquet, Assistant maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>166</Categorie>
+<Code>21</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occupés dans les établissements de bain et dans les entreprises exploitant des établissements de bain : garçon ou fille de cabine ou de bain</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>166</Categorie>
+<Code>23</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occupés dans les établissements de bain et dans les entreprises exploitant des établissements de bain : pédicure</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>166</Categorie>
+<Code>24</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occupés dans les établissements de bain et dans les entreprises exploitant des établissements de bain : masseur - masseuse</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>166</Categorie>
+<Code>26</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins de 40 heures/semaine ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>193</Categorie>
+<Code>91</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>193</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2006</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>194</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'horticulture</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>323</Categorie>
+<Code>20</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les théâtres</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>323</Categorie>
+<Code>25</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les salles de spectacles cinématographiques pendant au moins 40 heures/semaine</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>323</Categorie>
+<Code>26</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins de 40 heures/semaine ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>323</Categorie>
+<Code>29</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Tous les autres travailleurs rémunérés totalement ou partiellement au pourboire</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>494</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'horticulture</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>497</Categorie>
+<Code>91</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>497</Categorie>
+<Code>98</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleur occasionnel dans l'Horeca</Fonction>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>497</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture (jusqu'au 4/2006) et l'horticulture</Fonction>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>562</Categorie>
+<Code>20</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les théâtres</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>562</Categorie>
+<Code>26</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins de 40 heures/semaine ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>562</Categorie>
+<Code>29</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Tous les autres travailleurs rémunérés totalement ou partiellement au pourboire</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>594</Categorie>
+<Code>90</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans le secteur du chicon pour les jours de travail occasionnel au-delà des 65 jours</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides jusqu'au 2007/1</Ventilation>
+<Categorie>594</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'horticulture</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>10</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis débarrasseur</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>11</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis de suite</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>12</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis de rang</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>13</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>½ chef de rang restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>14</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>15</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef de rang restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>16</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>1er chef de rang restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>17</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Sommelier</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>18</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>19</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>22</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Aide serveur (se) / Commis</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>23</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>24</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>½ chef de rang banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>25</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef de rang banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>26</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>1er chef de rang banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>27</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>28</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>53</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de brasserie, taverne, bistro</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>55</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de café</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>57</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis barman</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>58</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Barman</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>59</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Responsable barman</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>61</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>62</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Voiturier</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>63</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Portier</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>64</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Bagagiste</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>65</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Valet de chambre, femme de chambre</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>66</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Concierge</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>67</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef concierge</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>70</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis d'étage</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>71</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon d'étage</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>72</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>73</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>75</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposés aux toilettes</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>77</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposé au vestiaire</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>16</Categorie>
+<Code>98</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleur occasionnel dans l'Horeca</Fonction>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>10</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis débarrasseur</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>11</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis de suite</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>12</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis de rang</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>13</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>½ chef de rang restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>14</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>15</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef de rang restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>16</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>1er chef de rang restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>17</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Sommelier</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>18</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>19</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel restaurant</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>22</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Aide serveur (se) / Commis</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>23</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>24</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>½ chef de rang banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>25</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef de rang banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>26</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>1er chef de rang banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>27</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>28</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel banquet</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>53</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de brasserie, taverne, bistro</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>55</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de café</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>57</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis barman</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>58</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Barman</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>59</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Responsable barman</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>61</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>62</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Voiturier</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>63</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Portier</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>64</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Bagagiste</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>65</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Valet de chambre, femme de chambre</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>66</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Concierge</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>67</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef concierge</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>70</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis d'étage</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>71</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon d'étage</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>72</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>73</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>75</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposés aux toilettes</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>77</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposé au vestiaire</Fonction>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>17</Categorie>
+<Code>98</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleur occasionnel dans l'Horeca</Fonction>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>19</Categorie>
+<Code>81</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Marins pêcheurs : équipage des bâtiments de pêche à l'exception des apprentis mousses</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>19</Categorie>
+<Code>82</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Marins pêcheurs : apprentis mousses</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>66</Categorie>
+<Code>85</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposés aux toilettes</Fonction>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>95</Categorie>
+<Code>85</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposés aux toilettes</Fonction>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>97</Categorie>
+<Code>91</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>97</Categorie>
+<Code>94</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec forfait journalier</Fonction>
+<begin_geldigheid>01/10/2013</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>97</Categorie>
+<Code>95</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec forfait horaire</Fonction>
+<begin_geldigheid>01/10/2013</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>97</Categorie>
+<Code>98</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleur occasionnel dans l'Horeca</Fonction>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>97</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans  l'agriculture (jusqu'au 4/2006) et l'horticulture</Fonction>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>10</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis débarrasseur</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>11</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis de suite</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>12</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis de rang</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>13</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>½ chef de rang restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>14</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>15</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef de rang restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>16</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>1er chef de rang restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>17</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Sommelier</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>18</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>19</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>22</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Aide serveur (se) / Commis</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>23</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>24</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>½ chef de rang banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>25</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef de rang banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>26</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>1er chef de rang banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>27</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>28</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>53</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de brasserie, taverne, bistro</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>55</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de café</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>57</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis barman</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>58</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Barman</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>59</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Responsable barman</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>61</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>62</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Voiturier</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>63</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Portier</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>64</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Bagagiste</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>65</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Valet de chambre, femme de chambre</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>66</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Concierge</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>67</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef concierge</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>70</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis d'étage</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>71</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon d'étage</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>72</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>73</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>75</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposés aux toilettes</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>116</Categorie>
+<Code>77</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposé au vestiaire</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>10</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis débarrasseur</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>11</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis de suite</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>12</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis de rang</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>13</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>½ chef de rang restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>14</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>15</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef de rang restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>16</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>1er chef de rang restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>17</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Sommelier</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>18</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>19</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel restaurant</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>22</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Aide serveur (se) / Commis</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>23</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>24</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>½ chef de rang banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>25</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef de rang banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>26</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>1er chef de rang banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>27</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>28</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel banquet</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>53</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de brasserie, taverne, bistro</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>55</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon de café</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>57</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis barman</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>58</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Barman</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>59</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Responsable barman</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>61</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chasseur</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>62</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Voiturier</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>63</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Portier</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>64</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Bagagiste</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>65</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Valet de chambre, femme de chambre</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>66</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Concierge</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>67</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Chef concierge</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>70</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Commis d'étage</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>71</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Garçon d'étage</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>72</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Assistant maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>73</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Maître d'hôtel roomservice</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>75</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposés aux toilettes</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>117</Categorie>
+<Code>77</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposé au vestiaire</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>193</Categorie>
+<Code>91</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>194</Categorie>
+<Code>93</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans le secteur de la culture de fruits</Fonction>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>194</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'horticulture</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>216</Categorie>
+<Code>96</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec bloc temps 5 heures</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>216</Categorie>
+<Code>97</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec bloc temps 11 heures</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>217</Categorie>
+<Code>96</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec bloc temps 5 heures</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>217</Categorie>
+<Code>97</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec bloc temps 11 heures</Fonction>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>293</Categorie>
+<Code>91</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture</Fonction>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>317</Categorie>
+<Code>94</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec forfait journalier</Fonction>
+<begin_geldigheid>01/10/2013</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>317</Categorie>
+<Code>95</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec forfait horaire</Fonction>
+<begin_geldigheid>01/10/2013</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>323</Categorie>
+<Code>85</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposés aux toilettes</Fonction>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>494</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'horticulture</Fonction>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>497</Categorie>
+<Code>91</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>497</Categorie>
+<Code>94</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec forfait journalier</Fonction>
+<begin_geldigheid>01/10/2013</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>497</Categorie>
+<Code>95</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Occasionnels de l'horeca avec forfait horaire</Fonction>
+<begin_geldigheid>01/10/2013</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>497</Categorie>
+<Code>98</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleur occasionnel dans l'Horeca</Fonction>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>497</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'agriculture (jusqu'au 4/2006) et l'horticulture</Fonction>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>562</Categorie>
+<Code>85</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposés aux toilettes</Fonction>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>594</Categorie>
+<Code>90</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans le secteur du chicon pour les jours de travail occasionnel au-delà des 65 jours</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>594</Categorie>
+<Code>92</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans le secteur du champignon</Fonction>
+<begin_geldigheid>01/01/2013</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>594</Categorie>
+<Code>93</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans le secteur de la culture de fruits</Fonction>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>594</Categorie>
+<Code>99</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Travailleurs occasionnels dans l'horticulture</Fonction>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+<ann9>
+<Ventilation>Numéros de fonction valides à partir de 2007/2</Ventilation>
+<Categorie>662</Categorie>
+<Code>85</Code>
+<Leeftijd>-</Leeftijd>
+<Fonction>Préposés aux toilettes</Fonction>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann9>
+</List>

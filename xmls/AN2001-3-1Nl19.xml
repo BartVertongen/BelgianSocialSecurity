@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT Preventiemaatregel (Code?, BeschrPrevMaatRegel?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (Preventiemaatregel+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT BeschrPrevMaatRegel (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<Preventiemaatregel>
+<Code>1</Code>
+<BeschrPrevMaatRegel>Geen.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>2</Code>
+<BeschrPrevMaatRegel>Individuele factor.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>3</Code>
+<BeschrPrevMaatRegel>Materiële factor.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>21</Code>
+<BeschrPrevMaatRegel>Arbeidspost.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>22</Code>
+<BeschrPrevMaatRegel>Aanleren.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>23</Code>
+<BeschrPrevMaatRegel>Herziening van de bevelen.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>24</Code>
+<BeschrPrevMaatRegel>Toezicht op de arbeidsmethoden.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>25</Code>
+<BeschrPrevMaatRegel>Fysische of psychische aanpassing aan de arbeidspost.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>26</Code>
+<BeschrPrevMaatRegel>Andere maatregelen.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>31</Code>
+<BeschrPrevMaatRegel>Inspectie.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>32</Code>
+<BeschrPrevMaatRegel>Onderhoud.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>33</Code>
+<BeschrPrevMaatRegel>Materieel.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>34</Code>
+<BeschrPrevMaatRegel>Persoonlijke of collectieve beschermingsmiddelen.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>35</Code>
+<BeschrPrevMaatRegel>Leefmilieu, omgevingsfactoren.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+<Preventiemaatregel>
+<Code>36</Code>
+<BeschrPrevMaatRegel>Andere maatregelen.</BeschrPrevMaatRegel>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</Preventiemaatregel>
+</List>

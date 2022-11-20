@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann25 (SoortCode?, Code?, Omschrijving?, Categorie?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann25+)>
+     <!ELEMENT SoortCode (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT Categorie (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>0</Code>
+<Omschrijving>Alles is OK. De lezing van de ContentInfo is correct verlopen, de boodschap werd gevonden als dit moest, het certificaat dat gebruikt werd voor de handtekening werd gevonden, de handtekening is correct.</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>1</Code>
+<Omschrijving>Syntactische fout bij de lezing van de ContentInfo. code moet een verklarende code bevatten zoals gegeven in de tabel "Codes van de syntactische fouten".</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>2</Code>
+<Omschrijving>De gestructureerde boodschap werd niet gevonden in de ContentInfo, hoewel het type preciseert dat het gaat om het schema met één enkel bestand.</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>3</Code>
+<Omschrijving>Er werd een verboden algoritme gebruikt. In dat geval moet code een verklarende code bevatten zoals gegeven in de tabel "Code van de fouten in de algoritmes".</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>4</Code>
+<Omschrijving>Fout in een opgelegde waarde. Zie de tabel "Codes versiefouten".</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>5</Code>
+<Omschrijving>Geen enkel geleverd certificaat komt overeen met serienummer ondertekenaar</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>6</Code>
+<Omschrijving>Fout in de extensie van een certificaat (X.509 v2 of v3)</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>9</Code>
+<Omschrijving>Lengtefout</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>10</Code>
+<Omschrijving>Fout in het certificaat</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>11</Code>
+<Omschrijving>Fout in de handtekening van de boodschap</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Foutcodes</SoortCode>
+<Code>99</Code>
+<Omschrijving>Niet-geïdentificeerde fout</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>0</Code>
+<Omschrijving>Algemene fout, of geen fout (als foutcode = 00)</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1</Code>
+<Omschrijving>Geen ContentInfo</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2</Code>
+<Omschrijving>Fout in ContentInfo.contentType</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>3</Code>
+<Omschrijving>Fout in ContentInfo.signedData</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>4</Code>
+<Omschrijving>Fout in ContentInfo.signedData.version</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>5</Code>
+<Omschrijving>Fout in ContentInfo.signedData.DigestAlgorithmIdentifiers</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>6</Code>
+<Omschrijving>Fout in het opzoeken van ContentInfo.signedData.digestAlgorithmIdentifiers.digestAlgorithmIdentifier</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>7</Code>
+<Omschrijving>Fout in ContentInfo.signedData.contentInfo</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>8</Code>
+<Omschrijving>Fout in ContentInfo.signedData.contentInfo.data</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>9</Code>
+<Omschrijving>Fout in ContentInfo.signedData.certificates</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>10</Code>
+<Omschrijving>Fout in het opzoeken van ContentInfo.signedData.certificates.certificate</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>11</Code>
+<Omschrijving>Fout in ContentInfo.signedData.signerInfos</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>12</Code>
+<Omschrijving>Fout in het opzoeken van ContentInfo.signedData.signerInfos.signerInfo</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>13</Code>
+<Omschrijving>Fout in ContentInfo.signedData.signerInfos.signerInfo.version</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>14</Code>
+<Omschrijving>Fout in ContentInfo.signedData.signerInfos.signerInfo. issuerAndSerialNumber</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>15</Code>
+<Omschrijving>Fout in ContentInfo.signedData.signerInfos.signerInfo. issuerAndSerialNumber.issuer</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>16</Code>
+<Omschrijving>Fout in contentInfo.signedData.signerInfos.signerInfo. issuerAndSerialNumber.serialNumber</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>17</Code>
+<Omschrijving>Fout in ContentInfo.signedData.signerInfos.signerInfo. digestAlgorithm</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>18</Code>
+<Omschrijving>Fout in de lezing van ContentInfo.signedData.signerInfos.signerInfo .authenticatedAttributes</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>19</Code>
+<Omschrijving>Fout in ContentInfo.signedData.signerInfos.signerInfo. digestEncryptionAlgorithm</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>20</Code>
+<Omschrijving>Fout in ContentInfo.signedData.signerInfos.signerInfo. encryptedDigest</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>21</Code>
+<Omschrijving>ContentInfo bevat gegevens na ContentInfo.signedData</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>22</Code>
+<Omschrijving>ContentInfo.signedData.crls gevonden</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>23</Code>
+<Omschrijving>ContentInfo.signedData.signerInfos.signerInfo.unauthenticatedAttributes gevonden</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>900</Code>
+<Omschrijving>Globale lengte verkeerd</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>901</Code>
+<Omschrijving>Geen einde aan ContentInfo</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>903</Code>
+<Omschrijving>Geen einde aan ContentInfo.signedData</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>907</Code>
+<Omschrijving>Geen einde aan ContentInfo.signedData.contentInfo</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>908</Code>
+<Omschrijving>Geen einde aan ContentInfo.signedData.contentInfo.data</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>909</Code>
+<Omschrijving>Geen einde aan ContentInfo.signedData.certificates</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>910</Code>
+<Omschrijving>Geen einde aan een van de ContentInfo.signedData.certificates.certificate</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>911</Code>
+<Omschrijving>Geen einde aan ContentInfo.signedData.signerInfos</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>912</Code>
+<Omschrijving>Geen einde aan een van de ContentInfo.signedData.signerInfos.signerInfo</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>914</Code>
+<Omschrijving>Geen einde aan een van de ContentInfo.signedData.signerInfos.signerInfo.issuerAndSerialNumber</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>915</Code>
+<Omschrijving>Geen einde aan een van de (...).signerInfo.issuerAndSerialNumber.issuer (AttributeValueAssertion ou RDNSequence).</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>917</Code>
+<Omschrijving>Geen einde aan een van de (...).signerInfo.digestAlgorithm</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>918</Code>
+<Omschrijving>Geen einde aan een van de (...).signerInfo.authenticatedAttributes of aan een van zijn leden</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>919</Code>
+<Omschrijving>Geen einde aan een van de (...).signerInfo.digestEncryptionAlgorithm</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1001</Code>
+<Omschrijving>Fout in certificateInfo</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1002</Code>
+<Omschrijving>Fout in certificateInfo.Version</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1003</Code>
+<Omschrijving>Fout in certificateInfo.serialNumber</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1004</Code>
+<Omschrijving>Fout in certificateInfo.signature  (SEQUENCE of OBJID)</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1005</Code>
+<Omschrijving>Fout in certificateInfo.issuer</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1006</Code>
+<Omschrijving>Fout in de lezing van certificateInfo.issuer</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1007</Code>
+<Omschrijving>Fout in certificateInfo.validity</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1008</Code>
+<Omschrijving>Fout in certificateInfo.validity.notBefore</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1009</Code>
+<Omschrijving>Fout in certificateInfo.validity.notAfter</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1010</Code>
+<Omschrijving>Fout in certificateInfo.subject</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1011</Code>
+<Omschrijving>Fout in de lezing van certificateInfo.subject</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1012</Code>
+<Omschrijving>Fout in certificateInfo.subjectPublicKeyInfo</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1013</Code>
+<Omschrijving>Fout in certificateInfo.subjectPublicKeyInfo.algorithm</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1014</Code>
+<Omschrijving>Fout in certificateInfo.subjectPublicKeyInfo.algorithm</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1015</Code>
+<Omschrijving>Fout in certificateInfo.subjectPublicKeyInfo.subjectPublicKey</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1016</Code>
+<Omschrijving>Fout in signatureAlgorithm</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1017</Code>
+<Omschrijving>Fout in signatureAlgorithm</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1018</Code>
+<Omschrijving>Fout in signature</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1019</Code>
+<Omschrijving>Fout in een extensie (X.509 v2 of v3)</Omschrijving>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1101</Code>
+<Omschrijving>Openbare sleutel van ongekend type</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van een certificaat</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1102</Code>
+<Omschrijving>Niet-erkend handtekeningsalgoritme</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van een certificaat</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1103</Code>
+<Omschrijving>Foutieve handtekening</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van een certificaat</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1104</Code>
+<Omschrijving>Niet-erkend CA</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van een certificaat</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1202</Code>
+<Omschrijving>Foutief algoritme</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van de handtekening</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1203</Code>
+<Omschrijving>Foutieve handtekening</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van de handtekening</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1204</Code>
+<Omschrijving>Foutieve authenticatedAttributes</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van de handtekening</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1205</Code>
+<Omschrijving>Hashing foutief in de authenticatedAttributes</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van de handtekening</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1206</Code>
+<Omschrijving>Foutief algoritme in de authenticatedAttributes</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van de handtekening</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1207</Code>
+<Omschrijving>Buiten de geldigheidszone van het certificaat</Omschrijving>
+<Categorie>Fouten ten gevolge van de verificatie van de handtekening</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1900</Code>
+<Omschrijving>Geen einde aan een van de certificates</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1901</Code>
+<Omschrijving>Geen einde aan een van de certificates.certificateInfo</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1904</Code>
+<Omschrijving>Geen einde aan een van de certificates.certificateInfo.signature</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1905</Code>
+<Omschrijving>Geen einde aan een van de certificates.certificateInfo.issuer</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1906</Code>
+<Omschrijving>Geen einde aan een van de leden van een van de certificates.certificateInfo.issuer</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1907</Code>
+<Omschrijving>Geen einde aan een van de certificates.certificateInfo.validity</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1910</Code>
+<Omschrijving>Geen einde aan een van de certificates.certificateInfo.subject</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1911</Code>
+<Omschrijving>Geen einde aan een van de leden van een van de certificates.certificateInfo.subject</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1912</Code>
+<Omschrijving>Geen einde aan een van de certificates.certificateInfo.subjectPublicKeyInfo</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1913</Code>
+<Omschrijving>Geen einde aan een van de certificates.certificateInfo.subjectPublicKeyInfo.algorithm</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1915</Code>
+<Omschrijving>Geen einde aan een van de certificates.certificateInfo.subjectPublicKeyInfo.subjectPublicKey</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>1916</Code>
+<Omschrijving>Geen einde aan een van de certificates.signatureAlgorithm</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2001</Code>
+<Omschrijving>extendedCertificateInfo niet gevonden</Omschrijving>
+<Categorie>Fouten in een ExtendedCertificate</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2002</Code>
+<Omschrijving>extendedCertificateInfo.version niet gevonden</Omschrijving>
+<Categorie>Fouten in een ExtendedCertificate</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2003</Code>
+<Omschrijving>extendedCertificateInfo.certificate niet gevonden</Omschrijving>
+<Categorie>Fouten in een ExtendedCertificate</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2004</Code>
+<Omschrijving>extendedCertificateInfo.attributes niet gevonden</Omschrijving>
+<Categorie>Fouten in een ExtendedCertificate</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2005</Code>
+<Omschrijving>Fout in een extendedCertificateInfo.attributes</Omschrijving>
+<Categorie>Fouten in een ExtendedCertificate</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2006</Code>
+<Omschrijving>signatureAlgorithm niet gevonden</Omschrijving>
+<Categorie>Fouten in een ExtendedCertificate</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2007</Code>
+<Omschrijving>Fout in signatureAlgorithm</Omschrijving>
+<Categorie>Fouten in een ExtendedCertificate</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2008</Code>
+<Omschrijving>Handtekening niet gevonden</Omschrijving>
+<Categorie>Fouten in een ExtendedCertificate</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2900</Code>
+<Omschrijving>Geen einde aan een van de extendedCertificate</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2901</Code>
+<Omschrijving>Geen einde aan een van de extendedCertificateInfo</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2904</Code>
+<Omschrijving>Geen einde aan een van de extendedCertificateInfo.attributes</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2905</Code>
+<Omschrijving>Geen einde aan een van de leden van een van de extendedCertificateInfo.attributes</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>2906</Code>
+<Omschrijving>Geen einde aan een van de extendedCertificates.signatureAlgorithm</Omschrijving>
+<Categorie>Eindefouten van een type met niet-gedefinieerde lengte</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>3001</Code>
+<Omschrijving>ContentInfo.DigestAlgorithmIdentifiers bevat een niet-toegelaten algoritme.</Omschrijving>
+<Categorie>Fouten in de algoritmes</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>3002</Code>
+<Omschrijving>ContentInfo.signerInfos.signerInfo.digestAlgorithm bevat een niet-toegelaten algoritme</Omschrijving>
+<Categorie>Fouten in de algoritmes</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>3003</Code>
+<Omschrijving>ContentInfo.signerInfos.signerInfo.digestEncryptionAlgorithm bevat een niet-toegelaten algoritme</Omschrijving>
+<Categorie>Fouten in de algoritmes</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>3004</Code>
+<Omschrijving>ContentInfo.certificates.certificate.certificateInfo.signature bevat een niet-toegelaten algoritme</Omschrijving>
+<Categorie>Fouten in de algoritmes</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>3005</Code>
+<Omschrijving>ContentInfo.certificates.certificate.certificateInfo.subjectPublicKeyInfo.algorithm bevat een niet-toegelaten algoritme</Omschrijving>
+<Categorie>Fouten in de algoritmes</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>3006</Code>
+<Omschrijving>(...).subjectPublicKeyInfo.subjectPublicKey.signatureAlgorithm bevat een niet-toegelaten algoritme</Omschrijving>
+<Categorie>Fouten in de algoritmes</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>3007</Code>
+<Omschrijving>ContentInfo.certificates.extendedCertificate.extendedCertificateInfo. SignatureAlgorithm bevat een niet-toegelaten algoritme</Omschrijving>
+<Categorie>Fouten in de algoritmes</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>4001</Code>
+<Omschrijving>ContentInfo.contentType moet signedData zijn</Omschrijving>
+<Categorie>Versiefouten</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>4002</Code>
+<Omschrijving>ContentInfo.signedData.version moet 1 zijn</Omschrijving>
+<Categorie>Versiefouten</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>4003</Code>
+<Omschrijving>ContentInfo.signedData.contentInfo.contentType moet data zijn</Omschrijving>
+<Categorie>Versiefouten</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>4004</Code>
+<Omschrijving>ContentInfo.signedData.signerInfos.signerInfo moet 1 zijn</Omschrijving>
+<Categorie>Versiefouten</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>4005</Code>
+<Omschrijving>certificate.certificateInfo.version moet 0, 1 of 2 zijn</Omschrijving>
+<Categorie>Versiefouten</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+<ann25>
+<SoortCode>Verklarende codes</SoortCode>
+<Code>4006</Code>
+<Omschrijving>extendedCertificate.extendedCertificateInfo.version moet 0 zijn</Omschrijving>
+<Categorie>Versiefouten</Categorie>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann25>
+</List>

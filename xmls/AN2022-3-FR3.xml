@@ -1,0 +1,2678 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+	<!ELEMENT ann3 (Code?, Werkgeverscategorie?, Gewonebijdrage?, aantalwerknemers?, typebijdrage?, begin_geldigheid?, einde_geldigheid?)>
+	<!ELEMENT List (ann3+)>
+	<!ELEMENT Code (#PCDATA)>
+	<!ELEMENT Werkgeverscategorie (#PCDATA)>
+	<!ELEMENT Gewonebijdrage (#PCDATA)>
+	<!ELEMENT aantalwerknemers (#PCDATA)>
+	<!ELEMENT typebijdrage (#PCDATA)>
+	<!ELEMENT begin_geldigheid (#PCDATA)>
+	<!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+	<ann3>
+		<Code>010</Code>
+		<Werkgeverscategorie>027</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation sur les paiements annuels</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/10/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>015</Code>
+		<Werkgeverscategorie>105, 205, 305, 505</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation personnelle marins (non officiers)</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>0xx (Ouvriers)</Code>
+		<Werkgeverscategorie>754</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation personnelle</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>0xx (Ouvriers)</Code>
+		<Gewonebijdrage>Cotisation rémunérations 108%</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>0xx (Ouvriers)</Code>
+		<Gewonebijdrage>Cotisation rémunérations 100%</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>260</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>260</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &gt;= 55 ans et &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>260</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &gt;= 58 ans et &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>260</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &gt;= 60 ans et &lt; 62 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>260</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &gt;= 62 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>261</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>261</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &gt;= 55 ans et &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>261</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &gt;= 58 ans et &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>261</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &gt;= 60 ans et &lt; 62 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>261</Code>
+		<Gewonebijdrage>Age à la date de début de dispense &gt;= 62 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>270</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>270</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>270</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>270</Code>
+		<Gewonebijdrage>Age travailleur en RCC &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>270</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>270</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 62 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>270</Code>
+		<Gewonebijdrage>Age travailleur en RCC &gt;= 62 ans</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>271</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>271</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>271</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>271</Code>
+		<Gewonebijdrage>Age travailleur en RCC &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>271</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>271</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 62 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>271</Code>
+		<Gewonebijdrage>Age travailleur en RCC &gt;= 62 ans</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>272</Code>
+		<Gewonebijdrage>Taux de base</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>30/09/2015</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>272</Code>
+		<Gewonebijdrage>Taux réduit</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>30/09/2015</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>273</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>273</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>273</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>273</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>273</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>273</Code>
+		<Gewonebijdrage>&lt; 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>273</Code>
+		<Gewonebijdrage>&gt;= 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>274</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>274</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>274</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>274</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>274</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>274</Code>
+		<Gewonebijdrage>&lt; 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>274</Code>
+		<Gewonebijdrage>&gt;= 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>275</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>275</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>275</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>275</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>275</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>275</Code>
+		<Gewonebijdrage>&lt; 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>275</Code>
+		<Gewonebijdrage>&gt;= 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>276</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>276</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>276</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>276</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>276</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>276</Code>
+		<Gewonebijdrage>&lt; 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>276</Code>
+		<Gewonebijdrage>&gt;= 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>277</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>277</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>277</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>277</Code>
+		<Gewonebijdrage>Age travailleur en RCC &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>277</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>277</Code>
+		<Gewonebijdrage>Age travailleur en RCC &lt; 62 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>277</Code>
+		<Gewonebijdrage>Age travailleur en RCC &gt;= 62 ans</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>278</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>278</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>278</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>278</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>278</Code>
+		<Gewonebijdrage>Age au début du RCC ou fin de reconnaissance &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>278</Code>
+		<Gewonebijdrage>&lt; 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>278</Code>
+		<Gewonebijdrage>&gt;= 62 ans au début du RCC / fin reconnaissance</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>280</Code>
+		<Gewonebijdrage>Taux de base</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>281</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>281</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>281</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>281</Code>
+		<Gewonebijdrage>Age au début du RCIC &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>281</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>281</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 62 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>281</Code>
+		<Gewonebijdrage>Age au début du RCIC &gt;= 62 ans</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>282</Code>
+		<Gewonebijdrage>Age &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>282</Code>
+		<Gewonebijdrage>Age &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>282</Code>
+		<Gewonebijdrage>Age &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>282</Code>
+		<Gewonebijdrage>Age &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>282</Code>
+		<Gewonebijdrage>Age &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>282</Code>
+		<Gewonebijdrage>Age &lt; 62 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>282</Code>
+		<Gewonebijdrage>Age &gt;= 62 ans</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>283</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>283</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>283</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>283</Code>
+		<Gewonebijdrage>Age au début du RCIC &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>283</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>283</Code>
+		<Gewonebijdrage>Age au début du RCIC &lt; 62 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>283</Code>
+		<Gewonebijdrage>Age au début du RCIC &gt;= 62 ans</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>284</Code>
+		<Gewonebijdrage>Age &lt; 52 ans</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>284</Code>
+		<Gewonebijdrage>Age &lt; 55 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>284</Code>
+		<Gewonebijdrage>Age &lt; 58 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>284</Code>
+		<Gewonebijdrage>Age &gt;= 60 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>31/12/2016</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>284</Code>
+		<Gewonebijdrage>Age &lt; 60 ans</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/04/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>284</Code>
+		<Gewonebijdrage>Age &lt; 62 ans</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>284</Code>
+		<Gewonebijdrage>Age &gt;= 62 ans</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>290</Code>
+		<Gewonebijdrage>Taux de base</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>295</Code>
+		<Gewonebijdrage>Taux de base</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>295</Code>
+		<Gewonebijdrage>Taux réduit pour RCC à mi-temps ou antérieure au 01/01/1997 ou assimilé</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/04/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>493</Code>
+		<Werkgeverscategorie>075</Werkgeverscategorie>
+		<Gewonebijdrage>Personnel enseignant temporaire (sans CEP)</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/01/2014</begin_geldigheid>
+		<einde_geldigheid>31/12/2014</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>493</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>495</Code>
+		<Werkgeverscategorie>105, 205, 305, 505</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation personelle marins (officiers)</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>498 (Boursiers)</Code>
+		<Werkgeverscategorie>040</Werkgeverscategorie>
+		<Gewonebijdrage>Sans vacances annuelles des salariés</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>498 (Boursiers)</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>4xx (Employés)</Code>
+		<Werkgeverscategorie>754</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation personnelle</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>4xx (Employés)</Code>
+		<Gewonebijdrage>Cotisation rémunérations 100%</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>6xx (Fonctionnaires, à l'exclusion des travailleurs statutaires exonérés des cotisations de sécurité sociale)</Code>
+		<Werkgeverscategorie>754</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation personnelle</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>6xx (Fonctionnaires, à l'exclusion des travailleurs statutaires exonérés des cotisations de sécurité sociale)</Code>
+		<Gewonebijdrage>Cotisation rémunérations 100%</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>800</Code>
+		<Gewonebijdrage>Cotisation chômage économique forfait de base</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>800</Code>
+		<Gewonebijdrage>Cotisation chômage économique forfait réduit</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>801</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2021</begin_geldigheid>
+		<einde_geldigheid>31/12/2021</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>7</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>803</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<typebijdrage>9</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>807</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>807</Code>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>808</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Werkgeverscategorie>006</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2003</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Werkgeverscategorie>014</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Werkgeverscategorie>015</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>30/06/2005</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Werkgeverscategorie>019</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Werkgeverscategorie>051</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2007</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Werkgeverscategorie>052</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2007</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Werkgeverscategorie>053</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2003</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Werkgeverscategorie>056</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2003</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Werkgeverscategorie>081</Werkgeverscategorie>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Gewonebijdrage>Avec modération salariale</Gewonebijdrage>
+		<aantalwerknemers>&gt;= 20 (en moyenne)</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Gewonebijdrage>Sans modération salariale ou ACS ou remplaçants secteur public</Gewonebijdrage>
+		<aantalwerknemers>&lt; 20 (en moyenne)</aantalwerknemers>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/07/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Gewonebijdrage>Sans modération salariale ou ACS ou remplaçants secteur public</Gewonebijdrage>
+		<aantalwerknemers>&gt;= 20 (en moyenne)</aantalwerknemers>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/07/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<Gewonebijdrage>Avec modération salariale</Gewonebijdrage>
+		<aantalwerknemers>&lt; 20  (en moyenne)</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>809</Code>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>810</Code>
+		<Gewonebijdrage>Sans modération salariale ou ACS ou remplaçants secteur public</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/07/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>810</Code>
+		<Gewonebijdrage>Avec modération salariale</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>810</Code>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>811</Code>
+		<Gewonebijdrage>Sans modération salariale ou ACS ou remplaçants secteur public</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/04/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>811</Code>
+		<Gewonebijdrage>Avec modération salariale</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>812</Code>
+		<Gewonebijdrage>Salaire annuel de référence - 1er seuil</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/01/2014</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>812</Code>
+		<Gewonebijdrage>Salaire annuel de référence - 2ème seuil</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2014</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>812</Code>
+		<Gewonebijdrage>Salaire annuel de référence - 3ème seuil</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/01/2014</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>815</Code>
+		<Gewonebijdrage>Pension du secteur public - uniquement la cotisation personnelle</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>815</Code>
+		<Gewonebijdrage>Pension du secteur public - cotisation personnelle et patronale</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>815</Code>
+		<Gewonebijdrage>Pension du secteur public - cotisation personnelle et patronale dérogatoire</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>815</Code>
+		<Gewonebijdrage>Pension du secteur public - uniquement la cotisation patronale dérogatoire</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>815</Code>
+		<Gewonebijdrage>Pension du secteur public - cotisation personnelle et patronale dérogatoire</Gewonebijdrage>
+		<typebijdrage>4</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>815</Code>
+		<Gewonebijdrage>Pension du secteur public - cotisation personnelle et patronale dérogatoire</Gewonebijdrage>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>815</Code>
+		<Gewonebijdrage>Pension du secteur public - cotisation personnelle et patronale dérogatoire</Gewonebijdrage>
+		<typebijdrage>6</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>815</Code>
+		<Gewonebijdrage>Pension du secteur public - uniquement la cotisation patronale dérogatoire</Gewonebijdrage>
+		<typebijdrage>7</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>816</Code>
+		<Gewonebijdrage>Pension du secteur public - uniquement la cotisation personnelle</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>816</Code>
+		<Gewonebijdrage>Pension du secteur public - cotisation personnelle et patronale</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/01/2015</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>818</Code>
+		<Gewonebijdrage>Pension secteur public receveurs régionaux</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2016</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>016</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>016</Werkgeverscategorie>
+		<aantalwerknemers>&gt; = 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>017</Werkgeverscategorie>
+		<aantalwerknemers>&gt; = 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>017</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>024</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 10</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>024</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 10</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>024</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>024</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>026</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 10</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>026</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 10</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>026</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>026</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>036</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 10</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>036</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 10</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>044</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 10</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>044</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 10</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>044</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>044</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>048, 051, 052, 258, 848</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation complète augmentée</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/10/2021</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>054</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 10</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>054</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 10</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>054</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>054</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>095</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2020</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>095</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2020</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>116</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>116</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>117</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>117</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>216</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>216</Werkgeverscategorie>
+		<aantalwerknemers>&gt; = 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>217</Werkgeverscategorie>
+		<aantalwerknemers>&gt; = 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>217</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>224</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 10</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>224</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 10</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>224</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>224</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>226</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 10</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>226</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 10</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>226</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>226</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>244</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 10</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>244</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 10</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>244</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>244</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>254</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 10</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>254</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 10</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2009</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>254</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>254</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>317</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/10/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>317</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/10/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>820</Code>
+		<Werkgeverscategorie>Autres</Werkgeverscategorie>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>016, 017</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>016, 017</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>037, 112, 113</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>048, 052, 051, 848, 058, 258</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète augmentée</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/10/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>048, 052, 848, 051, 058, 158, 258</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/04/2004</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>048, 052, 848, 051, 058, 158, 258</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle partie solidarité</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/07/2004</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>048, 052, 848, 051, 058, 158, 258</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2004</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>062, 122, 211, 262, 322</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/10/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>062, 262</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/10/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>064, 065, 077, 078, 079</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2016</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>066, 093, 094, 193, 194, 294, 494, 594</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>067, 467</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>068</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>074</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>074</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>077</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2016</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>081, 091</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2005</begin_geldigheid>
+		<einde_geldigheid>31/12/2007</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>081, 091</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2005</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>081, 091</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle partie solidarité</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2005</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>083</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>083</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2018</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>084</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle partie solidarité</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2011</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>084</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2011</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>086</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2006</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>087, 187</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2011</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>087, 187</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2011</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>110</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>121, 221, 421, 521, 621, 721</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2021</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>125, 812, 822, 830</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>163</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2011</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>293</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2020</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>320</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>373, 473</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>373, 473</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>511</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>562</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2006</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>562</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2006</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>673</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>673</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>825</Code>
+		<Werkgeverscategorie>721</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2021</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>826</Code>
+		<Werkgeverscategorie>037, 112, 113</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2009</begin_geldigheid>
+		<einde_geldigheid>30/06/2010</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>826</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2004</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>826</Code>
+		<Gewonebijdrage>Travailleur âgé d'au moins 58 ans</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/06/2015</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>826</Code>
+		<Gewonebijdrage>Travailleur âgé de moins de 25 ans</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/01/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>827</Code>
+		<Werkgeverscategorie>036</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>827</Code>
+		<Werkgeverscategorie>036</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>827</Code>
+		<Werkgeverscategorie>037, 112, 113</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>31/12/2011</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>827</Code>
+		<Werkgeverscategorie>083</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2011</begin_geldigheid>
+		<einde_geldigheid>30/06/2018</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>827</Code>
+		<Werkgeverscategorie>083</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2011</begin_geldigheid>
+		<einde_geldigheid>30/06/2018</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>827</Code>
+		<Werkgeverscategorie>114</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>827</Code>
+		<Werkgeverscategorie>320</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète - 1ère échelle</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/10/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>827</Code>
+		<Werkgeverscategorie>320</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète - 2ème échelle</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/10/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>827</Code>
+		<Werkgeverscategorie>320</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète - 3ème échelle</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/10/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>016</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>016</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>017</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>017</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>048, 051, 052, 258, 848</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation complète augmentée</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/10/2021</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>095</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2020</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>095</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 20</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2020</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>116</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>116</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>117</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>117</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>216</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>216</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>217</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>217</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2007</begin_geldigheid>
+		<einde_geldigheid>30/09/2013</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>317</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 50</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/10/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>317</Werkgeverscategorie>
+		<aantalwerknemers>&lt; 50</aantalwerknemers>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/10/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>830</Code>
+		<Werkgeverscategorie>Autres</Werkgeverscategorie>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>831</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>832</Code>
+		<Werkgeverscategorie>067</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>832</Code>
+		<Werkgeverscategorie>077</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>832</Code>
+		<Werkgeverscategorie>078</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>832</Code>
+		<Werkgeverscategorie>081</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>832</Code>
+		<Werkgeverscategorie>091</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>832</Code>
+		<Werkgeverscategorie>100</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>832</Code>
+		<Werkgeverscategorie>169</Werkgeverscategorie>
+		<aantalwerknemers>&gt;= 20</aantalwerknemers>
+		<typebijdrage>5</typebijdrage>
+		<begin_geldigheid>01/01/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>832</Code>
+		<Werkgeverscategorie>Autres</Werkgeverscategorie>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>833</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>016, 017</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>016, 017</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>037, 112, 113</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>048, 051, 052, 258, 848</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>048, 051, 052, 258, 848</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2013</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>048, 051, 052, 258, 848</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète augmentée</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/07/2021</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>062, 122, 211, 262, 322</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/10/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>062, 262</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/10/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>074</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>074</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>076</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/10/2008</begin_geldigheid>
+		<einde_geldigheid>30/06/2012</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>076</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/10/2008</begin_geldigheid>
+		<einde_geldigheid>30/06/2012</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>083, 084, 200</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2007</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>083, 084, 200</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2007</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>087, 187</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2011</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>087, 187</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2011</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>125, 812, 822, 830</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>176</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>176</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>283</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/10/2011</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>283</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/10/2011</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>320</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>373, 473</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>373, 473</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>434, 435</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>434, 435</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>511</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>562</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2006</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>562</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2006</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>673</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>835</Code>
+		<Werkgeverscategorie>673</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>836</Code>
+		<Werkgeverscategorie>037, 112, 113</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2009</begin_geldigheid>
+		<einde_geldigheid>30/06/2010</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>836</Code>
+		<Werkgeverscategorie>087, 187</Werkgeverscategorie>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2012</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>837</Code>
+		<Werkgeverscategorie>036</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>837</Code>
+		<Werkgeverscategorie>036</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle dispense</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>837</Code>
+		<Werkgeverscategorie>037, 112, 113</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/07/2010</begin_geldigheid>
+		<einde_geldigheid>31/12/2011</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>837</Code>
+		<Werkgeverscategorie>320</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète - 1ère échelle</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/10/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>837</Code>
+		<Werkgeverscategorie>320</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète - 2ème échelle</Gewonebijdrage>
+		<typebijdrage>2</typebijdrage>
+		<begin_geldigheid>01/10/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>837</Code>
+		<Werkgeverscategorie>320</Werkgeverscategorie>
+		<Gewonebijdrage>Pension complémentaire sectorielle cotisation complète - 3ème échelle</Gewonebijdrage>
+		<typebijdrage>3</typebijdrage>
+		<begin_geldigheid>01/10/2017</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>845</Code>
+		<Werkgeverscategorie>750, 751, 752, 753</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation Service Social Collectif du SFP</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>846</Code>
+		<Werkgeverscategorie>754</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation Service Social police</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>847</Code>
+		<Gewonebijdrage>Cotisation Service Social Collectif Flandre</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2021</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>850</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2022</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>852</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>854</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2014</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>855</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>856</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>857</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>859</Code>
+		<Gewonebijdrage>Employeurs dispensés</Gewonebijdrage>
+		<typebijdrage>8</typebijdrage>
+		<begin_geldigheid>01/01/2003</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>859</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>860</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>31/12/2020</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>863</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2009</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>868</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>869</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2019</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>878</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2021</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>883</Code>
+		<Gewonebijdrage>Cotisation patronale spéciale indemnités complémentaires - Travailleur licencié : 
+Accord individuel ou d'entreprise 
+Ou CCT sectorielle &gt; 1/10/2005</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2006</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>885</Code>
+		<Gewonebijdrage>Cotisation patronale spéciale indemnités complémentaires - Travailleur en interruption de carrière : 
+Accord individuel ou d'entreprise 
+Ou CCT sectorielle &gt; 1/10/2005</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/04/2006</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>888</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>888</Code>
+		<Gewonebijdrage>Année civile de déclaration différente de l'année civile de paiement</Gewonebijdrage>
+		<typebijdrage>1</typebijdrage>
+		<begin_geldigheid>01/01/2008</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>889</Code>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/2009</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>Tous les codes travailleurs</Code>
+		<Werkgeverscategorie>027</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation indemnités</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+	<ann3>
+		<Code>Tous les codes travailleurs</Code>
+		<Werkgeverscategorie>028</Werkgeverscategorie>
+		<Gewonebijdrage>Cotisation indemnités</Gewonebijdrage>
+		<typebijdrage>0</typebijdrage>
+		<begin_geldigheid>01/01/1900</begin_geldigheid>
+		<einde_geldigheid>01/01/9999</einde_geldigheid>
+	</ann3>
+</List>

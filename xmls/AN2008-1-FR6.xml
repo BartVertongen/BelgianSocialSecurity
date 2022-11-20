@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann6 (Typetravivmrisico?, Code?, Description?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann6+)>
+     <!ELEMENT Typetravivmrisico (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>401</Code>
+<Description>Employé sédentaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>402</Code>
+<Description>Employé avec missions extérieures occasionnelles</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>403</Code>
+<Description>Employé avec missions extérieures fréquentes</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>404</Code>
+<Description>Représentant, personnel itinérant, coursier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>405</Code>
+<Description>Employé pouvant accomplir un travail manuel</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>406</Code>
+<Description>Employé travaillant à domicile</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>407</Code>
+<Description>Personnel soignant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>408</Code>
+<Description>Vendeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>409</Code>
+<Description>Joueur de football assujetti au statut de sportif rémunéré</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>410</Code>
+<Description>Joueur de football non assujetti au statut de sportif rémunéré et gagnant une rémunération annuelle fixe de 1239,47 EUR ou plus</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>411</Code>
+<Description>Joueur de football non assujetti au statut de sportif rémunéré et gagnant une rémunération annuelle fixe de moins de 1239,47 EUR</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Employés</Typetravivmrisico>
+<Code>412</Code>
+<Description>Sportif, autre que footballeur (ne pas utiliser pour la catégorie employeur 070 jusqu'au 2ème trimestre 2007 inclus)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Ouvriers</Typetravivmrisico>
+<Code>001</Code>
+<Description>Ouvrier sédentaire et/ou en atelier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Ouvriers</Typetravivmrisico>
+<Code>002</Code>
+<Description>Ouvrier sur chantier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Ouvriers</Typetravivmrisico>
+<Code>003</Code>
+<Description>Concierge</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Ouvriers</Typetravivmrisico>
+<Code>004</Code>
+<Description>Femme d'ouvrage, nettoyeur, personnel d'entretien</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Ouvriers</Typetravivmrisico>
+<Code>005</Code>
+<Description>Personnel de cuisine (ne pas utiliser pour les entreprises du secteur HORECA)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann6>
+<ann6>
+<Typetravivmrisico>Ouvriers</Typetravivmrisico>
+<Code>006</Code>
+<Description>Chauffeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann6>
+</List>

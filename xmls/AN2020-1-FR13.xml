@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann13 (Code?, Description?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann13+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann13>
+<Code>1</Code>
+<Description>Jours rémunérés à l'exception des jours rémunérés visés ci-dessous</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.1</Code>
+<Description>Port - Chômage</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.10</Code>
+<Description>Port - Vacances supplémentaires avec sécurité d'existence / sécurité d'existence double</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.11</Code>
+<Description>Port - Dispense contrôle de chômage / vacances pendant une période de chômage / vacances supplémentaires</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.12</Code>
+<Description>Port - Congé familial</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.13</Code>
+<Description>Port - Petit chômage</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.14</Code>
+<Description>Port - Jour de solidarité</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.15</Code>
+<Description>Port - Congé syndical</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.16</Code>
+<Description>Port - Cours / formation d'initiation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.17</Code>
+<Description>Port - Formation (professionnelle)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.18</Code>
+<Description>Port - Capacité de travail partiellement réduite</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.19</Code>
+<Description>Port - Capacité de travail réduite</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.2</Code>
+<Description>Port - Chômage soumis à l'approbation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.20</Code>
+<Description>Port - Examen médical</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.21</Code>
+<Description>Port - Dispense médicale contrôle de chômage</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.22</Code>
+<Description>Port - Vacances pas prises</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.3</Code>
+<Description>Port - AR 225</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.4</Code>
+<Description>Port - Jour férié payé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.5</Code>
+<Description>Port - Jour férié sur lequel sont effectuées des prestations de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.6</Code>
+<Description>Port - Jour férié de remplacement  sur lequel sont effectuées des prestations de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.7</Code>
+<Description>Port - Accident de travail - jour  férié accident de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.8</Code>
+<Description>Port - Maladie - jour férié payé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.9</Code>
+<Description>Port - Vacances d'ancienneté</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.1</Code>
+<Description>Reprise du travail durant la période de salaire garanti suivi d'une rechute - uniquement autorisé pour le secteur Indemnités</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.2</Code>
+<Description>Repos compensatoire payé par un tiers</Description>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.3</Code>
+<Description>Incapacité de travail payée par le secteur de l'enseignement</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.4</Code>
+<Description>Heures en dehors de l'horaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.5</Code>
+<Description>Récupération d'heures en dehors de l'horaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.1</Code>
+<Description>Rémunération journalière garantie pour cause d'incapacité de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.2</Code>
+<Description>Rémunération journalière garantie pour une raison autre que l'incapacité de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.3</Code>
+<Description>Absence premier jour par suite d'intempéries - secteur de la construction</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.4</Code>
+<Description>Rémunération garantie première semaine</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.5</Code>
+<Description>Rémunération garantie deuxième semaine</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.6</Code>
+<Description>Rémunération mensuelle garantie</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.7</Code>
+<Description>Indemnité CCT 12bis/13bis suite à une maladie ou un accident de droit commun</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.8</Code>
+<Description>Jour de carence</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2013</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.9</Code>
+<Description>Indemnité CCT 12bis/13bis suite à un accident du travail ou une maladie professionnelle</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.1</Code>
+<Description>Vacances légales</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.2</Code>
+<Description>Vacances complémentaires</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.3</Code>
+<Description>Vacances en vertu d'une convention collective de travail rendue obligatoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.4</Code>
+<Description>Vacances jeunes et vacances seniors</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.5</Code>
+<Description>Jours de vacances supplémentaires en cas de début ou de reprise d'activité (art. 17bis Loi 28.06.1971)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>4</Code>
+<Description>Jours de remplacement de jours fériés</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.1</Code>
+<Description>Chômage temporaire par suite de manque de travail résultant de causes économiques</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.10</Code>
+<Description>Chômage temporaire en cas de licenciement d'un travailleur protégé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.11</Code>
+<Description>Jours de suspension employés pour manque de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.2</Code>
+<Description>Chômage temporaire par suite d'intempéries</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.3</Code>
+<Description>Chômage temporaire par suite d'un accident technique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.4</Code>
+<Description>Chômage temporaire par suite de force majeure</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.5</Code>
+<Description>Chômage temporaire par suite de force majeure à caractère médical</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.6</Code>
+<Description>Chômage temporaire par suite de fermeture de l'entreprise pour cause de vacances annuelles</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.7</Code>
+<Description>Chômage temporaire par suite de fermeture de l'entreprise pour cause de vacances en vertu d'une CCT rendue obligatoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.8</Code>
+<Description>Chômage temporaire par suite de fermeture de l'entreprise pour cause de repos compensatoire dans le cadre d'une réduction de la durée du travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.9</Code>
+<Description>Chômage temporaire par suite de grève ou de lock-out</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.1</Code>
+<Description>Incapacité de travail avec indemnité d'accidents du travail en application de l'article 54 de la loi sur les accidents du travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.10</Code>
+<Description>Congé de paternité ou de naissance visé par la loi du 3 juillet 1978 relative aux contrats de travail (seulement les jours à charge du secteur "indemnités") et pause d'allaitement</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.11</Code>
+<Description>Congé d'adoption et congé parental d'accueil (seulement les jours à charge du secteur "indemnités")</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.2</Code>
+<Description>Toute absence non rémunérée pour maladie et accident, incapacité de travail par suite de congé prophylactique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.21</Code>
+<Description>Absence non rémunérée pour accident de travail ou maladie professionnelle durant l'exercice d'un travail adapté</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.22</Code>
+<Description>Date de cessation définitive du travail adapté</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.3</Code>
+<Description>Travail adapté avec perte de salaire dans le cadre d'une incapacité de travail, travail adapté avec perte de salaire en tant que mesure de protection de la maternité</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.4</Code>
+<Description>Ecartement complet du travail en tant que mesure de protection de la maternité, repos de maternité,  congé de paternité visé par la loi du 16 mars 1971 sur le travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.5</Code>
+<Description>Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé en raison de chômage temporaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.6</Code>
+<Description>Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé pour cause de rechute</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.7</Code>
+<Description>Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé pour cause de vacances annuelles collectives</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.8</Code>
+<Description>Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé pour des raisons imputables au travailleur (absence injustifiée ou refus de se soumettre au contrôle)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.9</Code>
+<Description>Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé à cause d'une ancienneté insuffisante ou pour tout autre motif que ceux visés sous les codes 6.5, 6.6, 6.7 et 6.8.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>7</Code>
+<Description>Absence ou congé sans solde</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>8</Code>
+<Description>Jours habituels d'inactivité dans l'occupation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>9</Code>
+<Description>Jours d'absence pour soins d'accueil</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+</List>

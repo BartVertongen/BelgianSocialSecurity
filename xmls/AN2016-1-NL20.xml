@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann20 (Code?, NaamWetsverzekeraar?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann20+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT NaamWetsverzekeraar (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann20>
+<Code>0004</Code>
+<NaamWetsverzekeraar>Allianz Belgium</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>0006</Code>
+<NaamWetsverzekeraar>Federale Verzekering</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>0008</Code>
+<NaamWetsverzekeraar>APRA</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2004</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>0010</Code>
+<NaamWetsverzekeraar>P. &amp; V. Gemeenschappelijke Kas</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2014</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>0112</Code>
+<NaamWetsverzekeraar>Securex</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>0114</Code>
+<NaamWetsverzekeraar>Ethias</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1001</Code>
+<NaamWetsverzekeraar>AG Insurance</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1004</Code>
+<NaamWetsverzekeraar>Winterthur Europe Verzekeringen</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1006</Code>
+<NaamWetsverzekeraar>Baloise Insurance</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1007</Code>
+<NaamWetsverzekeraar>Generali Belgium</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1008</Code>
+<NaamWetsverzekeraar>K.B.C Verzekeringen</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1012</Code>
+<NaamWetsverzekeraar>Winterthur Europe Verzekeringen (ex C.G.U.)</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2001</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1015</Code>
+<NaamWetsverzekeraar>Vivium (ex ING Insurance)</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2010</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1017</Code>
+<NaamWetsverzekeraar>Dexia Insurance</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>29/06/2005</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1018</Code>
+<NaamWetsverzekeraar>Axa Belgium</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1021</Code>
+<NaamWetsverzekeraar>Winterthur Europe Verzekeringen (ex Josi)</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/2000</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1025</Code>
+<NaamWetsverzekeraar>Fidea</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1149</Code>
+<NaamWetsverzekeraar>Nateus</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/2005</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1150</Code>
+<NaamWetsverzekeraar>Belfius Verzekeringen</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1152</Code>
+<NaamWetsverzekeraar>Winterthur Europe Verzekeringen (ex A.S.G.)</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1998</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1153</Code>
+<NaamWetsverzekeraar>P. &amp; V. Verzekeringen CVBA</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/2009</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1248</Code>
+<NaamWetsverzekeraar>Winterthur Europe Verzekeringen (ex General Bonus)</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2000</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>1253</Code>
+<NaamWetsverzekeraar>Vivium</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>6000</Code>
+<NaamWetsverzekeraar>FAO Koopvaardij</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+<ann20>
+<Code>9015</Code>
+<NaamWetsverzekeraar>FAO Zeevisserij</NaamWetsverzekeraar>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann20>
+</List>

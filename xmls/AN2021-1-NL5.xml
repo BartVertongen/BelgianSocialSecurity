@@ -1,0 +1,3100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann5 (Omschrijving?, Code?, isocode?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann5+)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT isocode (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann5>
+<Omschrijving>Abu Dhabi</Omschrijving>
+<Code>269</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>08/12/1971</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Afars en Issas</Omschrijving>
+<Code>380</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>27/06/1977</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Afgeschreven naar het buitenland</Omschrijving>
+<Code>992</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Afghanistan</Omschrijving>
+<Code>251</Code>
+<isocode>AF</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>afkomstig uit Burkina Faso</Omschrijving>
+<Code>846</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>afkomstig uit de Ver. Arabische Emiraten</Omschrijving>
+<Code>865</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>afkomstig uit Gabon</Omschrijving>
+<Code>845</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>afkomstig uit Ivoorkust</Omschrijving>
+<Code>851</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>afkomstig uit Nepal</Omschrijving>
+<Code>850</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>afkomstig uit Sierra Leone</Omschrijving>
+<Code>844</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>afkomstig van Abu Dhabi</Omschrijving>
+<Code>881</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>afkomstig van Opper-Volta</Omschrijving>
+<Code>885</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>afkomstig van Servië en Montenegro</Omschrijving>
+<Code>874</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Albanië</Omschrijving>
+<Code>101</Code>
+<isocode>AL</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Algerije</Omschrijving>
+<Code>351</Code>
+<isocode>DZ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Amerikaanse Antillen</Omschrijving>
+<Code>483</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Amerikaanse Maagdeneilanden</Omschrijving>
+<Code>486</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Amerikaanse Maagdeneilanden (VS)</Omschrijving>
+<Code>478</Code>
+<isocode>VI</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Amerik.Samoaeilanden</Omschrijving>
+<Code>690</Code>
+<isocode>AS</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Andorra</Omschrijving>
+<Code>102</Code>
+<isocode>AD</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Angola</Omschrijving>
+<Code>341</Code>
+<isocode>AO</isocode>
+<begin_geldigheid>11/11/1975</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Angola</Omschrijving>
+<Code>381</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>10/11/1975</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Anguilla (V.K.)</Omschrijving>
+<Code>490</Code>
+<isocode>AI</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Antigua en Barbuda</Omschrijving>
+<Code>403</Code>
+<isocode>AG</isocode>
+<begin_geldigheid>01/11/1981</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Antigua (V.K.)</Omschrijving>
+<Code>491</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/10/1981</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Arabische Republiek Egypte</Omschrijving>
+<Code>352</Code>
+<isocode>EG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Archipel der Carolinen</Omschrijving>
+<Code>680</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>03/11/1986</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Archipel van de Comoren</Omschrijving>
+<Code>343</Code>
+<isocode>KM</isocode>
+<begin_geldigheid>06/07/1975</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Archipel van de Comoren</Omschrijving>
+<Code>386</Code>
+<isocode>KM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>06/07/1975</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Argentinië</Omschrijving>
+<Code>511</Code>
+<isocode>AR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Armenië (Rep.)</Omschrijving>
+<Code>249</Code>
+<isocode>AM</isocode>
+<begin_geldigheid>31/12/1991</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Australië</Omschrijving>
+<Code>611</Code>
+<isocode>AU</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Azerbeidzjan (Rep.)</Omschrijving>
+<Code>250</Code>
+<isocode>AZ</isocode>
+<begin_geldigheid>31/12/1991</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bahama's</Omschrijving>
+<Code>484</Code>
+<isocode>BS</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>10/07/1973</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bahamas</Omschrijving>
+<Code>425</Code>
+<isocode>BS</isocode>
+<begin_geldigheid>10/07/1973</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bahrein</Omschrijving>
+<Code>268</Code>
+<isocode>BH</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bangladesh</Omschrijving>
+<Code>237</Code>
+<isocode>BD</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Barbados</Omschrijving>
+<Code>423</Code>
+<isocode>BB</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Belarus (Rep.)</Omschrijving>
+<Code>142</Code>
+<isocode>BY</isocode>
+<begin_geldigheid>31/12/1991</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>België</Omschrijving>
+<Code>150</Code>
+<isocode>BE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Belgisch Kongo</Omschrijving>
+<Code>359</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/1960</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Belize</Omschrijving>
+<Code>430</Code>
+<isocode>BZ</isocode>
+<begin_geldigheid>21/09/1981</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Belize (V.K.)</Omschrijving>
+<Code>489</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>21/09/1981</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Benin (Volksrepubliek)</Omschrijving>
+<Code>310</Code>
+<isocode>BJ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bermuda's</Omschrijving>
+<Code>485</Code>
+<isocode>BM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bhutan</Omschrijving>
+<Code>223</Code>
+<isocode>BT</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Birma</Omschrijving>
+<Code>232</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bolivië</Omschrijving>
+<Code>512</Code>
+<isocode>BO</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bophutatswana</Omschrijving>
+<Code>397</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bosnië-Herzegovina (Rep.)</Omschrijving>
+<Code>149</Code>
+<isocode>BA</isocode>
+<begin_geldigheid>10/04/1992</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Botswana</Omschrijving>
+<Code>302</Code>
+<isocode>BW</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Brazilië</Omschrijving>
+<Code>513</Code>
+<isocode>BR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Brits Honduras</Omschrijving>
+<Code>582</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>21/09/1981</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Brits onderdaan</Omschrijving>
+<Code>906</Code>
+<begin_geldigheid>07/05/2011</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Brits Overzees Burger</Omschrijving>
+<Code>907</Code>
+<begin_geldigheid>07/05/2011</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Britse Antillen</Omschrijving>
+<Code>424</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Britse Maagdeneilanden (VK)</Omschrijving>
+<Code>479</Code>
+<isocode>VG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Britse nationaal (Overzee)</Omschrijving>
+<Code>909</Code>
+<begin_geldigheid>07/05/2011</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Brunei</Omschrijving>
+<Code>224</Code>
+<isocode>BN</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Bulgarije</Omschrijving>
+<Code>106</Code>
+<isocode>BG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Burger van de Britse Overzeese Gebieden</Omschrijving>
+<Code>905</Code>
+<begin_geldigheid>07/05/2011</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Burkina Faso</Omschrijving>
+<Code>308</Code>
+<isocode>BF</isocode>
+<begin_geldigheid>30/11/1984</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Burundi</Omschrijving>
+<Code>303</Code>
+<isocode>BI</isocode>
+<begin_geldigheid>01/07/1962</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Cabinda</Omschrijving>
+<Code>382</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Caïmanes (V.K.)</Omschrijving>
+<Code>492</Code>
+<isocode>KY</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Cambodja</Omschrijving>
+<Code>211</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Cambodja (Koninkrijk)</Omschrijving>
+<Code>216</Code>
+<isocode>KH</isocode>
+<begin_geldigheid>24/09/1993</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Canada</Omschrijving>
+<Code>401</Code>
+<isocode>CA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Canarische Eilanden (S.)</Omschrijving>
+<Code>398</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Centraalafrikaanse Republiek</Omschrijving>
+<Code>305</Code>
+<isocode>CF</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Chili</Omschrijving>
+<Code>514</Code>
+<isocode>CL</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>China-Taïwan (Rep.)</Omschrijving>
+<Code>204</Code>
+<isocode>TW</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>China (Hong-Kong SAR)</Omschrijving>
+<Code>230</Code>
+<isocode>HK</isocode>
+<begin_geldigheid>01/07/1997</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>China (Macau SAR)</Omschrijving>
+<Code>231</Code>
+<isocode>MO</isocode>
+<begin_geldigheid>20/12/1999</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>China (Volksrep)</Omschrijving>
+<Code>218</Code>
+<isocode>CN</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Colombia</Omschrijving>
+<Code>515</Code>
+<isocode>CO</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Congo (Dem. Rep.)</Omschrijving>
+<Code>306</Code>
+<isocode>CD</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Congo (Volksrep.)</Omschrijving>
+<Code>307</Code>
+<isocode>CG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Cook</Omschrijving>
+<Code>605</Code>
+<isocode>CK</isocode>
+<begin_geldigheid>04/08/1965</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Cook (N-Z.)</Omschrijving>
+<Code>687</Code>
+<isocode>CK</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>04/08/1965</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Costa Rica</Omschrijving>
+<Code>411</Code>
+<isocode>CR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Cuba</Omschrijving>
+<Code>412</Code>
+<isocode>CU</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Cyprus</Omschrijving>
+<Code>107</Code>
+<isocode>CY</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Democratische Republ. Madagascar</Omschrijving>
+<Code>324</Code>
+<isocode>MG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Denemarken</Omschrijving>
+<Code>108</Code>
+<isocode>DK</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Dominica (Eiland)</Omschrijving>
+<Code>480</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Dominica (Republiek)</Omschrijving>
+<Code>427</Code>
+<isocode>DM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Dominikaanse (Republiek)</Omschrijving>
+<Code>420</Code>
+<isocode>DO</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Duitsland</Omschrijving>
+<Code>134</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Duitsland</Omschrijving>
+<Code>173</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>23/05/1949</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Duitsland (Bondsrep.)</Omschrijving>
+<Code>103</Code>
+<isocode>DE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Duitsland (Dem. rep.)</Omschrijving>
+<Code>104</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Duitsland (Dem. rep.)</Omschrijving>
+<Code>170</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>03/10/1990</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Ecuador</Omschrijving>
+<Code>516</Code>
+<isocode>EC</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Eiland van Santhomé</Omschrijving>
+<Code>393</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>El Salvador</Omschrijving>
+<Code>421</Code>
+<isocode>SV</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Equatoriaal-Guinea</Omschrijving>
+<Code>337</Code>
+<isocode>GQ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Erithrea</Omschrijving>
+<Code>349</Code>
+<isocode>ER</isocode>
+<begin_geldigheid>24/05/1993</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Erkend vluchteling v. staatloze herkomst</Omschrijving>
+<Code>705</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Estland</Omschrijving>
+<Code>136</Code>
+<isocode>EE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Ethiopië</Omschrijving>
+<Code>311</Code>
+<isocode>ET</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Falkland Eilanden</Omschrijving>
+<Code>580</Code>
+<isocode>FK</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Fernando Poo</Omschrijving>
+<Code>392</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>15/12/1963</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Fiji</Omschrijving>
+<Code>617</Code>
+<isocode>FJ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Filippijnen</Omschrijving>
+<Code>214</Code>
+<isocode>PH</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Finland</Omschrijving>
+<Code>110</Code>
+<isocode>FI</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Frankrijk</Omschrijving>
+<Code>111</Code>
+<isocode>FR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Frans Guyana</Omschrijving>
+<Code>581</Code>
+<isocode>GF</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Franse Antillen</Omschrijving>
+<Code>481</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Gabon</Omschrijving>
+<Code>312</Code>
+<isocode>GA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Gambia</Omschrijving>
+<Code>313</Code>
+<isocode>GM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Georgië (Rep.)</Omschrijving>
+<Code>253</Code>
+<isocode>GE</isocode>
+<begin_geldigheid>23/03/1992</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Ghana</Omschrijving>
+<Code>314</Code>
+<isocode>GH</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Gibraltar</Omschrijving>
+<Code>180</Code>
+<isocode>GI</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Grenada</Omschrijving>
+<Code>426</Code>
+<isocode>GD</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Griekenland</Omschrijving>
+<Code>114</Code>
+<isocode>GR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Groenland (D.K.)</Omschrijving>
+<Code>498</Code>
+<isocode>GL</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Grondgeb. afh. van Australië</Omschrijving>
+<Code>693</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Grondgeb. afh. van Nieuw-Zeeland</Omschrijving>
+<Code>694</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Grondgeb. onder Amerik. voogdij</Omschrijving>
+<Code>691</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/08/1994</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Guadeloupe (F.)</Omschrijving>
+<Code>496</Code>
+<isocode>GP</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Guam</Omschrijving>
+<Code>681</Code>
+<isocode>GU</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Guatemala</Omschrijving>
+<Code>413</Code>
+<isocode>GT</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Guinea</Omschrijving>
+<Code>315</Code>
+<isocode>GN</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Guinee-Bissau</Omschrijving>
+<Code>338</Code>
+<isocode>GW</isocode>
+<begin_geldigheid>10/09/1974</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Guyana</Omschrijving>
+<Code>521</Code>
+<isocode>GY</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Haïti</Omschrijving>
+<Code>419</Code>
+<isocode>HT</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Hawaï</Omschrijving>
+<Code>682</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Heilige Stoel</Omschrijving>
+<Code>133</Code>
+<isocode>VA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Honduras</Omschrijving>
+<Code>414</Code>
+<isocode>HN</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Hong-Kong</Omschrijving>
+<Code>234</Code>
+<isocode>HK</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Hong Kong (V.K.)</Omschrijving>
+<Code>280</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/1997</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Hongarije</Omschrijving>
+<Code>115</Code>
+<isocode>HU</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Hongarije (Republiek)</Omschrijving>
+<Code>138</Code>
+<begin_geldigheid>23/10/1989</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Ierland</Omschrijving>
+<Code>116</Code>
+<isocode>IE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Ijsland</Omschrijving>
+<Code>117</Code>
+<isocode>IS</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>India</Omschrijving>
+<Code>207</Code>
+<isocode>IN</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Indonesië</Omschrijving>
+<Code>208</Code>
+<isocode>ID</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Irak</Omschrijving>
+<Code>254</Code>
+<isocode>IQ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Iran</Omschrijving>
+<Code>233</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/1979</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Iran</Omschrijving>
+<Code>255</Code>
+<isocode>IR</isocode>
+<begin_geldigheid>01/04/1979</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Israël</Omschrijving>
+<Code>256</Code>
+<isocode>IL</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Italië</Omschrijving>
+<Code>128</Code>
+<isocode>IT</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Ivoorkust</Omschrijving>
+<Code>309</Code>
+<isocode>CI</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Jamaica</Omschrijving>
+<Code>415</Code>
+<isocode>JM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Japan</Omschrijving>
+<Code>209</Code>
+<isocode>JP</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Jemen (Arabische Rep.)</Omschrijving>
+<Code>263</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>21/05/1990</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Jemen (Dem. Volksrep.)</Omschrijving>
+<Code>265</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>21/05/1990</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Jemen (Rep.)</Omschrijving>
+<Code>270</Code>
+<isocode>YE</isocode>
+<begin_geldigheid>22/05/1990</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Jeruzalem</Omschrijving>
+<Code>272</Code>
+<begin_geldigheid>29/08/2011</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Joegoslavië</Omschrijving>
+<Code>169</Code>
+<isocode>YU</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>24/05/1995</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Joegoslavië (Servië-Montenegro)</Omschrijving>
+<Code>132</Code>
+<isocode>CS</isocode>
+<begin_geldigheid>24/05/1995</begin_geldigheid>
+<einde_geldigheid>23/06/2006</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Jordanië</Omschrijving>
+<Code>257</Code>
+<isocode>JO</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kaapverdische Eilanden</Omschrijving>
+<Code>339</Code>
+<isocode>CV</isocode>
+<begin_geldigheid>05/07/1975</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kaapverdische Eilanden</Omschrijving>
+<Code>385</Code>
+<isocode>CV</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>05/07/1975</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kameroen</Omschrijving>
+<Code>304</Code>
+<isocode>CM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kazachstan (Rep.)</Omschrijving>
+<Code>225</Code>
+<isocode>KZ</isocode>
+<begin_geldigheid>31/12/1991</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kenya</Omschrijving>
+<Code>336</Code>
+<isocode>KE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Khmerische Rep. Cambodja</Omschrijving>
+<Code>202</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>23/09/1993</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kirgizstan (Rep.)</Omschrijving>
+<Code>226</Code>
+<isocode>KG</isocode>
+<begin_geldigheid>20/01/1992</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kiribati</Omschrijving>
+<Code>622</Code>
+<isocode>KI</isocode>
+<begin_geldigheid>17/07/1979</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kitts and Nevis (V.K.)</Omschrijving>
+<Code>494</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>19/09/1983</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Koeweit Vorstendom</Omschrijving>
+<Code>264</Code>
+<isocode>KW</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kongo (Rep.)</Omschrijving>
+<Code>362</Code>
+<begin_geldigheid>01/07/1960</begin_geldigheid>
+<einde_geldigheid>30/11/1971</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kosovo</Omschrijving>
+<Code>153</Code>
+<begin_geldigheid>24/02/2008</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Kroatië (Rep.)</Omschrijving>
+<Code>146</Code>
+<isocode>HR</isocode>
+<begin_geldigheid>15/01/1992</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Laos</Omschrijving>
+<Code>210</Code>
+<isocode>LA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Lesotho</Omschrijving>
+<Code>301</Code>
+<isocode>LS</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Letland</Omschrijving>
+<Code>135</Code>
+<isocode>LV</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Libanon</Omschrijving>
+<Code>258</Code>
+<isocode>LB</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Liberia</Omschrijving>
+<Code>318</Code>
+<isocode>LR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Libië</Omschrijving>
+<Code>353</Code>
+<isocode>LY</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Liechtenstein</Omschrijving>
+<Code>118</Code>
+<isocode>LI</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Litouwen</Omschrijving>
+<Code>137</Code>
+<isocode>LT</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Luxemburg (Groot-Hertogdom)</Omschrijving>
+<Code>113</Code>
+<isocode>LU</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Maagdeneilanden</Omschrijving>
+<Code>486</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Macao</Omschrijving>
+<Code>281</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>19/12/1999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Macedonië (Ex-Joegoslavische Rep.)</Omschrijving>
+<Code>148</Code>
+<begin_geldigheid>09/04/1993</begin_geldigheid>
+<einde_geldigheid>11/02/2019</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Madeira (P.)</Omschrijving>
+<Code>399</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Malawi</Omschrijving>
+<Code>358</Code>
+<isocode>MW</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Maldiven</Omschrijving>
+<Code>222</Code>
+<isocode>MV</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Maleisië</Omschrijving>
+<Code>212</Code>
+<isocode>MY</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Mali</Omschrijving>
+<Code>319</Code>
+<isocode>ML</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Malta</Omschrijving>
+<Code>119</Code>
+<isocode>MT</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Marokko</Omschrijving>
+<Code>354</Code>
+<isocode>MA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Marshalleilanden (Republiek der)</Omschrijving>
+<Code>603</Code>
+<isocode>MH</isocode>
+<begin_geldigheid>21/10/1986</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Martinique (F.)</Omschrijving>
+<Code>497</Code>
+<isocode>MQ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Mauritanië (Islamit. Rep.)</Omschrijving>
+<Code>355</Code>
+<isocode>MR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Mauritius Eiland</Omschrijving>
+<Code>317</Code>
+<isocode>MU</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Mexico</Omschrijving>
+<Code>416</Code>
+<isocode>MX</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Micronesia</Omschrijving>
+<Code>602</Code>
+<isocode>FM</isocode>
+<begin_geldigheid>03/11/1986</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Moldavië (Rep.)</Omschrijving>
+<Code>144</Code>
+<isocode>MD</isocode>
+<begin_geldigheid>31/12/1991</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Monaco (Vorstendom)</Omschrijving>
+<Code>120</Code>
+<isocode>MC</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Mongolië (Volksrepubliek)</Omschrijving>
+<Code>221</Code>
+<isocode>MN</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Montenegro</Omschrijving>
+<Code>151</Code>
+<isocode>ME</isocode>
+<begin_geldigheid>23/06/2006</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Montserrat (V.K.)</Omschrijving>
+<Code>493</Code>
+<isocode>MS</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Mozambique</Omschrijving>
+<Code>340</Code>
+<isocode>MZ</isocode>
+<begin_geldigheid>25/06/1975</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Mozambique</Omschrijving>
+<Code>383</Code>
+<isocode>MZ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>25/06/1975</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Myanmar (Unie van)</Omschrijving>
+<Code>201</Code>
+<isocode>MM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Namibie</Omschrijving>
+<Code>384</Code>
+<isocode>NA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nauru</Omschrijving>
+<Code>615</Code>
+<isocode>NR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>NAVO</Omschrijving>
+<Code>721</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nederland</Omschrijving>
+<Code>129</Code>
+<isocode>NL</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nederlands-Guyana</Omschrijving>
+<Code>583</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>25/11/1975</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nederlandse Antillen</Omschrijving>
+<Code>482</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nepal</Omschrijving>
+<Code>213</Code>
+<isocode>NP</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Ngwane (Koninkrijk Swaziland)</Omschrijving>
+<Code>331</Code>
+<isocode>SZ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nicaragua</Omschrijving>
+<Code>417</Code>
+<isocode>NI</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nieuw-Caledonië</Omschrijving>
+<Code>683</Code>
+<isocode>NC</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nieuw-Guinea-Papoua</Omschrijving>
+<Code>619</Code>
+<isocode>PG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nieuw-Zeeland</Omschrijving>
+<Code>613</Code>
+<isocode>NZ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nieuwe Hebriden</Omschrijving>
+<Code>618</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/07/1980</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Niger</Omschrijving>
+<Code>321</Code>
+<isocode>NE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nigeria (Fed. Rep.)</Omschrijving>
+<Code>322</Code>
+<isocode>NG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Niue</Omschrijving>
+<Code>604</Code>
+<isocode>NU</isocode>
+<begin_geldigheid>19/10/1974</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Niue-eiland (N-Z.)</Omschrijving>
+<Code>685</Code>
+<isocode>NU</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>19/10/1974</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Nog niet definitief bewezen</Omschrijving>
+<Code>901</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Noord-Korea (Volksrep.)</Omschrijving>
+<Code>219</Code>
+<isocode>KP</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Noord-Macedonië</Omschrijving>
+<Code>154</Code>
+<isocode>MK</isocode>
+<begin_geldigheid>12/02/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Noord-Vietnam</Omschrijving>
+<Code>236</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>03/07/1976</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Noorwegen</Omschrijving>
+<Code>121</Code>
+<isocode>NO</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Oekraïne (Rep.)</Omschrijving>
+<Code>143</Code>
+<isocode>UA</isocode>
+<begin_geldigheid>31/12/1991</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Oezbekistan (Rep.)</Omschrijving>
+<Code>227</Code>
+<isocode>UZ</isocode>
+<begin_geldigheid>31/12/1991</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Onbekend</Omschrijving>
+<Code>999</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Onbepaald</Omschrijving>
+<Code>711</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Onder Britse bescherming</Omschrijving>
+<Code>908</Code>
+<begin_geldigheid>07/05/2011</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Oost-Timor (Democratische Republiek)</Omschrijving>
+<Code>215</Code>
+<isocode>TL</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Oostenrijk</Omschrijving>
+<Code>105</Code>
+<isocode>AT</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Op zee</Omschrijving>
+<Code>995</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Opper-Volta</Omschrijving>
+<Code>316</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>29/11/1984</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>OVN-Vluchteling</Omschrijving>
+<Code>730</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>OVN onbepaald</Omschrijving>
+<Code>741</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Pakistan</Omschrijving>
+<Code>259</Code>
+<isocode>PK</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Palau</Omschrijving>
+<Code>679</Code>
+<isocode>PW</isocode>
+<begin_geldigheid>01/09/1994</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Palestijns Gebied</Omschrijving>
+<Code>273</Code>
+<begin_geldigheid>22/09/1948</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Palestina (Staat)</Omschrijving>
+<Code>271</Code>
+<isocode>PS</isocode>
+<begin_geldigheid>04/01/2001</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Palestinië</Omschrijving>
+<Code>283</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>03/01/2001</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Panama</Omschrijving>
+<Code>418</Code>
+<isocode>PA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Paraguay</Omschrijving>
+<Code>517</Code>
+<isocode>PY</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Peru</Omschrijving>
+<Code>518</Code>
+<isocode>PE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Pitcairn (Gebied. afh. van het V.K.)</Omschrijving>
+<Code>692</Code>
+<isocode>PN</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Polen (Republiek)</Omschrijving>
+<Code>139</Code>
+<begin_geldigheid>29/12/1989</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Polen (Rep.)</Omschrijving>
+<Code>122</Code>
+<isocode>PL</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Polynesië</Omschrijving>
+<Code>684</Code>
+<isocode>PF</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Porto Rico Eiland</Omschrijving>
+<Code>487</Code>
+<isocode>PR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Portugal</Omschrijving>
+<Code>123</Code>
+<isocode>PT</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Portugees Guinea</Omschrijving>
+<Code>391</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>10/09/1974</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Qatar</Omschrijving>
+<Code>267</Code>
+<isocode>QA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Republiek Djibouti</Omschrijving>
+<Code>345</Code>
+<isocode>DJ</isocode>
+<begin_geldigheid>27/06/1977</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Republiek Sint-Lucia</Omschrijving>
+<Code>428</Code>
+<isocode>LC</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Réunion</Omschrijving>
+<Code>387</Code>
+<isocode>RE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Rhodesië</Omschrijving>
+<Code>326</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>18/04/1980</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Roeanda</Omschrijving>
+<Code>360</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/07/1962</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Roemenië</Omschrijving>
+<Code>124</Code>
+<isocode>RO</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Rusland (Federatie van)</Omschrijving>
+<Code>145</Code>
+<isocode>RU</isocode>
+<begin_geldigheid>27/12/1991</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Rwanda (Rep.)</Omschrijving>
+<Code>327</Code>
+<isocode>RW</isocode>
+<begin_geldigheid>01/07/1962</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Sahara</Omschrijving>
+<Code>388</Code>
+<isocode>EH</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Saint-Barthélemy (Frankrijk)</Omschrijving>
+<Code>499</Code>
+<isocode>BL</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Saint-Pierre et Miquelon (F.)</Omschrijving>
+<Code>495</Code>
+<isocode>PM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Saint Vincent</Omschrijving>
+<Code>429</Code>
+<isocode>VC</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Salomoneilanden</Omschrijving>
+<Code>623</Code>
+<isocode>SB</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>San Marino</Omschrijving>
+<Code>125</Code>
+<isocode>SM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Sao Tomé en Principe (Dem. Rep.)</Omschrijving>
+<Code>346</Code>
+<isocode>ST</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Saoedi-Arabië</Omschrijving>
+<Code>252</Code>
+<isocode>SA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Senegal</Omschrijving>
+<Code>320</Code>
+<isocode>SN</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Senegambia</Omschrijving>
+<Code>348</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Servië</Omschrijving>
+<Code>152</Code>
+<isocode>RS</isocode>
+<begin_geldigheid>23/06/2006</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Seychellen (Eilanden)</Omschrijving>
+<Code>342</Code>
+<isocode>SC</isocode>
+<begin_geldigheid>29/06/1976</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Seychellen (Eilanden)</Omschrijving>
+<Code>390</Code>
+<isocode>SC</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>29/06/1976</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>SHAPE</Omschrijving>
+<Code>720</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Sierra Leone</Omschrijving>
+<Code>328</Code>
+<isocode>SL</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Singapore</Omschrijving>
+<Code>205</Code>
+<isocode>SG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Sint-Helena (Eiland)</Omschrijving>
+<Code>389</Code>
+<isocode>SH</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Slovaakse Republiek</Omschrijving>
+<Code>141</Code>
+<isocode>SK</isocode>
+<begin_geldigheid>01/01/1993</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Slovenië (Rep.)</Omschrijving>
+<Code>147</Code>
+<isocode>SI</isocode>
+<begin_geldigheid>15/01/1992</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Socialistische Republiek Vietnam</Omschrijving>
+<Code>220</Code>
+<isocode>VN</isocode>
+<begin_geldigheid>04/07/1976</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Soedan</Omschrijving>
+<Code>356</Code>
+<isocode>SD</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Somalië (Rep.)</Omschrijving>
+<Code>329</Code>
+<isocode>SO</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Spanje</Omschrijving>
+<Code>109</Code>
+<isocode>ES</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Sri Lanka</Omschrijving>
+<Code>203</Code>
+<isocode>LK</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Stille Oceaan Eilanden</Omschrijving>
+<Code>620</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>St. Kitts en Nevis</Omschrijving>
+<Code>431</Code>
+<isocode>KN</isocode>
+<begin_geldigheid>19/09/1983</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Sultanaat Oman</Omschrijving>
+<Code>266</Code>
+<isocode>OM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Suriname</Omschrijving>
+<Code>522</Code>
+<isocode>SR</isocode>
+<begin_geldigheid>25/11/1975</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Swaziland</Omschrijving>
+<Code>347</Code>
+<isocode>SZ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Swaziland</Omschrijving>
+<Code>395</Code>
+<isocode>SZ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Syrië (Syrisch-Arabische Rep.)</Omschrijving>
+<Code>261</Code>
+<isocode>SY</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tadzjikistan (Rep.)</Omschrijving>
+<Code>228</Code>
+<isocode>TJ</isocode>
+<begin_geldigheid>10/01/1992</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tahiti</Omschrijving>
+<Code>688</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tanzania Verenigde Rep.</Omschrijving>
+<Code>332</Code>
+<isocode>TZ</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Thailand</Omschrijving>
+<Code>235</Code>
+<isocode>TH</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Timor</Omschrijving>
+<Code>282</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>19/12/1999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Togo</Omschrijving>
+<Code>334</Code>
+<isocode>TG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tokelau (N-Z.)</Omschrijving>
+<Code>686</Code>
+<isocode>TK</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tonga</Omschrijving>
+<Code>616</Code>
+<isocode>TO</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Transkei</Omschrijving>
+<Code>396</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Trinidad en Tobago</Omschrijving>
+<Code>422</Code>
+<isocode>TT</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tsjaad</Omschrijving>
+<Code>333</Code>
+<isocode>TD</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tsjechische Republiek</Omschrijving>
+<Code>140</Code>
+<isocode>CZ</isocode>
+<begin_geldigheid>01/01/1993</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tsjecho-Slovakije</Omschrijving>
+<Code>130</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tsjecho-Slowakije</Omschrijving>
+<Code>171</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tunesië</Omschrijving>
+<Code>357</Code>
+<isocode>TN</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Turkije</Omschrijving>
+<Code>262</Code>
+<isocode>TR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Turkmenistan (Rep.)</Omschrijving>
+<Code>229</Code>
+<isocode>TM</isocode>
+<begin_geldigheid>31/12/1991</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Turks en Caicos Eilanden</Omschrijving>
+<Code>488</Code>
+<isocode>TC</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Tuvalu</Omschrijving>
+<Code>621</Code>
+<isocode>TV</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Uganda</Omschrijving>
+<Code>323</Code>
+<isocode>UG</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Unie d. Socialist. Sovjetrep.</Omschrijving>
+<Code>131</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Unie d. Socialist. Sovjetrep.</Omschrijving>
+<Code>172</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>27/12/1991</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Uruguay</Omschrijving>
+<Code>519</Code>
+<isocode>UY</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Urundi</Omschrijving>
+<Code>361</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/07/1962</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Vaderlandsloos</Omschrijving>
+<Code>900</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Afghaanse herkomst</Omschrijving>
+<Code>822</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Albanese herkomst</Omschrijving>
+<Code>751</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Algerijnse herkomst</Omschrijving>
+<Code>813</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Angolese herkomst</Omschrijving>
+<Code>795</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Argentijnse herkomst</Omschrijving>
+<Code>748</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Armeense herkomst</Omschrijving>
+<Code>781</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Azerbaidzjaanse herkomst</Omschrijving>
+<Code>855</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Bahreinse herkomst</Omschrijving>
+<Code>868</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Bangladeshische herkomst</Omschrijving>
+<Code>837</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Benijnse herkomst</Omschrijving>
+<Code>840</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Bhutanese herkomst</Omschrijving>
+<Code>864</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Birmaanse herkomst</Omschrijving>
+<Code>826</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Boliviaanse herkomst</Omschrijving>
+<Code>804</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van bosnische herkomst</Omschrijving>
+<Code>853</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Braziliaanse herkomst</Omschrijving>
+<Code>797</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Bulgaarse herkomst</Omschrijving>
+<Code>754</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Burundische herkomst</Omschrijving>
+<Code>791</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Cambodjaanse herkomst</Omschrijving>
+<Code>750</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Centraalafrikaanse herkomst</Omschrijving>
+<Code>862</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Chileense herkomst</Omschrijving>
+<Code>749</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Chinese herkomst</Omschrijving>
+<Code>782</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Columbiaanse herkomst</Omschrijving>
+<Code>816</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Congolese herkomst</Omschrijving>
+<Code>859</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Cubaanse herkomst</Omschrijving>
+<Code>783</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Djiboutiaanse herkomst</Omschrijving>
+<Code>871</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Dominicaanse herkomst</Omschrijving>
+<Code>747</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Duitse herkomst</Omschrijving>
+<Code>752</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Ecuadoriaanse herkomst</Omschrijving>
+<Code>836</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Egyptische herkomst</Omschrijving>
+<Code>784</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Equatoriaal-Guinese herkomst</Omschrijving>
+<Code>888</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Eritrese herkomst</Omschrijving>
+<Code>873</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Estische herkomst</Omschrijving>
+<Code>758</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Ethiopische herkomst</Omschrijving>
+<Code>800</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Filippijnse herkomst</Omschrijving>
+<Code>835</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Finse herkomst</Omschrijving>
+<Code>759</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Franse herkomst</Omschrijving>
+<Code>809</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Gambiaanse herkomst</Omschrijving>
+<Code>884</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Georgische herkomst</Omschrijving>
+<Code>760</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Ghanese herkomst</Omschrijving>
+<Code>815</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Griekse herkomst</Omschrijving>
+<Code>761</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Guatemalaanse herkomst</Omschrijving>
+<Code>829</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Guineebissause herkomst</Omschrijving>
+<Code>869</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Guinese herkomst</Omschrijving>
+<Code>802</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Guyanese herkomst</Omschrijving>
+<Code>805</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Haïtiaanse herkomst</Omschrijving>
+<Code>793</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van herkomst uit de U.S.S.R.</Omschrijving>
+<Code>773</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>27/12/1991</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van herkomst uit de vrijstad Danzig</Omschrijving>
+<Code>756</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Hondurese herkomst</Omschrijving>
+<Code>894</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Hongaarse herkomst</Omschrijving>
+<Code>762</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Indische herkomst</Omschrijving>
+<Code>832</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Indonesische herkomst</Omschrijving>
+<Code>801</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Iraakse herkomst</Omschrijving>
+<Code>785</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Iraanse herkomst</Omschrijving>
+<Code>819</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Israëlische herkomst</Omschrijving>
+<Code>814</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Italiaanse herkomst</Omschrijving>
+<Code>763</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Jamaicaanse herkomst</Omschrijving>
+<Code>895</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Jemenitische herkomst</Omschrijving>
+<Code>790</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Jemenitische herkomst</Omschrijving>
+<Code>882</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Joegoslavische herkomst</Omschrijving>
+<Code>774</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>24/05/1995</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Jordaanse herkomst</Omschrijving>
+<Code>798</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Kaapverdische herkomst</Omschrijving>
+<Code>830</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Kameroenische herkomst</Omschrijving>
+<Code>838</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Kazakhstaanse herkomst</Omschrijving>
+<Code>866</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Keniaanse herkomst</Omschrijving>
+<Code>857</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Khmerische herkomst</Omschrijving>
+<Code>806</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Kirgizische herkomst</Omschrijving>
+<Code>872</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Koeweitse herkomst</Omschrijving>
+<Code>867</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Kongolese herkomst (Brazzaville)</Omschrijving>
+<Code>780</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Koreaanse herkomst</Omschrijving>
+<Code>808</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Kosovaarse herkomst</Omschrijving>
+<Code>875</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Kroatische herkomst</Omschrijving>
+<Code>755</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Laotische herkomst</Omschrijving>
+<Code>803</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Letse herkomst</Omschrijving>
+<Code>764</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Libanese herkomst</Omschrijving>
+<Code>786</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Liberiaanse herkomst</Omschrijving>
+<Code>849</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Libische herkomst</Omschrijving>
+<Code>831</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Litouwse herkomst</Omschrijving>
+<Code>765</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Macedonische herkomst</Omschrijving>
+<Code>792</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Malagassische herkomst</Omschrijving>
+<Code>827</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Maleise herkomst</Omschrijving>
+<Code>833</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Malinese herkomst</Omschrijving>
+<Code>861</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Marokkaanse herkomst</Omschrijving>
+<Code>796</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Mauritaanse herkomst</Omschrijving>
+<Code>848</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Mauritiaanse herkomst</Omschrijving>
+<Code>886</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Mexicaanse herkomst</Omschrijving>
+<Code>896</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Moldavische herkomst</Omschrijving>
+<Code>858</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Mongolische herkomst</Omschrijving>
+<Code>876</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Montenegrijnse herkomst</Omschrijving>
+<Code>744</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Mozambiekse herkomst</Omschrijving>
+<Code>825</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Myanmarese herkomst</Omschrijving>
+<Code>870</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Namibische herkomst</Omschrijving>
+<Code>828</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Nicaraguaanse herkomst</Omschrijving>
+<Code>843</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van nigeraanse herkomst</Omschrijving>
+<Code>852</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Nigeriaanse herkomst</Omschrijving>
+<Code>794</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Oegandese herkomst</Omschrijving>
+<Code>776</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Van Oekraïense herkomst</Omschrijving>
+<Code>772</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van oezbekistaanse herkomst</Omschrijving>
+<Code>854</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Omaanse herkomst</Omschrijving>
+<Code>879</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Oostenrijkse herkomst</Omschrijving>
+<Code>753</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Pakistaanse herkomst</Omschrijving>
+<Code>777</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Palestijnse herkomst</Omschrijving>
+<Code>787</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Palestijnse oorsprong</Omschrijving>
+<Code>902</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Panamese herkomst</Omschrijving>
+<Code>841</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Paraguyaanse herkomst</Omschrijving>
+<Code>811</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Peruaanse herkomst</Omschrijving>
+<Code>810</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Poolse herkomst</Omschrijving>
+<Code>766</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Portugese herkomst</Omschrijving>
+<Code>767</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Qatarese herkomst</Omschrijving>
+<Code>880</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Roemeense herkomst</Omschrijving>
+<Code>768</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Ruandese herkomst</Omschrijving>
+<Code>775</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Russische herkomst</Omschrijving>
+<Code>769</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Salvadoriaanse herkomst</Omschrijving>
+<Code>820</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Santomese herkomst</Omschrijving>
+<Code>890</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Saoedische herkomst</Omschrijving>
+<Code>817</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Senegalese herkomst</Omschrijving>
+<Code>856</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Senegambiaanse herkomst</Omschrijving>
+<Code>892</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Servische herkomst</Omschrijving>
+<Code>770</Code>
+<begin_geldigheid>31/12/1992</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Sloveense herkomst</Omschrijving>
+<Code>860</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Soedanese herkomst</Omschrijving>
+<Code>824</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Somalische herkomst</Omschrijving>
+<Code>821</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Spaanse herkomst</Omschrijving>
+<Code>757</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Srilankaanse herkomst</Omschrijving>
+<Code>839</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Swazische herkomst</Omschrijving>
+<Code>891</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Syrische herkomst</Omschrijving>
+<Code>788</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Tadzjiekse herkomst</Omschrijving>
+<Code>877</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Tanzaniaanse herkomst</Omschrijving>
+<Code>812</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Thaïse herkomst</Omschrijving>
+<Code>834</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Tibetaanse herkomst</Omschrijving>
+<Code>842</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Timorese herkomst</Omschrijving>
+<Code>883</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Togose herkomst</Omschrijving>
+<Code>847</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Tsjadische herkomst</Omschrijving>
+<Code>823</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Tsjechische herkomst</Omschrijving>
+<Code>771</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Tunesische herkomst</Omschrijving>
+<Code>745</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Turkmeense herkomst</Omschrijving>
+<Code>878</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Turkse herkomst</Omschrijving>
+<Code>789</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Uruguayaanse herkomst</Omschrijving>
+<Code>746</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Venezolaanse herkomst</Omschrijving>
+<Code>897</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Viëtnamese herkomst</Omschrijving>
+<Code>778</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Witrussische herkomst</Omschrijving>
+<Code>863</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Zaïrese herkomst</Omschrijving>
+<Code>779</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Zambiaanse herkomst</Omschrijving>
+<Code>887</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Zimbabwaanse herkomst</Omschrijving>
+<Code>889</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Zuid-Soedanese herkomst</Omschrijving>
+<Code>893</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>van Zuidafrikaanse herkomst</Omschrijving>
+<Code>818</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Vanuatu</Omschrijving>
+<Code>624</Code>
+<isocode>VU</isocode>
+<begin_geldigheid>30/07/1980</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Venezuela</Omschrijving>
+<Code>520</Code>
+<isocode>VE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Verenigd Koninkrijk</Omschrijving>
+<Code>112</Code>
+<isocode>GB</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Verenigde Arabische Emiraten</Omschrijving>
+<Code>260</Code>
+<isocode>AE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Verenigde Staten van Amerika</Omschrijving>
+<Code>402</Code>
+<isocode>US</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Vluchteling</Omschrijving>
+<Code>700</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Vluchteling erkend in ander land</Omschrijving>
+<Code>710</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Wallis en Futuna (F.)</Omschrijving>
+<Code>689</Code>
+<isocode>WF</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>West-Samoa</Omschrijving>
+<Code>614</Code>
+<isocode>WS</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/1962</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zaïre (Republiek)</Omschrijving>
+<Code>364</Code>
+<begin_geldigheid>01/12/1971</begin_geldigheid>
+<einde_geldigheid>16/05/1997</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zambia</Omschrijving>
+<Code>335</Code>
+<isocode>ZM</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zimbabwe</Omschrijving>
+<Code>344</Code>
+<isocode>ZW</isocode>
+<begin_geldigheid>18/04/1980</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zuid-Afrika (Rep.)</Omschrijving>
+<Code>325</Code>
+<isocode>ZA</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zuid-Korea (Rep.)</Omschrijving>
+<Code>206</Code>
+<isocode>KR</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zuid-Soedan</Omschrijving>
+<Code>365</Code>
+<isocode>SS</isocode>
+<begin_geldigheid>29/08/2011</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zuid-Viëtnam</Omschrijving>
+<Code>217</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1992</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zuid-Vietnam</Omschrijving>
+<Code>279</Code>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>02/07/1976</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zweden</Omschrijving>
+<Code>126</Code>
+<isocode>SE</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+<ann5>
+<Omschrijving>Zwitserland</Omschrijving>
+<Code>127</Code>
+<isocode>CH</isocode>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann5>
+</List>
