@@ -1,0 +1,2969 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann30 (Code?, Description?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann30+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann30>
+<Code>001</Code>
+<Description>Non présent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>002</Code>
+<Description>Non numérique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>003</Code>
+<Description>Invalide</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>004</Code>
+<Description>Nombre de contrôle invalide</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>005</Code>
+<Description>Interdit</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>006</Code>
+<Description>Trop d'occurrences avec les mêmes identifiants</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>007</Code>
+<Description>Total calculé différent du total déclaré</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>008</Code>
+<Description>Pas dans le domaine de définition</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>009</Code>
+<Description>Age à vérifier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>010</Code>
+<Description>Autre déduction demandée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>011</Code>
+<Description>Balance par catégorie d'employeur négative</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>012</Code>
+<Description>Cumul à vérifier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>013</Code>
+<Description>Cumul trop élevé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>014</Code>
+<Description>Date de fin antérieure à la date de début</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>015</Code>
+<Description>Date de l'accord supérieure à la date de début de l'occupation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>016</Code>
+<Description>Employeur non affilié à un secrétariat social agréé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>017</Code>
+<Description>Employeur non repris au répertoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>018</Code>
+<Description>Erreur de calcul (forfaits)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>019</Code>
+<Description>Incompatibilité avec l'année de la date de début de période de référence</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>020</Code>
+<Description>Incompatibilité avec la commission paritaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>021</Code>
+<Description>Incompatibilité avec la période déclarée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>022</Code>
+<Description>Incompatibilité avec le répertoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>023</Code>
+<Description>Incompatibilité avec le risque</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>024</Code>
+<Description>Incompatibilité avec personne physique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>025</Code>
+<Description>Incompatibilité catégorie employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>026</Code>
+<Description>Incompatibilité code FFE</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>027</Code>
+<Description>Incompatibilité code importance</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>028</Code>
+<Description>Incompatibilité code NACE</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>029</Code>
+<Description>Incompatibilité code rémunération</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>030</Code>
+<Description>Incompatibilité code travailleur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>031</Code>
+<Description>Incompatibilité entre le nom et le NISS</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>032</Code>
+<Description>Incompatibilité régime de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>033</Code>
+<Description>Incompatibilité SIS et NISS</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>034</Code>
+<Description>Incompatibilité trimestre</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>035</Code>
+<Description>Incompatibilité trimestre - catégorie employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>036</Code>
+<Description>Incompatible avec le matricule</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>037</Code>
+<Description>L'année ne correspond pas à l'année de l'accident</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>038</Code>
+<Description>La signature Isabel n'est pas correcte</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>039</Code>
+<Description>L'utilisateur Isabel n'est pas autorisé à expédier en réel</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>040</Code>
+<Description>Le moment (heures/minutes) de l'activité est antérieur au moment de l'accident, alors que l'activité et l'accident se sont produits en même temps</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>041</Code>
+<Description>Numéro ONSS/PPL erroné</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>042</Code>
+<Description>Moins de 50 travailleurs</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>043</Code>
+<Description>Montant à vérifier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>044</Code>
+<Description>Montant calculé différent du montant déclaré</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>045</Code>
+<Description>Montant trop élevé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>046</Code>
+<Description>Montant trop peu élevé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>047</Code>
+<Description>Nombre trop élevé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>048</Code>
+<Description>Non présent - travailleur intermittent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>049</Code>
+<Description>Non présent - travailleur saisonnier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>050</Code>
+<Description>Non prévu pour cet employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>051</Code>
+<Description>Non repris au répertoire pour le trimestre de déclaration</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>052</Code>
+<Description>Réponse à la demande déjà renvoyée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>053</Code>
+<Description>Pas d'application</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>054</Code>
+<Description>Pas droit</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>055</Code>
+<Description>Pas PME</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>056</Code>
+<Description>Premier numéro de suite différent de 1</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>057</Code>
+<Description>Prestations à vérifier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>058</Code>
+<Description>Prestations insuffisantes</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>059</Code>
+<Description>Progression du numéro de suite non linéaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>060</Code>
+<Description>Travailleur trop âgé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>061</Code>
+<Description>Travailleur trop jeune</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>062</Code>
+<Description>Zone pas d'application</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>063</Code>
+<Description>Incompatibilité unité de temps</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>064</Code>
+<Description>Déduction pas d'application pour ce niveau</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>065</Code>
+<Description>Plusieurs blocs détails déduction présents</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>066</Code>
+<Description>Pas de bloc détail déduction présent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>067</Code>
+<Description>Mesure de promotion de l'emploi ne peut pas être indiquée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>068</Code>
+<Description>Mesure de promotion de l'emploi erronée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>069</Code>
+<Description>Mesure de réorganisation du temps de travail erronée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>070</Code>
+<Description>NISS inconnu à la source authentique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>071</Code>
+<Description>Différence employeur / source authentique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>072</Code>
+<Description>Différence période de validité ONSS / source authentique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>073</Code>
+<Description>Différence type de déduction ONSS / source authentique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>074</Code>
+<Description>Trimestre non autorisé pour l'employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>075</Code>
+<Description>Non autorisé pour le type d'apprenti</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>076</Code>
+<Description>Pourcentage des prestations (µ) ne satisfait pas aux exigences</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>077</Code>
+<Description>Travailleur ne satisfait pas aux exigences d'âge</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>078</Code>
+<Description>Trimestre de déclaration non repris dans la période de validité</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>079</Code>
+<Description>Travailleur pas en service le dernier jour du trimestre</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>080</Code>
+<Description>Régime de travail ne satisfait pas aux exigences</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>082</Code>
+<Description>Bloc pas d'application</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>083</Code>
+<Description>Réduction du temps de travail trop faible</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>084</Code>
+<Description>Incompatibilité trimestre - catégorie - code travailleur cotisation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>085</Code>
+<Description>Incompatibilité catégorie employeur / code travailleur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>088</Code>
+<Description>Schéma Inconnu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>089</Code>
+<Description>Root inconnu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>090</Code>
+<Description>Erreur de cardinalité</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>091</Code>
+<Description>Erreur de séquence</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>092</Code>
+<Description>Elément inconnu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>093</Code>
+<Description>Longueur incorrecte</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>094</Code>
+<Description>Incompatibilité type de travailleur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>095</Code>
+<Description>Nombre total de jours incompatible avec le trimestre de déclaration pour l'occupation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>096</Code>
+<Description>Nombre total de jours incompatible avec le régime de travail pour l'occupation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>097</Code>
+<Description>Incompatibilité période de référence</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>098</Code>
+<Description>Incompatibilité date de début</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>099</Code>
+<Description>Incompatibilité occupation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>100</Code>
+<Description>Nombre total d'heures pour l'indication du jour dépasse le domaine de définition</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>101</Code>
+<Description>Expéditeur non autorisé pour ce matricule</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>102</Code>
+<Description>Syntaxe XML incorrecte</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>103</Code>
+<Description>Expéditeur non autorisé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>104</Code>
+<Description>Incompatibilité prestations et rémunérations</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>105</Code>
+<Description>Occupation postérieure au trimestre en cours</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>107</Code>
+<Description>La structure du nom d'un fichier GO n'est pas correcte</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>108</Code>
+<Description>L'expéditeur spécifié dans le nom du fichier ou le RFH2 du message MQ-series ne correspond pas à l'expéditeur repris respectivement dans le nom du répertoire où le fichier a été déposé ou à l'user-id spécifié dans le MQMD dudit message.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>109</Code>
+<Description>La date spécifiée dans le nom du fichier ou le RFH2 comporte plus ou moins 8 positions.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>110</Code>
+<Description>La date spécifiée dans le nom du fichier ou le RFH2  n'est pas une date correcte au format AAAAMMJJ</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>111</Code>
+<Description>La date spécifiée dans le nom du fichier ou le RFH2 est supérieure à la date du jour</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>112</Code>
+<Description>Le numéro d'envoi spécifié dans le nom du fichier ou le RFH2 comporte plus ou moins de 5 positions</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>113</Code>
+<Description>Le numéro d'envoi spécifié dans le nom du fichier ou le RFH2 n'est pas numérique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>114</Code>
+<Description>Le nombre de morceaux spécifié dans le nom du fichier comporte plus ou moins de 1 position</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>115</Code>
+<Description>Le nombre de morceaux spécifié dans le nom du fichier n'est pas numérique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>116</Code>
+<Description>Le nombre de morceaux spécifié dans le nom du fichier est égal à zéro</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>117</Code>
+<Description>L'environnement spécifié dans le nom du fichier ou le RFH2 est différent de T, R, et S</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>118</Code>
+<Description>Un fichier ou un message avec un environnement R a été déposé respectivement dans un répertoire différent de IN ou dans une file d'attente non réservée à la production;</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>119</Code>
+<Description>Un fichier ou un message avec un environnement T a été déposé respectivement dans un répertoire différent de INTEST ou dans une file d'attente non réservée aux tests.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>120</Code>
+<Description>Le nombre de fichiers FI présents dans le répertoire ne correspond pas au nombre de fichiers requis</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>121</Code>
+<Description>Aucun fichier signature ne doit être fourni pour le protocole de communication utilisé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>122</Code>
+<Description>Le nombre de fichiers FS présents dans le répertoire ne correspond pas au nombre de fichiers requis</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>123</Code>
+<Description>Numérotation erronée pour les fichiers FI</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>124</Code>
+<Description>Numérotation erronée pour les fichiers FS</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>125</Code>
+<Description>Signature invalide</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>126</Code>
+<Description>La date spécifiée dans le nom de fichier ou dans le RFH2 est trop vieille par rapport à la date du jour.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>127</Code>
+<Description>Le numéro d'envoi spécifié dans le nom du fichier ou le RFH2 est égal à zéro</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>128</Code>
+<Description>Le nombre de morceaux spécifié dans le nom de fichier est supérieur au nombre maximum autorisé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>129</Code>
+<Description>Préfixe du nom de fichier ou valeur du tag Identification dans le RFH2 incorrect</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>130</Code>
+<Description>Fichier GO non reçu pour un ensemble de fichiers</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>131</Code>
+<Description>La structure du nom d'un fichier FI ou du RFH2 n'est pas correcte</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>132</Code>
+<Description>La structure du nom d'un fichier FS n'est pas correcte</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>133</Code>
+<Description>Un fichier portant le même nom a déjà été envoyé précédemment. Un message avec le même RFH2 a déjà été envoyé précédemment.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>134</Code>
+<Description>Pas de données</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>135</Code>
+<Description>Incohérence entre le type de formulaire mentionné et le schéma</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>136</Code>
+<Description>Aucun schéma n'a été mentionné</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>137</Code>
+<Description>Le standard du schéma mentionné n'est pas supporté ou est inconnu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>138</Code>
+<Description>L'encoding mentionné n'est pas supporté</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>139</Code>
+<Description>Le document ne possède pas de NameSpace par défaut ou ce dernier n'est pas conforme</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>140</Code>
+<Description>Le mailbox_id dans le fichier entrant ne correspond pas à son mailbox_id dans la DB des expéditeurs</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>141</Code>
+<Description>Le hashing de la signature Isabel n'est pas correct</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>142</Code>
+<Description>Pas de fichier déclaration attaché</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>143</Code>
+<Description>Isabel signale que l'envoi a été dupliqué</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>144</Code>
+<Description>L'environnement de travail n'a pu être détecté dans le nom du message</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>145</Code>
+<Description>Occupation postérieure au trimestre sur lequel portent les données</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>146</Code>
+<Description>Non admis</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>147</Code>
+<Description>Double règlement de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>148</Code>
+<Description>Le jour n'est pas indiqué</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>149</Code>
+<Description>Le bénéficiaire n'est pas indiqué</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>150</Code>
+<Description>Incompatibilité mois du premier jour de vacances jeunes ou seniors</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>151</Code>
+<Description>Pas identifiable</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>152</Code>
+<Description>Pas de relation de travail trouvée pour la période ou la date donnée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>153</Code>
+<Description>Incompatibilité entre le certificat et son propriétaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>154</Code>
+<Description>Incompatibilité entre le numéro d'expéditeur et l'objet du fichier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>155</Code>
+<Description>Pas ou plus de mandat</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>156</Code>
+<Description>Problème technique réception ISABEL</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>157</Code>
+<Description>Aucune déclaration n'a été trouvée dans le fichier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>158</Code>
+<Description>Le type de formulaire mentionné dans le nom du fichier ne correspond pas au type de formulaire présent dans le fichier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>159</Code>
+<Description>Attribution d'un numéro d'occupation impossible. Données incohérentes</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>160</Code>
+<Description>Incompatibilité code postal - commune</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>161</Code>
+<Description>Cumul déductions ligne travailleur non admis</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>162</Code>
+<Description>Cumul déductions occupation non admis</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>163</Code>
+<Description>Formulaire non traitable</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>164</Code>
+<Description>Demande tardive auprès de la source authentique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>165</Code>
+<Description>Déclaration mixte - catégorie employeur 021</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>166</Code>
+<Description>Le numéro de ticket mentionné n'est pas connu ou est invalide</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>167</Code>
+<Description>Une notification a déjà été enregistrée pour la déclaration ayant ce numéro de ticket</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>168</Code>
+<Description>Mode d'accès non autorisé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>169</Code>
+<Description>Indemnité de rupture ou de sortie présente avec d'autres rémunérations</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>170</Code>
+<Description>Incompatibilité entre les codes nature du jour</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>171</Code>
+<Description>Envoi isabel non signé ou non comprimé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/1900</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>172</Code>
+<Description>Le nombre de déclarations présentes dans le fichier est supérieur au nombre toléré pour un fichier de cette taille</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>173</Code>
+<Description>Action autorisée uniquement pour l'ONSS</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>174</Code>
+<Description>Action non autorisée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>175</Code>
+<Description>Codes actions incohérents</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>176</Code>
+<Description>Discordance avec la DB DmfA</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>177</Code>
+<Description>EmployerDeclarationPID - Discordance avec la DB DmfA</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>178</Code>
+<Description>DeclNaturalPersonPID - Discordance avec la DB DmfA</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>179</Code>
+<Description>NISS Inconnu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>180</Code>
+<Description>La modification ou annulation ne porte pas sur la dernière situation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>181</Code>
+<Description>Modification ou annulation non autorisée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>182</Code>
+<Description>Non trouvé en DB DmfA</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>183</Code>
+<Description>Une notification valide a déjà été enregistrée pour cette déclaration</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>184</Code>
+<Description>La taille du fichier est supérieure à la limite imposée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>185</Code>
+<Description>Revenu moyen trop peu élevé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>187</Code>
+<Description>Réservation impossible</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>188</Code>
+<Description>Le formulaire fait référence à plus d'un formulaire précédemment enregistré</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>189</Code>
+<Description>Aucun numéro d'expéditeur associé au mandataire auquel l'employeur est affilié n'a été trouvé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>190</Code>
+<Description>Aucun numéro d'expéditeur associé à ce numéro ONSS/PPL n'a été trouvé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>191</Code>
+<Description>Identification du formulaire référencé par ce numéro de ticket n'est pas du type attendu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>192</Code>
+<Description>Nombre total de jours trop élevé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>193</Code>
+<Description>Aucun canal de sortie n'est associé au mandataire auquel l'employeur est affilié</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>194</Code>
+<Description>Aucun canal de sortie n'est associé à l'employeur mentionné dans la déclaration</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>195</Code>
+<Description>L'entité associée au numéro ONSS/PPL mentionné n'est pas un expéditeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>196</Code>
+<Description>Incompatible avec les prestations</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>197</Code>
+<Description>Une réponse valide a déjà été reçue ou une réponse non permise a été reçue pour le formulaire auquel fait référence ce document</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>198</Code>
+<Description>Code déduction premier engagement non présent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>201</Code>
+<Description>Nombre maximum de trimestres dépassé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>202</Code>
+<Description>Code déduction non applicable pour la mesure transitoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>203</Code>
+<Description>Incompatible avec les rémunérations</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>204</Code>
+<Description>La qualification ne répond pas aux critères</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>205</Code>
+<Description>Le fichier contient au moins un bloc de donnée qui n'est pas un formulaire (bloc Form)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>206</Code>
+<Description>Pas prévu pour ce travailleur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>207</Code>
+<Description>Incompatible avec le numéro ONSS/PPL et/ou le NISS</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>208</Code>
+<Description>Combinaison « Numéro ONSS/PPL - NISS - Période » non trouvée dans DIMONA</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>209</Code>
+<Description>NISS non intégré pendant la période de référence</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>210</Code>
+<Description>Incompatibilité avec l'identification du risque</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>211</Code>
+<Description>Incompatible avec le type employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>212</Code>
+<Description>Incompatibilité avec le statut du travailleur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>213</Code>
+<Description>Combinaison codes rémunération invalide</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>214</Code>
+<Description>Incompatible avec d'autres trimestres</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>215</Code>
+<Description>Le tag FileReferenceNbr doit être spécifié dans le RFH2 et sa valeur doit avoir 13 caractères</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>216</Code>
+<Description>Le tag WebChannel doit être spécifié dans le RFH2 et sa valeur doit être égale à 0 ou 1</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>217</Code>
+<Description>Le tag DirectoryEnvironment doit être spécifié dans le RFH2 et sa valeur doit être 0, 1, ou 3 (0, 1, ou 3 si WebChannel = 0; 1 ou 3 si WebChannel = 1)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>218</Code>
+<Description>Le tag UserId doit être spécifié dans le RFH2 et sa valeur doit avoir 6 positions numériques si WebChannel = 0 ou de 1 à 30 positions si WebChannel = 1</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>219</Code>
+<Description>Le tag FormReferenceNbr doit être spécifié dans le RFH2 et sa  valeur doit avoir 13 caractères</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>220</Code>
+<Description>Le tag ContentsStatus doit être spécifié dans le RFH2 et sa valeur doit être 0 ou 3</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>221</Code>
+<Description>Le tag SectorPointId doit être spécifié dans le RFH2</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>222</Code>
+<Description>Le tag DataFormat doit être spécifié dans le RFH2 et sa valeur doit être 0 ou 2</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>223</Code>
+<Description>Le tag MessageCreationDate doit être spécifié dans le RFH2 et sa valeur doit être au format AAAA-MM-JJ</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>224</Code>
+<Description>Le tag MessageCreationHour doit être spécifié dans le RFH2 et sa valeur doit être au format HH:mm:ss.SSS</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>225</Code>
+<Description>Le tag ErrorId doit être spécifié dans le RFH2 et sa valeur doit avoir maximum 9 caractères</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>226</Code>
+<Description>Le tag Compressed doit être spécifié dans le RFH2 et sa valeur doit être 0 ou 1</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>227</Code>
+<Description>Le tag LengthNonCompressed doit être spécifié dans le RFH2 et sa valeur doit être numérique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>228</Code>
+<Description>Le tag LengthCompressed doit être spécifié dans le RFH2 et sa valeur doit être numérique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>229</Code>
+<Description>Algorithme de compression invalide</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>230</Code>
+<Description>Mandataire pas connu pour l'employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>231</Code>
+<Description>Incompatibilité avec l'expéditeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>232</Code>
+<Description>Aucun employeur n'est associé à cette personne physique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>233</Code>
+<Description>Incompatible avec la demande</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>234</Code>
+<Description>Formulaire référencé non trouvé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>235</Code>
+<Description>Non repris au répertoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>236</Code>
+<Description>Le destinataire du formulaire ne dispose d'aucun canal électronique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>237</Code>
+<Description>Incohérence entre la référence du formulaire mentionnée dans celui-ci et dans son entête</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>238</Code>
+<Description>Ne correspond pas à un formulaire accepté par ce secteur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>239</Code>
+<Description>Incompatibilité code pension complémentaire sectorielle</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>240</Code>
+<Description>Nous ne sommes pas concernés par la demande</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>241</Code>
+<Description>La demande ou déclaration référencée a déjà été annulée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>242</Code>
+<Description>Date de fin d'occupation manquante pour au moins une occupation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>243</Code>
+<Description>Nombre total de jours insuffisant selon le régime de travail au sein de l'occupation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>244</Code>
+<Description>Fraction d'occupation erronée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>245</Code>
+<Description>A vérifier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>246</Code>
+<Description>Le message contient plus d'un formulaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>247</Code>
+<Description>L'occupation terminée n'est pas retrouvée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>248</Code>
+<Description>Le destinataire du routage n'est pas connu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>249</Code>
+<Description>Le canal est différent de celui repris dans le répertoire des accès</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>250</Code>
+<Description>Déclaration incomplète : trop peu de travailleurs déclarés</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>251</Code>
+<Description>Déjà répondu par une déclaration effectuée d'initiative</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>252</Code>
+<Description>Modification du numéro NISS</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>253</Code>
+<Description>Les données permettant de router le message sont absentes ou invalides</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>254</Code>
+<Description>Le numéro de séquence attendu n'a pas été renseigné ou est invalide</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>255</Code>
+<Description>Le formulaire communiqué n'est pas valide par rapport au modèle de données</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>256</Code>
+<Description>Le numéro de ticket attendu n'a pas été mentionné</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>257</Code>
+<Description>Un fichier ou un message avec un environnement S a été déposé respectivement dans un répertoire différent de INTEST-S ou dans une file d'attente non réservée aux tests</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>258</Code>
+<Description>Incompatibilité entre la valeur du tag Identification et la valeur du tag Environment fournis dans le RFH2 d'un message</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>259</Code>
+<Description>Indemnité à déclarer dans le trimestre où le salaire de base a été déclaré</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>260</Code>
+<Description>Nombre d'heures trop élevé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>261</Code>
+<Description>Le salaire trimestriel de référence ne satisfait pas aux conditions.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>262</Code>
+<Description>Plus de travailleurs déclarés en DmfA qu'en DIMONA</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>263</Code>
+<Description>Moins de travailleurs déclarés en DmfA qu'en DIMONA</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>264</Code>
+<Description>Date impossible</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>265</Code>
+<Description>Type de contrat de travail non autorisé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>267</Code>
+<Description>Le format de publication n'a pas été spécifié ou est erroné</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>268</Code>
+<Description>Incompatibilité avec le fichier du personnel</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>269</Code>
+<Description>Incompatibilité avec Dimona</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>270</Code>
+<Description>Délai d'introduction non respecté</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>271</Code>
+<Description>Période maximale dépassée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>272</Code>
+<Description>Déjà traité ou déclaré</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>273</Code>
+<Description>Cotisation exigée selon les conditions en vigueur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>274</Code>
+<Description>Attribut invalide</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>275</Code>
+<Description>Le nombre de formulaires autorisés a été dépassé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>276</Code>
+<Description>Incompatibilité avec le fichier ONEM</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>277</Code>
+<Description>Demande annulée par le point de transfert de la sécurité sociale</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>278</Code>
+<Description>Date de début de l'occupation antérieure à la date d'inscription de l'employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>280</Code>
+<Description>Fichier ZIP Invalide</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>281</Code>
+<Description>Fichier Zip incorrect (ne contient pas de fichier ou plus d'un fichier)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>282</Code>
+<Description>Trop de tags mailbox présents dans le fichier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>283</Code>
+<Description>Présence d'un record ne correspondant pas au fileType mentionné dans l'élément Mailbox</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>284</Code>
+<Description>Absence de déclaration ou incohérence avec l'attribut record</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>285</Code>
+<Description>L'attribut serviceName du tag Mailbox n'est pas présent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>286</Code>
+<Description>L'attribut serviceName du tag  Mailbox est inconnu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>287</Code>
+<Description>L'attribut fileType du tag Mailbox n'est pas présent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>288</Code>
+<Description>La valeur de l'attribut fileType n'est pas compatible avec le serviceName</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>289</Code>
+<Description>L'attribut Records du tag  Mailbox n'est pas présent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>290</Code>
+<Description>La valeur de l'attribut Records du tag  Mailbox est non numérique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>291</Code>
+<Description>L'attribut environment du tag Mailbox n'est pas présent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>292</Code>
+<Description>La valeur de l'attribut environment du tag Mailbox n'est pas cohérente avec l'environnement stipulé dans le nom du fichier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>293</Code>
+<Description>La valeur de l'attribut sectorDestination du tag Mailbox n'existe pas pour le serviceName mentionné</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>294</Code>
+<Description>Le tag CBSS/Référence n'est pas présent dans le tag MessageContext</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>295</Code>
+<Description>Le tag CBSS/TreatmentTime n'est pas présent dans le tag MessageContext</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>296</Code>
+<Description>Le tag CBSS/TreatmentTime ne correspond pas au format attendu ("yyyy-MM-dd'T'HH:mm:ss.SSS")</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>297</Code>
+<Description>L'attribut id du tag Service n'est pas présent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>298</Code>
+<Description>L'attribut id du tag Service ne correspond pas à l'attribut serviceName du tag Mailbox</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>299</Code>
+<Description>Pas de tag Data dans le record</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>300</Code>
+<Description>L'attribut version du tag Service n'est pas présent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>301</Code>
+<Description>L'attribut version du tag Service contient une identification de version inconnue</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>302</Code>
+<Description>Plusieurs versions différentes sont référencées dans les différents records du fichier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>303</Code>
+<Description>Le 'sector-institution' destination du tag MessageContext ne correspond pas au 'sector-institution' destination du tag mailbox</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>304</Code>
+<Description>Pas d'attributs institution Destination dans le tag 'Mailbox'</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>305</Code>
+<Description>Le 'sector-institution' destination du tag Mailbox est inconnu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>306</Code>
+<Description>Le 'sector-institution' destination du tag Mailbox est incorrect (non numérique).</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>307</Code>
+<Description>Le tag Destination n'est pas présent dans le record</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>308</Code>
+<Description>Plus d'un tag Destination présent dans le record</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>309</Code>
+<Description>Pas d'attribut institution présent dans le tag Destination</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>310</Code>
+<Description>Pas d'attribut sector présent dans le tag Destination</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>311</Code>
+<Description>Les valeurs des attributs institution et sector du tag Destination sont incorrectes</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>312</Code>
+<Description>Le fichier n'est pas valide sur base des modèles de données associés (schéma xml)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>313</Code>
+<Description>Attention ! Trimestre en danger de prescription ou prescrit.</Description>
+<begin_geldigheid>01/01/1990</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>314</Code>
+<Description>Commission paritaire 999 non admis</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>316</Code>
+<Description>Type cotisation - combinaison non autorisée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>317</Code>
+<Description>Le nombre total de records spécifié dans un header Mailbox A1 n'est pas numérique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>318</Code>
+<Description>Le nombre total de bytes spécifié dans un header Mailbox A1 n'est pas numérique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>319</Code>
+<Description>Le nombre total de bytes spécifié dans un header Mailbox A1 est incorrect</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>320</Code>
+<Description>Type de préfixe incorrect pour un acr</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>321</Code>
+<Description>Type de traitement incorrect pour un acr</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>322</Code>
+<Description>Code Réussite flux inconnu pour un acr</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>323</Code>
+<Description>Déclaration prescrite : mélange de crédits et de débits non admis</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>324</Code>
+<Description>Déclaration prescrite : trop d'éléments</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>325</Code>
+<Description>Déclaration prescrite</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>326</Code>
+<Description>Info : solde calculé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>330</Code>
+<Description>Date de début et/ou fin de la ligne d'occupation en dehors de la période de validité</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>333</Code>
+<Description>Période Dimona en double</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>334</Code>
+<Description>En chevauchement</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>336</Code>
+<Description>Interdit de faire des déclarations Dimona-full et Dimona-light pour la même journée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>337</Code>
+<Description>Interdit d'avoir plusieurs périodes Dimona-light pour la même journée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>338</Code>
+<Description>Incompatibilité avec le type de déclaration journalière (full/light) de l'employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>339</Code>
+<Description>Type de prestation ou date et heure de fin manquant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>340</Code>
+<Description>Interdit de mentionner à la fois le type de prestation et la date et heure de fin</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>341</Code>
+<Description>Période trop longue (&gt;24h)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>342</Code>
+<Description>Déclaration uniquement via un canal sécurisé pour cet employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>343</Code>
+<Description>Employeur non- ou plus actif au répertoire des employeurs</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>344</Code>
+<Description>Interdit de postposer</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>345</Code>
+<Description>Heure de fin antérieure à l'heure de début</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>346</Code>
+<Description>L'employeur n'a pas encore opté pour la Dimona New</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>347</Code>
+<Description>Incompatible avec le numéro d'identification de la période Dimona</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>348</Code>
+<Description>Incompatible avec le NISS</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>349</Code>
+<Description>Incompatibilité entre commission paritaire et type de travailleur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>350</Code>
+<Description>Type de travailleur interdit pour cet employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>351</Code>
+<Description>Numéro d'entreprise ou dénomination manquant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>352</Code>
+<Description>Interdit de mentionner à la fois le numéro d'entreprise et la dénomination</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>353</Code>
+<Description>Même numéro de carte C3.2A que le mois précédent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>354</Code>
+<Description>Numéro d'identification de période Dimona inconnu</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>355</Code>
+<Description>Période Dimona ou enregistrement journalier déjà annulé(e)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>356</Code>
+<Description>Période Dimona déjà clôturée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>357</Code>
+<Description>Période Dimona avec anomalie bloquante</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>359</Code>
+<Description>Interdit de faire une déclaration de modification pour clôturer une période Dimona</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>360</Code>
+<Description>Date de début et/ou de fin obligatoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>361</Code>
+<Description>Date/heure de début et/ou date/heure de fin obligatoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>362</Code>
+<Description>Interdit de faire des déclarations Dimona sur une période verrouillée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>363</Code>
+<Description>NISS ou données d'identification obligatoires</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>364</Code>
+<Description>Numéro ONSS ou numéro d'entreprise obligatoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>366</Code>
+<Description>Intervenant inexistant sur la déclaration</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>367</Code>
+<Description>Le numéro d'envoi spécifié dans le nom du fichier ou le RFH2 contient un caractère différent de 0 à 9 et de A à Z</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>368</Code>
+<Description>Interdit de supprimer la date de fin pour cette période</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>369</Code>
+<Description>Dépassement du contingent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>370</Code>
+<Description>Date de début ou de fin postérieure au 31/12/2011 non admise pour un étudiant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>371</Code>
+<Description>Incompatibilité avec le Service Social Collectif</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>372</Code>
+<Description>Incompatible avec la date de premier octroi de l'indemnité</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>373</Code>
+<Description>Incompatible avec la notion mi-temps</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>374</Code>
+<Description>Incompatible avec la notion d'entreprise en difficulté ou en restructuration</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>375</Code>
+<Description>Incompatible avec la date de notification du préavis</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>376</Code>
+<Description>Incompatible avec la notion de remplacement conforme</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>377</Code>
+<Description>Nombre de mois trop élevé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>378</Code>
+<Description>Nombre de mois incorrect pour la part patronale</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>379</Code>
+<Description>Valeur non autorisée pour cet employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>380</Code>
+<Description>Valeur non autorisée pour cette période</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>381</Code>
+<Description>Incompatible avec la catégorie de personnel</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>382</Code>
+<Description>Le montant ne correspond pas au minimum proratisé</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>383</Code>
+<Description>L'employeur renseigné doit être différent du déclarant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>384</Code>
+<Description>Incompatibilité employeur - 2eme pilier de pension</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>388</Code>
+<Description>Date de début supérieure à la date de début du bloc parent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>389</Code>
+<Description>Hiatus entre deux occupations (ou éléments de carrière) avec motif de fin de la relation statutaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>390</Code>
+<Description>Hiatus entre occupations (ou éléments de carrière)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>391</Code>
+<Description>Hiatus entre traitements</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>392</Code>
+<Description>Incompatible avec la date de fin du bloc parent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>393</Code>
+<Description>Lignes de données de l'occupation relatives au secteur public non strictement successives</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>394</Code>
+<Description>Attestation plus récente déjà reçue pour ce travailleur et cet employeur déclarant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>395</Code>
+<Description>Incompatibilité entre le travailleur et l'employeur déclarant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>396</Code>
+<Description>Identifiant employeur obligatoire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>397</Code>
+<Description>Pas d'élément de carrière déclaré pour le 31/12/2010</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>398</Code>
+<Description>Motif de fin de relation statutaire ou élément de carrière chez l'employeur déclarant manquant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>399</Code>
+<Description>Date de début inférieure à la date de début du bloc parent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>400</Code>
+<Description>Date de fin supérieure à la date de fin du bloc parent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>401</Code>
+<Description>Incompatible avec les éléments de carrière déclarés</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>402</Code>
+<Description>Incompatible avec la nature de la relation de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>403</Code>
+<Description>Incompatible avec le type de contrat</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>404</Code>
+<Description>Incompatible avec la mesure de réorganisation du travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>405</Code>
+<Description>Nombre de mois incorrect pour la part personnelle</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>406</Code>
+<Description>Absence de bloc Capelo dans la DmfA(PPL) pour ce travailleur et cet employeur déclarant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>407</Code>
+<Description>Déclaration pour un autre employeur occupant le travailleur au 31/12/2010 interdite</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>408</Code>
+<Description>Hiatus entre le dernier élément de carrière et l'occupation déclarée en DmfA(PPL)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>409</Code>
+<Description>Incompatibilité entre le code travailleur DmfA(PPL) et la nature de la relation de travail</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>410</Code>
+<Description>Différence avec les données déclarées en DmfA(PPL)</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>411</Code>
+<Description>Impossibilité d'avoir 2 carrières principales ou secondaires chez le même employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>412</Code>
+<Description>Bloc Traitement barémique non présent pour l'employeur déclarant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>413</Code>
+<Description>Incompatible avec le code de l'absence</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>414</Code>
+<Description>Incompatible avec la date de début du bloc parent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>415</Code>
+<Description>Incompatible avec le montant du traitement barémique précédent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>416</Code>
+<Description>Date de fin de l'élément de carrière supérieure au 31/12/2010</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>418</Code>
+<Description>Incompatible avec les données de l'occupation relatives au secteur public</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>419</Code>
+<Description>Plus de cotisation due</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>420</Code>
+<Description>Le nombre de jours déclaré dépasse le nombre de jours que compte la période</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>421</Code>
+<Description>Les dates de début et de fin de période doivent appartenir au même trimestre</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>422</Code>
+<Description>Incohérence entre le nombre d'heures par semaine et le nombre moyen d'heures par semaine du travailleur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>423</Code>
+<Description>Attestation précédente déjà modifiée via l'application web</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>424</Code>
+<Description>Bloc Élément de carrière non présent pour cet employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>425</Code>
+<Description>Date de prise de rang postérieure à la date de fin du traitement barémique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>426</Code>
+<Description>Cotisation pension extra-légale (plan de pension sectoriel ou d'entreprise) non présente</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>427</Code>
+<Description>Pas d'autorisation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>428</Code>
+<Description>L'employeur reste silencieux</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>429</Code>
+<Description>Nombre de jours déclaré en DMFA différent du nombre de jours déclaré en DIMONA</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>430</Code>
+<Description>Le(s) fichier(s) posant problème lors de l'envoi initial a/ont été supprimé(s).</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>433</Code>
+<Description>Bloc Traitement barémique uniquement attendu pour l'employeur déclarant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>434</Code>
+<Description>Différence de type de contrat de travail par rapport à l'élément de carrière précédent</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>435</Code>
+<Description>Carrière continue chez le même employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>436</Code>
+<Description>Envoi par batch non autorisé pour ce type d'attestation historique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>437</Code>
+<Description>Date de début antérieure à la date d'admissibilité de l'attestation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>438</Code>
+<Description>Un autre employeur a transmis au moins une DmfA(PPL) après le 01/01/2011</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>439</Code>
+<Description>Relation de travail de type statutaire non autorisée au 01/01/2011</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>440</Code>
+<Description>Pourcentage total incorrect</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>441</Code>
+<Description>Nbre d'h/semaine supérieur au nbre d'h/semaine - traitement barémique complet</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>442</Code>
+<Description>Nbre d'h/semaine - trait. barémique supérieur au nbre d'h/semaine de la pers. de réf.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>443</Code>
+<Description>Nbre d'h/semaine - trait. barémique inférieur au nbre d'h/semaine de la pers. de réf.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>444</Code>
+<Description>Aucune modification n'a été détectée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>445</Code>
+<Description>Pas d'élément de carrière auprès de l'employeur déclarant</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>448</Code>
+<Description>Incompatible avec le numéro de fonction</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>449</Code>
+<Description>Rémunérations trop élevées</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>450</Code>
+<Description>Type de déclaration temporairement interdit pour la période sélectionnée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>451</Code>
+<Description>Incompatibilité employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>452</Code>
+<Description>Impossible de déterminer une indication de temps pour le risque social</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>453</Code>
+<Description>Ne correspond pas à un formulaire refusé par ce secteur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>455</Code>
+<Description>Impossible d'identifier le destinataire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>456</Code>
+<Description>Pas de Dimona comme travailleur occasionnel pour cette occupation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>459</Code>
+<Description>Interdit d'avoir des périodes occasionnelles sur plus de deux jours consécutifs</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>460</Code>
+<Description>Déclaration tardive</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>461</Code>
+<Description>L'employeur n'a pas opté pour le système Dimona pour ses enregistrements journaliers</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>462</Code>
+<Description>Incompatibilité entre l'enregistrement journalier et la période Dimona</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>468</Code>
+<Description>Données BCE à vérifier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>469</Code>
+<Description>Incompatible avec le salaire annuel de référence</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>471</Code>
+<Description>Code déduction non présent ou incompatible</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>472</Code>
+<Description>Ne répond pas aux conditions de caisse</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>473</Code>
+<Description>Incompatible avec la notion dispense de régime de pension complémentaire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>474</Code>
+<Description>Réduction pas applicable sur base du numéro d'identification de l'unité locale</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>475</Code>
+<Description>Réduction pas applicable pour la région</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>476</Code>
+<Description>Cotisation spéciale sur les indemnités de rupture non présente</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>477</Code>
+<Description>La géolocalisation de l'adresse renseignée dans la déclaration est imprécise</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>478</Code>
+<Description>L'indemnité de rupture commence avant la fin des occupations rémunérées</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>480</Code>
+<Description>Cotisation pension du secteur public non présente</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>481</Code>
+<Description>Incompatible avec le code pension secteur public</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>482</Code>
+<Description>Incompatible avec la déclaration originale ou la dernière situation de cette déclaration</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>483</Code>
+<Description>Applicable si les conditions sont remplies</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>484</Code>
+<Description>Occupation Flexijob couverte totalement ou en partie par une indemnité de rupture</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>485</Code>
+<Description>Occupation Flexijob non couverte ou pas totalement couverte par Dimona</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>486</Code>
+<Description>Flexijob pas de cumul avec un contrat de 80% ou plus</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>487</Code>
+<Description>Incompatible avec les données du SPF Emploi</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>488</Code>
+<Description>Incompatible avec la période de reconnaissance</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>489</Code>
+<Description>Incompatible avec la date de décision ministérielle</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>490</Code>
+<Description>Incompatible avec la date de l'annonce du licenciement collectif</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>491</Code>
+<Description>Incompatible avec le code interruption de l'occupation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>492</Code>
+<Description>Incompatible avec la période de validité de la CCT</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>493</Code>
+<Description>La période demandée est trop courte</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>494</Code>
+<Description>La période demandée est trop longue</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>495</Code>
+<Description>Incompatible avec le secteur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>496</Code>
+<Description>Incompatible avec le type d'interruption</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>497</Code>
+<Description>Incompatible avec le régime horaire du travailleur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>498</Code>
+<Description>Questionnaire incomplet</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>499</Code>
+<Description>Le travailleur ne satisfait pas aux conditions d'accès à ce type d'interruption</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>500</Code>
+<Description>Incompatible avec le nombre de travailleurs</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>501</Code>
+<Description>Incompatible avec le code nature du jour</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>502</Code>
+<Description>Différence heures en DmfA - heures planifiées en Dimona avec cotisations réduites</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>503</Code>
+<Description>Plus de 6 jours de chômage temporaire consécutifs</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>504</Code>
+<Description>Aucune heure planifiée en Dimona pouvant bénéficier de cotisations sociales réduites</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>505</Code>
+<Description>Formulaire impossible à traiter en séquence</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>506</Code>
+<Description>Demande spécifique - Prière de transmettre un formulaire papier</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>507</Code>
+<Description>Demande obsolète</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>508</Code>
+<Description>Plus d'un formulaire enrichi envoyé pour le formulaire original</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>509</Code>
+<Description>Taille totale des fichiers FI et FS supérieure à la limite imposée après compression</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>510</Code>
+<Description>Conditions d'accès aux Flexi-Jobs non-respectées</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>511</Code>
+<Description>Incompatible avec la situation de la formation</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>512</Code>
+<Description>Incompatible avec le numéro d'identification du navire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>513</Code>
+<Description>Inconnu à la source authentique</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>514</Code>
+<Description>Jeune travailleur sans expérience</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>515</Code>
+<Description>Problème technique : Impossible de contrôler le statut "Jeune sans expérience"</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>516</Code>
+<Description>Conditions d'accès aux Starter-Jobs non-respectées</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>517</Code>
+<Description>Incompatibilité avec le type d'institution du secteur public</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>518</Code>
+<Description>Données deuxième pilier pension manquantes</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>519</Code>
+<Description>Pensionné avant le 01/01/2016</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>520</Code>
+<Description>Pensionné après le 31/12/2015</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>521</Code>
+<Description>Incompatible avec la nature de l'emploi</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>522</Code>
+<Description>Pas dans le champ d'application - Régime AMI Indemnités</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>523</Code>
+<Description>NISS non traité par ce destinataire</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>524</Code>
+<Description>Signature impossible</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>525</Code>
+<Description>Conversion en PDF impossible</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>526</Code>
+<Description>Risque payé par l'employeur</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>527</Code>
+<Description>Incompatible avec la mesure de promotion de l'emploi</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>528</Code>
+<Description>Base de calcul de la cotisation spéciale prime Corona trop élevée</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+<ann30>
+<Code>529</Code>
+<Description>Incohérence total des bases de calcul de la cotisation - total des indemnités.</Description>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann30>
+</List>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann13 (Code?, Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann13+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann13>
+<Code>1</Code>
+<Omschrijving>Dagen gedekt door loon met RSZ bijdragen, met uitzondering van de hieronder vermelde dagen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.1</Code>
+<Omschrijving>Haven - Werkloosheid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.10</Code>
+<Omschrijving>Haven - Bijkomende vakantie met bestaanszekerheid / dubbele bestaanszekerheid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.11</Code>
+<Omschrijving>Haven - Vrijstelling stempelcontrole / werkloosheidsverlof / bijkomende vakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.12</Code>
+<Omschrijving>Haven - Familiaal verlof</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.13</Code>
+<Omschrijving>Haven - Klein verlet</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.14</Code>
+<Omschrijving>Haven - Solidariteitsdag</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.15</Code>
+<Omschrijving>Haven - Syndicaal verlof</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.16</Code>
+<Omschrijving>Haven - Cursus / initiatieopleiding</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.17</Code>
+<Omschrijving>Haven - (Beroeps)opleiding</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.18</Code>
+<Omschrijving>Haven - Gedeeltelijk verminderd arbeidsgeschikt</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.19</Code>
+<Omschrijving>Haven - Verminderd arbeidsgeschikt</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.2</Code>
+<Omschrijving>Haven - Werkloosheid mits goedkeuring</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.20</Code>
+<Omschrijving>Haven - Medisch onderzoek</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.21</Code>
+<Omschrijving>Haven - Medische vrijstelling stempelcontrole</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.22</Code>
+<Omschrijving>Haven - Niet opgenomen verlof</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.3</Code>
+<Omschrijving>Haven - KB 225</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.4</Code>
+<Omschrijving>Haven - Betaalde feestdag</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.5</Code>
+<Omschrijving>Haven - Betaalde feestdag waarop gewerkt wordt</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.6</Code>
+<Omschrijving>Haven - Vervangende feestdag waarop gewerkt wordt</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.7</Code>
+<Omschrijving>Haven - Arbeidsongeval - betaalde feestdag AO</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.8</Code>
+<Omschrijving>Haven - Ziekte - betaalde feestdag</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>10.9</Code>
+<Omschrijving>Haven - Anciënniteitsvakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.1</Code>
+<Omschrijving>Werkhervatting tijdens de periode van gewaarborgd loon gevolgd door een herval - enkel toegelaten voor sector Uitkeringen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.2</Code>
+<Omschrijving>Inhaalrust betaald door een derde</Omschrijving>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.3</Code>
+<Omschrijving>Arbeidsongeschiktheid betaald door de onderwijssector</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.4</Code>
+<Omschrijving>Uren buiten uurrooster</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>1.5</Code>
+<Omschrijving>Recuperatie uren buiten uurrooster</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.1</Code>
+<Omschrijving>Gewaarborgd dagloon wegens arbeidsongeschiktheid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.2</Code>
+<Omschrijving>Gewaarborgd dagloon wegens een andere reden dan arbeidsongeschiktheid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.3</Code>
+<Omschrijving>Afwezigheid eerste dag wegens slecht weer - bouwbedrijf</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.4</Code>
+<Omschrijving>Gewaarborgd loon eerste week</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.5</Code>
+<Omschrijving>Gewaarborgd loon tweede week</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.6</Code>
+<Omschrijving>Gewaarborgd maandloon</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.7</Code>
+<Omschrijving>Arbeidsongeschiktheidsuitkering C.A.O. 12bis/13bis ingevolge ziekte of ongeval van gemeen recht</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.8</Code>
+<Omschrijving>Carensdag</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2013</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>2.9</Code>
+<Omschrijving>Arbeidsongeschiktheidsuitkering C.A.O. 12bis/13bis ingevolge arbeidsongeval of beroepsziekte</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.1</Code>
+<Omschrijving>Wettelijke vakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.2</Code>
+<Omschrijving>Bijkomende vakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.3</Code>
+<Omschrijving>Vakantie krachtens algemeen verbindend verklaarde collectieve arbeidsovereenkomst</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.4</Code>
+<Omschrijving>Jeugdvakantie en seniorvakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>3.5</Code>
+<Omschrijving>Aanvullende vakantiedagen bij activiteitsaanvang of -hervatting (art. 17bis Wet 28.06.1971)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>4</Code>
+<Omschrijving>Vervangingsdagen van feestdagen.</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.1</Code>
+<Omschrijving>Tijdelijke werkloosheid ingevolge gebrek aan werk wegens economische redenen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.10</Code>
+<Omschrijving>Tijdelijke werkloosheid in geval van ontslag van een beschermde werknemer</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.11</Code>
+<Omschrijving>Schorsingsdagen bedienden wegens werkgebrek</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.2</Code>
+<Omschrijving>Tijdelijke werkloosheid ingevolge slecht weer</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.3</Code>
+<Omschrijving>Tijdelijke werkloosheid ingevolge technische stoornis</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.4</Code>
+<Omschrijving>Tijdelijke werkloosheid ingevolge overmacht</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.5</Code>
+<Omschrijving>Tijdelijke werkloosheid ingevolge overmacht om medische redenen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.6</Code>
+<Omschrijving>Tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens jaarlijkse vakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.7</Code>
+<Omschrijving>Tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens vakantie krachtens een algemeen bindend verklaarde CAO</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.8</Code>
+<Omschrijving>Tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens inhaalrust in het kader van arbeidsduurvermindering</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>5.9</Code>
+<Omschrijving>Tijdelijke werkloosheid ingevolge staking of lock-out</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.1</Code>
+<Omschrijving>Arbeidsongeschiktheid met arbeidsongevallenvergoeding in toepassing van artikel 54 van de arbeidsongevallenwet</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.10</Code>
+<Omschrijving>Vaderschapsverlof of geboorteverlof bedoeld in de wet van 3 juli 1978 betreffende de arbeidsovereenkomsten (alleen de dagen ten laste van de sector "uitkeringen") en borstvoedingspauze</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.11</Code>
+<Omschrijving>Adoptieverlof en pleegouderverlof (alleen de dagen ten laste van de sector "uitkeringen")</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.2</Code>
+<Omschrijving>Elke afwezigheid zonder loon wegens ziekte en ongeval, arbeidsongeschiktheid ingevolge profylactisch verlof</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.21</Code>
+<Omschrijving>Niet bezoldigde afwezigheid wegens arbeidsongeval of beroepsziekte tijdens de uitoefening van een aangepaste arbeid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.22</Code>
+<Omschrijving>Datum van definitieve stopzetting van de aangepaste arbeid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.3</Code>
+<Omschrijving>Aangepaste arbeid met loonverlies in het kader van een arbeidsongeschiktheid, aangepaste arbeid met loonverlies als maatregel voor moederschapsbescherming</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.4</Code>
+<Omschrijving>Volledige werkverwijdering als maatregel voor moederschapsbescherming, moederschapsrust, vaderschapsverlof bedoeld in de arbeidswet van 16 maart 1971</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.5</Code>
+<Omschrijving>Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald wordt wegens tijdelijke werkloosheid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.6</Code>
+<Omschrijving>Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald wordt ingevolge wederinstorting</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.7</Code>
+<Omschrijving>Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald wordt wegens collectief jaarlijks verlof</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.8</Code>
+<Omschrijving>Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald wordt wegens redenen toe te schrijven aan de werknemer ( bijvoorbeeld ongewettigde afwezigheid of weigering zich te onderwerpen aan de controle )</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>6.9</Code>
+<Omschrijving>Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald wordt wegens een onvoldoende anciënniteit of wegens elke andere reden dan diegene bedoeld onder de codes 6.5, 6.6, 6.7 en 6.8.</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>7</Code>
+<Omschrijving>Afwezigheid of verlof zonder wedde</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>8</Code>
+<Omschrijving>Gewone inactiviteitsdagen binnen de tewerkstelling</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+<ann13>
+<Code>9</Code>
+<Omschrijving>Afwezigheidsdagen voor pleegzorgen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann13>
+</List>

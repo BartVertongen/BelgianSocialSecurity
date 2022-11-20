@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="xmls\ACRF_20223_1.xml" />
+    <None Remove="xmls\ACRF_20223_2.xml" />
+  </ItemGroup>
+
 </Project>

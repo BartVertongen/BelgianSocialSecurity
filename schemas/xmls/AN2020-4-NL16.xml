@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann16 (Code?, Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann16+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann16>
+<Code>000</Code>
+<Omschrijving>Onbekend letsel : Informatie ontbreekt</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>010</Code>
+<Omschrijving>Wonden en oppervlakkige letsels</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>011</Code>
+<Omschrijving>Oppervlakkige letsels.  Omvat de kneuzingen, builen, hematomen, schaafwonden, schrammen, blaren, beten van niet-giftige insecten, oppervlakkige wonden.  Omvat ook de hoofdhuidwonden en oppervlakkige letsels en vreemde voorwerpen die het oog, oor enz.binnendringen.  Omvat niet de beten van giftige dieren (code 071)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>012</Code>
+<Omschrijving>Open wonden.
+Omvat de scheurwonden, open wonden, snijwonden, kneuzingen met wonden, verlies van nagels; wonden met letsel aan spieren, pezen en zenuwen.
+Omvat niet de traumatische amputaties, verwijdering van de oogbol; avulsie van het oog (code 040); gecompliceerde botbreuken (code 022); verbrandingen met open wonden (code 061); oppervlakkige letsels (code 011)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>013</Code>
+<Omschrijving>Vleeswonden met verlies van weefsel</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>019</Code>
+<Omschrijving>Andere soorten wonden en oppervlakkige letsels</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>020</Code>
+<Omschrijving>Botbreuken</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>021</Code>
+<Omschrijving>Gesloten botbreuken.
+Omvat de enkelvoudige botbreuken; botbreuken met letsels aan gewrichten (ontwrichtingen, enz.); botbreuken met inwendige letsels of zenuwletsels</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>022</Code>
+<Omschrijving>Open botbreuken.
+Omvat de botbreuken met letsels aan weke delen van het lichaam (gecompliceerde botbreuken)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>029</Code>
+<Omschrijving>Andere soorten botbreuken</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>030</Code>
+<Omschrijving>Ontwrichtingen, verstuikingen en verrekkingen.  Omvat alle acute problemen met de skeletmusculatuur als gevolg van overbelasting van spieren, pezen, banden en gewrichten</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>031</Code>
+<Omschrijving>Ontwrichtingen.  Omvat de subluxaties en verschuiving van beendereinden bij de gewrichten
+Omvat niet de verschoven botbreuk (code 021)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>032</Code>
+<Omschrijving>Verstuikingen en verrekkingen.  Omvat de overbelastingen die leiden tot breuken en scheuren van spieren, pezen, banden (en gewrichten), alsmede hernia's als gevolg van overbelasting.  Omvat niet de verschuivingen van beendereinden die bij de gewrichten moeten worden gecodeerd onder 031; indien deze gepaard gaan met een open wond, moeten ze onder 012 worden gecodeerd</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>039</Code>
+<Omschrijving>Andere soorten ontwrichtingen, verstuikingen en verrekkingen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>040</Code>
+<Omschrijving>Traumatische amputaties (verlies van ledematen)
+Omvat de amputaties en kneuzingen, verwijdering van de oogbol, inclusief traumatische avulsie van het oog en verlies van oor/oren</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>041</Code>
+<Omschrijving>Afzettingen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>050</Code>
+<Omschrijving>Schuddingen en inwendige letsels.  Omvat alle inwendige letsels zonder botbreuken, m.a.w. alle inwendige kneuzingen, bloedingen, scheurwonden, hersenletsels en scheuring van inwendige organen.  Omvat niet de open wonden (code 012) en letsels die gepaard gaan met botbreuk (codes in groep 020)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>051</Code>
+<Omschrijving>Schuddingen.  Omvat de intracraniale letsels</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>10/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>052</Code>
+<Omschrijving>Inwendige letsels.  Omvat de letsels van organen in borstkas en buik en van bekkenorgane</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>053</Code>
+<Omschrijving>Schuddingen en inwendige letsels die in afwezigheid van behandeling levensbedreigend kunnen zijn.</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>054</Code>
+<Omschrijving>Schadelijke effecten van elektriciteit</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>059</Code>
+<Omschrijving>Andere soorten schuddingen en inwendige letsels</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>060</Code>
+<Omschrijving>Verbrandingen, brandplekken (door kokende vloeistof) en bevriezing</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>061</Code>
+<Omschrijving>Brandplekken (thermische - door kokende vloeistof) en verbrandingen.  Omvat de verbrandingen door hete voorwerpen of open vuur; brandplekken door kokende vloeistof; wrijvingsschroeiplekken; stralingsverbrandingen (infrarood); zonnebrand; effecten van bliksem; verbrandingen ten gevolge van elektrische stroom, verbrandingen met open wond.  Omvat niet de stralingseffecten behalve verbrandingen (code 102)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>062</Code>
+<Omschrijving>Chemische verbrandingen (corrosie).  Omvat de Chemische verbrandingen (alleen uitwendige verbrandingen).  
+Omvat niet de verbrandingen als gevolg van het inslikken van een corrosieve of bijtende stof (code 071)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>063</Code>
+<Omschrijving>Bevriezing.  Omvat de effecten van temperatuurdaling (bevriezing); gedeeltelijke diktehuidverlies, bevriezing met afgestorven weefsel (necrose).  Omvat niet de abnormaal lage lichaamstemperatuur (hypothermie) en andere effecten van overmatige koude (code 103)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>069</Code>
+<Omschrijving>Andere soorten verbrandingen, brandplekken door kokende vloeistof en bevriezing</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>070</Code>
+<Omschrijving>Vergiftigingen en infecties</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>071</Code>
+<Omschrijving>Acute vergiftigingen.  Omvat de acute effecten van injectie, ingestie en absorptie of inhalatie van toxische, corrosieve of bijtende stoffen; beten van giftige dieren; verstikking door koolmonoxide of andere toxische gassen.  Omvat niet de uitwendige chemische verbrandingen (code 062); anafylactische shock (code 119)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>072</Code>
+<Omschrijving>Acute infecties.  Omvat de infecties door virus, bacterie en andere infectueuze stoffen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>073</Code>
+<Omschrijving>Covid-19</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>079</Code>
+<Omschrijving>Andere soorten vergiftigingen en infecties</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>080</Code>
+<Omschrijving>Verdrinking en verstikking</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>081</Code>
+<Omschrijving>Verstikking.  Omvat de verstikking door samendrukking, afsnoering of wurging; omvat ook verstikking door het ontbreken of reduceren van zuurstof in de omgevingslucht en verstikking door vreemde voorwerpen in de luchtwegen.  Omvat niet de verstikking door koolmonoxide of andere toxische gassen (code 071)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>082</Code>
+<Omschrijving>Verdrinking en niet dodelijke onderdompeling.  Omvat niet de verstikking zoals gedefinieerd in 081; bedolven onder materialen of andere niet-vloeibare massa's (bv. sneeuw, aarde enz.)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>089</Code>
+<Omschrijving>Andere soorten verdrinking en verstikking</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>090</Code>
+<Omschrijving>Effecten van lawaai, trillingen en druk</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>091</Code>
+<Omschrijving>Acuut gehoorverlies.  Omvat het partieel of totaal gehoorverlies</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>092</Code>
+<Omschrijving>Effecten van druk.  Omvat de effecten van lucht- en waterdruk (barotrauma)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>099</Code>
+<Omschrijving>Andere effecten van lawaai, trillingen en druk.  Omvat de geluidstrauma's, vibratiesyndroom enz</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>100</Code>
+<Omschrijving>Effecten van extreme temperaturen, licht en straling</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>101</Code>
+<Omschrijving>Hitte en zonnesteken.  Omvat de effecten van overmatige natuurlijke hitte en zonnestraling (hitteslagen, zonnesteken) of door de mens veroorzaakte hitte.  Omvat niet de shock veroorzaakt door bliksem (code 112); zonnebrand (code 061)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>102</Code>
+<Omschrijving>Effecten van straling (niet-thermische).  Omvat de effecten van röntgenstralen, radioactieve stoffen, ultraviolette stralen, ioniserende straling, lassersogen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>103</Code>
+<Omschrijving>Effecten van temperatuurdaling.  Omvat de accidentele hypothermie en andere effecten van temperatuurdaling. Omvat niet de bevriezing (code 063)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>109</Code>
+<Omschrijving>Andere effecten van extreme temperaturen, licht en straling</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>110</Code>
+<Omschrijving>Shock</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>111</Code>
+<Omschrijving>Shocks na agressie en bedreigingen.  Omvat de shocks na agressie en bedreigingen door personen, shock na bankoverval, agressie door klanten; sociale conflicten. Omvat niet de anafylactische shock (code 119); shock na traumatische letsels (code 112)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>112</Code>
+<Omschrijving>Traumatische shocks.  Omvat de elektroshock, shock veroorzaakt door bliksem, onmiddellijke of latere shock ten gevolge van letsel.  Omvat niet anafylactische shock (code 119); agressie en bedreigingen door personen (code 111); gevallen zonder directe lichamelijke letsels</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>119</Code>
+<Omschrijving>Andere soorten shocks.  Omvat de agressies door dieren zonder direct lichamelijk letsel; natuurrampen en andere gebeurtenissen die niet direct door mensen zijn veroorzaakt en het slachtoffer geen direct lichamelijk letsel berokkenen; anafylactische shock.</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>120</Code>
+<Omschrijving>Multipele letsels.  Deze groep is beperkt tot gevallen waar het slachtoffer twee of meer even ernstige soorten letsels heeft opgelopen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+<ann16>
+<Code>999</Code>
+<Omschrijving>Andere, niet onder andere punten opgenomen gespecificeerde letsels. Deze groep dient alleen voor de indeling van letsels die niet onder andere punten zijn opgenomen : zenuwen ruggenmergletsel; letsel aan bloedvaten; vreemde voorwerpen die via een natuurlijke opening binnendringen enz.</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann16>
+</List>

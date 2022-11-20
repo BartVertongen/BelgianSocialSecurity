@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann22 (Afkortingnl?, VormNl?, AfkortingFr?, VormFr?
+	      , AfkortingD?, VormD?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann22+)>
+     <!ELEMENT Afkortingnl (#PCDATA)>
+     <!ELEMENT VormNl (#PCDATA)>
+     <!ELEMENT AfkortingFr (#PCDATA)>
+     <!ELEMENT VormFr (#PCDATA)>
+     <!ELEMENT AfkortingD (#PCDATA)>
+     <!ELEMENT VormD (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+    <ann22>
+        <Afkortingnl>APRV RP</Afkortingnl>
+        <VormNl>Andere PrivaatRechtelijke Vorm met RechtsPersoonlijkheid</VormNl>
+        <AfkortingFr>AFDP PJ</AfkortingFr>
+        <VormFr>Autre Forme de Droit Privé avec Personnalité Juridique</VormFr>
+        <AfkortingD>PRRFMRP</AfkortingD>
+        <VormD>Andere PrivatRechtliche RechtsForm mit RechtsPersönlichkeit</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>AV</Afkortingnl>
+        <VormNl>Andere rechtsVorm</VormNl>
+        <AfkortingFr>AFJ</AfkortingFr>
+        <VormFr>Autre Forme Juridique</VormFr>
+        <AfkortingD>ARF</AfkortingD>
+        <VormD>Andere RechtsForm</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BU ENT</Afkortingnl>
+        <VormNl>BUitenlandse ENTiteit</VormNl>
+        <AfkortingFr>ENT E</AfkortingFr>
+        <VormFr>ENTité Etrangère</VormFr>
+        <AfkortingD>AUS EINH</AfkortingD>
+        <VormD>AUSländische EINHeit</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV</Afkortingnl>
+        <VormNl>Besloten Vennootschap</VormNl>
+        <AfkortingFr>SRL</AfkortingFr>
+        <VormFr>Société à Responsabilité Limitée</VormFr>
+        <AfkortingD>GMBH</AfkortingD>
+        <VormD>Gesellschaft Mit Beschränkter Haftung</VormD>
+        <begin_geldigheid>01/05/2019</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV BVBA</Afkortingnl>
+        <VormNl>Burgerlijke Vennootschap onder de vorm van Besloten Vennootschap met Beperkte Aansprakelijkheid</VormNl>
+        <AfkortingFr>SC SPRL</AfkortingFr>
+        <VormFr>Société Civile sous forme de Société Privée à Responsabilité Limitée</VormFr>
+        <AfkortingD>ZVGPGBH</AfkortingD>
+        <VormD>Gesellschaft des bürgerlichen Rechts in Form einer PrivatGesellschaft mit Beschränkter Haftung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/10/2018</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV CVA</Afkortingnl>
+        <VormNl>Burgerlijke Vennootschap onder de vorm van Commanditaire Vennootschap op Aandelen</VormNl>
+        <AfkortingFr>SC SCA</AfkortingFr>
+        <VormFr>Société Civile sous forme de Société en Commandite par Actions</VormFr>
+        <AfkortingD>ZRG KGAA</AfkortingD>
+        <VormD>Gesellschaft des bürgerlichen Rechts in Form einer KommanditGesellschaft Auf Aktien</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/10/2018</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV CVBA</Afkortingnl>
+        <VormNl>Burgerlijke Vennootschap onder de vorm van CV met Beperkte Aansprakelijkheid</VormNl>
+        <AfkortingFr>SC SCRL</AfkortingFr>
+        <VormFr>Société Civile sous forme de SC à Responsabilité Limitée</VormFr>
+        <AfkortingD>ZVGGBH</AfkortingD>
+        <VormD>Gesellschaft des Bürgerlichen Rechts in Form einer Genossenschaft mit Beschränkter Haftpflicht</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/10/2018</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV CVOA</Afkortingnl>
+        <VormNl>Burgerlijke Vennootschap onder vorm van CV met Onbeperkte Aansprakelijkheid</VormNl>
+        <AfkortingFr>SC SCRI</AfkortingFr>
+        <VormFr>Société Civile sous forme de Société Coopérative à Responsabilité Illimitée</VormFr>
+        <AfkortingD>ZVGGUGCH</AfkortingD>
+        <VormD>Zivilrechtliche Gesellschaft in der Rechtsform einer Gen. mit unbeschränkter Haftung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/10/2018</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV CVOHA</Afkortingnl>
+        <VormNl>Burgerlijke Vennootschap onder de vorm van CV met Onbeperkte Hoofdelijke Aansprakelijkheid</VormNl>
+        <AfkortingFr>SCIV SCRIS</AfkortingFr>
+        <VormFr>Société CIVile sous forme de SC à Responsabilité Illimitée et Solidaire</VormFr>
+        <AfkortingD>GBR GENMUGH</AfkortingD>
+        <VormD>Gesellschaft des Bürgerlichen Rechts in Form einer GEN. Mit Unbeschränkter Gesamtschuldnerischen Haftpflicht</VormD>
+        <begin_geldigheid>01/01/2000</begin_geldigheid>
+        <einde_geldigheid>31/10/2018</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV GCV</Afkortingnl>
+        <VormNl>Burgerlijke Vennootschap onder de vorm van Gewone Commanditaire Vennootschap</VormNl>
+        <AfkortingFr>SC SCS</AfkortingFr>
+        <VormFr>Société Civile sous forme de Société en Commandite Simple</VormFr>
+        <AfkortingD>ZRG EKG</AfkortingD>
+        <VormD>Gesellschaft des bürgerlichen Rechts in Form Einer KommanditGesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/10/2018</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV LV</Afkortingnl>
+        <VormNl>Burgerlijke Vennootschap onder de vorm van Landbouwvennootschap</VormNl>
+        <AfkortingFr>SC SAGR</AfkortingFr>
+        <VormFr>Société Civile sous forme de Société AGRicole</VormFr>
+        <AfkortingD>ZRG LG</AfkortingD>
+        <VormD>Gesellschaft des bürgerlichen Rechts in Form einer Landwirtschaftlichen Gesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/2000</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV NV</Afkortingnl>
+        <VormNl>Burgerlijke Vennootschap onder de vorm van Naamloze Vennootschap</VormNl>
+        <AfkortingFr>SC SA</AfkortingFr>
+        <VormFr>Société Civile sous forme de Société Anonyme</VormFr>
+        <AfkortingD>ZRG AG</AfkortingD>
+        <VormD>Gesellschaft des bürgerlichen Rechts in Form einer AktienGesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/10/2018</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BV VOF</Afkortingnl>
+        <VormNl>Burgerlijke Vennootschap onder de vorm van Vennootschap Onder Firma</VormNl>
+        <AfkortingFr>SC SNC</AfkortingFr>
+        <VormFr>Société Civile sous forme de Société en Nom Collectif</VormFr>
+        <AfkortingD>ZRG OHG</AfkortingD>
+        <VormD>Gesellschaft des bürgerlichen Rechts in Form einer Offenen HandelsGesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/10/2018</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BVBA</Afkortingnl>
+        <VormNl>Besloten Vennootschap met Beperkte Aansprakelijkheid</VormNl>
+        <AfkortingFr>SPRL</AfkortingFr>
+        <VormFr>Société Privée à Responsabilité Limitée</VormFr>
+        <AfkortingD>PGMBH</AfkortingD>
+        <VormD>PrivatGesellschaft Mit Beschränkter Haftung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>BVBA SO</Afkortingnl>
+        <VormNl>Besloten Vennootschap met Beperkte Aansprakelijkheid met een Sociaal Oogmerk</VormNl>
+        <AfkortingFr>SPRL FS</AfkortingFr>
+        <VormFr>Société Privée à Responsabilité Limitée à Finalité Sociale</VormFr>
+        <AfkortingD>PMBHSZ</AfkortingD>
+        <VormD>Privatgesellschaft Mit Beschränkter Haftung mit Sozialer Zielsetzung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>B. VER.</Afkortingnl>
+        <VormNl>BeroepsVEReniging</VormNl>
+        <AfkortingFr>UP</AfkortingFr>
+        <VormFr>Union Professionelle</VormFr>
+        <AfkortingD>BV</AfkortingD>
+        <VormD>BerufsVereinigung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+    <Afkortingnl>COM M</Afkortingnl>
+    <VormNl>COMmerciele Maatschap</VormNl>
+    <AfkortingFr>ASS COM</AfkortingFr>
+    <VormFr>ASSociation COMmerciale</VormFr>
+    <begin_geldigheid>01/01/2000</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>COMMV</Afkortingnl>
+        <VormNl>COMManditaire Vennootschap</VormNl>
+        <AfkortingFr>SCOMM</AfkortingFr>
+        <VormFr>Société en COMMandite</VormFr>
+        <AfkortingD>KOMMG</AfkortingD>
+        <VormD>KOMManditGesellschaft</VormD>
+        <begin_geldigheid>01/05/2019</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>COMM.V</Afkortingnl>
+        <VormNl>Gewone COMManditaire Vennootschap</VormNl>
+        <AfkortingFr>SCS</AfkortingFr>
+        <VormFr>Société en Commandite Simple</VormFr>
+        <AfkortingD>EKG</AfkortingD>
+        <VormD>Einfache KommanditGesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>COMM.VA</Afkortingnl>
+        <VormNl>COMManditaire Vennootschap op Aandelen</VormNl>
+        <AfkortingFr>SCA</AfkortingFr>
+        <VormFr>Société en Commandite par Actions</VormFr>
+        <AfkortingD>KGAA</AfkortingD>
+        <VormD>KommanditGesellschaft Auf Aktien</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CV</Afkortingnl>
+        <VormNl>Cooperatieve Vennootschap</VormNl>
+        <AfkortingFr>SC</AfkortingFr>
+        <VormFr>Société Coopérative</VormFr>
+        <AfkortingD>GEN.</AfkortingD>
+        <VormD>GENossenschaft</VormD>
+        <begin_geldigheid>01/05/2019</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CV (OS)</Afkortingnl>
+        <VormNl>Cooperatieve Vennootschap (oud statuut)</VormNl>
+        <AfkortingFr>SC (AS)</AfkortingFr>
+        <VormFr>Société Coopérative (ancien statut)</VormFr>
+        <AfkortingD>GEN. (FS)</AfkortingD>
+        <VormD>GENossenschaft (früheres Statut)</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/10/1993</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CVA SO</Afkortingnl>
+        <VormNl>Commanditaire Vennootschap op Aandelen met een Sociaal Oogmerk</VormNl>
+        <AfkortingFr>SCA FS</AfkortingFr>
+        <VormFr>Société en Commandite par Actions à Finalité Sociale</VormFr>
+        <AfkortingD>KGAAMSZ</AfkortingD>
+        <VormD>KommanditGesellschaft Auf Aktien Mit Sozialer Zielsetzung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CVBA</Afkortingnl>
+        <VormNl>CV met Beperkte Aansprakelijkheid</VormNl>
+        <AfkortingFr>SCRL</AfkortingFr>
+        <VormFr>SC à Responsabilité Limitée</VormFr>
+        <AfkortingD>GEN.MBH</AfkortingD>
+        <VormD>GENossenschaft Mit Beschränkter Haftpflicht</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CVBA CD</Afkortingnl>
+        <VormNl>CVBA, Cooperatieve vennootschap bij wijze van Deelneming</VormNl>
+        <AfkortingFr>SCRL CP</AfkortingFr>
+        <VormFr>SCRL, Coopérative de Participation</VormFr>
+        <AfkortingD>GBHGB</AfkortingD>
+        <VormD>GenmBH, Genossenschaft auf Beteiligung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/07/1996</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CVBA SO</Afkortingnl>
+        <VormNl>Cooperatieve Vennootschaap met Beperkte Aansprakelijkheid met een Sociaal Oogmerk</VormNl>
+        <AfkortingFr>SCRL FS</AfkortingFr>
+        <VormFr>Société Coopérative à Responsabilité Limitée à Finalité Sociale</VormFr>
+        <AfkortingD>GBHSZ</AfkortingD>
+        <VormD>Genossenschaft mit Beschränkter Haftung mit Sozialer Zielsetzung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CVOA</Afkortingnl>
+        <VormNl>Coöperatieve Vennootschap met Onbeperkte Aansprakelijkheid</VormNl>
+        <AfkortingFr>SCRI</AfkortingFr>
+        <VormFr>Société Coopérative à Responsabilité Illimitée</VormFr>
+        <AfkortingD>GEN.MUBH</AfkortingD>
+        <VormD>GENossenschaft Mit Unbeschränkter Haftung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CVOA SO</Afkortingnl>
+        <VormNl>Cooperatieve Vennootschap met Onbeperkte Aansprakelijkheid met Sociaal Oogmerk</VormNl>
+        <AfkortingFr>SCRI FS</AfkortingFr>
+        <VormFr>Société Coopérative à Responsabilité Illimitée et à Finalité Sociale</VormFr>
+        <AfkortingD>GUHSZ</AfkortingD>
+        <VormD>Genossenschaft mit Unbeschränkter Haftung mit Sozialer Zielsetzung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CVOHA</Afkortingnl>
+        <VormNl>CV met Onbeperkte Hoofdelijke Aansprakelijkheid</VormNl>
+        <AfkortingFr>SCRIS</AfkortingFr>
+        <VormFr>SC à Responsabilité Illimitée et Solidaire</VormFr>
+        <AfkortingD>GENMUGH</AfkortingD>
+        <VormD>GEN. Mit Unbeschränkter Gesamtschuldnerischer Haftpflicht</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/07/1996</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CVOHA CD</Afkortingnl>
+        <VormNl>CVOHA, Cooperatieve vennootschap bij wijze van Deelneming</VormNl>
+        <AfkortingFr>SCRIS CP</AfkortingFr>
+        <VormFr>SCRIS, Coopérative de Participation</VormFr>
+        <AfkortingD>GENMUGH GENAB</AfkortingD>
+        <VormD>GENMUGH, Genossenschaft Auf Beteiligung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/07/1996</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>CVOHA SO</Afkortingnl>
+        <VormNl>Cooperatieve Vennootschap met Onbeperkte Hoofdelijke Aansprakelijkheid met Sociaal Oogmerk</VormNl>
+        <AfkortingFr>SCRIS FS</AfkortingFr>
+        <VormFr>Société Coopérative à Responsabilité Illimitée et Solidaire à Finalité Sociale</VormFr>
+        <AfkortingD>GENMUGH SZ</AfkortingD>
+        <VormD>GENossenschaft Mit Unbeschränkter Gesamtschuldnerischer Haftpflicht mit SoZialer Zweckbestimmung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>EBVBA</Afkortingnl>
+        <VormNl>Eenmans Besloten Vennootschap met Beperkte Aansprakelijkheid</VormNl>
+        <AfkortingFr>SPRLU</AfkortingFr>
+        <VormFr>Société Privée à Responsabilité Limitée Unipersonnelle</VormFr>
+        <AfkortingD>PGMBHMA</AfkortingD>
+        <VormD>PrivatGesellschaft Mit Beschränkter Haftung Mit einem Alleingesellschafter</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/07/2003</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>EBVBA SO</Afkortingnl>
+        <VormNl>Eenpersoons Besloten Vennootschap met Beperkte Aansprakelijkheid met een Sociaal Oogmerk</VormNl>
+        <AfkortingFr>SPRLU FS</AfkortingFr>
+        <VormFr>Société Privée à Responsabilité Limitee Unipersonnelle à Finalite Sociale</VormFr>
+        <AfkortingD>PGBHSZ</AfkortingD>
+        <VormD>PrivatGesellschaft mit Beschränkter Haftung mit Sozialer Zielsetzung mit einem Alleingesellschafter</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>28/02/2004</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>EESV</Afkortingnl>
+        <VormNl>Europees Economisch SamenwerkingsVerband</VormNl>
+        <AfkortingFr>GEIE</AfkortingFr>
+        <VormFr>Groupement Européen d'Intérêt Economique</VormFr>
+        <AfkortingD>EWIV</AfkortingD>
+        <VormD>Europäische Wirtschaftliche InteressenVereinigung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>ESV</Afkortingnl>
+        <VormNl>Economisch SamenwerkingsVerband</VormNl>
+        <AfkortingFr>GIE</AfkortingFr>
+        <VormFr>Groupement d'Intérêt Economique</VormFr>
+        <AfkortingD>WIV</AfkortingD>
+        <VormD>Wirtschaftliche InteressenVereinigung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>ESV SO</Afkortingnl>
+        <VormNl>Economisch SamenwerkingsVerband met een Sociaal Oogmerk</VormNl>
+        <AfkortingFr>GIE FS</AfkortingFr>
+        <VormFr>Groupement d'Intérêt Economique à Finalité Sociale</VormFr>
+        <AfkortingD>WIVMSZ</AfkortingD>
+        <VormD>Wirtschaftliche InteressenVereinigung Mit Sozialer Zielsetzung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>FBZ</Afkortingnl>
+        <VormNl>Fonds voor BestaansZekerheid</VormNl>
+        <AfkortingFr>FSE</AfkortingFr>
+        <VormFr>Fonds de Sécurité d'Existence</VormFr>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>FV</Afkortingnl>
+        <VormNl>Feitelijke Vereniging</VormNl>
+        <AfkortingFr>ADF</AfkortingFr>
+        <VormFr>Assocation De Fait</VormFr>
+        <AfkortingD>NFV</AfkortingD>
+        <VormD>NichtrechtsFähiger Verein</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>GCW SO</Afkortingnl>
+        <VormNl>Gewone Commanditaire vennootschap met een Sociaal Oogmerk</VormNl>
+        <AfkortingFr>SCS FS</AfkortingFr>
+        <VormFr>Société en Commandite Simple à Finalité Sociale</VormFr>
+        <AfkortingD>EKGMSZ</AfkortingD>
+        <VormD>Einfache KommanditGesellschaft Mit Sozialer Zielsetzung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>INST OPN</Afkortingnl>
+        <VormNl>INSTelling van OPenbaar Nut</VormNl>
+        <AfkortingFr>ETUTPUB</AfkortingFr>
+        <VormFr>Etablissement d'Utilité Publique</VormFr>
+        <AfkortingD>GEMEINRI</AfkortingD>
+        <VormD>GEMeinnützige EINRIchtung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/06/2003</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>INT VER</Afkortingnl>
+        <VormNl>INTernationale VEReniging</VormNl>
+        <AfkortingFr>ASS INT</AfkortingFr>
+        <VormFr>ASSociation INTernationale</VormFr>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>IVZW</Afkortingnl>
+        <VormNl>Internationale Vereniging Zonder Winstoogmerk</VormNl>
+        <AfkortingFr>AISBL</AfkortingFr>
+        <VormFr>Association Internationale Sans But Lucratif</VormFr>
+        <AfkortingD>IVOG</AfkortingD>
+        <VormD>Internationale Vereinigung Ohne Gewinnerzielungsabsicht</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>IZW</Afkortingnl>
+        <VormNl>Instelling Zonder Winstoogmerk</VormNl>
+        <AfkortingFr>ISBL</AfkortingFr>
+        <VormFr>Institution Sans But Lucratif</VormFr>
+        <AfkortingD>EOG</AfkortingD>
+        <VormD>Einrichtung Ohne Gewinnerzielungsabsicht</VormD>
+        <begin_geldigheid>04/04/2003</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>KV</Afkortingnl>
+        <VormNl>Kostendelende Vereniging</VormNl>
+        <AfkortingFr>AFRAIS</AfkortingFr>
+        <VormFr>Association de FRAIS</VormFr>
+        <AfkortingD>KV</AfkortingD>
+        <VormD>Kostenteilende Vereinigung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/06/2003</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>LV</Afkortingnl>
+        <VormNl>LandbouwVennootschap</VormNl>
+        <AfkortingFr>S. AGR.</AfkortingFr>
+        <VormFr>Société AGRicole</VormFr>
+        <AfkortingD>LG</AfkortingD>
+        <VormD>Landwirtschaftliche Gesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>MS</Afkortingnl>
+        <VormNl>MaatSchap</VormNl>
+        <AfkortingFr>SDC</AfkortingFr>
+        <VormFr>Société de Droit Commun</VormFr>
+        <AfkortingD>GAR</AfkortingD>
+        <VormD>Gesellschaft des Allgemeinen Rechts</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/10/2018</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>NV</Afkortingnl>
+        <VormNl>Naamloze Vennootschap</VormNl>
+        <AfkortingFr>SA</AfkortingFr>
+        <VormFr>Société Anonyme</VormFr>
+        <AfkortingD>AG</AfkortingD>
+        <VormD>AktienGesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>NV SO</Afkortingnl>
+        <VormNl>Naamloze Vennootschap met een Sociaal Oogmerk</VormNl>
+        <AfkortingFr>SA FS</AfkortingFr>
+        <VormFr>Société Anonyme à Finalité Sociale</VormFr>
+        <AfkortingD>AGMSZ</AfkortingD>
+        <VormD>AktienGesellschaft Mit Sozialer Zielsetzung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>OFP</Afkortingnl>
+        <VormNl>Organisme van de Financiering van Pensioenen</VormNl>
+        <AfkortingFr>OFP</AfkortingFr>
+        <VormFr>Organisme de Financement de Pensions</VormFr>
+        <AfkortingD>OFP</AfkortingD>
+        <VormD>Organismus für die Finanzierung von Pensionen</VormD>
+        <begin_geldigheid>01/01/2007</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+        <ann22>
+        <Afkortingnl>OVV</Afkortingnl>
+        <VormNl>Onderlinge VerzekeringsVereniging / Gemeenschappelijke verzekeringskas van privaat recht</VormNl>
+        <AfkortingFr>AAM</AfkortingFr>
+        <VormFr>Association d'assurances mutuelles / Caisse commune d'assurances de droit privé</VormFr>
+        <AfkortingD>PRVGAG</AfkortingD>
+        <VormD>Versicherungsvereinigung Auf Gegenseitigkeit / PrivatRechtliche VersicherungsGesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>PS</Afkortingnl>
+        <VormNl>Private Stichting</VormNl>
+        <AfkortingFr>FP</AfkortingFr>
+        <VormFr>Fondation Privée</VormFr>
+        <AfkortingD>PRST</AfkortingD>
+        <VormD>PRivatSTiftung</VormD>
+        <begin_geldigheid>02/05/2002</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>SCE</Afkortingnl>
+        <VormNl>Europese Coöperatieve Vennootschap</VormNl>
+        <AfkortingFr>SCE</AfkortingFr>
+        <VormFr>Société Coopérative Européenne</VormFr>
+        <AfkortingD>SCE</AfkortingD>
+        <VormD>Europäische Genossenschaft</VormD>
+        <begin_geldigheid>30/11/2006</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>SE</Afkortingnl>
+        <VormNl>Europese Vennootschap (Societas Europaea)</VormNl>
+        <AfkortingFr>SE</AfkortingFr>
+        <VormFr>Société Européenne (Societas Europaea)</VormFr>
+        <AfkortingD>SE</AfkortingD>
+        <VormD>Europäische Gesellschaft (Societas Europaea)</VormD>
+        <begin_geldigheid>08/10/2004</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>SH</Afkortingnl>
+        <VormNl>Stille Handelsvennootschap</VormNl>
+        <AfkortingFr>SI</AfkortingFr>
+        <VormFr>Société Interne</VormFr>
+        <AfkortingD>SG</AfkortingD>
+        <VormD>Stille Gesellschaft</VormD>
+        <begin_geldigheid>01/01/2000</begin_geldigheid>
+        <einde_geldigheid>30/06/2003</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>SON</Afkortingnl>
+        <VormNl>Stichting van Openbaar Nut</VormNl>
+        <AfkortingFr>FUP</AfkortingFr>
+        <VormFr>Fondation d'Utilité Publique</VormFr>
+        <AfkortingD>GNS</AfkortingD>
+        <VormD>GemeinNützige Stiftung</VormD>
+        <begin_geldigheid>01/07/2003</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>STICH</Afkortingnl>
+        <VormNl>STICHting</VormNl>
+        <AfkortingFr>FOND</AfkortingFr>
+        <VormFr>FONDation</VormFr>
+        <AfkortingD>STIF</AfkortingD>
+        <VormD>STIFtung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>TH</Afkortingnl>
+        <VormNl>Tijdelijke Handelsvennootschap</VormNl>
+        <AfkortingFr>SM</AfkortingFr>
+        <VormFr>Société Momentanée</VormFr>
+        <AfkortingD>GG</AfkortingD>
+        <VormD>GelegenheitsGesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/06/2003</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>TV</Afkortingnl>
+        <VormNl>Tijdelijke Vereniging</VormNl>
+        <AfkortingFr>AM</AfkortingFr>
+        <VormFr>Association Momentanée</VormFr>
+        <AfkortingD>ARBEITG</AfkortingD>
+        <VormD>ARBEITsGemeinschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>06/02/2001</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>VAKBOND</Afkortingnl>
+        <VormNl>VAKBOND</VormNl>
+        <AfkortingFr>SYNDIC</AfkortingFr>
+        <VormFr>SYNDICat</VormFr>
+        <AfkortingD>GEWERKSC</AfkortingD>
+        <VormD>GEWERKSChaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>18/02/2003</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>VME</Afkortingnl>
+        <VormNl>Vereniging van Mede-Eigenaars</VormNl>
+        <AfkortingFr>ACP</AfkortingFr>
+        <VormFr>Association des CoPropriétaires</VormFr>
+        <AfkortingD>MEV</AfkortingD>
+        <VormD>MitEigentümerVereinigung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>VOF</Afkortingnl>
+        <VormNl>Vennootschap Onder Firma</VormNl>
+        <AfkortingFr>SNC</AfkortingFr>
+        <VormFr>Société en Nom Collectif</VormFr>
+        <AfkortingD>OHG</AfkortingD>
+        <VormD>Offene HandelsGesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>VOF SO</Afkortingnl>
+        <VormNl>Vennootschap Onder Firma met een Sociaal Oogmerk</VormNl>
+        <AfkortingFr>SNC FS</AfkortingFr>
+        <VormFr>Société en Nom Collectif à Finalité Sociale</VormFr>
+        <AfkortingD>OHGMSZ</AfkortingD>
+        <VormD>Offene HandelsGesellschaft Mit Sozialer Zielsetzung</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>30/04/2019</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>VV</Afkortingnl>
+        <VormNl>Vennootschap in oprichting</VormNl>
+        <AfkortingFr>SF</AfkortingFr>
+        <VormFr>Société en Formation</VormFr>
+        <AfkortingD>GBG</AfkortingD>
+        <VormD>In Gründung Befindliche Gesellschaft</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>VVZRL</Afkortingnl>
+        <VormNl>Vennootschap of Vereniging Zonder RechtspersoonLijkheid</VormNl>
+        <AfkortingFr>SASPJ</AfkortingFr>
+        <VormFr>Société ou Association Sans Personnalité Juridique</VormFr>
+        <AfkortingD>GVORP</AfkortingD>
+        <VormD>Gesellschaften oder Vereinigungen Ohne RechtsPersönlichkeit</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>VZW</Afkortingnl>
+        <VormNl>Vereniging Zonder Winstoogmerk</VormNl>
+        <AfkortingFr>ASBL</AfkortingFr>
+        <VormFr>Association Sans But Lucratif</VormFr>
+        <AfkortingD>VOG</AfkortingD>
+        <VormD>Vereinigung Ohne Gewinnerzielungsabsicht</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+    <ann22>
+        <Afkortingnl>ZIEK F</Afkortingnl>
+        <VormNl>ZIEKenFonds / Maatschappij van onderlinge bijstand / Landsbond van ziekenfondsen</VormNl>
+        <AfkortingFr>MUTU</AfkortingFr>
+        <VormFr>Mutualité / Société Mutualiste / Union nationale de mutualités</VormFr>
+        <AfkortingD>KANKENKA</AfkortingD>
+        <VormD>KrANKENKAsse / Gesellschaft auf Gegenseitigkeit / Krankenkassenlandesverband</VormD>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann22>
+</List>
+

@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann12 (hoofdnl?, idhoofd?, idsub?, scenarionl?, Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann12+)>
+     <!ELEMENT hoofdnl (#PCDATA)>
+     <!ELEMENT idhoofd (#PCDATA)>
+     <!ELEMENT idsub (#PCDATA)>
+     <!ELEMENT scenarionl (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann12>
+<hoofdnl>ARBEIDSONGEVALLEN</hoofdnl>
+<idhoofd>AOAT001</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 1 - aangifte van een arbeidsongeval</scenarionl>
+<Omschrijving>Volledige aangifte</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>ARBEIDSONGEVALLEN</hoofdnl>
+<idhoofd>AOAT001</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 1 - aangifte van een arbeidsongeval</scenarionl>
+<Omschrijving>Vereenvoudigde aangifte</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>BEROEPSZIEKTEN</hoofdnl>
+<idhoofd>BZMP001</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 1 - Gemachtigde aanvraag - verwijdering van een zwangere werkneemster-  privé-sector</scenarionl>
+<Omschrijving>Volledige werkstopzetting</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2011</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>BEROEPSZIEKTEN</hoofdnl>
+<idhoofd>BZMP001</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 1 - Gemachtigde aanvraag - verwijdering van een zwangere werkneemster-  privé-sector</scenarionl>
+<Omschrijving>Postenmutatie met loonverlies</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2011</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>BEROEPSZIEKTEN</hoofdnl>
+<idhoofd>BZMP001</idhoofd>
+<idsub>003</idsub>
+<scenarionl>Scenario 1 - Gemachtigde aanvraag - verwijdering van een zwangere werkneemster-  privé-sector</scenarionl>
+<Omschrijving>Combinatie van volledige werkstopzetting en postenmutatie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2011</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA001</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</scenarionl>
+<Omschrijving>Aangifte van arbeidsongeschiktheid (ziekte, ongeval, profylactisch verlof)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA001</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</scenarionl>
+<Omschrijving>Moederschapsrust</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA001</idhoofd>
+<idsub>003</idsub>
+<scenarionl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</scenarionl>
+<Omschrijving>Volledige werkverwijdering als maatregel inzake moederschapsbescherming</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA001</idhoofd>
+<idsub>004</idsub>
+<scenarionl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</scenarionl>
+<Omschrijving>Gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA001</idhoofd>
+<idsub>005</idsub>
+<scenarionl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</scenarionl>
+<Omschrijving>Omgezet moederschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA001</idhoofd>
+<idsub>006</idsub>
+<scenarionl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</scenarionl>
+<Omschrijving>Vaderschaps- of geboorteverlof - 10 dagen (art. 30, § 2 wet van 3.7.1978 betreffende de arbeidsovereenkomsten)</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA001</idhoofd>
+<idsub>007</idsub>
+<scenarionl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</scenarionl>
+<Omschrijving>Adoptieverlof</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA001</idhoofd>
+<idsub>008</idsub>
+<scenarionl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</scenarionl>
+<Omschrijving>Pleegouderverlof</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA002</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 2 - Maandelijkse aangifte in geval van hervatting van een aangepaste arbeid in de loop van een periode van arbeidsongeschiktheid, uitoefening van een aangepaste arbeid in het kader van een maatregel van moederschapsbescherming [en (tot en met 31/12/2017) voortzetting van een activiteit bij één van de twee werkgevers wanneer de werkneemster bij twee verschillende werkgevers tewerkgesteld is en slechts van het werk verwijderd wordt bij één van deze twee werkgevers]</scenarionl>
+<Omschrijving>Aangifte in geval van hervatting van een aangepaste arbeid in de loop van een periode van arbeidsongeschiktheid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA002</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 2 - Maandelijkse aangifte in geval van hervatting van een aangepaste arbeid in de loop van een periode van arbeidsongeschiktheid, uitoefening van een aangepaste arbeid in het kader van een maatregel van moederschapsbescherming [en (tot en met 31/12/2017) voortzetting van een activiteit bij één van de twee werkgevers wanneer de werkneemster bij twee verschillende werkgevers tewerkgesteld is en slechts van het werk verwijderd wordt bij één van deze twee werkgevers]</scenarionl>
+<Omschrijving>Maandelijkse inkomstenaangifte in geval van uitoefening van een aangepaste arbeid in de loop van een maatregel van moederschapsbescherming</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA003</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 3 - Attest met het oog op de vergoeding van de borstvoedingspauzes</scenarionl>
+<Omschrijving>Attest met het oog op de vergoeding van de borstvoedingspauzes</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA005</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 5 - Jaarlijkse vakantieaangifte</scenarionl>
+<Omschrijving>Vakantieaangifte van de werknemers aan wie het vakantiegeld betaald wordt door een vakantiekas of de RJV</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA005</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 5 - Jaarlijkse vakantieaangifte</scenarionl>
+<Omschrijving>Vakantieaangifte van de werknemers aan wie het vakantiegeld betaald wordt door de werkgever</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA005</idhoofd>
+<idsub>003</idsub>
+<scenarionl>Scenario 5 - Jaarlijkse vakantieaangifte</scenarionl>
+<Omschrijving>Vakantieaangifte van de werknemers aan wie het vakantiegeld betaald wordt door een vakantiekas of de RJV - Aangepaste arbeid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA005</idhoofd>
+<idsub>004</idsub>
+<scenarionl>Scenario 5 - Jaarlijkse vakantieaangifte</scenarionl>
+<Omschrijving>Vakantieaangifte van de werknemers aan wie het vakantiegeld betaald wordt door de werkgever - Aangepaste arbeid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>UITKERINGEN</hoofdnl>
+<idhoofd>ZIMA006</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 6 - Aangifte van werkhervatting</scenarionl>
+<Omschrijving>Aangifte van de datum van werkhervatting</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>CWTEMP</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Mededeling van tijdelijke werkloosheid door de werkgever</scenarionl>
+<Omschrijving>Tijdelijke werkloosheid economische oorzaken</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>CWTEMP</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Mededeling van tijdelijke werkloosheid door de werkgever</scenarionl>
+<Omschrijving>Tijdelijke werkloosheid slecht weer</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>CWTEMP</idhoofd>
+<idsub>003</idsub>
+<scenarionl>Mededeling van tijdelijke werkloosheid door de werkgever</scenarionl>
+<Omschrijving>Tijdelijke werkloosheid technische stoornis</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>CWTEMP</idhoofd>
+<idsub>004</idsub>
+<scenarionl>Mededeling van tijdelijke werkloosheid door de werkgever</scenarionl>
+<Omschrijving>Tijdelijke werkloosheid overmacht</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>CWTEMP</idhoofd>
+<idsub>005</idsub>
+<scenarionl>Mededeling van tijdelijke werkloosheid door de werkgever</scenarionl>
+<Omschrijving>Effectieve werkloosheid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>CWTEMP</idhoofd>
+<idsub>006</idsub>
+<scenarionl>Mededeling van tijdelijke werkloosheid door de werkgever</scenarionl>
+<Omschrijving>Tijdelijke werkloosheid sociale actie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>VBLV001</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Validatieboek tijdelijke werkloosheid</scenarionl>
+<Omschrijving>Inschrijving controleformulier C 3.2 A in het validatieboek tijdelijke werkloosheid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH001</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 1 - Aangifte einde arbeidsovereenkomst of werkloosheid met bedrijfstoeslag (voorheen brugpensioen) / Arbeidsbewijs</scenarionl>
+<Omschrijving>Aangifte van einde arbeidsovereenkomst</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH001</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 1 - Aangifte einde arbeidsovereenkomst of werkloosheid met bedrijfstoeslag (voorheen brugpensioen) / Arbeidsbewijs</scenarionl>
+<Omschrijving>Aangifte van werkloosheid met bedrijfstoeslag</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH001</idhoofd>
+<idsub>003</idsub>
+<scenarionl>Scenario 1 - Aangifte einde arbeidsovereenkomst of werkloosheid met bedrijfstoeslag (voorheen brugpensioen) / Arbeidsbewijs</scenarionl>
+<Omschrijving>Aangifte van einde arbeidsovereenkomst in het onderwijs</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH001</idhoofd>
+<idsub>004</idsub>
+<scenarionl>Scenario 1 - Aangifte einde arbeidsovereenkomst of werkloosheid met bedrijfstoeslag (voorheen brugpensioen) / Arbeidsbewijs</scenarionl>
+<Omschrijving>Arbeidsbewijs</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid ingevolge gebrek aan werk wegens economische redenen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid ingevolge slecht weer</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>003</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid ingevolge technische stoornis</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>004</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid ingevolge overmacht</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>005</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid ingevolge overmacht om medische redenen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>006</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens jaarlijkse vakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>007</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens vakantie krachtens een algemeen bindend verklaarde CAO.</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>008</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens inhaalrust in het kader van arbeidsduur-vermindering</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>009</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid ingevolge staking of lock-out</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>010</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van tijdelijke werkloosheid in geval van ontslag van een beschermde werknemer</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH002</idhoofd>
+<idsub>011</idsub>
+<scenarionl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</scenarionl>
+<Omschrijving>Aangifte van schorsing bedienden wegens werkgebrek</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH003</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 3 - Aangifte aanvang deeltijdse arbeid</scenarionl>
+<Omschrijving>Aangifte aanvang deeltijdse arbeid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH003</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 3 - Aangifte aanvang deeltijdse arbeid</scenarionl>
+<Omschrijving>Aangifte aanvang deeltijdse arbeid - Onderwijs</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/08/2016</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH004</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 4 - Aangifte halftijds brugpensioen</scenarionl>
+<Omschrijving>Aangifte halvering arbeidsprestaties in het kader van het halftijds brugpensioen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2012</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge gebrek aan werk wegens economische redenen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge slecht weer</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>003</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge technische stoornis</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>004</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge overmacht</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>005</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge overmacht om medische redenen</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>006</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens jaarlijkse vakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>007</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens vakantie krachtens een algemeen bindend verklaarde CAO</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>008</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens inhaalrust in het kader van arbeidsduurvermindering</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>009</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge staking of lock-out</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>010</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren tijdelijke werkloosheid in geval van ontslag van een beschermde werknemer</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH005</idhoofd>
+<idsub>011</idsub>
+<scenarionl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</scenarionl>
+<Omschrijving>Maandelijkse aangifte uren schorsing bedienden wegens werkgebrek</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH006</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 6 - Maandelijkse aangifte van deeltijdse arbeid voor de berekening van de inkomensgarantie-uitkering</scenarionl>
+<Omschrijving>Maandelijkse aangifte van deeltijdse arbeid voor de berekening van de inkomensgarantie-uitkering</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH006</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 6 - Maandelijkse aangifte van deeltijdse arbeid voor de berekening van de inkomensgarantie-uitkering</scenarionl>
+<Omschrijving>Maandelijkse aangifte van deeltijdse arbeid voor de berekening van de inkomensgarantie-uitkering - Onderwijs</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>29/02/2016</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH007</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 7 - Maandelijkse aangifte van arbeid als werknemer tewerkgesteld in een beschermde werkplaats</scenarionl>
+<Omschrijving>Maandelijke aangifte van arbeid als werknemer tewerkgesteld in een beschermde werkplaats</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de integratie-uitkering toegekend aan werknemers tewerkgesteld in een doorstromingsprogramma.</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de herinschakelingsuitkering toegekend aan werknemers tewerkgesteld in een dienstenbaan.</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2010</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>003</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>004</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de SINE-uitkering toegekend aan werknemers tewerkgesteld in een sociale inschakelingstewerkstelling</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>005</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa-uitzendkracht</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2010</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>006</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa-korte duur</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2010</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>007</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa-veiligheids- en preventiepersoneel</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>008</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa-START</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>010</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Wallonië - Langdurig werkzoekenden</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>011</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Wallonië - Jonge werkzoekenden</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>012</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Wallonië - Inschakelingscontract</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>020</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Brussel - Langdurig werkzoekenden</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH008</idhoofd>
+<idsub>021</idsub>
+<scenarionl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</scenarionl>
+<Omschrijving>Maandelijkse aangifte voor de berekening van de werkuitkering - Brussel - Verminderd arbeidsgeschikten</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH009</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 9 - Aangifte voor het vaststellen van het recht op jeugd- of seniorvakantie</scenarionl>
+<Omschrijving>Aangifte voor het vaststellen van het recht op jeugdvakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH009</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 9 - Aangifte voor het vaststellen van het recht op jeugd- of seniorvakantie</scenarionl>
+<Omschrijving>Aangifte voor het vaststellen van het recht op seniorvakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH010</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 10 - Maandelijkse aangifte van de uren jeugd- of seniorvakantie</scenarionl>
+<Omschrijving>Maandelijkse aangifte van de uren jeugdvakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH010</idhoofd>
+<idsub>002</idsub>
+<scenarionl>Scenario 10 - Maandelijkse aangifte van de uren jeugd- of seniorvakantie</scenarionl>
+<Omschrijving>Maandelijkse aangifte van de uren seniorvakantie</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+<ann12>
+<hoofdnl>WERKLOOSHEID</hoofdnl>
+<idhoofd>WECH011</idhoofd>
+<idsub>001</idsub>
+<scenarionl>Scenario 11 - Maandelijkse aangifte van havenarbeid</scenarionl>
+<Omschrijving>Maandelijkse aangifte van havenarbeid</Omschrijving>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann12>
+</List>

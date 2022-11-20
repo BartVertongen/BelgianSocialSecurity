@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann28 (Code?, Description?, CodeRSZ?, PRESCODE?, WRKTYPE?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann28+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT CodeRSZ (#PCDATA)>
+     <!ELEMENT PRESCODE (#PCDATA)>
+     <!ELEMENT WRKTYPE (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann28>
+<Code>101</Code>
+<Description>Travailleurs manuels contractuels</Description>
+<CodeRSZ>15</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>102</Code>
+<Description>Travailleurs manuels contractuels qui remplacent un travailleur qui a choisi la semaine (volontaire) de 4 jours</Description>
+<CodeRSZ>15</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2013</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>102</Code>
+<Description>Travailleurs manuels contractuels qui remplacent un travailleur qui a choisi la semaine (volontaire) de 4 jours</Description>
+<CodeRSZ>21</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/2014</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>103</Code>
+<Description>Travailleurs manuels contractuels - détachés syndicaux</Description>
+<CodeRSZ>15</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2016</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>104</Code>
+<Description>Travailleurs manuels contractuels - travailleurs handicapés occupés dans un atelier protégé</Description>
+<CodeRSZ>12</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>109</Code>
+<Description>Stagiaires en vue d'une nomination à titre définitif - régime de sécurité sociale des contractuels - travailleurs manuels</Description>
+<CodeRSZ>15</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/07/2012</begin_geldigheid>
+<einde_geldigheid>31/03/2014</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>111</Code>
+<Description>Travailleurs manuels ACS - CONTINGENT</Description>
+<CodeRSZ>24</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2014</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>112</Code>
+<Description>Travailleurs manuels ACS - PROJETS</Description>
+<CodeRSZ>24</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2014</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>113</Code>
+<Description>Travailleurs manuels ACS - administrations publiques</Description>
+<CodeRSZ>24</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2014</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>114</Code>
+<Description>Travailleurs manuels contractuels subventionnés</Description>
+<CodeRSZ>24</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/2014</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>121</Code>
+<Description>Travailleurs manuels engagés dans le cadre de l'article 60 § 7 de la loi organique des CPAS du 8 juillet 1976 (à partir de 2019/2 uniquement valable dans la Région Bruxelles-Capitale, la Région wallonne et les communes germanophones)</Description>
+<CodeRSZ>090</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>131</Code>
+<Description>Travailleurs manuels - jeunes jusqu'au 4ème trimestre de l'année de leurs 18 ans - art. 5bis de l'AR du 28.11.1969</Description>
+<CodeRSZ>27</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>132</Code>
+<Description>Travailleurs manuels - jeunes entre 18 et 25 ans occupés dans le cadre d'un système associant le travail et la formation - AR n° 495 du 31.12.1986</Description>
+<CodeRSZ>15</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>133</Code>
+<Description>Travailleurs manuels - apprentis jusqu'au 4ème trimestre de l'année de leur 18 ans - article 4 de l'AR du 28.11.1969</Description>
+<CodeRSZ>35</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>1</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>201</Code>
+<Description>Travailleurs intellectuels contractuels</Description>
+<CodeRSZ>495</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>202</Code>
+<Description>Travailleurs intellectuels contractuels qui remplacent un travailleur qui a choisi la semaine (volontaire) de 4 jours</Description>
+<CodeRSZ>495</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2013</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>202</Code>
+<Description>Travailleurs intellectuels contractuels qui remplacent un travailleur qui a choisi la semaine (volontaire) de 4 jours</Description>
+<CodeRSZ>481</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/2014</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>203</Code>
+<Description>Travailleurs intellectuels contractuels - détachés syndicaux</Description>
+<CodeRSZ>495</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2016</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>204</Code>
+<Description>Travailleurs intellectuels contractuels - travailleurs handicapés occupés dans un atelier protégé</Description>
+<CodeRSZ>492</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>209</Code>
+<Description>Stagiaires en vue d'une nomination à titre définitif - régime de sécurité sociale des contractuels - travailleurs intellectuels</Description>
+<CodeRSZ>495</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/07/2012</begin_geldigheid>
+<einde_geldigheid>31/03/2014</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>211</Code>
+<Description>Travailleurs intellectuels ACS - CONTINGENT</Description>
+<CodeRSZ>484</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2014</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>212</Code>
+<Description>Travailleurs intellectuels ACS - PROJETS</Description>
+<CodeRSZ>484</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2014</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>213</Code>
+<Description>Travailleurs intellectuels ACS - administrations publiques</Description>
+<CodeRSZ>484</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2014</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>214</Code>
+<Description>Travailleurs intellectuels contractuels subventionnés</Description>
+<CodeRSZ>484</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/2014</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>221</Code>
+<Description>Travailleurs intellectuels engagés dans le cadre de l'article 60 § 7 de la loi organique des CPAS du 8 juillet 1976 (à partir de 2019/2 uniquement valable dans la Région Bruxelles-Capitale, la Région wallonne et les communes germanophones)</Description>
+<CodeRSZ>400</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>231</Code>
+<Description>Travailleurs intellectuels - jeunes jusqu'au 4ème trimestre de l'année de leurs 18 ans - art. 5bis de l'AR du 28.11.1969</Description>
+<CodeRSZ>487</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>232</Code>
+<Description>Travailleurs intellectuels - jeunes entre 18 et 25 ans occupé dans le cadre d'un système associant le travail et la formation - AR n° 495 du 31.12.1986</Description>
+<CodeRSZ>495</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>233</Code>
+<Description>Travailleurs intellectuels - apprentis jusqu'au 4ème trimestre de l'année de leur 18 ans - article 4 de l'AR du 28.11.1969</Description>
+<CodeRSZ>439</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>251</Code>
+<Description>Médecins en formation - art. 15bis de l'AR du 28.11.1969</Description>
+<CodeRSZ>403</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>252</Code>
+<Description>Médecins contractuels exonérés des cotisations de sécurité sociale en vertu de l'art. 1, § 3 de la loi du 27.06.1969</Description>
+<CodeRSZ>402</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>2</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>301</Code>
+<Description>Cotisations pension de base - fonds de pension solidarisé - ex-régime commun</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>302</Code>
+<Description>Cotisations pension de base - fonds de pension solidarisé - ex-régime des nouveaux affiliés + nouveaux adhérents au taux supérieur</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>303</Code>
+<Description>Cotisations pension de base - fonds de pension solidarisé - police locale</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>304</Code>
+<Description>Cotisations pension de base - fonds de pension solidarisé - nouveaux adhérents au taux inférieur</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>306</Code>
+<Description>Cotisations pension de base - fonds de pension solidarisé - ex-institution de prévoyance au taux spécifique</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>307</Code>
+<Description>Cotisation de pension - pool des parastataux (loi du 28-4-1958)</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>308</Code>
+<Description>Cotisation de pension - pension à charge du trésor public</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>601</Code>
+<Description>Définitifs</Description>
+<CodeRSZ>675</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>3</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>602</Code>
+<Description>Définitifs - pas de cotisation allocations familiales à l'ORPSS (uniquement les CER et SDR)</Description>
+<CodeRSZ>675</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>3</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2006</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>603</Code>
+<Description>Définitifs - détachés syndicaux</Description>
+<CodeRSZ>675</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>3</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2016</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>604</Code>
+<Description>Définitifs - travailleurs handicapés occupés dans un atelier protégé</Description>
+<CodeRSZ>675</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>3</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>608</Code>
+<Description>Stagiaires en vue d'une nomination à titre définitif - régime de vacances secteur privé</Description>
+<CodeRSZ>675</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>3</WRKTYPE>
+<begin_geldigheid>01/04/2014</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>609</Code>
+<Description>Stagiaires en vue d'une nomination à titre définitif - régime de vacances secteur public</Description>
+<CodeRSZ>675</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>3</WRKTYPE>
+<begin_geldigheid>01/07/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>642</Code>
+<Description>Médecins définitifs soumis aux cotisations de sécurité sociale et qui, sur base de l'art. 158 de la loi relative aux hôpitaux du 10-07-2008, n'ont pas de droit à une pension publique</Description>
+<CodeRSZ>675</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>3</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>651</Code>
+<Description>Médecins définitifs exonérés des cotisations de sécurité sociale sur base de l'art. 1er, § 3 de la loi du 27.6.1969 et qui, sur base de l'art. 158 de la loi relative aux hôpitaux du 10-07-2008, ont droit à une pension publique</Description>
+<CodeRSZ>690</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>3</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>652</Code>
+<Description>Médecins définitifs exonérés des cotisations de sécurité sociale sur base de l'art. 1, § 3 de la loi de 27.06.1969 et qui, sur base de l'art. 158 de la loi relative aux hôpitaux du 10-7-2008, n'ont pas de droit à une pension publique</Description>
+<CodeRSZ>691</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>3</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>671</Code>
+<Description>Cotisation pour le personnel statutaire - Régime assurance maladie invalidité</Description>
+<CodeRSZ>876</CodeRSZ>
+<PRESCODE>1</PRESCODE>
+<WRKTYPE>8</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>672</Code>
+<Description>Cotisation pour le personnel statutaire licencié - régime chômage</Description>
+<CodeRSZ>877</CodeRSZ>
+<PRESCODE>1</PRESCODE>
+<WRKTYPE>8</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>701</Code>
+<Description>Etudiants occupés dans le cadre d'un contrat d'occupation d'étudiants et pour lesquels la cotisation de solidarité est due</Description>
+<CodeRSZ>840</CodeRSZ>
+<PRESCODE>1</PRESCODE>
+<WRKTYPE>7</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>702</Code>
+<Description>Moniteurs et animateurs d'activités socio-culturelles exonérés sur base de l'article 17 de l'AR du 28.11.1969</Description>
+<CodeRSZ>699</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>6</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>711</Code>
+<Description>Ministres des cultes et conseillers laïcs - art. 13 de l'AR du 28.11.1969</Description>
+<CodeRSZ>675</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>6</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>721</Code>
+<Description>Mandataires locaux non protégés - article 37quater de la loi du 29.6.1981</Description>
+<CodeRSZ>404</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>6</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>722</Code>
+<Description>Mandataires locaux protégés</Description>
+<CodeRSZ>405</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>6</WRKTYPE>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>731</Code>
+<Description>Pompiers volontaires et ambulanciers volontaires - travailleurs manuels</Description>
+<CodeRSZ>091</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>6</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>732</Code>
+<Description>Pompiers volontaires et ambulanciers volontaires - travailleurs intellectuels</Description>
+<CodeRSZ>401</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>6</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>741</Code>
+<Description>Artistes</Description>
+<CodeRSZ>46</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>4</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>761</Code>
+<Description>Gardiens ou gardiennes d'enfants reconnus</Description>
+<CodeRSZ>497</CodeRSZ>
+<PRESCODE>3</PRESCODE>
+<WRKTYPE>5</WRKTYPE>
+<begin_geldigheid>01/04/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>771</Code>
+<Description>Chômeurs avec complément d'entreprise (RCC)</Description>
+<CodeRSZ>879</CodeRSZ>
+<PRESCODE>1</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>801</Code>
+<Description>Cotisation spéciale due sur la prime Corona</Description>
+<CodeRSZ>801</CodeRSZ>
+<PRESCODE>5</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/07/2021</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>842</Code>
+<Description>Cotisation régime de pension complémentaire contractuels</Description>
+<CodeRSZ>835</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>843</Code>
+<Description>Cotisation régime de pension complémentaire - contractuels - Anvers et Bruges (à partir de 2020/1 uniquement Anvers)</Description>
+<CodeRSZ>835</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>844</Code>
+<Description>Cotisation régime de pension complémentaire contractuels - bonus</Description>
+<CodeRSZ>835</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/2014</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>845</Code>
+<Description>Cotisation pour le Service Social Collectif du SFP</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>12</WRKTYPE>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>846</Code>
+<Description>Cotisation pour le Service Social Collectif de la police</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>12</WRKTYPE>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>847</Code>
+<Description>Cotisation pour le Service Social Collectif - Flandre</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>12</WRKTYPE>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2020</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>847</Code>
+<Description>Cotisation pour le Service Social Collectif - Flandre</Description>
+<CodeRSZ>847</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>12</WRKTYPE>
+<begin_geldigheid>01/01/2021</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>851</Code>
+<Description>Cotisation spéciale due sur les réserves constituées par les employeurs en vue de la formation d'une pension extra-légale</Description>
+<CodeRSZ>851</CodeRSZ>
+<PRESCODE>5</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2011</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>855</Code>
+<Description>Cotisation du chômage de 1,69 % (AR 401)</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>856</Code>
+<Description>Cotisation spéciale destinée au financement de la sécurité sociale (loi du 30.03.1994 portant financement de la sécurité sociale)</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>857</Code>
+<Description>Cotisation de chômage de 1,60 % (AR 401)</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>860</Code>
+<Description>Cotisation de solidarité sur le montant de l'allocation de mobilité</Description>
+<CodeRSZ>860</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2020</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>861</Code>
+<Description>Cotisation de solidarité sur les participations aux bénéfices</Description>
+<CodeRSZ>861</CodeRSZ>
+<PRESCODE>5</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>862</Code>
+<Description>Cotisation de solidarité pour l'usage d'un véhicule de société à des fins privées ou pour le déplacement domicile-lieu de travail</Description>
+<CodeRSZ>862</CodeRSZ>
+<PRESCODE>4</PRESCODE>
+<WRKTYPE>14</WRKTYPE>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>864</Code>
+<Description>Cotisation spéciale due sur les versements effectués par les employeurs pour la constitution d'une pension extra-légale ; versements directs aux ex-travailleurs</Description>
+<CodeRSZ>864</CodeRSZ>
+<PRESCODE>5</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/10/2011</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>865</Code>
+<Description>Cotisation spéciale due sur les versements effectués par les employeurs pour la constitution d'une pension extra-légale ; versements dans le cadre d'un plan d'entreprise</Description>
+<CodeRSZ>865</CodeRSZ>
+<PRESCODE>5</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/10/2011</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>867</Code>
+<Description>Cotisation spéciale supplémentaire due sur les versements effectués par les employeurs pour la constitution d'une pension extra-légale qui dépassent un montant déterminé</Description>
+<CodeRSZ>867</CodeRSZ>
+<PRESCODE>4</PRESCODE>
+<WRKTYPE>14</WRKTYPE>
+<begin_geldigheid>01/10/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>868</Code>
+<Description>Cotisation de solidarité sur un véhicule de société respectueux de  l'environnement dans le cadre du budget mobilité</Description>
+<CodeRSZ>868</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>869</Code>
+<Description>Cotisation spéciale sur le solde du budget mobilité versé en espèces et qui correspond au 3ème pilier</Description>
+<CodeRSZ>869</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>870</Code>
+<Description>Cotisation due sur le (double) pécule de vacances à l'exception des mandataires et du personnel de police contractuel</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>5</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>871</Code>
+<Description>Cotisation due sur le (double) pécule de vacances des mandataires, du personnel de police contractuel et des stagiaires en vue d'une nomination à titre définitif - régime de vacances secteur privé</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>5</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>872</Code>
+<Description>Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) - secteur non marchand - RCC ayant débuté à partir du 1/04/2012 (à l'exception des cas assimilés au CT 880)</Description>
+<CodeRSZ>277</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>873</Code>
+<Description>Cotisation patronale spéciale pour un travailleur bénéficiant du régime de chômage avec complément d'entreprise (RCC) - RCC ayant débuté à partir du 01/04/2012 (à l'exception des cas assimilés aux CT 879 ou 881)</Description>
+<CodeRSZ>276</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>874</Code>
+<Description>Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) durant une période de reconnaissance comme entreprise en restructuration - RCC ayant débuté à partir du 01/04/2012 (à l'exception des cas assimilés au CT 884)</Description>
+<CodeRSZ>278</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>878</Code>
+<Description>Cotisation due pour les journalistes professionnels reconnus</Description>
+<CodeRSZ>878</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/04/2021</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>879</Code>
+<Description>Cotisation patronale spéciale pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) -  RCC ayant débuté avant le 01/04/2010 ou assimilé</Description>
+<CodeRSZ>270</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>880</Code>
+<Description>Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) - secteur non marchand - RCC ayant débuté avant le 01/04/2012 ou assimilé</Description>
+<CodeRSZ>271</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>881</Code>
+<Description>Cotisation patronale spéciale pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) - RCC ayant débuté entre le 01/04/2010 et le 31/03/2012 ou assimilé</Description>
+<CodeRSZ>273</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>882</Code>
+<Description>Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) - durant  une période de reconnaissance comme entreprise en difficulté</Description>
+<CodeRSZ>274</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>884</Code>
+<Description>Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) - période de reconnaissance comme entreprise en restructuration - RCC ayant débuté entre le 01/04/2010 et le 31/03/2012 ou assimilé</Description>
+<CodeRSZ>275</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>886</Code>
+<Description>Retenue personnelle pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC)</Description>
+<CodeRSZ>295</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>15</WRKTYPE>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>889</Code>
+<Description>Cotisation de solidarité sur les amendes de circulation remboursées par l'employeur</Description>
+<CodeRSZ>889</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>9</WRKTYPE>
+<begin_geldigheid>01/01/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>891</Code>
+<Description>Cotisation pension personnel nommé régime commun des pensions</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>892</Code>
+<Description>Cotisation pension personnel nommé régime des nouveaux affiliés</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>893</Code>
+<Description>Cotisation pension personnel nommé  de la police locale intégrée</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>10</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>894</Code>
+<Description>Cotisation pension - personnel nommé - détachés syndicaux</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>11</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2016</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>896</Code>
+<Description>Cotisation du chômage de 1,69 % (AR 401) - détachés syndicaux</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>11</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2016</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>897</Code>
+<Description>Cotisations de sécurité sociale - détachés syndicaux</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>11</WRKTYPE>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2016</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>898</Code>
+<Description>Cotisations sur indemnité pour période d'incapacité temporaire en raison d'une maladie professionnelle reconnue</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>13</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2019</einde_geldigheid>
+</ann28>
+<ann28>
+<Code>899</Code>
+<Description>Exonération complète des cotisations</Description>
+<CodeRSZ>/</CodeRSZ>
+<PRESCODE>2</PRESCODE>
+<WRKTYPE>11</WRKTYPE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann28>
+</List>

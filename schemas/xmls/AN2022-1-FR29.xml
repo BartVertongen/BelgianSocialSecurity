@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann29 (Code?, Description?, PRESENCECODE?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann29+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT PRESENCECODE (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann29>
+<Code>951</Code>
+<Description>Agents contractuels - régime de vacances secteur privé et régime accidents du travail secteur public</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>952</Code>
+<Description>Agents contractuels - régime de vacances secteur public et régime accidents du travail secteur public</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>953</Code>
+<Description>Agents définitifs - régime commun des pensions</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>954</Code>
+<Description>Agents définitifs - régime de pension - nouveaux affiliés à l'Office</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>955</Code>
+<Description>Agents définitifs - caisse propre de pension</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>956</Code>
+<Description>Agents définitifs - régime de pension - institution de prévoyance</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>957</Code>
+<Description>Agents définitifs - régime de pension - personnel de police</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>958</Code>
+<Description>Catégories spéciales</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>959</Code>
+<Description>Travailleurs qui ne sont plus en service</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>971</Code>
+<Description>Nommés - fonds de pension solidarisé - ex-régime commun</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>972</Code>
+<Description>Nommés - fonds de pension solidarisé - ex-régime des nouveaux affiliés + adhérents après le 31-12-2011 au taux supérieur</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>973</Code>
+<Description>Nommés - fonds de pension solidarisé - police locale</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>974</Code>
+<Description>Nommés - fonds de pension solidarisé - adhérents après le 31-12-2011 au taux inférieur</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>975</Code>
+<Description>Nommés - régime de pension propre ou régime de pension institution de prévoyance</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>976</Code>
+<Description>Nommés - fonds de pension solidarisé - ex- institution de prévoyance au taux spécifique</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>977</Code>
+<Description>Nommés - pool des parastataux (loi du 28-4-1958)</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>978</Code>
+<Description>Nommés - pension à charge du trésor public</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>981</Code>
+<Description>Agents contractuels - régime de vacances secteur privé et régime accidents du travail secteur privé</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+<ann29>
+<Code>982</Code>
+<Description>Agents contractuels - régime de vacances secteur public et régime accidents du travail secteur privé</Description>
+<PRESENCECODE>6</PRESENCECODE>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann29>
+</List>

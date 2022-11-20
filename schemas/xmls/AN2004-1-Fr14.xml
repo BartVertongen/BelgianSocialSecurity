@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann14 (Code?, Description?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann14+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann14>
+<Code>0</Code>
+<Description>Pas d'information</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>10</Code>
+<Description>Déviation par problème électrique, explosion, feu - Non précisé</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>11</Code>
+<Description>Problème électrique par défaillance dans l'installation - entraînant un contact indirect</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>12</Code>
+<Description>Problème électrique - entraînant un contact direct</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>13</Code>
+<Description>Explosion</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>14</Code>
+<Description>Incendie, embrasement</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>19</Code>
+<Description>Autre déviation connue du groupe 10 mais non listée ci-dessus</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>20</Code>
+<Description>Déviation par débordement, renversement, fuite, écoulement, vaporisation, dégagement - Non précisé</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>21</Code>
+<Description>A l'état de solide - débordement, renversement</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>22</Code>
+<Description>A l'état de liquide - fuite, suintement, écoulement, éclaboussure, aspersion</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>23</Code>
+<Description>A l'état gazeux - vaporisation, formation d'aérosol, formation de gaz</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>24</Code>
+<Description>Pulvérulent - génération de fumée, émission de poussières, particules</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>29</Code>
+<Description>Autre déviation connue du groupe 20 mais non listée ci-dessus</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>30</Code>
+<Description>Rupture, bris, éclatement, glissade, chute, effondrement d'Agent matériel - Non précisé</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>31</Code>
+<Description>Rupture de matériel, aux joints, aux connexions</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>32</Code>
+<Description>Rupture, éclatement, causant des éclats (bois, verre, métal, pierre, plastique, autres)</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>33</Code>
+<Description>Glissade, chute, effondrement d'agent matériel - supérieur (tombant sur la victime)</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>34</Code>
+<Description>Glissade, chute, effondrement d'agent matériel - inférieur (entraînant la victime)</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>35</Code>
+<Description>Glissade, chute, effondrement d'Agent matériel - de plain-pied</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>39</Code>
+<Description>Autre déviation connue du groupe 30 mais non listée ci-dessus</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>40</Code>
+<Description>Perte, totale ou partielle, de contrôle de machine, moyen de transport - équipement de manutention, outil à main, objet, animal - Non précisé</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>41</Code>
+<Description>Perte, totale ou partielle, de contrôle - de machine (y compris le démarrage intempestif) ainsi que de la matière travaillée par la machine</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>42</Code>
+<Description>Perte, totale ou partielle, de contrôle de moyen de transport - d'équipement de manutention (motorisé ou non)</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>43</Code>
+<Description>Perte, totale ou partielle, de contrôle d'outil à main (motorisé ou non) ainsi que de la matière travaillée par l'outil</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>44</Code>
+<Description>Perte, totale ou partielle, de contrôle d'objet (porté, déplacé, manipulé, etc.)</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>45</Code>
+<Description>Perte, totale ou partielle, de contrôle d'animal</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>49</Code>
+<Description>Autre déviation connue du groupe 40 mais non listée ci-dessus</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>50</Code>
+<Description>Glissade ou trébuchement avec chute, chute de personne - Non précisé</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>51</Code>
+<Description>Chute de personne - de hauteur</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>52</Code>
+<Description>Glissade ou trébuchement avec chute, chute de personne - de plain-pied</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>59</Code>
+<Description>Autre déviation connue du groupe 50 mais non listée ci-dessus</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>60</Code>
+<Description>Mouvement du corps sans contrainte physique (conduisant généralement à une blessure externe) - Non précisé</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>61</Code>
+<Description>En marchant sur un objet coupant</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>62</Code>
+<Description>En s'agenouillant, s'asseyant, s'appuyant contre</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>63</Code>
+<Description>En étant attrapé, entraîné, par quelque chose ou par son élan</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>64</Code>
+<Description>Mouvements non coordonnés, gestes intempestifs, inopportuns</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>69</Code>
+<Description>Autre déviation connue du groupe 60 mais non listée ci-dessus</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>70</Code>
+<Description>Mouvement du corps sous ou avec contrainte physique (conduisant généralement à une blessure interne) - Non précisé</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>71</Code>
+<Description>En soulevant, en portant, en se levant</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>72</Code>
+<Description>En poussant, en tractant</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>73</Code>
+<Description>En déposant, en se baissant</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>74</Code>
+<Description>En torsion, en rotation, en se tournant</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>75</Code>
+<Description>En marchant lourdement, faux pas, glissade - sans chute</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>79</Code>
+<Description>Autre déviation connue du groupe 70 mais non listée ci-dessus</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>80</Code>
+<Description>Surprise, frayeur, violence, agression, menace, présence - Non précisé</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>81</Code>
+<Description>Surprise, fayeur</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>82</Code>
+<Description>Violence, agression, menace entre membres de l'entreprise soumis à l'autorité de l'employeur</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>83</Code>
+<Description>Violence, agression, menace - provenant de personnes externes à l'entreprise envers les victimes dans le cadre de leur fonction (attaque de banque, chauffeurs de bus, etc.)</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>84</Code>
+<Description>Agression, bousculade - par animal</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>85</Code>
+<Description>Présence de la victime ou d'un tiers créant en soi un danger pour elle/lui-même et le cas échéant pour autrui</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>89</Code>
+<Description>Autre déviation connue du groupe 80 mais non listée ci-dessus</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+<ann14>
+<Code>99</Code>
+<Description>Autre Déviation non listée dans cette classification</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann14>
+</List>

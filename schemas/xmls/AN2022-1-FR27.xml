@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann27 (Secteur?, Code?, Description?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann27+)>
+     <!ELEMENT Secteur (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>000</Code>
+<Description>Catégorie générale pour les employeurs pour lesquels l'ONSS ne perçoit aucune cotisation spéciale pour un fonds social et qui ne relèvent d'aucune autre catégorie particulière (voir aussi catégorie 011).</Description>
+<begin_geldigheid>01/01/1945</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>002</Code>
+<Description>Catégorie particulière pour les employeurs redevables pour les ouvriers d'une cotisation spéciale au "Fonds pour la formation des ouvriers de la Commission paritaire auxiliaire pour ouvriers" (CP n° 100) et d'aucune cotisation spéciale pour les employés (depuis le 01/07/2014, concerne notamment les activités de casino; de contrôle technique et d'évaluation de la conformité).</Description>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>004</Code>
+<Description>Titulaire d'un mandat politique ou public - cotisation semestrielle de solidarité. Catégorie supprimée au 31/12/1988.</Description>
+<begin_geldigheid>01/01/1987</begin_geldigheid>
+<einde_geldigheid>31/12/1988</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>005</Code>
+<Description>Catégorie réservée aux employeurs qui occupent uniquement des étudiants non assujettis à la sécurité sociale, dans les liens d'un contrat d'occupation étudiant, et qui ne sont redevables que d'une cotisation de solidarité. Catégorie supprimée au 31/12/2009.</Description>
+<begin_geldigheid>01/07/1997</begin_geldigheid>
+<einde_geldigheid>31/12/2009</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>006</Code>
+<Description>Employeurs pour lesquels, en vertu de la loi du 22 février 1998, l'Office national de sécurité sociale assure la perception et le recouvrement des cotisations qui jusqu'à la date du 30/09/1998 étaient perçues par le Fonds de retraite des ouvriers mineurs.</Description>
+<begin_geldigheid>01/10/1998</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>007</Code>
+<Description>Intermédiaires en services bancaires et en services d'investissement, inscrits auprès de la FSMA.</Description>
+<begin_geldigheid>01/01/2016</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>010</Code>
+<Description>Catégorie générale pour les employeurs redevables pour leurs employés d'une cotisation au "Fonds social de la CPAE" (Commission paritaire auxiliaire pour employés n° 200 compétente pour le secteur marchand) et pour lesquels l'ONSS ne perçoit pour leurs ouvriers aucune cotisation spéciale pour un fonds social (voir aussi catégorie 210).</Description>
+<begin_geldigheid>01/07/1975</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>011</Code>
+<Description>Catégorie générale réservée aux employeurs "sans but de lucre" pour lesquels l'ONSS ne perçoit aucune cotisation spéciale pour un fonds social et qui ne relèvent d'aucune catégorie particulière ; catégorie réservée aux employeurs qui relèvent principalement de la CP n° 335 et qui ne relèvent d'aucune autre catégorie particulière (voir aussi catégorie 000).</Description>
+<begin_geldigheid>01/07/1975</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>012</Code>
+<Description>Catégorie réservée aux employeurs étrangers sans siège d'exploitation en Belgique redevables : pour leurs employés : d'une cotisation au "Fonds social de la CPAE" (CP n° 200 compétente pour le secteur marchand) et, à partir du 01/04/2012, pour les ouvriers : d'une cotisation au "Fonds pour la formation des ouvriers de la Commission paritaire auxiliaire pour ouvriers" (CP n° 100).</Description>
+<begin_geldigheid>01/07/1975</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>013</Code>
+<Description>Employeurs relevant  pour les ouvriers et certains employés de la Commission paritaire de l'industrie et du commerce du diamant n° 324 ; non redevables pour les ouvriers des entreprises commerciales de la cotisation de base au Fonds de fermeture d'entreprises ; pour certains employés : redevables d'une cotisation au Fonds de la Commission paritaire n° 200 CPAE.</Description>
+<begin_geldigheid>01/01/1945</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>014</Code>
+<Description>Employeurs relevant de la Commission paritaire des ports n° 301 et/ou des Sous commissions paritaires 301.01, 301.02, 301.03 et 301.05.</Description>
+<begin_geldigheid>01/01/1945</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>015</Code>
+<Description>Employeurs relevant de la Commission paritaire de l'industrie de la réparation des navires. Catégorie supprimée au 30/06/2005. Employeurs repris en catégorie 000 à partir du 01/07/2005.</Description>
+<begin_geldigheid>01/01/1945</begin_geldigheid>
+<einde_geldigheid>30/06/2005</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>016</Code>
+<Description>Employeurs, exclusivement de type non-commercial, redevables d'une cotisation au Fonds de la Commission paritaire de l'industrie hôtelière n° 302 ; à partir du 01/07/2007, à l'exclusion des travailleurs occasionnels déclarés dans une autre catégorie (voir aussi catégories 116, 216, 017, 117, 217). Catégorie supprimée au 30/09/2013.</Description>
+<begin_geldigheid>01/07/1981</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>017</Code>
+<Description>Employeurs, de type commercial ou non-commercial, redevables d'une cotisation au Fonds de la Commission paritaire de l'industrie hôtelière n° 302 ; à l'exclusion des travailleurs occasionnels déclarés dans la catégorie 317.</Description>
+<begin_geldigheid>01/04/1979</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>018</Code>
+<Description>Employeurs occupant des travailleurs à domicile et ne cotisant pas pour leurs employés au "Fonds social". Catégorie supprimée au 31/03/1988. Employeurs repris en catégorie 000 à partir du 01/04/1988.</Description>
+<begin_geldigheid>01/07/1975</begin_geldigheid>
+<einde_geldigheid>31/03/1988</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>019</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire n° 143 de la pêche maritime - "Zeevissersfonds" ; catégorie réservée au personnel navigant ; les travailleurs liés par un contrat d'engagement pour la pêche maritime sont à déclarer selon un mode particulier pour leurs rémunérations (forfaitaires) et leurs prestations (voir aussi catégories 086, 186).</Description>
+<begin_geldigheid>01/01/1946</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>020</Code>
+<Description>Employeurs occupant des travailleurs rémunérés totalement ou partiellement au pourboire, qui ne relèvent pas de la Commission paritaire de l'industrie hôtelière n° 302 et qui ne sont pas redevables de la cotisation de base au "Fonds de fermeture d'entreprises". Catégorie supprimée au 31/03/2007.</Description>
+<begin_geldigheid>01/07/1981</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>021</Code>
+<Description>Employeurs relevant de la Commission paritaire n° 139 de la batellerie occupant des travailleurs liés par un contrat d'engagement pour le service des bâtiments de navigation intérieure.</Description>
+<begin_geldigheid>01/01/1945</begin_geldigheid>
+<einde_geldigheid>31/12/2015</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>022</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour les établissements et services de santé n° 305.02, redevables d'une cotisation au "Fonds social pour le secteur des milieux d'accueil d'enfants" (sous secteur 305.02.09) ; concerne les employeurs "francophones et germanophones" situés dans la Région wallonne ou dans la Région de Bruxelles-Capitale dont l'activité consiste en "l'accueil des enfants" ; non redevables de la cotisation de base au "Fonds de fermetures d'entreprises" (voir aussi catégorie 322) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/01/1990</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>022</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 332 pour "le Secteur francophone et germanophone de l'aide sociale et des soins de santé" (sous-secteur 332.00.10) ; redevables d'une cotisation au "Fonds social pour le secteur des milieux d'accueil d'enfants" ; concerne les employeurs francophones et germanophones situés en Région wallonne ou bruxelloise dont l'activité principale concerne l'accueil des enfants jusque 12 ans : milieu d'accueil d'enfants, accueil extra-scolaire, crèche, crèche parentale, garde d'enfants malades, maison communale d'accueil d'enfance, maison d'enfants, milieu d'accueil occasionnel, milieu d'accueil régulier à horaire flexible, milieu d'accueil d'urgence, halte-garderie, farandoline, halte-accueil, prégardiennat, services de gardiennes agréées et service d'accueillantes d'enfants conventionnées (voir aussi catégories 322, 722).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>023</Code>
+<Description>Employeurs occupant des travailleurs rémunérés totalement ou partiellement au pourboire, qui ne relèvent pas de la Commission paritaire de l'industrie hôtelière n° 302 et qui sont redevables de la cotisation de base au "Fonds de fermeture d'entreprises". Catégorie supprimée au 31/03/2007.</Description>
+<begin_geldigheid>01/04/1947</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>024</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de la construction n° 124 dont l'activité principale consiste en travaux de gros oeuvre en général (voir aussi catégories 026, 044, 054).</Description>
+<begin_geldigheid>01/01/1947</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>025</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire pour les hôpitaux privés n° 305.01 ; concerne les établissements soumis à la loi sur les hôpitaux du 23/12/1963 et les maisons de soins psychiatriques, jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/01/1990</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>025</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 330 pour les Etablissements et services de santé (sous-secteur 330.01.10) ; redevables d'une cotisation au "Fonds social pour les hôpitaux privés" ; concerne les hôpitaux privés soumis à la loi du 07/08/1987 et les maisons de soins psychiatriques (voir aussi catégories 072, 111).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>026</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de la construction n° 124 dont l'activité principale consiste en travaux de parachèvement en général (notamment peinture, isolation, installations sanitaires, de chauffage, d'objet en bois, d'éléments préfabriqués, vitrerie, charpenterie...), en commerce de gros de matériaux de construction... (voir aussi catégories 024, 044, 054).</Description>
+<begin_geldigheid>01/10/1949</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>027</Code>
+<Description>Catégorie réservée uniquement à la déclaration des cotisations personnelles dues par les victimes d'un accident de travail survenu après le 15/10/1951 qui doivent être versées par les employeurs qui sont leur propre assureur et par les organismes d'assurances.</Description>
+<begin_geldigheid>01/10/1951</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>028</Code>
+<Description>Catégorie réservée uniquement à la déclaration des cotisations personnelles dues par les victimes d'une maladie professionnelle dont l'indemnisation a été demandée après le 15/10/1951.</Description>
+<begin_geldigheid>01/01/1954</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>029</Code>
+<Description>Employeurs ressortissant de la Sous commission paritaire pour les exploitations forestières (SCP n° 125.01) qui sont redevables d'une cotisation en faveur du Fonds pour la sécurité d'existence des exploitations forestières. (voir aussi cat. 129, 229).</Description>
+<begin_geldigheid>01/07/1955</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>030</Code>
+<Description>Catégorie réservée aux employeurs ressortissants de la CP 310 (banques) ou de la CP 326 (industrie du gaz et de l'électricité) non redevables ni pour les ouvriers, ni pour les employés, d'aucune cotisation spéciale à aucun fonds social.</Description>
+<begin_geldigheid>01/07/1981</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>031</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire des maîtres-tailleurs, des tailleuses et couturières n° 107 (voir aussi catégorie 038).</Description>
+<begin_geldigheid>01/07/1982</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>032</Code>
+<Description>Ambassades et consulats redevables à partir du 01-04-2018 d'une cotisation au Fonds social auxiliaire du non-marchand.</Description>
+<begin_geldigheid>01/01/1963</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>033</Code>
+<Description>Catégorie réservée uniquement à certains services de compensation redevables des cotisations de sécurité sociale sur les salaires pour jours fériés qu'ils paient, en tant que tiers-payants, au nom et pour compte des employeurs (autres que les Fonds de sécurité d'existence et la Caisse nationale des vacances de l'industrie diamantaire).</Description>
+<begin_geldigheid>01/01/1957</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>034</Code>
+<Description>Application de la loi du 28/06/1960 relative à la sécurité sociale des personnes ayant effectué des services temporaires à l'armée. Catégorie supprimée au 31/12/2003.</Description>
+<begin_geldigheid>15/07/1960</begin_geldigheid>
+<einde_geldigheid>31/12/2003</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>035</Code>
+<Description>Catégorie réservée aux employeurs exerçant une profession libérale, c-à-d. les médecins, les dentistes, les vétérinaires, les avocats, les notaires, les architectes, les huissiers de justice, les professions paramédicales, les géomètres-experts, les réviseurs d'entreprises et les experts-comptables, les associations de fait formées par ces personnes ainsi que les sociétés qui sont créées dans le cadre de l'exercice de ces professions ; à l'exclusion des pharmaciens ; non redevables de la cotisation de base au "Fonds de fermeture d'entreprises" ; non redevables d'aucune cotisation de sécurité d'existence; mais bénéficiaires de la redistribution des charges sociales (voir aussi catégories 135, 235, 335 pour les pharmaciens) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/01/1987</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>035</Code>
+<Description>Employeurs redevables, à partir du 01/07/2012, d'une cotisation au Fonds de la Commission paritaire pour les professions libérales n° 336 ; catégorie réservée aux professions libérales au sens strict, non médicales, et bénéficiaires de la redistribution des charges sociales, c-à-d. vétérinaire, avocat, architecte, huissier de justice, géomètre-expert, réviseur d'entreprise, comptable, expert-comptable, les associations de fait formées par ces personnes ainsi que les sociétés qui sont créées dans le cadre de l'exercice de ces professions (voir aussi catégories 135, 435, 735, 835).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>036</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de l'imprimerie, des arts graphiques et des journaux n° 130.</Description>
+<begin_geldigheid>01/10/1960</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>037</Code>
+<Description>Employeurs, personnes physiques, occupant du personnel domestique, redevables d'une cotisation au Fonds de la Commission paritaire pour la gestion d'immeubles, les agents immobiliers et les travailleurs domestiques n° 323 (voir aussi cat. 039 "personnel de maison").</Description>
+<begin_geldigheid>01/01/1970</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>038</Code>
+<Description>Employeurs redevables d'une cotisation aux Fonds des Commissions paritaires de l'industrie de l'habillement et de la confection n° 109 et/ou n° 215 (voir aussi catégorie 031).</Description>
+<begin_geldigheid>01/01/1961</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>039</Code>
+<Description>Employeurs, personnes physiques, qui occupent du "personnel de maison", autres que des travailleurs domestiques ; à partir du 01/01/2008, relèvent de la Commission paritaire pour le secteur non-marchand n° 337 ou de la Commission paritaire pour les entreprises forestières n° 146 ; en sont exclus les employeurs, qui relèvent des Commissions paritaires n° 144 de l'agriculture et n° 145 pour les entreprises horticoles (voir aussi cat. 094, 193 et 037).</Description>
+<begin_geldigheid>01/01/1988</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>041</Code>
+<Description>Application de l'arrêté royal dispensant certaines catégories de personnes ayant exercé leur activité professionnelle, soit au Congo, soit au Rwanda - Burundi, des conditions d'admission à l'assurance chômage et à l'assurance maladie - invalidité. Catégorie supprimée au 31/12/2002.</Description>
+<begin_geldigheid>01/07/1962</begin_geldigheid>
+<einde_geldigheid>31/12/2002</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>043</Code>
+<Description>Catégorie réservée au personnel auxiliaire occupé par les Communautés européennes. Perception des cotisations de sécurité sociale limitées à celles afférentes aux régimes de pension, de l'assurance maladie-invalidité et du chômage.</Description>
+<begin_geldigheid>01/01/1962</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>044</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de la construction n° 124 dont l'activité principale consiste à exécuter des travaux de carrelage, de mosaïque et tous autres travaux de revêtement des murs et du sol (le bois excepté), travaux de plafonnage et d'enduits, travaux de stuc et de staff (voir aussi catégories 024, 026, 054).</Description>
+<begin_geldigheid>01/07/1962</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>048</Code>
+<Description>Employeurs redevables d'une cotisation aux Fonds des Commissions paritaires de l'industrie alimentaire n° 118 et/ou n° 220 et non repris dans une autre catégorie particulière à ce secteur (voir aussi catégories 051, 052, 058, 258, 848).</Description>
+<begin_geldigheid>01/04/1964</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>049</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour l'entretien du textile n° 110.</Description>
+<begin_geldigheid>01/10/1964</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>051</Code>
+<Description>Employeurs redevables d'une cotisation aux Fonds des Commissions paritaires de l'industrie alimentaire n° 118 et/ou n° 220 - sous secteur de l'industrie des légumes (conserves, surgelés, légumes secs, déshydratés, nettoyage ou préparation de légumes frais...) (voir aussi catégories 052, 048, 058, 258, 848).</Description>
+<begin_geldigheid>01/04/1984</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>052</Code>
+<Description>Employeurs redevables d'une cotisation aux Fonds des Commissions paritaires de l'industrie alimentaire  n° 118 et/ou n° 220 - sous secteur de l'industrie des fruits (conserves, surgelés, confitures, sirops...) (voir aussi catégories 051, 048, 058, 258, 848).</Description>
+<begin_geldigheid>01/04/1984</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>053</Code>
+<Description>Employeurs relevant des Commissions paritaires n° 101 - Commission nationale mixte des mines et n° 205 pour employés des charbonnages - concerne les mines de houille, les usines de sous-produits, les organismes dépendant des mines...</Description>
+<begin_geldigheid>01/07/1972</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>054</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de la construction n° 124 dont l'activité principale réside dans l'exécution des travaux de couverture de construction et de travaux de rejointoiement (voir aussi catégories 024, 026, 044).</Description>
+<begin_geldigheid>01/07/1962</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>055</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de l'ameublement et de l'industrie transformatrice du bois n° 126.</Description>
+<begin_geldigheid>01/01/1965</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>056</Code>
+<Description>Employeurs relevant des Commissions paritaires n° 104 de l'industrie sidérurgique et n° 210 des employés de l'industrie sidérurgique.</Description>
+<begin_geldigheid>01/01/1964</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>057</Code>
+<Description>Employeurs redevables pour les ouvriers de cotisations aux Fonds de la CP du commerce alimentaire n° 119, et pour les employés de la CP du commerce de détail indépendant n° 201 - concerne le petit commerce de détail alimentaire occupant moins de 20 travailleurs (en moyenne au cours de l'année civile précédente) (voir aussi catégorie 157).</Description>
+<begin_geldigheid>01/04/1966</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>058</Code>
+<Description>Boulangerie (ou pâtisserie) artisanale : boulangerie (ou pâtisserie) qui fabrique des produits frais de consommation immédiate à très court délai de conservation et les salons de consommation annexés à une pâtisserie dont le nombre d'ouvriers employés est inférieur à 20 (exprimés en équivalents temps plein); redevable pour les ouvriers d'une cotisation au "Fonds social et de garantie de la boulangerie, pâtisserie et salons de consommation annexés", et pour les employés au fonds de la CP du commerce de détail indépendant n° 201.</Description>
+<begin_geldigheid>01/04/1966</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>059</Code>
+<Description>Employeurs relevant de la Sous commission paritaire de la fabrication industrielle et de la fabrication artisanale de fourrure n° 148.03. Catégorie supprimée au 30/06/2014 (voir aussi catégorie 169).</Description>
+<begin_geldigheid>01/10/1966</begin_geldigheid>
+<einde_geldigheid>30/06/2014</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>060</Code>
+<Description>Employeurs relevant de la Commission paritaire pour les services de gardiennage et/ou de surveillance n° 317.</Description>
+<begin_geldigheid>01/01/1980</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>061</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de l'industrie verrière n° 115.</Description>
+<begin_geldigheid>01/01/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>062</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire des établissements et services d'éducation et d'hébergement de la communauté flamande n° 319.01 ; concerne les employeurs agréés et/ou subsidiés par la Communauté flamande ou la Commission communautaire flamande (voir aussi catégories 162, 462).</Description>
+<begin_geldigheid>01/10/1989</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>063</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire de l'industrie des carrières de kaolin et de sables, exploitées à ciel ouvert, des provinces de Brabant wallon, de Hainaut, de Liège, de Luxembourg et de Namur n° 102.05 (voir aussi catégories 463, 090, 010).</Description>
+<begin_geldigheid>01/04/1967</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>064</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire des entreprises de garages n° 112 (voir aussi catégorie 065).</Description>
+<begin_geldigheid>01/07/1967</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>065</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire pour la carrosserie n° 149.02 (voir aussi catégorie 064).</Description>
+<begin_geldigheid>01/01/1968</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>066</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour les entreprises de nettoyage n° 121.</Description>
+<begin_geldigheid>01/10/1968</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>067</Code>
+<Description>Employeurs redevables pour les ouvriers d'une cotisation au Fonds de la Sous-commission paritaire des électriciens : installation et distribution, n° 149.01 ; et pour les employés de la CP du commerce de détail indépendant n° 201, à l'exclusion de ceux relevant de la catégorie 467 (voir aussi catégorie 467).</Description>
+<begin_geldigheid>01/04/1969</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>068</Code>
+<Description>Employeurs relevant de la Commission paritaire du transport et de la logistique n° 140 et redevables d'une cotisation au "Fonds social des entreprises de taxi et des services de location de voitures avec chauffeur" (voir aussi catégories 083, 084, 085, 283).</Description>
+<begin_geldigheid>01/07/1969</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>069</Code>
+<Description>Fabrication/réparation des chaussures, pantoufles, bottiers, chausseurs - voir CP employés 200.</Description>
+<begin_geldigheid>01/07/1970</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>070</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire Nationale des Sports n° 223 ; catégorie réservée uniquement, à partir du 01/07/2007, à la déclaration des sportifs rémunérés en vertu d'un contrat de travail de sportif rémunéré prévu par la loi du 24 février 1978 et des coureurs cyclistes professionnels, titulaires d'une licence délivrée par la Royale Ligue Vélocipédique Belge ASBL, et soumis à un assujettissement restreint ; concerne aussi les arbitres de football et les entraîneurs de football, de basketball, de volleyball et de cyclisme; en combinaison avec une autre catégorie attribuée aux autres sportifs et une autre catégorie attribuée aux travailleurs ordinaires (voir aussi catégories 076, 262, 362).</Description>
+<begin_geldigheid>01/07/1978</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>071</Code>
+<Description>Catégorie réservée uniquement à la déclaration des jeunes défavorisés, soumis à un assujettissement restreint, occupés par des employeurs de type exclusivement non-commercial agréés pour la formation et la mise au travail accompagnée de jeunes défavorisés (A.R. n° 499 du 31/12/1986) ; en combinaison avec une autre catégorie attribuée aux travailleurs ordinaires. Catégorie supprimée au 31/12/2013.</Description>
+<begin_geldigheid>01/04/1988</begin_geldigheid>
+<einde_geldigheid>31/12/2013</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>072</Code>
+<Description>Catégorie réservée uniquement pour la déclaration de médecins soumis à un assujettissement restreint : 1) les médecins en formation de spécialiste, à déclarer par l'établissement de soins dans lequel la formation est suivie (en combinaison avec une autre catégorie attribuée aux travailleurs ordinaires 025..) ; 2) à partir du 3e trimestre 2009, les médecins en formation de généraliste, à déclarer par le centre de coordination pour la formation en médecine générale.</Description>
+<begin_geldigheid>01/04/1983</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>073</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour les entreprises de travail adapté de la Région wallonne et de la Communauté germanophone n° 327.03 ; concerne les ETA "germanophones", catégorie réservée aux ETA subsidiées par la Région wallonne (et reconnues par l'AWIPH - Agence Wallonne d'Intégration des Personnes Handicapées) mais non redevables d'une cotisation au "Fonds de Sécurité d'existence pour les ETA situées en Région wallonne et en Communauté germanophone" ; non redevables des cotisations en faveur des groupes à risque (852), du chômage temporaire et chômeurs âgés (859) (voir aussi catégories 173, 273, 373, 473).</Description>
+<begin_geldigheid>01/01/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>074</Code>
+<Description>Employeurs, de type exclusivement non-commercial, relevant des Commissions paritaires n° 152 et/ou 225, redevables d'une cotisation au Fonds de la Commission paritaire pour les institutions subsidiées de l'enseignement libre n° 152 ; depuis le 01/04/2007, concerne uniquement le personnel non subventionné occupé par les établissements et internats libres subventionnés par la Communauté flamande, dont le siège social est situé en Région flamande ou en Région de Bruxelles-Capitale et qui sont inscrits au rôle néerlandophone de l'ONSS (à partir du 01/07/2012 : Sous commission paritaire n° 152.01 et/ou n° 225.01) ; non redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859). (voir aussi catégorie 174).</Description>
+<begin_geldigheid>01/10/1978</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>076</Code>
+<Description>Catégorie réservée uniquement, à partir du 01/07/2007, à la déclaration des sportifs rémunérés en vertu d'un contrat de travail d'employé, autres que les sportifs déclarés dans la catégorie 070, et soumis à un assujettissement restreint ; employeurs redevables soit d'une cotisation aux Fonds des Sous-CP du secteur socio-culturel n° 329.01 (jusqu'au 30/06/2012), 329.02 ou 329.03, soit d'une cotisation au Fonds de la CP n° 200; en combinaison avec une autre catégorie attribuée aux autres sportifs et une autre catégorie attribuée aux travailleurs ordinaires (voir aussi catégories 070, 262, 362).</Description>
+<begin_geldigheid>01/01/1970</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>077</Code>
+<Description>Employeurs redevables pour les ouvriers d'une cotisation aux Fonds de la Sous-commission paritaire pour le commerce du métal n° 149.04; et pour les employés de la CP du commerce de détail indépendant n° 201.</Description>
+<begin_geldigheid>01/10/1970</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>078</Code>
+<Description>Employeurs redevables pour les ouvriers d'une cotisation aux Fonds de la Sous-commission paritaire pour les métaux précieux n° 149.03; et pour les employés de la CP du commerce de détail indépendant n° 201 - concerne les entreprises d'horlogerie, d'orfèvrerie, de bijouterie et de joaillerie.</Description>
+<begin_geldigheid>01/10/1970</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>079</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire pour la récupération des métaux n° 142.01 (voir aussi catégories 082, 092, 102).</Description>
+<begin_geldigheid>01/10/1970</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>080</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire des compagnies aériennes n° 315.02 (voir aussi catégorie 180).</Description>
+<begin_geldigheid>01/10/1978</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>081</Code>
+<Description>Employeurs redevables d'une cotisation aux Fonds : pour les ouvriers : de la Sous commission paritaire pour le commerce de combustibles de la Flandre orientale n° 127.02 ; pour les employés : à partir du 01/04/2011, de la CP du commerce de détail indépendant n° 201 (voir aussi catégories 091, 230).</Description>
+<begin_geldigheid>01/10/1982</begin_geldigheid>
+<einde_geldigheid>30/06/2016</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>082</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire pour la récupération du papier n° 142.03 (voir aussi catégories 079, 092, 102).</Description>
+<begin_geldigheid>01/10/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>083</Code>
+<Description>Employeurs relevant de la Commission paritaire du transport et de la logistique n° 140 et redevables d'une cotisation au "Fonds Social Transport et Logistique" ; et/ou redevables d'une cotisation au Fonds de la Commission paritaire pour employés du commerce international, du transport et de la logistique n° 226 - ne concerne que les sous-secteurs du transport de choses par route pour compte de tiers, de la manutention de choses et/ou des services logistiques pour compte de tiers peu importe le mode de transport utilisé (en dehors des zones portuaires) (voir aussi catégories 068, 084, 085, 283).</Description>
+<begin_geldigheid>01/01/1971</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>084</Code>
+<Description>Employeurs relevant de la Commission paritaire du transport et de la logistique n° 140 et redevables d'une cotisation au "Fonds Social des entreprises de déménagement, gardes-meubles et leurs activités connexes" et/ou redevables d'une cotisation au Fonds de la Commission paritaire pour employés du commerce international, du transport et de la logistique n° 226 (voir aussi catégories 068, 083, 085, 283)</Description>
+<begin_geldigheid>01/07/1971</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>085</Code>
+<Description>Employeurs relevant de la Commission paritaire du transport et de la logistique n° 140 et redevables d'une cotisation au "Fonds Social Bus &amp; Cars" - ne concerne que les services spéciaux d'autobus (services réguliers spécialisés) et les services d'autocars (services occasionnels) (voir aussi catégories 068, 083, 283, 084, 232, 347).</Description>
+<begin_geldigheid>01/10/1971</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>086</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de la pêche maritime n° 143 - "Waarborg en sociaal Fonds voor de zeevisserij" ; concerne les marchands de poissons, acheteurs dans les halles aux poissons du littoral et qui occupent du personnel dans leurs entrepôts situés dans ou près de ces halles (voir aussi catégorie 019, 186).</Description>
+<begin_geldigheid>01/07/1971</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>087</Code>
+<Description>Employeurs redevables d'une cotisation aux Fonds des commissions paritaires de l'industrie chimique n° 116 et/ou n° 207 (voir aussi catégorie 187).</Description>
+<begin_geldigheid>01/07/1972</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>088</Code>
+<Description>Employeurs relevant de la Commission paritaire de l'industrie des cuirs et peaux et des produits de remplacement et appartenant au secteur de la fabrication des gants en cuir, en y comprenant la coupe et la couture. Catégorie supprimée au 31/12/2002 - voir catégorie 169.</Description>
+<begin_geldigheid>01/01/1973</begin_geldigheid>
+<einde_geldigheid>30/09/2003</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>089</Code>
+<Description>Employeurs redevables d'une cotisation aux Fonds de la Commission paritaire de la transformation du papier et du carton n° 136 et /ou de la Commission paritaire des employés de la transformation du papier et du carton n° 222 (voir aussi catégorie 189).</Description>
+<begin_geldigheid>01/01/1974</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>090</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire de l'industrie des carrières et scieries de marbre de tout le territoire du Royaume n° 102.08 (voir aussi catégories 063, 463, 010).</Description>
+<begin_geldigheid>01/04/1981</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>091</Code>
+<Description>Employeurs redevables pour les ouvriers d'une cotisation aux Fonds de la Commission paritaire pour le commerce de combustibles n° 127,  et pour les employés de la CP du commerce de détail indépendant n° 201 (voir aussi catégorie 230).</Description>
+<begin_geldigheid>01/10/1974</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>092</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire pour la récupération de chiffons n° 142.02 (voir aussi catégories 079, 082, 102).</Description>
+<begin_geldigheid>01/07/1976</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>093</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour les entreprises de travaux techniques agricoles et horticoles n° 132 (voir aussi catégorie 193).</Description>
+<begin_geldigheid>01/01/1977</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>094</Code>
+<Description>Employeurs relevant de la Commission paritaire pour les entreprises horticoles n° 145, redevables d'une cotisation au "Fonds social pour l'implantation et l'entretien de parcs et jardins" ; concerne les entreprises dont l'activité consiste en l'implantation, l'entretien de parcs et jardins, à l'exclusion des autres entreprises horticoles, de la floriculture et de la culture des chicons ou des champignons ; concerne également les "gens de maison" occupés par un employeur personne physique (voir aussi catégories 194, 294, 494, 594 et 039).</Description>
+<begin_geldigheid>01/01/1977</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>095</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds pour la formation professionnelle des travailleurs ressortissant à la Commission paritaire pour les attractions touristiques (CP 333).</Description>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>097</Code>
+<Description>Catégorie réservée uniquement à la déclaration des travailleurs intérimaires occupés par des employeurs des entreprises de travail intérimaire agréées : redevables d'une cotisation au Fonds de la Commission paritaire pour le travail intérimaire et les entreprises agréées fournissant des travaux ou services de proximité n° 322 ; en combinaison avec une autre catégorie attribuée aux travailleurs ordinaires.</Description>
+<begin_geldigheid>01/01/1979</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>099</Code>
+<Description>Catégorie, et n° ONSS particulier 194xxxx-xx, réservés uniquement aux "tiers payant" redevables de cotisations de sécurité sociale, au nom et pour compte des employeurs : réservés aux Fonds de sécurité d'existence identifiés avant le 30/09/1983 ; en combinaison éventuellement avec une autre catégorie, et un autre n° ONSS, attribués pour leurs propres travailleurs (voir aussi catégories 199, 299, 399, 699...).</Description>
+<begin_geldigheid>01/01/1977</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>100</Code>
+<Description>Employeurs redevables, pour leurs employés, d'une cotisation au Fonds de la Commission paritaire du commerce de détail indépendant n° 201, (autres que ceux relevant d'une autre catégorie particulière : 057, 058, 067, 077, 078, 081, 091, 169), et redevables pour les ouvriers : d'une cotisation au "Fonds pour la formation des ouvriers de la Commission paritaire auxiliaire pour ouvriers" (CP n° 100).</Description>
+<begin_geldigheid>01/01/1992</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>102</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire pour la récupération de produits divers n° 142.04 (voir aussi catégories 079, 082, 092).</Description>
+<begin_geldigheid>01/10/2005</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>105</Code>
+<Description>Catégorie pour les armateurs qui occupent le personnel naviguant pour la marine marchande (CP n° 316).</Description>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>110</Code>
+<Description>Employeurs relevant depuis le 01/10/2006 de la Sous commission paritaire de l'industrie du béton n° 106.02 ; redevables, à partir du 01/07/2007, d'une cotisation au Fonds social de l'industrie du béton.</Description>
+<begin_geldigheid>01/10/2006</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>111</Code>
+<Description>Catégorie réservée uniquement à la déclarations de travailleurs contractuels subventionnés FBI (pour lesquels un subside est accordé par le Fonds budgétaire interdépartemental) occupés par des hôpitaux ; toujours en combinaison avec la catégorie 025 et mêmes caractéristiques que cette catégorie.</Description>
+<begin_geldigheid>01/07/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>112</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour la gestion d'immeubles, les agents immobiliers et les travailleurs domestiques n° 323 ; concerne les employeurs dont l'activité est exclusivement de type non-commercial : employeurs qui gèrent leur propre association de copropriétaires ; qui gèrent leur patrimoine immobilier propre, autre que celui en copropriété, et à partir du 01/07/2008 les agents immobiliers agréés IPI (Institut professionnel des agents immobiliers) (voir aussi catégories 037, 113).</Description>
+<begin_geldigheid>01/01/2001</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>113</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour la gestion d'immeubles, les agents immobiliers et les travailleurs domestiques n° 323; concerne les employeurs dont l'activité est exclusivement de type commercial : les régisseurs de biens immeubles, agréés comme agents immobiliers par l'IPI (Institut professionnel des agents immobiliers) et, à partir du 01/07/2008, les agents immobiliers agréés IPI ; certains employeurs qui gèrent leur patrimoine immobilier propre, autre que celui en copropriété (voir aussi catégories 037, 112).</Description>
+<begin_geldigheid>01/04/2003</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>114</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds social pour l'industrie briquetière et ressortissant à la Commission paritaire de l'industrie des briques (CP n° 114).</Description>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>116</Code>
+<Description>Employeurs, exclusivement de type non-commercial, redevables d'une cotisation au Fonds de la Commission paritaire de l'industrie hôtelière n° 302 ; catégorie réservée uniquement aux travailleurs occasionnels pour lesquels l'employeur doit faire une déclaration "Dimona Full" (voir aussi catégories 016, 216, 017, 117, 217). Catégorie supprimée au 30/09/2013.</Description>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>117</Code>
+<Description>Employeurs, exclusivement de type commercial, redevables d'une cotisation au Fonds de la Commission paritaire de l'industrie hôtelière n° 302 ; catégorie réservée uniquement aux travailleurs occasionnels pour lesquels l'employeur doit faire une déclaration "Dimona Full" (voir aussi catégories 017, 217, 016, 116, 216). Catégorie supprimée au 30/09/2013.</Description>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>118</Code>
+<Description>Industrie céramique</Description>
+<begin_geldigheid>01/07/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>121</Code>
+<Description>Catégorie réservée aux armateurs et au personnel navigant occupés en vertu d'un contrat de travail pour le service des bâtiments de navigation intérieure et redevables d'une cotisation au Fonds pour la navigation rhénane et intérieure pour leurs travailleurs ; pour la batellerie (transport de marchandises) et le transport de passagers pour le compte de tiers, tant en Belgique qu'à l'étranger, dans un régime de 40 heures (22/25). Voir aussi catégories 221, 421, 521, 621 et 721.</Description>
+<begin_geldigheid>01/01/2016</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>122</Code>
+<Description>Employeurs relevant de la Sous commission paritaire n° 305.02 pour les établissements et services de santé : redevables d'une cotisation au "Sociaal Fonds voor de gezondheidsinrichtingen en -diensten" (sous secteur 305.02.06) ; concerne les employeurs "néerlandophones" situés dans la Région Flamande ou dans la Région de Bruxelles-Capitale, dont l'activité consiste en soins de santé non hospitaliers et autres que ceux dispensés par les autres sous-secteurs de la CP 305.02 ; non redevables de la cotisation de base au "Fonds de fermeture d'entreprises" (voir aussi catégories 222, 422) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/07/1991</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>122</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 331 pour le "Vlaamse welzijns- en gezondheidssector" (sous-secteur 331.00.20) ; redevables d'une cotisation au "Sociaal Fonds voor de Vlaamse welzijns- en gezondheidssector" ; concerne les employeurs néerlandophones, situés en Région flamande ou en Région bruxelloise, dont l'activité principale concerne: centrum voor geboorteregeling, centrum voor tele-onthaal, sociale vrijwilligersorganisatie, dienst voor de strijd tegen toxicomanie, centrum voor huwelijkscontacten, centrum voor prenatale raadpleging, consultatiebureau voor het jonge kind, vertrouwenscentrum kindermishandeling, adoptiedienst, centrum voor ontwikkelingsstoornissen, consultatiecentrum voor gehandicaptenzorg, samenwerkingsinitiatief inzake thuisverzorging, centrum voor geestelijke gezondheidszorg, diensten en centra voor gezondheidspromotie en preventie met uitzondering van de ziekenfondsen (voir aussi catégories 222, 422, 522, 722, 735, 911).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>123</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de la coiffure et des soins de beauté n° 314 ; concerne le secteur des salons de coiffure et des soins de beauté, à l'exclusion des centres de fitness, de bodybuilding, des saunas et centres solaires (voir aussi catégorie 223).</Description>
+<begin_geldigheid>01/10/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>125</Code>
+<Description>Employeurs ressortissant à la Commission paritaire des Etablissements et services de santé (CP n° 330.01.10) et cotisant pour le "Fonds social pour les hôpitaux privés", plus en particulier les hôpitaux catégoriels et maisons des soins psychiatriques flamandes, qui cotisent également pour le "Sectoraal Spaarfonds van de federale sectoren".</Description>
+<begin_geldigheid>01/07/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>129</Code>
+<Description>Employeurs ressortissant de la Sous commission paritaire des scieries et industries connexes (SCP n° 125.02) qui sont redevables d'une cotisation en faveur du Fonds pour la sécurité d'existence des scieries et industries connexes. (voir aussi cat. 029, 229).</Description>
+<begin_geldigheid>01/04/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>130</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire des entreprises d'assurances n° 306 (voir aussi catégorie n° 530).</Description>
+<begin_geldigheid>01/10/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>132</Code>
+<Description>Catégorie réservée uniquement à la déclaration de travailleurs contractuels subventionnés FBI (pour lesquels un subside est accordé par le Fonds budgétaire interdépartemental) occupés par des hôpitaux à caractère semi-public ; toujours en combinaison avec la catégorie 032 et mêmes caractéristiques que cette catégorie.</Description>
+<begin_geldigheid>01/07/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>133</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de l'Industrie des Tabacs n° 133.</Description>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>135</Code>
+<Description>Employeurs, professions libérales, redevables d'une cotisation au Fonds de la Commission paritaire pour les pharmacies et offices de tarification n° 313 ; concerne les employeurs, professions libérales, qui exercent leur activité en tant que personne physique ou association de fait (employeurs issus de la catégorie 035), ainsi que les sociétés dont un des associés détient le titre de pharmacien ; bénéficiaires de la redistribution des charges sociales (voir aussi catégories 235, 335).</Description>
+<begin_geldigheid>01/01/1998</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>139</Code>
+<Description>Catégorie générale pour les employeurs redevables pour les travailleurs d'une cotisation spéciale au Fonds social auxiliaire du non marchand (CP n° 337).</Description>
+<begin_geldigheid>01/07/2017</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>157</Code>
+<Description>Employeurs redevables pour les ouvriers de cotisations au Fonds de la Commission paritaire du commerce alimentaire n° 119 ; et pour les employés de la Sous-commission paritaire des moyennes entreprises d'alimentation n° 202.01 - concerne le moyen commerce de détail alimentaire occupant 20 travailleurs ou plus (en moyenne au cours de l'année civile précédente) avec maximum 2 points de vente, un au siège social et une succursale (voir aussi catégorie 057).</Description>
+<begin_geldigheid>01/07/1995</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>158</Code>
+<Description>Employeurs définis à l'indice 058 mais déclarant des travailleurs avec rémunérations forfaitaires (voir aussi catégories 058, 258). Catégorie supprimée au 31/03/2007.</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>162</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire des établissements et services d'éducation et d'hébergement de la communauté française, de la Région wallonne et de la Communauté germanophone n° 319.02 ; concerne les employeurs agréés et/ou subsidiés par la Communauté française, la Région wallonne, la Communauté germanophone ou la Commission communautaire française et ceux, non agréés ni subventionnés dont l'activité principale est exercée en Wallonie (voir aussi catégories 062, 462).</Description>
+<begin_geldigheid>01/04/1990</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>163</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds 2ième pilier SCP 102.01 pour le régime de pension complémentaire sectoriel des ouvriers et ouvrières ressortissant à la Sous commission paritaire de l'industrie des carrières de petit-granit et de calcaire à tailler de la province de Hainaut (SCP 102.01).</Description>
+<begin_geldigheid>01/04/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>166</Code>
+<Description>Employés définis à l'indice 066 mais déclarant des travailleurs avec rémunérations forfaitaires. Catégorie supprimée au 31/03/2007.</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>169</Code>
+<Description>Employeurs redevables pour les ouvriers d'une cotisation au Fonds de la Commission paritaire de l'industrie des cuirs et peaux et des produits de remplacement n° 128 ; et pour les employés de la CP du commerce de détail indépendant n° 201 (voir aussi catégories 069, 369).</Description>
+<begin_geldigheid>01/10/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>173</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour les entreprises de travail adapté subsidiées par la Commission communautaire française n° 327.02 ; concerne les employeurs des ETA bruxelloises "francophones" ; redevables d'une cotisation au "Fonds de Sécurité d'existence pour les ETA agréées par la Commission communautaire française" ; non redevables des cotisations en faveur des groupes à risque (852),  et du chômage temporaire et chômeurs âgés (859) (voir aussi catégories 073, 273, 373, 473).</Description>
+<begin_geldigheid>01/01/2002</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>174</Code>
+<Description>Employeurs, de type exclusivement non-commercial, relevant des Commissions paritaires n° 152 et/ou 225, redevables d'une cotisation au Fonds de la Commission paritaire pour les institutions subsidiées de l'enseignement libre n° 152 ; concerne le personnel non subventionné occupé, depuis le 01/04/2007, par les établissements et internats libres et, depuis le 01/10/2011, par les centres psycho-médico-sociaux libres et les centres de gestion dans l'enseignement fondamental libres subventionnés par la Communauté française ou la Communauté germanophone, dont le siège est situé en Région wallonne ou en Région de Bruxelles-Capitale et qui sont inscrits auprès de l'ONSS au rôle francophone (à partir du 01/07/2012 : Sous commission paritaire n° 152.02 et/ou n° 225.02); non redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859). (voir aussi catégorie 074).</Description>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>176</Code>
+<Description>Catégorie réservée uniquement, à partir du 01/07/2012, à la déclaration des sportifs rémunérés en vertu d'un contrat de travail d'employé, autres que les sportifs déclarés dans la catégorie 070 et 076, et soumis à un assujettissement restreint ; employeurs redevables d'une cotisation spéciale au Fonds de la Sous commission paritaire du secteur socio-culturel de la Communauté flamande n° 329.01, en combinaison avec une autre catégorie attribuée aux autres sportifs et une autre catégorie attribuée aux travailleurs ordinaires (voir aussi catégories 070, 076, 262).</Description>
+<begin_geldigheid>01/07/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>180</Code>
+<Description>Employeurs de droit privé qui, outre les travailleurs sous contrat de travail régi par le droit privé, occupent aussi du personnel sous statut public et qui relèvent de la Commission paritaire de l'aviation commerciale n° 315 ; à partir du 21/08/2009, relèvent de la Sous commission paritaire pour la gestion des aéroports n° 315.03 ; concerne notamment BAC S.A.-N.V. n° 1890168-18 (voir aussi catégorie 080).</Description>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>183</Code>
+<Description>Employeurs dont les travailleurs manuels ressortissent à la Commission paritaire n° 140 qui ne sont pas (année 1995) ou en partie seulement (années 1996 et suivantes) redevables de la cotisation de sécurité d'existence au Fonds social. Catégorie supprimée au 01/01/1996.</Description>
+<begin_geldigheid>01/01/1996</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>186</Code>
+<Description>Employeurs redevables d'une cotisation au Fond de la Commission paritaire pour la pêche maritime n° 143 - "Waarborg en sociaal Fonds voor de zeevisserij" ; concerne les employeurs dont l'activité économique consiste en l'exploitation et la gestion de ventes de poissons (voir aussi catégories 019, 086).</Description>
+<begin_geldigheid>01/01/1995</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>187</Code>
+<Description>Employeurs redevables d'une cotisation aux Fonds des Commissions paritaires de l'industrie chimique n° 116 et/ou n° 207, mais dispensés du paiement aux Fonds de la partie de cotisation destinée aux groupes à risque s'ils ont pris eux-mêmes des initiatives similaires entérinées par une CCT (voir aussi catégorie 087).</Description>
+<begin_geldigheid>01/10/1989</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>189</Code>
+<Description>Employeurs redevables de cotisations aux Fonds de la Commission paritaire pour la production de pâtes, papiers et cartons n° 129 et/ou de la Commission paritaire des employés de l'industrie papetière n° 221 (voir aussi catégorie 089).</Description>
+<begin_geldigheid>01/04/1994</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>193</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de l'agriculture n° 144; concerne aussi les "gens de maison" occupés par un employeur personne physique pour, par exemple, l'entretien d'écuries, de chevaux ... (voir aussi catégories 093 et 039).</Description>
+<begin_geldigheid>01/04/1995</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>194</Code>
+<Description>Employeurs relevant de la Commission paritaire pour les entreprises horticoles n° 145, redevables d'une cotisation au "Fonds social et de garantie pour les entreprises horticoles" ; concerne les entreprises horticoles, à l'exclusion de celles dont l'activité consiste en l'implantation des parcs et jardins, en floriculture ou en culture des chicons ou des champignons (voir aussi catégories 094, 294, 494, 594).</Description>
+<begin_geldigheid>01/01/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>198</Code>
+<Description>Employeurs de l'enseignement subsidié intervenant en tant que tiers-payant pour les accompagnateurs de bus pour lesquels l'assurance obligatoire est limitée aux régimes d'assurance maladie et invalidité, pensions et chômage. Catégorie supprimée au 31/03/2000.</Description>
+<begin_geldigheid>01/01/1993</begin_geldigheid>
+<einde_geldigheid>31/03/2000</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>199</Code>
+<Description>Catégorie, réservée uniquement au Fonds pour l'industrie diamantaire (n° 1943023-48), à la Caisse de vacances de l'Etat pour l'industrie diamantaire (n° 1941003-94) et au Fonds de compensation interne pour le secteur du diamant (n° 1943066-16), redevables de cotisations de sécurité sociale en qualité de "tiers-payant" ; en combinaison éventuellement avec une autre catégorie, et un autre n° ONSS, pour leur propre personnel (voir aussi catégories 099, 299, 399, 699,...).</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>200</Code>
+<Description>Employeurs redevables : pour les employés : d'une cotisation au Fonds de la Commission paritaire pour les employés du commerce international, du transport et de la logistique n° 226 ; et à partir du 01/04/2012, pour les ouvriers : d'une cotisation au "Fonds pour la formation des ouvriers de la Commission paritaire auxiliaire pour ouvriers" (CP n° 100)   (voir aussi catégories 083, 084).</Description>
+<begin_geldigheid>01/10/1992</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>205</Code>
+<Description>Catégorie pour les armateurs qui occupent le personnel naviguant pour les travaux de dragage (CP n° 316).</Description>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>210</Code>
+<Description>Catégorie générale pour les employeurs redevables pour les ouvriers d'une cotisation spéciale au "Fonds pour la formation des ouvriers de la Commission paritaire auxiliaire pour ouvriers" (CP n° 100) et, pour les employés, d'une cotisation spéciale au "Fonds social de la CPAE" (de la Commission paritaire auxiliaire pour employés n° 200 compétente pour le secteur marchand)   (voir aussi catégorie 010).</Description>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>211</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour les services des aides familiales et des aides seniors de la Communauté flamande n° 318.02 ; concerne les services subsidiés par la Communauté flamande, à l'exclusion des services non subsidiés ; employeurs bénéficiant du cumul de la réduction structurelle et de la réduction Maribel social (voir aussi catégories 611, 011).</Description>
+<begin_geldigheid>01/01/1990</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>212</Code>
+<Description>Employeurs étrangers, sans siège d'exploitation en Belgique, qui occupent des travailleurs, non liés par un contrat de travail de droit belge, mais qui doivent être assujettis en Belgique en vertu de la réglementation  internationale ; non redevables de la cotisation vacances annuelles ; non redevables de la plupart des cotisations spéciales.</Description>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>216</Code>
+<Description>Employeurs, exclusivement de type non-commercial, redevables d'une cotisation au Fonds de la Commission paritaire de l'industrie hôtelière n° 302 ; catégorie réservée uniquement aux travailleurs occasionnels pour lesquels l'employeur doit faire une déclaration "Dimona Light" (voir aussi catégories 016, 116, 017, 117, 217). Catégorie supprimée au 30/09/2013.</Description>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>217</Code>
+<Description>Employeurs, exclusivement de type commercial, redevables d'une cotisation au Fonds de la Commission paritaire de l'industrie hôtelière n° 302 ; catégorie réservée uniquement aux travailleurs occasionnels pour lesquels l'employeur doit faire une déclaration "Dimona Light" (voir aussi catégories 017, 117, 016, 116, 216). Catégorie supprimée au 30/09/2013.</Description>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>221</Code>
+<Description>Catégorie réservée aux armateurs et au personnel navigant occupés en vertu d'un contrat de travail pour le service des bâtiments de navigation intérieure et redevables d'une cotisation au Fonds pour la navigation rhénane et intérieure pour leurs travailleurs ; pour le travail de canaux (chargement et déchargement de navires) et le transport de passagers pour le compte de tiers, tant en Belgique qu'à l'étranger, dans un régime de 38 heures (22/25). (voir aussi catégories 121, 421, 521, 621 et 721).</Description>
+<begin_geldigheid>01/01/2021</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>222</Code>
+<Description>Employeurs relevant de la Sous commission paritaire n° 305.02 pour les établissements et services de santé : redevables d'une cotisation au "Fonds des établissements et services de santé francophones pour la formation" (sous secteur 305.02.07) ; concerne les employeurs  "francophones et germanophones" situés dans la Région wallonne ou dans la Région de Bruxelles-Capitale, dont l'activité consiste en soins de santé non hospitaliers et autres que ceux dispensés par les autres sous-secteurs de la CP 305.02 ; non redevables de la cotisation de base au "Fonds de fermeture d'entreprises" (voir aussi catégories 122, 422) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/10/1991</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>222</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 332 pour "le Secteur francophone et germanophone de l'Aide sociale et des Soins de santé" (sous-secteur 332.00.20) ; redevables d'une cotisation au "Fonds social pour le secteur de l'aide sociale et des soins de santé" ; concerne les employeurs francophones et germanophones situés en Région wallonne ou bruxelloise dont l'activité principale concerne : l'aide aux justiciables, centre d'action sociale globale (agréés Cocof), centre local de la promotion de la santé (agréé RW), centre de coordination de soins et services à domicile, service d'entraide, service de prévention et d'éducation à la santé, centre de planning familial, centre de santé et service de promotion de la santé à l'école, service communautaire de promotion de la santé, centre de santé mentale, équipe SOS enfants, service social, centre de télé-accueil, service de lutte contre la toxicomanie et de prévention des assuétudes, et à partir du 01/05/2012, aide aux détenus et/ou victimes, espaces-rencontres, télévigilance, accueil téléphonique, médiation de dettes-lutte contre le surendettement, organismes d'adoption, services d'entraide et de self-help (voir aussi catégories 122, 422, 522, 722, 735, 911).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>223</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire de la coiffure et des soins de beauté n° 314 ; ne concerne que le secteur des centres de fitness, de body building, des saunas et des centres solaires (voir aussi catégorie 123).</Description>
+<begin_geldigheid>01/07/1993</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>224</Code>
+<Description>Catégorie réservée  aux ouvriers intérimaires occupés dans le secteur de la construction ; Employeurs des entreprises de travail intérimaires agréées, spécialement constituées dans le but de mettre des ouvriers à disposition des entreprises de la construction, qui relèvent de la Commission paritaire de la construction (CP 124) et qui s'occupent de travaux de gros oeuvre en général (voir cat 024). Ces employeurs cotisent à la fois au Fonds social des travailleurs intérimaires (voir cat 097) et aux Fonds de sécurité d'existence et de formation professionnelle des ouvriers du secteur de la construction de la catégorie 024. Catégorie à attribuer en fonction de l'activité exercée par l'intérimaire chez l'utilisateur.</Description>
+<begin_geldigheid>01/01/2002</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>226</Code>
+<Description>Catégorie réservée  aux ouvriers intérimaires occupés dans le secteur de la construction, Employeurs des entreprises de travail intérimaires agréées, spécialement constituées dans le but de mettre des ouvriers à disposition des entreprises de la construction, qui relèvent de la Commission paritaire de la construction (CP 124) et qui s'occupent de travaux de parachèvement en général (voir cat 026). Ces employeurs cotisent à la fois au Fonds social des travailleurs intérimaires (voir cat 097) et aux Fonds de sécurité d'existence et de formation professionnelle des ouvriers du secteur de la construction de la catégorie 026. Catégorie à attribuer en fonction de l'activité exercée par l'intérimaire chez l'utilisateur.</Description>
+<begin_geldigheid>01/01/2002</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>229</Code>
+<Description>Employeurs ressortissant de la Sous commission paritaire pour le commerce du bois (SCP n° 125.03) qui sont redevables d'une cotisation en faveur du Fonds pour la sécurité d'existence du commerce du bois. (voir aussi cat. 029, 129).</Description>
+<begin_geldigheid>01/04/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>230</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds des Commissions paritaires de l'industrie et du commerce du pétrole n° 117 et/ou n° 211 (voir aussi catégories 081, 091).</Description>
+<begin_geldigheid>01/10/1997</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>232</Code>
+<Description>Employeurs qui, en raison de leur caractère public, ne sont pas redevables des cotisations en faveur des groupes à risque (852),  et du chômage temporaire et chômeurs âgés (859) (voir aussi catégories 032, 432, 532).</Description>
+<begin_geldigheid>01/04/1994</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>235</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour les pharmacies et offices de tarification n° 313 ; concerne les employeurs exclusivement de type commercial, qui exercent leur activité sous forme de société commerciale et dont aucun des associés composant la société ne détient le titre de pharmacien (employeurs issus de la catégorie 000) (voir aussi catégories 135, 335).</Description>
+<begin_geldigheid>01/01/1998</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>244</Code>
+<Description>Catégorie réservée  aux ouvriers intérimaires occupés dans le secteur de la construction, Employeurs des entreprises de travail intérimaires agréées, spécialement constituées dans le but de mettre des ouvriers à disposition des entreprises de la construction, qui relèvent de la Commission paritaire  de la construction (CP 124) et qui s'occupent de travaux de carrelage, de mosaïque et de tous autres travaux de revêtement de murs et de sols (bois excepté), travaux de plafonnage et d'enduits, stuc et staff (voir cat 044). Ces employeurs cotisent à la fois au Fonds social des travailleurs intérimaires (voir cat 097) et aux Fonds de sécurité d'existence et de formation professionnelle des ouvriers du secteur de la construction de la catégorie 044. Catégorie à attribuer en fonction de l'activité exercée par l'intérimaire chez l'utilisateur.</Description>
+<begin_geldigheid>01/01/2002</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>254</Code>
+<Description>Catégorie réservée  aux ouvriers intérimaires occupés dans le secteur de la construction, Employeurs des entreprises de travail intérimaires agréées, spécialement constituées dans le but de mettre des ouvriers à disposition des entreprises de la construction, qui relèvent de la Commission paritaire de la construction (CP 124) et qui s'occupent de travaux de couverture de construction et de travaux de rejointoiement (voir cat 054). Ces employeurs cotisent à la fois au Fonds social des travailleurs intérimaires (voir cat 097) et aux Fonds de sécurité d'existence et de formation professionnelle des ouvriers du secteur de la construction de la catégorie 054.  Catégorie à attribuer en fonction de l'activité exercée par l'intérimaire chez l'utilisateur.</Description>
+<begin_geldigheid>01/01/2002</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>258</Code>
+<Description>Boulangerie industrielle : boulangerie qui fabrique des produits frais de consommation immédiate à très court délai de conservation et les salons de consommation annexés à une pâtisserie dont le nombre d'ouvriers employés est équivalent ou supérieur à 20 (exprimés en équivalents temps plein); redevable pour les ouvriers d'une cotisation au "Fonds social et de garantie de la boulangerie, pâtisserie et salons de consommation annexés", et pour les employés au fonds de la CP des employés de l'industrie alimentaire n° 220.</Description>
+<begin_geldigheid>01/01/1994</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>262</Code>
+<Description>Employeurs redevables d'une cotisation au "Sociaal Fonds voor het Sociaal-Cultureel Werk van de Vlaamse Gemeenschap" ; concerne les employeurs, exclusivement de type non-commercial, relevant, à partir du 01/07/2012, de la Sous commission paritaire pour le secteur socioculturel de la Communauté flamande n° 329.01 (voir aussi catégories 362, 762, 862).</Description>
+<begin_geldigheid>01/01/1998</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>269</Code>
+<Description>Employeurs ressortissant à la Sous commission paritaire de la maroquinerie qui ne sont redevables que de la cotisation destinée à assurer le financement de la promotion de l'emploi des groupes à risques. Catégorie supprimée au 31/12/2002 - voir catégorie 169.</Description>
+<begin_geldigheid>01/10/1991</begin_geldigheid>
+<einde_geldigheid>30/09/2003</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>273</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour les entreprises de travail adapté de la Région wallonne et de la Communauté germanophone n° 327.03 ; concerne les ETA wallonnes, catégorie réservée aux ETA subsidiées par la Région wallonne (et reconnues par l'AWIPH - Agence Wallonne d'Intégration des Personnes Handicapées) ; redevables d'une cotisation au "Fonds de Sécurité d'existence pour les ETA situées en Région wallonne et en Communauté germanophone" ; non redevables des cotisations en faveur des groupes à risque (852),et du chômage temporaire et chômeurs âgés (859) (voir aussi catégories 073, 173, 373, 473).</Description>
+<begin_geldigheid>01/07/2002</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>283</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds social pour l'assistance dans les aéroports et ressortissant à la Commission paritaire du transport et de la logistique et appartenant au sous-secteur de l'assistance en escale dans les aéroports (CP n° 140).</Description>
+<begin_geldigheid>01/10/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>293</Code>
+<Description>Employeurs qui ressortissent à la Commision paritaire de l'agriculture et qui ont pour activité principale la culture de lin, la culture du chanvre, la transformation primaire du lin et/ou du chanvre.</Description>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>294</Code>
+<Description>Employeurs relevant de la Commission paritaire pour les entreprises horticoles n° 145, redevables d'une cotisation au "Fonds social pour l'implantation et l'entretien de parcs et jardins" et qui en raison de leur caractère public, sont redevables de la cotisation patronale de base du secteur public (voir aussi catégories 094, 194, 494, 594).</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>299</Code>
+<Description>Catégorie, et n° ONSS particulier 194xxxx-xx, réservés uniquement aux "tiers payant" redevables de cotisations de sécurité sociale au nom et pour compte des employeurs : réservés 1) aux Fonds de sécurité d'existence identifiés après le 30/09/1983 ; 2) aux "tiers payant" en matière de prépension (conventionnelle ou autre...) ; en combinaison éventuellement avec une autre catégorie, et un autre n° ONSS, attribués pour leurs propres travailleurs (voir aussi catégories 099, 199, 699).</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>303</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire pour la production de films n° 303.01 - concerne la production de films longs métrages, à titre principal ou accessoire (voir aussi catégorie 423).</Description>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>305</Code>
+<Description>Catégorie pour les armateurs qui occupent le personnel naviguant pour le remorquage maritime (CP n° 316).</Description>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>311</Code>
+<Description>Employeurs relevant de la Sous commission paritaire n° 305.02 pour les établissements et services de santé : redevables d'une cotisation au "Fonds social pour les homes pour personnes âgées et les maisons de repos et de soins privés" (sous secteur 305.02.01) ; concerne les employeurs dont l'activité consiste en "l'accueil des personnes âgées" et est de caractère non commercial (ASBL, société civile...) ; non redevables de la cotisation de base au "Fonds de fermeture d'entreprises" (voir aussi catégorie 330) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/10/1993</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>311</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 330 pour les Etablissements et services de santé (sous-secteur 330.01.20) ; redevables d'une cotisation au "Fonds social pour les homes pour personnes âgées et les maisons de repos et de soins privés" ; concerne les employeurs, exclusivement de type non-commercial (ASBL, SCIV...), dont l'activité principale concerne : maison de repos, maison de repos et de soins, résidence service, centre de soins de jour, centre de jour pour personnes âgées (voir aussi catégorie 330).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>316</Code>
+<Description>Atelier protégé relevant pour les travailleurs valides de la Commission paritaire de l'industrie hôtelière. Catégorie supprimée au 31/12/1994  - voir catégories 073, 173, 273, 373, 473.</Description>
+<begin_geldigheid>01/01/1988</begin_geldigheid>
+<einde_geldigheid>31/12/1994</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>317</Code>
+<Description>Employeurs, de type commercial ou non-commercial, redevables d'une cotisation au Fonds de la Commission paritaire de l'industrie hôtelière n° 302 ; catégorie réservée uniquement aux travailleurs occasionnels à partir du 01/10/2013 ; voir aussi catégorie 017.</Description>
+<begin_geldigheid>01/10/2013</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>320</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire des pompes funèbres n° 320.</Description>
+<begin_geldigheid>01/10/2006</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>321</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds Social de la Commission paritaire pour les grossistes - répartiteurs en médicaments n° 321.</Description>
+<begin_geldigheid>01/07/2014</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>322</Code>
+<Description>Employeurs relevant de la Sous commission paritaire n° 305.02 pour les établissements et services de santé : redevables d'une cotisation au "Sociaal Fonds voor de sector opvang van kinderen" (sous secteur 305.02.08) ; concerne les employeurs "néerlandophones" situés dans la Région Flamande ou dans la Région de Bruxelles-Capitale, dont l'activité consiste en "l'accueil des enfants" ; non redevables de la cotisation de base au "Fonds de fermeture d'entreprises" (voir aussi catégorie 022) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/01/1998</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>322</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 331 pour le "Vlaamse welzijns- en gezondheidssector" (sous-secteur 331.00.10) ; redevables d'une cotisation au "Sociaal Fonds voor de Vlaamse welzijns- en gezondheidssector" ; concerne les employeurs néerlandophones, situés en Région flamande ou en Région bruxelloise, dont l'activité principale concerne : de kinderkribben, peutertuinen, diensten voor onthaalouders, diensten voor thuisopvang van zieke kinderen, buitenschoolse kinderopvang (voir aussi catégories 022, 722).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>323</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire pour l'exploitation des salles de cinéma n° 303.03.</Description>
+<begin_geldigheid>01/10/1999</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>330</Code>
+<Description>Employeurs relevant de la Sous commission paritaire n° 305.02 pour les établissements et services de santé : redevables d'une cotisation au "Fonds social pour les homes pour personnes âgées et les maisons de repos et de soins privés" (sous secteur 305.02.01) ; concerne les employeurs dont l'activité consiste en "l'accueil des personnes âgées" et est de type commercial (SA, SPRL...) ; redevables de la cotisation de base au "Fonds de fermeture d'entreprises" (voir aussi catégorie 311) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/10/1993</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>330</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 330 pour les Etablissements et services de santé (sous-secteur 330.01.20) ; redevables d'une cotisation au "Fonds social pour les homes pour personnes âgées et les maisons de repos et de soins privés" ; concerne les employeurs, exclusivement de type commercial, dont l'activité principale concerne : maison de repos, maison de repos et de soins, résidence service, centre de soins de jour, centre de jour pour personnes âgées (voir aussi catégorie 311).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>335</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour les pharmacies et offices de tarification n° 313 ; concerne les employeurs, exclusivement de type non commercial, qui exercent leur activité sous la forme d'une association non commerciale et dont aucun des associés composant l'association ne détient le titre de pharmacien (employeurs issus de la catégorie 011) (voir aussi catégories 135, 235).</Description>
+<begin_geldigheid>01/01/1998</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>336</Code>
+<Description>Atelier protégé relevant pour ses ouvriers valides de la Commission paritaire de l'imprimerie, des arts graphiques et des journaux. Catégorie supprimée au 31/12/1994 - voir catégories 073, 173, 273, 373, 473.</Description>
+<begin_geldigheid>01/01/1987</begin_geldigheid>
+<einde_geldigheid>31/12/1994</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>362</Code>
+<Description>Employeurs redevables d'une cotisation au "Fonds social du secteur socio-culturel des Communautés française et germanophone" ; concernent les employeurs, exclusivement de type non-commercial, relevant, à partir du 01/04/1012, de la Sous commission paritaire pour le secteur socio-culturel de la Communauté française et germanophone et de la Région wallonne n° 329.02 (voir aussi catégories 262, 762, 862).</Description>
+<begin_geldigheid>01/07/1998</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>364</Code>
+<Description>Atelier protégé qui relève pour ses ouvriers valides de la Commission paritaire des entreprises de garage. Catégorie supprimée au 31/12/1994  - voir catégories 073, 173, 273, 373, 473.</Description>
+<begin_geldigheid>01/01/1988</begin_geldigheid>
+<einde_geldigheid>31/12/1994</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>369</Code>
+<Description>Employeurs redevables à partir du 01/07/2014 d'une cotisation au Fonds de la Commission paritaire pour les technologies orthopédiques n° 340</Description>
+<begin_geldigheid>01/04/1992</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>373</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour les entreprises de travail adapté subsidiées par la Communauté flamande ou par la commission communautaire flamande et les ateliers sociaux agréés et/ou subsidiés par la Communauté flamande n° 327.01 ; concerne les employeurs des ateliers sociaux néerlandophones ; redevables d'une cotisation au "Fonds voor Bestaanszekerheid voor de sociale werkplaatsen" (voir aussi catégories 073, 173, 273, 473, 573, 673).</Description>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>373</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour le secteur flamand des entreprises de travail adapté, des ateliers sociaux et des « maatwerkbedrijven » n° 327.01 ; concerne les employeurs des « maatwerkbedrijven » ; redevables d'une cotisation au "Fonds voor Bestaanszekerheid voor de sociale werkplaatsen" (voir aussi catégories 073, 173, 273, 473, 573, 673).</Description>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>387</Code>
+<Description>Atelier protégé relevant pour ses travailleurs valides de la Commission paritaire de l'industrie chimique. Catégorie supprimée au 31/12/1994 - voir catégories 073, 173, 273, 373, 473.</Description>
+<begin_geldigheid>01/07/1989</begin_geldigheid>
+<einde_geldigheid>31/12/1994</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>394</Code>
+<Description>Atelier protégé ayant pour activité économique l'implantation et l'entretien de parcs et jardins qui relève pour ses ouvriers valides de la Commission paritaire pour les entreprises horticoles. Catégorie supprimée au 31/12/1994 - voir catégories 073, 173, 273, 373, 473.</Description>
+<begin_geldigheid>01/01/1987</begin_geldigheid>
+<einde_geldigheid>31/12/1994</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>405</Code>
+<Description>Catégorie exclusivement réservée à la déclaration des jours de congé pris par les navigateurs (CP n° 316).</Description>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>421</Code>
+<Description>Catégorie réservée aux armateurs et au personnel navigant (ouvriers et employés) occupés en vertu d'un contrat de travail pour le service des bâtiments de navigation intérieure et redevables d'une cotisation au Fonds pour la navigation rhénane et intérieure pour leurs travailleurs ; pour le transport de passagers pour compte propre, tant en Belgique qu'à l'étranger, dans un régime de 40 heures. (voir aussi catégories 121, 221, 521, 621 et 721).</Description>
+<begin_geldigheid>01/01/2021</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>422</Code>
+<Description>Employeurs relevant de la Sous commission paritaire n° 305.02 pour les établissements et services de santé : redevables d'une cotisation au "Fonds social pour les établissements et services de santé bicommunautaires" (sous secteur 305.02.05) ; concerne les employeurs  "bicommunautaires" situés dans la Région de Bruxelles-Capitale, dont l'activité consiste en soins de santé non hospitaliers et autres que ceux dispensés par les autres sous-secteurs de la CP 305.02 ; non redevables de la cotisation de base au "Fonds de fermeture d'entreprises" (voir aussi catégories 122, 222) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/01/1998</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>422</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 330 pour les Etablissements et services de santé (sous-secteur 330.02) ; redevables d'une cotisation au "Fonds social pour les établissements et les services de santé" ; concerne les établissements et services de santé "bicommunautaires" reconnus par la Commission Communautaire Commune (voir aussi catégories 122, 222 , 522, 722, 735, 911).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>423</Code>
+<Description>Employeurs redevables pour les employés : d'une cotisation au Fonds de la Commission paritaire pour le secteur audiovisuel n° 227, et, à partir du 01/04/2012, pour les ouvriers : d'une cotisation au "Fonds pour la formation des ouvriers de la Commission paritaire auxiliaire pour ouvriers" (CP n° 100).</Description>
+<begin_geldigheid>01/10/2005</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>430</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire de la prothèse dentaire n° 305.03 ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/01/2000</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>430</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 330 pour les Etablissements et services de santé (sous-secteur 330.03) ; redevables d'une cotisation au "Fonds social de la technique dentaire" ; concerne les employeurs des branches d'activité de la prothèse dentaire (techniciens, laboratoires...).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>432</Code>
+<Description>Employeurs qui, en raison de leur caractère public, ne sont pas redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859) ; concerne notamment les fabriques d'église ... (voir aussi catégories 032, 232, 532).</Description>
+<begin_geldigheid>01/01/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>434</Code>
+<Description>Employeurs redevables pour les employés : d'une cotisation au Fonds de sécurité d'existence pour le notariat (de la Commission paritaire pour les employés occupés chez les notaires n° 216) ; et, à partir du 01/04/2012 : pour les ouvriers : d'une cotisation au "Fonds pour la formation des ouvriers de la Commission paritaire auxiliaire pour ouvriers" (CP n° 100) ; catégorie réservée aux organismes à caractère spécifiquement notarial (Fédération des notaires, Chambre de discipline, Maison des notaires...) qui ne bénéficient pas de la Redistribution des charges sociales (voir aussi catégorie 435).</Description>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>435</Code>
+<Description>Employeurs redevables pour les employés : d'une cotisation au Fonds de sécurité d'existence pour le notariat (de la Commission paritaire pour les employés occupés chez les notaires n° 216) ; et, à partir du 01/04/2012 : pour les ouvriers d'une cotisation au "Fonds pour la formation des ouvriers de la Commission paritaire auxiliaire pour ouvriers" (CP n° 100) ; catégorie réservée aux notaires (en personnes physiques ou en sociétés) qui, en tant que professions libérales, ont droit à la Redistribution des Charges sociales (voir aussi catégorie 434).</Description>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>443</Code>
+<Description>Voir catégorie 043 - Institutions de l'Union européenne redevables pour certains travailleurs de la cotisation patronale de base du secteur public mais sans les vacances annuelles, les maladies professionnelles et les accidents du travail.</Description>
+<begin_geldigheid>01/07/1988</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>462</Code>
+<Description>Employeurs relevant de la Commission paritaire n° 319 des établissements et services d'éducation et d'hébergement, redevables d'une cotisation de sécurité d'existence au "Fonds social pour les établissements et services de la Région de Bruxelles-Capitale/Commission communautaire commune et les centres d'accueil pour demandeurs d'asile agréés et/ou subventionnés par le pouvoir fédéral" ; concerne les employeurs agréés et/ou subventionnés par la COCOM, Commission communautaire commune de la Région de Bruxelles-Capitale, et à partir du 01/01/2013, les centres d'accueil pour demandeurs d'asile agréés et/ou subventionnés par le pouvoir fédéral (voir aussi catégories 062, 162).</Description>
+<begin_geldigheid>01/07/2000</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>463</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire de l'industrie des carrières de gravier et de sable exploitées à ciel ouvert dans les provinces d'Anvers, de Flandre occidentale, de Flandre orientale et de Limbourg et du Brabant flamand n° 102.06 ; la cotisation n'est pas due par les exploitations de sable blanc (catégorie 010) (voir aussi catégories 063, 090, 010).</Description>
+<begin_geldigheid>01/01/1988</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>467</Code>
+<Description>Employeurs définis à l'indice 067 mais redevables d'une cotisation moins élevée au Fonds de la Sous commission paritaire des électriciens : installation et distribution, n° 149.01 - concerne les employeurs membres de la Fédération de l'Electricité et de l'Electronique -FEE- ou de l'Union professionnelle de radio et de télédistribution RTD (voir aussi catégorie 067).</Description>
+<begin_geldigheid>01/10/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>473</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour les entreprises de travail adapté subsidiées par la Communauté flamande ou par la Commission communautaire flamande et les ateliers sociaux agréés et/ou subsidiés par la Communauté flamande n° 327.01 ; concerne les employeurs des ETA néerlandophones ; redevables d'une cotisation au "Vlaams Fonds voor bestaanzekerheid voor de ondernemingen van beschutte tewerkstelling" ; non redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859) (voir aussi catégories 073, 173, 273, 373).</Description>
+<begin_geldigheid>01/04/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>473</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour le secteur flamand des entreprises de travail adapté, des ateliers sociaux et des « maatwerkbedrijven » n° 327.01 ; concerne les employeurs des « maatwerkbedrijven » ; redevables d'une cotisation au "Vlaams Fonds voor bestaanszekerheid voor de ondernemingen van beschutte tewerkstelling" ; non redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859) (voir aussi catégories 073, 173, 273, 373).</Description>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>494</Code>
+<Description>Employeurs relevant de la Commission paritaire pour les entreprises horticoles n° 145, redevables d'une cotisation au "Fonds social et de garantie pour les entreprises horticoles" ; concerne les entreprises dont l'activité concerne la floriculture, à l'exclusion des autres entreprises horticoles, de l'implantation de parcs et jardins, de la culture des chicons ou des champignons (voir aussi catégories 094, 194, 294, 594).</Description>
+<begin_geldigheid>01/01/2001</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>499</Code>
+<Description>Certaines agences de banque. Categorie supprimée.</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>505</Code>
+<Description>Catégorie pour les armateurs qui occupent le personnel naviguant pour travaux d'installation et d'entretien en mer  (CP n° 316)</Description>
+<begin_geldigheid>01/07/2020</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>511</Code>
+<Description>Employeurs "néerlandophones" non redevables des cotisations en faveur des groupes à risque (852), de l'accompagnement des chômeurs (854), du chômage temporaire et chômeurs âgés (859) ; non redevables de la cotisation de base au "Fonds de fermeture d'entreprises" ; concerne les centres de revalidation dépendant d'un hôpital (relevant de la SCP 305.01), les centres de revalidation autonomes (relevant de la SCP 305.02 - sous secteur 305.02.03), les centres d'orientation scolaire libres et les centres psycho-médico-sociaux libres situés en Région flamande ou en Région de Bruxelles-Capitale (voir aussi catégorie 711) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/04/1994</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>511</Code>
+<Description>A partir du 01/01/2008, employeurs néerlandophones ressortissant à la Commission paritaire n° 330 pour les Etablissements et services de santé (« sous-secteur » 330.01.41) ; concerne les centres de revalidation autonomes situés en Région flamande et centres de revalidation autonomes néerlandophones situés en Région bruxelloise qui dépendent d'un Fonds ou d'un organisme communautaire ou régional d'intégration sociale des personnes handicapées ou de ses ayants droit; non redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859) (voir aussi catégorie 722 et 711).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>512</Code>
+<Description>Employeurs ressortissant à la Commission paritaire des Etablissements et services de santé  (CP n° 330.01.41), plus en particulier les centres de revalidation autonomes situés en Région flamande et centres de revalidation autonomes néerlandophones situés en Région bruxelloise qui dépendent d'un Fonds ou d'un organisme communautaire ou régional d'intégration sociale des personnes handicapées ou de ses ayants droit, qui ne cotisent pas pour le "Sectoraal Spaarfonds van de federale sectoren".</Description>
+<begin_geldigheid>01/07/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>521</Code>
+<Description>Catégorie réservée aux armateurs et au personnel navigant (ouvriers et employés) occupés en vertu d'un contrat de travail pour le service des bâtiments de navigation intérieure et redevables d'une cotisation au Fonds pour la navigation rhénane et intérieure pour leurs travailleurs ; pour le transport de passagers pour compte propre, tant en Belgique qu'à l'étranger, dans un régime de 38 heures. (voir aussi catégories 121, 221, 421, 621 et 721).</Description>
+<begin_geldigheid>01/01/2021</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>522</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 330 des Etablissements et services de santé - chambre 5 résiduaire de l'accord fédéral - ; redevables d'une cotisation pour le "Fonds social pour les établissements et les services de santé" ; concerne les employeurs dont l'activité principale consiste en : initiatives d'habitations protégées (sous-secteurs 330.01.51 néerlandophone et 330.01.52 francophone), maisons médicales (sous-secteurs 330.01.53 néerlandophone et 330.01.54 francophone), services du sang de la Croix-Rouge de Belgique (sous-secteur 330.01.55) (voir aussi catégories 122, 222, 422, 722, 735, 911).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>530</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour les entreprises de courtage et agences d'assurances n° 307 (voir aussi catégorie 130).</Description>
+<begin_geldigheid>01/01/2001</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>532</Code>
+<Description>Employeurs ressortissant à la Commission paritaire pour les sociétés de logement social agréées n° 339 et plus précisément aux sous-commissions 339.01 (jusqu'au 31/03/2022), 339.02 ou 339.03 ; concerne les sociétés de logement agréées conformément aux codes de logement des Régions et qui exercent une ou plusieurs des activités suivantes : 1) acheter, faire démolir, faire construire, faire rénover, vendre, gérer, (donner à) louer des bâtiments dans le cadre du logement social 2) acheter des terrains destinés à être aménagés ou revendus en vue de la construction des bâtiments visés au point 1er 3) exécuter des travaux d'entretien général aux bâtiments acquis dans le cadre de l'objet social. Voir aussi cat. 632.</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>562</Code>
+<Description>Employeurs néerlandophones relevant de la Commission paritaire du spectacle n° 304 et redevables d'une cotisation au "Sociaal Fonds voor de podiumkunsten van de Vlaamse Gemeenschap" ; concerne les employeurs dont le siège social est situé en Région flamande ou en Région de Bruxelles-Capitale et inscrits à l'ONSS au rôle linguistique néerlandophone.</Description>
+<begin_geldigheid>01/01/2002</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>573</Code>
+<Description>IDESS (Initiative de Développement de l'Emploi dans le Secteur des Services de proximité à finalité sociale), agréée et/ou subsidiée par la Région wallonne, constituée sous forme de  société à finalité sociale</Description>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>594</Code>
+<Description>Employeurs relevant de la Commission paritaire pour les entreprises horticoles n° 145, redevables d'une cotisation au "Fonds social et de garantie pour les entreprises horticoles" ; concerne certains employeurs qui peuvent occuper des travailleurs occasionnels durant maximum 100 jours par année civile dans la culture des chicons, dans la culture des champignons et à partir du 01/01/2020 dans la culture de fruits (voir aussi catégories 094, 194, 294, 494). A cause de la crise corona le maximum des jours est doublé jusqu'à 200 jours en 2020.</Description>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>597</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Sous commission paritaire pour les entreprises agréées fournissant des travaux ou services de proximité n° 322.01 ; catégorie réservée uniquement à la déclaration de CERTAINS travailleurs occupés sous contrat de travail "titres-services" : ceux occupés par : a) des entreprises de travail intérimaire qui possèdent une "section sui generis" titres-services agréée ; b) depuis le 20/10/2006 : des entreprises agréées titres-services qui n'exercent aucune autre activité, principale ou non, pour laquelle une Commission paritaire spécifique et fonctionnant est compétente.</Description>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>611</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour les services des aides familiales et des aides seniors de la Communauté française, de la Région wallonne et de la Communauté germanophone n° 318.01 ; concerne les services subventionnés par la Région wallonne, par la Commission communautaire commune et la Commission communautaire française de la Région de Bruxelles-Capitale et par la Communauté germanophone, à l'exclusion des services non subventionnés ; employeurs bénéficiant du cumul de la réduction structurelle et de la réduction Maribel social (voir aussi catégories 211, 011).</Description>
+<begin_geldigheid>01/01/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>621</Code>
+<Description>Catégorie réservée aux armateurs et au personnel navigant (ouvriers et employés) occupés en vertu d'un contrat de travail pour le service des bâtiments de navigation intérieure et redevables d'une cotisation au Fonds pour la navigation rhénane et intérieure pour leurs travailleurs ; pour la navigation en système (22/25 ; travailleurs dans un régime de travail en équipe), tant en Belgique qu'à l'étranger. (voir aussi catégories 121, 221, 421, 521 et 721).</Description>
+<begin_geldigheid>01/01/2021</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>630</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour les sociétés de bourse n° 309 (voir aussi catégories 030, 730, 440, 441, 445).</Description>
+<begin_geldigheid>01/01/2001</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>632</Code>
+<Description>Employeurs ressortissant à la sous-commission paritaire pour les sociétés de logement social agréées de la région flamande (CP 339.01)</Description>
+<begin_geldigheid>01/04/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>662</Code>
+<Description>Employeurs ressortissant à la Commission paritaire du spectacle (CP n° 304) et cotisant pour le "Fonds de sécurité d'existence pour le secteur des arts scéniques de la Communauté française Wallonie-Bruxelles" ; concerne les employeurs dont le siège social est situé en Région wallonne ou en Région de Bruxelles-Capitale et qui sont inscrits auprès de l'ONSS au rôle linguistique francophone.</Description>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>673</Code>
+<Description>"Maatwerkbedrijven", fondées à partir du 01-01-19, ressortissant de la SCP 327.01 et qui ne sont pas redevables d'une cotisation de sécurité d'existence.</Description>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>673</Code>
+<Description>Employeurs relevant de la Sous commission paritaire pour le secteur flamand des entreprises de travail adapté, des ateliers sociaux et des « maatwerkbedrijven » n° 327.01 ; concerne les employeurs des « maatwerkbedrijven » , fondées à partir du 01-01-19, qui ne sont pas redevables d'une cotisation de sécurité d'existence.</Description>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>699</Code>
+<Description>Catégorie, réservée uniquement au Fonds de sécurité d'existence de l'ameublement et de l'industrie transformatrice du bois (n° 1943025-42), redevable de cotisations  de sécurité sociale en qualité de "tiers-payant" ; en combinaison éventuellement avec une autre catégorie, et un autre n° ONSS, pour son propre personnel (voir aussi catégories 099, 199, 299,...).</Description>
+<begin_geldigheid>01/01/1989</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>711</Code>
+<Description>Employeurs "francophones et germanophones" non redevables des cotisations en faveur des groupes à risque (852), de l'accompagnement des chômeurs (854), du chômage temporaire et chômeurs âgés (859) ; non redevables de la cotisation de base au "Fonds de fermeture d'entreprises" ; concerne les centres de revalidation dépendant d'un hôpital (relevant de la SCP 305.01), les centres de revalidation autonomes (relevant de la SCP 305.02 - sous secteur 305.02.04), les centres d'orientation scolaire libres et les centres psycho-médico-sociaux libres situés en Région wallonne ou en Région de Bruxelles-Capitale (voir aussi catégorie 511) ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/01/1998</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>711</Code>
+<Description>A partir du 01/01/2008, employeurs francophones et germanophones ressortissant à la Commission paritaire n° 330 pour les Etablissements et services de santé (« sous-secteur » 330.01.42) ; concerne les centres de revalidation autonomes situés en Région wallonne et centres de revalidation autonomes francophones situés en Région bruxelloise qui dépendent d'un Fonds ou d'un organisme communautaire ou régional d'intégration sociale des personnes handicapées ou de ses ayants droit ; non redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859) (voir aussi catégories 722 et 511).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>721</Code>
+<Description>Catégorie réservée aux armateurs et au personnel navigant (ouvriers et employés) occupés en vertu d'un contrat de travail pour le service des bâtiments de navigation intérieure et redevables d'une cotisation au Fonds pour la navigation rhénane et intérieure pour leurs travailleurs ; pour le remorquage (22/25), tant en Belgique qu'à l'étranger. (voir aussi catégories 121, 221, 421, 521 et 621).</Description>
+<begin_geldigheid>01/01/2021</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>722</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 330 des Etablissements et services de santé (« sous-secteur » 330.04, chambre 7) ; redevables d'une cotisation pour le "Fonds social pour les établissements et les services de santé" ; concerne les employeurs dont l'activité principale consiste en : service d'aide médicale urgente, entreprise de la branche du transport indépendant de malades, centre médical pédiatrique, plate-forme santé mentale, polyclinique, soins continus et palliatifs à domicile, service externe de prévention et de protection au travail, laboratoire, service de contrôle médical, autres activités paramédicales - groupe résiduaire; ainsi que employeurs ressortissant à la Commission paritaire n° 330 (sous-secteur 330.01.42) mais ne relevant pas de la catégorie 511 ou 711 (voir aussi catégories 122, 222, 422, 522, 711, 735, 911).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>730</Code>
+<Description>Employeurs redevables d'une cotisation au Fonds de la Commission paritaire pour les sociétés de prêts hypothécaires, d'épargne et de capitalisation n° 308 (voir aussi catégories 030, 630, 440, 441, 445).</Description>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>30/09/2017</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>735</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 330 des Etablissements et services de santé (sous-secteur 330.04, chambre 7) ; redevables d'une cotisation pour le "Fonds social pour les établissements et les services de santé" ; concerne les employeurs, professions libérales, dont l'activité principale consiste en cabinet de médecin généraliste et/ou spécialiste, kinésithérapeute, dentiste et certaines professions paramédicales ; sont concernés par la redistribution des charges sociales (employeurs issus de la catégorie 035) (voir aussi catégories 122, 222, 422, 522, 722, 911).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>762</Code>
+<Description>Employeurs ressortissant à la Sous commission paritaire pour les organisations socio-culturelles fédérales et bicommunautaires (CP n° 329.03) et cotisant pour le "Fonds social du secteur socio-culturel des Communautés française et germanophone" ; concerne les employeurs exclusivement de type non commercial (fédéraux et bicommunautaires, associations internationales ou organisations de droit étranger) dont le siège social est situé en Région de Bruxelles-Capitale et qui sont inscrits auprès de l'ONSS au rôle linguistique francophone (voir aussi catégories 262, 362, 862).</Description>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>799</Code>
+<Description>Supplément de salaire payé comme tiers payant à certains travailleurs par le patrimoine propre de l'institut pour la sylviculture et la protection de la faune n° 858.242-41 ; actuellement déclaré par l'Université de Gand. Catégorie supprimée au 01/01/1991.</Description>
+<begin_geldigheid>01/04/1994</begin_geldigheid>
+<einde_geldigheid>30/06/1997</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>811</Code>
+<Description>Catégorie réservée uniquement aux Centres de formation professionnelle ou de recyclage pour handicapés, redevables pour leurs handicapés de la cotisation de modération salariale ; employeurs relevant des Sous commissions paritaires du secteur socio-culturel n° 329.01, 329.02 ou 329.03  (voir aussi catégories 262 et 362), Catégorie supprimée au 30/09/2008.</Description>
+<begin_geldigheid>01/04/1994</begin_geldigheid>
+<einde_geldigheid>30/09/2008</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>812</Code>
+<Description>Employeurs ressortissant à la Commission paritaire des Etablissements et services de santé (CP n° 330.01.10) et cotisant pour le "Fonds social pour les hôpitaux privés", plus en particulier les hôpitaux catégoriels et maisons des soins psychiatriques flamandes, qui cotisent également pour le "Sectoraal Spaarfonds van de federale sectoren". Catégorie réservée uniquement à la déclaration de travailleurs contractuels subventionnés FBI.</Description>
+<begin_geldigheid>01/07/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>822</Code>
+<Description>Employeurs ressortissant à la Commission paritaire des Etablissements et services de santé - résiduaire de l'accord fédéral (CP n° 330.01.51) et cotisant pour le "Fonds social pour les établissements et les services de santé"plus en particulier les initiatives flamandes d'habitations protégées, qui cotisent également pour le "Sectoraal Spaarfonds van de federale sectoren".</Description>
+<begin_geldigheid>01/07/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>830</Code>
+<Description>Employeurs ressortissant à la Commission paritaire des Etablissements et services de santé (CP n° 330.01.20) et cotisant pour le "Fonds social pour les homes pour personnes âgées et les maisons de repos et de soins privés" plus en particulier les homes pour personnes âgées, les maisons de repos et de soins privés, les logements avec assistance ressortissant de la Communauté flamande et/ou de la COCON, qui cotisent également pour le "Sectoraal Spaarfonds van de federale sectoren".</Description>
+<begin_geldigheid>01/07/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>835</Code>
+<Description>Employeurs redevables, à partir du 01/07/2012, d'une cotisation au Fonds de la Commission paritaire pour les professions libérales n° 336 : catégorie réservée aux employeurs 1) qui exercent une activité professionnelle indépendante de prestation de services ou de fourniture de biens, qui ne consiste pas en acte de commerce ou en activité artisanale, à l'exclusion des activités agricoles et d'élevage, et à l'exclusion des autres professions libérales déclarées dans une autre catégorie particulière 035-135-735-911 ; 2) les prestataires de service soumis à la législation sur le port du titre professionnel à l'exclusion de ceux déclarés dans une autre catégorie (voir aussi catégories 035, 135, 735).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>848</Code>
+<Description>Employeurs relevant des Commissions paritaires de l'industrie alimentaire n° 118 - sous secteur de l'industrie du sucre (sucreries, raffineries, fabriques de sucre, candiseries, distilleries.. ) et/ou n° 220 ; redevables d'une cotisation au "Fonds social et de garantie de l'industrie du sucre et de ses dérivés" pour le 2e pilier de pension (voir aussi catégories 048, 051, 052, 058, 258).</Description>
+<begin_geldigheid>01/04/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>862</Code>
+<Description>Employeurs ressortissant à la Sous commission paritaire pour les organisations socioculturelles fédérales et bicommunautaires (CP n° 329.03) et cotisant pour le "Sociaal Fonds voor het sociaal-cultureel werk van de Vlaamse Gemeenschap" ; concerne les employeurs exclusivement de type non commercial, fédéraux et bicommunautaires, associations internationales ou organisations de droit étranger dont le siège social est situé en Région de Bruxelles-Capitale et qui sont inscrits auprès de l'ONSS au rôle linguistique néerlandophone (voir aussi catégories 262, 362, 762).</Description>
+<begin_geldigheid>01/07/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>898</Code>
+<Description>Fonds qui interviennent pour des employeurs qui ne relèvent pas de la catégorie 1 pour la réduction structurelle.</Description>
+<begin_geldigheid>01/04/2016</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>911</Code>
+<Description>Employeurs relevant de la Sous commission paritaire n° 305.02 pour les établissements et services de santé (sous-secteur 305.02.02) ; concerne les employeurs dont l'activité consiste en "soins infirmiers à domicile" ; non redevables de la cotisation de base au "Fonds de fermeture d'entreprises" ; jusqu'au 31/12/2007.</Description>
+<begin_geldigheid>01/01/1998</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>911</Code>
+<Description>A partir du 01/01/2008, employeurs ressortissant à la Commission paritaire n° 330 pour les Etablissements et services de santé (sous-secteur 330.01.30) ; concerne les employeurs dont l'activité principale concerne les services de soins infirmiers à domicile (sans soins palliatifs et sans centre de coordination de soins et services à domicile) (voir aussi catégories 122, 222, 722).</Description>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Privé</Secteur>
+<Code>962</Code>
+<Description>Établissements et services d'éducation et d'hébergement non agréés et/ou subventionnés, qui ne sont pas redevables de la cotisation pour le Fonds de la Sécurité d'Existence de la CP 319.</Description>
+<begin_geldigheid>01/04/2016</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>001</Code>
+<Description>Employeurs du secteur public non redevables de la cotisation de modération salariale ; concerne les services de l'Etat fédéral ; identifiés sous un n° à 4 chiffres.</Description>
+<begin_geldigheid>01/07/1986</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>040</Code>
+<Description>Organismes d'intérêt public, antérieurement repris en catégorie 045, redevables, depuis le 1er janvier 1977, des cotisations accidents du travail et des maladies professionnelles, qui, n'étant pas cités expressément dans la loi du 16 mars 1954 et dans ses textes subséquents relatifs au contrôle de certains établissements publics, cotisent sur le montant du double pécule de vacances annuelles.</Description>
+<begin_geldigheid>01/01/1983</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>042</Code>
+<Description>Application de l'arrêté-loi du 28/12/1944 aux délégués ouvriers à l'inspection des minières et carrières.</Description>
+<begin_geldigheid>01/01/1963</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>045</Code>
+<Description>Organismes d'intérêt public exemptés en vertu des dispositions de la loi du 27/06/1963 du paiement de la cotisation afférente aux vacances annuelles de leur personnel manuel, mais redevables, depuis le 1er janvier 1977, des cotisations accidents du travail et des maladies professionnelles ; depuis le 01/01/1983 cette catégorie ne comprend plus que les organismes d'intérêt public, cités expressément dans la loi du 16 mars 1954 et dans les textes subséquents, relatifs au contrôle de certains établissements publics (cf. catégorie 040).</Description>
+<begin_geldigheid>01/07/1963</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>046</Code>
+<Description>Organismes d'intérêt public redevables de la cotisation relative aux vacances annuelles et cotisant sur le montant du double pécule de vacances annuelles. Ces organismes ne sont pas redevables des cotisations "accidents du travail" et "maladies professionnelles".</Description>
+<begin_geldigheid>01/01/1964</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>047</Code>
+<Description>Polders et wateringues.</Description>
+<begin_geldigheid>01/01/1964</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>050</Code>
+<Description>Employeurs immatriculés sous les séries de numéros à 4 chiffres, dont le personnel n'est pas directement à charge du budget de l'Etat et qui doivent verser à l'ONSS le produit de la modération salariale (A.R. n° 401 - 18/04/1986 - M.B. 06/05/1986) ; concerne les services des Régions, des communautés, certaines régies et fonds...</Description>
+<begin_geldigheid>01/04/1984</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>075</Code>
+<Description>Enseignement universitaire libre.</Description>
+<begin_geldigheid>01/01/1970</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>096</Code>
+<Description>Organismes d'intérêt public exemptés, en vertu des dispositions de la loi du 27 juin 1963, du paiement de la cotisation afférente aux vacances annuelles de leur personnel manuel et non redevables des cotisations "accidents du travail" et des "maladies professionnelles". Depuis le 01/01/1983 ne comprend plus que les organismes d'intérêt public, cités expressément dans la loi du 16 mars 1954 et dans les textes subséquents relatifs au contrôle de certains établissements publics.</Description>
+<begin_geldigheid>01/07/1977</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>101</Code>
+<Description>Catégorie réservée uniquement à la déclaration de travailleurs contractuels subventionnés FBI (pour lesquels un subside est accordé par le Fonds budgétaire interdépartemental) occupés par des hôpitaux du secteur public identifiés avec la catégorie 001.</Description>
+<begin_geldigheid>01/07/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>134</Code>
+<Description>Catégorie réservée uniquement aux militaires rendus à la vie civile auxquels s'appliquent la loi du 06/02/2003 ; concerne uniquement l'employeur 9350-79 - Ministère de la Défense.</Description>
+<begin_geldigheid>01/10/2003</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>140</Code>
+<Description>Catégorie réservée uniquement à la déclaration de travailleurs contractuels subventionnés FBI (pour lesquels un subside est accordé par le Fonds budgétaire interdépartemental) occupés par des hôpitaux du secteur public identifiés avec la catégorie 040.</Description>
+<begin_geldigheid>01/07/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>145</Code>
+<Description>Catégorie réservée uniquement à la déclaration de travailleurs contractuels subventionnés FBI (pour lesquels un subside est accordé par le Fonds budgétaire interdépartemental) occupés par des hôpitaux du secteur public identifiés avec la catégorie 045.</Description>
+<begin_geldigheid>01/07/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>146</Code>
+<Description>Employeurs définis à l'indice 046 mais déclarant des travailleurs avec rémunérations forfaitaires. Catégorie supprimée au 31/03/2007.</Description>
+<begin_geldigheid>01/04/1987</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>150</Code>
+<Description>Catégorie réservée uniquement à la déclaration de travailleurs contractuels subventionnés FBI (pour lesquels un subside est accordé par le Fonds budgétaire interdépartemental) occupés par des hôpitaux du secteur public identifiés avec la catégorie 050.</Description>
+<begin_geldigheid>01/07/1987</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>175</Code>
+<Description>Organismes d'intérêt public pour lesquels sont applicables les art. 11 et 12 de l'A.R. du 28 novembre 1969 pris en exécution de la loi du 27 juin 1969 concernant la sécurité sociale ainsi que la loi du 21 juin 1985 concernant l'enseignement.</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>196</Code>
+<Description>Catégorie réservée uniquement à la déclaration de travailleurs contractuels subventionnés FBI (pour lesquels un subside est accordé par le Fonds budgétaire interdépartemental) occupés par des hôpitaux du secteur public identifiés avec la catégorie 096 ; concerne le Centre hospitalier universitaire de LIEGE n° 429.015-47.</Description>
+<begin_geldigheid>01/07/1993</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>245</Code>
+<Description>Organismes d'intérêt public qui occupent du personnel sous statut ne pouvant prétendre à une pension autre que celle prévue par le régime de pension des travailleurs et pour lequel seules les cotisations "maladie-invalidité" - "pension", et "chômage" sont dues; Ces organismes sont soumis au régime des accidents du travail et des maladies professionnelles du secteur privé.</Description>
+<begin_geldigheid>01/04/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>246</Code>
+<Description>Ces organismes contrairement à ceux de la catégorie 046, sont redevables des cotisations "accidents du travail" et "maladies professionnelles".</Description>
+<begin_geldigheid>01/01/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>272</Code>
+<Description>Catégorie réservée uniquement pour la déclaration des médecins qui suivent la formation de médecin spécialiste, et qui sont soumis à un assujettissement restreint, par des employeurs hôpitaux du secteur public; en combinaison avec une autre catégorie pour les travailleurs ordinaires.</Description>
+<begin_geldigheid>01/04/1983</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>296</Code>
+<Description>Employeurs qui occupent du personnel dont l'assujettissement aux régimes pensions, vacances annuelles, accidents de travail et maladies professionnelles relève de la législation du secteur public et pour lequel la cotisation de modération salariale est due.</Description>
+<begin_geldigheid>01/07/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>346</Code>
+<Description>Entreprises publiques autonomes (dérivée de la cat. 046) pouvant bénéficier de la diminution de la cotisation d'employeur prévue par la loi du 21 décembre 1994 portant des dispositions sociales et diverses si elles engagent un ou plusieurs demandeurs d'emploi répondant à des conditions déterminées. Catégorie supprimée au 30/09/2003, employeurs repris en catégorie 350.</Description>
+<begin_geldigheid>01/01/1995</begin_geldigheid>
+<einde_geldigheid>30/09/2003</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>347</Code>
+<Description>Concerne la "Vlaamse Vervoermaatschappij De Lijn" n° ONSS  829027-95</Description>
+<begin_geldigheid>01/07/2002</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>350</Code>
+<Description>Entreprises publiques autonomes visées par la loi du 21 mars 1991 (dérivée de la cat. 050)</Description>
+<begin_geldigheid>01/01/1995</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>351</Code>
+<Description>Entreprises publiques autonomes non visées par la loi du 21 mars 1991 dont l'assujettissement au régime des vacances annuelles relève de la législation du secteur public ; concerne la RTBF n° 429083-37, la Loterie Nationale S.A. n° 930145-60...</Description>
+<begin_geldigheid>01/07/2002</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>372</Code>
+<Description>Catégorie réservée uniquement pour la déclaration des médecins qui suivent la formation de médecin spécialiste, et qui sont soumis à un assujettissement restreint, par des employeurs hôpitaux du secteur public, non redevables des cotisations accidents du travail et maladies professionnelles (notamment le CHU de Liège n° 429.015-47) ; en combinaison avec une autre catégorie pour les travailleurs ordinaires.</Description>
+<begin_geldigheid>01/07/1993</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>396</Code>
+<Description>Attribué à 2 institutions universitaires : - Universiteit Gent, n° ONSS : 829.049-29 - Universiteit Antwerpen,  n° ONSS : 829.073-54 - pour le personnel académique et scientifique : contractuels : sans cotisation vacances annuelles ; statutaires : uniquement cotisation soins de santé. - pour le personnel administratif et technique : contractuels : avec cotisation vacances annuelles ; statutaires : uniquement cotisation soins de santé. De plus, la possibilité de calculer la retenue spéciale de 13,07 % sur le double pécule de vacances existe pour le personnel employé.</Description>
+<begin_geldigheid>01/07/1991</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>399</Code>
+<Description>Catégorie, et n° ONSS particulier 194xxxx-xx, réservés uniquement aux institutions à caractère public redevables de cotisations de sécurité sociale en qualité de "tiers-payant" ; en combinaison éventuellement avec une autre catégorie, et un autre n° ONSS, attribués pour leurs propres travailleurs (voir aussi catégories 099, 199, 299, 699...) ; concerne notamment : Institut wallon de formation en alternance et des indépendants et PME IFAPME n° 1942006-92, Institut für Aus- und Weiterbildung im Mittelstand, in kleinen und mittleren Unternehmen n° 1946000-41 ; Office régional bruxellois de l'emploi ACTIRIS n° 1940009-69 ; Syntra Vlaanderen Vlaams agentschap voor ondernemingsvorming n° 1941006-85 ; Vlaams subsidie agentschap voor werk en sociale economie n° 1941007-82 ...</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>411</Code>
+<Description>Employeurs à caractère public non redevables de la cotisation de modération salariale prévue par l'A.R n° 401 du 18 avril 1986. - notamment Liste civile</Description>
+<begin_geldigheid>01/01/1988</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>437</Code>
+<Description>Employeurs à caractère public occupant du personnel domestique non redevables de la cotisation de modération salariale prévue par l'A.R n° 401 du 18 avril 1986.</Description>
+<begin_geldigheid>01/07/1990</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>440</Code>
+<Description>Employeurs publics relevant de la Commission paritaire pour les institutions publiques de crédit n° 325 ; ne concerne que les IPC citées nommément dans le champs d'application de la CP n° 325 ; redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859) ; redevables de la cotisation sur le double pécule de vacances de employés (voir aussi catégories 030, 630, 730, 441, 445).</Description>
+<begin_geldigheid>01/04/1989</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>441</Code>
+<Description>Employeurs publics relevant de la Commission paritaire pour les institutions publiques de crédit n° 325 ; ne concerne que les IPC citées nommément dans le champs d'application de la CP n° 325 ; redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859) ; relevant pour les régimes des accidents du travail, des maladies professionnelles et des vacances annuelles, de la législation du secteur public (voir aussi catégories 030, 630, 730, 440, 445).</Description>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>445</Code>
+<Description>Employeurs publics relevant de la Commission paritaire pour les institutions publiques de crédit n° 325 ; ne concerne que les IPC citées nommément dans le champs d'application de la CP n° 325 ; redevables des cotisations en faveur des groupes à risque (852), et du chômage temporaire et chômeurs âgés (859) (voir aussi catégories 030, 630, 730, 440, 441).</Description>
+<begin_geldigheid>01/04/1989</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>496</Code>
+<Description>Employeurs définis sous l'indice 96 mais cotisant, pour les employés, sur le montant du double pécule de vacances annuelles.</Description>
+<begin_geldigheid>01/11/1997</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>497</Code>
+<Description>Catégorie réservée aux services d'intérim à caractère public, ne participant ni à la redistribution des charges sociales ni à l'opération Maribel.</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>596</Code>
+<Description>Organismes d'intérêt public exemptés, en vertu des dispositions de la loi du 27 juin 1963, du paiement de la cotisation afférente aux vacances annuelles, non redevables des cotisations "accidents du travail" et des "maladies professionnelles" et qui relèvent de la catégorie 1 pour l'application de la réduction structurelle.</Description>
+<begin_geldigheid>01/04/2016</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>599</Code>
+<Description>Office régional de l'emploi ORBEM, Bld Anspach 65 - 1000 BRUXELLES, n°930.131-05. Stagiaires occupés dans des entreprises publiques soumises à un plan d'assainissement - A.R. n° 230 du 21/12/1983 - Art. 6. - M.B. 28/12/1983. Catégorie supprimée au 31/12/1994.</Description>
+<begin_geldigheid>01/01/1986</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>750</Code>
+<Description>Administrations provinciales et locales avec le régime de vacances du secteur privé et le régime d'accidents du travail du secteur public pour le personnel contractuel ordinaire, à l'exception des zones de police locale et des médecins en formation de médecin spécialiste</Description>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>751</Code>
+<Description>Administrations provinciales et locales avec le régime de vacances du secteur public et le régime d'accidents du travail du secteur public pour le personnel contractuel ordinaire, à l'exception des zones de police locale et des médecins en formation de médecin spécialiste</Description>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>752</Code>
+<Description>Administrations provinciales et locales avec le régime de vacances du secteur privé et le régime d'accidents du travail du secteur privé pour le personnel contractuel ordinaire, à l'exception des zones de police locale et des médecins en formation de médecin spécialiste</Description>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>753</Code>
+<Description>Administrations provinciales et locales avec le régime de vacances du secteur public et le régime d'accidents du travail du secteur privé pour le personnel contractuel ordinaire, à l'exception des zones de police locale et des médecins en formation de médecin spécialiste</Description>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>754</Code>
+<Description>Zone de police locale</Description>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+<ann27>
+<Secteur>Public</Secteur>
+<Code>772</Code>
+<Description>Catégorie réservée uniquement pour la déclaration des médecins qui suivent la formation de médecin spécialiste, et qui sont soumis à un assujettissement restreint, par des administrations provinciales et locales; en combinaison avec une autre catégorie pour les travailleurs ordinaires.</Description>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann27>
+</List>

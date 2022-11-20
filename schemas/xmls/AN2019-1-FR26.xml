@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann26 (Code?, Description?, CategorieFR?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann26+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT CategorieFR (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann26>
+<Code>100</Code>
+<Description>Commission paritaire auxiliaire pour ouvriers</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>101</Code>
+<Description>Commission nationale mixte des mines</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102</Code>
+<Description>Commission paritaire de l'industrie des carrières</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.01</Code>
+<Description>Sous-commission paritaire de l'industrie des carrières de petit granit et de calcaire à tailler de la province de Hainaut</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.02</Code>
+<Description>Sous-commission paritaire de l'industrie des carrières de petit granit et de calcaire à tailler des provinces de Liège et de Namur</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.03</Code>
+<Description>Sous-commission paritaire des carrières de porphyre des provinces du Brabant wallon et de Hainaut et des carrières de quartzite de la province du Brabant wallon</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.04</Code>
+<Description>Sous-commission paritaire de l'industrie des carrières de grès et de quartzite de tout le territoire du Royaume, à l'exception des carrières de quartzite de la province du Brabant wallon</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.05</Code>
+<Description>Sous-commission paritaire de l'industrie des carrières de kaolin et de sable exploitées à ciel ouvert dans les provinces du Brabant wallon, de Hainaut, de Liège, de Luxembourg et de Namur</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.06</Code>
+<Description>Sous-commission paritaire de l'industrie des carrières de gravier et de sable exploitées à ciel ouvert dans les provinces d'Anvers, de Flandre occidentale, de Flandre orientale, de Limbourg et du Brabant flamand</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.07</Code>
+<Description>Sous-commission paritaire de l'industrie des carrières, cimenteries et fours à chaux de l'arrondissement administratif de Tournai</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.08</Code>
+<Description>Sous-commission paritaire de l'industrie des carrières et scieries de marbres de tout le territoire du Royaume</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.09</Code>
+<Description>Sous-commission paritaire de l'industrie des carrières de calcaire non taillé et des fours à chaux, des carrières de dolomies et des fours à dolomies de tout le territoire du Royaume</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.10</Code>
+<Description>Sous-commission paritaire de l'industrie de la récupération de terrils (non constituée, étant donné que le président, le vice-président et les membres n'ont pas été nommés)</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>102.11</Code>
+<Description>Sous-commission paritaire de l'industrie des ardoisières, des carrières de coticules et pierres à rasoir des provinces du Brabant wallon, de Hainaut, de Liège, de Luxembourg et de Namur</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>104</Code>
+<Description>Commission paritaire de l'industrie sidérurgique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>105</Code>
+<Description>Commission paritaire des métaux non-ferreux</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>106</Code>
+<Description>Commission paritaire des industries du ciment</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>106.01</Code>
+<Description>Sous-commission paritaire pour les fabriques de ciment</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>106.02</Code>
+<Description>Sous-commission paritaire de l'industrie du béton</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>106.03</Code>
+<Description>Sous-commission paritaire pour le fibrociment</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>107</Code>
+<Description>Commission paritaire des maîtres-tailleurs, des tailleuses et couturières</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>109</Code>
+<Description>Commission paritaire de l'industrie de l'habillement et de la confection</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>110</Code>
+<Description>Commission paritaire pour l'entretien du textile</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>111</Code>
+<Description>Commission paritaire des constructions métallique, mécanique et électrique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>112</Code>
+<Description>Commission paritaire des entreprises de garage</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>113</Code>
+<Description>Commission paritaire de l'industrie céramique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>113.01</Code>
+<Description>Sous-commission paritaire de l'industrie de la faïence et de la porcelaine, des articles sanitaires et des abrasifs et des poteries céramiques</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2009</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>113.02</Code>
+<Description>Sous-commission paritaire des entreprises de carreaux céramiques de revêtement et de pavement</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2009</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>113.03</Code>
+<Description>Sous-commission paritaire des produits réfractaires</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2009</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>113.04</Code>
+<Description>Sous-commission paritaire des tuileries</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>114</Code>
+<Description>Commission paritaire de l'industrie des briques</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>114.01</Code>
+<Description>Sous-commission paritaire de l'industrie des briques des provinces de Flandre orientale et de Flandre occidentale</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>114.02</Code>
+<Description>Sous-commission paritaire de l'industrie des briques de la province d'Anvers</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>114.03</Code>
+<Description>Sous-commission paritaire de l'industrie des briques de la province de Limbourg et du Brabant flamand</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>114.04</Code>
+<Description>Sous-commission paritaire de l'industrie des briques des provinces de Liège, de Luxembourg, de Namur et de Hainaut et du Brabant wallon</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>115</Code>
+<Description>Commission paritaire de l'industrie verrière</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>116</Code>
+<Description>Commission paritaire de l'industrie chimique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>117</Code>
+<Description>Commission paritaire de l'industrie et du commerce du pétrole</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>118</Code>
+<Description>Commission paritaire de l'industrie alimentaire</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>119</Code>
+<Description>Commission paritaire du commerce alimentaire</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>120</Code>
+<Description>Commission paritaire de l'industrie textile</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>120.01</Code>
+<Description>Sous-commission paritaire de l'industrie textile de l'arrondissement administratif de Verviers</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>120.02</Code>
+<Description>Sous-commission paritaire de la préparation du lin</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2019</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>120.03</Code>
+<Description>Sous-commission paritaire de la fabrication et du commerce de sacs en  jute ou en matériaux de remplacement</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>121</Code>
+<Description>Commission paritaire pour le nettoyage</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>124</Code>
+<Description>Commission paritaire de la construction</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>125</Code>
+<Description>Commission paritaire de l'industrie du bois</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>125.01</Code>
+<Description>Sous-commission paritaire pour les exploitations forestières</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>125.02</Code>
+<Description>Sous-commission paritaire des scieries et industries connexes</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>125.03</Code>
+<Description>Sous-commission paritaire pour le commerce du bois</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>126</Code>
+<Description>Commission paritaire de l'ameublement et de l'industrie transformatrice du bois</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>127</Code>
+<Description>Commission paritaire pour le commerce de combustibles</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>127.02</Code>
+<Description>Sous-commission paritaire pour le commerce de combustibles de la Flandre orientale</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2016</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>128</Code>
+<Description>Commission paritaire de l'industrie des cuirs et peaux et des produits de remplacement</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>128.01</Code>
+<Description>Sous-commission paritaire de la tannerie et du commerce de cuirs et peaux bruts</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2018</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>128.02</Code>
+<Description>Sous-commission paritaire de l'industrie de la chaussure, des bottiers et des chausseurs</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2018</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>128.03</Code>
+<Description>Sous-commission paritaire de la maroquinerie et de la ganterie</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2018</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>128.05</Code>
+<Description>Sous-commission paritaire de la sellerie, de la fabrication de courroies et d'articles industriels en cuir</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2018</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>128.06</Code>
+<Description>Sous-commission paritaire pour les chaussures orthopédiques</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2014</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>129</Code>
+<Description>Commission paritaire pour la production des pâtes, papiers et cartons</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>130</Code>
+<Description>Commission paritaire de l'imprimerie, des arts graphiques et des journaux</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>132</Code>
+<Description>Commission paritaire pour les entreprises de travaux techniques agricoles et horticoles</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>133</Code>
+<Description>Commission paritaire de l'industrie des tabacs</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>136</Code>
+<Description>Commission paritaire de la transformation du papier et du carton</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>139</Code>
+<Description>Commission paritaire de la batellerie</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>139.01</Code>
+<Description>Sous-commission paritaire pour le remorquage</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>140</Code>
+<Description>Commission paritaire du transport et de la logistique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>140.01</Code>
+<Description>Sous-commission paritaire pour les autobus et autocars</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>140.02</Code>
+<Description>Sous-commission paritaire pour les taxis</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>140.03</Code>
+<Description>Sous-commission paritaire pour le transport routier et la logistique pour compte de tiers</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>140.04</Code>
+<Description>Sous-commission paritaire pour l'assistance en escale dans les aéroports</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>140.05</Code>
+<Description>Sous-commission paritaire pour le déménagement</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/10/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>142</Code>
+<Description>Commission paritaire pour les entreprises de valorisation de matières premières de récupération</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>142.01</Code>
+<Description>Sous-commission paritaire pour la récupération de métaux</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>142.02</Code>
+<Description>Sous-commission paritaire pour la récupération de chiffons</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>142.03</Code>
+<Description>Sous-commission paritaire pour la récupération du papier</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>142.04</Code>
+<Description>Sous-commission paritaire pour la récupération de produits divers</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>143</Code>
+<Description>Commission paritaire de la pêche maritime</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>144</Code>
+<Description>Commission paritaire de l'agriculture</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>145</Code>
+<Description>Commission paritaire pour les entreprises horticoles</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>146</Code>
+<Description>Commission paritaire pour les entreprises forestières</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>147</Code>
+<Description>Commission paritaire de l'armurerie à la main</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2014</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>148</Code>
+<Description>Commission paritaire de la fourrure et de la peau en poil</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>148.01</Code>
+<Description>Sous-commission paritaire de la couperie de poils</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2014</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>148.03</Code>
+<Description>Sous-commission paritaire de la fabrication industrielle et de la fabrication artisanale de fourrure</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2014</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>148.05</Code>
+<Description>Sous-commission paritaire pour les tanneries de peaux</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2014</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>149</Code>
+<Description>Commission paritaire des secteurs connexes aux constructions métallique, mécanique et électrique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>149.01</Code>
+<Description>Sous-commission paritaire des électriciens : installation et distribution</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>149.02</Code>
+<Description>Sous-commission paritaire pour la carrosserie</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>149.03</Code>
+<Description>Sous-commission paritaire pour les métaux précieux</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>149.04</Code>
+<Description>Sous-commission paritaire pour le commerce du métal</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>150</Code>
+<Description>Commission paritaire de la poterie ordinaire en terre commune</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2010</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>152</Code>
+<Description>Commission paritaire pour les institutions subsidiées de l'enseignement libre</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>152.01</Code>
+<Description>Sous-commission paritaire pour les institutions subsidiées de l'enseignement libre de la Communauté flamande</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/07/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>152.02</Code>
+<Description>Sous-commission paritaire pour les institutions subsidiées de l'enseignement libre de la Communauté française et de la Communauté germanophone</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement manuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/07/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>200</Code>
+<Description>Commission paritaire auxiliaire pour employés</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>201</Code>
+<Description>Commission paritaire du commerce de détail indépendant</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>202</Code>
+<Description>Commission paritaire pour les employés du commerce de détail alimentaire</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>202.01</Code>
+<Description>Sous-commission paritaire pour les moyennes entreprises d'alimentation</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>203</Code>
+<Description>Commission paritaire pour employés des carrières de petit granit</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>204</Code>
+<Description>Commission paritaire pour employés des carrières de porphyre du canton de Lessines, de Bierghes-lez-Hal et de Quenast</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2011</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>205</Code>
+<Description>Commission paritaire pour employés des charbonnages</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>207</Code>
+<Description>Commission paritaire pour employés de l'industrie chimique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>209</Code>
+<Description>Commission paritaire pour employés des fabrications métalliques</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>210</Code>
+<Description>Commission paritaire pour les employés de la sidérurgie</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>211</Code>
+<Description>Commission paritaire pour employés de l'industrie et du commerce du pétrole</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>214</Code>
+<Description>Commission paritaire pour employés de l'industrie textile</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>215</Code>
+<Description>Commission paritaire pour employés de l'industrie de l'habillement et de la confection</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>216</Code>
+<Description>Commission paritaire pour les employés occupés chez les notaires</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>217</Code>
+<Description>Commission paritaire pour les employés de casino</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>218</Code>
+<Description>Commission paritaire nationale auxiliaire pour employés (instituée conformément à l'arrêté-loi du 9 juin 1945 fixant le statut des commissions paritaires, Moniteur belge du 5 juillet 1945)</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2015</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>219</Code>
+<Description>Commission paritaire pour les services et les organismes de contrôle technique et d'évaluation de la conformité</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>220</Code>
+<Description>Commission paritaire pour les employés de l'industrie alimentaire</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>221</Code>
+<Description>Commission paritaire des employés de l'industrie papetière</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>222</Code>
+<Description>Commission paritaire des employés de la transformation du papier et du carton</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>223</Code>
+<Description>Commission paritaire nationale des sports</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>224</Code>
+<Description>Commission paritaire pour les employés des métaux non-ferreux</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>225</Code>
+<Description>Commission paritaire pour les employés des institutions de l'enseignement libre subventionné</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>225.01</Code>
+<Description>Sous-commission paritaire pour les employés des institutions de l'enseignement libre subventionné de la Communauté flamande</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/07/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>225.02</Code>
+<Description>Sous-commission paritaire pour les employés des institutions de l'enseignement libre subventionné de la Communauté française et de la Communauté germanophone</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/07/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>226</Code>
+<Description>Commission paritaire pour les employés du commerce international, du transport et de la logistique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>227</Code>
+<Description>Commission paritaire pour le secteur audio-visuel</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs dont l'occupation est de caractère principalement intellectuel et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>300</Code>
+<Description>Conseil national du Travail</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/07/2014</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>301</Code>
+<Description>Commission paritaire des ports</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>301.01</Code>
+<Description>Sous-commission paritaire pour le port d'Anvers, dénommée "Nationaal Paritair Comité der haven van Antwerpen"</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>301.02</Code>
+<Description>Sous-commission paritaire pour le port de Gand</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>301.03</Code>
+<Description>Sous-commission paritaire pour le port de Bruxelles et de Vilvorde</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>301.04</Code>
+<Description>Sous-commission paritaire pour les ports d'Ostende et de Nieuport</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2017</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>301.05</Code>
+<Description>Sous-commission paritaire pour les ports de Zeebrugge-Bruges, d'Ostende et de Nieuport</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>301.06</Code>
+<Description>Sous-commission paritaire pour le port de Bruges</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2006</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>302</Code>
+<Description>Commission paritaire de l'industrie hôtelière</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>303</Code>
+<Description>Commission paritaire de l'industrie cinématographique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>303.01</Code>
+<Description>Sous-commission paritaire pour la production de films</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>303.02</Code>
+<Description>Sous-commission paritaire pour la distribution de films</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2008</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>303.03</Code>
+<Description>Sous-commission paritaire pour l'exploitation de salles de cinéma</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>303.04</Code>
+<Description>Sous-commission paritaire pour les industries techniques du film</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2008</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>304</Code>
+<Description>Commission paritaire du spectacle</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305</Code>
+<Description>Commission paritaire des services de santé</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.01</Code>
+<Description>Sous-commission paritaire pour les hôpitaux privés</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02</Code>
+<Description>Sous-commission paritaire pour les établissements et les services de santé</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02.01</Code>
+<Description>Sous-sous-commission paritaire pour les maisons de repos pour personnes âgées, les maisons de repos et de soins, les résidences-services, les centres de soins de jour et les centres d'accueil de jour.</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02.02</Code>
+<Description>Sous-sous-commission paritaire pour les services des soins infirmiers à domicile.</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02.03</Code>
+<Description>Sous-sous-commission paritaire pour les centres de revalidation néerlandophones, situés en Région flamande ou en Région de Bruxelles-Capitale. Sont exclus toutefois, les centres de revalidation faisant partie d'un hôpital ou établissement d'éducation et relevant comme tels de la responsabilité gestionnaire dudit hôpital ou établissement d'éducation</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02.04</Code>
+<Description>Sous-sous-commission paritaire pour les centres de revalidation francophones et germanophones situés en Région wallonne ou en Région de Bruxelles-Capitale. Sont exclus toutefois, les centres de revalidation faisant partie d'un hôpital ou établissement d'éducation et relevant comme tels de la responsabilité gestionnaire dudit hôpital ou établissement d'éducation.</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02.05</Code>
+<Description>Sous-sous-commission paritaire pour les établissements et services de santé bicommunautaires situés en Région de Bruxelles-Capitale. Sont exclus toutefois, les services des soins infirmier à domicile, les maisons de repos pour personnes âgées, les maisons de repos et de soins, les résidences-services, les centres de jour et les centres d'accueil de jour.</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02.06</Code>
+<Description>Sous-sous-commission paritaire pour les établissements et services de santé néerlandophones situés en Région flamande ou en Région de Bruxelles-Capitale. Sont toutefois exclus, les centres de revalidation autonomes, les services des soins infirmier à domicile, les maisons de repos pour personnes âgées, les maisons de repos et de soins, les résidences-services, les centres de jour, les centres d'accueil de jour, les crèches, prégardiennats, garderie extrascolaire, services de gardiennat à domicile d'enfants, services de gardiennat à domicile d'enfants malades, et les établissements et services semblables pour l'accueil d'enfants.</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02.07</Code>
+<Description>Sous-sous-commission paritaire pour les établissements et services de santé francophones et germanophones, situés en Région wallonne et en Région de Bruxelles-Capitale. Sont toutefois exclus, les centres de revalidation autonomes, les services des soins infirmier à domicile, les maisons de repos pour personnes âgées, les maisons de repos et de soins, les résidences-services, les centres de jour, les centres d'accueil de jour, les crèches, prégardiennats, garderie extrascolaire, services de gardiennat à domicile d'enfants, services de gardiennat à domicile d'enfants malades, et les établissements et services semblables pour l'accueil d'enfants</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02.08</Code>
+<Description>Sous-sous-commission paritaire pour les crèches, prégardiennats, garderie extrascolaire, services de gardiennat à domicile d'enfants, services de gardiennat à domicile d'enfants malades, et les établissements et services semblables pour l'accueil d'enfants néerlandophones, situés en Région flamande ou en Région de Bruxelles-Capitale.</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.02.09</Code>
+<Description>Sous-sous-commission paritaire pour les crèches, prégardiennats, garderie extrascolaire, services de gardiennat à domicile d'enfants, services de gardiennat à domicile d'enfants malades, maisons communales d'accueil de l'enfance et les établissements et services semblables pour l'accueil d'enfants francophones et germanophones, situés en Région wallonne ou en Région de Bruxelles-Capitale.</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>305.03</Code>
+<Description>Sous-commission paritaire de la prothèse dentaire</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2007</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>306</Code>
+<Description>Commission paritaire des entreprises d'assurances</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>307</Code>
+<Description>Commission paritaire pour les entreprises de courtage et agences d'assurances</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>308</Code>
+<Description>Commission paritaire pour les sociétés de prêts hypothécaires et de capitalisation</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2017</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>309</Code>
+<Description>Commission paritaire pour les sociétés de bourse</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>310</Code>
+<Description>Commission paritaire pour les banques</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>311</Code>
+<Description>Commission paritaire des grandes entreprises de vente au détail</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>312</Code>
+<Description>Commission paritaire des grands magasins</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>313</Code>
+<Description>Commission paritaire pour les pharmacies et offices de tarification</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>314</Code>
+<Description>Commission paritaire de la coiffure et des soins de beauté</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>315</Code>
+<Description>Commission paritaire de l'aviation commerciale</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>315.01</Code>
+<Description>Sous-commission paritaire pour la maintenance technique, l'assistance et la formation dans le secteur de l'aviation</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>315.02</Code>
+<Description>Sous-commission paritaire des compagnies aériennes</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>315.03</Code>
+<Description>Sous-commission paritaire pour la gestion des aéroports</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/07/2009</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>316</Code>
+<Description>Commission paritaire pour la marine marchande</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>317</Code>
+<Description>Commission paritaire pour les services de gardiennage et/ou de surveillance</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>318</Code>
+<Description>Commission paritaire pour les services des aides familiales et des aides seniors</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>318.01</Code>
+<Description>Sous-commission paritaire pour les services des aides familiales et des aides seniors de la Communauté française, de la Région wallonne et de la Communauté germanophone</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>318.02</Code>
+<Description>Sous-commission paritaire pour les services des aides familiales et des aides seniors de la Communauté flamande</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>319</Code>
+<Description>Commission paritaire des établissements et services d'éducation et d'hébergement</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>319.01</Code>
+<Description>Sous-commission paritaire des établissements et services d'éducation et d'hébergement de la Communauté flamande</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>319.02</Code>
+<Description>Sous-commission paritaire des établissements et services d'éducation et d'hébergement de la Communauté française, de la Région wallonne et de la Communauté germanophone</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>320</Code>
+<Description>Commission paritaire des pompes funèbres</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>321</Code>
+<Description>Commission paritaire pour les grossistes-répartiteurs de médicaments</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>322</Code>
+<Description>Commission paritaire pour le travail intérimaire et les entreprises agréées fournissant des travaux ou services de proximité</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>322.01</Code>
+<Description>Sous-commission paritaire pour les entreprises agréées fournissant des travaux ou services de proximité</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>323</Code>
+<Description>Commission paritaire pour la gestion d'immeubles, les agents immobiliers et les travailleurs domestiques</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>324</Code>
+<Description>Commission paritaire de l'industrie et du commerce du diamant</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>324.01</Code>
+<Description>Sous-commission paritaire pour le sciage du diamant</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2010</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>324.02</Code>
+<Description>Sous-commission paritaire pour le secteur des petites marchandises dans l'industrie et le commerce du diamant</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2010</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>324.03</Code>
+<Description>Sous-commission paritaire pour la formation professionnelle dans l'industrie et le commerce du diamant</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>05/09/2005</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>325</Code>
+<Description>Commission paritaire pour les institutions publiques de crédit</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>326</Code>
+<Description>Commission paritaire de l'industrie du gaz et de l'électricité</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>327</Code>
+<Description>Commission paritaire pour les entreprises de travail adapté, les ateliers sociaux et les "maatwerkbedrijven"</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>327.01</Code>
+<Description>Sous-commission paritaire pour le secteur flamand des entreprises de travail adapté, des ateliers sociaux et des "maatwerkbedrijven"</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>327.02</Code>
+<Description>Sous-commission paritaire pour les entreprises de travail adapté subsidiées par la Commission communautaire française</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>327.03</Code>
+<Description>Sous-commission paritaire pour les entreprises de travail adapté de la Région wallonne et de la Communauté germanophone</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>328</Code>
+<Description>Commission paritaire du transport urbain et régional</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>328.01</Code>
+<Description>Sous-commission paritaire du transport urbain et régional de la Région flamande</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>328.02</Code>
+<Description>Sous-commission paritaire du transport urbain et régional de la Région wallonne</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>328.03</Code>
+<Description>Sous-commission paritaire du transport urbain et régional de la Région de Bruxelles-Capitale</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>329</Code>
+<Description>Commission paritaire pour le secteur socio-culturel</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>329.01</Code>
+<Description>Sous-commission paritaire pour le secteur socio-culturel de la Communauté flamande</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/10/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>329.02</Code>
+<Description>Sous-commission paritaire pour le secteur socio-culturel de la Communauté française et germanophone et de la Région wallonne</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/10/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>329.03</Code>
+<Description>Sous-commission paritaire pour les organisations socio-culturelles fédérales et bicommunautaires</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/10/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330</Code>
+<Description>Commission paritaire des établissements et des services de santé</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.10</Code>
+<Description>Sous- sous-commission paritaire des hôpitaux privés et maisons de soins psychiatriques</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.20</Code>
+<Description>Sous- sous-commission paritaire des maisons de repos, maisons de repos et de soins, résidences services, centres de soins de jour, centres de jour pour personnes âgées</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.30</Code>
+<Description>Sous- sous-commission paritaire des services de soins infirmiers à domicile</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.41</Code>
+<Description>Sous- sous-commission paritaire des centres de revalidation autonomes situés en Région flamande ou néerlandophones situés en Région de Bruxelles-Capitale</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.42</Code>
+<Description>Sous- sous-commission paritaire des centres de revalidation autonomes situés en Région wallonne ou francophones situés en Région de Bruxelles-Capitale</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.51</Code>
+<Description>Sous- sous-commission paritaire pour les Initiatives d'habitations protégées situées en Région flamande ou néerlandophones situées en Région de Bruxelles-Capitale</Description>
+<CategorieFR>
+Organes paritaires compétents pour les travailleurs en général et leurs employeurs
+</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.52</Code>
+<Description>Sous- sous-commission paritaire pour les Initiatives d'habitations protégées situées en Région wallonne ou francophones situées en Région bruxelloise</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.53</Code>
+<Description>Sous- sous-commission paritaire des maisons médicales situées en Région flamande ou néerlandophones situées en Région de Bruxelles-Capitale</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.54</Code>
+<Description>Sous- sous-commission paritaire des maisons médicales situées en Région wallonne ou francophones situées en Région de Bruxelles-Capitale</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.01.55</Code>
+<Description>Sous- sous-commission paritaire des services du sang de la Croix-Rouge de Belgique</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.02</Code>
+<Description>Sous-commission paritaire des établissements et services de santé bicommunautaires reconnus par la Commission Communautaire Commune</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.03</Code>
+<Description>Sous-commission paritaire des établissements de prothèses dentaires</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>330.04</Code>
+<Description>Sous-commission paritaire pour les établissements et services de santé autres non compris dans l'accord social fédéral et à l'exclusion des services bicommunautaires et de prothèses dentaires. Il s'agit, entre autres, des services d'aide médicale urgente, entreprises de la branche du transport  indépendant de malades, cabinets de médecins généralistes et/ou spécialistes, cabinets de kinésithérapeutes, cabinets de dentistes, centres médicaux pédiatriques, autres cabinets paramédicaux, plate-forme santé mentale, polycliniques, soins continus et palliatifs à domicile, services externes de prévention et de protection au travail, laboratoires, services de contrôle médical,</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>331</Code>
+<Description>Commission paritaire pour le secteur flamand de l'aide sociale et des soins de santé</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>331.00.10</Code>
+<Description>Sous- sous commission paritaire pour l'accueil des enfants, les crèches, les jardins d'enfants, les services de garde d'enfants à domicile, les services de garde à domicile des enfants malades, les garderies extra scolaires</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>331.00.20</Code>
+<Description>Sous- sous commission paritaire pour les centres de planning familial, les centres de télé-accueil, les organisations de volontaires sociaux, les services de lutte contre la toxicomanie (sans revalidation), les centres de consultation matrimoniale,  les centres de consultation prénatale, les  bureaux de consultation pour le jeune enfant, les centres de confiance pour l'enfance maltraitée, les services d'adoption, les centres de troubles du développement, les centres de consultation de soins pour handicapés, les initiatives de coopération en matières de soins à domicile, les centres de santé mentale, les services et centres de promotion de la santé et de prévention</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>332</Code>
+<Description>Commission paritaire pour le secteur francophone et germanophone de l'aide sociale et des soins de santé</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/04/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>332.00.10</Code>
+<Description>Sous- sous commission paritaire pour les milieux d'accueil des enfants, l'accueil extra-scolaire, les crèches, les crèches parentales, les gardes d'enfants malades, les maisons communales d'accueil de l'enfance, les maisons d'enfants, les milieux d'accueil occasionnel, les milieux d'accueil régulier à horaire flexible, les milieux d'accueil d'urgence, les haltes-garderies, les farandolines, les haltes-accueils, les prégardiennats, les services d'accueillantes d'enfants conventionnées</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>332.00.20</Code>
+<Description>Sous- sous commission paritaire pour les services d'aide aux justiciables, les services d'aide aux détenus, les centres d'action sociale globale agréés Cocof, les centres locaux de la promotion de la santé, les centres de service social agréés RW, les centres de coordination de soins et services à domicile, les services d'entraide, les services de prévention et d'éducation à la santé, les centres de planning familial, les centres de santé et services de promotion de la santé à l'école, les services communautaires de promotion de la santé, les centres de santé mentale, les équipes SOS enfants, les services sociaux, les centres de télé-accueil, les services de lutte contre la toxicomanie et de prévention des assuétudes, les organismes d'adoption, l'aide au victimes, les espaces-rencontres, les services de télévigilance</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>333</Code>
+<Description>Commission paritaire pour les attractions touristiques</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/10/2003</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>334</Code>
+<Description>Commission paritaire des loteries publiques (non constituée, étant donné que le président, le vice-président et les membres n'ont pas été nommés).</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/07/2006</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>335</Code>
+<Description>Commission paritaire de prestation de services et de soutien aux entreprises et aux indépendants (non constituée, étant donné que le président, le vice-président et les membres n'ont pas été nommés)</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/04/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>336</Code>
+<Description>Commission paritaire pour les professions libérales</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>337</Code>
+<Description>Commission paritaire auxiliaire pour le secteur non-marchand</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/04/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>339</Code>
+<Description>Commission paritaire pour les sociétés de logement social agréées</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/01/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>339.01</Code>
+<Description>Sous-commission paritaire pour les sociétés de logement social agréées de la Région flamande</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>339.02</Code>
+<Description>Sous-commission paritaire pour les sociétés de logement social agréées de la Région wallonne</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>339.03</Code>
+<Description>Sous-commission paritaire pour les sociétés de logement social agréées de la Région de Bruxelles-Capitale</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>340</Code>
+<Description>Commission paritaire pour les technologies orthopédiques</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/04/2014</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann26>
+<ann26>
+<Code>341</Code>
+<Description>Commission paritaire pour l'intermédiation en services bancaires et d'investissement</Description>
+<CategorieFR>Organes paritaires compétents pour les travailleurs en général et leurs employeurs</CategorieFR>
+<begin_geldigheid>01/10/2014</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann26>
+</List>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann8 (Code?, Description?, DMFA?, DMFAPPL?, Geldig_vanaf?, Geldig_tot?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann8+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT DMFA (#PCDATA)>
+     <!ELEMENT DMFAPPL (#PCDATA)>
+     <!ELEMENT Geldig_vanaf (#PCDATA)>
+     <!ELEMENT Geldig_tot (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann8>
+<Code>1</Code>
+<Description>toutes les données relatives au temps de travail couvertes par une rémunération avec cotisations ONSS, à l'exception des vacances légales et complémentaires des ouvriers</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>2</Code>
+<Description>vacances légales pour ouvriers</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>3</Code>
+<Description>vacances complémentaires pour ouvriers</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>4</Code>
+<Description>absence premier jour par suite d'intempéries secteur de la construction (rémunération incomplète)</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>5</Code>
+<Description>congé-éducation payé ou congé formation flamand</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>10</Code>
+<Description>rémunération garantie deuxième semaine, jours fériés et jours de remplacement pendant la période de chômage temporaire, fonction de juge social</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>11</Code>
+<Description>incapacité de travail avec complément ou avance conformément à la CCT 12bis/13bis</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>12</Code>
+<Description>vacances en vertu d'une CCT rendue obligatoire ou repos compensatoire (construction, commerce de combustibles, industrie de l'habillement et de la confection, industrie et commerce du diamant, batellerie, culture et transformation primaire du lin et/ou du chanvre)</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>13</Code>
+<Description>promotion sociale</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>14</Code>
+<Description>jours de vacances supplémentaires en cas de début ou de reprise d'activité</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2012/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>15</Code>
+<Description>jours de vacances dont le paiement est inclus dans la rémunération flexi</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2015/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/10/2015</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>20</Code>
+<Description>jours de repos compensatoire non rémunérés dans le cadre d'une diminution du temps de travail avec rémunération horaire majorée</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>21</Code>
+<Description>les jours de grève/lock-out</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>22</Code>
+<Description>mission syndicale</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>23</Code>
+<Description>jour de carence</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2013/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2013</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>24</Code>
+<Description>congé pour raisons impérieuses sans maintien de la rémunération - pour les gardien(ne)s d'enfants, jours de vacances non rémunérés (maximum 20) et jours fériés légaux lorsqu'il n'y a pas accueil d'enfants</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>25</Code>
+<Description>devoirs civiques sans maintien de la rémunération, mandat public</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>26</Code>
+<Description>obligations de milice</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>30</Code>
+<Description>toutes les données relatives au temps de travail pour lesquelles l'employeur ne paye pas de rémunération ni d'indemnité, à l'exception de celles reprises sous un autre code</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>31</Code>
+<Description>jours d'absence totale non rémunérée, assimilée à de l'activité de service, éventuellement fractionnables (ex.: congé pour des motifs impérieux d'ordre familial)</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>32</Code>
+<Description>jours d'absence totale non rémunérée avec position de non-activité, de disponibilité sans traitement d'attente ou de non-activité non rémunérée pour les militaires</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>33</Code>
+<Description>jours d'absence totale pour congé politique non rémunéré et assimilé à de l'activité de service</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>41</Code>
+<Description>jours d'absence totale rémunérée avec position de non-activité</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>42</Code>
+<Description>jours de disponibilité totale avec traitement d'attente et maintien du droit à l'avancement</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>43</Code>
+<Description>jours de retrait temporaire d'emploi pour motif de santé (militaires)</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>50</Code>
+<Description>maladie (maladie ou accident de droit commun)</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>51</Code>
+<Description>protection de la maternité (= mesure de protection de la maternité, repos de maternité ou congé de maternité converti en cas de décès ou d'hospitalisation de la mère) et pauses d'allaitement (CCT n° 80)</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>52</Code>
+<Description>congé de paternité ou de naissance, congé d'adoption et congé parental d'accueil (seulement les jours à charge du secteur “indemnités")</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>53</Code>
+<Description>maladie (congé prophylactique)</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2017/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2017</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>60</Code>
+<Description>accident du travail</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>61</Code>
+<Description>maladie professionnelle</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>70</Code>
+<Description>chômage temporaire autre que les codes 71, 72 et 77</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>71</Code>
+<Description>code spécifique chômage économique</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>72</Code>
+<Description>code spécifique chômage temporaire pour cause d'intempérie</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>73</Code>
+<Description>vacances jeunes et vacances seniors</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>74</Code>
+<Description>manque de prestations d'un gardien ou d'une gardienne d'enfants reconnu, dû à l'absence d'enfants normalement présents, mais qui sont absents pour des raisons indépendantes de la volonté du gardien ou de la gardienne d'enfants</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/04/2003</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>75</Code>
+<Description>jours de soins d'accueil</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2008/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/10/2008</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>76</Code>
+<Description>jours de suspension employés pour manque de travail</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2009/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/04/2009</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>77</Code>
+<Description>Chômage temporaire pour force majeure Corona ou inondations ou guerre Ukraine</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2020/2</Geldig_vanaf>
+<Geldig_tot>2022/2</Geldig_tot>
+<begin_geldigheid>01/04/2020</begin_geldigheid>
+<einde_geldigheid>30/06/2022</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>80</Code>
+<Description>heures supplémentaires à ne pas récupérer et non soumises aux cotisations de sécurité sociale</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2015/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/10/2015</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>101</Code>
+<Description>Jours de navigation des marins dans le secteur de la marine marchande, des travaux de dragage ou du remorquage maritime</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2018/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>102</Code>
+<Description>Jours de congé des marins dans le secteur de la marine marchande, des travaux de dragage ou du remorquage maritime</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2018/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>110</Code>
+<Description>Prestations d'un membre d'un parlement ou d'un gouvernement fédéral ou régional ou d'un mandataire local protégé ; jours couverts par une indemnité de sortie d'un membre d'un parlement, d'un gouvernement, d'une Députation permanente ou d'un collège provincial</Description>
+<DMFA>Yes</DMFA>
+<DMFAPPL>No</DMFAPPL>
+<Geldig_vanaf>2019/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann8>
+<ann8>
+<Code>301</Code>
+<Description>toutes les données relatives au temps de travail couvertes par une indemnité exonérée de cotisations de sécurité sociale, à l'exception de celles reprises sous un autre code</Description>
+<DMFA>No</DMFA>
+<DMFAPPL>Yes</DMFAPPL>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann8>
+</List>

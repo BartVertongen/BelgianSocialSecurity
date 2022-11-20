@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann7 (Code?, Omschrijving?, DMFA?, ADRS?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann7+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT DMFA (#PCDATA)>
+     <!ELEMENT ADRS (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann7>
+<Code>1</Code>
+<Omschrijving>Alle bedragen die steeds als loon worden beschouwd, met uitzondering van de vergoedingen die onder een andere code worden vermeld.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>2</Code>
+<Omschrijving>Premies en gelijkaardige voordelen die worden toegekend onafhankelijk van het aantal effectief gewerkte dagen in het aangiftekwartaal.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>3</Code>
+<Omschrijving>Vergoedingen betaald aan de werknemer in geval van beëindiging van de arbeidsovereenkomst die worden uitgedrukt in arbeidstijd.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>4</Code>
+<Omschrijving>Vergoedingen betaald aan de werknemer in geval van beëindiging van de arbeidsovereenkomst die niet worden uitgedrukt in arbeidstijd.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>5</Code>
+<Omschrijving>Premies die de werknemer ontvangt omdat hij, in het raam van maatregelen tot herverdeling van de arbeid, zijn arbeidsprestaties heeft beperkt.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>6</Code>
+<Omschrijving>Vergoedingen voor uren die geen arbeidstijd zijn in de zin van de arbeidswet van 16 maart 1971, toegekend ingevolge een CAO gesloten in de schoot van een paritair orgaan vóór 1 januari 1994 en algemeen verbindend verklaard bij koninklijk besluit.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>7</Code>
+<Omschrijving>Enkel vertrekvakantiegeld, uitbetaald aan bedienden, onderhevig aan bijdragen.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>8</Code>
+<Omschrijving>Supplement voor tewerkstelling van een gelegenheidswerknemer uit de Horeca op een zaterdag, een dag voor een feestdag, een zondag of een feestdag.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/07/2007</begin_geldigheid>
+<einde_geldigheid>30/09/2013</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>9</Code>
+<Omschrijving>Vergoedingen betaald aan de statutaire ambtenaar in geval van beëindiging van de arbeidsrelatie, die worden uitgedrukt in arbeidstijd.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2004</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>10</Code>
+<Omschrijving>Voordeel van alle aard op persoonlijk gebruik bedrijfswagen of, tot en met 31/12/2020, op de mobiliteitsvergoeding in ruil voor het inleveren van een bedrijfswagen of op de milieuvriendelijke bedrijfswagen in het kader van het mobiliteitsbudget.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>11</Code>
+<Omschrijving>Enkel vertrekvakantiegeld, uitbetaald aan bedienden, niet onderhevig aan bijdragen.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>12</Code>
+<Omschrijving>Gedeelte van het enkel vakantiegeld dat overeenstemt met het normale loon voor de vakantiedagen en dat vervroegd werd uitbetaald door de vorige werkgever en dat niet onderhevig is aan bijdragen.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>13</Code>
+<Omschrijving>Vergoedingen voor niet te recupereren overuren die vrijgesteld zijn van socialezekerheidsbijdragen</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/10/2015</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>20</Code>
+<Omschrijving>Specifieke looncomponenten die voor gepensioneerden als loon worden beschouwd voor de toepassing van de regels inzake de cumulatie van een rust- en overlevingspensioen met inkomen uit beroepsarbeid.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>21</Code>
+<Omschrijving>Voordelen niet onderworpen aan de gewone RSZ-bijdragen.</Omschrijving>
+<DMFA>No</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>21</Code>
+<Omschrijving>Voordelen niet onderworpen aan de gewone RSZ-bijdragen.	</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>22</Code>
+<Omschrijving>Flexiloon</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/10/2015</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>23</Code>
+<Omschrijving>Premies betaald aan een flexijob-werknemer</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/10/2015</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>24</Code>
+<Omschrijving>Voordelen niet onderworpen aan de gewone RSZ-bijdragen die in aanmerking komen voor subsidies</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>25</Code>
+<Omschrijving>Tussenkomst voor verplaatsingen in opdracht</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>26</Code>
+<Omschrijving>Door werkgever ontvangen premies en/of subsidies andere dan sociale Maribel</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>27</Code>
+<Omschrijving>Vergoeding voor een federaal of regionaal parlements- of regeringslid of van een beschermde lokale mandataris</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>28</Code>
+<Omschrijving>Uittredingvergoeding van een lid van een parlement, een regering, een Bestendige Deputatie of provinciecollege</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>29</Code>
+<Omschrijving>Saldo van het mobiliteitsbudget uitbetaald in geld en dat overeenstemt met de 3de pijler</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>30</Code>
+<Omschrijving>Gewaarborgd loon tweede week.</Omschrijving>
+<DMFA>No</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>31</Code>
+<Omschrijving>Vergoeding CAO 12bis/13bis.</Omschrijving>
+<DMFA>No</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>32</Code>
+<Omschrijving>Nettoloon activeringsprogramma's.</Omschrijving>
+<DMFA>No</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>33</Code>
+<Omschrijving>Bruto bezoldiging voor een deeltijdse werknemer met inkomensgarantie -uitkering.</Omschrijving>
+<DMFA>No</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>41</Code>
+<Omschrijving>Vergoeding voor aanvullende verantwoordelijkheden van een federaal of regionaal parlements- of regeringslid</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>No</ADRS>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>42</Code>
+<Omschrijving>Deel van het loon (10%) van de in het kader van een startbaanovereenkomst tewerkgestelde werknemer dat door de werkgever wordt besteed aan zijn opleiding</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>43</Code>
+<Omschrijving>Premies, toelagen en vergoedingen betaald aan een contractueel of statutair personeelslid van de lokale politie die in aanmerking komen voor sociale toelage II, m.u.v. de eindejaarspremie - onderworpen aan overheidspensioenbijdrage</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>44</Code>
+<Omschrijving>Premies, toelagen en vergoedingen betaald aan een statutair personeelslid van de lokale politie die in aanmerking komen voor sociale toelage II, m.u.v. de eindejaarspremie - vrijgesteld van overheidspensioenbijdrage</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>45</Code>
+<Omschrijving>Onderworpen eindejaarspremie van lokale politie</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>46</Code>
+<Omschrijving>Voordelen niet onderworpen aan de gewone RSZ-bijdragen die in aanmerking komen voor subsidies uitbetaald door het Fonds Sociale Maribel voor de Overheidssector, met uitzondering van de elementen aangegeven onder een andere code.</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>51</Code>
+<Omschrijving>Vergoeding betaald aan een vastbenoemd personeelslid dat volledig afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>61</Code>
+<Omschrijving>Alle bedragen betaald aan een statutair personeelslid die steeds als loon worden beschouwd, met uitzondering van de vergoedingen die onder een andere code worden vermeld - vrijgesteld van overheidspensioenbijdrage</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>62</Code>
+<Omschrijving>Premies en gelijkaardige voordelen betaald aan een statutair personeelslid die worden toegekend onafhankelijk van het aantal effectief gewerkte dagen in het aangiftekwartaal - vrijgesteld van overheidspensioenbijdrage</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>65</Code>
+<Omschrijving>Premies die een statutair personeelslid ontvangt omdat hij, in het raam van maatregelen tot herverdeling van de arbeid, zijn arbeidsprestaties heeft beperkt - vrijgesteld van overheidspensioenbijdrage</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>66</Code>
+<Omschrijving>Vergoeding betaald aan een vastbenoemd personeelslid dat volledig afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd - vrijgesteld van overheidspensioenbijdrage</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+<ann7>
+<Code>67</Code>
+<Omschrijving>Alle bedragen betaald aan een statutair personeelslid vrijgesteld van socialezekerheidsbijdrage en onderworpen aan overheidspensioenbijdrage, die niet onder een andere code vermeld worden</Omschrijving>
+<DMFA>Yes</DMFA>
+<ADRS>Yes</ADRS>
+<begin_geldigheid>01/01/2022</begin_geldigheid>
+<einde_geldigheid>01/01/9999</einde_geldigheid>
+</ann7>
+</List>

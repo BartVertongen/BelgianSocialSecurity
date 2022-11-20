@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ACRF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	  xsi:noNamespaceSchemaLocation="ACRF_20223.xsd">
+	<Form>
+		<Identification>ACRF001</Identification>
+		<FormCreationDate>2025-08-16</FormCreationDate>
+		<FormCreationHour>15:29:46.123</FormCreationHour>
+		<AttestationStatus>0</AttestationStatus>
+		<TypeForm>PA</TypeForm>
+		<FileReference>
+			<FileName>GO.DMPI.012996.20090718.50002.R.1</FileName>
+			<ReferenceOrigin>2</ReferenceOrigin>
+			<ReferenceNbr>3400001Y1P01G</ReferenceNbr>
+		</FileReference>
+		<ReceptionResult>
+			<ResultCode>1</ResultCode>
+		</ReceptionResult>
+	</Form>
+</ACRF>
