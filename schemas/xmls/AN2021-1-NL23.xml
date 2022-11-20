@@ -1,2540 +1,2542 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE List [
-     <!ELEMENT ann23 (Postcodes?, Gemeente?, HoofdgemeentedeN?, begin_geldigheid?, einde_geldigheid?, CODE_INS?)>
-     <!ELEMENT List (ann23+)>
-     <!ELEMENT Postcodes (#PCDATA)>
-     <!ELEMENT Gemeente (#PCDATA)>
-     <!ELEMENT HoofdgemeentedeN (#PCDATA)>
-     <!ELEMENT begin_geldigheid (#PCDATA)>
-     <!ELEMENT einde_geldigheid (#PCDATA)>
-     <!ELEMENT CODE_INS (#PCDATA)>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann23 (Postcodes?, Gemeente?, HoofdgemeentedeN?
+	      , begin_geldigheid?, einde_geldigheid?, CODE_INS?)>
+     <!ELEMENT List (ann23+)>
+     <!ELEMENT Postcodes (#PCDATA)>
+     <!ELEMENT Gemeente (#PCDATA)>
+     <!ELEMENT HoofdgemeentedeN (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+     <!ELEMENT CODE_INS (#PCDATA)>
 ]>
-<List>
-<ann23>
-<Postcodes>1000</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21004</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1005</Postcodes>
-<Gemeente>Brusselse Hoofdstedelijke Raad</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>30/09/2016</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1005</Postcodes>
-<Gemeente>Ver.Verg. Gem. Gemeensch.com.</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1006</Postcodes>
-<Gemeente>Raad Vl. Gemeenschapscom.</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1007</Postcodes>
-<Gemeente>Assemblée de la Com. Comm. Fr.</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1008</Postcodes>
-<Gemeente>Kamer van Volksvertegenw.</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1009</Postcodes>
-<Gemeente>Brussel Belgische Senaat</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1010</Postcodes>
-<Gemeente>Rijksadministratief Centrum</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>30/09/2016</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1011</Postcodes>
-<Gemeente>Vlaamse Raad -Vlaams Parlement</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1012</Postcodes>
-<Gemeente>Parlement de la Communauté fr.</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1020</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21004</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1020</Postcodes>
-<Gemeente>Laken</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21004</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1030</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Schaarbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21015</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1030</Postcodes>
-<Gemeente>Schaarbeek</Gemeente>
-<HoofdgemeentedeN>Schaarbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21015</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1031</Postcodes>
-<Gemeente>Christelijke Soc. Organisaties</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1033</Postcodes>
-<Gemeente>Brussel RTL TVI</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1035</Postcodes>
-<Gemeente>Ministerie van het BHG</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1040</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Etterbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21005</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1040</Postcodes>
-<Gemeente>Etterbeek</Gemeente>
-<HoofdgemeentedeN>Etterbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21005</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1041</Postcodes>
-<Gemeente>International Press Center</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1043</Postcodes>
-<Gemeente>Brussel VRT</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1044</Postcodes>
-<Gemeente>Brussel RTBF</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1045</Postcodes>
-<Gemeente>DIV (uitsluitend roze form.)</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>30/09/2016</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1046</Postcodes>
-<Gemeente>Europ. External Action Service</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1047</Postcodes>
-<Gemeente>Brussel Europees Parlement</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1048</Postcodes>
-<Gemeente>Europese Unie - Raad</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1049</Postcodes>
-<Gemeente>Europese Unie - Commissie</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1050</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Elsene</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21009</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1050</Postcodes>
-<Gemeente>Elsene</Gemeente>
-<HoofdgemeentedeN>Elsene</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21009</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1060</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Sint-Gillis</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21013</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1060</Postcodes>
-<Gemeente>Sint-Gillis</Gemeente>
-<HoofdgemeentedeN>Sint-Gillis</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21013</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1070</Postcodes>
-<Gemeente>Anderlecht</Gemeente>
-<HoofdgemeentedeN>Anderlecht</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21001</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1070</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Anderlecht</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21001</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1080</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Sint-Jans-Molenbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21012</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1080</Postcodes>
-<Gemeente>Sint-Jans-Molenbeek</Gemeente>
-<HoofdgemeentedeN>Sint-Jans-Molenbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21012</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1081</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Koekelberg</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21011</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1081</Postcodes>
-<Gemeente>Koekelberg</Gemeente>
-<HoofdgemeentedeN>Koekelberg</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21011</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1082</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Sint-Agatha-Berchem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21003</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1082</Postcodes>
-<Gemeente>Sint-Agatha-Berchem</Gemeente>
-<HoofdgemeentedeN>Sint-Agatha-Berchem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21003</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1083</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Ganshoren</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21008</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1083</Postcodes>
-<Gemeente>Ganshoren</Gemeente>
-<HoofdgemeentedeN>Ganshoren</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21008</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1090</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Jette</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21010</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1090</Postcodes>
-<Gemeente>Jette</Gemeente>
-<HoofdgemeentedeN>Jette</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21010</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1099</Postcodes>
-<Gemeente>Brussel X</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1100</Postcodes>
-<Gemeente>Brussel Postcheque</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1101</Postcodes>
-<Gemeente>Scanning</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1105</Postcodes>
-<Gemeente>Brussel SOC</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1110</Postcodes>
-<Gemeente>Brussel NAVO - NATO</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1120</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21004</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1120</Postcodes>
-<Gemeente>Neder-over-Heembeek (Bru.)</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21004</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1130</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21004</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1130</Postcodes>
-<Gemeente>Haren (Bru.)</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21004</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1140</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Evere</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21006</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1140</Postcodes>
-<Gemeente>Evere</Gemeente>
-<HoofdgemeentedeN>Evere</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21006</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1150</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Sint-Pieters-Woluwe</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21019</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1150</Postcodes>
-<Gemeente>Sint-Pieters-Woluwe</Gemeente>
-<HoofdgemeentedeN>Sint-Pieters-Woluwe</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21019</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1160</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Oudergem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1160</Postcodes>
-<Gemeente>Oudergem</Gemeente>
-<HoofdgemeentedeN>Oudergem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1170</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Watermaal-Bosvoorde</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21017</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1170</Postcodes>
-<Gemeente>Watermaal-Bosvoorde</Gemeente>
-<HoofdgemeentedeN>Watermaal-Bosvoorde</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21017</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1180</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Ukkel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21016</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1180</Postcodes>
-<Gemeente>Ukkel</Gemeente>
-<HoofdgemeentedeN>Ukkel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21016</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1190</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Vorst</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21007</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1190</Postcodes>
-<Gemeente>Vorst</Gemeente>
-<HoofdgemeentedeN>Vorst</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21007</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1200</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Sint-Lambrechts-Woluwe</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21018</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1200</Postcodes>
-<Gemeente>Sint-Lambrechts-Woluwe</Gemeente>
-<HoofdgemeentedeN>Sint-Lambrechts-Woluwe</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21018</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1201</Postcodes>
-<Gemeente>Brussel RTL-TVI</Gemeente>
-<HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>30/09/2016</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1210</Postcodes>
-<Gemeente>Brussel</Gemeente>
-<HoofdgemeentedeN>Sint-Joost-ten-Node</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21014</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1210</Postcodes>
-<Gemeente>Sint-Joost-ten-Node</Gemeente>
-<HoofdgemeentedeN>Sint-Joost-ten-Node</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>21014</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1212</Postcodes>
-<Gemeente>FOD Mobiliteit</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1300</Postcodes>
-<Gemeente>Limal</Gemeente>
-<HoofdgemeentedeN>Waver</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25112</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1300</Postcodes>
-<Gemeente>Waver</Gemeente>
-<HoofdgemeentedeN>Waver</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25112</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1301</Postcodes>
-<Gemeente>Bierges</Gemeente>
-<HoofdgemeentedeN>Waver</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25112</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1310</Postcodes>
-<Gemeente>Terhulpen</Gemeente>
-<HoofdgemeentedeN>Terhulpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25050</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1315</Postcodes>
-<Gemeente>Glimes</Gemeente>
-<HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25043</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1315</Postcodes>
-<Gemeente>Incourt</Gemeente>
-<HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25043</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1315</Postcodes>
-<Gemeente>Opprebais</Gemeente>
-<HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25043</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1315</Postcodes>
-<Gemeente>Piètrebais</Gemeente>
-<HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25043</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1315</Postcodes>
-<Gemeente>Roux-Miroir</Gemeente>
-<HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25043</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1320</Postcodes>
-<Gemeente>Bevekom</Gemeente>
-<HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25005</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1320</Postcodes>
-<Gemeente>Hamme-Mille</Gemeente>
-<HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25005</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1320</Postcodes>
-<Gemeente>l'Ecluse</Gemeente>
-<HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25005</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1320</Postcodes>
-<Gemeente>Nodebais</Gemeente>
-<HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25005</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1320</Postcodes>
-<Gemeente>Tourinnes-la-Grosse</Gemeente>
-<HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25005</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1325</Postcodes>
-<Gemeente>Bonlez</Gemeente>
-<HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25018</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1325</Postcodes>
-<Gemeente>Chaumont-Gistoux</Gemeente>
-<HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25018</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1325</Postcodes>
-<Gemeente>Corroy-le-Grand</Gemeente>
-<HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25018</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1325</Postcodes>
-<Gemeente>Dion-Valmont</Gemeente>
-<HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25018</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1325</Postcodes>
-<Gemeente>Longueville</Gemeente>
-<HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25018</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1330</Postcodes>
-<Gemeente>Rixensart</Gemeente>
-<HoofdgemeentedeN>Rixensart</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25091</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1331</Postcodes>
-<Gemeente>Rosières</Gemeente>
-<HoofdgemeentedeN>Rixensart</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25091</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1332</Postcodes>
-<Gemeente>Genval</Gemeente>
-<HoofdgemeentedeN>Rixensart</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25091</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1340</Postcodes>
-<Gemeente>Ottignies-Louvain-la-Neuve</Gemeente>
-<HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25121</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1340</Postcodes>
-<Gemeente>Ottignies</Gemeente>
-<HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25121</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1341</Postcodes>
-<Gemeente>Céroux-Mousty</Gemeente>
-<HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25121</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1342</Postcodes>
-<Gemeente>Limelette</Gemeente>
-<HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25121</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1348</Postcodes>
-<Gemeente>Louvain-la-Neuve</Gemeente>
-<HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25121</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1348</Postcodes>
-<Gemeente>Mont-Saint-Guibert</Gemeente>
-<HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2008</einde_geldigheid>
-<CODE_INS>25121</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1348</Postcodes>
-<Gemeente>Site Universitaire</Gemeente>
-<HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>30/09/2016</einde_geldigheid>
-<CODE_INS>25121</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1350</Postcodes>
-<Gemeente>Enines</Gemeente>
-<HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25120</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1350</Postcodes>
-<Gemeente>Folx-lesCaves</Gemeente>
-<HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25120</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1350</Postcodes>
-<Gemeente>Jandrain-Jandrenouille</Gemeente>
-<HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25120</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1350</Postcodes>
-<Gemeente>Jauche</Gemeente>
-<HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25120</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1350</Postcodes>
-<Gemeente>Marilles</Gemeente>
-<HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25120</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1350</Postcodes>
-<Gemeente>Noduwez</Gemeente>
-<HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25120</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1350</Postcodes>
-<Gemeente>Orp-Jauche</Gemeente>
-<HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25120</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1350</Postcodes>
-<Gemeente>Orp-le-Grand</Gemeente>
-<HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25120</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1357</Postcodes>
-<Gemeente>Hélécine</Gemeente>
-<HoofdgemeentedeN>Hélécine</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25118</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1357</Postcodes>
-<Gemeente>Linsmeau</Gemeente>
-<HoofdgemeentedeN>Hélécine</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25118</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1357</Postcodes>
-<Gemeente>Neerheylissem</Gemeente>
-<HoofdgemeentedeN>Hélécine</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25118</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1357</Postcodes>
-<Gemeente>Opheylissem</Gemeente>
-<HoofdgemeentedeN>Hélécine</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25118</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1360</Postcodes>
-<Gemeente>Malèves-Sainte-Marie-Wastines</Gemeente>
-<HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25084</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1360</Postcodes>
-<Gemeente>Orbais</Gemeente>
-<HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25084</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1360</Postcodes>
-<Gemeente>Perwijs</Gemeente>
-<HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25084</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1360</Postcodes>
-<Gemeente>Thorembais-les-Béguines</Gemeente>
-<HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25084</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1360</Postcodes>
-<Gemeente>Thorembais-Saint-Trond</Gemeente>
-<HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25084</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Autre-Eglise</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Bomal (Br.W.)</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Geest-Gérompont-Petit-Rosière</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Gérompont</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Grand-Rosière-Hottomont</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Huppaye</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Mont-Saint-André</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Ramilies</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2008</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Ramillies</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1367</Postcodes>
-<Gemeente>Ramillies-Offus</Gemeente>
-<HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2008</einde_geldigheid>
-<CODE_INS>25122</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Dongelberg</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Geldenaken</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Jauchelette</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Jodoigne-Souveraine</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Lathuy</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Mélin</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Piétrain</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Saint-Jean-Geest</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Saint-Remy-Geest</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1370</Postcodes>
-<Gemeente>Zétrud-Lumay</Gemeente>
-<HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25048</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1380</Postcodes>
-<Gemeente>Couture-Saint-Germain</Gemeente>
-<HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25119</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1380</Postcodes>
-<Gemeente>Lasne</Gemeente>
-<HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25119</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1380</Postcodes>
-<Gemeente>Lasne-Chapelle-Saint-Lambert</Gemeente>
-<HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25119</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1380</Postcodes>
-<Gemeente>Maransart</Gemeente>
-<HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25119</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1380</Postcodes>
-<Gemeente>Ohain</Gemeente>
-<HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25119</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1380</Postcodes>
-<Gemeente>Plancenoit</Gemeente>
-<HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25119</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1390</Postcodes>
-<Gemeente>Archennes</Gemeente>
-<HoofdgemeentedeN>Graven</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25037</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1390</Postcodes>
-<Gemeente>Biez</Gemeente>
-<HoofdgemeentedeN>Graven</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25037</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1390</Postcodes>
-<Gemeente>Bossut-Gottechain</Gemeente>
-<HoofdgemeentedeN>Graven</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25037</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1390</Postcodes>
-<Gemeente>Graven</Gemeente>
-<HoofdgemeentedeN>Graven</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25037</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1390</Postcodes>
-<Gemeente>Nethen</Gemeente>
-<HoofdgemeentedeN>Graven</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25037</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1400</Postcodes>
-<Gemeente>Monstreux</Gemeente>
-<HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25072</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1400</Postcodes>
-<Gemeente>Nijvel</Gemeente>
-<HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25072</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1400</Postcodes>
-<Gemeente>Petit-Roeulx-lez-Nivelles</Gemeente>
-<HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2008</einde_geldigheid>
-<CODE_INS>25072</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1401</Postcodes>
-<Gemeente>Baulers</Gemeente>
-<HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25072</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1402</Postcodes>
-<Gemeente>Thines</Gemeente>
-<HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25072</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1404</Postcodes>
-<Gemeente>Bornival</Gemeente>
-<HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25072</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1410</Postcodes>
-<Gemeente>Waterloo</Gemeente>
-<HoofdgemeentedeN>Waterloo</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25110</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1414</Postcodes>
-<Gemeente>Waterloo Promo-Control</Gemeente>
-<HoofdgemeentedeN>Waterloo</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>30/09/2016</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1420</Postcodes>
-<Gemeente>Eigenbrakel</Gemeente>
-<HoofdgemeentedeN>Eigenbrakel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25014</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1421</Postcodes>
-<Gemeente>Ophain-Bois-Seigneur-Isaac</Gemeente>
-<HoofdgemeentedeN>Eigenbrakel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25014</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1428</Postcodes>
-<Gemeente>Lillois-Witterzée</Gemeente>
-<HoofdgemeentedeN>Eigenbrakel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25014</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1430</Postcodes>
-<Gemeente>Bierghes</Gemeente>
-<HoofdgemeentedeN>Rebecq</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25123</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1430</Postcodes>
-<Gemeente>Quenast</Gemeente>
-<HoofdgemeentedeN>Rebecq</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25123</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1430</Postcodes>
-<Gemeente>Rebecq</Gemeente>
-<HoofdgemeentedeN>Rebecq</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25123</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1430</Postcodes>
-<Gemeente>Rebecq-Rognon</Gemeente>
-<HoofdgemeentedeN>Rebecq</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25123</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1435</Postcodes>
-<Gemeente>Corbais</Gemeente>
-<HoofdgemeentedeN>Mont-Saint-Guibert</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25068</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1435</Postcodes>
-<Gemeente>Hévillers</Gemeente>
-<HoofdgemeentedeN>Mont-Saint-Guibert</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25068</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1435</Postcodes>
-<Gemeente>Mont-Saint-Guibert</Gemeente>
-<HoofdgemeentedeN>Mont-Saint-Guibert</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25068</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1440</Postcodes>
-<Gemeente>Kasteelbrakel</Gemeente>
-<HoofdgemeentedeN>Kasteelbrakel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25015</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1440</Postcodes>
-<Gemeente>Wauthier-Braine</Gemeente>
-<HoofdgemeentedeN>Kasteelbrakel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25015</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1450</Postcodes>
-<Gemeente>Chastre</Gemeente>
-<HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25117</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1450</Postcodes>
-<Gemeente>Chastre-Villeroux-Blanmont</Gemeente>
-<HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25117</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1450</Postcodes>
-<Gemeente>Cortil-Noirmont</Gemeente>
-<HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25117</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1450</Postcodes>
-<Gemeente>Gentinnes</Gemeente>
-<HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25117</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1450</Postcodes>
-<Gemeente>Saint-Géry</Gemeente>
-<HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25117</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1457</Postcodes>
-<Gemeente>Nil-Saint-Vincent-Saint-Martin</Gemeente>
-<HoofdgemeentedeN>Walhain</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25124</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1457</Postcodes>
-<Gemeente>Tourinnes-Saint-Lambert</Gemeente>
-<HoofdgemeentedeN>Walhain</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25124</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1457</Postcodes>
-<Gemeente>Walhain</Gemeente>
-<HoofdgemeentedeN>Walhain</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25124</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1457</Postcodes>
-<Gemeente>Walhain-Saint-Paul</Gemeente>
-<HoofdgemeentedeN>Walhain</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25124</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1460</Postcodes>
-<Gemeente>Itter</Gemeente>
-<HoofdgemeentedeN>Itter</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25044</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1460</Postcodes>
-<Gemeente>Virginal-Samme</Gemeente>
-<HoofdgemeentedeN>Itter</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25044</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1461</Postcodes>
-<Gemeente>Haut-Ittre</Gemeente>
-<HoofdgemeentedeN>Itter</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25044</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1470</Postcodes>
-<Gemeente>Baisy-Thy</Gemeente>
-<HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25031</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1470</Postcodes>
-<Gemeente>Bousval</Gemeente>
-<HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25031</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1470</Postcodes>
-<Gemeente>Genepiën</Gemeente>
-<HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25031</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1471</Postcodes>
-<Gemeente>Loupoigne</Gemeente>
-<HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25031</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1472</Postcodes>
-<Gemeente>Vieux-Genappe</Gemeente>
-<HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25031</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1473</Postcodes>
-<Gemeente>Glabais</Gemeente>
-<HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25031</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1474</Postcodes>
-<Gemeente>Ways</Gemeente>
-<HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25031</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1476</Postcodes>
-<Gemeente>Houtain-le-Val</Gemeente>
-<HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25031</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1480</Postcodes>
-<Gemeente>Clabecq</Gemeente>
-<HoofdgemeentedeN>Tubeke</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25105</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1480</Postcodes>
-<Gemeente>Oisquercq</Gemeente>
-<HoofdgemeentedeN>Tubeke</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25105</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1480</Postcodes>
-<Gemeente>Saintes</Gemeente>
-<HoofdgemeentedeN>Tubeke</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25105</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1480</Postcodes>
-<Gemeente>Tubeke</Gemeente>
-<HoofdgemeentedeN>Tubeke</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25105</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1490</Postcodes>
-<Gemeente>Court-Saint-Etienne</Gemeente>
-<HoofdgemeentedeN>Court-Saint-Etienne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25023</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1495</Postcodes>
-<Gemeente>Marbais (Br.W.)</Gemeente>
-<HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25107</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1495</Postcodes>
-<Gemeente>Mellery</Gemeente>
-<HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25107</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1495</Postcodes>
-<Gemeente>Sart-Dames-Avelines</Gemeente>
-<HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25107</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1495</Postcodes>
-<Gemeente>Tilly</Gemeente>
-<HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25107</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1495</Postcodes>
-<Gemeente>Villers-la-Ville</Gemeente>
-<HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>25107</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1500</Postcodes>
-<Gemeente>Halle</Gemeente>
-<HoofdgemeentedeN>Halle</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23027</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1501</Postcodes>
-<Gemeente>Buizingen</Gemeente>
-<HoofdgemeentedeN>Halle</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23027</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1502</Postcodes>
-<Gemeente>Lembeek</Gemeente>
-<HoofdgemeentedeN>Halle</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23027</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1540</Postcodes>
-<Gemeente>Herfelingen</Gemeente>
-<HoofdgemeentedeN>Herne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23032</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1540</Postcodes>
-<Gemeente>Herne</Gemeente>
-<HoofdgemeentedeN>Herne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23032</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1541</Postcodes>
-<Gemeente>Sint-Pieters-Kapelle (Vl.Br.)</Gemeente>
-<HoofdgemeentedeN>Herne</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23032</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1547</Postcodes>
-<Gemeente>Bever</Gemeente>
-<HoofdgemeentedeN>Bever</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23009</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1560</Postcodes>
-<Gemeente>Hoeilaart</Gemeente>
-<HoofdgemeentedeN>Hoeilaart</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23033</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1570</Postcodes>
-<Gemeente>Galmaarden</Gemeente>
-<HoofdgemeentedeN>Galmaarden</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23023</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1570</Postcodes>
-<Gemeente>Tollembeek</Gemeente>
-<HoofdgemeentedeN>Galmaarden</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23023</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1570</Postcodes>
-<Gemeente>Vollezele</Gemeente>
-<HoofdgemeentedeN>Galmaarden</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23023</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1600</Postcodes>
-<Gemeente>Oudenaken</Gemeente>
-<HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23077</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1600</Postcodes>
-<Gemeente>Sint-Laureins-Berchem</Gemeente>
-<HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23077</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1600</Postcodes>
-<Gemeente>Sint-Pieters-Leeuw</Gemeente>
-<HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23077</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1601</Postcodes>
-<Gemeente>Ruisbroek (Vl.Br.)</Gemeente>
-<HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23077</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1602</Postcodes>
-<Gemeente>Vlezenbeek</Gemeente>
-<HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23077</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1620</Postcodes>
-<Gemeente>Drogenbos</Gemeente>
-<HoofdgemeentedeN>Drogenbos</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23098</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1630</Postcodes>
-<Gemeente>Linkebeek</Gemeente>
-<HoofdgemeentedeN>Linkebeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23100</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1640</Postcodes>
-<Gemeente>Sint-Genesius-Rode</Gemeente>
-<HoofdgemeentedeN>Sint-Genesius-Rode</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23101</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1650</Postcodes>
-<Gemeente>Beersel</Gemeente>
-<HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23003</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1651</Postcodes>
-<Gemeente>Lot</Gemeente>
-<HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23003</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1652</Postcodes>
-<Gemeente>Alsemberg</Gemeente>
-<HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23003</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1653</Postcodes>
-<Gemeente>Dworp</Gemeente>
-<HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23003</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1654</Postcodes>
-<Gemeente>Huizingen</Gemeente>
-<HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23003</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1670</Postcodes>
-<Gemeente>Bogaarden</Gemeente>
-<HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23064</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1670</Postcodes>
-<Gemeente>Heikruis</Gemeente>
-<HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23064</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1670</Postcodes>
-<Gemeente>Pepingen</Gemeente>
-<HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23064</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1671</Postcodes>
-<Gemeente>Elingen</Gemeente>
-<HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23064</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1673</Postcodes>
-<Gemeente>Beert</Gemeente>
-<HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23064</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1674</Postcodes>
-<Gemeente>Bellingen</Gemeente>
-<HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23064</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1700</Postcodes>
-<Gemeente>Dilbeek</Gemeente>
-<HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23016</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1700</Postcodes>
-<Gemeente>Sint-Martens-Bodegem</Gemeente>
-<HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23016</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1700</Postcodes>
-<Gemeente>Sint-Ulriks-Kapelle</Gemeente>
-<HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23016</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1701</Postcodes>
-<Gemeente>Itterbeek</Gemeente>
-<HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23016</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1702</Postcodes>
-<Gemeente>Groot-Bijgaarden</Gemeente>
-<HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23016</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1703</Postcodes>
-<Gemeente>Schepdaal</Gemeente>
-<HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23016</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1730</Postcodes>
-<Gemeente>Asse</Gemeente>
-<HoofdgemeentedeN>Asse</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1730</Postcodes>
-<Gemeente>Bekkerzeel</Gemeente>
-<HoofdgemeentedeN>Asse</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1730</Postcodes>
-<Gemeente>Kobbegem</Gemeente>
-<HoofdgemeentedeN>Asse</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1730</Postcodes>
-<Gemeente>Mollem</Gemeente>
-<HoofdgemeentedeN>Asse</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1731</Postcodes>
-<Gemeente>Relegem</Gemeente>
-<HoofdgemeentedeN>Asse</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1731</Postcodes>
-<Gemeente>Zellik</Gemeente>
-<HoofdgemeentedeN>Asse</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1733</Postcodes>
-<Gemeente>HighCo DATA</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1740</Postcodes>
-<Gemeente>Ternat</Gemeente>
-<HoofdgemeentedeN>Ternat</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23086</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1741</Postcodes>
-<Gemeente>Wambeek</Gemeente>
-<HoofdgemeentedeN>Ternat</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23086</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1742</Postcodes>
-<Gemeente>Sint-Katherina-Lombeek</Gemeente>
-<HoofdgemeentedeN>Ternat</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23086</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1745</Postcodes>
-<Gemeente>Mazenzele</Gemeente>
-<HoofdgemeentedeN>Opwijk</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23060</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1745</Postcodes>
-<Gemeente>Opwijk</Gemeente>
-<HoofdgemeentedeN>Opwijk</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23060</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1750</Postcodes>
-<Gemeente>Gaasbeek</Gemeente>
-<HoofdgemeentedeN>Lennik</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23104</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1750</Postcodes>
-<Gemeente>Lennik</Gemeente>
-<HoofdgemeentedeN>Lennik</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23104</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1750</Postcodes>
-<Gemeente>Sint-Kwintens-Lennik</Gemeente>
-<HoofdgemeentedeN>Lennik</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23104</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1750</Postcodes>
-<Gemeente>Sint-Martens-Lennik</Gemeente>
-<HoofdgemeentedeN>Lennik</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23104</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1755</Postcodes>
-<Gemeente>Gooik</Gemeente>
-<HoofdgemeentedeN>Gooik</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23024</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1755</Postcodes>
-<Gemeente>Kester</Gemeente>
-<HoofdgemeentedeN>Gooik</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23024</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1755</Postcodes>
-<Gemeente>Leerbeek</Gemeente>
-<HoofdgemeentedeN>Gooik</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23024</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1755</Postcodes>
-<Gemeente>Oetingen</Gemeente>
-<HoofdgemeentedeN>Gooik</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23024</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1760</Postcodes>
-<Gemeente>Onze-Lieve-Vrouw-Lombeek</Gemeente>
-<HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23097</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1760</Postcodes>
-<Gemeente>Pamel</Gemeente>
-<HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23097</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1760</Postcodes>
-<Gemeente>Roosdaal</Gemeente>
-<HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23097</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1760</Postcodes>
-<Gemeente>Strijtem</Gemeente>
-<HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23097</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1761</Postcodes>
-<Gemeente>Borchtlombeek</Gemeente>
-<HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23097</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1770</Postcodes>
-<Gemeente>Liedekerke</Gemeente>
-<HoofdgemeentedeN>Liedekerke</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23044</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1780</Postcodes>
-<Gemeente>Wemmel</Gemeente>
-<HoofdgemeentedeN>Wemmel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23102</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1785</Postcodes>
-<Gemeente>Brussegem</Gemeente>
-<HoofdgemeentedeN>Merchtem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23052</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1785</Postcodes>
-<Gemeente>Hamme (Vl.Br.)</Gemeente>
-<HoofdgemeentedeN>Merchtem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23052</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1785</Postcodes>
-<Gemeente>Merchtem</Gemeente>
-<HoofdgemeentedeN>Merchtem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23052</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1790</Postcodes>
-<Gemeente>Affligem</Gemeente>
-<HoofdgemeentedeN>Affligem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23105</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1790</Postcodes>
-<Gemeente>Essene</Gemeente>
-<HoofdgemeentedeN>Affligem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23105</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1790</Postcodes>
-<Gemeente>Hekelgem</Gemeente>
-<HoofdgemeentedeN>Affligem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23105</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1790</Postcodes>
-<Gemeente>Teralfene</Gemeente>
-<HoofdgemeentedeN>Affligem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23105</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1800</Postcodes>
-<Gemeente>Peutie</Gemeente>
-<HoofdgemeentedeN>Vilvoorde</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23088</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1800</Postcodes>
-<Gemeente>Vilvoorde</Gemeente>
-<HoofdgemeentedeN>Vilvoorde</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23088</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1804</Postcodes>
-<Gemeente>Vilvoorde Cargovil</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1818</Postcodes>
-<Gemeente>Vilvoorde VTM</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1820</Postcodes>
-<Gemeente>Melsbroek</Gemeente>
-<HoofdgemeentedeN>Steenokkerzeel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23081</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1820</Postcodes>
-<Gemeente>Perk</Gemeente>
-<HoofdgemeentedeN>Steenokkerzeel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23081</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1820</Postcodes>
-<Gemeente>Steenokkerzeel</Gemeente>
-<HoofdgemeentedeN>Steenokkerzeel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23081</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1830</Postcodes>
-<Gemeente>Machelen (Vl.Br.)</Gemeente>
-<HoofdgemeentedeN>Machelen (Vl.Br.)</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23047</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1831</Postcodes>
-<Gemeente>Diegem</Gemeente>
-<HoofdgemeentedeN>Machelen (Vl.Br.)</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23047</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1840</Postcodes>
-<Gemeente>Londerzeel</Gemeente>
-<HoofdgemeentedeN>Londerzeel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23045</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1840</Postcodes>
-<Gemeente>Malderen</Gemeente>
-<HoofdgemeentedeN>Londerzeel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23045</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1840</Postcodes>
-<Gemeente>Steenhuffel</Gemeente>
-<HoofdgemeentedeN>Londerzeel</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23045</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1850</Postcodes>
-<Gemeente>Grimbergen</Gemeente>
-<HoofdgemeentedeN>Grimbergen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23025</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1851</Postcodes>
-<Gemeente>Humbeek</Gemeente>
-<HoofdgemeentedeN>Grimbergen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23025</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1852</Postcodes>
-<Gemeente>Beigem</Gemeente>
-<HoofdgemeentedeN>Grimbergen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23025</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1853</Postcodes>
-<Gemeente>Strombeek-Bever</Gemeente>
-<HoofdgemeentedeN>Grimbergen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23025</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1860</Postcodes>
-<Gemeente>Meise</Gemeente>
-<HoofdgemeentedeN>Meise</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23050</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1861</Postcodes>
-<Gemeente>Wolvertem</Gemeente>
-<HoofdgemeentedeN>Meise</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23050</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1880</Postcodes>
-<Gemeente>Kapelle-op-den-Bos</Gemeente>
-<HoofdgemeentedeN>Kapelle-op-den-Bos</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23039</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1880</Postcodes>
-<Gemeente>Nieuwenrode</Gemeente>
-<HoofdgemeentedeN>Kapelle-op-den-Bos</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23039</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1880</Postcodes>
-<Gemeente>Ramsdonk</Gemeente>
-<HoofdgemeentedeN>Kapelle-op-den-Bos</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23039</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1910</Postcodes>
-<Gemeente>Berg (Vl.Br.)</Gemeente>
-<HoofdgemeentedeN>Kampenhout</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23038</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1910</Postcodes>
-<Gemeente>Buken</Gemeente>
-<HoofdgemeentedeN>Kampenhout</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23038</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1910</Postcodes>
-<Gemeente>Kampenhout</Gemeente>
-<HoofdgemeentedeN>Kampenhout</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23038</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1910</Postcodes>
-<Gemeente>Nederokkerzeel</Gemeente>
-<HoofdgemeentedeN>Kampenhout</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23038</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1930</Postcodes>
-<Gemeente>Nossegem</Gemeente>
-<HoofdgemeentedeN>Zaventem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23094</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1930</Postcodes>
-<Gemeente>Zaventem</Gemeente>
-<HoofdgemeentedeN>Zaventem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23094</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1931</Postcodes>
-<Gemeente>Brucargo</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1932</Postcodes>
-<Gemeente>Sint-Stevens-Woluwe</Gemeente>
-<HoofdgemeentedeN>Zaventem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23094</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1933</Postcodes>
-<Gemeente>Sterrebeek</Gemeente>
-<HoofdgemeentedeN>Zaventem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23094</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1934</Postcodes>
-<Gemeente>Brussel - Luchthaven Remailing</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1935</Postcodes>
-<Gemeente>Corporate Village</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>1950</Postcodes>
-<Gemeente>Kraainem</Gemeente>
-<HoofdgemeentedeN>Kraainem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23099</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1970</Postcodes>
-<Gemeente>Wezembeek-Oppem</Gemeente>
-<HoofdgemeentedeN>Wezembeek-Oppem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23103</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1980</Postcodes>
-<Gemeente>Eppegem</Gemeente>
-<HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23096</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1980</Postcodes>
-<Gemeente>Zemst</Gemeente>
-<HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23096</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1981</Postcodes>
-<Gemeente>Hofstade (Vl.Br.)</Gemeente>
-<HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23096</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1982</Postcodes>
-<Gemeente>Elewijt</Gemeente>
-<HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23096</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>1982</Postcodes>
-<Gemeente>Weerde</Gemeente>
-<HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>23096</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2000</Postcodes>
-<Gemeente>Antwerpen</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2018</Postcodes>
-<Gemeente>Antwerpen</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2020</Postcodes>
-<Gemeente>Antwerpen</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2030</Postcodes>
-<Gemeente>Antwerpen</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2040</Postcodes>
-<Gemeente>Antwerpen</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2040</Postcodes>
-<Gemeente>Berendrecht</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2040</Postcodes>
-<Gemeente>Lillo</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2040</Postcodes>
-<Gemeente>Zandvliet</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2050</Postcodes>
-<Gemeente>Antwerpen</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2060</Postcodes>
-<Gemeente>Antwerpen</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2070</Postcodes>
-<Gemeente>Burcht</Gemeente>
-<HoofdgemeentedeN>Zwijndrecht</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11056</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2070</Postcodes>
-<Gemeente>Zwijndrecht</Gemeente>
-<HoofdgemeentedeN>Zwijndrecht</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11056</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2075</Postcodes>
-<Gemeente>CSM Antwerpen X</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>2099</Postcodes>
-<Gemeente>Antwerpen X</Gemeente>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-</ann23>
-<ann23>
-<Postcodes>2100</Postcodes>
-<Gemeente>Deurne (Antwerpen)</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2110</Postcodes>
-<Gemeente>Wijnegem</Gemeente>
-<HoofdgemeentedeN>Wijnegem</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11050</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2140</Postcodes>
-<Gemeente>Borgerhout (Antwerpen)</Gemeente>
-<HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11002</CODE_INS>
-</ann23>
-<ann23>
-<Postcodes>2150</Postcodes>
-<Gemeente>Borsbeek (Antw.)</Gemeente>
-<HoofdgemeentedeN>Borsbeek (Antw.)</HoofdgemeentedeN>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/9999</einde_geldigheid>
-<CODE_INS>11007</CODE_INS>
-</ann23>
+<List>
+
+    <ann23>
+    <Postcodes>1000</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21004</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1005</Postcodes>
+    <Gemeente>Brusselse Hoofdstedelijke Raad</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>30/09/2016</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1005</Postcodes>
+    <Gemeente>Ver.Verg. Gem. Gemeensch.com.</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1006</Postcodes>
+    <Gemeente>Raad Vl. Gemeenschapscom.</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1007</Postcodes>
+    <Gemeente>Assemblée de la Com. Comm. Fr.</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1008</Postcodes>
+    <Gemeente>Kamer van Volksvertegenw.</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1009</Postcodes>
+    <Gemeente>Brussel Belgische Senaat</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1010</Postcodes>
+    <Gemeente>Rijksadministratief Centrum</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>30/09/2016</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1011</Postcodes>
+    <Gemeente>Vlaamse Raad -Vlaams Parlement</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1012</Postcodes>
+    <Gemeente>Parlement de la Communauté fr.</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1020</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21004</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1020</Postcodes>
+    <Gemeente>Laken</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21004</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1030</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Schaarbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21015</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1030</Postcodes>
+    <Gemeente>Schaarbeek</Gemeente>
+    <HoofdgemeentedeN>Schaarbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21015</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1031</Postcodes>
+    <Gemeente>Christelijke Soc. Organisaties</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1033</Postcodes>
+    <Gemeente>Brussel RTL TVI</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1035</Postcodes>
+    <Gemeente>Ministerie van het BHG</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1040</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Etterbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21005</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1040</Postcodes>
+    <Gemeente>Etterbeek</Gemeente>
+    <HoofdgemeentedeN>Etterbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21005</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1041</Postcodes>
+    <Gemeente>International Press Center</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1043</Postcodes>
+    <Gemeente>Brussel VRT</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1044</Postcodes>
+    <Gemeente>Brussel RTBF</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1045</Postcodes>
+    <Gemeente>DIV (uitsluitend roze form.)</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>30/09/2016</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1046</Postcodes>
+    <Gemeente>Europ. External Action Service</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1047</Postcodes>
+    <Gemeente>Brussel Europees Parlement</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1048</Postcodes>
+    <Gemeente>Europese Unie - Raad</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1049</Postcodes>
+    <Gemeente>Europese Unie - Commissie</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1050</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Elsene</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21009</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1050</Postcodes>
+    <Gemeente>Elsene</Gemeente>
+    <HoofdgemeentedeN>Elsene</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21009</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1060</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Sint-Gillis</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21013</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1060</Postcodes>
+    <Gemeente>Sint-Gillis</Gemeente>
+    <HoofdgemeentedeN>Sint-Gillis</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21013</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1070</Postcodes>
+    <Gemeente>Anderlecht</Gemeente>
+    <HoofdgemeentedeN>Anderlecht</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21001</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1070</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Anderlecht</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21001</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1080</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Sint-Jans-Molenbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21012</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1080</Postcodes>
+    <Gemeente>Sint-Jans-Molenbeek</Gemeente>
+    <HoofdgemeentedeN>Sint-Jans-Molenbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21012</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1081</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Koekelberg</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21011</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1081</Postcodes>
+    <Gemeente>Koekelberg</Gemeente>
+    <HoofdgemeentedeN>Koekelberg</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21011</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1082</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Sint-Agatha-Berchem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21003</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1082</Postcodes>
+    <Gemeente>Sint-Agatha-Berchem</Gemeente>
+    <HoofdgemeentedeN>Sint-Agatha-Berchem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21003</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1083</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Ganshoren</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21008</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1083</Postcodes>
+    <Gemeente>Ganshoren</Gemeente>
+    <HoofdgemeentedeN>Ganshoren</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21008</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1090</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Jette</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21010</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1090</Postcodes>
+    <Gemeente>Jette</Gemeente>
+    <HoofdgemeentedeN>Jette</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21010</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1099</Postcodes>
+    <Gemeente>Brussel X</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1100</Postcodes>
+    <Gemeente>Brussel Postcheque</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1101</Postcodes>
+    <Gemeente>Scanning</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1105</Postcodes>
+    <Gemeente>Brussel SOC</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1110</Postcodes>
+    <Gemeente>Brussel NAVO - NATO</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1120</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21004</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1120</Postcodes>
+    <Gemeente>Neder-over-Heembeek (Bru.)</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21004</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1130</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21004</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1130</Postcodes>
+    <Gemeente>Haren (Bru.)</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21004</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1140</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Evere</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21006</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1140</Postcodes>
+    <Gemeente>Evere</Gemeente>
+    <HoofdgemeentedeN>Evere</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21006</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1150</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Sint-Pieters-Woluwe</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21019</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1150</Postcodes>
+    <Gemeente>Sint-Pieters-Woluwe</Gemeente>
+    <HoofdgemeentedeN>Sint-Pieters-Woluwe</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21019</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1160</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Oudergem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21002</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1160</Postcodes>
+    <Gemeente>Oudergem</Gemeente>
+    <HoofdgemeentedeN>Oudergem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21002</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1170</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Watermaal-Bosvoorde</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21017</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1170</Postcodes>
+    <Gemeente>Watermaal-Bosvoorde</Gemeente>
+    <HoofdgemeentedeN>Watermaal-Bosvoorde</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21017</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1180</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Ukkel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21016</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1180</Postcodes>
+    <Gemeente>Ukkel</Gemeente>
+    <HoofdgemeentedeN>Ukkel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21016</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1190</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Vorst</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21007</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1190</Postcodes>
+    <Gemeente>Vorst</Gemeente>
+    <HoofdgemeentedeN>Vorst</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21007</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1200</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Sint-Lambrechts-Woluwe</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21018</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1200</Postcodes>
+    <Gemeente>Sint-Lambrechts-Woluwe</Gemeente>
+    <HoofdgemeentedeN>Sint-Lambrechts-Woluwe</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21018</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1201</Postcodes>
+    <Gemeente>Brussel RTL-TVI</Gemeente>
+    <HoofdgemeentedeN>Brussel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>30/09/2016</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1210</Postcodes>
+    <Gemeente>Brussel</Gemeente>
+    <HoofdgemeentedeN>Sint-Joost-ten-Node</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21014</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1210</Postcodes>
+    <Gemeente>Sint-Joost-ten-Node</Gemeente>
+    <HoofdgemeentedeN>Sint-Joost-ten-Node</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>21014</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1212</Postcodes>
+    <Gemeente>FOD Mobiliteit</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1300</Postcodes>
+    <Gemeente>Limal</Gemeente>
+    <HoofdgemeentedeN>Waver</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25112</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1300</Postcodes>
+    <Gemeente>Waver</Gemeente>
+    <HoofdgemeentedeN>Waver</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25112</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1301</Postcodes>
+    <Gemeente>Bierges</Gemeente>
+    <HoofdgemeentedeN>Waver</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25112</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1310</Postcodes>
+    <Gemeente>Terhulpen</Gemeente>
+    <HoofdgemeentedeN>Terhulpen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25050</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1315</Postcodes>
+    <Gemeente>Glimes</Gemeente>
+    <HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25043</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1315</Postcodes>
+    <Gemeente>Incourt</Gemeente>
+    <HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25043</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1315</Postcodes>
+    <Gemeente>Opprebais</Gemeente>
+    <HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25043</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1315</Postcodes>
+    <Gemeente>Piètrebais</Gemeente>
+    <HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25043</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1315</Postcodes>
+    <Gemeente>Roux-Miroir</Gemeente>
+    <HoofdgemeentedeN>Incourt</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25043</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1320</Postcodes>
+    <Gemeente>Bevekom</Gemeente>
+    <HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25005</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1320</Postcodes>
+    <Gemeente>Hamme-Mille</Gemeente>
+    <HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25005</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1320</Postcodes>
+    <Gemeente>l'Ecluse</Gemeente>
+    <HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25005</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1320</Postcodes>
+    <Gemeente>Nodebais</Gemeente>
+    <HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25005</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1320</Postcodes>
+    <Gemeente>Tourinnes-la-Grosse</Gemeente>
+    <HoofdgemeentedeN>Bevekom</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25005</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1325</Postcodes>
+    <Gemeente>Bonlez</Gemeente>
+    <HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25018</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1325</Postcodes>
+    <Gemeente>Chaumont-Gistoux</Gemeente>
+    <HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25018</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1325</Postcodes>
+    <Gemeente>Corroy-le-Grand</Gemeente>
+    <HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25018</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1325</Postcodes>
+    <Gemeente>Dion-Valmont</Gemeente>
+    <HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25018</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1325</Postcodes>
+    <Gemeente>Longueville</Gemeente>
+    <HoofdgemeentedeN>Chaumont-Gistoux</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25018</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1330</Postcodes>
+    <Gemeente>Rixensart</Gemeente>
+    <HoofdgemeentedeN>Rixensart</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25091</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1331</Postcodes>
+    <Gemeente>Rosières</Gemeente>
+    <HoofdgemeentedeN>Rixensart</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25091</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1332</Postcodes>
+    <Gemeente>Genval</Gemeente>
+    <HoofdgemeentedeN>Rixensart</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25091</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1340</Postcodes>
+    <Gemeente>Ottignies-Louvain-la-Neuve</Gemeente>
+    <HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25121</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1340</Postcodes>
+    <Gemeente>Ottignies</Gemeente>
+    <HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25121</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1341</Postcodes>
+    <Gemeente>Céroux-Mousty</Gemeente>
+    <HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25121</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1342</Postcodes>
+    <Gemeente>Limelette</Gemeente>
+    <HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25121</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1348</Postcodes>
+    <Gemeente>Louvain-la-Neuve</Gemeente>
+    <HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25121</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1348</Postcodes>
+    <Gemeente>Mont-Saint-Guibert</Gemeente>
+    <HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/2008</einde_geldigheid>
+    <CODE_INS>25121</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1348</Postcodes>
+    <Gemeente>Site Universitaire</Gemeente>
+    <HoofdgemeentedeN>Ottignies-Louvain-la-Neuve</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>30/09/2016</einde_geldigheid>
+    <CODE_INS>25121</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1350</Postcodes>
+    <Gemeente>Enines</Gemeente>
+    <HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25120</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1350</Postcodes>
+    <Gemeente>Folx-lesCaves</Gemeente>
+    <HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25120</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1350</Postcodes>
+    <Gemeente>Jandrain-Jandrenouille</Gemeente>
+    <HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25120</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1350</Postcodes>
+    <Gemeente>Jauche</Gemeente>
+    <HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25120</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1350</Postcodes>
+    <Gemeente>Marilles</Gemeente>
+    <HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25120</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1350</Postcodes>
+    <Gemeente>Noduwez</Gemeente>
+    <HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25120</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1350</Postcodes>
+    <Gemeente>Orp-Jauche</Gemeente>
+    <HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25120</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1350</Postcodes>
+    <Gemeente>Orp-le-Grand</Gemeente>
+    <HoofdgemeentedeN>Orp-Jauche</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25120</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1357</Postcodes>
+    <Gemeente>Hélécine</Gemeente>
+    <HoofdgemeentedeN>Hélécine</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25118</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1357</Postcodes>
+    <Gemeente>Linsmeau</Gemeente>
+    <HoofdgemeentedeN>Hélécine</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25118</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1357</Postcodes>
+    <Gemeente>Neerheylissem</Gemeente>
+    <HoofdgemeentedeN>Hélécine</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25118</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1357</Postcodes>
+    <Gemeente>Opheylissem</Gemeente>
+    <HoofdgemeentedeN>Hélécine</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25118</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1360</Postcodes>
+    <Gemeente>Malèves-Sainte-Marie-Wastines</Gemeente>
+    <HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25084</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1360</Postcodes>
+    <Gemeente>Orbais</Gemeente>
+    <HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25084</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1360</Postcodes>
+    <Gemeente>Perwijs</Gemeente>
+    <HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25084</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1360</Postcodes>
+    <Gemeente>Thorembais-les-Béguines</Gemeente>
+    <HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25084</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1360</Postcodes>
+    <Gemeente>Thorembais-Saint-Trond</Gemeente>
+    <HoofdgemeentedeN>Perwijs</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25084</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Autre-Eglise</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Bomal (Br.W.)</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Geest-Gérompont-Petit-Rosière</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Gérompont</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Grand-Rosière-Hottomont</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Huppaye</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Mont-Saint-André</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Ramilies</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/2008</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Ramillies</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1367</Postcodes>
+    <Gemeente>Ramillies-Offus</Gemeente>
+    <HoofdgemeentedeN>Ramillies</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/2008</einde_geldigheid>
+    <CODE_INS>25122</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Dongelberg</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Geldenaken</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Jauchelette</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Jodoigne-Souveraine</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Lathuy</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Mélin</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Piétrain</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Saint-Jean-Geest</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Saint-Remy-Geest</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1370</Postcodes>
+    <Gemeente>Zétrud-Lumay</Gemeente>
+    <HoofdgemeentedeN>Geldenaken</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25048</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1380</Postcodes>
+    <Gemeente>Couture-Saint-Germain</Gemeente>
+    <HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25119</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1380</Postcodes>
+    <Gemeente>Lasne</Gemeente>
+    <HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25119</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1380</Postcodes>
+    <Gemeente>Lasne-Chapelle-Saint-Lambert</Gemeente>
+    <HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25119</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1380</Postcodes>
+    <Gemeente>Maransart</Gemeente>
+    <HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25119</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1380</Postcodes>
+    <Gemeente>Ohain</Gemeente>
+    <HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25119</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1380</Postcodes>
+    <Gemeente>Plancenoit</Gemeente>
+    <HoofdgemeentedeN>Lasne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25119</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1390</Postcodes>
+    <Gemeente>Archennes</Gemeente>
+    <HoofdgemeentedeN>Graven</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25037</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1390</Postcodes>
+    <Gemeente>Biez</Gemeente>
+    <HoofdgemeentedeN>Graven</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25037</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1390</Postcodes>
+    <Gemeente>Bossut-Gottechain</Gemeente>
+    <HoofdgemeentedeN>Graven</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25037</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1390</Postcodes>
+    <Gemeente>Graven</Gemeente>
+    <HoofdgemeentedeN>Graven</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25037</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1390</Postcodes>
+    <Gemeente>Nethen</Gemeente>
+    <HoofdgemeentedeN>Graven</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25037</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1400</Postcodes>
+    <Gemeente>Monstreux</Gemeente>
+    <HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25072</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1400</Postcodes>
+    <Gemeente>Nijvel</Gemeente>
+    <HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25072</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1400</Postcodes>
+    <Gemeente>Petit-Roeulx-lez-Nivelles</Gemeente>
+    <HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/2008</einde_geldigheid>
+    <CODE_INS>25072</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1401</Postcodes>
+    <Gemeente>Baulers</Gemeente>
+    <HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25072</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1402</Postcodes>
+    <Gemeente>Thines</Gemeente>
+    <HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25072</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1404</Postcodes>
+    <Gemeente>Bornival</Gemeente>
+    <HoofdgemeentedeN>Nijvel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25072</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1410</Postcodes>
+    <Gemeente>Waterloo</Gemeente>
+    <HoofdgemeentedeN>Waterloo</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25110</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1414</Postcodes>
+    <Gemeente>Waterloo Promo-Control</Gemeente>
+    <HoofdgemeentedeN>Waterloo</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>30/09/2016</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1420</Postcodes>
+    <Gemeente>Eigenbrakel</Gemeente>
+    <HoofdgemeentedeN>Eigenbrakel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25014</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1421</Postcodes>
+    <Gemeente>Ophain-Bois-Seigneur-Isaac</Gemeente>
+    <HoofdgemeentedeN>Eigenbrakel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25014</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1428</Postcodes>
+    <Gemeente>Lillois-Witterzée</Gemeente>
+    <HoofdgemeentedeN>Eigenbrakel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25014</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1430</Postcodes>
+    <Gemeente>Bierghes</Gemeente>
+    <HoofdgemeentedeN>Rebecq</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25123</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1430</Postcodes>
+    <Gemeente>Quenast</Gemeente>
+    <HoofdgemeentedeN>Rebecq</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25123</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1430</Postcodes>
+    <Gemeente>Rebecq</Gemeente>
+    <HoofdgemeentedeN>Rebecq</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25123</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1430</Postcodes>
+    <Gemeente>Rebecq-Rognon</Gemeente>
+    <HoofdgemeentedeN>Rebecq</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25123</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1435</Postcodes>
+    <Gemeente>Corbais</Gemeente>
+    <HoofdgemeentedeN>Mont-Saint-Guibert</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25068</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1435</Postcodes>
+    <Gemeente>Hévillers</Gemeente>
+    <HoofdgemeentedeN>Mont-Saint-Guibert</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25068</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1435</Postcodes>
+    <Gemeente>Mont-Saint-Guibert</Gemeente>
+    <HoofdgemeentedeN>Mont-Saint-Guibert</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25068</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1440</Postcodes>
+    <Gemeente>Kasteelbrakel</Gemeente>
+    <HoofdgemeentedeN>Kasteelbrakel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25015</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1440</Postcodes>
+    <Gemeente>Wauthier-Braine</Gemeente>
+    <HoofdgemeentedeN>Kasteelbrakel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25015</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1450</Postcodes>
+    <Gemeente>Chastre</Gemeente>
+    <HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25117</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1450</Postcodes>
+    <Gemeente>Chastre-Villeroux-Blanmont</Gemeente>
+    <HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25117</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1450</Postcodes>
+    <Gemeente>Cortil-Noirmont</Gemeente>
+    <HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25117</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1450</Postcodes>
+    <Gemeente>Gentinnes</Gemeente>
+    <HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25117</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1450</Postcodes>
+    <Gemeente>Saint-Géry</Gemeente>
+    <HoofdgemeentedeN>Chastre</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25117</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1457</Postcodes>
+    <Gemeente>Nil-Saint-Vincent-Saint-Martin</Gemeente>
+    <HoofdgemeentedeN>Walhain</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25124</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1457</Postcodes>
+    <Gemeente>Tourinnes-Saint-Lambert</Gemeente>
+    <HoofdgemeentedeN>Walhain</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25124</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1457</Postcodes>
+    <Gemeente>Walhain</Gemeente>
+    <HoofdgemeentedeN>Walhain</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25124</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1457</Postcodes>
+    <Gemeente>Walhain-Saint-Paul</Gemeente>
+    <HoofdgemeentedeN>Walhain</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25124</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1460</Postcodes>
+    <Gemeente>Itter</Gemeente>
+    <HoofdgemeentedeN>Itter</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25044</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1460</Postcodes>
+    <Gemeente>Virginal-Samme</Gemeente>
+    <HoofdgemeentedeN>Itter</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25044</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1461</Postcodes>
+    <Gemeente>Haut-Ittre</Gemeente>
+    <HoofdgemeentedeN>Itter</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25044</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1470</Postcodes>
+    <Gemeente>Baisy-Thy</Gemeente>
+    <HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25031</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1470</Postcodes>
+    <Gemeente>Bousval</Gemeente>
+    <HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25031</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1470</Postcodes>
+    <Gemeente>Genepiën</Gemeente>
+    <HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25031</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1471</Postcodes>
+    <Gemeente>Loupoigne</Gemeente>
+    <HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25031</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1472</Postcodes>
+    <Gemeente>Vieux-Genappe</Gemeente>
+    <HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25031</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1473</Postcodes>
+    <Gemeente>Glabais</Gemeente>
+    <HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25031</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1474</Postcodes>
+    <Gemeente>Ways</Gemeente>
+    <HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25031</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1476</Postcodes>
+    <Gemeente>Houtain-le-Val</Gemeente>
+    <HoofdgemeentedeN>Genepiën</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25031</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1480</Postcodes>
+    <Gemeente>Clabecq</Gemeente>
+    <HoofdgemeentedeN>Tubeke</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25105</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1480</Postcodes>
+    <Gemeente>Oisquercq</Gemeente>
+    <HoofdgemeentedeN>Tubeke</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25105</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1480</Postcodes>
+    <Gemeente>Saintes</Gemeente>
+    <HoofdgemeentedeN>Tubeke</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25105</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1480</Postcodes>
+    <Gemeente>Tubeke</Gemeente>
+    <HoofdgemeentedeN>Tubeke</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25105</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1490</Postcodes>
+    <Gemeente>Court-Saint-Etienne</Gemeente>
+    <HoofdgemeentedeN>Court-Saint-Etienne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25023</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1495</Postcodes>
+    <Gemeente>Marbais (Br.W.)</Gemeente>
+    <HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25107</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1495</Postcodes>
+    <Gemeente>Mellery</Gemeente>
+    <HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25107</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1495</Postcodes>
+    <Gemeente>Sart-Dames-Avelines</Gemeente>
+    <HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25107</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1495</Postcodes>
+    <Gemeente>Tilly</Gemeente>
+    <HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25107</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1495</Postcodes>
+    <Gemeente>Villers-la-Ville</Gemeente>
+    <HoofdgemeentedeN>Villers-la-Ville</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>25107</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1500</Postcodes>
+    <Gemeente>Halle</Gemeente>
+    <HoofdgemeentedeN>Halle</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23027</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1501</Postcodes>
+    <Gemeente>Buizingen</Gemeente>
+    <HoofdgemeentedeN>Halle</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23027</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1502</Postcodes>
+    <Gemeente>Lembeek</Gemeente>
+    <HoofdgemeentedeN>Halle</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23027</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1540</Postcodes>
+    <Gemeente>Herfelingen</Gemeente>
+    <HoofdgemeentedeN>Herne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23032</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1540</Postcodes>
+    <Gemeente>Herne</Gemeente>
+    <HoofdgemeentedeN>Herne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23032</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1541</Postcodes>
+    <Gemeente>Sint-Pieters-Kapelle (Vl.Br.)</Gemeente>
+    <HoofdgemeentedeN>Herne</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23032</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1547</Postcodes>
+    <Gemeente>Bever</Gemeente>
+    <HoofdgemeentedeN>Bever</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23009</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1560</Postcodes>
+    <Gemeente>Hoeilaart</Gemeente>
+    <HoofdgemeentedeN>Hoeilaart</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23033</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1570</Postcodes>
+    <Gemeente>Galmaarden</Gemeente>
+    <HoofdgemeentedeN>Galmaarden</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23023</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1570</Postcodes>
+    <Gemeente>Tollembeek</Gemeente>
+    <HoofdgemeentedeN>Galmaarden</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23023</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1570</Postcodes>
+    <Gemeente>Vollezele</Gemeente>
+    <HoofdgemeentedeN>Galmaarden</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23023</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1600</Postcodes>
+    <Gemeente>Oudenaken</Gemeente>
+    <HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23077</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1600</Postcodes>
+    <Gemeente>Sint-Laureins-Berchem</Gemeente>
+    <HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23077</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1600</Postcodes>
+    <Gemeente>Sint-Pieters-Leeuw</Gemeente>
+    <HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23077</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1601</Postcodes>
+    <Gemeente>Ruisbroek (Vl.Br.)</Gemeente>
+    <HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23077</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1602</Postcodes>
+    <Gemeente>Vlezenbeek</Gemeente>
+    <HoofdgemeentedeN>Sint-Pieters-Leeuw</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23077</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1620</Postcodes>
+    <Gemeente>Drogenbos</Gemeente>
+    <HoofdgemeentedeN>Drogenbos</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23098</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1630</Postcodes>
+    <Gemeente>Linkebeek</Gemeente>
+    <HoofdgemeentedeN>Linkebeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23100</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1640</Postcodes>
+    <Gemeente>Sint-Genesius-Rode</Gemeente>
+    <HoofdgemeentedeN>Sint-Genesius-Rode</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23101</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1650</Postcodes>
+    <Gemeente>Beersel</Gemeente>
+    <HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23003</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1651</Postcodes>
+    <Gemeente>Lot</Gemeente>
+    <HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23003</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1652</Postcodes>
+    <Gemeente>Alsemberg</Gemeente>
+    <HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23003</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1653</Postcodes>
+    <Gemeente>Dworp</Gemeente>
+    <HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23003</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1654</Postcodes>
+    <Gemeente>Huizingen</Gemeente>
+    <HoofdgemeentedeN>Beersel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23003</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1670</Postcodes>
+    <Gemeente>Bogaarden</Gemeente>
+    <HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23064</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1670</Postcodes>
+    <Gemeente>Heikruis</Gemeente>
+    <HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23064</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1670</Postcodes>
+    <Gemeente>Pepingen</Gemeente>
+    <HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23064</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1671</Postcodes>
+    <Gemeente>Elingen</Gemeente>
+    <HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23064</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1673</Postcodes>
+    <Gemeente>Beert</Gemeente>
+    <HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23064</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1674</Postcodes>
+    <Gemeente>Bellingen</Gemeente>
+    <HoofdgemeentedeN>Pepingen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23064</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1700</Postcodes>
+    <Gemeente>Dilbeek</Gemeente>
+    <HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23016</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1700</Postcodes>
+    <Gemeente>Sint-Martens-Bodegem</Gemeente>
+    <HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23016</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1700</Postcodes>
+    <Gemeente>Sint-Ulriks-Kapelle</Gemeente>
+    <HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23016</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1701</Postcodes>
+    <Gemeente>Itterbeek</Gemeente>
+    <HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23016</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1702</Postcodes>
+    <Gemeente>Groot-Bijgaarden</Gemeente>
+    <HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23016</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1703</Postcodes>
+    <Gemeente>Schepdaal</Gemeente>
+    <HoofdgemeentedeN>Dilbeek</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23016</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1730</Postcodes>
+    <Gemeente>Asse</Gemeente>
+    <HoofdgemeentedeN>Asse</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23002</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1730</Postcodes>
+    <Gemeente>Bekkerzeel</Gemeente>
+    <HoofdgemeentedeN>Asse</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23002</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1730</Postcodes>
+    <Gemeente>Kobbegem</Gemeente>
+    <HoofdgemeentedeN>Asse</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23002</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1730</Postcodes>
+    <Gemeente>Mollem</Gemeente>
+    <HoofdgemeentedeN>Asse</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23002</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1731</Postcodes>
+    <Gemeente>Relegem</Gemeente>
+    <HoofdgemeentedeN>Asse</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23002</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1731</Postcodes>
+    <Gemeente>Zellik</Gemeente>
+    <HoofdgemeentedeN>Asse</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23002</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1733</Postcodes>
+    <Gemeente>HighCo DATA</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1740</Postcodes>
+    <Gemeente>Ternat</Gemeente>
+    <HoofdgemeentedeN>Ternat</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23086</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1741</Postcodes>
+    <Gemeente>Wambeek</Gemeente>
+    <HoofdgemeentedeN>Ternat</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23086</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1742</Postcodes>
+    <Gemeente>Sint-Katherina-Lombeek</Gemeente>
+    <HoofdgemeentedeN>Ternat</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23086</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1745</Postcodes>
+    <Gemeente>Mazenzele</Gemeente>
+    <HoofdgemeentedeN>Opwijk</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23060</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1745</Postcodes>
+    <Gemeente>Opwijk</Gemeente>
+    <HoofdgemeentedeN>Opwijk</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23060</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1750</Postcodes>
+    <Gemeente>Gaasbeek</Gemeente>
+    <HoofdgemeentedeN>Lennik</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23104</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1750</Postcodes>
+    <Gemeente>Lennik</Gemeente>
+    <HoofdgemeentedeN>Lennik</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23104</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1750</Postcodes>
+    <Gemeente>Sint-Kwintens-Lennik</Gemeente>
+    <HoofdgemeentedeN>Lennik</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23104</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1750</Postcodes>
+    <Gemeente>Sint-Martens-Lennik</Gemeente>
+    <HoofdgemeentedeN>Lennik</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23104</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1755</Postcodes>
+    <Gemeente>Gooik</Gemeente>
+    <HoofdgemeentedeN>Gooik</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23024</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1755</Postcodes>
+    <Gemeente>Kester</Gemeente>
+    <HoofdgemeentedeN>Gooik</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23024</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1755</Postcodes>
+    <Gemeente>Leerbeek</Gemeente>
+    <HoofdgemeentedeN>Gooik</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23024</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1755</Postcodes>
+    <Gemeente>Oetingen</Gemeente>
+    <HoofdgemeentedeN>Gooik</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23024</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1760</Postcodes>
+    <Gemeente>Onze-Lieve-Vrouw-Lombeek</Gemeente>
+    <HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23097</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1760</Postcodes>
+    <Gemeente>Pamel</Gemeente>
+    <HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23097</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1760</Postcodes>
+    <Gemeente>Roosdaal</Gemeente>
+    <HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23097</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1760</Postcodes>
+    <Gemeente>Strijtem</Gemeente>
+    <HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23097</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1761</Postcodes>
+    <Gemeente>Borchtlombeek</Gemeente>
+    <HoofdgemeentedeN>Roosdaal</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23097</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1770</Postcodes>
+    <Gemeente>Liedekerke</Gemeente>
+    <HoofdgemeentedeN>Liedekerke</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23044</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1780</Postcodes>
+    <Gemeente>Wemmel</Gemeente>
+    <HoofdgemeentedeN>Wemmel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23102</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1785</Postcodes>
+    <Gemeente>Brussegem</Gemeente>
+    <HoofdgemeentedeN>Merchtem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23052</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1785</Postcodes>
+    <Gemeente>Hamme (Vl.Br.)</Gemeente>
+    <HoofdgemeentedeN>Merchtem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23052</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1785</Postcodes>
+    <Gemeente>Merchtem</Gemeente>
+    <HoofdgemeentedeN>Merchtem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23052</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1790</Postcodes>
+    <Gemeente>Affligem</Gemeente>
+    <HoofdgemeentedeN>Affligem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23105</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1790</Postcodes>
+    <Gemeente>Essene</Gemeente>
+    <HoofdgemeentedeN>Affligem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23105</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1790</Postcodes>
+    <Gemeente>Hekelgem</Gemeente>
+    <HoofdgemeentedeN>Affligem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23105</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1790</Postcodes>
+    <Gemeente>Teralfene</Gemeente>
+    <HoofdgemeentedeN>Affligem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23105</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1800</Postcodes>
+    <Gemeente>Peutie</Gemeente>
+    <HoofdgemeentedeN>Vilvoorde</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23088</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1800</Postcodes>
+    <Gemeente>Vilvoorde</Gemeente>
+    <HoofdgemeentedeN>Vilvoorde</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23088</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1804</Postcodes>
+    <Gemeente>Vilvoorde Cargovil</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1818</Postcodes>
+    <Gemeente>Vilvoorde VTM</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1820</Postcodes>
+    <Gemeente>Melsbroek</Gemeente>
+    <HoofdgemeentedeN>Steenokkerzeel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23081</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1820</Postcodes>
+    <Gemeente>Perk</Gemeente>
+    <HoofdgemeentedeN>Steenokkerzeel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23081</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1820</Postcodes>
+    <Gemeente>Steenokkerzeel</Gemeente>
+    <HoofdgemeentedeN>Steenokkerzeel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23081</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1830</Postcodes>
+    <Gemeente>Machelen (Vl.Br.)</Gemeente>
+    <HoofdgemeentedeN>Machelen (Vl.Br.)</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23047</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1831</Postcodes>
+    <Gemeente>Diegem</Gemeente>
+    <HoofdgemeentedeN>Machelen (Vl.Br.)</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23047</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1840</Postcodes>
+    <Gemeente>Londerzeel</Gemeente>
+    <HoofdgemeentedeN>Londerzeel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23045</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1840</Postcodes>
+    <Gemeente>Malderen</Gemeente>
+    <HoofdgemeentedeN>Londerzeel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23045</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1840</Postcodes>
+    <Gemeente>Steenhuffel</Gemeente>
+    <HoofdgemeentedeN>Londerzeel</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23045</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1850</Postcodes>
+    <Gemeente>Grimbergen</Gemeente>
+    <HoofdgemeentedeN>Grimbergen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23025</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1851</Postcodes>
+    <Gemeente>Humbeek</Gemeente>
+    <HoofdgemeentedeN>Grimbergen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23025</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1852</Postcodes>
+    <Gemeente>Beigem</Gemeente>
+    <HoofdgemeentedeN>Grimbergen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23025</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1853</Postcodes>
+    <Gemeente>Strombeek-Bever</Gemeente>
+    <HoofdgemeentedeN>Grimbergen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23025</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1860</Postcodes>
+    <Gemeente>Meise</Gemeente>
+    <HoofdgemeentedeN>Meise</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23050</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1861</Postcodes>
+    <Gemeente>Wolvertem</Gemeente>
+    <HoofdgemeentedeN>Meise</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23050</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1880</Postcodes>
+    <Gemeente>Kapelle-op-den-Bos</Gemeente>
+    <HoofdgemeentedeN>Kapelle-op-den-Bos</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23039</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1880</Postcodes>
+    <Gemeente>Nieuwenrode</Gemeente>
+    <HoofdgemeentedeN>Kapelle-op-den-Bos</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23039</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1880</Postcodes>
+    <Gemeente>Ramsdonk</Gemeente>
+    <HoofdgemeentedeN>Kapelle-op-den-Bos</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23039</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1910</Postcodes>
+    <Gemeente>Berg (Vl.Br.)</Gemeente>
+    <HoofdgemeentedeN>Kampenhout</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23038</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1910</Postcodes>
+    <Gemeente>Buken</Gemeente>
+    <HoofdgemeentedeN>Kampenhout</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23038</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1910</Postcodes>
+    <Gemeente>Kampenhout</Gemeente>
+    <HoofdgemeentedeN>Kampenhout</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23038</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1910</Postcodes>
+    <Gemeente>Nederokkerzeel</Gemeente>
+    <HoofdgemeentedeN>Kampenhout</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23038</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1930</Postcodes>
+    <Gemeente>Nossegem</Gemeente>
+    <HoofdgemeentedeN>Zaventem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23094</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1930</Postcodes>
+    <Gemeente>Zaventem</Gemeente>
+    <HoofdgemeentedeN>Zaventem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23094</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1931</Postcodes>
+    <Gemeente>Brucargo</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1932</Postcodes>
+    <Gemeente>Sint-Stevens-Woluwe</Gemeente>
+    <HoofdgemeentedeN>Zaventem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23094</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1933</Postcodes>
+    <Gemeente>Sterrebeek</Gemeente>
+    <HoofdgemeentedeN>Zaventem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23094</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>1934</Postcodes>
+    <Gemeente>Brussel - Luchthaven Remailing</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1935</Postcodes>
+    <Gemeente>Corporate Village</Gemeente>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+    <Postcodes>1950</Postcodes>
+    <Gemeente>Kraainem</Gemeente>
+    <HoofdgemeentedeN>Kraainem</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23099</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>1970</Postcodes>
+        <Gemeente>Wezembeek-Oppem</Gemeente>
+        <HoofdgemeentedeN>Wezembeek-Oppem</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>23103</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>1980</Postcodes>
+        <Gemeente>Eppegem</Gemeente>
+        <HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>23096</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>1980</Postcodes>
+        <Gemeente>Zemst</Gemeente>
+        <HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>23096</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>1981</Postcodes>
+        <Gemeente>Hofstade (Vl.Br.)</Gemeente>
+        <HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>23096</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>1982</Postcodes>
+        <Gemeente>Elewijt</Gemeente>
+        <HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>23096</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>1982</Postcodes>
+        <Gemeente>Weerde</Gemeente>
+        <HoofdgemeentedeN>Zemst</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>23096</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2000</Postcodes>
+        <Gemeente>Antwerpen</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2018</Postcodes>
+        <Gemeente>Antwerpen</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2020</Postcodes>
+        <Gemeente>Antwerpen</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2030</Postcodes>
+        <Gemeente>Antwerpen</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2040</Postcodes>
+        <Gemeente>Antwerpen</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2040</Postcodes>
+        <Gemeente>Berendrecht</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2040</Postcodes>
+        <Gemeente>Lillo</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2040</Postcodes>
+        <Gemeente>Zandvliet</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2050</Postcodes>
+        <Gemeente>Antwerpen</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2060</Postcodes>
+        <Gemeente>Antwerpen</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2070</Postcodes>
+        <Gemeente>Burcht</Gemeente>
+        <HoofdgemeentedeN>Zwijndrecht</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11056</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2070</Postcodes>
+        <Gemeente>Zwijndrecht</Gemeente>
+        <HoofdgemeentedeN>Zwijndrecht</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11056</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2075</Postcodes>
+        <Gemeente>CSM Antwerpen X</Gemeente>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+        <Postcodes>2099</Postcodes>
+        <Gemeente>Antwerpen X</Gemeente>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+    </ann23>
+    <ann23>
+        <Postcodes>2100</Postcodes>
+        <Gemeente>Deurne (Antwerpen)</Gemeente>
+        <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+        <Postcodes>2110</Postcodes>
+        <Gemeente>Wijnegem</Gemeente>
+        <HoofdgemeentedeN>Wijnegem</HoofdgemeentedeN>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/9999</einde_geldigheid>
+        <CODE_INS>11050</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>2140</Postcodes>
+    <Gemeente>Borgerhout (Antwerpen)</Gemeente>
+    <HoofdgemeentedeN>Antwerpen</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>11002</CODE_INS>
+    </ann23>
+    <ann23>
+    <Postcodes>2150</Postcodes>
+    <Gemeente>Borsbeek (Antw.)</Gemeente>
+    <HoofdgemeentedeN>Borsbeek (Antw.)</HoofdgemeentedeN>
+    <begin_geldigheid>01/01/1900</begin_geldigheid>
+    <einde_geldigheid>31/12/9999</einde_geldigheid>
+    <CODE_INS>11007</CODE_INS>
+    </ann23>
 <ann23>
 <Postcodes>2160</Postcodes>
 <Gemeente>Wommelgem</Gemeente>
@@ -23963,4 +23965,5 @@
 <einde_geldigheid>31/12/9999</einde_geldigheid>
 <CODE_INS>43010</CODE_INS>
 </ann23>
-</List>
+</List>
+

@@ -1,627 +1,632 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE List [
-     <!ELEMENT ann4 (CodeDMFA?, Omschrijving?, Vanaf?, Tot?, Ded_FedRegNL?, Ded_FlemishRegNL?, Ded_BxlRegNL?, Ded_WallNoGermanRegNL?, Ded_WallGermanRegNL?, CalcBaseNl?, AmountNl?, StartRightNl?, MnthCostNl?, InssNbrReplNl?, InssNbrAuthNl?, OrigAttNl?, LinkBlocNl?, PresBlcDetNl?)>
-     <!ELEMENT List (ann4+)>
-     <!ELEMENT CodeDMFA (#PCDATA)>
-     <!ELEMENT Omschrijving (#PCDATA)>
-     <!ELEMENT Vanaf (#PCDATA)>
-     <!ELEMENT Tot (#PCDATA)>
-     <!ELEMENT Ded_FedRegNL (#PCDATA)>
-     <!ELEMENT Ded_FlemishRegNL (#PCDATA)>
-     <!ELEMENT Ded_BxlRegNL (#PCDATA)>
-     <!ELEMENT Ded_WallNoGermanRegNL (#PCDATA)>
-     <!ELEMENT Ded_WallGermanRegNL (#PCDATA)>
-     <!ELEMENT CalcBaseNl (#PCDATA)>
-     <!ELEMENT AmountNl (#PCDATA)>
-     <!ELEMENT StartRightNl (#PCDATA)>
-     <!ELEMENT MnthCostNl (#PCDATA)>
-     <!ELEMENT InssNbrReplNl (#PCDATA)>
-     <!ELEMENT InssNbrAuthNl (#PCDATA)>
-     <!ELEMENT OrigAttNl (#PCDATA)>
-     <!ELEMENT LinkBlocNl (#PCDATA)>
-     <!ELEMENT PresBlcDetNl (#PCDATA)>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann4 (CodeDMFA?, Omschrijving?, Vanaf?, Tot?
+	        , Ded_FedRegNL?, Ded_FlemishRegNL?, Ded_BxlRegNL?
+	        , Ded_WallNoGermanRegNL?, Ded_WallGermanRegNL?
+	        , CalcBaseNl?, AmountNl?, StartRightNl?, MnthCostNl?
+	        , InssNbrReplNl?, InssNbrAuthNl?, OrigAttNl?
+	        , LinkBlocNl?, PresBlcDetNl?)>
+     <!ELEMENT List (ann4+)>
+     <!ELEMENT CodeDMFA (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT Vanaf (#PCDATA)>
+     <!ELEMENT Tot (#PCDATA)>
+     <!ELEMENT Ded_FedRegNL (#PCDATA)>
+     <!ELEMENT Ded_FlemishRegNL (#PCDATA)>
+     <!ELEMENT Ded_BxlRegNL (#PCDATA)>
+     <!ELEMENT Ded_WallNoGermanRegNL (#PCDATA)>
+     <!ELEMENT Ded_WallGermanRegNL (#PCDATA)>
+     <!ELEMENT CalcBaseNl (#PCDATA)>
+     <!ELEMENT AmountNl (#PCDATA)>
+     <!ELEMENT StartRightNl (#PCDATA)>
+     <!ELEMENT MnthCostNl (#PCDATA)>
+     <!ELEMENT InssNbrReplNl (#PCDATA)>
+     <!ELEMENT InssNbrAuthNl (#PCDATA)>
+     <!ELEMENT OrigAttNl (#PCDATA)>
+     <!ELEMENT LinkBlocNl (#PCDATA)>
+     <!ELEMENT PresBlcDetNl (#PCDATA)>
 ]>
-<List>
-<ann4>
-<CodeDMFA>0001</CodeDMFA>
-<Omschrijving>Vermindering van de persoonlijke bijdragen voor de werknemers met een werkbonus</Omschrijving>
-<Vanaf>2000/1</Vanaf>
-<Tot>9999/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verboden</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>0501</CodeDMFA>
-<Omschrijving>Vermindering van de persoonlijke bijdragen in de baggersector</Omschrijving>
-<Vanaf>2000/1</Vanaf>
-<Tot>2014/2</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verboden</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>0600</CodeDMFA>
-<Omschrijving>Vermindering van de persoonlijke bijdragen voor werknemers ontslagen in het kader van een herstructurering - arbeidsovereenkomst afgesloten voor 1.1.2007</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2007/2</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verboden</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>0601</CodeDMFA>
-<Omschrijving>Vermindering van de persoonlijke bijdragen voor werknemers ontslagen in het kader van een herstructurering</Omschrijving>
-<Vanaf>2007/1</Vanaf>
-<Tot>9999/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>0610</CodeDMFA>
-<Omschrijving>Sportbonus</Omschrijving>
-<Vanaf>2022/1</Vanaf>
-<Tot>9999/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verboden</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>0611</CodeDMFA>
-<Omschrijving>Vermindering van de persoonlijke bijdragen voor gepensioneerden die werken in de zorgsector</Omschrijving>
-<Vanaf>2022/3</Vanaf>
-<Tot>2022/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verboden</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1001</CodeDMFA>
-<Omschrijving>Structurele vermindering</Omschrijving>
-<Vanaf>1999/1</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verboden</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1101</CodeDMFA>
-<Omschrijving>Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden</Omschrijving>
-<Vanaf>1995/1</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1101</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2004/1</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1102</CodeDMFA>
-<Omschrijving>Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden</Omschrijving>
-<Vanaf>1995/1</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1102</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2004/1</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1103</CodeDMFA>
-<Omschrijving>Banenplan voor werkzoekenden - inschakelingsbedrijven</Omschrijving>
-<Vanaf>1996/3</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1103</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden - inschakelingsbedrijven</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2007/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1104</CodeDMFA>
-<Omschrijving>Banenplan voor werkzoekenden ouder dan 50 jaar</Omschrijving>
-<Vanaf>1996/1</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1105</CodeDMFA>
-<Omschrijving>Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden (&gt;45 jaar)</Omschrijving>
-<Vanaf>2000/3</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1105</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden (&gt;45 jaar)</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2008/1</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1106</CodeDMFA>
-<Omschrijving>Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden (&gt;45 jaar)</Omschrijving>
-<Vanaf>2000/3</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1106</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden (&gt;45 jaar)</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2008/1</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1111</CodeDMFA>
-<Omschrijving>Activaplan - bevordering van de tewerkstelling van langdurig werkzoekenden  - 75%</Omschrijving>
-<Vanaf>2002/1</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1111</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Activaplan afgesloten voor 1.1.2004 - bevordering van de tewerkstelling van langdurig werkzoekenden  - 75%</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2008/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1112</CodeDMFA>
-<Omschrijving>Activaplan - bevordering van de tewerkstelling van langdurig werkzoekenden  - 100%</Omschrijving>
-<Vanaf>2002/1</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1112</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Activaplan afgesloten voor 1.1.2004 - bevordering van de tewerkstelling van langdurig werkzoekenden - 100%</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2008/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1121</CodeDMFA>
-<Omschrijving>Plus-één-plan</Omschrijving>
-<Vanaf>1994/1</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Optioneel</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1121</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Plus-één-plan</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2006/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1122</CodeDMFA>
-<Omschrijving>Plus-twee-plan</Omschrijving>
-<Vanaf>1997/1</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Optioneel</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1122</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Plus-twee-plan</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2006/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1123</CodeDMFA>
-<Omschrijving>Plus-drie-plan</Omschrijving>
-<Vanaf>1997/1</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Optioneel</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1123</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Plus-drie-plan</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2005/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1124</CodeDMFA>
-<Omschrijving>Plus-één-plan - gewezen interimaris</Omschrijving>
-<Vanaf>1998/4</Vanaf>
-<Tot>2003/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verplicht</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Optioneel</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
-<ann4>
-<CodeDMFA>1124</CodeDMFA>
-<Omschrijving>Overgangsperiode.  Plus-één-plan - gewezen interimaris</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2006/4</Tot>
-<Ded_FedRegNL>Federaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>-</Ded_FlemishRegNL>
-<Ded_BxlRegNL>-</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
-</ann4>
+<List>
+    <ann4>
+        <CodeDMFA>0001</CodeDMFA>
+        <Omschrijving>Vermindering van de persoonlijke bijdragen voor de werknemers met een werkbonus</Omschrijving>
+        <Vanaf>2000/1</Vanaf>
+        <Tot>9999/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verboden</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>0501</CodeDMFA>
+        <Omschrijving>Vermindering van de persoonlijke bijdragen in de baggersector</Omschrijving>
+        <Vanaf>2000/1</Vanaf>
+        <Tot>2014/2</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verboden</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>0600</CodeDMFA>
+        <Omschrijving>Vermindering van de persoonlijke bijdragen voor werknemers ontslagen in het kader van een herstructurering - arbeidsovereenkomst afgesloten voor 1.1.2007</Omschrijving>
+        <Vanaf>2004/3</Vanaf>
+        <Tot>2007/2</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verboden</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>0601</CodeDMFA>
+        <Omschrijving>Vermindering van de persoonlijke bijdragen voor werknemers ontslagen in het kader van een herstructurering</Omschrijving>
+        <Vanaf>2007/1</Vanaf>
+        <Tot>9999/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>0610</CodeDMFA>
+        <Omschrijving>Sportbonus</Omschrijving>
+        <Vanaf>2022/1</Vanaf>
+        <Tot>9999/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verboden</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>0611</CodeDMFA>
+        <Omschrijving>Vermindering van de persoonlijke bijdragen voor gepensioneerden die werken in de zorgsector</Omschrijving>
+        <Vanaf>2022/3</Vanaf>
+        <Tot>2022/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verboden</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1001</CodeDMFA>
+        <Omschrijving>Structurele vermindering</Omschrijving>
+        <Vanaf>1999/1</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verboden</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1101</CodeDMFA>
+        <Omschrijving>Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden</Omschrijving>
+        <Vanaf>1995/1</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1101</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2004/1</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1102</CodeDMFA>
+        <Omschrijving>Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden</Omschrijving>
+        <Vanaf>1995/1</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1102</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2004/1</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1103</CodeDMFA>
+        <Omschrijving>Banenplan voor werkzoekenden - inschakelingsbedrijven</Omschrijving>
+        <Vanaf>1996/3</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1103</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden - inschakelingsbedrijven</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2007/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1104</CodeDMFA>
+        <Omschrijving>Banenplan voor werkzoekenden ouder dan 50 jaar</Omschrijving>
+        <Vanaf>1996/1</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1105</CodeDMFA>
+        <Omschrijving>Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden (&gt;45 jaar)</Omschrijving>
+        <Vanaf>2000/3</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1105</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden (&gt;45 jaar)</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2008/1</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1106</CodeDMFA>
+        <Omschrijving>Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden (&gt;45 jaar)</Omschrijving>
+        <Vanaf>2000/3</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1106</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden (&gt;45 jaar)</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2008/1</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1111</CodeDMFA>
+        <Omschrijving>Activaplan - bevordering van de tewerkstelling van langdurig werkzoekenden  - 75%</Omschrijving>
+        <Vanaf>2002/1</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1111</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Activaplan afgesloten voor 1.1.2004 - bevordering van de tewerkstelling van langdurig werkzoekenden  - 75%</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2008/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1112</CodeDMFA>
+        <Omschrijving>Activaplan - bevordering van de tewerkstelling van langdurig werkzoekenden  - 100%</Omschrijving>
+        <Vanaf>2002/1</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1112</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Activaplan afgesloten voor 1.1.2004 - bevordering van de tewerkstelling van langdurig werkzoekenden - 100%</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2008/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1121</CodeDMFA>
+        <Omschrijving>Plus-één-plan</Omschrijving>
+        <Vanaf>1994/1</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Optioneel</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1121</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Plus-één-plan</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2006/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1122</CodeDMFA>
+        <Omschrijving>Plus-twee-plan</Omschrijving>
+        <Vanaf>1997/1</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Optioneel</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1122</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Plus-twee-plan</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2006/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1123</CodeDMFA>
+        <Omschrijving>Plus-drie-plan</Omschrijving>
+        <Vanaf>1997/1</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Optioneel</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1123</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Plus-drie-plan</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2005/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1124</CodeDMFA>
+        <Omschrijving>Plus-één-plan - gewezen interimaris</Omschrijving>
+        <Vanaf>1998/4</Vanaf>
+        <Tot>2003/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verplicht</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Optioneel</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
+    <ann4>
+        <CodeDMFA>1124</CodeDMFA>
+        <Omschrijving>Overgangsperiode.  Plus-één-plan - gewezen interimaris</Omschrijving>
+        <Vanaf>2004/1</Vanaf>
+        <Tot>2006/4</Tot>
+        <Ded_FedRegNL>Federaal</Ded_FedRegNL>
+        <Ded_FlemishRegNL>-</Ded_FlemishRegNL>
+        <Ded_BxlRegNL>-</Ded_BxlRegNL>
+        <Ded_WallNoGermanRegNL>-</Ded_WallNoGermanRegNL>
+        <Ded_WallGermanRegNL>-</Ded_WallGermanRegNL>
+        <CalcBaseNl>Verboden</CalcBaseNl>
+        <AmountNl>Verplicht</AmountNl>
+        <StartRightNl>Verplicht</StartRightNl>
+        <MnthCostNl>Verboden</MnthCostNl>
+        <InssNbrReplNl>Verboden</InssNbrReplNl>
+        <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+        <OrigAttNl>Optioneel</OrigAttNl>
+        <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+        <PresBlcDetNl>Neen</PresBlcDetNl>
+    </ann4>
 <ann4>
 <CodeDMFA>1125</CodeDMFA>
 <Omschrijving>Plus-twee-plan - gewezen interimaris</Omschrijving>
@@ -2443,84 +2448,84 @@
 <PresBlcDetNl>Neen</PresBlcDetNl>
 </ann4>
 <ann4>
-<CodeDMFA>3211</CodeDMFA>
-<Omschrijving>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden  van minstens 45j  312 dagen in periode van 18 maanden of 468 dagen in periode van 27 maanden   RVA code : D3, D4, D5, D6, D14, D15, D16, D17, D20 of D21</Omschrijving>
-<Vanaf>2019/1</Vanaf>
-<Tot>2023/4</Tot>
-<Ded_FedRegNL>Regionaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>Nee</Ded_FlemishRegNL>
-<Ded_BxlRegNL>Nee</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>Nee</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>Ja</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
+    <CodeDMFA>3211</CodeDMFA>
+    <Omschrijving>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden  van minstens 45j  312 dagen in periode van 18 maanden of 468 dagen in periode van 27 maanden   RVA code : D3, D4, D5, D6, D14, D15, D16, D17, D20 of D21</Omschrijving>
+    <Vanaf>2019/1</Vanaf>
+    <Tot>2023/4</Tot>
+    <Ded_FedRegNL>Regionaal</Ded_FedRegNL>
+    <Ded_FlemishRegNL>Nee</Ded_FlemishRegNL>
+    <Ded_BxlRegNL>Nee</Ded_BxlRegNL>
+    <Ded_WallNoGermanRegNL>Nee</Ded_WallNoGermanRegNL>
+    <Ded_WallGermanRegNL>Ja</Ded_WallGermanRegNL>
+    <CalcBaseNl>Verboden</CalcBaseNl>
+    <AmountNl>Verplicht</AmountNl>
+    <StartRightNl>Verplicht</StartRightNl>
+    <MnthCostNl>Verboden</MnthCostNl>
+    <InssNbrReplNl>Verboden</InssNbrReplNl>
+    <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+    <OrigAttNl>Optioneel</OrigAttNl>
+    <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+    <PresBlcDetNl>Neen</PresBlcDetNl>
 </ann4>
 <ann4>
-<CodeDMFA>3212</CodeDMFA>
-<Omschrijving>Activaplan - Preventie- en Veiligheidspersoneel  Langdurig werkzoekenden  van minstens 45j  156 dagen in periode van 9 maanden  RVA code : D7 of D8</Omschrijving>
-<Vanaf>2004/1</Vanaf>
-<Tot>2017/2</Tot>
-<Ded_FedRegNL>Regionaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>Ja</Ded_FlemishRegNL>
-<Ded_BxlRegNL>Ja</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>Ja</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>Ja</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
+    <CodeDMFA>3212</CodeDMFA>
+    <Omschrijving>Activaplan - Preventie- en Veiligheidspersoneel  Langdurig werkzoekenden  van minstens 45j  156 dagen in periode van 9 maanden  RVA code : D7 of D8</Omschrijving>
+    <Vanaf>2004/1</Vanaf>
+    <Tot>2017/2</Tot>
+    <Ded_FedRegNL>Regionaal</Ded_FedRegNL>
+    <Ded_FlemishRegNL>Ja</Ded_FlemishRegNL>
+    <Ded_BxlRegNL>Ja</Ded_BxlRegNL>
+    <Ded_WallNoGermanRegNL>Ja</Ded_WallNoGermanRegNL>
+    <Ded_WallGermanRegNL>Ja</Ded_WallGermanRegNL>
+    <CalcBaseNl>Verboden</CalcBaseNl>
+    <AmountNl>Verplicht</AmountNl>
+    <StartRightNl>Verplicht</StartRightNl>
+    <MnthCostNl>Verboden</MnthCostNl>
+    <InssNbrReplNl>Verboden</InssNbrReplNl>
+    <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+    <OrigAttNl>Optioneel</OrigAttNl>
+    <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+    <PresBlcDetNl>Neen</PresBlcDetNl>
 </ann4>
 <ann4>
-<CodeDMFA>3212</CodeDMFA>
-<Omschrijving>Activaplan - Preventie- en Veiligheidspersoneel  Langdurig werkzoekenden  van minstens 45j  156 dagen in periode van 9 maanden  RVA code : D7 of D8</Omschrijving>
-<Vanaf>2017/3</Vanaf>
-<Tot>2017/4</Tot>
-<Ded_FedRegNL>Regionaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>Ja</Ded_FlemishRegNL>
-<Ded_BxlRegNL>Ja</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>Nee</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>Ja</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
+    <CodeDMFA>3212</CodeDMFA>
+    <Omschrijving>Activaplan - Preventie- en Veiligheidspersoneel  Langdurig werkzoekenden  van minstens 45j  156 dagen in periode van 9 maanden  RVA code : D7 of D8</Omschrijving>
+    <Vanaf>2017/3</Vanaf>
+    <Tot>2017/4</Tot>
+    <Ded_FedRegNL>Regionaal</Ded_FedRegNL>
+    <Ded_FlemishRegNL>Ja</Ded_FlemishRegNL>
+    <Ded_BxlRegNL>Ja</Ded_BxlRegNL>
+    <Ded_WallNoGermanRegNL>Nee</Ded_WallNoGermanRegNL>
+    <Ded_WallGermanRegNL>Ja</Ded_WallGermanRegNL>
+    <CalcBaseNl>Verboden</CalcBaseNl>
+    <AmountNl>Verplicht</AmountNl>
+    <StartRightNl>Verplicht</StartRightNl>
+    <MnthCostNl>Verboden</MnthCostNl>
+    <InssNbrReplNl>Verboden</InssNbrReplNl>
+    <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+    <OrigAttNl>Optioneel</OrigAttNl>
+    <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+    <PresBlcDetNl>Neen</PresBlcDetNl>
 </ann4>
 <ann4>
-<CodeDMFA>3212</CodeDMFA>
-<Omschrijving>Activaplan - Preventie- en Veiligheidspersoneel  Langdurig werkzoekenden  van minstens 45j  156 dagen in periode van 9 maanden  RVA code : D7 of D8</Omschrijving>
-<Vanaf>2018/1</Vanaf>
-<Tot>2019/2</Tot>
-<Ded_FedRegNL>Regionaal</Ded_FedRegNL>
-<Ded_FlemishRegNL>Ja</Ded_FlemishRegNL>
-<Ded_BxlRegNL>Nee</Ded_BxlRegNL>
-<Ded_WallNoGermanRegNL>Nee</Ded_WallNoGermanRegNL>
-<Ded_WallGermanRegNL>Nee</Ded_WallGermanRegNL>
-<CalcBaseNl>Verboden</CalcBaseNl>
-<AmountNl>Verplicht</AmountNl>
-<StartRightNl>Verplicht</StartRightNl>
-<MnthCostNl>Verboden</MnthCostNl>
-<InssNbrReplNl>Verboden</InssNbrReplNl>
-<InssNbrAuthNl>Verboden</InssNbrAuthNl>
-<OrigAttNl>Optioneel</OrigAttNl>
-<LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
-<PresBlcDetNl>Neen</PresBlcDetNl>
+    <CodeDMFA>3212</CodeDMFA>
+    <Omschrijving>Activaplan - Preventie- en Veiligheidspersoneel  Langdurig werkzoekenden  van minstens 45j  156 dagen in periode van 9 maanden  RVA code : D7 of D8</Omschrijving>
+    <Vanaf>2018/1</Vanaf>
+    <Tot>2019/2</Tot>
+    <Ded_FedRegNL>Regionaal</Ded_FedRegNL>
+    <Ded_FlemishRegNL>Ja</Ded_FlemishRegNL>
+    <Ded_BxlRegNL>Nee</Ded_BxlRegNL>
+    <Ded_WallNoGermanRegNL>Nee</Ded_WallNoGermanRegNL>
+    <Ded_WallGermanRegNL>Nee</Ded_WallGermanRegNL>
+    <CalcBaseNl>Verboden</CalcBaseNl>
+    <AmountNl>Verplicht</AmountNl>
+    <StartRightNl>Verplicht</StartRightNl>
+    <MnthCostNl>Verboden</MnthCostNl>
+    <InssNbrReplNl>Verboden</InssNbrReplNl>
+    <InssNbrAuthNl>Verboden</InssNbrAuthNl>
+    <OrigAttNl>Optioneel</OrigAttNl>
+    <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
+    <PresBlcDetNl>Neen</PresBlcDetNl>
 </ann4>
 <ann4>
 <CodeDMFA>3220</CodeDMFA>
@@ -6102,4 +6107,5 @@
 <LinkBlocNl>Tewerkstelling van de werknemerslijn</LinkBlocNl>
 <PresBlcDetNl>Neen</PresBlcDetNl>
 </ann4>
-</List>
+</List>
+

@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE List [
-     <!ELEMENT ann27 (Sector?, Code?, Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
-     <!ELEMENT List (ann27+)>
-     <!ELEMENT Sector (#PCDATA)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT Omschrijving (#PCDATA)>
-     <!ELEMENT begin_geldigheid (#PCDATA)>
-     <!ELEMENT einde_geldigheid (#PCDATA)>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann27 (Sector?, Code?, Omschrijving?
+	    , begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann27+)>
+     <!ELEMENT Sector (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
 ]>
-<List>
+<List>
+
 <ann27>
 <Sector>Privé</Sector>
 <Code>000</Code>
@@ -1368,39 +1370,39 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann27>
 <ann27>
-<Sector>Privé</Sector>
-<Code>473</Code>
-<Omschrijving>Werkgevers die vallen onder de bevoegdheid van het Paritair Subcomité voor de Vlaamse sector van de beschutte werkplaatsen, de sociale werkplaatsen en de maatwerkbedrijven nr. 327.01 ; betreft werkgevers van maatwerkbedrijven ; zijn een bijdrage verschuldigd aan het "Vlaams Fonds voor Bestaanszekerheid voor de ondernemingen voor beschutte tewerkstelling" ; geen basisbijdrage verschuldigd ten gunste van risicogroepen (852), en tijdelijke werkloosheid en oudere werklozen (859) (zie ook categorieën 073, 173, 273, 373).</Omschrijving>
-<begin_geldigheid>01/01/2022</begin_geldigheid>
-<einde_geldigheid>01/01/9999</einde_geldigheid>
+    <Sector>Privé</Sector>
+    <Code>473</Code>
+    <Omschrijving>Werkgevers die vallen onder de bevoegdheid van het Paritair Subcomité voor de Vlaamse sector van de beschutte werkplaatsen, de sociale werkplaatsen en de maatwerkbedrijven nr. 327.01 ; betreft werkgevers van maatwerkbedrijven ; zijn een bijdrage verschuldigd aan het "Vlaams Fonds voor Bestaanszekerheid voor de ondernemingen voor beschutte tewerkstelling" ; geen basisbijdrage verschuldigd ten gunste van risicogroepen (852), en tijdelijke werkloosheid en oudere werklozen (859) (zie ook categorieën 073, 173, 273, 373).</Omschrijving>
+    <begin_geldigheid>01/01/2022</begin_geldigheid>
+    <einde_geldigheid>01/01/9999</einde_geldigheid>
 </ann27>
 <ann27>
-<Sector>Privé</Sector>
-<Code>494</Code>
-<Omschrijving>Werkgevers die vallen onder de bevoegdheid van het Paritair Comité voor het tuinbouwbedrijf nr. 145, die een bijdrage verschuldigd zijn aan het "Waarborg- en Sociaal Fonds voor het tuinbouwbedrijf"; betreft de bedrijven waarvan de activiteit bestaat uit bloementeelt, met uitzondering van de andere tuinbouwbedrijven, de inplanting van parken en tuinen, de witloofteelt of de champignonteelt (zie ook categorieën 094, 194, 294, 594).</Omschrijving>
-<begin_geldigheid>01/01/2001</begin_geldigheid>
-<einde_geldigheid>01/01/9999</einde_geldigheid>
+    <Sector>Privé</Sector>
+    <Code>494</Code>
+    <Omschrijving>Werkgevers die vallen onder de bevoegdheid van het Paritair Comité voor het tuinbouwbedrijf nr. 145, die een bijdrage verschuldigd zijn aan het "Waarborg- en Sociaal Fonds voor het tuinbouwbedrijf"; betreft de bedrijven waarvan de activiteit bestaat uit bloementeelt, met uitzondering van de andere tuinbouwbedrijven, de inplanting van parken en tuinen, de witloofteelt of de champignonteelt (zie ook categorieën 094, 194, 294, 594).</Omschrijving>
+    <begin_geldigheid>01/01/2001</begin_geldigheid>
+    <einde_geldigheid>01/01/9999</einde_geldigheid>
 </ann27>
 <ann27>
-<Sector>Privé</Sector>
-<Code>499</Code>
-<Omschrijving>Sommige bankagentschappen. Categorie afgeschaft.</Omschrijving>
-<begin_geldigheid>01/01/1986</begin_geldigheid>
-<einde_geldigheid>30/06/2007</einde_geldigheid>
+    <Sector>Privé</Sector>
+    <Code>499</Code>
+    <Omschrijving>Sommige bankagentschappen. Categorie afgeschaft.</Omschrijving>
+    <begin_geldigheid>01/01/1986</begin_geldigheid>
+    <einde_geldigheid>30/06/2007</einde_geldigheid>
 </ann27>
 <ann27>
-<Sector>Privé</Sector>
-<Code>505</Code>
-<Omschrijving>Categorie voor reders die varend personeel tewerkstellen voor de installatie- en onderhoudswerken op zee (PC 316)</Omschrijving>
-<begin_geldigheid>01/07/2020</begin_geldigheid>
-<einde_geldigheid>01/01/9999</einde_geldigheid>
+    <Sector>Privé</Sector>
+    <Code>505</Code>
+    <Omschrijving>Categorie voor reders die varend personeel tewerkstellen voor de installatie- en onderhoudswerken op zee (PC 316)</Omschrijving>
+    <begin_geldigheid>01/07/2020</begin_geldigheid>
+    <einde_geldigheid>01/01/9999</einde_geldigheid>
 </ann27>
 <ann27>
-<Sector>Privé</Sector>
-<Code>511</Code>
-<Omschrijving>"Nederlandstalige" werkgevers die geen bijdrage verschuldigd zijn ten gunste van risicogroepen (852), de begeleiding van werklozen (854), tijdelijke werkloosheid en oudere werklozen (859) en ook geen basisbijdrage aan het "Fonds voor Sluiting van Ondernemingen"; betreft de revalidatiecentra die afhangen van een ziekenhuis (ressorteren onder het PSC 305.01), de autonome revalidatiecentra (ressorteren onder het PSC 305.02 - subsector 305.02.03), de vrije centra voor schooloriëntering en de vrije psycho-medische-sociale centra gevestigd in het Vlaamse Gewest of in het Brussels Hoofdstedelijk Gewest (zie ook categorie 711); tot 31/12/2007.</Omschrijving>
-<begin_geldigheid>01/04/1994</begin_geldigheid>
-<einde_geldigheid>31/12/2007</einde_geldigheid>
+    <Sector>Privé</Sector>
+    <Code>511</Code>
+    <Omschrijving>"Nederlandstalige" werkgevers die geen bijdrage verschuldigd zijn ten gunste van risicogroepen (852), de begeleiding van werklozen (854), tijdelijke werkloosheid en oudere werklozen (859) en ook geen basisbijdrage aan het "Fonds voor Sluiting van Ondernemingen"; betreft de revalidatiecentra die afhangen van een ziekenhuis (ressorteren onder het PSC 305.01), de autonome revalidatiecentra (ressorteren onder het PSC 305.02 - subsector 305.02.03), de vrije centra voor schooloriëntering en de vrije psycho-medische-sociale centra gevestigd in het Vlaamse Gewest of in het Brussels Hoofdstedelijk Gewest (zie ook categorie 711); tot 31/12/2007.</Omschrijving>
+    <begin_geldigheid>01/04/1994</begin_geldigheid>
+    <einde_geldigheid>31/12/2007</einde_geldigheid>
 </ann27>
 <ann27>
 <Sector>Privé</Sector>
@@ -1962,4 +1964,5 @@
 <begin_geldigheid>01/01/2022</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
 </ann27>
-</List>
+</List>
+

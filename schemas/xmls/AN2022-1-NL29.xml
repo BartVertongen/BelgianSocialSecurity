@@ -1,145 +1,147 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE List [
-     <!ELEMENT ann29 (Code?, Omschrijving?, PRESENCECODE?, begin_geldigheid?, einde_geldigheid?)>
-     <!ELEMENT List (ann29+)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT Omschrijving (#PCDATA)>
-     <!ELEMENT PRESENCECODE (#PCDATA)>
-     <!ELEMENT begin_geldigheid (#PCDATA)>
-     <!ELEMENT einde_geldigheid (#PCDATA)>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann29 (Code?, Omschrijving?, PRESENCECODE?
+	       , begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann29+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT PRESENCECODE (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
 ]>
-<List>
-<ann29>
-<Code>951</Code>
-<Omschrijving>Contractuelen - vakantieregeling privésector en arbeidsongevallenregeling openbare sector</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>952</Code>
-<Omschrijving>Contractuelen - vakantieregeling openbare sector en arbeidsongevallenregeling openbare sector</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>953</Code>
-<Omschrijving>Vastbenoemden - gemeenschappelijk pensioenstelsel</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2011</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>954</Code>
-<Omschrijving>Vastbenoemden - pensioenstelsel - nieuwe bij de Rijksdienst aangeslotenen</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2011</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>955</Code>
-<Omschrijving>Vastbenoemden - eigen pensioenstelsel</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2011</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>956</Code>
-<Omschrijving>Vastbenoemden - pensioenstelsel - voorzorgsinstelling</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2011</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>957</Code>
-<Omschrijving>Vastbenoemden - pensioenstelsel - politiepersoneel</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2011</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>958</Code>
-<Omschrijving>Bijzondere categorieën</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>959</Code>
-<Omschrijving>Werknemers die niet meer in dienst zijn</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>971</Code>
-<Omschrijving>Vastbenoemden - gesolidariseerd pensioenfonds - ex-gemeenschappelijk pensioenstelsel</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/2012</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>972</Code>
-<Omschrijving>Vastbenoemden - gesolidariseerde pensioenfonds - ex-pensioenstelsel nieuwe bij de Rijksdienst aangeslotenen + aangeslotenen na 31-12-2011 met hoge bijdragevoet</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/2012</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>973</Code>
-<Omschrijving>Vastbenoemden - gesolidariseerde pensioenfonds -  lokale politie</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/2012</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>974</Code>
-<Omschrijving>Vastbenoemden - gesolidariseerde pensioenfonds - aangeslotenen na 31-12-2011 met lage bijdragevoet</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/2012</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>975</Code>
-<Omschrijving>Vastbenoemden - eigen pensioenstelsel of pensioenstelsel voorzorgsinstelling</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/2012</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>976</Code>
-<Omschrijving>Vastbenoemden - gesolidariseerd pensioenfonds -  ex-voorzorgsinstelling met specifieke bijdragevoet</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/2012</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>977</Code>
-<Omschrijving>Vastbenoemden - pool der parastatalen (wet van 28-4-1958)</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/2015</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>978</Code>
-<Omschrijving>Vastbenoemden - pensioen ten laste van Schatkist</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/01/2015</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>981</Code>
-<Omschrijving>Contractuelen - vakantieregeling privésector en arbeidsongevallenregeling privésector</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/07/2013</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-<ann29>
-<Code>982</Code>
-<Omschrijving>Contractuelen - vakantieregeling openbare sector en arbeidsongevallenregeling privésector</Omschrijving>
-<PRESENCECODE>6</PRESENCECODE>
-<begin_geldigheid>01/07/2013</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann29>
-</List>
+<List>
+    <ann29>
+        <Code>951</Code>
+        <Omschrijving>Contractuelen - vakantieregeling privésector en arbeidsongevallenregeling openbare sector</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>952</Code>
+        <Omschrijving>Contractuelen - vakantieregeling openbare sector en arbeidsongevallenregeling openbare sector</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>953</Code>
+        <Omschrijving>Vastbenoemden - gemeenschappelijk pensioenstelsel</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/2011</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>954</Code>
+        <Omschrijving>Vastbenoemden - pensioenstelsel - nieuwe bij de Rijksdienst aangeslotenen</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/2011</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>955</Code>
+        <Omschrijving>Vastbenoemden - eigen pensioenstelsel</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/2011</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>956</Code>
+        <Omschrijving>Vastbenoemden - pensioenstelsel - voorzorgsinstelling</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/2011</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>957</Code>
+        <Omschrijving>Vastbenoemden - pensioenstelsel - politiepersoneel</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/2011</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>958</Code>
+        <Omschrijving>Bijzondere categorieën</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>959</Code>
+        <Omschrijving>Werknemers die niet meer in dienst zijn</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>971</Code>
+        <Omschrijving>Vastbenoemden - gesolidariseerd pensioenfonds - ex-gemeenschappelijk pensioenstelsel</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/2012</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>972</Code>
+        <Omschrijving>Vastbenoemden - gesolidariseerde pensioenfonds - ex-pensioenstelsel nieuwe bij de Rijksdienst aangeslotenen + aangeslotenen na 31-12-2011 met hoge bijdragevoet</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/2012</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>973</Code>
+        <Omschrijving>Vastbenoemden - gesolidariseerde pensioenfonds -  lokale politie</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/2012</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>974</Code>
+        <Omschrijving>Vastbenoemden - gesolidariseerde pensioenfonds - aangeslotenen na 31-12-2011 met lage bijdragevoet</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/2012</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>975</Code>
+        <Omschrijving>Vastbenoemden - eigen pensioenstelsel of pensioenstelsel voorzorgsinstelling</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/2012</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>976</Code>
+        <Omschrijving>Vastbenoemden - gesolidariseerd pensioenfonds -  ex-voorzorgsinstelling met specifieke bijdragevoet</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/2012</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>977</Code>
+        <Omschrijving>Vastbenoemden - pool der parastatalen (wet van 28-4-1958)</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/2015</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>978</Code>
+        <Omschrijving>Vastbenoemden - pensioen ten laste van Schatkist</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/01/2015</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>981</Code>
+        <Omschrijving>Contractuelen - vakantieregeling privésector en arbeidsongevallenregeling privésector</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/07/2013</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+    <ann29>
+        <Code>982</Code>
+        <Omschrijving>Contractuelen - vakantieregeling openbare sector en arbeidsongevallenregeling privésector</Omschrijving>
+        <PRESENCECODE>6</PRESENCECODE>
+        <begin_geldigheid>01/07/2013</begin_geldigheid>
+        <einde_geldigheid>31/12/2021</einde_geldigheid>
+    </ann29>
+</List>
+
