@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+	<!-- definition of simple elements -->
 	<xs:element name="AttestationStatus">
 		<xs:annotation>
 			<xs:documentation>00110</xs:documentation>
@@ -318,6 +319,9 @@
 		</xs:simpleType>
 	</xs:element>
 
+	<!--====================================================================-->
+	<!-- definition of complex elements -->
+	
 	<xs:complexType name="EmployerIdType">
 		<xs:sequence>
 			<xs:choice>

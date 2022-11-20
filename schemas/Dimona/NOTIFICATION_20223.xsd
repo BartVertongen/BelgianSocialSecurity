@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+	<!-- definition of simple elements -->
 	<xs:element name="Action">
 		<xs:annotation>
 			<xs:documentation>00411</xs:documentation>
@@ -96,24 +97,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<xs:element name="AnomalyComplInformation">
-		<xs:annotation>
-			<xs:documentation>90391</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="AnomalyComplInformationType">
-					<xs:sequence>
-						<xs:element ref="DmfADimonaConfrontation" minOccurs="0"/>
-						<xs:element ref="DimonaPeriod" minOccurs="0" maxOccurs="unbounded"/>
-						<xs:element ref="QuotaFeatures" minOccurs="0" maxOccurs="unbounded"/>
-						<xs:element ref="DailyRegistration" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="AnomalyLabel">
 		<xs:annotation>
 			<xs:documentation>00628</xs:documentation>
@@ -129,35 +112,6 @@
 		<xs:annotation>
 			<xs:documentation>90177</xs:documentation>
 		</xs:annotation>
-	</xs:element>
-
-	<xs:element name="AnomalyReport">
-		<xs:annotation>
-			<xs:documentation>90176</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="AnomalyReportType">
-					<xs:sequence>
-						<xs:element ref="SystemCorrection" minOccurs="0"/>
-						<xs:element ref="AnomalyLocation" minOccurs="0"/>
-						<xs:element ref="Path" minOccurs="0"/>
-						<xs:element ref="AnomalyComplInformation" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
-	<xs:element name="ApplicationData">
-		<xs:annotation>
-			<xs:documentation>90410</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:any namespace="##any" processContents="skip"/>
-			</xs:sequence>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="AssignmentType">
@@ -195,36 +149,6 @@
 				<xs:maxLength value="13"/>
 			</xs:restriction>
 		</xs:simpleType>
-	</xs:element>
-
-	<xs:element name="AVWDDTImpactReport">
-		<xs:annotation>
-			<xs:documentation>90581</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="AVWDDTImpactReportType">
-					<xs:sequence>
-						<xs:element ref="Address" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
-	<xs:element name="BlockAction">
-		<xs:annotation>
-			<xs:documentation>90243</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="BlockActionType">
-					<xs:sequence>
-						<xs:element ref="DataValue" minOccurs="0" maxOccurs="unbounded"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="BlockName">
@@ -281,22 +205,6 @@
 				<xs:totalDigits value="4"/>
 			</xs:restriction>
 		</xs:simpleType>
-	</xs:element>
-
-	<xs:element name="CBSSInformation">
-		<xs:annotation>
-			<xs:documentation>90320</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="CBSSInformationType">
-					<xs:sequence>
-						<xs:element ref="InvolvedPartner" maxOccurs="3"/>
-						<xs:element ref="HandledCBSSInformation" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="Channel">
@@ -453,21 +361,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<xs:element name="CoordinatesContactPerson">
-		<xs:annotation>
-			<xs:documentation>90257</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="CoordinatesContactPersonType">
-					<xs:sequence>
-						<xs:element ref="Communication" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="CorrectionType">
 		<xs:annotation>
 			<xs:documentation>00429</xs:documentation>
@@ -522,22 +415,6 @@
 		<xs:annotation>
 			<xs:documentation>90483</xs:documentation>
 		</xs:annotation>
-	</xs:element>
-
-	<xs:element name="DailyRegistrationDclImpactReport">
-		<xs:annotation>
-			<xs:documentation>90482</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DailyRegistrationDclImpactReportType">
-					<xs:sequence>
-						<xs:element ref="DailyRegistrationBefore" minOccurs="0"/>
-						<xs:element ref="DailyRegistrationAfter" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="DailyRegistrationId">
@@ -611,21 +488,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<xs:element name="DetailReturnCode">
-		<xs:annotation>
-			<xs:documentation>90325</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DetailReturnCodeType">
-					<xs:sequence>
-						<xs:element ref="FieldInformation" minOccurs="0" maxOccurs="5"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="Diagnosis">
 		<xs:annotation>
 			<xs:documentation>00232</xs:documentation>
@@ -637,58 +499,6 @@
 				<xs:totalDigits value="1"/>
 			</xs:restriction>
 		</xs:simpleType>
-	</xs:element>
-
-	<xs:element name="DimonaFeatures">
-		<xs:annotation>
-			<xs:documentation>90374</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DimonaFeaturesType">
-					<xs:sequence>
-						<xs:element ref="UsingEmployer" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
-	<xs:element name="DimonaImpactReport">
-		<xs:annotation>
-			<xs:documentation>90394</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DimonaImpactReportType">
-					<xs:sequence>
-						<xs:element ref="DimonaFeatures" minOccurs="0"/>
-						<xs:element ref="ConstructionControlCards" minOccurs="0"/>
-						<xs:element ref="StudentPlaceOfWork" minOccurs="0"/>
-						<xs:element ref="SmallStatutesInformation" minOccurs="0"/>
-						<xs:element ref="DimonaPeriodBefore" minOccurs="0"/>
-						<xs:element ref="DimonaPeriodAfter" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
-	<xs:element name="DimonaPeriod">
-		<xs:annotation>
-			<xs:documentation>90393</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DimonaPeriodType">
-					<xs:sequence>
-						<xs:element ref="DimonaFeatures" minOccurs="0"/>
-						<xs:element ref="ConstructionControlCards" minOccurs="0"/>
-						<xs:element ref="StudentPlaceOfWork" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="DimonaPeriodAfter" type="DimonaPeriodAfterType">
@@ -984,35 +794,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<xs:element name="Form">
-		<xs:annotation>
-			<xs:documentation>90059</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="FormType">
-					<xs:sequence>
-						<xs:element ref="FileReference" minOccurs="0"/>
-						<xs:element ref="FileReceptionInformation" minOccurs="0"/>
-						<xs:element ref="HandledOriginalFile" minOccurs="0"/>
-						<xs:element ref="HandledOriginalForm" minOccurs="0"/>
-						<xs:element ref="Reference" minOccurs="0" maxOccurs="4"/>
-						<xs:element ref="EmployerId" minOccurs="0"/>
-						<xs:element ref="NaturalPerson" minOccurs="0"/>
-						<xs:element ref="ConcernedQuarter" minOccurs="0"/>
-						<xs:element ref="HandledReference"/>
-						<xs:element ref="WorkerRecordIdentification" minOccurs="0" maxOccurs="unbounded"/>
-						<xs:element ref="CBSSInformation" minOccurs="0"/>
-						<xs:element ref="DeclarationComplInformations" minOccurs="0"/>
-						<xs:element ref="CoordinatesContactPerson" minOccurs="0"/>
-						<xs:element ref="HandlingResult"/>
-						<xs:element ref="ApplicationData" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="FormCreationDate">
 		<xs:annotation>
 			<xs:documentation>00218</xs:documentation>
@@ -1075,36 +856,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<xs:element name="HandledCBSSInformation">
-		<xs:annotation>
-			<xs:documentation>90324</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="HandledCBSSInformationType">
-					<xs:sequence>
-						<xs:element ref="DetailReturnCode" minOccurs="0" maxOccurs="5"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
-	<xs:element name="HandledOriginalFile">
-		<xs:annotation>
-			<xs:documentation>90511</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="HandledOriginalFileType">
-					<xs:sequence>
-						<xs:element ref="HandledSenderIdentification" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="HandledOriginalForm" type="HandledOriginalFormType">
 		<xs:annotation>
 			<xs:documentation>90154</xs:documentation>
@@ -1121,22 +872,6 @@
 		<xs:annotation>
 			<xs:documentation>90560</xs:documentation>
 		</xs:annotation>
-	</xs:element>
-
-	<xs:element name="HandlingResult">
-		<xs:annotation>
-			<xs:documentation>90175</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="HandlingResultType">
-					<xs:sequence>
-						<xs:element ref="AnomalyReport" minOccurs="0" maxOccurs="unbounded"/>
-						<xs:element ref="ImpactReport" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="HourSubmission">
@@ -1170,24 +905,6 @@
 				<xs:maxLength value="7"/>
 			</xs:restriction>
 		</xs:simpleType>
-	</xs:element>
-
-	<xs:element name="ImpactReport">
-		<xs:annotation>
-			<xs:documentation>90392</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="ImpactReportType">
-					<xs:sequence>
-						<xs:element ref="DimonaImpactReport" minOccurs="0"/>
-						<xs:element ref="AVWDDTImpactReport" minOccurs="0" maxOccurs="unbounded"/>
-						<xs:element ref="DailyRegistrationDclImpactReport" minOccurs="0"/>
-						<xs:element ref="CapeloImpactReport" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 	
 	<xs:element name="IncapacityDegree">
@@ -1347,10 +1064,6 @@
 			</xs:restriction>
 		</xs:simpleType>
 	</xs:element>
-
-	<xs:complexType name="ImpactReportType"/>
-
-	<xs:complexType name="AnomalyComplInformationType"/>
 	
 	<xs:element name="WorkerZIPCode">
 		<xs:annotation>
@@ -2218,21 +1931,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<xs:element name="StudentPlaceOfWork">
-		<xs:annotation>
-			<xs:documentation>90376</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="StudentPlaceOfWorkType">
-					<xs:sequence>
-						<xs:element ref="Address" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="SubEntityNbr">
 		<xs:annotation>
 			<xs:documentation>00652</xs:documentation>
@@ -2242,21 +1940,6 @@
 				<xs:totalDigits value="10"/>
 			</xs:restriction>
 		</xs:simpleType>
-	</xs:element>
-
-	<xs:element name="SystemCorrection">
-		<xs:annotation>
-			<xs:documentation>90215</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="SystemCorrectionType">
-					<xs:sequence>
-						<xs:element ref="BlockAction" maxOccurs="unbounded"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="TagName">
@@ -2323,21 +2006,6 @@
 				<xs:pattern value="\d{3}"/>
 			</xs:restriction>
 		</xs:simpleType>
-	</xs:element>
-
-	<xs:element name="UsingEmployer">
-		<xs:annotation>
-			<xs:documentation>90107</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="UsingEmployerType">
-					<xs:sequence>
-						<xs:element ref="Address" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="UsingEmployerCompanyID">
@@ -2522,21 +2190,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<xs:element name="WorkerRecordIdentification">
-		<xs:annotation>
-			<xs:documentation>90173</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="WorkerRecordIdentificationType">
-					<xs:sequence>
-						<xs:element ref="OccupationReference" minOccurs="0" maxOccurs="unbounded"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="WorkerRecordUserReference">
 		<xs:annotation>
 			<xs:documentation>00616</xs:documentation>
@@ -2595,6 +2248,357 @@
 		</xs:simpleType>
 	</xs:element>
 
+	<!--====================================================================-->
+	<!-- definition of complex elements -->
+
+	<xs:element name="CoordinatesContactPerson">
+		<xs:annotation>
+			<xs:documentation>90257</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CoordinatesContactPersonType">
+					<xs:sequence>
+						<xs:element ref="Communication" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DetailReturnCode">
+		<xs:annotation>
+			<xs:documentation>90325</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DetailReturnCodeType">
+					<xs:sequence>
+						<xs:element ref="FieldInformation" minOccurs="0" maxOccurs="5"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DimonaFeatures">
+		<xs:annotation>
+			<xs:documentation>90374</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DimonaFeaturesType">
+					<xs:sequence>
+						<xs:element ref="UsingEmployer" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DimonaImpactReport">
+		<xs:annotation>
+			<xs:documentation>90394</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DimonaImpactReportType">
+					<xs:sequence>
+						<xs:element ref="DimonaFeatures" minOccurs="0"/>
+						<xs:element ref="ConstructionControlCards" minOccurs="0"/>
+						<xs:element ref="StudentPlaceOfWork" minOccurs="0"/>
+						<xs:element ref="SmallStatutesInformation" minOccurs="0"/>
+						<xs:element ref="DimonaPeriodBefore" minOccurs="0"/>
+						<xs:element ref="DimonaPeriodAfter" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DimonaPeriod">
+		<xs:annotation>
+			<xs:documentation>90393</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DimonaPeriodType">
+					<xs:sequence>
+						<xs:element ref="DimonaFeatures" minOccurs="0"/>
+						<xs:element ref="ConstructionControlCards" minOccurs="0"/>
+						<xs:element ref="StudentPlaceOfWork" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Form">
+		<xs:annotation>
+			<xs:documentation>90059</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="FormType">
+					<xs:sequence>
+						<xs:element ref="FileReference" minOccurs="0"/>
+						<xs:element ref="FileReceptionInformation" minOccurs="0"/>
+						<xs:element ref="HandledOriginalFile" minOccurs="0"/>
+						<xs:element ref="HandledOriginalForm" minOccurs="0"/>
+						<xs:element ref="Reference" minOccurs="0" maxOccurs="4"/>
+						<xs:element ref="EmployerId" minOccurs="0"/>
+						<xs:element ref="NaturalPerson" minOccurs="0"/>
+						<xs:element ref="ConcernedQuarter" minOccurs="0"/>
+						<xs:element ref="HandledReference"/>
+						<xs:element ref="WorkerRecordIdentification" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="CBSSInformation" minOccurs="0"/>
+						<xs:element ref="DeclarationComplInformations" minOccurs="0"/>
+						<xs:element ref="CoordinatesContactPerson" minOccurs="0"/>
+						<xs:element ref="HandlingResult"/>
+						<xs:element ref="ApplicationData" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="HandledCBSSInformation">
+		<xs:annotation>
+			<xs:documentation>90324</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="HandledCBSSInformationType">
+					<xs:sequence>
+						<xs:element ref="DetailReturnCode" minOccurs="0" maxOccurs="5"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="HandledOriginalFile">
+		<xs:annotation>
+			<xs:documentation>90511</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="HandledOriginalFileType">
+					<xs:sequence>
+						<xs:element ref="HandledSenderIdentification" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DailyRegistrationDclImpactReport">
+		<xs:annotation>
+			<xs:documentation>90482</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DailyRegistrationDclImpactReportType">
+					<xs:sequence>
+						<xs:element ref="DailyRegistrationBefore" minOccurs="0"/>
+						<xs:element ref="DailyRegistrationAfter" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="HandlingResult">
+		<xs:annotation>
+			<xs:documentation>90175</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="HandlingResultType">
+					<xs:sequence>
+						<xs:element ref="AnomalyReport" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="ImpactReport" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="ImpactReportType"/>
+
+	<xs:complexType name="AnomalyComplInformationType"/>
+	
+	<xs:element name="ImpactReport">
+		<xs:annotation>
+			<xs:documentation>90392</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="ImpactReportType">
+					<xs:sequence>
+						<xs:element ref="DimonaImpactReport" minOccurs="0"/>
+						<xs:element ref="AVWDDTImpactReport" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="DailyRegistrationDclImpactReport" minOccurs="0"/>
+						<xs:element ref="CapeloImpactReport" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="StudentPlaceOfWork">
+		<xs:annotation>
+			<xs:documentation>90376</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="StudentPlaceOfWorkType">
+					<xs:sequence>
+						<xs:element ref="Address" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="CBSSInformation">
+		<xs:annotation>
+			<xs:documentation>90320</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CBSSInformationType">
+					<xs:sequence>
+						<xs:element ref="InvolvedPartner" maxOccurs="3"/>
+						<xs:element ref="HandledCBSSInformation" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="SystemCorrection">
+		<xs:annotation>
+			<xs:documentation>90215</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="SystemCorrectionType">
+					<xs:sequence>
+						<xs:element ref="BlockAction" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="AVWDDTImpactReport">
+		<xs:annotation>
+			<xs:documentation>90581</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="AVWDDTImpactReportType">
+					<xs:sequence>
+						<xs:element ref="Address" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="BlockAction">
+		<xs:annotation>
+			<xs:documentation>90243</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="BlockActionType">
+					<xs:sequence>
+						<xs:element ref="DataValue" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="AnomalyReport">
+		<xs:annotation>
+			<xs:documentation>90176</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="AnomalyReportType">
+					<xs:sequence>
+						<xs:element ref="SystemCorrection" minOccurs="0"/>
+						<xs:element ref="AnomalyLocation" minOccurs="0"/>
+						<xs:element ref="Path" minOccurs="0"/>
+						<xs:element ref="AnomalyComplInformation" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ApplicationData">
+		<xs:annotation>
+			<xs:documentation>90410</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:any namespace="##any" processContents="skip"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="AnomalyComplInformation">
+		<xs:annotation>
+			<xs:documentation>90391</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="AnomalyComplInformationType">
+					<xs:sequence>
+						<xs:element ref="DmfADimonaConfrontation" minOccurs="0"/>
+						<xs:element ref="DimonaPeriod" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="QuotaFeatures" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="DailyRegistration" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="UsingEmployer">
+		<xs:annotation>
+			<xs:documentation>90107</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="UsingEmployerType">
+					<xs:sequence>
+						<xs:element ref="Address" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="WorkerRecordIdentification">
+		<xs:annotation>
+			<xs:documentation>90173</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="WorkerRecordIdentificationType">
+					<xs:sequence>
+						<xs:element ref="OccupationReference" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	
 	<xs:complexType name="AddressType">
 		<xs:sequence>
 			<xs:element ref="Street" minOccurs="0"/>

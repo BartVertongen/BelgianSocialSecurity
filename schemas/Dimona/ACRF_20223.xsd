@@ -1,16 +1,7 @@
 ﻿<?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	
-	<xs:element name="ACRF">
-		<xs:annotation>
-			<xs:documentation>90181</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="Form" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+
+	<!-- definition of simple elements -->
 	
 	<xs:element name="AttestationStatus">
 		<xs:annotation>
@@ -50,22 +41,6 @@
 		<xs:annotation>
 			<xs:documentation>90102</xs:documentation>
 		</xs:annotation>
-	</xs:element>
-
-	<xs:element name="Form">
-		<xs:annotation>
-			<xs:documentation>90059</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="FormType">
-					<xs:sequence>
-						<xs:element ref="FileReference"/>
-						<xs:element ref="ReceptionResult"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="FormCreationDate">
@@ -160,6 +135,36 @@
 				<xs:enumeration value="PA"/>
 			</xs:restriction>
 		</xs:simpleType>
+	</xs:element>
+	
+	<!--====================================================================-->
+	<!-- definition of complex elements -->
+	
+	<xs:element name="ACRF">
+		<xs:annotation>
+			<xs:documentation>90181</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Form" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Form">
+		<xs:annotation>
+			<xs:documentation>90059</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="FormType">
+					<xs:sequence>
+						<xs:element ref="FileReference"/>
+						<xs:element ref="ReceptionResult"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
 	</xs:element>
 
 	<xs:complexType name="FileReferenceType">

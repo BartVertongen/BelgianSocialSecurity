@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- definition of simple elements -->
+
 	<xs:element name="ActivityWithRisk">
 		<xs:annotation>
 			<xs:documentation>00041</xs:documentation>
@@ -12,7 +15,7 @@
 			</xs:restriction>
 		</xs:simpleType>
 	</xs:element>
-	
+
 	<xs:element name="Address" type="AddressType">
 		<xs:annotation>
 			<xs:documentation>90022</xs:documentation>
@@ -64,7 +67,7 @@
 			<xs:documentation>90375</xs:documentation>
 		</xs:annotation>
 	</xs:element>
-	
+
 	<xs:element name="Country">
 		<xs:annotation>
 			<xs:documentation>00523</xs:documentation>
@@ -105,82 +108,6 @@
 			</xs:restriction>
 		</xs:simpleType>
 	</xs:element>
-	
-	<xs:element name="Dimona">
-		<xs:annotation>
-			<xs:documentation>90372</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="Form" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-
-	<xs:element name="DimonaCancel">
-		<xs:annotation>
-			<xs:documentation>90379</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DimonaCancelType">
-					<xs:sequence>
-						<xs:element ref="EmployerId" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
-	<xs:element name="DimonaFeatures">
-		<xs:annotation>
-			<xs:documentation>90374</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DimonaFeaturesType">
-					<xs:sequence>
-						<xs:element ref="UsingEmployer" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
-	<xs:element name="DimonaIn">
-		<xs:annotation>
-			<xs:documentation>90373</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DimonaInType">
-					<xs:sequence>
-						<xs:element ref="EmployerId" minOccurs="0"/>
-						<xs:element ref="NaturalPerson"/>
-						<xs:element ref="DimonaFeatures" minOccurs="0"/>
-						<xs:element ref="ConstructionControlCards" minOccurs="0"/>
-						<xs:element ref="StudentPlaceOfWork" minOccurs="0"/>
-						<xs:element ref="SmallStatutesInformation" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
-	<xs:element name="DimonaOut">
-		<xs:annotation>
-			<xs:documentation>90377</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DimonaOutType">
-					<xs:sequence>
-						<xs:element ref="EmployerId" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
 
 	<xs:element name="DimonaPeriodId">
 		<xs:annotation>
@@ -193,21 +120,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<xs:element name="DimonaUpdate">
-		<xs:annotation>
-			<xs:documentation>90378</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="DimonaUpdateType">
-					<xs:sequence>
-						<xs:element ref="EmployerId" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-	
 	<xs:element name="EmployerId" type="EmployerIdType">
 		<xs:annotation>
 			<xs:documentation>90256</xs:documentation>
@@ -259,28 +171,6 @@
 				<xs:totalDigits value="12"/>
 			</xs:restriction>
 		</xs:simpleType>
-	</xs:element>
-
-	<xs:element name="Form">
-		<xs:annotation>
-			<xs:documentation>90059</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="FormType">
-					<xs:sequence>
-						<xs:element ref="Reference" minOccurs="0" maxOccurs="4"/>
-						<xs:choice>
-							<xs:element ref="DimonaIn"/>
-							<xs:element ref="DimonaOut"/>
-							<xs:element ref="DimonaUpdate"/>
-							<xs:element ref="DimonaCancel"/>
-							<xs:element ref="DailyRegistrationDeclaration" minOccurs="0"/>
-						</xs:choice>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 	
 	<xs:element name="FormCreationDate">
@@ -598,21 +488,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<xs:element name="StudentPlaceOfWork">
-		<xs:annotation>
-			<xs:documentation>90376</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="StudentPlaceOfWorkType">
-					<xs:sequence>
-						<xs:element ref="Address" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="SubEntityNbr">
 		<xs:annotation>
 			<xs:documentation>00652</xs:documentation>
@@ -634,21 +509,6 @@
 				<xs:enumeration value="SU"/>
 			</xs:restriction>
 		</xs:simpleType>
-	</xs:element>
-
-	<xs:element name="UsingEmployer">
-		<xs:annotation>
-			<xs:documentation>90107</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="UsingEmployerType">
-					<xs:sequence>
-						<xs:element ref="Address" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="UsingEmployerCompanyID">
@@ -886,6 +746,151 @@
 		</xs:simpleType>
 	</xs:element>
 
+    <!--====================================================================-->
+    <!-- definition of complex elements -->
+	<xs:element name="DimonaUpdate">
+		<xs:annotation>
+			<xs:documentation>90378</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DimonaUpdateType">
+					<xs:sequence>
+						<xs:element ref="EmployerId" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Dimona">
+		<xs:annotation>
+			<xs:documentation>90372</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Form" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DimonaCancel">
+		<xs:annotation>
+			<xs:documentation>90379</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DimonaCancelType">
+					<xs:sequence>
+						<xs:element ref="EmployerId" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DimonaFeatures">
+		<xs:annotation>
+			<xs:documentation>90374</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DimonaFeaturesType">
+					<xs:sequence>
+						<xs:element ref="UsingEmployer" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DimonaIn">
+		<xs:annotation>
+			<xs:documentation>90373</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DimonaInType">
+					<xs:sequence>
+						<xs:element ref="EmployerId" minOccurs="0"/>
+						<xs:element ref="NaturalPerson"/>
+						<xs:element ref="DimonaFeatures" minOccurs="0"/>
+						<xs:element ref="ConstructionControlCards" minOccurs="0"/>
+						<xs:element ref="StudentPlaceOfWork" minOccurs="0"/>
+						<xs:element ref="SmallStatutesInformation" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DimonaOut">
+		<xs:annotation>
+			<xs:documentation>90377</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="DimonaOutType">
+					<xs:sequence>
+						<xs:element ref="EmployerId" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Form">
+		<xs:annotation>
+			<xs:documentation>90059</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="FormType">
+					<xs:sequence>
+						<xs:element ref="Reference" minOccurs="0" maxOccurs="4"/>
+						<xs:choice>
+							<xs:element ref="DimonaIn"/>
+							<xs:element ref="DimonaOut"/>
+							<xs:element ref="DimonaUpdate"/>
+							<xs:element ref="DimonaCancel"/>
+							<xs:element ref="DailyRegistrationDeclaration" minOccurs="0"/>
+						</xs:choice>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="StudentPlaceOfWork">
+		<xs:annotation>
+			<xs:documentation>90376</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="StudentPlaceOfWorkType">
+					<xs:sequence>
+						<xs:element ref="Address" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="UsingEmployer">
+		<xs:annotation>
+			<xs:documentation>90107</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="UsingEmployerType">
+					<xs:sequence>
+						<xs:element ref="Address" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
 	<xs:complexType name="AddressType">
 		<xs:sequence>
 			<xs:element ref="Street"/>
@@ -1040,5 +1045,5 @@
 			<xs:element ref="UsingEmployerCompanyID" minOccurs="0"/>
 		</xs:sequence>
 	</xs:complexType>
-	
+
 </xs:schema>

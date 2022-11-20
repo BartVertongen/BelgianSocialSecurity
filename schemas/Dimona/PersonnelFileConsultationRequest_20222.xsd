@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- definition of simple elements -->
 	
 	<xs:element name="AttestationStatus">
 		<xs:annotation>
@@ -39,24 +41,6 @@
 		<xs:annotation>
 			<xs:documentation>90256</xs:documentation>
 		</xs:annotation>
-	</xs:element>
-
-	<xs:element name="Form">
-		<xs:annotation>
-			<xs:documentation>90059</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="FormType">
-					<xs:sequence>
-						<xs:element ref="Reference" minOccurs="0"/>
-						<xs:element ref="EmployerId"/>
-						<xs:element ref="ReferencePeriod" minOccurs="0"/>
-						<xs:element ref="DataOption" minOccurs="0"/>
-					</xs:sequence>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="FormCreationDate">
@@ -135,17 +119,6 @@
 				<xs:totalDigits value="9"/>
 			</xs:restriction>
 		</xs:simpleType>
-	</xs:element>
-	
-	<xs:element name="PersonnelFileConsultationRequest">
-		<xs:annotation>
-			<xs:documentation>90426</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="Form"/>
-			</xs:sequence>
-		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="ProvisionalNSSONbr">
@@ -253,6 +226,38 @@
 		<xs:simpleType>
 			<xs:restriction base="xs:string"/>
 		</xs:simpleType>
+	</xs:element>
+
+	<!--====================================================================-->
+	<!-- definition of complex elements -->
+
+	<xs:element name="PersonnelFileConsultationRequest">
+		<xs:annotation>
+			<xs:documentation>90426</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Form"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Form">
+		<xs:annotation>
+			<xs:documentation>90059</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="FormType">
+					<xs:sequence>
+						<xs:element ref="Reference" minOccurs="0"/>
+						<xs:element ref="EmployerId"/>
+						<xs:element ref="ReferencePeriod" minOccurs="0"/>
+						<xs:element ref="DataOption" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
 	</xs:element>
 
 	<xs:complexType name="DataOptionType">
