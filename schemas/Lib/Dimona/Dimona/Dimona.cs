@@ -2,105 +2,13 @@
 
 using System.Xml.Serialization;
 
-namespace VertSoft.BelgianHR.Xml.Dimona
+
+namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
 { 
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    [XmlRoot("Address", Namespace = "", IsNullable = false)]
-    public partial class AddressType
-    {
-        public string? Street;
-
-        public string? HouseNbr;
-
-        public string? PostBox;
-
-        public string? ZIPCode;
-
-        public string? City;
-
-        [XmlElementAttribute(DataType = "integer")]
-        public string? Country;
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public partial class DimonaCancelType
-    {
-        [XmlElement(DataType = "integer")]
-        public string? DimonaPeriodId;
-
-        [XmlElement(DataType = "integer")]
-        public string? INSS;
-
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public partial class DimonaUpdateType
-    {
-        [XmlElement(DataType = "integer")]
-        public string? DimonaPeriodId;
-
-        [XmlElement(DataType = "date")]
-        public DateTime StartingDate;
-
-        [XmlIgnore()]
-        public bool StartingDateSpecified;
-
-        [XmlElement(DataType = "integer")]
-        public string? StartingHour;
-
-        [XmlElement(DataType = "date")]
-        public DateTime EndingDate;
-
-        [XmlIgnore()]
-        public bool EndingDateSpecified;
-
-        [XmlElement(DataType = "integer")]
-        public string? EndingHour;
-        
-        [XmlElement(DataType = "integer")]
-        public string? INSS;
-
-        [XmlElement("PlannedDaysNbr", typeof(string), DataType = "integer")]
-        [XmlElement("PlannedHoursNbr", typeof(string), DataType = "integer")]
-        [XmlChoiceIdentifier("ItemElementName")]
-        public string? Item;
-
-        [XmlIgnore()]
-        public ItemChoiceType2 ItemElementName;
-    }
-
-    [Serializable()]
-    [XmlType(IncludeInSchema = false)]
-    public enum ItemChoiceType2 { PlannedDaysNbr, PlannedHoursNbr, }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public partial class DimonaOutType
-    {
-        [XmlElement(DataType = "integer")]
-        public string? DimonaPeriodId;
-
-        [XmlElement(DataType = "date")]
-        public DateTime EndingDate;
-
-        [XmlElement(DataType = "integer")]
-        public string? INSS;
-    }
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public partial class StudentPlaceOfWorkType
+    public class StudentPlaceOfWorkType
     {
         public string? Denomination;
     }
@@ -108,7 +16,7 @@ namespace VertSoft.BelgianHR.Xml.Dimona
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class UsingEmployerType
+    public class UsingEmployerType
     {
         public JointCommissionNbr JointCommissionNbr;
 
@@ -138,13 +46,13 @@ namespace VertSoft.BelgianHR.Xml.Dimona
         [XmlEnum("145")]
         Item145,
 
-        [XmlEnumAttribute("149")]
+        [XmlEnum("149")]
         Item149,
 
-        [XmlEnumAttribute("302")]
+        [XmlEnum("302")]
         Item302,
 
-        [XmlEnumAttribute("320")]
+        [XmlEnum("320")]
         Item320,
 
         [XmlEnum("322")]
@@ -153,14 +61,14 @@ namespace VertSoft.BelgianHR.Xml.Dimona
         XXX,
     }
 
-    [SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
     public partial class DimonaFeaturesType
     {
         public JointCommissionNbr JointCommissionNbr;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool JointCommissionNbrSpecified;
 
         public WorkerType WorkerType;
@@ -169,8 +77,8 @@ namespace VertSoft.BelgianHR.Xml.Dimona
         public string? SubEntityNbr;
     }
 
-    [SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true)]
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum WorkerType
     {
@@ -193,53 +101,53 @@ namespace VertSoft.BelgianHR.Xml.Dimona
         OTH,
     }
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
     public partial class DimonaInType
     {
         [XmlElement(DataType = "date")]
         public DateTime StartingDate;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? StartingHour;
 
-        [XmlElementAttribute(DataType = "date")]
+        [XmlElement(DataType = "date")]
         public DateTime EndingDate;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool EndingDateSpecified;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? EndingHour;
 
-        [XmlElementAttribute("PlannedDaysNbr", typeof(string), DataType = "integer")]
-        [XmlElementAttribute("PlannedHoursNbr", typeof(string), DataType = "integer")]
-        [XmlChoiceIdentifierAttribute("ItemElementName")]
+        [XmlElement("PlannedDaysNbr", typeof(string), DataType = "integer")]
+        [XmlElement("PlannedHoursNbr", typeof(string), DataType = "integer")]
+        [XmlChoiceIdentifier("ItemElementName")]
         public string? Item;
 
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public ItemChoiceType ItemElementName;
     }
 
-    [SerializableAttribute()]
-    [XmlTypeAttribute(IncludeInSchema = false)]
+    [Serializable()]
+    [XmlType(IncludeInSchema = false)]
     public enum ItemChoiceType { PlannedDaysNbr, PlannedHoursNbr, }
 
 
-    [SerializableAttribute()]
+    [Serializable()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class FormType
     {
         public Identification Identification;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime FormCreationDate;
+        [XmlElement(DataType = "date")]
+        public DateTime FormCreationDate;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "time")]
-        public System.DateTime FormCreationHour;
+        [XmlElement(DataType = "time")]
+        public DateTime FormCreationHour;
 
         public AttestationStatus AttestationStatus;
 
@@ -251,19 +159,16 @@ namespace VertSoft.BelgianHR.Xml.Dimona
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum Identification { DIMONA, }
 
-    [SerializableAttribute()]
+    [Serializable()]
     [XmlTypeAttribute(AnonymousType = true)]
     [XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum AttestationStatus
     {
-        [XmlEnum("0")]
-        Item0,
+        [XmlEnum("0")] Item0,
 
-        [XmlEnum("1")]
-        Item1,
+        [XmlEnum("1")] Item1,
 
-        [XmlEnum("3")]
-        Item3,
+        [XmlEnum("3")] Item3,
     }
 
     [Serializable()]
@@ -289,19 +194,19 @@ namespace VertSoft.BelgianHR.Xml.Dimona
     [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRootAttribute("DailyRegistrationDeclaration", Namespace = "", IsNullable = false)]
+    [XmlRoot("DailyRegistrationDeclaration", Namespace = "", IsNullable = false)]
     public partial class DailyRegistrationDeclarationType
     {
         public AttestationStatus AttestationStatus;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? DailyRegistrationId;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? DimonaPeriodId;
 
-        [XmlElementAttribute(DataType = "date")]
-        public System.DateTime StartingDate;
+        [XmlElement(DataType = "date")]
+        public DateTime StartingDate;
 
         [XmlIgnoreAttribute()]
         public bool StartingDateSpecified;
@@ -321,23 +226,23 @@ namespace VertSoft.BelgianHR.Xml.Dimona
     }
 
 
-    [SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class Dimona
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class Dimona
     {
-        [XmlElementAttribute("Form")]
+        [XmlElement("Form")]
         public Form[]? Form;
     }
 
     [Serializable()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class Form : FormType
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class Form : FormType
     {
         [XmlElement("Reference")]
         public ReferenceType[]? Reference;
@@ -354,8 +259,8 @@ namespace VertSoft.BelgianHR.Xml.Dimona
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRootAttribute("Reference", Namespace = "", IsNullable = false)]
-    public partial class ReferenceType
+    [XmlRoot("Reference", Namespace = "", IsNullable = false)]
+    public class ReferenceType
     {
         [XmlElement("ReferenceType")]
         public ReferenceType1 ReferenceType1;

@@ -1,8 +1,7 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
 	<!-- definition of simple elements -->
-	
 	<xs:element name="AttestationStatus">
 		<xs:annotation>
 			<xs:documentation>00110</xs:documentation>
@@ -30,7 +29,7 @@
 			</xs:restriction>
 		</xs:simpleType>
 	</xs:element>
-	
+
 	<xs:element name="DataOption" type="DataOptionType">
 		<xs:annotation>
 			<xs:documentation>90493</xs:documentation>
@@ -228,20 +227,6 @@
 		</xs:simpleType>
 	</xs:element>
 
-	<!--====================================================================-->
-	<!-- definition of complex elements -->
-
-	<xs:element name="PersonnelFileConsultationRequest">
-		<xs:annotation>
-			<xs:documentation>90426</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="Form"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="Form">
 		<xs:annotation>
 			<xs:documentation>90059</xs:documentation>
@@ -259,7 +244,7 @@
 			</xs:complexContent>
 		</xs:complexType>
 	</xs:element>
-
+	
 	<xs:complexType name="DataOptionType">
 		<xs:sequence>
 			<xs:element ref="Location"/>
@@ -301,6 +286,17 @@
 			<xs:element ref="ReferenceOrigin"/>
 			<xs:element ref="ReferenceNbr"/>
 		</xs:sequence>
-	</xs:complexType>	
-		
+	</xs:complexType>
+
+	<xs:element name="PersonnelFileConsultationRequest">
+		<xs:annotation>
+			<xs:documentation>90426</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Form"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
 </xs:schema>
