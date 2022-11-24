@@ -1,8 +1,9 @@
-﻿
+﻿// By Bart Vertongen Nov 2022.
+
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.IDFLUX
+namespace VertSoft.BelgianHR.Xml.IDFLUX223
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]
@@ -24,7 +25,7 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("EmployerId", Namespace = "", IsNullable = false)]
-    public partial class EmployerIdType
+    public class EmployerIdType
     {
         [XmlElement("NOSSLPARegistrationNbr", typeof(string), DataType = "integer")]
         [XmlElement("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
@@ -52,7 +53,7 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class IdfluxInformationType
+    public class IdfluxInformationType
     {
         public JustificationCode JustificationCode;
 
@@ -66,24 +67,20 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum JustificationCode
     {
-        [XmlEnum("90")]
-        Item90,
+        [XmlEnum("90")] Item90,
 
-        [XmlEnum("91")]
-        Item91,
+        [XmlEnum("91")] Item91,
 
-        [XmlEnum("92")]
-        Item92,
+        [XmlEnum("92")] Item92,
 
-        [XmlEnum("93")]
-        Item93,
+        [XmlEnum("93")] Item93,
     }
 
 
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class FormType
+    public class FormType
     {
         public Identification Identification;
 
@@ -99,15 +96,15 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
         public TypeForm TypeForm;
     }
 
-    [System.SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
     public enum Identification { IDFLUX, }
 
 
-    [System.SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
     public enum TypeForm { SU, }
 
 
@@ -116,7 +113,7 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public partial class Form : FormType
+    public class Form : FormType
     {
         public ReferenceType? Reference;
 
@@ -128,7 +125,7 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("Reference", Namespace = "", IsNullable = false)]
-    public partial class ReferenceType
+    public class ReferenceType
     {
 
         [XmlElement("ReferenceType")]
@@ -140,32 +137,29 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
     }
 
 
-    [SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute("ReferenceType", Namespace = "", IsNullable = false)]
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot("ReferenceType", Namespace = "", IsNullable = false)]
     public enum ReferenceType1
-    {
-        [XmlEnumAttribute("1")]
-        Item1,
-    }
+    { [XmlEnum("1")] Item1, }
 
 
-    [System.SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
     public enum ReferenceOrigin
     {
-        [XmlEnumAttribute("2")]
+        [XmlEnum("2")]
         Item2,
     }
 
 
-    [SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class IdfluxInformation : IdfluxInformationType
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class IdfluxInformation : IdfluxInformationType
     {
         public EmployerIdType? EmployerId;
 
@@ -175,18 +169,18 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
     }
 
 
-    [SerializableAttribute()]
+    [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    [XmlRootAttribute("ValidSituation", Namespace = "", IsNullable = false)]
-    public partial class ValidSituationType
+    [XmlRoot("ValidSituation", Namespace = "", IsNullable = false)]
+    public class ValidSituationType
     {
-        [XmlElementAttribute("INSS", typeof(string), DataType = "integer")]
-        [XmlElementAttribute("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
-        [XmlElementAttribute("WorkerBirthdate", typeof(string))]
-        [XmlElementAttribute("WorkerFirstName", typeof(string))]
-        [XmlElementAttribute("WorkerName", typeof(string))]
-        [XmlElementAttribute("WorkerSex", typeof(string), DataType = "integer")]
+        [XmlElement("INSS", typeof(string), DataType = "integer")]
+        [XmlElement("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
+        [XmlElement("WorkerBirthdate", typeof(string))]
+        [XmlElement("WorkerFirstName", typeof(string))]
+        [XmlElement("WorkerName", typeof(string))]
+        [XmlElement("WorkerSex", typeof(string), DataType = "integer")]
         [XmlChoiceIdentifier("ItemsElementName")]
         public string[]? Items;
 
@@ -214,7 +208,7 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("OutdatedSituation", Namespace = "", IsNullable = false)]
-    public partial class OutdatedSituationType
+    public class OutdatedSituationType
     {
         [XmlElement("INSS", typeof(string), DataType = "integer")]
         [XmlElement("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
@@ -249,7 +243,7 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public partial class IDFLUX
+    public class IDFLUX
     {
         public Form? Form;
     }

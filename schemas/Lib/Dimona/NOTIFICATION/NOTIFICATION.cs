@@ -1,9 +1,10 @@
-﻿
+﻿// By Bart Vertongen Nov 2022.
 
 using System.Xml.Serialization;
+using VertSoft.BelgianHR.Xml.Dimona.Common;
 
 
-namespace VertSoft.BelgianHR.Xml.NOTIFICATION
+namespace VertSoft.BelgianHR.Xml.NOTIFICATION223
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]
@@ -89,7 +90,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class DimonaImpactReportType
+    public class DimonaImpactReportType
     {
         [XmlElement(DataType = "integer")]
         public string? DimonaPeriodId;
@@ -102,7 +103,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class ImpactReportType
+    public class ImpactReportType
     {
     }
 
@@ -110,7 +111,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class StudentPlaceOfWorkType
+    public class StudentPlaceOfWorkType
     {
         public string? Denomination;
     }
@@ -119,7 +120,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class UsingEmployerType
+    public class UsingEmployerType
     {
         public string? JointCommissionNbr;
 
@@ -133,7 +134,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class DimonaFeaturesType
+    public class DimonaFeaturesType
     {
 
         public string? JointCommissionNbr;
@@ -158,7 +159,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class DimonaPeriodType
+    public class DimonaPeriodType
     {
         [XmlElement(DataType = "integer")]
         public string? DimonaPeriodId;
@@ -232,7 +233,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class BlockActionType
+    public class BlockActionType
     {
         public Action Action;
 
@@ -370,13 +371,13 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum HalfTimeCareerInterruptionNotion
     {
-        [XmlEnumAttribute("0")]
+        [XmlEnum("0")]
         Item0,
 
-        [XmlEnumAttribute("1")]
+        [XmlEnum("1")]
         Item1,
 
-        [XmlEnumAttribute("9")]
+        [XmlEnum("9")]
         Item9,
     }
 
@@ -471,7 +472,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class AnomalyReportType
+    public class AnomalyReportType
     {
         public string? ErrorID;
 
@@ -488,7 +489,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class HandlingResultType
+    public class HandlingResultType
     {
         [XmlElement(DataType = "integer")]
         public string? ResultCode;
@@ -501,7 +502,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class CoordinatesContactPersonType
+    public class CoordinatesContactPersonType
     {
         public string? Name;
 
@@ -512,7 +513,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class DetailReturnCodeType
+    public class DetailReturnCodeType
     {
         public string? AnomalyClass;
 
@@ -526,7 +527,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class HandledCBSSInformationType
+    public class HandledCBSSInformationType
     {
         [XmlElement(DataType = "integer")]
         public string? ResultCode;
@@ -553,7 +554,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class WorkerRecordIdentificationType
+    public class WorkerRecordIdentificationType
     {
         [XmlElement(DataType = "integer")]
         public string? Quarter;
@@ -597,7 +598,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class HandledOriginalFileType
+    public class HandledOriginalFileType
     {
         [XmlElement(DataType = "integer")]
         public string? SenderId;
@@ -650,7 +651,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("CapeloImpactReport", Namespace = "", IsNullable = false)]
-    public partial class CapeloImpactReportType
+    public class CapeloImpactReportType
     {
         [XmlElement(DataType = "integer")]
         public string? ResultCode;
@@ -664,7 +665,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("Communication", Namespace = "", IsNullable = false)]
-    public partial class CommunicationType
+    public class CommunicationType
     {
         public string? PhoneNbr;
 
@@ -680,7 +681,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("ConcernedQuarter", Namespace = "", IsNullable = false)]
-    public partial class ConcernedQuarterType
+    public class ConcernedQuarterType
     {
         [XmlElement(DataType = "integer")]
         public string? Quarter;
@@ -691,7 +692,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("ConstructionControlCards", Namespace = "", IsNullable = false)]
-    public partial class ConstructionControlCardsType
+    public class ConstructionControlCardsType
     {
         [XmlElement(DataType = "integer")]
         public string? FirstMonthC32ANbr;
@@ -745,26 +746,26 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRootAttribute("DailyRegistrationAfter", Namespace = "", IsNullable = false)]
+    [XmlRoot("DailyRegistrationAfter", Namespace = "", IsNullable = false)]
     public partial class DailyRegistrationAfterType
     {
-        [XmlElementAttribute(DataType = "date")]
+        [XmlElement(DataType = "date")]
         public DateTime StartingDate;
 
         /// <remarks/>
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool StartingDateSpecified;
 
         /// <remarks/>
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? StartingHour;
 
         /// <remarks/>
-        [XmlElementAttribute(DataType = "date")]
+        [XmlElement(DataType = "date")]
         public DateTime EndingDate;
 
         /// <remarks/>
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool EndingDateSpecified;
 
         /// <remarks/>
@@ -773,11 +774,11 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     }
 
 
-    [SerializableAttribute()]
+    [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("DailyRegistrationBefore", Namespace = "", IsNullable = false)]
-    public partial class DailyRegistrationBeforeType
+    public class DailyRegistrationBeforeType
     {
         [XmlElementAttribute(DataType = "date")]
         public System.DateTime StartingDate;
@@ -790,15 +791,12 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
         [XmlElementAttribute(DataType = "integer")]
         public string? StartingHour;
 
-        /// <remarks/>
         [XmlElementAttribute(DataType = "date")]
         public System.DateTime EndingDate;
 
-        /// <remarks/>
         [XmlIgnoreAttribute()]
         public bool EndingDateSpecified;
 
-        /// <remarks/>
         [XmlElementAttribute(DataType = "integer")]
         public string? EndingHour;
     }
@@ -878,10 +876,10 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
     public enum ItemChoiceType { PlannedDaysNbr, PlannedHoursNbr }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRootAttribute("DimonaPeriodBefore", Namespace = "", IsNullable = false)]
+    [XmlRoot("DimonaPeriodBefore", Namespace = "", IsNullable = false)]
     public partial class DimonaPeriodBeforeType
     {
         [XmlElementAttribute(DataType = "date")]
@@ -893,10 +891,10 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
         [XmlElementAttribute(DataType = "integer")]
         public string? StartingHour;
 
-        [XmlElementAttribute(DataType = "date")]
-        public System.DateTime EndingDate;
+        [XmlElement(DataType = "date")]
+        public DateTime EndingDate;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool EndingDateSpecified;
 
         [XmlElement(DataType = "integer")]
@@ -908,11 +906,10 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION
 
         [XmlElementAttribute("PlannedDaysNbr", typeof(string), DataType = "integer")]
         [XmlElementAttribute("PlannedHoursNbr", typeof(string), DataType = "integer")]
-        [XmlChoiceIdentifierAttribute("ItemElementName")]
+        [XmlChoiceIdentifier("ItemElementName")]
         public string? Item;
 
-        /// <remarks/>
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public ItemChoiceType1 ItemElementName;
     }
 

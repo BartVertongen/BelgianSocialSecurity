@@ -10,9 +10,8 @@ namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class Dimona
+    public class DimonaFeatures : DimonaFeaturesType
     {
-        [XmlElement("Form")]
-        public Form[]? Form;
+        public UsingEmployer? UsingEmployer;
     }
 }
