@@ -10,8 +10,10 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX223
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class IDFLUX
+    public class Form : FormType
     {
-        public Form? Form;
+        public ReferenceType? Reference;
+
+        public IdfluxInformation? IdfluxInformation;
     }
 }

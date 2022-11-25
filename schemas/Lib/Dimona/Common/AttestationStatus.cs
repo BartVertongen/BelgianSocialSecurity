@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-//By Bart Vertongen Nov 2022.
+﻿//By Bart Vertongen Nov 2022.
 
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
+namespace VertSoft.BelgianHR.Xml.Dimona.Common
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]

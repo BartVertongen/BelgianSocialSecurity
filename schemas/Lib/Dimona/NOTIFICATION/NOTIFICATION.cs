@@ -11,17 +11,13 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION223
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum Action
     {
-        [XmlEnum("0")]
-        Item0,
+        [XmlEnum("0")] Item0,
 
-        [XmlEnum("1")]
-        Item1,
+        [XmlEnum("1")] Item1,
 
-        [XmlEnum("2")]
-        Item2,
+        [XmlEnum("2")] Item2,
 
-        [XmlEnum("9")]
-        Item9,
+        [XmlEnum("9")] Item9,
     }
 
 

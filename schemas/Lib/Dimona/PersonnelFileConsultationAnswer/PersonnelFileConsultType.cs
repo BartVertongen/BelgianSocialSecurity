@@ -1,18 +1,14 @@
-﻿//By Bart Vertongen Nov 2022.
+﻿// By Bart Vertongen Nov 2022.
 
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
+namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer223
 {
-    /// <remarks>
-    /// This type can also be found in IDFLUX and DIMONA but they are not equal
-    /// </remarks>
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    [XmlRoot("EmployerId", Namespace = "", IsNullable = false)]
-    public class EmployerIdType
+    public class PersonnelFileConsultType
     {
         [XmlElement("NOSSLPARegistrationNbr", typeof(string), DataType = "integer")]
         [XmlElement("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
@@ -21,9 +17,23 @@ namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
         public string? Item;
 
         [XmlIgnore()]
-        public ItemChoiceType1 ItemElementName;
+        public ItemChoiceType2? ItemElementName;
 
         [XmlElement(DataType = "integer")]
         public string? CompanyID;
+
+        [XmlElement(DataType = "date")]
+        public DateTime? RefStartingDate;
+
+        [XmlIgnore()]
+        public bool RefStartingDateSpecified;
+
+        [XmlElement(DataType = "date")]
+        public DateTime RefEndingDate;
+
+        [XmlIgnore()]
+        public bool RefEndingDateSpecified;
+
+        public ResultCodeResearch ResultCodeResearch;
     }
 }

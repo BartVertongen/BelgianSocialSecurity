@@ -1,10 +1,10 @@
-﻿//By Bart Vertongen Nov 2022.
+﻿// By Bart Vertongen Nov 2022.
 
 using System.Xml.Serialization;
 using VertSoft.BelgianHR.Xml.Dimona.Common;
 
 
-namespace VertSoft.BelgianHR.Xml.Dimona.ACRF223
+namespace VertSoft.BelgianHR.Xml.IDFLUX223
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]

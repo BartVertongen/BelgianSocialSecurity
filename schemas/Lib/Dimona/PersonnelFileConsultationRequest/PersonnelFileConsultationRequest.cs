@@ -1,16 +1,16 @@
-﻿// By Bart Vertongen Nov 2022.
+﻿//By Bart Vertongen Nov 2022.
 
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.IDFLUX223
+namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationRequest223
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class IDFLUX
+    public class PersonnelFileConsultationRequest
     {
         public Form? Form;
     }

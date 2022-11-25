@@ -1,15 +1,15 @@
-﻿
+﻿// By Bart Vertongen Nov 2022.
+
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.Dimona.ACRF223
+namespace VertSoft.BelgianHR.Xml.IDFLUX223
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum AttestationStatus
+    public enum ReferenceOrigin
     {
-        [XmlEnum("0")]
-        Item0,
+        [XmlEnum("2")] Item2,
     }
 }

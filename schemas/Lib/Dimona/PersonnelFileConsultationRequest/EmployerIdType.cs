@@ -3,11 +3,8 @@
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
+namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationRequest223
 {
-    /// <remarks>
-    /// This type can also be found in IDFLUX and DIMONA but they are not equal
-    /// </remarks>
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
@@ -21,7 +18,7 @@ namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
         public string? Item;
 
         [XmlIgnore()]
-        public ItemChoiceType1 ItemElementName;
+        public ItemChoiceType ItemElementName;
 
         [XmlElement(DataType = "integer")]
         public string? CompanyID;

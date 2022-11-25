@@ -8,10 +8,11 @@ namespace VertSoft.BelgianHR.Xml.IDFLUX223
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    [XmlType(AnonymousType = true)]
-    [XmlRoot(Namespace = "", IsNullable = false)]
-    public class IDFLUX
+    public class IdfluxInformationType
     {
-        public Form? Form;
+        public JustificationCode JustificationCode;
+
+        [XmlElement(DataType = "date")]
+        public DateTime EffectiveStartingDate;
     }
 }

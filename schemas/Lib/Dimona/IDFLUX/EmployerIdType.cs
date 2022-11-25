@@ -1,9 +1,9 @@
-﻿//By Bart Vertongen Nov 2022.
+﻿// By Bart Vertongen Nov 2022.
 
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
+namespace VertSoft.BelgianHR.Xml.IDFLUX223
 {
     /// <remarks>
     /// This type can also be found in IDFLUX and DIMONA but they are not equal
@@ -21,7 +21,7 @@ namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
         public string? Item;
 
         [XmlIgnore()]
-        public ItemChoiceType1 ItemElementName;
+        public ItemChoiceType ItemElementName;
 
         [XmlElement(DataType = "integer")]
         public string? CompanyID;

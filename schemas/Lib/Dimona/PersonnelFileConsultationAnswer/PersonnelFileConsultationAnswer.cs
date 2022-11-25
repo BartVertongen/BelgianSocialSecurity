@@ -1,82 +1,10 @@
-﻿
+﻿// By Bart Vertongen Nov 2022.
 
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
+namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer223
 {
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    [XmlRoot("Address", Namespace = "", IsNullable = false)]
-    public class AddressType
-    {
-        public string? Street;
-
-        public string? HouseNbr;
-
-        public string? PostBox;
-
-        public string? ZIPCode;
-
-        public string? City;
-
-        [XmlElement(DataType = "integer")]
-        public string? Country;
-    }
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public partial class PersonnelFileConsultType
-    {
-        [XmlElement("NOSSLPARegistrationNbr", typeof(string), DataType = "integer")]
-        [XmlElement("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
-        [XmlElement("ProvisionalNSSONbr", typeof(string), DataType = "integer")]
-        [XmlChoiceIdentifier("ItemElementName")]
-        public string? Item;
-
-        [XmlIgnore()]
-        public ItemChoiceType2? ItemElementName;
-
-        [XmlElement(DataType = "integer")]
-        public string? CompanyID;
-
-        [XmlElement(DataType = "date")]
-        public DateTime? RefStartingDate;
-
-        [XmlIgnore()]
-        public bool RefStartingDateSpecified;
-
-        [XmlElement(DataType = "date")]
-        public DateTime RefEndingDate;
-
-        [XmlIgnore()]
-        public bool RefEndingDateSpecified;
-
-        public ResultCodeResearch ResultCodeResearch;
-    }
-
-
-    [Serializable()]
-    [XmlType(IncludeInSchema = false)]
-    public enum ItemChoiceType2
-    { NOSSLPARegistrationNbr, NOSSRegistrationNbr, ProvisionalNSSONbr, }
-
-
-    [Serializable()]
-    [XmlType(AnonymousType = true)]
-    [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum ResultCodeResearch
-    {
-        [XmlEnum("0")] Item0,
-
-        [XmlEnum("1")] Item1,
-
-        [XmlEnum("5")] Item5,
-    }
-
-
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
@@ -195,7 +123,7 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    public partial class UsingEmployerType
+    public class UsingEmployerType
     {
         public JointCommissionNbr JointCommissionNbr;
 
@@ -234,10 +162,10 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class DimonaFeaturesType
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    public class DimonaFeaturesType
     {
         public JointCommissionNbr JointCommissionNbr;
 
@@ -302,7 +230,7 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public partial class UsingEmployer : UsingEmployerType
+    public class UsingEmployer : UsingEmployerType
     {
         public AddressType? Address;
     }
@@ -313,7 +241,7 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public partial class DimonaPeriod : DimonaPeriodType
+    public class DimonaPeriod : DimonaPeriodType
     {
         public NaturalPersonType? NaturalPerson;
 
@@ -358,10 +286,10 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
 
         public string? WorkerBirthplace;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? WorkerBirthplaceCountry;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? WorkerSex;
 
         public string? WorkerStreet;
@@ -423,7 +351,7 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("QuotaFeatures", Namespace = "", IsNullable = false)]
-    public partial class QuotaFeaturesType
+    public class QuotaFeaturesType
     {
         public QuotaType QuotaType;
 
@@ -465,7 +393,7 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("EmploymentMeasureInfo", Namespace = "", IsNullable = false)]
-    public partial class EmploymentMeasureInfoType
+    public class EmploymentMeasureInfoType
     {
         public CareerMeasure CareerMeasure;
 
@@ -494,7 +422,7 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("FileReference", Namespace = "", IsNullable = false)]
-    public partial class FileReferenceType
+    public class FileReferenceType
     {
         public string? FileName;
 
@@ -510,7 +438,7 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public partial class Form : FormType
+    public class Form : FormType
     {
         public FileReferenceType? FileReference;
 
@@ -528,7 +456,7 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("HandledOriginalForm", Namespace = "", IsNullable = false)]
-    public partial class HandledOriginalFormType
+    public class HandledOriginalFormType
     {
         public Identification Identification;
 
@@ -544,37 +472,36 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     }
 
 
-    [SerializableAttribute()]
+    [Serializable()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("Reference", Namespace = "", IsNullable = false)]
-    public partial class ReferenceType
+    public class ReferenceType
     {
-        [XmlElementAttribute("ReferenceType")]
+        [XmlElement("ReferenceType")]
         public ReferenceType1 ReferenceType1;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? ReferenceOrigin;
 
         public string? ReferenceNbr;
     }
 
 
-    [SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute("ReferenceType", Namespace = "", IsNullable = false)]
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot("ReferenceType", Namespace = "", IsNullable = false)]
     public enum ReferenceType1
     {
-        [XmlEnum("1")]
-        Item1,
+        [XmlEnum("1")] Item1,
     }
 
 
-    [System.SerializableAttribute()]
+    [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("HandledReference", Namespace = "", IsNullable = false)]
-    public partial class HandledReferenceType
+    public class HandledReferenceType
     {
         public ReferenceType1 ReferenceType;
 
@@ -606,5 +533,4 @@ namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer
     {
         public Form? Form;
     }
-
 }

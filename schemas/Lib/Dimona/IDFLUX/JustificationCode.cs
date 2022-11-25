@@ -6,12 +6,16 @@ using System.Xml.Serialization;
 namespace VertSoft.BelgianHR.Xml.IDFLUX223
 {
     [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class IDFLUX
+    public enum JustificationCode
     {
-        public Form? Form;
+        [XmlEnum("90")] Item90,
+
+        [XmlEnum("91")] Item91,
+
+        [XmlEnum("92")] Item92,
+
+        [XmlEnum("93")] Item93,
     }
 }
