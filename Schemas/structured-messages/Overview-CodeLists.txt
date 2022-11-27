@@ -1,0 +1,135 @@
+OVERVIEW OF CODE LIST FOR BELGIAN SOCIAL SECURITY
+====================================================
+
+1) Nis Codes                                    -> AN2018-1-NL1.xml
+1) Code INS                                     -> AN2018-1-FR1.xml
+
+2) Werkgeverskengetallen                        -> AN2022-2-NL2.xml
+2) Code Travailleur                             -> AN2022-2-FR2.xml
+
+3) Type bijdragen                               -> AN2022-3-NL3.xml
+3) Type de cotisation                           -> AN2022-3-FR3.xml
+
+4) Verminderingscodes                           -> AN2022-2-NL4.xml
+4) Codes déductions                             -> AN2022-2-FR4.xml
+
+5) Landcodes                                    -> AN2021-1-NL5.xml
+5) Codepays                                     -> AN2021-1-FR5.xml
+
+6) Activiteit ivm risico                        -> AN2008-1-NL6.xml
+6) Activité par rapport au risque               -> AN2008-1-FR6.xml
+
+7) Codificatie bezoldigingen                    -> AN2021-4-NL7.xml
+7) Codes rénumération                           -> AN2021-4-FR7.xml
+
+8) Arbeidstijd gegevens                         -> AN2022-2-NL8.xml
+8) Temp de Travailleur                          -> AN2022-2-FR8.xml
+
+9) Functie nummers                              -> AN2020-1-NL9.xml
+9) Numéros de fonction                          -> AN2020-1-NL9.xml
+
+10) Codificatie vergoedingen                    -> AN2001-3-NL10.xml
+10) Codification des indemnités                 -> AN2001-3-FR10.xml
+
+11) Identificatie van het formulier             -> 
+11) Identification du formulaire                -> 
+
+12) Identificatie van het risico                -> 
+12) Identificationdu risque                     -> 
+
+13) Code aard van de dag                        -> AN2020-1-NL13.xml
+13) Code nature du jour                         -> AN2020-1-FR13.xml
+
+14) Afwijkende gebeurtenis                      ->
+14) Déviations                                  ->
+
+15) Betrokken voorwerp                          ->
+15) Agents matériels                            ->
+
+16) Aard opgelopen risico                       ->
+16) Nature des lésions                          ->
+
+17) Plaats opgelopen risico                     ->
+17) Siège de la lésions                         -> 
+
+18) ISCO Code                                   ->
+18) Codes CITP                                  ->
+
+19) Preventie                                   ->
+19) Mesure de prévention                        -> 
+
+20) Wetsverzekeraar                             -> 
+20) Assureur-lésions                            -> 
+
+21) Lijst codes werknemersstatus                -> 
+21) Status Travailleur                          ->
+
+22) Lijst afkortingen van de rechtsvorm         ->
+22) Abréviations                                -> 
+
+23) Lijst van postcodes                         ->
+23) Codes postaux                               ->
+
+25) foutcodes digitale handtekening             ->
+25) 
+
+26) Lijst Paritaie Comités                      ->
+26) Commissionss Paritaire                      ->
+
+27) Lijst van de werkgevers categoriën          ->
+27) Categories d'Employeur                      ->
+
+28) Lijst der werknemerskengetallen PPO         ->
+28) Code travailleur APL                        ->
+
+29) Lijst werkgevers categoriën PPO             ->
+29) Categories d'employeurs APL                 ->
+
+30) Algemenen lijst van foutcodes               ->
+30) Codes anomalies                             ->
+
+31) NACE Codes                                  ->
+31) Codes NACE                                  ->
+
+32) Codificatie bezoldigingen                   ->
+32) Codes rénumération                          ->
+
+33) Codes déductions APL                        ->
+33) Verminderingscodes PPO                      ->
+
+34) Werkrooster                                 -> 
+34) Grille de travail                           -> 
+
+35) Maatregel werkgelegenheid                   -> 
+35) Mesure de travail                           -> 
+
+36) Maatregel werkgelegenheid PPO               -> 
+36) Mesure del'emploi APL                       -> 
+
+37) Type bijdrage PPO                           -> 
+37) Type de cotasition pour l'APL               ->
+
+38) Functienummer PPO                           ->
+38) Numéros de fonction pour l'APL              ->
+
+39) Identificatie hoedanigheid aangever         ->
+39) Identification de la qualité du déclarant   ->
+
+40) Stavingscodes                               -> 
+40) Codes justification                         -> 
+
+41) Lijst van boekhoudkundige referenties       ->
+41) Liste des références compatbles             ->
+
+42) Types van instellingen                      ->
+42) Types d'institutions                        ->
+
+43) Personeelscategorieën                       ->
+43) Catégories du personnel (secteur public)    ->
+
+44) Nomenclatuur van de personeelsklassen       ->
+44) Nomenclature des classes du personnel       ->
+
+46) Sector detail                               ->
+46) Détail secteur                              ->
+

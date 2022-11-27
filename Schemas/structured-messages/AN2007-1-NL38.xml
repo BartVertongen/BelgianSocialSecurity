@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Functienummer PPO -->
+<!-- Numéros de fonction pour l'APL -->
+
+<!DOCTYPE List [
+     <!ELEMENT ann38 (Code?, Leeftijd?, Functie?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann38+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Leeftijd (#PCDATA)>
+     <!ELEMENT Functie (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+    <ann38>
+        <Code>20</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>programmaverkoopsters en aangestelde in de vestiaire van schouwburgen</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>21</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>werknemers tewerkgesteld in badinrichtingen en in ondernemingen  welke badinrichtingen exploiteren: cabine- of badjongen of badmeisje</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>23</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>werknemers tewerkgesteld in badinrichtingen en in ondernemingen  welke badinrichtingen exploiteren: pedicure</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>24</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>werknemers tewerkgesteld in badinrichtingen en in ondernemingen  welke badinrichtingen exploiteren: masseu(r) (se)</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>25</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren  per week</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>26</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40  uren per week</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>27</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>kruier</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>29</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>alle andere met fooien bezoldigde werknemers</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>32</Code>
+        <Leeftijd>15</Leeftijd>
+        <Functie>loopjongen</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>33</Code>
+        <Leeftijd>16</Leeftijd>
+        <Functie>loopjongen</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>34</Code>
+        <Leeftijd>17</Leeftijd>
+        <Functie>adjunct chef loopjongen</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>35</Code>
+        <Leeftijd>18</Leeftijd>
+        <Functie>chef loopjongen</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>36</Code>
+        <Leeftijd>19</Leeftijd>
+        <Functie>chef loopjongen</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>37</Code>
+        <Leeftijd>20</Leeftijd>
+        <Functie>chef loopjongen</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>38</Code>
+        <Leeftijd>-,21,-,18,18,-,-</Leeftijd>
+        <Functie>voiturier, portier, kruier, kamerknecht, kamermeisje, toiletvrouw, aangestelde kleedkamer - leeftijd</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>39</Code>
+        <Leeftijd>21</Leeftijd>
+        <Functie>conciërge</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>40</Code>
+        <Leeftijd>23</Leeftijd>
+        <Functie>chef conciërge</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>41</Code>
+        <Leeftijd>19</Leeftijd>
+        <Functie>kamerknecht, kamermeisje</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>43</Code>
+        <Leeftijd>15</Leeftijd>
+        <Functie>leerjongen zaal</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>44</Code>
+        <Leeftijd>16</Leeftijd>
+        <Functie>leerjongen zaal</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>45</Code>
+        <Leeftijd>17</Leeftijd>
+        <Functie>hulpkelner- afruimer</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>46</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>hulpkelner-suite, hulpkelner-suite/banket, hulpknecht barman, hulp étage-kelner</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>47</Code>
+        <Leeftijd>19</Leeftijd>
+        <Functie>hulpkelner-rijleider, banketkelner</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>48</Code>
+        <Leeftijd>20</Leeftijd>
+        <Functie>1/2 rijleider restaurant, 1/2 rijleider banket, hulpknecht barman</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>49</Code>
+        <Leeftijd>21</Leeftijd>
+        <Functie>rangkelner restaurant, rijleider restaurant, kelner banket, rijleider banket, kelner brasserie, taverne, bistro, kelner café, barman, étage-kelner</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>50</Code>
+        <Leeftijd>22</Leeftijd>
+        <Functie>eerste rangkelner restaurant, wijnkelner, eerste rangkelner banket, verantwoordelijke barman</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>51</Code>
+        <Leeftijd>23</Leeftijd>
+        <Functie>Maître d'hôtel restaurant, Maître d'hôtel banket, oberkelner roomservice</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+    <ann38>
+        <Code>52</Code>
+        <Leeftijd>/</Leeftijd>
+        <Functie>assistent maître d'hôtel restaurant, assistent maître d'hôtel  banket, assistent oberkelner roomservice</Functie>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </ann38>
+</List>
+

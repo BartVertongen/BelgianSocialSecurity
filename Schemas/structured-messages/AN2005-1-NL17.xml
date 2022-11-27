@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Plaats opgelopen risico -->
+<!-- Siège de la lésions -->
+<!-- Plaats opgelopen risico -->
+<!DOCTYPE List [
+     <!ELEMENT ann17 (Code?, Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann17+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+    <ann17>
+        <Code>00</Code>
+        <Omschrijving>Verwond deel van het lichaam niet gespecificeerd</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>10</Code>
+        <Omschrijving>Hoofd, niet nader gespecificeerd</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>11</Code>
+        <Omschrijving>Hoofd (caput), hersenen en hersenzenuwen en -bloedvaten</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>12</Code>
+        <Omschrijving>Aangezicht</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>13</Code>
+        <Omschrijving>Oog/ogen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>14</Code>
+        <Omschrijving>Oor/oren</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+    <Code>15</Code>
+        <Omschrijving>Tanden</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>18</Code>
+        <Omschrijving>Hoofd, diverse plaatsen gewond</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>19</Code>
+        <Omschrijving>Hoofd, andere hierboven niet genoemde delen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>20</Code>
+        <Omschrijving>Hals, inclusief ruggengraat en halswervels</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>21</Code>
+        <Omschrijving>Hals, inclusief ruggengraat en halswervels</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>29</Code>
+        <Omschrijving>Hals, andere hierboven niet genoemde delen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>30</Code>
+        <Omschrijving>Rug, inclusief ruggengraat en rugwervels</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>31</Code>
+        <Omschrijving>Rug, inclusief ruggengraat en rugwervels</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>39</Code>
+        <Omschrijving>Rug, andere hierboven niet genoemde delen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>40</Code>
+        <Omschrijving>Romp en organen, niet nader gespecificeerd</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>41</Code>
+        <Omschrijving>Borstkas, ribben met gewrichten en schouderbladen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>42</Code>
+        <Omschrijving>Borststreek met organen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>43</Code>
+        <Omschrijving>Bekken en buik met organen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>48</Code>
+        <Omschrijving>Romp, diverse plaatsen gewond</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>49</Code>
+        <Omschrijving>Romp, andere hierboven niet genoemde delen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>50</Code>
+        <Omschrijving>Bovenste ledematen, niet nader gespecificeerd</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>51</Code>
+        <Omschrijving>Schouder en schoudergewrichten</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>52</Code>
+        <Omschrijving>Arm, inclusief elleboog</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>53</Code>
+        <Omschrijving>Hand</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>54</Code>
+        <Omschrijving>Vinger(s)</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>55</Code>
+        <Omschrijving>Pols</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>58</Code>
+        <Omschrijving>Bovenste ledematen, diverse plaatsen gewond</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>59</Code>
+        <Omschrijving>Bovenste ledematen, andere hierboven niet genoemde delen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>60</Code>
+        <Omschrijving>Onderste ledematen, niet nader gespecificeerd</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>61</Code>
+        <Omschrijving>Heup en heupgewricht</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>62</Code>
+        <Omschrijving>Been, inclusief knie</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>63</Code>
+        <Omschrijving>Enkel</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>64</Code>
+        <Omschrijving>Voet</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>65</Code>
+        <Omschrijving>Teen/tenen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>68</Code>
+        <Omschrijving>Onderste ledematen, diverse plaatsen gewond</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>69</Code>
+        <Omschrijving>Onderste ledematen, andere hierboven niet genoemde delen</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>70</Code>
+        <Omschrijving>Gehele lichaam en diverse plaatsen, niet nader gespecificeer</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>71</Code>
+        <Omschrijving>Gehele lichaam (systemische gevolgen)</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>78</Code>
+        <Omschrijving>Diverse plaatsen van het lichaam gewond</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+    <ann17>
+        <Code>99</Code>
+        <Omschrijving>Andere hierboven niet genoemde delen van het lichaam verwond</Omschrijving>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </ann17>
+</List>

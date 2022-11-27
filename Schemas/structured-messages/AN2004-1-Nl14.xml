@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Afwijkende gebeurtenis -->
+<!-- Déviations -->
+<!-- Anomalous event -->
+<!DOCTYPE List [
+     <!ELEMENT ann14 (Code?, Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann14+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+    <ann14>
+        <Code>0</Code>
+        <Omschrijving>Geen informatie</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>10</Code>
+        <Omschrijving>Afwijkende gebeurtenis als gevolg van een elektrische storing, explosie, brand - niet gespecificeerd</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>11</Code>
+        <Omschrijving>Elektrische storing door een defect in de installatie - met indirect contact als gevolg</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>12</Code>
+        <Omschrijving>Elektrische storing - met direct contact als gevolg</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>13</Code>
+        <Omschrijving>Explosie</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>14</Code>
+        <Omschrijving>Brand, vuurzee</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>19</Code>
+        <Omschrijving>Overige afwijkende gebeurtenissen, behorend tot groep 10, hierboven niet vermeld</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>20</Code>
+        <Omschrijving>Afwijkende gebeurtenis door overlopen, kantelen, lekken, leeglopen, verdampen, vrijkomen - niet gespecificeerd</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>21</Code>
+        <Omschrijving>In vaste toestand - overlopen, kantelen</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>22</Code>
+        <Omschrijving>In vloeibare toestand - lekken, sijpelen, leeglopen, spatten, sproeien</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>23</Code>
+        <Omschrijving>In gasvormige toestand - verdampen, aërosolvorming, gasvorming</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>24</Code>
+        <Omschrijving>In poedervorm - rookontwikkeling, stof, deeltjes</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>29</Code>
+        <Omschrijving>Overige afwijkende gebeurtenissen, behorend tot groep 20, hierboven niet vermeld</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>30</Code>
+        <Omschrijving>Breken, barsten, glijden, vallen, instorten van het betrokken voorwerp - niet gespecificeerd</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>31</Code>
+        <Omschrijving>Breken van materiaal, op de voegen of verbindingen</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>32</Code>
+        <Omschrijving>Breken, barsten, waarbij scherven/spanen ontstaan (hout, glas, metaal, steen, kunststof, overige)</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>33</Code>
+        <Omschrijving>Glijden, vallen, instorten van het betrokken voorwerp - hoger gelegen (op het slachtoffer vallend)</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>34</Code>
+        <Omschrijving>Glijden, vallen, instorten van het betrokken voorwerp - lager gelegen (het slachtoffer meeslepend)</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>35</Code>
+        <Omschrijving>Glijden, vallen, instorten van het betrokken voorwerp - op gelijke hoogte gelegen</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>39</Code>
+        <Omschrijving>Overige afwijkende gebeurtenissen, behorend tot groep 30, hierboven niet vermeld</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>40</Code>
+        <Omschrijving>Verlies van controle (geheel of gedeeltelijk) over een machine, vervoer- of transportmiddel, handgereedschap, voorwerp, dier - niet gespecificeerd</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>41</Code>
+        <Omschrijving>Verlies van controle (geheel of gedeeltelijk) - over een machine (inclusief onbedoeld starten) en over het met de machine bewerkte materiaal</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>42</Code>
+        <Omschrijving>Verlies van controle (geheel of gedeeltelijk) - over een vervoer- of transportmiddel (al dan niet gemotoriseerd)</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>43</Code>
+        <Omschrijving>Verlies van controle (geheel of gedeeltelijk) - over een handgereedschap (al dan niet gemotoriseerd) en over het met het gereedschap bewerkte materiaal</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>44</Code>
+        <Omschrijving>Verlies van controle (geheel of gedeeltelijk) - over een voorwerp (dat wordt gedragen, verplaatst, gehanteerd enz.)</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>45</Code>
+        <Omschrijving>Verlies van controle (geheel of gedeeltelijk) - over een dier</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>49</Code>
+        <Omschrijving>Overige afwijkende gebeurtenissen, behorend tot groep 40, hierboven niet vermeld</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>50</Code>
+        <Omschrijving>Uitglijden of struikelen met val, vallen van personen - niet gespecificeerd</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>51</Code>
+        <Omschrijving>Vallen van personen - van hoogte</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>52</Code>
+        <Omschrijving>Uitglijden of struikelen met val, vallen van personen - op ± dezelfde hoogte</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>59</Code>
+        <Omschrijving>Overige afwijkende gebeurtenissen, behorend tot groep 50, hierboven niet vermeld</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>60</Code>
+        <Omschrijving>Bewegen van het lichaam zonder fysieke belasting (doorgaans leidend tot uitwendig letsel) - niet gespecificeerd</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>61</Code>
+        <Omschrijving>Op een snijdend voorwerp stappen</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+    <Code>62</Code>
+        <Omschrijving>Knielen, gaan zitten, tegen iets leunen</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>63</Code>
+        <Omschrijving>Door een voorwerp of de vaart daarvan gegrepen of meegesleept worden</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+    <Code>64</Code>
+        <Omschrijving>Ongecoördineerde, onbeheerste of verkeerde bewegingen</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>69</Code>
+        <Omschrijving>Overige afwijkende gebeurtenissen, behorend tot groep 60, hierboven niet vermeld</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>70</Code>
+        <Omschrijving>Bewegen van het lichaam met of zonder fysieke belasting (doorgaans leidend tot inwendig letsel) - niet gespecificeerd</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>71</Code>
+        <Omschrijving>Optillen, dragen, opstaan</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>72</Code>
+        <Omschrijving>Duwen, trekken</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>73</Code>
+        <Omschrijving>Neerzetten, bukken</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>74</Code>
+        <Omschrijving>Buigen, draaien, zich omdraaien</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>75</Code>
+        <Omschrijving>Zwaarbeladen lopen, misstap of uitglijden zonder vallen</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>79</Code>
+        <Omschrijving>Overige afwijkende gebeurtenissen, behorend tot groep 70, hierboven niet vermeld</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>80</Code>
+        <Omschrijving>Verrassing, schrik, geweldpleging, agressie, bedreiging, aanwezig zijn - niet gespecificeerd</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>81</Code>
+        <Omschrijving>Verrassing, schrik</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>82</Code>
+        <Omschrijving>Geweldpleging, agressie, bedreiging tussen personeelsleden van de werkgever</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>83</Code>
+        <Omschrijving>Geweldpleging, agressie, bedreiging - door buitenstaanders jegens de slachtoffers in het kader van hun beroepsuitoefening (bankoverval, buschauffeurs)</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>84</Code>
+        <Omschrijving>Aangevallen, omvergelopen worden - door een dier</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>85</Code>
+        <Omschrijving>Aanwezig zijn van het slachtoffer of van een ander waardoor gevaar voor de persoon zelf en eventueel ook voor anderen ontstaat</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>89</Code>
+        <Omschrijving>Overige afwijkende gebeurtenissen, behorend tot groep 80, hierboven niet vermeld</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+    <ann14>
+        <Code>99</Code>
+        <Omschrijving>Overige afwijkende gebeurtenissen, niet in deze lijst vermeld</Omschrijving>
+        <begin_geldigheid>1/01/1900</begin_geldigheid>
+        <einde_geldigheid>1/01/9999</einde_geldigheid>
+    </ann14>
+</List>
+
