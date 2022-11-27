@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann40 (Code?, Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann40+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann40>
+<Code>01</Code>
+<Omschrijving>Uw voorstel tot wijziging</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>02</Code>
+<Omschrijving>Onze brief van</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>03</Code>
+<Omschrijving>Ambtshalve regularisatie opgesteld overeenkomstig artikel 22 van de wet van 27/06/1969. Zie onze aangetekende brief</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>04</Code>
+<Omschrijving>Verbetering ingevolge de anomalieën die u werden meegedeeld in onze notificatie betreffende het ticketnummer...</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>05</Code>
+<Omschrijving>Wijziging aangebracht op vraag van het FSO</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>06</Code>
+<Omschrijving>Ambtshalve regularisatie van de DmfA voor provinciale en lokale besturen opgesteld overeenkomstig artikel 22 van de wet van 27 juni 1969. Zie onze aangetekende brief.</Omschrijving>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>07</Code>
+<Omschrijving>Ambtshalve regularisatie van de solidariteitsbijdrage voor het nalaten van de Dimona-aangifte op basis van artikel 22quater van de wet van 27 juni 1969. Zie ook onze aangetekende brief hierover.</Omschrijving>
+<begin_geldigheid>01/01/2009</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>08</Code>
+<Omschrijving>Nazicht vermindering ok</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>09</Code>
+<Omschrijving>Regularisatie uitgevoerd op basis van door ons verzamelde elementen en nazicht van uw dossier</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>10</Code>
+<Omschrijving>In dit kwartaal werd het forfait gelegenheidsarbeid in de horeca toegepast op deze werknemer(s). Hiervoor werd geen correcte dimona ingediend. Hierbij wordt de aangegeven tewerkstelling overgezet naar werkgeverskengetal 017 en werknemerskengetal 011 en het forfaitaire dagloon oberkelner (019).</Omschrijving>
+<begin_geldigheid>01/10/2013</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>11</Code>
+<Omschrijving>Ambtshalve omzetting van flexi-jobwerknemer naar 'gewone' werknemer op basis van art. 22 van de wet van 27/06/1969, vermits niet voldaan is aan de volgende wettelijke voorwaarde:</Omschrijving>
+<begin_geldigheid>01/10/2015</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>30</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van de anomalie Te veel dagen wettelijke vakantie (jaarlijks maximum = 4 weken)</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>31</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van de incoherentie van het arbeidsstelsel en het aantal dagen ten opzichte van de periode van tewerkstelling in het kwartaal</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>32</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van het aantal aangegeven dagen</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>33</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van het foutieve contracttype</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>34</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van het arbeidsstelsel in dagen</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>35</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van het arbeidsstelsel in uren (waarde Q)</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>36</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van het arbeidsstelsel in uren van de voltijdse maatman (waarde S)</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>37</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van de bezoldigingscode</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>38</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van de anomalie 'Loon aangegeven zonder bezoldigde dagen of bezoldigde dagen aangegeven zonder loon'</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>39</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van het aantal gepresteerde uren</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>40</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van de begin- en/of einddatum van tewerkstelling</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>41</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Spreiding van de verbrekingsvergoeding</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>42</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Annulering van een tewerkstelling</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>43</Code>
+<Omschrijving>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van anomalieën</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>51</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van de incoherentie van het arbeidsstelsel en het aantal dagen ten opzichte van de periode van tewerkstelling in het kwartaal</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>52</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van het aantal aangegeven dagen</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>53</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van het foutieve contracttype</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>54</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van het arbeidsstelsel in dagen</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>55</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van het arbeidsstelsel in uren (waarde Q)</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>56</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van het arbeidsstelsel in uren van de voltijdse maatman (waarde S)</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>57</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van de bezoldigingscode</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>58</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van de anomalie 'Loon aangegeven zonder bezoldigde dagen of bezoldigde dagen aangegeven zonder loon'</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>59</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van het aantal gepresteerde uren</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>60</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van de begin- en/of einddatum van tewerkstelling</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>61</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Spreiding van de verbrekingsvergoeding</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>62</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Annulering van een tewerkstelling</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>63</Code>
+<Omschrijving>Wijziging aangebracht door CIMIRe - Verbetering van anomalieën</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>90</Code>
+<Omschrijving>Wijziging van de gegevens van een natuurlijk persoon - INSZ-mutatie</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>91</Code>
+<Omschrijving>Wijziging van de gegevens van een natuurlijk persoon - Synchronisatie</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>92</Code>
+<Omschrijving>Transfer van stamnummer wegens wijziging van taalregime</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+<ann40>
+<Code>93</Code>
+<Omschrijving>Transfer van stamnummer wegens dubbel gebruik</Omschrijving>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann40>
+</List>

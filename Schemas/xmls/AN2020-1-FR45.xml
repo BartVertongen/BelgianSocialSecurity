@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann45 (Code?, DescFR?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann45+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescFR (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann45>
+<Code>1</Code>
+<DescFR>MARIN : 
+- officier pont (aspirant matelot, aspirant officier, premier/deuxième/troisième/quatrième officier, premier/deuxième second, capitaine);
+- officier machine (aspirant mécanicien, aspirant mécanicien automatisation, mécanicien automatisation, premier mécanicien (en chef), deuxième/troisième, quatrième/cinquième mécanicien, premier électricien);
+- shortsea officier pont (capitaine);
+- shortsea officier machine (premier mécanicien); 
+- marin subalterne (maître d'équipage, premier cuisinier, cuisinier et maître d'équipage, cuisinier et maître d'hôtel, pumpman, steward(ess) avec plus d'un an de service, deuxième cuisinier-boulanger, matelot qualifié, matelot qualifié-wiper, wiper-matelot); 
+- shoregang (tous les grades)</DescFR>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>2</Code>
+<DescFR>MARIN : marin subalterne (matelot)</DescFR>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>3</Code>
+<DescFR>MARIN : 
+- shortsea officier pont (premier officier); 
+- shortsea officier machine (deuxième mécanicien)</DescFR>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>4</Code>
+<DescFR>MARIN : shortsea navire à passagers (commissaire)</DescFR>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>5</Code>
+<DescFR>MARIN : 
+- shortsea officier pont (chef de garde); 
+- shortsea officier machine (officier mécanicien chef de garde)</DescFR>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>6</Code>
+<DescFR>MARIN : shortsea navire à passagers (premier cuisinier)</DescFR>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>7</Code>
+<DescFR>MARIN : 
+- shortsea navire à passagers (animateur, gouvernante, maître d'hôtel)
+- shortsea marin subalterne (maître d'équipage, matelot, steward, cuisinier);
+- shortsea officier pont (aspirant officier);
+- shortsea officier machine (aspirant mécanicien);
+- shortsea navire à passagers (aide-cuisinier, électricien)</DescFR>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>8</Code>
+<DescFR>MARIN : 
+- shortsea marin subalterne (maître d'équipage, matelot, steward, cuisinier); 
+- shortsea officier pont (aspirant officier); 
+- shortsea officier machine (aspirant mécanicien); 
+- shortsea navire à passagers (aide-cuisinier, plongeur, barman, garçon, lingère, électricien)</DescFR>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2019</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>9</Code>
+<DescFR>MARIN : navires à passagers commerciaux officier pont (capitaine)</DescFR>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>10</Code>
+<DescFR>MARIN : navires à passagers commerciaux officier pont (premier officier)</DescFR>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>11</Code>
+<DescFR>MARIN : 
+- navires à passagers commerciaux officier pont (deuxième officier)
+- navires à passagers commerciaux officier machine (troisième mécanicien)
+- navires à passagers commerciaux subalterne (matelot)</DescFR>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>12</Code>
+<DescFR>MARIN : 
+- navires à passagers commerciaux officier pont (aspirant officier)
+- navires à passagers commerciaux subalterne (steward)</DescFR>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>13</Code>
+<DescFR>MARIN : navires à passagers commerciaux officier machine (premier mécanicien)</DescFR>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>14</Code>
+<DescFR>MARIN : navires à passagers commerciaux officier machine (deuxième mécanicien)</DescFR>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>15</Code>
+<DescFR>MARIN : navires à passagers commerciaux subalterne (cuisinier)</DescFR>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+</List>

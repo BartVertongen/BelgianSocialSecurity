@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann45 (Code?, DescDu?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann45+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescDu (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann45>
+<Code>1</Code>
+<DescDu>ZEEVARENDE: 
+- officier dek (aspirant-matroos, aspirant-officier, eerste/tweede/derde/vierde officier,  eerste/tweede stuurman, kapitein);
+- officier machine (aspirant-werktuigkundige, aspirant-werktuigkundige automatisatie, werktuigkundige automatisatie, eerste (hoofd)werktuigkundige, tweede/derde/vierde/vijfde werktuigkundige, eerste elektricien);
+- shortsea officier dek (kapitein);
+- shortsea officier machine (eerste werktuigkundige); 
+- scheepsgezel (bootsman, eerste kok, kok bootsman, kok en hoofmeester, pompman, steward(ess) met meer dan één jaar dienst, tweede kok-bakker, volmatroos, volmatroos-wiper, wiper-matroos); 
+- shoregang (alle rangen)</DescDu>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>2</Code>
+<DescDu>ZEEVARENDE: scheepsgezel (matroos)</DescDu>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>3</Code>
+<DescDu>ZEEVARENDE: 
+- shortsea officier dek (eerste officier); 
+- shortsea officier machine (tweede werktuigkundige)</DescDu>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>4</Code>
+<DescDu>ZEEVARENDE: shortsea passagiersschip (commissaris)</DescDu>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>5</Code>
+<DescDu>ZEEVARENDE: 
+- shortsea officier dek (wachtoverste); 
+- shortsea officier machine (officier werktuigkundige wachtoverste)</DescDu>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>6</Code>
+<DescDu>ZEEVARENDE: shortsea passagiersschip (eerste kok)</DescDu>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>7</Code>
+<DescDu>ZEEVARENDE: 
+- shortsea passagiersschip (animator, gouvernante, hofmeester)
+- shortsea scheepsgezel (bootsman, matroos, steward, kok); 
+- shortsea officier dek (aspirant-officier); 
+- shortsea officier machine (aspirant-werktuigkundige); 
+- shortsea passagiersschepen (keukenhulp, elektricien)</DescDu>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>8</Code>
+<DescDu>ZEEVARENDE: 
+- shortsea scheepsgezel (bootsman, matroos, steward, kok); 
+- shortsea officier dek (aspirant-officier); 
+- shortsea officier machine (aspirant-werktuigkundige); 
+- shortsea passagiersschepen (keukenhulp, afwasser, barman, ober, dame linnenkamer, elektricien)</DescDu>
+<begin_geldigheid>01/01/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2019</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>9</Code>
+<DescDu>ZEEVARENDE: commerciële passagiersschepen officier dek (kapitein)</DescDu>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>10</Code>
+<DescDu>ZEEVARENDE: commerciële passagiersschepen officier dek (eerste officier)</DescDu>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>11</Code>
+<DescDu>ZEEVARENDE:
+- commerciële passagiersschepen officier dek (tweede officier)
+- commerciële passagiersschepen officier machine (derde werktuigkundige)
+- commerciële passagiersschepen scheepsgezel (matroos)</DescDu>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>12</Code>
+<DescDu>ZEEVARENDE:
+- commerciële passagiersschepen officier dek (aspirant-officier)
+- commerciële passagiersschepen scheepsgezel (steward)</DescDu>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>13</Code>
+<DescDu>ZEEVARENDE: commerciële passagiersschepen officier machine (eerste werktuigkundige)</DescDu>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>14</Code>
+<DescDu>ZEEVARENDE: commerciële passagiersschepen officier machine (tweede werktuigkundige)</DescDu>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+<ann45>
+<Code>15</Code>
+<DescDu>ZEEVARENDE: commerciële passagiersschepen scheepsgezel (kok)</DescDu>
+<begin_geldigheid>01/01/2020</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann45>
+</List>

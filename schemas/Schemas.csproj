@@ -7,12 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="DmfA\DmfAOriginal_20222.xsd" />
     <None Remove="xmls\ACRF_20223_1.xml" />
     <None Remove="xmls\ACRF_20223_2.xml" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Lib\DmFa\" />
+    <Folder Include="Lib\DmfA\BewareNotification\" />
+    <Folder Include="Lib\DmfA\UpdateNotification\" />
+    <Folder Include="Lib\DmfA\Update\" />
+    <Folder Include="Lib\DmfA\Original\" />
   </ItemGroup>
 
 </Project>

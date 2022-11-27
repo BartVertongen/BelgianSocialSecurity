@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann46 (CategorieNL?, Code?, DescDu?, ParitairComite?, PrivateSectorNL?, PublicSectorNL?, Opmerkingbijlage46?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann46+)>
+     <!ELEMENT CategorieNL (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescDu (#PCDATA)>
+     <!ELEMENT ParitairComite (#PCDATA)>
+     <!ELEMENT PrivateSectorNL (#PCDATA)>
+     <!ELEMENT PublicSectorNL (#PCDATA)>
+     <!ELEMENT Opmerkingbijlage46 (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>713</Code>
+<DescDu>Vlaamse sector van de centra geestelijke gezondheidszorg</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>714</Code>
+<DescDu>Vlaamse sector van de Consultatiebureaus voor het jonge kind, centra voor prenatale raadpleging, inloopteams</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Het gaat hier om Preventieve Gezinsondersteuning (PGO), o.a.:
+• inloopteams
+• opvoedingswinkels
+• ontmoetingsplaatsen
+• consultatiebureaus</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>715</Code>
+<DescDu>Vlaamse sector van de vertrouwenscentra kindermishandeling</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>716</Code>
+<DescDu>Vlaamse sector van de adoptiediensten</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>717</Code>
+<DescDu>Vlaamse sector van de centra voor ontwikkelingsstoornissen</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>718</Code>
+<DescDu>Vlaamse sector van tele-onthaal</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>719</Code>
+<DescDu>Vlaamse sector van de diensten/centra voor gezondheidspromotie en preventie</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>720</Code>
+<DescDu>Vlaamse sector van de samenwerkingsinitiatieven eerstelijnsgezondheidszorg (SEL), de eerstelijnszones en de Zorgraden</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<Opmerkingbijlage46>Vanaf 01/07/2020 zijn de SEL, de Lokale Multidisciplinaire Netwerken (LMN) en het Regionaal Welzijnsoverleg Oost-Vlaanderen omgevormd naar Zorgraden</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>721</Code>
+<DescDu>Vlaamse sector van de overige welzijns- en gezondheidsinrichtingen- en diensten</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken voor activiteiten die niet behoren tot de specifieke deelsectoren, o.a.: 
+• Lokale dienstencentra (LDC)
+• diensten voor oppashulp</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Centra voor geboorteregeling, de centra voor tele-onthaal, de sociale vrijwilligersorganisaties, de diensten voor de strijd tegen toxicomanie (zonder revalidatieovereenkomst), de centra voor huwelijkscontacten, de centra voor prenatale raadpleging, de consultatiebureaus voor het jonge kind, de vertrouwenscentra kindermishandeling, de diensten voor adoptie, de centra voor ontwikkelingsstoornissen, de consultatiecentra voor gehandicaptenzorg, de samenwerkingsinitiatieven inzake thuisverzorging, de centra voor geestelijke gezondheidszorg, de diensten en centra voor gezondheidspromotie en preventie</CategorieNL>
+<Code>722</Code>
+<DescDu>Vlaamse sector van de welzijns- en gezondheidsinrichtingen - deelsector onbekend</DescDu>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken indien geen gegevens beschikbaar over deelsector. Deze code moet op termijn worden vervangen door een specifiekere code.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>700</Code>
+<DescDu>Vlaamse sector van groepsopvang baby's en peuters - subsidietrap 1</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Kinderdagverblijf of crèche (vanaf 9 kinderen, meestal in apart gebouw) die zelf hun prijs bepalen</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>701</Code>
+<DescDu>Vlaamse sector van groepsopvang baby's en peuters - subsidietrap 2A &amp; 3</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Kinderdagverblijf of crèche (vanaf 9 kinderen, meestal in apart gebouw) die werken met het IKG-systeem en volledig gesubsidieerd zijn</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>702</Code>
+<DescDu>Vlaamse sector van groepsopvang baby's en peuters - subsidietrap 2B</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Kinderdagverblijf of crèche (vanaf 9 kinderen, meestal in apart gebouw) die werken met het IKG-systeem, maar slechts gedeeltelijk gesubsidieerd zijn</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>703</Code>
+<DescDu>Vlaamse sector van gezinsopvang baby's en peuters - subsidietrap 1</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Onthaalouders (max. 8 kinderen, meestal in de eigen woning) die zelf hun prijs bepalen.
+
+Opmerking: ook onthaalouders "sui generis" (aparte aangifte onder PC 999 en specifiek WN-kengetal 497 (privésector) of 761 (openbare sector) moeten met deze code aangegeven worden.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>704</Code>
+<DescDu>Vlaamse sector van gezinsopvang baby's en peuters - subsidietrap 2A &amp; 3</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Onthaalouders (max. 8 kinderen, meestal in de eigen woning) die werken met het IKG-systeem en volledig gesubsidieerd zijn.
+
+Opmerking: ook onthaalouders "sui generis" (aparte aangifte onder PC 999 en specifiek WN-kengetal 497 (privésector) of 761 (openbare sector) moeten met deze code aangegeven worden.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>705</Code>
+<DescDu>Vlaamse sector van gezinsopvang baby's en peuters - subsidietrap 2B</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Onthaalouders (max. 8 kinderen, meestal in de eigen woning) die werken met het IKG-systeem, maar slechts gedeeltelijk gesubsidieerd zijn.
+
+Opmerking: ook onthaalouders "sui generis" (aparte aangifte onder PC 999 en specifiek WN-kengetal 497 (privésector) of 761 (openbare sector) moeten met deze code aangegeven worden.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>706</Code>
+<DescDu>Vlaamse sector van gezinsopvang baby's en peuters - onthaalouders werknemersstatuut</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Pilootproject onthaalouders (max. 8 kinderen, meestal in de eigen woning) in werknemersstatuut</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>707</Code>
+<DescDu>Vlaamse sector van Buitenschoolse Opvang  met Afzonderlijke Binnenruimte (BOAB)</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>708</Code>
+<DescDu>Vlaamse sector van de Initiatieven Buitenschoolse opvang (IBO)</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>709</Code>
+<DescDu>Vlaamse sector van de FCUD-personeelsleden</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>710</Code>
+<DescDu>Vlaamse sector van de LDE (lokale diensteneconomie) - kinderopvang</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>711</Code>
+<DescDu>Vlaamse sector van de overige kinderopvang</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken voor activiteiten die niet behoren tot de specifieke deelsectoren, o.a.: 
+• kinderopvang met subsidietrap 0
+• thuisopvang van zieke kinderen
+• regionale dienstencentra</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Kinderopvang, de kinderkribben, de peutertuinen, de diensten voor opvanggezinnen, de diensten voor thuisopvang van zieke kinderen, de buitenschoolse kinderopvang</CategorieNL>
+<Code>712</Code>
+<DescDu>Vlaamse sector van de kinderopvang - deelsector onbekend</DescDu>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken indien geen gegevens beschikbaar over deelsector. Deze code moet op termijn worden vervangen door een specifiekere code.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Non-profitsector - PVB/PAB</CategorieNL>
+<Code>209</Code>
+<DescDu>Vlaamse sector van de werkgevers van persoonlijk assistenten  in kader PVB (persoonsvolgend budget) en PAB (persoonlijk assistentiebudget)</DescDu>
+<ParitairComite>337</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<Opmerkingbijlage46>Het gaat hier om werkgevers die persoonlijk assistenten aanwerven met een arbeidovereenkomst in het kader van een persoonsvolgend budget (PVB) of een persoonlijk assistentiebudget (PAB)
+Indien het geen PVB of PAB betreft, wordt dit invulveld leeg gelaten</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Overige diensten en instellingen - Vlaamse multidisciplinaire begeleidingsequipes palliatieve zorg</CategorieNL>
+<Code>614</Code>
+<DescDu>Vlaamse sector van de multidisciplinaire begeleidingsequipes palliatieve zorg (MBE)</DescDu>
+<ParitairComite>330.04</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<Opmerkingbijlage46>Indien het geen Vlaamse MBE betreft, wordt dit invulveld leeg gelaten</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Privé-ziekenhuizen, revalidatieziekenhuizen en de psychiatrische verzorgingstehuizen</CategorieNL>
+<Code>600</Code>
+<DescDu>Vlaamse sector van de revalidatieziekenhuizen</DescDu>
+<ParitairComite>330.01.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Privé-ziekenhuizen, revalidatieziekenhuizen en de psychiatrische verzorgingstehuizen</CategorieNL>
+<Code>601</Code>
+<DescDu>Vlaamse sector van de psychiatrische verzorgingstehuizen</DescDu>
+<ParitairComite>330.01.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Privé-ziekenhuizen, revalidatieziekenhuizen en de psychiatrische verzorgingstehuizen</CategorieNL>
+<Code>602</Code>
+<DescDu>Vlaamse sector van de ziekenhuizen - deelsector onbekend</DescDu>
+<ParitairComite>330.01.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken indien geen gegevens beschikbaar over deelsector. Deze code moet op termijn worden vervangen door een specifiekere code.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Privé-ziekenhuizen, revalidatieziekenhuizen en de psychiatrische verzorgingstehuizen</CategorieNL>
+<Code>603</Code>
+<DescDu>sector van de ziekenhuizen die niet behoren tot de Vlaamse bevoegdheid</DescDu>
+<ParitairComite>330.01.10</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>bv. algemene ziekenhuizen</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse autonome revalidatiecentra</CategorieNL>
+<Code>608</Code>
+<DescDu>Vlaamse sector van de revalidatievoorzieningen, m.u.v. de centra voor ambulante revalidatie en de behandelingscentra verslavingszorg</DescDu>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse autonome revalidatiecentra</CategorieNL>
+<Code>609</Code>
+<DescDu>Vlaamse sector van de centra voor ambulante revalidatie</DescDu>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse autonome revalidatiecentra</CategorieNL>
+<Code>610</Code>
+<DescDu>Vlaamse sector van de behandelingscentra verslavingszorg</DescDu>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse autonome revalidatiecentra</CategorieNL>
+<Code>611</Code>
+<DescDu>Vlaamse sector van de revalidatievoorzieningen - deelsector onbekend</DescDu>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken indien geen gegevens beschikbaar over deelsector. Deze code moet op termijn worden vervangen door een specifiekere code.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse autonome revalidatiecentra</CategorieNL>
+<Code>612</Code>
+<DescDu>sector van de revalidatievoorzieningen die niet behoren tot de Vlaamse bevoegdheid</DescDu>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse diensten voor gezins- en bejaardenhulp</CategorieNL>
+<Code>100</Code>
+<DescDu>Vlaamse sector van de gezinszorg</DescDu>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>o.a.:
+• persoonsverzorging (wassen, aankleden, verzorging, ...)
+• hulp in het huishouden (koken, wassen en strijken, ...)
+• psychosociale en pedagogische ondersteuning en begeleiding (gezelschap, aanspreekpunt, doorverwijzen naar andere zorgverleners, ...)
+• in beperkte mate ook hulp bij het schoonmaken van het huis</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse diensten voor gezins- en bejaardenhulp</CategorieNL>
+<Code>101</Code>
+<DescDu>Vlaamse sector van de aanvullende thuiszorg</DescDu>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>o.a.:
+• schoonmaak van het huis (poetsen, stof afnemen en stofzuigen, ...)
+• oppashulp (gezelschap, hulp bij het eten, ...)
+• helpen bij het uitvoeren van karweitjes (kleine reparaties, schilderen of behangen, ...)</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse diensten voor gezins- en bejaardenhulp</CategorieNL>
+<Code>102</Code>
+<DescDu>Vlaamse sector van de dienstencheques</DescDu>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Zowel het DC-personeel als hun omkadering:
+• huishoudhulp (schoonmaken (incl.ramen), wassen en strijken, bereiden van maaltijden, occasionele kleine verstelwerken) 
+• strijken buitenshuis
+• boodschappen voor dagelijks gebruik 
+• vervoer personen met beperkte mobiliteit (hulp bij verplaatsingen van mindervalide gebruikers of van het mindervalide kind van een gebruiker)</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse diensten voor gezins- en bejaardenhulp</CategorieNL>
+<Code>103</Code>
+<DescDu>Vlaamse sector van de opvang van zieke kinderen</DescDu>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<Opmerkingbijlage46>Een beperkt aantal diensten voor gezinszorg zijn erkend om oppas voor zieke kinderen te realiseren met middelen van het vroegere “FCUD” (nu overgedragen aan Kind&amp;Gezin)</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse diensten voor gezins- en bejaardenhulp</CategorieNL>
+<Code>104</Code>
+<DescDu>Vlaamse sector van de overige diensten voor gezins- en bejaardenhulp</DescDu>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken voor activiteiten die niet behoren tot de specifieke deelsectoren, o.a.:
+• lokale dienstencentra (LDC)
+• regionale dienstencentra
+• diensten voor oppashulp
+• dagverzogingscentra of Collectieve Autonome DagOpvang (CADO), uitgebaat door een erkende dienst voor gezinszorg en aanvullende thuiszorg (conform art.51)
+• diensten voor gastopvang
+• maaltijdbedeling</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse diensten voor gezins- en bejaardenhulp</CategorieNL>
+<Code>105</Code>
+<DescDu>Vlaamse sector van de gezins- en bejaardenhulp - deelsector onbekend</DescDu>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken indien geen gegevens beschikbaar over deelsector. Deze code moet op termijn worden vervangen door een specifiekere code.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse initiatieven voor Beschut wonen</CategorieNL>
+<Code>613</Code>
+<DescDu>Vlaamse sector van de initiatieven voor beschut wonen</DescDu>
+<ParitairComite>330.01.51</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse opvoedings- en huisvestingsinrichtingen en -diensten</CategorieNL>
+<Code>200</Code>
+<DescDu>Vlaamse sector van de ondersteuning voor personen met een handicap</DescDu>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse opvoedings- en huisvestingsinrichtingen en -diensten</CategorieNL>
+<Code>201</Code>
+<DescDu>Vlaamse sector van de jeugdhulp</DescDu>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse opvoedings- en huisvestingsinrichtingen en -diensten</CategorieNL>
+<Code>202</Code>
+<DescDu>Vlaamse sector van de algemeen welzijnswerk (incl. thuislozenwerking)</DescDu>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>CAW's bieden deskundige hulpverlening aan mensen met problemen. Samen met hen zoeken hulpverleners naar de mogelijkheden die bij henzelf en in hun omgeving te vinden zijn. Zij kunnen ook de weg wijzen naar andere diensten.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse opvoedings- en huisvestingsinrichtingen en -diensten</CategorieNL>
+<Code>203</Code>
+<DescDu>Vlaamse sector van de centra voor integrale gezinszorg</DescDu>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>CIG's bieden hulp aan gezinnen en (aanstaande) ouders met ernstige opvoedingsproblemen. De begeleiding richt zich op het gezin als geheel.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse opvoedings- en huisvestingsinrichtingen en -diensten</CategorieNL>
+<Code>204</Code>
+<DescDu>Vlaamse sector van de centra voor kinderzorg en gezinsondersteuning</DescDu>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>CKG's richten zich op gezinnen met kinderen van 0 tot en met 12 jaar (zolang ze basisonderwijs volgen, met bijzondere aandacht voor 0-6jarigen), in al hun diversiteit (ras, stand, godsdienst, herkomst,….) die een hulpvraag stellen omdat het opvoedingsgebeuren voor ouder en/of kind vastloopt of dreigt vast te lopen en waarvoor met een tijdelijk hulpaanbod voldoende perspectief is op verandering.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse opvoedings- en huisvestingsinrichtingen en -diensten</CategorieNL>
+<Code>205</Code>
+<DescDu>Vlaamse sector van de sociale verhuurkantoren</DescDu>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse opvoedings- en huisvestingsinrichtingen en -diensten</CategorieNL>
+<Code>206</Code>
+<DescDu>Vlaamse sector van de huurdersbonden</DescDu>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse opvoedings- en huisvestingsinrichtingen en -diensten</CategorieNL>
+<Code>207</Code>
+<DescDu>Vlaamse sector van de overige opvoedings- en huisvestingsinrichtingen en -diensten</DescDu>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken voor activiteiten die niet behoren tot de specifieke deelsectoren, o.a.: 
+• Lokale dienstencentra (LDC)
+• Diensten Maatschappelijk Werk van het ziekenfonds (DMW)</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse opvoedings- en huisvestingsinrichtingen en -diensten</CategorieNL>
+<Code>208</Code>
+<DescDu>Vlaamse sector van de opvoedings- en huisvestingsinrichtingen en -diensten - deelsector onbekend</DescDu>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken indien geen gegevens beschikbaar over deelsector. Deze code moet op termijn worden vervangen door een specifiekere code.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse sector van de beschutte werkplaatsen, de sociale werkplaatsen en de maatwerkbedrijven</CategorieNL>
+<Code>400</Code>
+<DescDu>Vlaamse sector van de sociale werkplaatsen</DescDu>
+<ParitairComite>327.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse sector van de beschutte werkplaatsen, de sociale werkplaatsen en de maatwerkbedrijven</CategorieNL>
+<Code>401</Code>
+<DescDu>Vlaamse sector van de beschutte werkplaatsen</DescDu>
+<ParitairComite>327.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse sector van de beschutte werkplaatsen, de sociale werkplaatsen en de maatwerkbedrijven</CategorieNL>
+<Code>402</Code>
+<DescDu>Vlaamse sector van de maatwerkbedrijven</DescDu>
+<ParitairComite>327.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<Opmerkingbijlage46>Voorlopig nog niet te gebruiken, tot zolang er onderscheid bestaat in o.a. loons- en arbeidsvoorwaarden en RSZ</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>500</Code>
+<DescDu>Vlaamse sector van sociaal-cultureel werk</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Het sociaal-cultureel volwassenenwerk is een sector waar heel wat sociaal-culturele praktijken worden opgezet en ondersteund. Centraal in deze praktijken staat ontmoeting, niet-formeel en informeel leren, gemeenschapsvorming en maatschappelijk engagement.We spreken van sociaal-cultureel werk wanneer de sociaal-culturele praktijken een zekere mate van institutionalisering vertonen. Deze institutionalisering voltrekt zich via drie assen: formalisering, professionalisering en overheidsregulering. 
+• privésector: het betreft hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie
+• openbare sector: o.a. wijkcentra</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>501</Code>
+<DescDu>Vlaamse sector van cultuurspreiding</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Cultuurspreiding beoogt een geografische en sociale spreiding van kunst en cultuur
+• privésector: het betreft hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie
+• openbare sector: o.a. bibliotheken, cultuurdiensten, cultuurinfrastructuur, musea, cultureel-erfgoedwerking,...</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>502</Code>
+<DescDu>Vlaamse sector van samenlevingsopbouw</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<Opmerkingbijlage46>De sector Samenlevingsopbouw bestaat uit acht regionale instituten: één in elke Vlaamse provincie en in de steden Antwerpen, Brussel, Gent. De instituten worden erkend en gesubsidieerd door de Vlaamse overheid
+Dit is enkel voor de privésector: het betreft hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>503</Code>
+<DescDu>Vlaamse sector van integratie en inburgering</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Doelstelling: zich inzetten voor een samenleving waar iedereen, ongeacht herkomst of achtergrond, gelijke kansen krijgt.
+Aanbod: inburgeringstrajecten; ondersteunen van besturen, organisaties en diensten bij het omgaan met de toenemende diversiteit; anderstaligen leiden naar een geschikt aanbod Nederlands als tweede taal, ...
+• privésector: het betreft hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie
+• openbare sector: o.a. lokale opvanginitiatieven (LOI)</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>504</Code>
+<DescDu>Vlaamse sector van de Nederlansdstalige organisaties voor socioprofessioinel inschakeling in Brussel</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<Opmerkingbijlage46>Dit is enkel voor de privésector: het betreft hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>505</Code>
+<DescDu>Vlaamse sector van beroepsopleiding</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<Opmerkingbijlage46>Dit is enkel voor de privésector: het betreft hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>506</Code>
+<DescDu>Vlaamse sector van sportfederaties, sportdiensten en sportinfrastructuur</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Voor de privésector betreft het hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>507</Code>
+<DescDu>Vlaamse milieu- en natuursector</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Voor de privésector betreft het hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>508</Code>
+<DescDu>Vlaamse sector van het jeugdwerk</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>• privésector:  het betreft hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie, bv. landelijk en bovenlokaal jeugdwerk
+• openbare sector:  o.a. jeugddiensten</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>509</Code>
+<DescDu>Vlaamse sector van de doelgroepwerknemers-LDE</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>510</Code>
+<DescDu>Vlaamse sector van de andere subsectoren die onder VIA4-eindejaarspremie ressorteren</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Neen</PublicSectorNL>
+<Opmerkingbijlage46>Enkel privésector: het betreft hier enkel de organisaties die middelen ontvangen op basis van een Vlaams decreet of besluit, en op basis daarvan ook onder het toepassingsgebied vallen van de cao van 6 december 2013 inzake de toekenning van een eindejaarspremie, o.a.
+• vereniging van armen die het woord nemen;
+• lokale dienstencentra (LDC);
+• de culturele centra en gemeenschapscentra in de vorm van gemeentelijke vzw's die via het Gemeentefonds gesubsidieerd worden door de Vlaamse overheid</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>511</Code>
+<DescDu>Vlaamse sector van de overige socio-culturele voorzieningen</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken voor activiteiten die niet behoren tot de specifieke deelsectoren
+• privésector: organisaties die geen middelen ontvangen via een Vlaamse erkenning, o.a. centra voor basiseducatie, toerisme, verenigingen van gebruikers en mantelzorgers, regionale dienstencentra
+• openbare sector: o.a. vrijetijdsdiensten, toerisme</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Vlaamse socio-culturele sector</CategorieNL>
+<Code>512</Code>
+<DescDu>Vlaamse socio-culturele sector - deelsector onbekend</DescDu>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken indien geen gegevens beschikbaar over deelsector. Deze code moet op termijn worden vervangen door een specifiekere code.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Woonzorgcentra, dagverzorgingscentra, dagcentra voor kortverblijf en assistentiewoningen</CategorieNL>
+<Code>604</Code>
+<DescDu>Vlaamse sector van de woonzorgcentra, de dagverzorgingscentra en de centra voor kortverblijf</DescDu>
+<ParitairComite>330.01.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Met dagverzorgingscentra worden hier de "gewone" dagverzorgingscentra bedoeld, niet-conform art.51</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Woonzorgcentra, dagverzorgingscentra, dagcentra voor kortverblijf en assistentiewoningen</CategorieNL>
+<Code>605</Code>
+<DescDu>Vlaamse sector van de assistentiewoningen</DescDu>
+<ParitairComite>330.01.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Voor de werkgever met een woonzorgcentrum (WZC) en assistentiewoningen, moet het personeel van het WZC met code 604 te worden gecodeerd en het personeel van de assistentiewoning met de code 605.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Woonzorgcentra, dagverzorgingscentra, dagcentra voor kortverblijf en assistentiewoningen</CategorieNL>
+<Code>606</Code>
+<DescDu>Vlaamse sector van de ouderenzorg - deelsector onbekend</DescDu>
+<ParitairComite>330.01.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Code te gebruiken indien geen gegevens beschikbaar over deelsector. Deze code moet op termijn worden vervangen door een specifiekere code.</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieNL>Woonzorgcentra, dagverzorgingscentra, dagcentra voor kortverblijf en assistentiewoningen</CategorieNL>
+<Code>607</Code>
+<DescDu>sector van de ouderenzorg die niet behoort tot de Vlaamse bevoegdheid</DescDu>
+<ParitairComite>330.01.20</ParitairComite>
+<PrivateSectorNL>Ja</PrivateSectorNL>
+<PublicSectorNL>Ja</PublicSectorNL>
+<Opmerkingbijlage46>Waalse en Brusselse ouderenzorgvoorzieningen</Opmerkingbijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+</List>

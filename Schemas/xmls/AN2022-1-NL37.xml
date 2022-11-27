@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann37 (typebijdrage?, Codenl?, Werkgeverscategorienl?, ORDCONTRIBNL?, WNUMBER?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann37+)>
+     <!ELEMENT typebijdrage (#PCDATA)>
+     <!ELEMENT Codenl (#PCDATA)>
+     <!ELEMENT Werkgeverscategorienl (#PCDATA)>
+     <!ELEMENT ORDCONTRIBNL (#PCDATA)>
+     <!ELEMENT WNUMBER (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>1xx (handarbeiders)</Codenl>
+<Werkgeverscategorienl>951 - 952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>1xx (handarbeiders)</Codenl>
+<Werkgeverscategorienl>981 - 982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>2xx (hoofdarbeiders)</Codenl>
+<Werkgeverscategorienl>951 - 952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>2xx (hoofdarbeiders)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>3xx (overheidspensioenbijdrage)</Codenl>
+<Werkgeverscategorienl>971-974 / 976</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2014</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>3xx (overheidspensioenbijdrage)</Codenl>
+<Werkgeverscategorienl>977-978</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>6xx (vastbenoemden)</Codenl>
+<Werkgeverscategorienl>953 - 957</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>6xx (vastbenoemden)</Codenl>
+<Werkgeverscategorienl>971-976</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2014</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>6xx (vastbenoemden)</Codenl>
+<Werkgeverscategorienl>977-978</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>7xx (bijzondere categorieën) met uitzondering van de code 741 (kunstenaars)</Codenl>
+<Werkgeverscategorienl>958</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>951-952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>872, 873 en 874 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>879, 880, 881, 882, 884 en 886 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>8xx (bijzondere bijdragen)</Codenl>
+<Werkgeverscategorienl>953-957</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>8xx (bijzondere bijdragen)</Codenl>
+<Werkgeverscategorienl>971-976</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2014</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>8xx (bijzondere bijdragen)</Codenl>
+<Werkgeverscategorienl>977-798</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>8xx (bijzondere bijdragen) met uitzondering van de codes 842 en 843</Codenl>
+<Werkgeverscategorienl>951-952 / 958</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Codenl>8xx (bijzondere bijdragen) met uitzondering van de codes 842 en 843</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Codenl>741 (kunstenaars)</Codenl>
+<Werkgeverscategorienl>958</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 108%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>951-952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Codenl>872, 873 en 874 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Codenl>879, 880, 881, 882, 884 en 886 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>2</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>951-952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>2</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>2</typebijdrage>
+<Codenl>872, 873 en 874 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>2</typebijdrage>
+<Codenl>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>3</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>951-952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>3</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>3</typebijdrage>
+<Codenl>872, 873 en 874 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>3</typebijdrage>
+<Codenl>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>4</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>951-952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>4</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>4</typebijdrage>
+<Codenl>872, 873 en 874 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>4</typebijdrage>
+<Codenl>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>5</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>951-952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>5</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>5</typebijdrage>
+<Codenl>872, 873 en 874 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2017</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>5</typebijdrage>
+<Codenl>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</Codenl>
+<Werkgeverscategorienl>959</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage SWT</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2017</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>6</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>951-952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>6</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>7</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>951-952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>7</typebijdrage>
+<Codenl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>8</typebijdrage>
+<Codenl>842 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>951-952</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>8</typebijdrage>
+<Codenl>842 (bijdragen aanvullend pensioenstelsel - contractanten)</Codenl>
+<Werkgeverscategorienl>981-982</Werkgeverscategorienl>
+<ORDCONTRIBNL>Bijdrage lonen 100%</ORDCONTRIBNL>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+</List>

@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann32 (categoryfr?, CodePPL?, Code?, Description?, Vanaf?, Tot?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann32+)>
+     <!ELEMENT categoryfr (#PCDATA)>
+     <!ELEMENT CodePPL (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT Vanaf (#PCDATA)>
+     <!ELEMENT Tot (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann32>
+<categoryfr>Déclaration Risque Social - salaire exact</categoryfr>
+<CodePPL>21</CodePPL>
+<Code>21</Code>
+<Description>Avantages non soumis aux cotisations ONSS ordinaires</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Déclaration Risque Social - salaire exact</categoryfr>
+<CodePPL>30</CodePPL>
+<Code>30</Code>
+<Description>Salaire garanti deuxième semaine</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Déclaration Risque Social - salaire exact</categoryfr>
+<CodePPL>31</CodePPL>
+<Code>31</Code>
+<Description>Indemnité CCT 12bis/13bis</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Déclaration Risque Social - salaire exact</categoryfr>
+<CodePPL>32</CodePPL>
+<Code>32</Code>
+<Description>Rémunération nette programme d'activation</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Déclaration Risque Social - salaire exact</categoryfr>
+<CodePPL>33</CodePPL>
+<Code>33</Code>
+<Description>Rémunération brute pour un travailleur à temps partiel bénéficiant d'une allocation de garantie de revenus</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>29</CodePPL>
+<Code>29</Code>
+<Description>Solde du budget mobilité versé en espèces et qui correspond au 3ème pilier</Description>
+<Vanaf>2019/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>770</CodePPL>
+<Code>10</Code>
+<Description>Avantage de toute nature sur l'utilisation personnelle d'un véhicule de société ou, jusqu'au 31/12/2020, sur l'allocation de mobilité contre restitution d'un véhicule de société ou sur le véhicule de société respectueux de l'environnement dans le cadre du budget de mobilité</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>780</CodePPL>
+<Code>20</Code>
+<Description>Participations aux bénéfices</Description>
+<Vanaf>2010/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>790</CodePPL>
+<Code>20</Code>
+<Description>Versements d'employeurs pour la constitution d'une pension extralégale au profit des membres de leur personnel ou de leurs ayants-droit</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2011/3</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/09/2011</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>791</CodePPL>
+<Code>20</Code>
+<Description>Amendes de circulation remboursées par l'employeur</Description>
+<Vanaf>2009/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2009</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>792</CodePPL>
+<Code>20</Code>
+<Description>Versements directs d'une pension extra-légale au profit des travailleurs qui sortent de service (en raison de mise à la retraite)</Description>
+<Vanaf>2011/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2011</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>793</CodePPL>
+<Code>20</Code>
+<Description>Versements effectués par les employeurs pour la constitution d'une pension extra-légale dans le cadre d'un plan d'entreprise</Description>
+<Vanaf>2011/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2011</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>794</CodePPL>
+<Code>20</Code>
+<Description>Tranche de rémunération inférieure ou égale au montant plafond pour versements des employeurs en vue de la constitution d'une pension extra-légale - Anvers</Description>
+<Vanaf>2010/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>795</CodePPL>
+<Code>20</Code>
+<Description>Tranche de rémunération supérieure au montant plafond pour versements des employeurs en vue de la constitution d'une pension extra-légale - Anvers</Description>
+<Vanaf>2010/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>796</CodePPL>
+<Code>20</Code>
+<Description>Rémunération pour versements des employeurs en vue de la constitution d'une pension extra-légale - de 0 à 9 ans d'ancienneté - Bruges</Description>
+<Vanaf>2013/1</Vanaf>
+<Tot>2019/4</Tot>
+<begin_geldigheid>01/01/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2019</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>797</CodePPL>
+<Code>20</Code>
+<Description>Rémunération pour versements des employeurs en vue de la constitution d'une pension extra-légale - de 10 à 19 ans d'ancienneté - Bruges</Description>
+<Vanaf>2013/1</Vanaf>
+<Tot>2019/4</Tot>
+<begin_geldigheid>01/01/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2019</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>798</CodePPL>
+<Code>20</Code>
+<Description>Rémunération pour versements des employeurs en vue de la constitution d'une pension extra-légale - de 20 à 29 ans d'ancienneté - Bruges</Description>
+<Vanaf>2013/1</Vanaf>
+<Tot>2019/4</Tot>
+<begin_geldigheid>01/01/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2019</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités assujetties à une cotisation spéciale</categoryfr>
+<CodePPL>799</CodePPL>
+<Code>20</Code>
+<Description>Rémunération pour versements des employeurs en vue de la constitution d'une pension extra-légale - de 30 ans d'ancienneté à plus - Bruges</Description>
+<Vanaf>2013/1</Vanaf>
+<Tot>2019/4</Tot>
+<begin_geldigheid>01/01/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2019</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités pour rupture unilatérale de la relation de travail</categoryfr>
+<CodePPL>130</CodePPL>
+<Code>3</Code>
+<Description>Indemnité pour rupture unilatérale de la relation de travail - exprimé en temps de travail (concerne le personnel non nommé)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités pour rupture unilatérale de la relation de travail</categoryfr>
+<CodePPL>131</CodePPL>
+<Code>4</Code>
+<Description>Indemnité pour rupture unilatérale de la relation de travail - pas exprimé en temps de travail</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités pour rupture unilatérale de la relation de travail</categoryfr>
+<CodePPL>132</CodePPL>
+<Code>9</Code>
+<Description>Indemnité pour rupture unilatérale de la relation de travail - exprimé en temps de travail (concerne le personnel nommé)</Description>
+<Vanaf>2005/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>26</CodePPL>
+<Code>26</Code>
+<Description>Primes et/ou subsides autres que Maribel social perçus par l'employeur</Description>
+<Vanaf>2018/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>401</CodePPL>
+<Code>20</Code>
+<Description>Allocation horaire pour des prestations de service supplémentaires non récupérable - exonérée</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>403</CodePPL>
+<Code>20</Code>
+<Description>Cadeaux en nature, en espèces ou en chèques sous les conditions de l'art.19, §2, 14° AR 28-11-1969, et réduction du prix des produits ou services sous les conditions de l'art. 19, §2, 19° de l'AR du 28-11-1969</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>404</CodePPL>
+<Code>20</Code>
+<Description>Avantages en nature ou sous la forme de chèques - lien avec prestations fournies du trimestre - exonérés</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>406</CodePPL>
+<Code>20</Code>
+<Description>Avantages en nature ou sous la forme de chèques - sans lien avec les prestations du trimestre - exonérés</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>408</CodePPL>
+<Code>20</Code>
+<Description>Montant de la part de l'employeur dans les chèques repas sous les conditions de l'article 19bis, §2 de l'AR du 28-11-1969</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2018/3</Tot>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>30/09/2018</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>408</CodePPL>
+<Code>24</Code>
+<Description>Montant de la part de l'employeur dans les chèques repas sous les conditions de l'article 19bis, §2 de l'AR du 28-11-1969</Description>
+<Vanaf>2018/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>409</CodePPL>
+<Code>20</Code>
+<Description>Montant de la part du travailleur dans les chèques repas sous les conditions de l'article 19bis, §2 de l'AR du 28-11-1969</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>417</CodePPL>
+<Code>20</Code>
+<Description>Prime de fin d'année - exonérée</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>421</CodePPL>
+<Code>20</Code>
+<Description>Allocation de foyer / résidence - exonérée</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>422</CodePPL>
+<Code>20</Code>
+<Description>Allocation de diplôme - exonérée</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>423</CodePPL>
+<Code>20</Code>
+<Description>Indemnité pour connaissance 2e langue - exonérée</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>424</CodePPL>
+<Code>20</Code>
+<Description>Allocation pour fonctions supérieures - exonérée</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>433</CodePPL>
+<Code>20</Code>
+<Description>Autres allocations et primes - Pas de lien avec les prestations du trimestre - exonérées</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>434</CodePPL>
+<Code>20</Code>
+<Description>Autres allocations et primes - liées aux prestations du trimestre - exonérées</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>435</CodePPL>
+<Code>20</Code>
+<Description>Allocation pour prestations de nuit - exonérée de cotisations de sécurité sociale - pas de cotisations de pension</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>436</CodePPL>
+<Code>20</Code>
+<Description>Allocation pour prestations de week-end et jours fériés - exonérée de cotisations de sécurité sociale - pas de cotisations de pension</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>437</CodePPL>
+<Code>20</Code>
+<Description>Indemnité de garde -   exonérée</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>440</CodePPL>
+<Code>20</Code>
+<Description>Indemnités pour le travailleur lorsque l'employeur ne respecte pas ses obligations légales, contractuelles ou statutaires (par exemple indemnité de licenciement pour travailleur protégé)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>441</CodePPL>
+<Code>20</Code>
+<Description>Indemnité de vêtements, logement, frais de déplacement et de séjour (par exemple frais de l'employeur = remboursement du prix ou mise à disposition de vêtements de travail, équipement ou transport)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2018/3</Tot>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>30/09/2018</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>441</CodePPL>
+<Code>24</Code>
+<Description>Indemnité de vêtements, logement, frais de déplacement et de séjour (par exemple frais de l'employeur = remboursement du prix ou mise à disposition de vêtements de travail, équipement ou transport)</Description>
+<Vanaf>2018/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>442</CodePPL>
+<Code>20</Code>
+<Description>Frais de déplacement de et vers le lieu de travail</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2018/3</Tot>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>30/09/2018</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>442</CodePPL>
+<Code>24</Code>
+<Description>Frais de déplacement de et vers le lieu de travail</Description>
+<Vanaf>2018/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>443</CodePPL>
+<Code>20</Code>
+<Description>Montant octroyé en raison d'une affiliation à une organisation syndicale reconnue</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>444</CodePPL>
+<Code>20</Code>
+<Description>Supplément à un avantage de sécurité sociale pour une autre raison qu'une indemnité suite à une maladie ou un accident (ex: prime d'encouragement interruption de carrière, prime d'assurance hospitalisation)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>452</CodePPL>
+<Code>20</Code>
+<Description>Prime accordée au travailleur soit dans le cadre du travail à mi-temps à partir de l'âge de 55 ou 50 ans, soit dans le cadre de la fin de carrière en douceur</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>454</CodePPL>
+<Code>20</Code>
+<Description>Indemnité accordée aux ordonnateurs, gardes, conservateurs, fossoyeurs, brigadiers-fossoyeurs, porteurs aux services des sépultures, préposés aux dépôts mortuaire et à la morgue - exonérée de cotisations de sécurité sociale - cotisations de pension</Description>
+<Vanaf>2005/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>490</CodePPL>
+<Code>20</Code>
+<Description>Rente pour incapacité de travail permanente (totale ou partielle) suite à un accident de travail ou une maladie professionnelle</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>801</CodePPL>
+<Code>1</Code>
+<Description>Allocation horaire pour des prestations de services supplémentaires non récupérables - soumise</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>804</CodePPL>
+<Code>1</Code>
+<Description>Avantages en nature ou sous la forme de chèques - lien avec prestations fournies du trimestre - soumis</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>806</CodePPL>
+<Code>2</Code>
+<Description>Avantages en nature ou sous la forme de chèques - sans lien avec les prestations du trimestre - soumis</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>817</CodePPL>
+<Code>2</Code>
+<Description>Prime de fin d'année - soumise</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>821</CodePPL>
+<Code>1</Code>
+<Description>Allocation de foyer / résidence - soumise</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>822</CodePPL>
+<Code>1</Code>
+<Description>Allocation de diplôme - soumise</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>823</CodePPL>
+<Code>1</Code>
+<Description>Indemnité pour connaissance 2e langue - soumise</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>824</CodePPL>
+<Code>1</Code>
+<Description>Allocation pour fonctions supérieures - soumise</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>833</CodePPL>
+<Code>2</Code>
+<Description>Autres allocations et primes - pas de lien avec les prestations du trimestre - soumises</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>834</CodePPL>
+<Code>1</Code>
+<Description>Autres allocations et primes - liées aux prestations du trimestre - soumises</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>835</CodePPL>
+<Code>1</Code>
+<Description>Allocation pour prestations de nuit - soumise aux cotisations de sécurité sociale - pas de cotisations de pension</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>836</CodePPL>
+<Code>1</Code>
+<Description>Allocation pour prestations  de week-end et jours fériés - soumise aux cotisations de sécurité sociale - pas de cotisations de pension</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>837</CodePPL>
+<Code>1</Code>
+<Description>Indemnité de garde -  soumise</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>851</CodePPL>
+<Code>5</Code>
+<Description>Supplément de traitement accordé au travailleur qui a choisi la semaine volontaire de 4 jours - mesure transitoire (loi du 10/04/1995)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>852</CodePPL>
+<Code>5</Code>
+<Description>Supplément de traitement accordé au travailleur qui a choisi la semaine de 4 jours (loi du 19/07/2012)</Description>
+<Vanaf>2012/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>853</CodePPL>
+<Code>1</Code>
+<Description>Prime accordée au  personnel infirmier, soignant et assimilé dans le cadre de l'aménagement de fin de carrière (AR du 23-09-2002)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>854</CodePPL>
+<Code>1</Code>
+<Description>Indemnité accordée aux ordonnateurs, gardes, conservateurs, fossoyeurs, brigadiers-fossoyeurs, porteurs aux services des sépultures, préposés aux dépôts mortuaire et à la morgue - soumise aux cotisations de sécurité sociale - cotisations de pension</Description>
+<Vanaf>2005/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>855</CodePPL>
+<Code>1</Code>
+<Description>Suppléments de traitement accordés en application des points 6.2 et 6.3 de la Charte sociale du 28.04.1994 de la Région de Bruxelles-Capitale - soumis aux cotisations de sécurité sociale - cotisations de pension</Description>
+<Vanaf>2005/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires de nature générale</categoryfr>
+<CodePPL>940</CodePPL>
+<Code>1</Code>
+<Description>Indemnités pour prestations effectuées en tant que (ambulancier) volontaire n'ayant pas le statut de pompier dans le cadre du service 100</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2017/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2017</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - médecins</categoryfr>
+<CodePPL>524</CodePPL>
+<Code>20</Code>
+<Description>Quote-part variable dans le pool - exonérée de cotisations sociales conformément à l'article 30</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - médecins</categoryfr>
+<CodePPL>921</CodePPL>
+<Code>1</Code>
+<Description>Barème, traitement garanti et quote-part garantie dans le pool ou honoraires</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2010/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2010</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - médecins</categoryfr>
+<CodePPL>924</CodePPL>
+<Code>1</Code>
+<Description>Quote-part variable dans le pool - soumise aux cotisations sociales</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police  (nouveau statut)</categoryfr>
+<CodePPL>570</CodePPL>
+<Code>20</Code>
+<Description>(nouveau statut) Diverses allocations et indemnités - exonérées</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police  (nouveau statut)</categoryfr>
+<CodePPL>961</CodePPL>
+<Code>1</Code>
+<Description>Supplément de traitement pour l'exercice d'un mandat (art. XI.II.17 de l'AR du 30-03-2001)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police  (nouveau statut)</categoryfr>
+<CodePPL>962</CodePPL>
+<Code>1</Code>
+<Description>Allocation prestations de samedi, dimanche, jour férié ou de nuit (art. XI.III.6 de l'AR du 30-03-2001)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police  (nouveau statut)</categoryfr>
+<CodePPL>970</CodePPL>
+<Code>1</Code>
+<Description>Diverses allocations et indemnités visées par l'AR du 30-3-2001 - soumises</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police  (nouveau statut)</categoryfr>
+<CodePPL>971</CodePPL>
+<Code>1</Code>
+<Description>Diverses allocations et indemnités autres que celles visées par l'AR du 30-3-2001 - soumises</Description>
+<Vanaf>2005/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police  (nouveau statut)</categoryfr>
+<CodePPL>976</CodePPL>
+<Code>2</Code>
+<Description>Allocation de développement des compétences (art. XI.II.22bis de l'AR du 30-03-2001)</Description>
+<Vanaf>2007/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police  (nouveau statut)</categoryfr>
+<CodePPL>992</CodePPL>
+<Code>1</Code>
+<Description>Allocation de transition (art. XII.XI de l'AR du 30-03-2001)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police  (nouveau statut)</categoryfr>
+<CodePPL>993</CodePPL>
+<Code>1</Code>
+<Description>Allocation de maîtrise et de formation (articles 32 et 34 de l'AR du 18-3-2003)</Description>
+<Vanaf>2010/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</categoryfr>
+<CodePPL>556</CodePPL>
+<Code>20</Code>
+<Description>Indemnités pour frais exposés lors d'exercice de missions de police judiciaire (par ex.: AR du 22-12-1997)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</categoryfr>
+<CodePPL>558</CodePPL>
+<Code>20</Code>
+<Description>Supplément de traitement accordé aux commissaires de police adjoint qui effectuent un service de garde dans le cadre d'une permanence de 22h à 6h les dimanches et jours fériés (circulaire ministérielle du 30-12-1971) - exonéré de cotisations sociales conformément à l'article 30</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2008/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2008</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</categoryfr>
+<CodePPL>591</CodePPL>
+<Code>20</Code>
+<Description>Allocations et indemnités spécifiques - exonérées - ex-gendarmes, ex-membres de la police judiciaire et ex-militaires qui ont choisi l'ancien statut</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</categoryfr>
+<CodePPL>952</CodePPL>
+<Code>1</Code>
+<Description>Supplément de traitement accordé aux inspecteurs de la police locale investis de la qualité d'officier de police locale, substitut du procureur du roi (POL 45 du 21-05-1993 et AR du 20-06-1994)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2008/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2008</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</categoryfr>
+<CodePPL>958</CodePPL>
+<Code>1</Code>
+<Description>Supplément de traitement accordé aux commissaires de police adjoint qui effectuent un service de garde dans le cadre d'une permanence de 22h à 6h les dimanches et jours fériés (circulaire ministérielle du 30-12-1971) - soumis aux cotisations sociales</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2008/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2008</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</categoryfr>
+<CodePPL>991</CodePPL>
+<Code>1</Code>
+<Description>Allocations et indemnités spécifiques - soumises - ex-gendarmes, ex-membres de la police judiciaire et ex-militaires qui ont choisi l'ancien statut</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut) et personnel des zones de secours</categoryfr>
+<CodePPL>974</CodePPL>
+<Code>1</Code>
+<Description>Indemnité du comptable spécial d'une zone de police (art.30 et 32 de la loi du 07-12-1998 en AR du 29-11-2001) et indemnité du comptable spécial d'une zone de secours (AR du 29-06-2014)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut) et personnel des zones de secours</categoryfr>
+<CodePPL>975</CodePPL>
+<Code>1</Code>
+<Description>Allocation du secrétaire d'une zone de police (art. 29 et 32bis de la loi du 07-12-1998) et allocation de mandat du commandant d'une zone de secours (AR du 10-06-2014)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</categoryfr>
+<CodePPL>501</CodePPL>
+<Code>20</Code>
+<Description>Indemnités pour prestations complémentaires - exonérées sur base de l'article 19, §2 9° de l'AR du 28-11-1969 (par ex.: surveillance dans les écoles maternelles et primaires, accompagnement dans le bus)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</categoryfr>
+<CodePPL>502</CodePPL>
+<Code>20</Code>
+<Description>Indemnité pour prestations complémentaires - AR 418 du 16-07-1986 (par ex.: surveillance autre que les surveillances dans les écoles maternelles et primaires) - exonérée de cotisations sociales conformément à l'article 30</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</categoryfr>
+<CodePPL>503</CodePPL>
+<Code>20</Code>
+<Description>Indemnité pour prestations complémentaires - autres que AR 418 du 16-07-1986 - exonérée de cotisations sociales conformément à l'article 30</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2009/1</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/03/2009</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</categoryfr>
+<CodePPL>506</CodePPL>
+<Code>20</Code>
+<Description>Suppléments sans lien avec les prestations fournies - exonérés de cotisations sociales conformément à l'article 30 (par ex. : allocation d'ancienneté)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</categoryfr>
+<CodePPL>902</CodePPL>
+<Code>1</Code>
+<Description>Indemnité pour prestations complémentaires - AR 418 du 16-07-1986 (par ex.: surveillance autre que les surveillances dans les écoles maternelles et primaires) - soumise aux cotisations sociales</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</categoryfr>
+<CodePPL>903</CodePPL>
+<Code>1</Code>
+<Description>Indemnité pour prestations complémentaires - autres que AR 418 du 16-07-1986 - soumise aux cotisations sociales</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2010/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2010</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</categoryfr>
+<CodePPL>906</CodePPL>
+<Code>2</Code>
+<Description>Suppléments - sans lien avec les prestations fournies - soumis aux cotisations sociales (par ex. : allocation d'ancienneté)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</categoryfr>
+<CodePPL>510</CodePPL>
+<Code>20</Code>
+<Description>Supplément de traitement pour prestations irrégulières telles que définies dans la circulaire de la Santé et de la Famille du 03-11-1972 - exonéré de cotisations sociales conformément à l'article 30</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</categoryfr>
+<CodePPL>512</CodePPL>
+<Code>20</Code>
+<Description>Supplément de traitement pour prestations de nuit (par exemple 2,05 EUR/heure sur base de la circulaire ministérielle du 17-04-1989) - exonéré de cotisations sociales conformément à l'article 30</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</categoryfr>
+<CodePPL>910</CodePPL>
+<Code>1</Code>
+<Description>Supplément de traitement pour prestations irrégulières telles que définies dans la circulaire du Ministère de la Santé et de la Famille du 03-11-1972 - soumis aux cotisations sociales</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</categoryfr>
+<CodePPL>912</CodePPL>
+<Code>1</Code>
+<Description>Supplément de traitement pour prestations de nuit (par exemple 2,05 EUR/heure sur base de la circulaire ministérielle du 17-04-1989) - soumis aux cotisations sociales</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</categoryfr>
+<CodePPL>914</CodePPL>
+<Code>1</Code>
+<Description>4, 8 ou 12 % personnel soignant chef de service</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</categoryfr>
+<CodePPL>916</CodePPL>
+<Code>1</Code>
+<Description>Supplément de traitement pour prestations de week-end et jours fériés (par exemple 1,02 EUR/heure sur base de la circulaire Inami du 17-07-1992)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</categoryfr>
+<CodePPL>917</CodePPL>
+<Code>2</Code>
+<Description>Prime d'attractivité - AR du 12-05-2006 et accord fédéral de santé du secteur public de 23-06-2005</Description>
+<Vanaf>2007/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</categoryfr>
+<CodePPL>918</CodePPL>
+<Code>2</Code>
+<Description>Prime annuelle de 12,67 EUR applicable aux institutions ressortant de la sous commission paritaire des hôpitaux privés (CCT du 22-10-1991)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2006/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2006</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</categoryfr>
+<CodePPL>919</CodePPL>
+<Code>2</Code>
+<Description>Prime annuelle de 148,74 EUR applicable aux institutions ressortant de la sous commission paritaire des hôpitaux privés (CCT du 22-10-1991)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2006/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2006</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</categoryfr>
+<CodePPL>553</CodePPL>
+<Code>20</Code>
+<Description>Prime d'opérationnalité et de prestations irrégulières pour les pompiers (articles 25-26 de l'AR du 19-04-2014 exonérée de cotisations de sécurité sociale en vertu de l'article 30)</Description>
+<Vanaf>2015/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</categoryfr>
+<CodePPL>557</CodePPL>
+<Code>20</Code>
+<Description>Supplément de traitement annuel pour le chef des services d'incendie (circulaire ministérielle du 21-01-1973, circulaire ministérielle du 23-01-1975 et AR du 20-06-1994) - exonéré de cotisations sociales conformément à l'article 30</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</categoryfr>
+<CodePPL>951</CodePPL>
+<Code>2</Code>
+<Description>Supplément de traitement alloué aux officiers du service d'incendie qui prennent part à la permanence du corps des pompiers (circulaire du 03-03-1995)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</categoryfr>
+<CodePPL>954</CodePPL>
+<Code>1</Code>
+<Description>Indemnité complémentaire pour les heures opt-out (article 7,§2 de la loi du 19-04-2014)</Description>
+<Vanaf>2015/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</categoryfr>
+<CodePPL>957</CodePPL>
+<Code>2</Code>
+<Description>Supplément de traitement annuel pour le chef des services d'incendie (circulaire ministérielle du 21-01-1973, circulaire ministérielle du 23-01-1975 et AR du 20-06-1994) - soumis aux cotisations sociales</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - pompiers volontaires et ambulanciers volontaires</categoryfr>
+<CodePPL>541</CodePPL>
+<Code>20</Code>
+<Description>Indemnités pour prestations exceptionnelles qui n'entrent pas en ligne de compte pour le calcul du montant plancher de 785,95 EUR (article 17 quater de l'AR du 28-11-1969)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - pompiers volontaires et ambulanciers volontaires</categoryfr>
+<CodePPL>542</CodePPL>
+<Code>20</Code>
+<Description>Indemnités pour prestations non exceptionnelles qui entrent en ligne de compte pour le calcul du montant plancher de 785,95 EUR (article 17 quater de l'AR du 28-11-1969) - exonérées</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Indemnités supplémentaires pour catégories spécifiques de personnel - pompiers volontaires et ambulanciers volontaires</categoryfr>
+<CodePPL>942</CodePPL>
+<Code>1</Code>
+<Description>Indemnités pour prestations non exceptionnelles qui entrent en ligne de compte pour le calcul du montant plancher de 785,95 EUR (article 17 quater de l'AR du 28-11-1969) - soumises</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Maladies professionnelles - secteur public</categoryfr>
+<CodePPL>140</CodePPL>
+<Code>1</Code>
+<Description>Indemnité pour période d'incapacité temporaire en raison d'une maladie professionnelle reconnue (art. 21 de l'AR du 21-01-1993)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2019/2</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>30/06/2019</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>310</CodePPL>
+<Code>20</Code>
+<Description>(Double) pécule de vacances - prime copernic</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2008/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2008</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>311</CodePPL>
+<Code>20</Code>
+<Description>Simple pécule de vacances pour les jours de congé qui à la fin de l'année de vacances n'ont pas été pris suite à une impossibilité de les prendre (art. 67 de l'AR du 30-3-1967)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>312</CodePPL>
+<Code>20</Code>
+<Description>(Double) pécule de vacances autre que le personnel de police</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2018/3</Tot>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>30/09/2018</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>312</CodePPL>
+<Code>24</Code>
+<Description>(Double) pécule de vacances autre que le personnel de police</Description>
+<Vanaf>2018/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>313</CodePPL>
+<Code>11</Code>
+<Description>Simple pécule de vacances sortie de service - pour les temporaires, les contractuels subventionnés, les travailleurs article 60 et les remplaçants dans le cadre de la semaine de 4 jours</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>314</CodePPL>
+<Code>20</Code>
+<Description>Double pécule de vacances sortie de service</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2018/3</Tot>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>30/09/2018</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>314</CodePPL>
+<Code>24</Code>
+<Description>Double pécule de vacances sortie de service</Description>
+<Vanaf>2018/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>315</CodePPL>
+<Code>1</Code>
+<Description>Simple pécule de vacances - occupation précédente - pour les temporaires, les contractuels subventionnés, les travailleurs article 60 et les remplaçants dans le cadre de la semaine de 4 jours</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>316</CodePPL>
+<Code>20</Code>
+<Description>Pécule de vacances - personnel de police</Description>
+<Vanaf>2005/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>317</CodePPL>
+<Code>7</Code>
+<Description>Simple pécule de vacances sortie de service - pour les agents contractuels autres que les temporaires, les contractuels subventionnés, les travailleurs article 60 et les remplaçants dans le cadre de la semaine de 4 jours</Description>
+<Vanaf>2007/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>318</CodePPL>
+<Code>12</Code>
+<Description>Simple pécule de vacances - occupation précédente - pour les agents contractuels autres que les temporaires, les contractuels subventionnés, les travailleurs article 60 et les remplaçants dans le cadre de la semaine de 4 jours</Description>
+<Vanaf>2007/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2007</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>319</CodePPL>
+<Code>20</Code>
+<Description>Pécule de vacances supplémentaires en cas de début ou de reprise d'activité (art. 62bis jusqu'au 62quinquies de l'AR du 30-3-1967)</Description>
+<Vanaf>2012/2</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>348</CodePPL>
+<Code>20</Code>
+<Description>Pécule de vacances - exonéré</Description>
+<Vanaf>2005/1</Vanaf>
+<Tot>2018/3</Tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>30/09/2018</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>348</CodePPL>
+<Code>24</Code>
+<Description>Pécule de vacances - exonéré</Description>
+<Vanaf>2018/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>349</CodePPL>
+<Code>20</Code>
+<Description>Double pécule de vacances sortie de service du 3ème au 5ème jour de la 4ème semaine de vacances - exonéré</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2018/3</Tot>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>30/09/2018</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>349</CodePPL>
+<Code>24</Code>
+<Description>Double pécule de vacances sortie de service du 3ème au 5ème jour de la 4ème semaine de vacances - exonéré</Description>
+<Vanaf>2018/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>350</CodePPL>
+<Code>20</Code>
+<Description>Double pécule de vacances du 3ème au 5ème jour de la 4ème semaine de vacances - exonéré</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2018/3</Tot>
+<begin_geldigheid>01/07/2004</begin_geldigheid>
+<einde_geldigheid>30/09/2018</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Pécule de vacances</categoryfr>
+<CodePPL>350</CodePPL>
+<Code>24</Code>
+<Description>Double pécule de vacances du 3ème au 5ème jour de la 4ème semaine de vacances - exonéré</Description>
+<Vanaf>2018/4</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/10/2018</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire de base</categoryfr>
+<CodePPL>101</CodePPL>
+<Code>1</Code>
+<Description>Rémunération de base indexée (sans primes ni indemnités légales ou extra légales)</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire de base</categoryfr>
+<CodePPL>110</CodePPL>
+<Code>20</Code>
+<Description>Rémunération de base indexée accordée à un agent nommé détaché à l'étranger, qui entre en considération pour la pension publique</Description>
+<Vanaf>2005/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire de base</categoryfr>
+<CodePPL>120</CodePPL>
+<Code>1</Code>
+<Description>Rémunération payée à un membre du personnel nommé à titre définitif qui est absent dans le cadre d'une mesure de réorganisation du temps de travail - soumis aux cotisations sociales - pas de cotisations de pension</Description>
+<Vanaf>2005/1</Vanaf>
+<Tot>2010/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2010</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire de base</categoryfr>
+<CodePPL>120</CodePPL>
+<Code>51</Code>
+<Description>Rémunération payée à un membre du personnel nommé à titre définitif qui est absent dans le cadre d'une mesure de réorganisation du temps de travail - soumis aux cotisations sociales - pas de cotisations de pension</Description>
+<Vanaf>2011/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire de base</categoryfr>
+<CodePPL>150</CodePPL>
+<Code>1</Code>
+<Description>Allocation d'activation accordée par l'ONEM ou le CPAS à un travailleur engagé dans le cadre d'une mesure pour l'emploi</Description>
+<Vanaf>2010/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire de base</categoryfr>
+<CodePPL>160</CodePPL>
+<Code>1</Code>
+<Description>Partie de la rémunération (10%) réservée à la formation des travailleurs engagés dans le cadre des conventions de 1er emploi - art. 33, § 2 de la loi du 24-12-1999</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire de base</categoryfr>
+<CodePPL>170</CodePPL>
+<Code>51</Code>
+<Description>Rémunération payée à un membre du personnel nommé à titre définitif qui est totalement absent dans le cadre d'une mesure de réorganisation du temps de travail - soumis aux cotisations sociales - cotisations de pension</Description>
+<Vanaf>2011/1</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/2011</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire garanti en cas de maladie ou d'accident</categoryfr>
+<CodePPL>212</CodePPL>
+<Code>20</Code>
+<Description>Maladie ou accident : l'indemnité correspondant à 60% de la partie de la rémunération normale ne dépassant pas le montant limite entrant en ligne de compte pour le calcul de l'indemnité d'assurance maladie - invalidité pour la période de 7 jours faisant suite à la rémunération hebdomadaire garantie - Concerne les travailleurs manuels non nommés et les travailleurs intellectuels non nommés qui ont au moins 1 mois d'ancienneté et qui sont soit en période d'essai, soit engagés pour une période de moins de 3 mois, soit engagés pour un travail précis ne dépassant pas 3 mois</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire garanti en cas de maladie ou d'accident</categoryfr>
+<CodePPL>213</CodePPL>
+<Code>20</Code>
+<Description>Maladie ou accident : supplément - 2e, 3e et 4e semaine de maladie - uniquement pour les ouvriers et employés contractuels engagés à l'essai ou pour moins de 3 mois</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+<ann32>
+<categoryfr>Salaire garanti en cas de maladie ou d'accident</categoryfr>
+<CodePPL>215</CodePPL>
+<Code>20</Code>
+<Description>Maladie ou accident : supplément - autres compléments concernant accident ou maladie</Description>
+<Vanaf>2004/3</Vanaf>
+<Tot>2021/4</Tot>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann32>
+</List>

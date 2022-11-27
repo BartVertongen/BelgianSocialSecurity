@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann44 (Code?, DescFr?, DMFA?, DMFAAPL?, Capelo_DHG?, Geldig_vanaf?, Geldig_tot?)>
+     <!ELEMENT List (ann44+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescFr (#PCDATA)>
+     <!ELEMENT DMFA (#PCDATA)>
+     <!ELEMENT DMFAAPL (#PCDATA)>
+     <!ELEMENT Capelo_DHG (#PCDATA)>
+     <!ELEMENT Geldig_vanaf (#PCDATA)>
+     <!ELEMENT Geldig_tot (#PCDATA)>
+]>
+<List>
+<ann44>
+<Code>1</Code>
+<DescFr>Mesure de réduction du temps de travail dans le cadre d'un plan de redistribution du travail approuvé par le Ministre de l'emploi et du travail</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>1</Code>
+<DescFr>Mesure de réduction du temps de travail dans le cadre d'un plan de redistribution du travail approuvé par le Ministre de l'emploi et du travail</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>2005/3</Geldig_tot>
+</ann44>
+<ann44>
+<Code>2</Code>
+<DescFr>Systèmes prévus par la CCT n° 42 du 12 juin 1987 relative à l'instauration de nouveaux régimes de travail dans les entreprises. Les expérimentations Hansenne (A.R. 179 du 30/12/1982) ne sont pas comprises.</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>3</Code>
+<DescFr>Interruption complète de la carrière professionnelle (uniquement les systèmes où une intervention de l'ONEm ou de WSE (FL) est prévue)</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>4</Code>
+<DescFr>Interruption partielle de la carrière professionnelle (uniquement les systèmes où une intervention de l'ONEm ou de WSE (FL) est prévue)</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>5</Code>
+<DescFr>Travail adapté avec perte de salaire c'est à dire lorsque le travailleur accompli des prestations de travail effectives pour lesquelles il perçoit une rémunération réduite.</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>6</Code>
+<DescFr>Prépension à mi-temps</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>7</Code>
+<DescFr>Réduction des prestations dans le secteur public en application de la loi du 10 avril 1995 (semaine volontaire de quatre jours, départ anticipé à mi-temps). Semaine de quatre jours avec ou sans prime (loi du 19 juillet 2012) pour les travailleurs contractuels.</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>8</Code>
+<DescFr>Congé pour prestations partielles temporaires pour contractuels dans le secteur public - absence partielle non rémunérée; il faut exclusivement reprendre ici les systèmes pour lesquels aucune intervention de l'ONEM ou du WSE (Région flamande) est prévue</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2018/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>107</Code>
+<DescFr>Travailleur contractuel ou statutaire qui suit un projet de formation pour infirmiers dans le cadre du Maribel Social et qui est rémunéré durant son absence au travail parce qu'il suit une formation dans le cadre d'un enseignement à temps plein ou d'un enseignement de promotion sociale en vue d'être diplômé ou  gradué en soins infirmiers.</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>2005/1</Geldig_tot>
+</ann44>
+<ann44>
+<Code>301</Code>
+<DescFr>Interruption totale de la carrière pour congé parental</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>302</Code>
+<DescFr>Interruption totale de la carrière en vue d'assurer des soins palliatifs</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>303</Code>
+<DescFr>Interruption totale de la carrière pour l'assistance ou l'octroi de soins à un membre de son ménage ou à un membre de sa famille jusqu'au deuxième degré qui souffre d'une maladie grave</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>401</Code>
+<DescFr>Interruption partielle de la carrière pour congé parental</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>402</Code>
+<DescFr>Interruption partielle de la carrière en vue d'assurer des soins palliatifs</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>403</Code>
+<DescFr>Interruption partielle de la carrière pour l'assistance ou l'octroi de soins à un membre de son ménage ou à un membre de sa famille jusqu'au deuxième degré qui souffre d'une maladie grave</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>501</Code>
+<DescFr>Absence (totale ou partielle) assimilée à de l'activité de service ou à du service actif avec une rémunération autre que le traitement d'activité</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>502</Code>
+<DescFr>Absence (totale ou partielle) assimilée à de l'activité de service et non rémunérée</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>503</Code>
+<DescFr>Absence (totale ou partielle) assimilée à de l'activité de service, préalable à la mise à la retraite avec traitement d'attente</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>504</Code>
+<DescFr>Congé parental (absence totale ou partielle)</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>505</Code>
+<DescFr>Absence non rémunérée et assimilée à de l'activité de service en vue d'exercer une activité professionnelle (stage, intérim dans l'enseignement, mission, mandat, ...)</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>506</Code>
+<DescFr>Prestations (partiellement) réduites pour convenances personnelles, ou toute forme de congé ou d'absence, totale ou partielle pour laquelle l'ajout à la liste annexée à la loi du 6 janvier 2014 est requis, et aussi longtemps que cet ajout n'a pas été fait, ou semaine de quatre jours sans prime (loi du 19 juillet 2012) pour les travailleurs statutaires.</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>507</Code>
+<DescFr>Disponibilité (totale ou partielle) avec traitement d'attente et maintien du droit à l'avancement de traitement</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>508</Code>
+<DescFr>Disponibilité (totale ou partielle) avec traitement d'attente et perte du droit à l'avancement de traitement</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>509</Code>
+<DescFr>Disponibilité (totale ou partielle) préalable à la mise à la retraite avec traitement d'attente</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>510</Code>
+<DescFr>Absence (totale ou partielle) non rémunérée avec position de non-activité, ou disponibilité sans traitement d'attente, ou toute forme de non-activité sans traitement pour les militaires, ou toute forme d'absence ou de congé non rémunéré pour un mandataire politique local</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>511</Code>
+<DescFr>Absence (totale ou partielle) rémunérée avec position de non-activité ou disponibilité volontaire avec activité professionnelle sans autorisation pour les militaires</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>512</Code>
+<DescFr>Congé sans traitement avec position de non-activité</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>513</Code>
+<DescFr>Congé d'office pour mission d'intérêt général en vue d'exercer une fonction de management ou une fonction d'encadrement dans un service public</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>514</Code>
+<DescFr>Semaine de quatre jours avec prime ou travail à mi-temps à partir de 50 ou 55 ans (loi du 19 juillet 2012) pour les travailleurs statutaires.</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2012/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>515</Code>
+<DescFr>Congé ou dispense de service accordé à un membre du personnel de l'enseignement en vue d'exercer temporairement ou provisoirement une autre fonction dans l'enseignement non universitaire de la même Communauté.</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>516</Code>
+<DescFr>Absence complète, assimilée à de la non-activité préalable à la pension et avec un traitement d'attente (personnel de police opérationnel).</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2015/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>517</Code>
+<DescFr>Suspension disciplinaire d'un mandataire local</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>521</Code>
+<DescFr>Absence (totale ou partielle) non rémunérée par l'employeur pour un travailleur contractuel</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>531</Code>
+<DescFr>Disponibilité (totale ou partielle) par défaut d'emploi sans traitement d'attente (enseignement)</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>541</Code>
+<DescFr>Retrait temporaire d'emploi par interruption de carrière (militaires - RTEIC-R), ou interruption de carrière avec allocation à charge de l'employeur</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>542</Code>
+<DescFr>Retrait temporaire d'emploi pour motif de santé (militaires)</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>543</Code>
+<DescFr>Retrait temporaire d'emploi par mesure disciplinaire ou toute autre période de non-activité rémunérée (militaires)</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>544</Code>
+<DescFr>Congé ou interruption de carrière pour soins palliatifs, congé de protection parentale ou interruption de carrière pour congé parental, congé ou interruption de carrière pour soins à un parent gravement malade, avec allocation à charge de l'employeur</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>545</Code>
+<DescFr>Disponibilité automatique (militaires)</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>546</Code>
+<DescFr>Disponibilité volontaire (militaires)</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>547</Code>
+<DescFr>Retrait temporaire d'emploi par interruption de carrière - « mesures temporaires » (militaires - RTEIC-T)</DescFr>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>599</Code>
+<DescFr>Absences simultanées impliquant une combinaison de mesures de réorganisation du temps de travail pour un travailleur statutaire du secteur public</DescFr>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2012/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+</List>

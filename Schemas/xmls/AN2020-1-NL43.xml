@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann43 (Code?, DescDu?, DMFA?, DMFAAPL?, Capelo_DHG?, Geldig_vanaf?, Geldig_tot?)>
+     <!ELEMENT List (ann43+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescDu (#PCDATA)>
+     <!ELEMENT DMFA (#PCDATA)>
+     <!ELEMENT DMFAAPL (#PCDATA)>
+     <!ELEMENT Capelo_DHG (#PCDATA)>
+     <!ELEMENT Geldig_vanaf (#PCDATA)>
+     <!ELEMENT Geldig_tot (#PCDATA)>
+]>
+<List>
+<ann43>
+<Code>1</Code>
+<DescDu>Lid van het administratief personeel (federaal, gemeenschappelijk, gewestelijk, provinciaal, lokaal, van een gemeenschapsuniversiteit, van een publiek autonoom bedrijf); lid van het personeel van een dienst voor beroepsoriëntering of een centrum voor leerlingenbegeleiding; lid van het personeel van het administratief en logistiek kader van de politie; afgevaardigde van de Centrale Vrijzinnige Raad; gerechtelijke stagiair; algemeen afgevaardigde van de Franse Gemeenschap voor de rechten van het kind; persoon die werd aangesteld om een management- of staffunctie uit te oefenen in een overheidsdienst; lid van het administratief personeel van een hulpverleningszone ;  lid van het operationeel personeel van een hulpverleningszone dat NIET rechtstreeks deelneemt aan de brandbestrijding (= tantième 1/60).</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>2</Code>
+<DescDu>Meesters-, vak- en dienstpersoneel (gemeenschapsonderwijs inbegrepen) (= tantième 1/60 of percentage Rijkswerkliedenkas)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>3</Code>
+<DescDu>Lid van het personeel van het onderwijs (behalve arbeider); lid van het wetenschappelijk personeel van een universiteit; lid van het onderwijzend personeel van een universiteit van de Franse Gemeenschap in de hoedanigheid van docent, geassocieerd docent of titularis van een gelijkwaardige graad (zonder diensten in die hoedanigheid voor 01-01-2003); lid van het onderwijzend personeel van een universiteit van de Vlaamse Gemeenschap in de hoedanigheid van docent (zonder diensten als docent voor 01-10-1991), van geassocieerd docent (zonder diensten als geassocieerd docent voor 01-10-1991) of van hoofddocent (zonder diensten als hoofddocent voor 01-01-2003); lid van het burgerlijk onderwijzend personeel van de Krijgsschool, het Koninklijk Hoger Instituut voor Defensie of de Koninklijke Militaire School in de hoedanigheid van docent (zonder diensten als docent voor 01-01-2003); lid van het onderwijzend personeel aan de voorbereidende divisie van de Koninklijke Militaire School; taalleraar aan de School voor Rijkswachtofficieren; lid van het personeel van de RTBF; lid van het niet-rijdend personeel van de NMBS-Holding; lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/55)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>4</Code>
+<DescDu>Titularis van een betrekking vermeld in de bij de wet van 21/07/1844 gevoegde lijst (actieve dienst); lid van het operationeel kader van de politie; politieambtenaar of hulpagent van politie bij een gemeentelijk politiekorps, politieambtenaar bij de zeevaartpolitie, de luchtvaartpolitie of de spoorwegpolitie, bij de dienst "enquêtes" van het Hoog Comité van Toezicht, bij de jeugdpolitie, bij de gerechtelijke politie bij de parketten of lid van het operationeel korps of van de categorie bijzonder politiepersoneel van de Rijkswacht; militair van het actief kader; lid van het operationeel korps van een brandweer dat rechtstreeks deelneemt aan de brandbestrijding; onderwijzer bij een strafinrichting die ressorteert onder het Bestuur der Strafinrichtingen, of bij de Rijksgestichten voor Observatie en Opvoeding die ressorteren onder de Dienst voor Jeugdbescherming; lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald; lid van het operationeel personeel van een hulpverleningszone dat rechtstreeks deelneemt aan de brandbestrijding (= tantième 1/50).</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>5</Code>
+<DescDu>Lid van het rijdend personeel van de NMBS-Holding (= tantième 1/48)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>6</Code>
+<DescDu>Lid van het onderwijzend personeel van een universiteit van de Franse Gemeenschap in de hoedanigheid van docent, geassocieerd docent of titularis van een gelijkwaardige graad (met diensten in die hoedanigheid voor 01-01-2003), of in de hoedanigheid van hoogleraar, gewoon hoogleraar, buitengewoon hoogleraar of geassocieerd hoogleraar; lid van het onderwijzend personeel van een universiteit van de Vlaamse Gemeenschap in de hoedanigheid van docent (met diensten als docent voor 01-10-1991), van geassocieerd docent (met diensten als geassocieerd docent voor 01-10-1991) of van hoofddocent (met diensten als hoofddocent voor 01-01-2003), of als lid van het zelfstandig academisch personeel (ZAP) in de hoedanigheid van hoogleraar, gewoon hoogleraar, buitengewoon hoogleraar, geassocieerd hoogleraar, of een gelijkwaardige graad; lid van het burgerlijk onderwijzend personeel van de Krijgsschool, het Koninklijk Hoger Instituut voor Defensie of de Koninklijke Militaire School in de hoedanigheid van hoogleraar, buitengewoon hoogleraar, gewoon hoogleraar of geassocieerd hoogleraar, burgerlijk meester of repetitor (benoemd voor 01-10-1982 in deze hoedanigheid), of als docent (met diensten als docent voor 01-01-2003);regeringscommissaris bij de universiteiten (= tantième 1/30)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>7</Code>
+<DescDu>Lid van het Vastcomité van Toezicht op de politiediensten; lid van het Vastcomité van Toezicht op de inlichtingen- en veiligheidsdiensten (= tantième 1/20)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>8</Code>
+<DescDu>Bedienaar van de rooms-katholieke eredienst (= meerdere tantièmes)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>9</Code>
+<DescDu>Bedienaars van de protestantse, anglicaanse, orthodoxe, israëlitische of islamitische eredienst (= meerdere tantièmes)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>10</Code>
+<DescDu>Magistraat; lid van de Raad van State, van het Grondwettelijk Hof, van het Rekenhof; Federale ombudsman; Vlaamse ombudsman; ombudsman van het Waals Gewest; griffier van het Vastcomité van Toezicht op de Politiediensten of het Vastcomité van Toezicht op de inlichtingen- en veiligheidsdiensten ; ombudsman en adjunct-ombudsman van de Franse Gemeenschap ; ombudsman van de Duitstalige Gemeenschap ; ombudsman van de gemeenschappelijke ombudsdienst voor de parlementen van het Waalse Gewest en de Franse Gemeenschap (= meerdere tantièmes)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>11</Code>
+<DescDu>Provinciegouverneur of vice-provinciegouverneur; vice-gouverneur van het Brussels Hoofdstedelijk Gewest (= meerdere tantièmes)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>12</Code>
+<DescDu>Arrondissementscommissaris; adjunct-arrondissementscommissaris; griffier bij de Provincie Luik (titularis van die functie op 01-10-1987) (= meerdere tantièmes)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>13</Code>
+<DescDu>Lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/40)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>14</Code>
+<DescDu>Lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/45)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>15</Code>
+<DescDu>Burgemeester</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>16</Code>
+<DescDu>Schepen</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>17</Code>
+<DescDu>Districtburgemeester</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>18</Code>
+<DescDu>Districtschepen</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>19</Code>
+<DescDu>Lid van de Bestendige Deputatie of de provincieraad</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>20</Code>
+<DescDu>Voorzitter van het OCMW of voorzitter van het BCSD</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>21</Code>
+<DescDu>Ondervoorzitter van het OCMW</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>22</Code>
+<DescDu>Voorzitter of mandataris van de agglomeraties en federaties van gemeenten</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+<ann43>
+<Code>23</Code>
+<DescDu>Mandataris van de cultuurcommissies van de Brusselse agglomeratie</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann43>
+</List>

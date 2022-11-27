@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann35 (Code?, Description?, Geldig_vanaf?, Geldig_tot?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann35+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT Geldig_vanaf (#PCDATA)>
+     <!ELEMENT Geldig_tot (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann35>
+<Code>1</Code>
+<Description>travailleur engagé dans le cadre de l'A.R. 495</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2007/2</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>2</Code>
+<Description>travailleur engagé dans le cadre de mesures d'activation des allocations de chômage, du revenu d'intégration ou de l'aide sociale financière. Ce code doit uniquement être utilisé dans un des cas suivants:
+ une occupation dans le cadre d'un programme de transition professionnelle reconnu, une occupation dans le cadre d'un poste de travail reconnu, une occupation dans le cadre de l'économie sociale d'insertion (SINE).</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>3</Code>
+<Description>travailleur engagé dans le cadre de la redistribution du travail dans le secteur public</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2013/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2013</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>4</Code>
+<Description>travailleur engagé dans le cadre du troisième circuit du travail</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>5</Code>
+<Description>travailleur engagé dans le cadre du programme PRIME</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>10</Code>
+<Description>travailleur engagé dans le cadre d'une convention de premier emploi définie à l'article 27, premier alinéa, 1°, de la loi du 24 décembre 1999</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>11</Code>
+<Description>travailleur engagé dans le cadre d'une convention de premier emploi définie à l'article 27, premier alinéa, 2°, de la loi du 24 décembre 1999</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>12</Code>
+<Description>travailleur engagé dans le cadre d'une convention de premier emploi définie à l'article 27, premier alinéa, 3°, de la loi du 24 décembre 1999</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>13</Code>
+<Description>travailleur handicapé engagé dans le cadre d'une convention de premier emploi définie à l'article 27, premier alinéa, 1°, de la loi du 24 décembre 1999</Description>
+<Geldig_vanaf>2003/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>14</Code>
+<Description>travailleur handicapé engagé dans le cadre d'une convention de premier emploi définie à l'article 27, premier alinéa, 2°, de la loi du 24 décembre 1999</Description>
+<Geldig_vanaf>2003/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>15</Code>
+<Description>travailleur handicapé engagé dans le cadre d'une convention de premier emploi définie à l'article 27, premier alinéa, 3°, de la loi du 24 décembre 1999</Description>
+<Geldig_vanaf>2003/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>16</Code>
+<Description>travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi définie à l'article 27, premier alinéa, 1°, de la loi du 24 décembre 1999</Description>
+<Geldig_vanaf>2003/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>17</Code>
+<Description>travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi définie à l'article 27, premier alinéa, 2°, de la loi du 24 décembre 1999</Description>
+<Geldig_vanaf>2003/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>18</Code>
+<Description>travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi définie à l'article 27, premier alinéa, 3°, de la loi du 24 décembre 1999</Description>
+<Geldig_vanaf>2003/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+<begin_geldigheid>01/07/2003</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann35>
+<ann35>
+<Code>19</Code>
+<Description>travailleur ancien chômeur complet indemnisé de 45 ans au moins dont l'engagement est assimilé à une convention de premier emploi</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2004/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2004</einde_geldigheid>
+</ann35>
+</List>

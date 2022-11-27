@@ -1,0 +1,3816 @@
+﻿<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="AcknowledgementEndDate">
+		<xs:annotation>
+			<xs:documentation>00954</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AcknowledgementStartDate">
+		<xs:annotation>
+			<xs:documentation>00953</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Action">
+		<xs:annotation>
+			<xs:documentation>00411</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+				<xs:enumeration value="3"/>
+				<xs:enumeration value="5"/>
+				<xs:enumeration value="6"/>
+				<xs:enumeration value="7"/>
+				<xs:enumeration value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ActivationInformationAction" type="ActivationInformationActionType">
+		<xs:annotation>
+			<xs:documentation>90579</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ActivityCode">
+		<xs:annotation>
+			<xs:documentation>00228</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999"/>
+				<xs:totalDigits value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ActivityWithRisk">
+		<xs:annotation>
+			<xs:documentation>00041</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AdditionalScaleSalaryAction" type="AdditionalScaleSalaryActionType">
+		<xs:annotation>
+			<xs:documentation>90425</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="AdditionalScaleSalaryAmount">
+		<xs:annotation>
+			<xs:documentation>00983</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AdditionalScaleSalaryBasisAmount">
+		<xs:annotation>
+			<xs:documentation>00980</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AdditionalScaleSalaryEndDate">
+		<xs:annotation>
+			<xs:documentation>00979</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AdditionalScaleSalaryPercentage">
+		<xs:annotation>
+			<xs:documentation>00981</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999"/>
+				<xs:totalDigits value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AdditionalScaleSalaryReference">
+		<xs:annotation>
+			<xs:documentation>00977</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="999999999999"/>
+				<xs:totalDigits value="12"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AdditionalScaleSalarySequenceNbr">
+		<xs:annotation>
+			<xs:documentation>01001</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AdditionalScaleSalaryStartDate">
+		<xs:annotation>
+			<xs:documentation>00978</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AilingOrReorgCompanyNotion">
+		<xs:annotation>
+			<xs:documentation>00952</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+				<xs:enumeration value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AnomalyClass">
+		<xs:annotation>
+			<xs:documentation>00497</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AnomalyLabel">
+		<xs:annotation>
+			<xs:documentation>00628</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="500"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AnomalyReport">
+		<xs:annotation>
+			<xs:documentation>90176</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="AnomalyReportType">
+					<xs:sequence>
+						<xs:element ref="Path"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ApplicantINSS">
+		<xs:annotation>
+			<xs:documentation>00093</xs:documentation>
+			<xs:appinfo source="TDOType">xs:inss</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+				<xs:pattern value="[0]|\d{11}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Apprenticeship">
+		<xs:annotation>
+			<xs:documentation>00055</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AssignmentType">
+		<xs:annotation>
+			<xs:documentation>00967</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AttestationStatus">
+		<xs:annotation>
+			<xs:documentation>00110</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AverageWorkingTimeAfterReduction">
+		<xs:annotation>
+			<xs:documentation>00148</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AverageWorkingTimeBeforeReduction">
+		<xs:annotation>
+			<xs:documentation>00147</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="BlockDecisionIndicator">
+		<xs:annotation>
+			<xs:documentation>00565</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="A"/>
+				<xs:enumeration value="M"/>
+				<xs:enumeration value="R"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="BonusPaymentFrequency">
+		<xs:annotation>
+			<xs:documentation>00068</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Border">
+		<xs:annotation>
+			<xs:documentation>00040</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CalculationRequestArt54ter">
+		<xs:annotation>
+			<xs:documentation>00846</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="S"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CalendarYear">
+		<xs:annotation>
+			<xs:documentation>01004</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1900"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CapitalizationNotion">
+		<xs:annotation>
+			<xs:documentation>00892</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CareerElementSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>00993</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CareerMeasure">
+		<xs:annotation>
+			<xs:documentation>01194</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CertificateOrigin">
+		<xs:annotation>
+			<xs:documentation>00094</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CodeSubjected">
+		<xs:annotation>
+			<xs:documentation>00425</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="2"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CompanyID">
+		<xs:annotation>
+			<xs:documentation>00014</xs:documentation>
+			<xs:appinfo source="ConversionID">CompanyID_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:companyId</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1999999943"/>
+				<xs:totalDigits value="10"/>
+				<xs:pattern value="0|\d{9}|\d{10}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CompanyVehicleCorrectedPart" type="CompanyVehicleCorrectedPartType">
+		<xs:annotation>
+			<xs:documentation>90300</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="CompanyVehicleDclPart" type="CompanyVehicleDclPartType">
+		<xs:annotation>
+			<xs:documentation>90299</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="CompanyVehicleNewVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00784</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CompanyVehicleSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>00780</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999"/>
+				<xs:totalDigits value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CompanyVehicleUpdateNotif">
+		<xs:annotation>
+			<xs:documentation>90301</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CompanyVehicleUpdateNotifType">
+					<xs:sequence>
+						<xs:element ref="LastSituationCompanyVehicle" minOccurs="0"/>
+						<xs:element ref="CompanyVehicleDclPart"/>
+						<xs:element ref="CompanyVehicleCorrectedPart" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="CompanyVehicleVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00782</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ComplementaryIndemnityAction">
+		<xs:annotation>
+			<xs:documentation>90338</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="ComplementaryIndemnityActionType">
+					<xs:sequence>
+						<xs:element ref="ComplIndemnityContributionAction" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ComplIndemnityAgreementNotion">
+		<xs:annotation>
+			<xs:documentation>00824</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ComplIndemnityAmount">
+		<xs:annotation>
+			<xs:documentation>00830</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999999999"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ComplIndemnityAmountAdjustNotion">
+		<xs:annotation>
+			<xs:documentation>00829</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+				<xs:enumeration value="3"/>
+				<xs:enumeration value="4"/>
+				<xs:enumeration value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ComplIndemnityContributionAction" type="ComplIndemnityContributionActionType">
+		<xs:annotation>
+			<xs:documentation>90339</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ComplIndemnityNbrMonths">
+		<xs:annotation>
+			<xs:documentation>00831</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ComplIndemnityNbrOfParts">
+		<xs:annotation>
+			<xs:documentation>00950</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ContractType">
+		<xs:annotation>
+			<xs:documentation>00050</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ContributionAmount">
+		<xs:annotation>
+			<xs:documentation>00085</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ContributionCalculationBasis">
+		<xs:annotation>
+			<xs:documentation>00084</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ContributionSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>00955</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ContributionType">
+		<xs:annotation>
+			<xs:documentation>00083</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ContributionWorkerCode">
+		<xs:annotation>
+			<xs:documentation>00082</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ContUnrelatedToNPNewVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00551</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ContUnrelatedToNPVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00611</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CreditAmount">
+		<xs:annotation>
+			<xs:documentation>00613</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999999999999999"/>
+				<xs:totalDigits value="15"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CUNPCalculatedAmount">
+		<xs:annotation>
+			<xs:documentation>00902</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="16"/>
+				<xs:pattern value="[+-]?\d{1,15}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CUNPCorrectedPart" type="CUNPCorrectedPartType">
+		<xs:annotation>
+			<xs:documentation>90208</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="CUNPDclPart" type="CUNPDclPartType">
+		<xs:annotation>
+			<xs:documentation>90209</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="CUNPUpdateNotif">
+		<xs:annotation>
+			<xs:documentation>90210</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CUNPUpdateNotifType">
+					<xs:sequence>
+						<xs:element ref="LastSituationCUNP" minOccurs="0"/>
+						<xs:element ref="CUNPDclPart"/>
+						<xs:element ref="CUNPCorrectedPart" minOccurs="0"/>
+						<xs:element ref="AnomalyReport" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="DaysJustification">
+		<xs:annotation>
+			<xs:documentation>00625</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+				<xs:enumeration value="3"/>
+				<xs:enumeration value="4"/>
+				<xs:enumeration value="5"/>
+				<xs:enumeration value="6"/>
+				<xs:enumeration value="7"/>
+				<xs:enumeration value="8"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DebitAmount">
+		<xs:annotation>
+			<xs:documentation>00612</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999999999999999"/>
+				<xs:totalDigits value="15"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DebtorType">
+		<xs:annotation>
+			<xs:documentation>00949</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+				<xs:enumeration value="3"/>
+				<xs:enumeration value="4"/>
+				<xs:enumeration value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeclNaturalPersonNewVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00547</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeclNaturalPersonPID">
+		<xs:annotation>
+			<xs:documentation>00548</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeclNaturalPersonVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00620</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeductionAmount">
+		<xs:annotation>
+			<xs:documentation>00089</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeductionCalculationBasis">
+		<xs:annotation>
+			<xs:documentation>00088</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeductionCode">
+		<xs:annotation>
+			<xs:documentation>00086</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeductionDetailAction" type="DeductionDetailActionType">
+		<xs:annotation>
+			<xs:documentation>90232</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="DeductionDetailAmount">
+		<xs:annotation>
+			<xs:documentation>00141</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeductionDetailSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>00138</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeductionRightStartingDate">
+		<xs:annotation>
+			<xs:documentation>00090</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DefinitiveNominationDate">
+		<xs:annotation>
+			<xs:documentation>01092</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DismissedStatWorkerContAction" type="DismissedStatWorkerContActionType">
+		<xs:annotation>
+			<xs:documentation>90233</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="DmfAUpdateNotification">
+		<xs:annotation>
+			<xs:documentation>90218</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Form"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="EarlyRetirementCode">
+		<xs:annotation>
+			<xs:documentation>00079</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EarlyRetirementContAction" type="EarlyRetirementContActionType">
+		<xs:annotation>
+			<xs:documentation>90235</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="EarlyRetirementContributionAmount">
+		<xs:annotation>
+			<xs:documentation>00081</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="999999999"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EarlyRetirementNbrMonths">
+		<xs:annotation>
+			<xs:documentation>00080</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EcoVehicle">
+		<xs:annotation>
+			<xs:documentation>01217</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerClass">
+		<xs:annotation>
+			<xs:documentation>00036</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerDeclarationNewVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00533</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerDeclarationPID">
+		<xs:annotation>
+			<xs:documentation>00534</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerDeclarationUpdateNotif">
+		<xs:annotation>
+			<xs:documentation>90238</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="EmployerDeclarationUpdateNotifType">
+					<xs:sequence>
+						<xs:element ref="SubGroupInformation" maxOccurs="2"/>
+						<xs:choice minOccurs="0">
+							<xs:sequence>
+								<xs:element ref="NaturalPersonUpdateNotif" maxOccurs="unbounded"/>
+								<xs:element ref="CUNPUpdateNotif" minOccurs="0" maxOccurs="unbounded"/>
+								<xs:element ref="CompanyVehicleUpdateNotif" minOccurs="0" maxOccurs="unbounded"/>
+							</xs:sequence>
+							<xs:sequence>
+								<xs:element ref="CUNPUpdateNotif" maxOccurs="unbounded"/>
+								<xs:element ref="CompanyVehicleUpdateNotif" minOccurs="0" maxOccurs="unbounded"/>
+							</xs:sequence>
+							<xs:element ref="CompanyVehicleUpdateNotif" maxOccurs="unbounded"/>
+						</xs:choice>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="EmployerNotion">
+		<xs:annotation>
+			<xs:documentation>00815</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+				<xs:pattern value="0|00\d{9}|1\d{10}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>01006</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmploymentPromotion">
+		<xs:annotation>
+			<xs:documentation>00052</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ErrorID">
+		<xs:annotation>
+			<xs:documentation>00108</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FaultyCode">
+		<xs:annotation>
+			<xs:documentation>00535</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="F"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FirstComplIndemnityDate">
+		<xs:annotation>
+			<xs:documentation>00823</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:minInclusive value="1995-03-01"/>
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FirstHiringDate">
+		<xs:annotation>
+			<xs:documentation>00896</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FirstWeekGuaranteedSalaryNbrDays">
+		<xs:annotation>
+			<xs:documentation>01010</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FlemishTrainingHolidayHoursNbr">
+		<xs:annotation>
+			<xs:documentation>01232</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999999"/>
+				<xs:totalDigits value="7"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FlightNbrMinutes">
+		<xs:annotation>
+			<xs:documentation>00065</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999999"/>
+				<xs:totalDigits value="7"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FloorApplicationNotion">
+		<xs:annotation>
+			<xs:documentation>00960</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="4"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FlyingStaffClass">
+		<xs:annotation>
+			<xs:documentation>00059</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Form">
+		<xs:annotation>
+			<xs:documentation>90059</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="FormType">
+					<xs:sequence>
+						<xs:element ref="Reference" minOccurs="2" maxOccurs="3"/>
+						<xs:element ref="EmployerDeclarationUpdateNotif"/>
+						<xs:element ref="RectificationAmount"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="FormCreationDate">
+		<xs:annotation>
+			<xs:documentation>00218</xs:documentation>
+			<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FormCreationHour">
+		<xs:annotation>
+			<xs:documentation>00299</xs:documentation>
+			<xs:appinfo source="ConversionID">Time_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:time">
+				<xs:pattern value="\d{2}:\d{2}:\d{2}.\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FunctionNature">
+		<xs:annotation>
+			<xs:documentation>00968</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="3"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="GradeOrFunction">
+		<xs:annotation>
+			<xs:documentation>00963</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="100"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="GrossRefRemunAmount">
+		<xs:annotation>
+			<xs:documentation>00071</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="999999999"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="GrossRefRemunContributionAmount">
+		<xs:annotation>
+			<xs:documentation>00072</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999999999"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="HalfTimeCareerInterruptionNotion">
+		<xs:annotation>
+			<xs:documentation>00825</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="HolidayDaysNumber">
+		<xs:annotation>
+			<xs:documentation>00197</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="HorecaExtra">
+		<xs:annotation>
+			<xs:documentation>00795</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="E"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="HourRemun">
+		<xs:annotation>
+			<xs:documentation>00812</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999"/>
+				<xs:totalDigits value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="HourRemunInThousandthOfEuro">
+		<xs:annotation>
+			<xs:documentation>00862</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999999"/>
+				<xs:totalDigits value="6"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Identification">
+		<xs:annotation>
+			<xs:documentation>00296</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="7"/>
+				<xs:enumeration value="DMFANOT"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IllnessGrossRemunAmount">
+		<xs:annotation>
+			<xs:documentation>01011</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IncapacityDegree">
+		<xs:annotation>
+			<xs:documentation>00145</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="6"/>
+				<xs:pattern value="\d{3},\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IncompleteMonthNbrDays">
+		<xs:annotation>
+			<xs:documentation>00958</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="78"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IncompleteMonthReason">
+		<xs:annotation>
+			<xs:documentation>00959</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="5"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IndemnityAmount">
+		<xs:annotation>
+			<xs:documentation>00146</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IndemnityContributionPeriodCode">
+		<xs:annotation>
+			<xs:documentation>01129</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="5"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IndemnityNature">
+		<xs:annotation>
+			<xs:documentation>00144</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IndemnityWAPMAction" type="IndemnityWAPMActionType">
+		<xs:annotation>
+			<xs:documentation>90236</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="INSS">
+		<xs:annotation>
+			<xs:documentation>00024</xs:documentation>
+			<xs:appinfo source="ConversionID">Inss_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:inss</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+				<xs:pattern value="[0]|\d{11}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="JointCommissionNbr">
+		<xs:annotation>
+			<xs:documentation>00046</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1"/>
+				<xs:maxLength value="9"/>
+				<xs:pattern value="\d{3}|\d{3}\.\d{2}|\d{3}\.\d{2}\.\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Justification">
+		<xs:annotation>
+			<xs:documentation>00545</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="560"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="JustificationCode">
+		<xs:annotation>
+			<xs:documentation>00536</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="01"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+				<xs:pattern value="\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="JustificationDate">
+		<xs:annotation>
+			<xs:documentation>00537</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="LastSituationCompanyVehicle" type="LastSituationCompanyVehicleType">
+		<xs:annotation>
+			<xs:documentation>90298</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="LastSituationCUNP" type="LastSituationCUNPType">
+		<xs:annotation>
+			<xs:documentation>90222</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="LastSituationWR" type="LastSituationWRType">
+		<xs:annotation>
+			<xs:documentation>90221</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="LicensePlate">
+		<xs:annotation>
+			<xs:documentation>00781</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="10"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="LocalUnitID">
+		<xs:annotation>
+			<xs:documentation>00042</xs:documentation>
+			<xs:appinfo source="TDOType">xs:localUnitId</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999999999"/>
+				<xs:totalDigits value="10"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ManagementCostNbrMonths">
+		<xs:annotation>
+			<xs:documentation>00091</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="MeanWorkingHours">
+		<xs:annotation>
+			<xs:documentation>00048</xs:documentation>
+			<xs:appinfo source="ConversionID">HoursCount_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="MobilityBudget">
+		<xs:annotation>
+			<xs:documentation>01216</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="MonthlyAdditionalScaleSalary">
+		<xs:annotation>
+			<xs:documentation>01221</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="MonthlyHomeIndemnity">
+		<xs:annotation>
+			<xs:documentation>01222</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="MonthlyScaleSalary">
+		<xs:annotation>
+			<xs:documentation>01220</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NaturalPersonJustification" type="NaturalPersonJustificationType">
+		<xs:annotation>
+			<xs:documentation>90296</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="NaturalPersonPID">
+		<xs:annotation>
+			<xs:documentation>00549</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NaturalPersonSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>00023</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="9999999"/>
+				<xs:totalDigits value="7"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NaturalPersonUpdateNotif">
+		<xs:annotation>
+			<xs:documentation>90239</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="NaturalPersonUpdateNotifType">
+					<xs:sequence>
+						<xs:element ref="WorkerRecordUpdateNotif" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="NaturalPersonJustification" minOccurs="0" maxOccurs="2"/>
+						<xs:element ref="AnomalyReport" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="NaturalPersonUserReference">
+		<xs:annotation>
+			<xs:documentation>00615</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NbrHoursOrServices">
+		<xs:annotation>
+			<xs:documentation>00982</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999999"/>
+				<xs:totalDigits value="7"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NbrMonthsDecimals">
+		<xs:annotation>
+			<xs:documentation>00957</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NewMaribelEmploymentDate">
+		<xs:annotation>
+			<xs:documentation>01148</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NonSituableAbsenceCode">
+		<xs:annotation>
+			<xs:documentation>01002</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="2"/>
+				<xs:enumeration value="31"/>
+				<xs:enumeration value="32"/>
+				<xs:enumeration value="33"/>
+				<xs:enumeration value="41"/>
+				<xs:enumeration value="42"/>
+				<xs:enumeration value="43"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSLPARegistrationNbr">
+		<xs:annotation>
+			<xs:documentation>00109</xs:documentation>
+			<xs:appinfo source="ConversionID">NossAPL_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:nossLpaRegistrationNbr</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999926"/>
+				<xs:totalDigits value="8"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSLPASocialMaribel">
+		<xs:annotation>
+			<xs:documentation>00794</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSQuarterEndingDate">
+		<xs:annotation>
+			<xs:documentation>00039</xs:documentation>
+			<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSQuarterStartingDate">
+		<xs:annotation>
+			<xs:documentation>00038</xs:documentation>
+			<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSRegistrationNbr">
+		<xs:annotation>
+			<xs:documentation>00011</xs:documentation>
+			<xs:appinfo source="ConversionID">Noss_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:nossRegistrationNbr</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="100006"/>
+				<xs:maxInclusive value="199999934"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NoticeDate">
+		<xs:annotation>
+			<xs:documentation>00951</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:minInclusive value="1990-01-01"/>
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Notion22Quater">
+		<xs:annotation>
+			<xs:documentation>00917</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="Q"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NPCalculatedAmount">
+		<xs:annotation>
+			<xs:documentation>00901</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="16"/>
+				<xs:pattern value="[+-]?\d{1,15}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ObligationControlInformation">
+		<xs:annotation>
+			<xs:documentation>01063</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="3"/>
+				<xs:enumeration value="FWT"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationDeductionAction">
+		<xs:annotation>
+			<xs:documentation>90229</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="OccupationDeductionActionType">
+					<xs:sequence>
+						<xs:element ref="OccupationDeductionDetailAction" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="OccupationDeductionDetailAction" type="OccupationDeductionDetailActionType">
+		<xs:annotation>
+			<xs:documentation>90251</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="OccupationEndingDate">
+		<xs:annotation>
+			<xs:documentation>00045</xs:documentation>
+			<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationInformationsAction" type="OccupationInformationsActionType">
+		<xs:annotation>
+			<xs:documentation>90314</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="OccupationNewVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00576</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationPSDAction">
+		<xs:annotation>
+			<xs:documentation>90423</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="OccupationPSDActionType">
+					<xs:sequence>
+						<xs:element ref="ScaleSalaryAction" minOccurs="0" maxOccurs="99"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="OccupationPSDEndDate">
+		<xs:annotation>
+			<xs:documentation>00965</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationPSDStartDate">
+		<xs:annotation>
+			<xs:documentation>00964</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>00043</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationStartingDate">
+		<xs:annotation>
+			<xs:documentation>00044</xs:documentation>
+			<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationUpdateNotification">
+		<xs:annotation>
+			<xs:documentation>90212</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="OccupationUpdateNotificationType">
+					<xs:sequence>
+						<xs:element ref="OccupationInformationsAction" minOccurs="0"/>
+						<xs:element ref="SecondPillarInformationAction" minOccurs="0"/>
+						<xs:element ref="ServiceAction" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="RemunAction" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="OccupationPSDAction" minOccurs="0" maxOccurs="99"/>
+						<xs:element ref="ReorgMeasureInformationAction" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="OccupationDeductionAction" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="OccupationUserReference">
+		<xs:annotation>
+			<xs:documentation>00617</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00619</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OfficialLanguage">
+		<xs:annotation>
+			<xs:documentation>00966</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="3"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Path" type="PathType">
+		<xs:annotation>
+			<xs:documentation>90178</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="PecuniarySeniorityStartDate">
+		<xs:annotation>
+			<xs:documentation>00972</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:gYearMonth">
+				<xs:pattern value="\d{4}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PercentagePaid">
+		<xs:annotation>
+			<xs:documentation>00069</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999"/>
+				<xs:totalDigits value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PositionCode">
+		<xs:annotation>
+			<xs:documentation>00057</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PostedWorker">
+		<xs:annotation>
+			<xs:documentation>00893</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PSDDclExemption">
+		<xs:annotation>
+			<xs:documentation>01012</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PSPContribCalcBasisDerogation">
+		<xs:annotation>
+			<xs:documentation>01176</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PublicSectorInstitutionType">
+		<xs:annotation>
+			<xs:documentation>00961</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PublicSectorPersonnelCategory">
+		<xs:annotation>
+			<xs:documentation>00962</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Quarter">
+		<xs:annotation>
+			<xs:documentation>00013</xs:documentation>
+			<xs:appinfo source="TDOType">xs:yearQuarter</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="20031"/>
+				<xs:totalDigits value="5"/>
+				<xs:pattern value="\d{4}(1|2|3|4)"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="RectificationAmount" type="RectificationAmountType">
+		<xs:annotation>
+			<xs:documentation>90205</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ReducedScaleSalaryNotion">
+		<xs:annotation>
+			<xs:documentation>01235</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Reference" type="ReferenceType">
+		<xs:annotation>
+			<xs:documentation>90082</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ReferenceNbr">
+		<xs:annotation>
+			<xs:documentation>00222</xs:documentation>
+			<xs:appinfo source="ConversionID">TicketNumber_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1"/>
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReferenceOrigin">
+		<xs:annotation>
+			<xs:documentation>00298</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReferenceType">
+		<xs:annotation>
+			<xs:documentation>00221</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReferenceYearMonth">
+		<xs:annotation>
+			<xs:documentation>01219</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="7"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="RefMeanWorkingHours">
+		<xs:annotation>
+			<xs:documentation>00049</xs:documentation>
+			<xs:appinfo source="ConversionID">HoursCount_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="RefNbrDays">
+		<xs:annotation>
+			<xs:documentation>00073</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="RegionalAidMeasure">
+		<xs:annotation>
+			<xs:documentation>01237</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="RemunAction" type="RemunActionType">
+		<xs:annotation>
+			<xs:documentation>90228</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="RemunAmount">
+		<xs:annotation>
+			<xs:documentation>00070</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="RemunCode">
+		<xs:annotation>
+			<xs:documentation>00067</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="RemunMethod">
+		<xs:annotation>
+			<xs:documentation>00056</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="RemunSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>00066</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReorganisationMeasure">
+		<xs:annotation>
+			<xs:documentation>00051</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReorganisationMeasurePercentage">
+		<xs:annotation>
+			<xs:documentation>01030</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReorgMeasureInformationAction" type="ReorgMeasureInformationActionType">
+		<xs:annotation>
+			<xs:documentation>90439</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="RepaymentDecision">
+		<xs:annotation>
+			<xs:documentation>00906</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReplacedINSS">
+		<xs:annotation>
+			<xs:documentation>00092</xs:documentation>
+			<xs:appinfo source="TDOType">xs:inss</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+				<xs:pattern value="[0]|\d{11}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReplacementAccordanceWCCNotion">
+		<xs:annotation>
+			<xs:documentation>00827</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ResumptionOfWorkMeasure">
+		<xs:annotation>
+			<xs:documentation>00853</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Retired">
+		<xs:annotation>
+			<xs:documentation>00054</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SalaryScaleReference">
+		<xs:annotation>
+			<xs:documentation>00973</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="999999999999"/>
+				<xs:totalDigits value="12"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ScaleSalaryAction">
+		<xs:annotation>
+			<xs:documentation>90424</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="ScaleSalaryActionType">
+					<xs:sequence>
+						<xs:element ref="AdditionalScaleSalaryAction" minOccurs="0" maxOccurs="99"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ScaleSalaryAmount">
+		<xs:annotation>
+			<xs:documentation>00974</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ScaleSalaryEndDate">
+		<xs:annotation>
+			<xs:documentation>00971</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ScaleSalarySequenceNbr">
+		<xs:annotation>
+			<xs:documentation>01000</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ScaleSalaryStartDate">
+		<xs:annotation>
+			<xs:documentation>00970</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ScaleSalaryWeekHoursNbr">
+		<xs:annotation>
+			<xs:documentation>00976</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SecondPillarInformationAction" type="SecondPillarInformationActionType">
+		<xs:annotation>
+			<xs:documentation>90591</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="SectorDetail">
+		<xs:annotation>
+			<xs:documentation>01215</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ServiceAction" type="ServiceActionType">
+		<xs:annotation>
+			<xs:documentation>90227</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ServiceCode">
+		<xs:annotation>
+			<xs:documentation>00062</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ServiceExemptionNotion">
+		<xs:annotation>
+			<xs:documentation>00826</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ServiceExemptionStartDate">
+		<xs:annotation>
+			<xs:documentation>01191</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ServiceNbrDays">
+		<xs:annotation>
+			<xs:documentation>00063</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999"/>
+				<xs:totalDigits value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ServiceNbrHours">
+		<xs:annotation>
+			<xs:documentation>00064</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999999"/>
+				<xs:totalDigits value="7"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ServiceSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>00061</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ShipId">
+		<xs:annotation>
+			<xs:documentation>01195</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="7"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SixMonthsIllnessDate">
+		<xs:annotation>
+			<xs:documentation>00728</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="StaffCode">
+		<xs:annotation>
+			<xs:documentation>01199</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="StartingDate">
+		<xs:annotation>
+			<xs:documentation>00910</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="StatutoryRelationEndReason">
+		<xs:annotation>
+			<xs:documentation>00969</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="10"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="StudentContributionAction" type="StudentContributionActionType">
+		<xs:annotation>
+			<xs:documentation>90234</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="StudentContributionAmount">
+		<xs:annotation>
+			<xs:documentation>00077</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999999999"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="StudentHoursNbr">
+		<xs:annotation>
+			<xs:documentation>01158</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="StudentNbrDays">
+		<xs:annotation>
+			<xs:documentation>00078</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="StudentRemunAmount">
+		<xs:annotation>
+			<xs:documentation>00076</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999999999"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SubGroup">
+		<xs:annotation>
+			<xs:documentation>00481</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="4"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SubGroupDecisionIndicator">
+		<xs:annotation>
+			<xs:documentation>00614</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="R"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SubGroupInformation" type="SubGroupInformationType">
+		<xs:annotation>
+			<xs:documentation>90240</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="SubjectionEndingDate">
+		<xs:annotation>
+			<xs:documentation>00129</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SubjectionStartingDate">
+		<xs:annotation>
+			<xs:documentation>00127</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SubsidizedMeanWorkingHours">
+		<xs:annotation>
+			<xs:documentation>01203</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SubstituteINSS">
+		<xs:annotation>
+			<xs:documentation>00749</xs:documentation>
+			<xs:appinfo source="TDOType">xs:inss</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+				<xs:pattern value="[0]|\d{11}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SupplPensionContributionExemption">
+		<xs:annotation>
+			<xs:documentation>01013</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="1"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TagName">
+		<xs:annotation>
+			<xs:documentation>00235</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="50"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TenthOrTwelfth">
+		<xs:annotation>
+			<xs:documentation>00060</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TrainingSituation">
+		<xs:annotation>
+			<xs:documentation>01193</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TrainingSituationStartDate">
+		<xs:annotation>
+			<xs:documentation>01192</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TransmissionMode">
+		<xs:annotation>
+			<xs:documentation>00484</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="2"/>
+				<xs:enumeration value="WB"/>
+				<xs:enumeration value="LO"/>
+				<xs:enumeration value="CS"/>
+				<xs:enumeration value="OD"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Trusteeship">
+		<xs:annotation>
+			<xs:documentation>00012</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TypeForm">
+		<xs:annotation>
+			<xs:documentation>00297</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="2"/>
+				<xs:enumeration value="SU"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="UnrelatedAmount">
+		<xs:annotation>
+			<xs:documentation>00022</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999999999999"/>
+				<xs:totalDigits value="13"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="UnrelatedCalculationBasis">
+		<xs:annotation>
+			<xs:documentation>00021</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999999999999"/>
+				<xs:totalDigits value="13"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="UnrelatedEmployerClass">
+		<xs:annotation>
+			<xs:documentation>00019</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="UnrelatedWorkerCode">
+		<xs:annotation>
+			<xs:documentation>00020</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="UserQuality">
+		<xs:annotation>
+			<xs:documentation>00486</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Value">
+		<xs:annotation>
+			<xs:documentation>00236</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="200"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WeekHoursNbr">
+		<xs:annotation>
+			<xs:documentation>00975</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WelfareBenefitTheoreticalAmount">
+		<xs:annotation>
+			<xs:documentation>00956</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999999999"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkerCode">
+		<xs:annotation>
+			<xs:documentation>00037</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkerContributionAction" type="WorkerContributionActionType">
+		<xs:annotation>
+			<xs:documentation>90230</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="WorkerDeductionAction">
+		<xs:annotation>
+			<xs:documentation>90231</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="WorkerDeductionActionType">
+					<xs:sequence>
+						<xs:element ref="DeductionDetailAction" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="WorkerRecordNewVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00573</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkerRecordUpdateNotif">
+		<xs:annotation>
+			<xs:documentation>90207</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="WorkerRecordUpdateNotifType">
+					<xs:sequence>
+						<xs:element ref="LastSituationWR" minOccurs="0"/>
+						<xs:element ref="WRDclPart"/>
+						<xs:element ref="WRCorrectedPart" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="WorkerRecordUserReference">
+		<xs:annotation>
+			<xs:documentation>00616</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkerRecordVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00610</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkerStatus">
+		<xs:annotation>
+			<xs:documentation>00053</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkingDaysSystem">
+		<xs:annotation>
+			<xs:documentation>00047</xs:documentation>
+			<xs:appinfo source="ConversionID">DaysCount_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkingRegulationsEndingDate">
+		<xs:annotation>
+			<xs:documentation>00914</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkingRegulationsRegistryNbr">
+		<xs:annotation>
+			<xs:documentation>00142</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="16"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkingRegulationsStartingDate">
+		<xs:annotation>
+			<xs:documentation>00143</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorksContractActorId">
+		<xs:annotation>
+			<xs:documentation>00940</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WRCorrectedPart">
+		<xs:annotation>
+			<xs:documentation>90206</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="WRCorrectedPartType">
+					<xs:choice minOccurs="0">
+						<xs:sequence>
+							<xs:element ref="OccupationUpdateNotification" maxOccurs="unbounded"/>
+							<xs:element ref="ActivationInformationAction" minOccurs="0"/>
+							<xs:element ref="WorkerContributionAction" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="WorkerDeductionAction" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+						<xs:sequence>
+							<xs:element ref="WorkerContributionAction" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:choice minOccurs="0">
+								<xs:element ref="WorkerDeductionAction" maxOccurs="unbounded"/>
+								<xs:element ref="IndemnityWAPMAction" maxOccurs="unbounded"/>
+							</xs:choice>
+						</xs:sequence>
+						<xs:element ref="DismissedStatWorkerContAction"/>
+						<xs:sequence>
+							<xs:element ref="StudentContributionAction"/>
+							<xs:element ref="WorkerContributionAction" minOccurs="0"/>
+						</xs:sequence>
+						<xs:element ref="EarlyRetirementContAction" maxOccurs="2"/>
+						<xs:element ref="ComplementaryIndemnityAction" maxOccurs="unbounded"/>
+					</xs:choice>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="WRDclPart">
+		<xs:annotation>
+			<xs:documentation>90241</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="WRDclPartType">
+					<xs:choice>
+						<xs:sequence>
+							<xs:element ref="OccupationUpdateNotification" maxOccurs="unbounded"/>
+							<xs:element ref="ActivationInformationAction" minOccurs="0"/>
+							<xs:element ref="WorkerContributionAction" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="WorkerDeductionAction" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+						<xs:element ref="DismissedStatWorkerContAction"/>
+						<xs:sequence>
+							<xs:element ref="StudentContributionAction"/>
+							<xs:element ref="WorkerContributionAction" minOccurs="0"/>
+						</xs:sequence>
+						<xs:element ref="EarlyRetirementContAction" maxOccurs="2"/>
+						<xs:element ref="ComplementaryIndemnityAction" maxOccurs="unbounded"/>
+						<xs:sequence>
+							<xs:element ref="WorkerContributionAction" maxOccurs="2"/>
+							<xs:element ref="IndemnityWAPMAction" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:choice>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="ActivationInformationActionType">
+		<xs:sequence>
+			<xs:element ref="ServiceExemptionStartDate"/>
+			<xs:element ref="TrainingSituationStartDate"/>
+			<xs:element ref="TrainingSituation"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="AdditionalScaleSalaryActionType">
+		<xs:sequence>
+			<xs:element ref="AdditionalScaleSalaryStartDate"/>
+			<xs:element ref="AdditionalScaleSalaryEndDate" minOccurs="0"/>
+			<xs:element ref="AdditionalScaleSalaryReference"/>
+			<xs:element ref="AdditionalScaleSalaryBasisAmount" minOccurs="0"/>
+			<xs:element ref="AdditionalScaleSalaryPercentage" minOccurs="0"/>
+			<xs:element ref="NbrHoursOrServices" minOccurs="0"/>
+			<xs:element ref="AdditionalScaleSalaryAmount"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="AnomalyReportType">
+		<xs:sequence>
+			<xs:element ref="ErrorID"/>
+			<xs:element ref="TagName" minOccurs="0"/>
+			<xs:element ref="Value" minOccurs="0"/>
+			<xs:element ref="AnomalyClass" minOccurs="0"/>
+			<xs:element ref="AnomalyLabel" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CompanyVehicleCorrectedPartType">
+		<xs:sequence>
+			<xs:element ref="CompanyVehicleSequenceNbr"/>
+			<xs:element ref="LicensePlate"/>
+			<xs:element ref="EcoVehicle" minOccurs="0"/>
+			<xs:element ref="CompanyVehicleNewVersionNbr" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CompanyVehicleDclPartType">
+		<xs:sequence>
+			<xs:element ref="CompanyVehicleSequenceNbr"/>
+			<xs:element ref="LicensePlate"/>
+			<xs:element ref="EcoVehicle" minOccurs="0"/>
+			<xs:element ref="CompanyVehicleNewVersionNbr" minOccurs="0"/>
+			<xs:element ref="Action"/>
+			<xs:element ref="BlockDecisionIndicator" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ComplementaryIndemnityActionType">
+		<xs:sequence>
+			<xs:element ref="EmployerNotion"/>
+			<xs:element ref="JointCommissionNbr"/>
+			<xs:element ref="ActivityCode" minOccurs="0"/>
+			<xs:element ref="DebtorType" minOccurs="0"/>
+			<xs:element ref="FirstComplIndemnityDate"/>
+			<xs:element ref="ComplIndemnityAgreementNotion"/>
+			<xs:element ref="HalfTimeCareerInterruptionNotion"/>
+			<xs:element ref="ServiceExemptionNotion" minOccurs="1" maxOccurs="1"/>
+			<xs:element ref="ReplacementAccordanceWCCNotion"/>
+			<xs:element ref="SubstituteINSS" minOccurs="0"/>
+			<xs:element ref="ResumptionOfWorkMeasure" minOccurs="0"/>
+			<xs:element ref="ComplIndemnityNbrOfParts" minOccurs="0"/>
+			<xs:element ref="NoticeDate" minOccurs="0"/>
+			<xs:element ref="AilingOrReorgCompanyNotion" minOccurs="0"/>
+			<xs:element ref="AcknowledgementStartDate" minOccurs="0"/>
+			<xs:element ref="AcknowledgementEndDate" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ComplIndemnityContributionActionType">
+		<xs:sequence>
+			<xs:element ref="ContributionWorkerCode"/>
+			<xs:element ref="ContributionType"/>
+			<xs:element ref="IndemnityContributionPeriodCode" minOccurs="0"/>
+			<xs:element ref="ComplIndemnityAmountAdjustNotion"/>
+			<xs:element ref="ContributionSequenceNbr"/>
+			<xs:element ref="ComplIndemnityAmount"/>
+			<xs:element ref="CapitalizationNotion" minOccurs="0"/>
+			<xs:element ref="WelfareBenefitTheoreticalAmount" minOccurs="0"/>
+			<xs:element ref="ComplIndemnityNbrMonths"/>
+			<xs:element ref="NbrMonthsDecimals" minOccurs="0"/>
+			<xs:element ref="IncompleteMonthNbrDays" minOccurs="0"/>
+			<xs:element ref="IncompleteMonthReason" minOccurs="0"/>
+			<xs:element ref="FloorApplicationNotion" minOccurs="0"/>
+			<xs:element ref="ContributionAmount"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CUNPCorrectedPartType">
+		<xs:sequence>
+			<xs:element ref="UnrelatedEmployerClass"/>
+			<xs:element ref="UnrelatedWorkerCode"/>
+			<xs:element ref="UnrelatedCalculationBasis" minOccurs="0"/>
+			<xs:element ref="UnrelatedAmount"/>
+			<xs:element ref="ContUnrelatedToNPNewVersionNbr"/>
+			<xs:element ref="CodeSubjected"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CUNPDclPartType">
+		<xs:sequence>
+			<xs:element ref="UnrelatedEmployerClass"/>
+			<xs:element ref="UnrelatedWorkerCode"/>
+			<xs:element ref="UnrelatedCalculationBasis" minOccurs="0"/>
+			<xs:element ref="UnrelatedAmount"/>
+			<xs:element ref="ContUnrelatedToNPNewVersionNbr" minOccurs="0"/>
+			<xs:element ref="CodeSubjected"/>
+			<xs:element ref="Action"/>
+			<xs:element ref="BlockDecisionIndicator" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DeductionDetailActionType">
+		<xs:sequence>
+			<xs:element ref="DeductionDetailSequenceNbr" minOccurs="0"/>
+			<xs:element ref="DeductionDetailAmount" minOccurs="0"/>
+			<xs:element ref="WorkingRegulationsRegistryNbr" minOccurs="0"/>
+			<xs:element ref="WorkingRegulationsStartingDate" minOccurs="0"/>
+			<xs:element ref="AverageWorkingTimeBeforeReduction" minOccurs="0"/>
+			<xs:element ref="AverageWorkingTimeAfterReduction" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DismissedStatWorkerContActionType">
+		<xs:sequence>
+			<xs:element ref="GrossRefRemunAmount"/>
+			<xs:element ref="GrossRefRemunContributionAmount"/>
+			<xs:element ref="RefNbrDays"/>
+			<xs:element ref="SubjectionStartingDate"/>
+			<xs:element ref="SubjectionEndingDate"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="EarlyRetirementContActionType">
+		<xs:sequence>
+			<xs:element ref="EarlyRetirementCode" minOccurs="0"/>
+			<xs:element ref="EarlyRetirementNbrMonths" minOccurs="0"/>
+			<xs:element ref="EarlyRetirementContributionAmount" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="EmployerDeclarationUpdateNotifType">
+		<xs:sequence>
+			<xs:element ref="Quarter"/>
+			<xs:choice>
+				<xs:sequence>
+					<xs:element ref="NOSSRegistrationNbr" minOccurs="0"/>
+					<xs:element ref="Trusteeship" minOccurs="0"/>
+				</xs:sequence>
+				<xs:element ref="NOSSLPARegistrationNbr" minOccurs="0"/>
+			</xs:choice>
+			<xs:element ref="CompanyID"/>
+			<xs:element ref="TransmissionMode"/>
+			<xs:element ref="EmployerDeclarationPID"/>
+			<xs:element ref="FaultyCode" minOccurs="0"/>
+			<xs:element ref="CalculationRequestArt54ter" minOccurs="0"/>
+			<xs:element ref="Notion22Quater" minOccurs="0"/>
+			<xs:element ref="EmployerDeclarationNewVersionNbr" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="FormType">
+		<xs:sequence>
+			<xs:element ref="Identification"/>
+			<xs:element ref="FormCreationDate"/>
+			<xs:element ref="FormCreationHour"/>
+			<xs:element ref="AttestationStatus"/>
+			<xs:element ref="TypeForm"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="IndemnityWAPMActionType">
+		<xs:sequence>
+			<xs:element ref="IndemnityNature" minOccurs="0"/>
+			<xs:element ref="IncapacityDegree" minOccurs="0"/>
+			<xs:element ref="IndemnityAmount" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="LastSituationCompanyVehicleType">
+		<xs:sequence>
+			<xs:element ref="CompanyVehicleSequenceNbr"/>
+			<xs:element ref="LicensePlate"/>
+			<xs:element ref="CompanyVehicleVersionNbr"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="LastSituationCUNPType">
+		<xs:sequence>
+			<xs:element ref="UnrelatedEmployerClass"/>
+			<xs:element ref="UnrelatedWorkerCode"/>
+			<xs:element ref="ContUnrelatedToNPVersionNbr"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="LastSituationWRType">
+		<xs:sequence>
+			<xs:element ref="EmployerClass"/>
+			<xs:element ref="WorkerCode"/>
+			<xs:element ref="WorkerRecordVersionNbr"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="NaturalPersonJustificationType">
+		<xs:sequence>
+			<xs:element ref="SubGroup"/>
+			<xs:element ref="Justification" minOccurs="0"/>
+			<xs:element ref="JustificationCode" minOccurs="0"/>
+			<xs:element ref="JustificationDate" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="NaturalPersonUpdateNotifType">
+		<xs:sequence>
+			<xs:element ref="NaturalPersonSequenceNbr"/>
+			<xs:element ref="INSS"/>
+			<xs:element ref="NaturalPersonUserReference" minOccurs="0"/>
+			<xs:element ref="NaturalPersonPID" minOccurs="0"/>
+			<xs:element ref="DeclNaturalPersonPID" minOccurs="0"/>
+			<xs:element ref="DeclNaturalPersonVersionNbr" minOccurs="0"/>
+			<xs:element ref="DeclNaturalPersonNewVersionNbr" minOccurs="0"/>
+			<xs:element ref="Action"/>
+			<xs:element ref="BlockDecisionIndicator" minOccurs="0"/>
+			<xs:element ref="RepaymentDecision" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="OccupationDeductionActionType">
+		<xs:sequence>
+			<xs:element ref="DeductionCode"/>
+			<xs:element ref="DeductionCalculationBasis" minOccurs="0"/>
+			<xs:element ref="DeductionAmount" minOccurs="0"/>
+			<xs:element ref="DeductionRightStartingDate" minOccurs="0"/>
+			<xs:element ref="ManagementCostNbrMonths" minOccurs="0"/>
+			<xs:element ref="ReplacedINSS" minOccurs="0"/>
+			<xs:element ref="ApplicantINSS" minOccurs="0"/>
+			<xs:element ref="CertificateOrigin" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="OccupationDeductionDetailActionType">
+		<xs:sequence>
+			<xs:element ref="DeductionDetailSequenceNbr" minOccurs="0"/>
+			<xs:element ref="WorkingRegulationsStartingDate" minOccurs="0"/>
+			<xs:element ref="WorkingRegulationsEndingDate" minOccurs="0"/>
+			<xs:element ref="AverageWorkingTimeBeforeReduction" minOccurs="0"/>
+			<xs:element ref="AverageWorkingTimeAfterReduction" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="OccupationInformationsActionType">
+		<xs:sequence>
+			<xs:element ref="HorecaExtra" minOccurs="0"/>
+			<xs:element ref="PostedWorker" minOccurs="0"/>
+			<xs:element ref="NOSSLPASocialMaribel" minOccurs="0"/>
+			<xs:element ref="HourRemun" minOccurs="0"/>
+			<xs:element ref="HourRemunInThousandthOfEuro" minOccurs="0"/>
+			<xs:element ref="SixMonthsIllnessDate" minOccurs="0"/>
+			<xs:element ref="FirstWeekGuaranteedSalaryNbrDays" minOccurs="0"/>
+			<xs:element ref="IllnessGrossRemunAmount" minOccurs="0"/>
+			<xs:element ref="PSDDclExemption" minOccurs="0"/>
+			<xs:element ref="SupplPensionContributionExemption" minOccurs="0"/>
+			<xs:element ref="ObligationControlInformation" minOccurs="0"/>
+			<xs:element ref="DefinitiveNominationDate" minOccurs="0"/>
+			<xs:element ref="NewMaribelEmploymentDate" minOccurs="0"/>
+			<xs:element ref="PSPContribCalcBasisDerogation" minOccurs="0"/>
+			<xs:element ref="CareerMeasure" minOccurs="0"/>
+			<xs:element ref="ServiceExemptionNotion" minOccurs="0"/>
+			<xs:element ref="HolidayDaysNumber" minOccurs="0"/>
+			<xs:element ref="SectorDetail" minOccurs="0"/>
+			<xs:element ref="MobilityBudget" minOccurs="0"/>
+			<xs:element ref="FlemishTrainingHolidayHoursNbr" minOccurs="0"/>
+			<xs:element ref="RegionalAidMeasure" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="OccupationPSDActionType">
+		<xs:sequence>
+			<xs:element ref="OccupationPSDStartDate"/>
+			<xs:element ref="OccupationPSDEndDate" minOccurs="0"/>
+			<xs:element ref="PublicSectorInstitutionType"/>
+			<xs:element ref="PublicSectorPersonnelCategory"/>
+			<xs:element ref="GradeOrFunction" minOccurs="0"/>
+			<xs:element ref="OfficialLanguage"/>
+			<xs:element ref="AssignmentType"/>
+			<xs:element ref="FunctionNature"/>
+			<xs:element ref="StatutoryRelationEndReason" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="OccupationUpdateNotificationType">
+		<xs:sequence>
+			<xs:element ref="OccupationSequenceNbr"/>
+			<xs:element ref="OccupationStartingDate" minOccurs="0"/>
+			<xs:element ref="OccupationEndingDate" minOccurs="0"/>
+			<xs:element ref="JointCommissionNbr" minOccurs="0"/>
+			<xs:element ref="WorkingDaysSystem"/>
+			<xs:element ref="ContractType"/>
+			<xs:element ref="RefMeanWorkingHours" minOccurs="0"/>
+			<xs:element ref="WorkerStatus" minOccurs="0"/>
+			<xs:element ref="MeanWorkingHours" minOccurs="0"/>
+			<xs:element ref="ReorganisationMeasure" minOccurs="0"/>
+			<xs:element ref="EmploymentPromotion" minOccurs="0"/>
+			<xs:element ref="Retired"/>
+			<xs:element ref="Apprenticeship" minOccurs="0"/>
+			<xs:element ref="RemunMethod" minOccurs="0"/>
+			<xs:element ref="PositionCode" minOccurs="0"/>
+			<xs:element ref="FlyingStaffClass" minOccurs="0"/>
+			<xs:element ref="TenthOrTwelfth" minOccurs="0"/>
+			<xs:element ref="OccupationUserReference" minOccurs="0"/>
+			<xs:element ref="DaysJustification" minOccurs="0"/>
+			<xs:element ref="ActivityCode" minOccurs="0"/>
+			<xs:element ref="OccupationVersionNbr" minOccurs="0"/>
+			<xs:element ref="OccupationNewVersionNbr" minOccurs="0"/>
+			<xs:element ref="Action"/>
+			<xs:element ref="LocalUnitID" minOccurs="0"/>
+			<xs:element ref="ShipId" minOccurs="0"/>
+			<xs:element ref="StaffCode" minOccurs="0"/>
+			<xs:element ref="SubsidizedMeanWorkingHours" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="PathType">
+		<xs:sequence>
+			<xs:element ref="Quarter" minOccurs="0"/>
+			<xs:choice>
+				<xs:element ref="NOSSRegistrationNbr" minOccurs="0"/>
+				<xs:element ref="NOSSLPARegistrationNbr" minOccurs="0"/>
+			</xs:choice>
+			<xs:element ref="Trusteeship" minOccurs="0"/>
+			<xs:element ref="CompanyID" minOccurs="0"/>
+			<xs:element ref="UnrelatedEmployerClass" minOccurs="0"/>
+			<xs:element ref="UnrelatedWorkerCode" minOccurs="0"/>
+			<xs:element ref="NaturalPersonSequenceNbr" minOccurs="0"/>
+			<xs:element ref="INSS" minOccurs="0"/>
+			<xs:element ref="EmployerClass" minOccurs="0"/>
+			<xs:element ref="WorkerCode" minOccurs="0"/>
+			<xs:element ref="OccupationSequenceNbr" minOccurs="0"/>
+			<xs:element ref="ReorganisationMeasure" minOccurs="0"/>
+			<xs:element ref="ServiceSequenceNbr" minOccurs="0"/>
+			<xs:element ref="ServiceCode" minOccurs="0"/>
+			<xs:element ref="RemunSequenceNbr" minOccurs="0"/>
+			<xs:element ref="RemunCode" minOccurs="0"/>
+			<xs:element ref="BonusPaymentFrequency" minOccurs="0"/>
+			<xs:element ref="PercentagePaid" minOccurs="0"/>
+			<xs:element ref="DeductionCode" minOccurs="0"/>
+			<xs:element ref="DeductionDetailSequenceNbr" minOccurs="0"/>
+			<xs:element ref="EmployerNotion" minOccurs="0"/>
+			<xs:element ref="JointCommissionNbr" minOccurs="0"/>
+			<xs:element ref="ActivityCode" minOccurs="0"/>
+			<xs:element ref="ComplIndemnityAgreementNotion" minOccurs="0"/>
+			<xs:element ref="HalfTimeCareerInterruptionNotion" minOccurs="0"/>
+			<xs:element ref="ServiceExemptionNotion" minOccurs="0"/>
+			<xs:element ref="ReplacementAccordanceWCCNotion" minOccurs="0"/>
+			<xs:element ref="ContributionWorkerCode" minOccurs="0"/>
+			<xs:element ref="ContributionType" minOccurs="0"/>
+			<xs:element ref="ComplIndemnityAmountAdjustNotion" minOccurs="0"/>
+			<xs:element ref="ContributionSequenceNbr" minOccurs="0"/>
+			<xs:element ref="EarlyRetirementCode" minOccurs="0"/>
+			<xs:element ref="IndemnityNature" minOccurs="0"/>
+			<xs:element ref="IncapacityDegree" minOccurs="0"/>
+			<xs:element ref="NaturalPersonUserReference" minOccurs="0"/>
+			<xs:element ref="WorkerRecordUserReference" minOccurs="0"/>
+			<xs:element ref="OccupationUserReference" minOccurs="0"/>
+			<xs:element ref="CompanyVehicleSequenceNbr" minOccurs="0"/>
+			<xs:element ref="NPCalculatedAmount" minOccurs="0"/>
+			<xs:element ref="CUNPCalculatedAmount" minOccurs="0"/>
+			<xs:element ref="WorksContractActorId" minOccurs="0"/>
+			<xs:element ref="OccupationPSDStartDate" minOccurs="0"/>
+			<xs:element ref="EmployerSequenceNbr" minOccurs="0"/>
+			<xs:element ref="CareerElementSequenceNbr" minOccurs="0"/>
+			<xs:element ref="PublicSectorInstitutionType" minOccurs="0"/>
+			<xs:element ref="PublicSectorPersonnelCategory" minOccurs="0"/>
+			<xs:element ref="AssignmentType" minOccurs="0"/>
+			<xs:element ref="FunctionNature" minOccurs="0"/>
+			<xs:element ref="ScaleSalarySequenceNbr" minOccurs="0"/>
+			<xs:element ref="ScaleSalaryStartDate" minOccurs="0"/>
+			<xs:element ref="PecuniarySeniorityStartDate" minOccurs="0"/>
+			<xs:element ref="SalaryScaleReference" minOccurs="0"/>
+			<xs:element ref="AdditionalScaleSalarySequenceNbr" minOccurs="0"/>
+			<xs:element ref="AdditionalScaleSalaryReference" minOccurs="0"/>
+			<xs:element ref="AdditionalScaleSalaryStartDate" minOccurs="0"/>
+			<xs:element ref="NonSituableAbsenceCode" minOccurs="0"/>
+			<xs:element ref="CalendarYear" minOccurs="0"/>
+			<xs:element ref="StartingDate" minOccurs="0" maxOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="RectificationAmountType">
+		<xs:choice>
+			<xs:element ref="DebitAmount"/>
+			<xs:element ref="CreditAmount" minOccurs="0"/>
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:complexType name="ReferenceType">
+		<xs:sequence>
+			<xs:element ref="ReferenceType"/>
+			<xs:element ref="ReferenceOrigin"/>
+			<xs:element ref="ReferenceNbr"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="RemunActionType">
+		<xs:sequence>
+			<xs:element ref="RemunSequenceNbr"/>
+			<xs:element ref="RemunCode"/>
+			<xs:element ref="BonusPaymentFrequency" minOccurs="0"/>
+			<xs:element ref="PercentagePaid" minOccurs="0"/>
+			<xs:element ref="RemunAmount"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ReorgMeasureInformationActionType">
+		<xs:sequence>
+			<xs:element ref="ReorganisationMeasure"/>
+			<xs:element ref="ReorganisationMeasurePercentage"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ScaleSalaryActionType">
+		<xs:sequence>
+			<xs:element ref="ScaleSalaryStartDate"/>
+			<xs:element ref="ScaleSalaryEndDate" minOccurs="0"/>
+			<xs:element ref="PecuniarySeniorityStartDate"/>
+			<xs:element ref="SalaryScaleReference"/>
+			<xs:element ref="ScaleSalaryAmount"/>
+			<xs:element ref="WeekHoursNbr" minOccurs="0"/>
+			<xs:element ref="ScaleSalaryWeekHoursNbr" minOccurs="0"/>
+			<xs:element ref="ReducedScaleSalaryNotion" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="SecondPillarInformationActionType">
+		<xs:sequence>
+			<xs:element ref="ReferenceYearMonth"/>
+			<xs:element ref="MonthlyScaleSalary"/>
+			<xs:element ref="MonthlyAdditionalScaleSalary" minOccurs="0"/>
+			<xs:element ref="MonthlyHomeIndemnity" minOccurs="0"/>
+			<xs:element ref="OfficialLanguage" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ServiceActionType">
+		<xs:sequence>
+			<xs:element ref="ServiceSequenceNbr"/>
+			<xs:element ref="ServiceCode"/>
+			<xs:element ref="ServiceNbrDays"/>
+			<xs:element ref="ServiceNbrHours" minOccurs="0"/>
+			<xs:element ref="FlightNbrMinutes" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="StudentContributionActionType">
+		<xs:sequence>
+			<xs:element ref="StudentRemunAmount"/>
+			<xs:element ref="StudentContributionAmount"/>
+			<xs:choice>
+				<xs:element ref="StudentNbrDays"/>
+				<xs:element ref="StudentHoursNbr"/>
+			</xs:choice>
+			<xs:element ref="LocalUnitID" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="SubGroupInformationType">
+		<xs:sequence>
+			<xs:element ref="SubGroup"/>
+			<xs:element ref="SubGroupDecisionIndicator" minOccurs="0"/>
+			<xs:element ref="UserQuality"/>
+			<xs:element ref="Justification" minOccurs="0"/>
+			<xs:element ref="JustificationCode" minOccurs="0"/>
+			<xs:element ref="JustificationDate" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="WorkerContributionActionType">
+		<xs:sequence>
+			<xs:element ref="ContributionWorkerCode"/>
+			<xs:element ref="ContributionType"/>
+			<xs:element ref="ContributionCalculationBasis" minOccurs="0"/>
+			<xs:element ref="ContributionAmount" minOccurs="0"/>
+			<xs:element ref="FirstHiringDate" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="WorkerDeductionActionType">
+		<xs:sequence>
+			<xs:element ref="DeductionCode"/>
+			<xs:element ref="DeductionCalculationBasis" minOccurs="0"/>
+			<xs:element ref="DeductionAmount" minOccurs="0"/>
+			<xs:element ref="DeductionRightStartingDate" minOccurs="0"/>
+			<xs:element ref="ManagementCostNbrMonths" minOccurs="0"/>
+			<xs:element ref="ReplacedINSS" minOccurs="0"/>
+			<xs:element ref="ApplicantINSS" minOccurs="0"/>
+			<xs:element ref="CertificateOrigin" minOccurs="0"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="WorkerRecordUpdateNotifType"/>
+
+	<xs:complexType name="WRCorrectedPartType">
+		<xs:sequence>
+			<xs:element ref="EmployerClass"/>
+			<xs:element ref="WorkerCode"/>
+			<xs:element ref="NOSSQuarterStartingDate"/>
+			<xs:element ref="NOSSQuarterEndingDate"/>
+			<xs:element ref="Border"/>
+			<xs:element ref="ActivityWithRisk" minOccurs="0"/>
+			<xs:element ref="LocalUnitID" minOccurs="0"/>
+			<xs:element ref="WorkerRecordUserReference" minOccurs="0"/>
+			<xs:element ref="WorkerRecordNewVersionNbr"/>
+			<xs:element ref="CodeSubjected"/>
+			<xs:element ref="Action"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="WRDclPartType">
+		<xs:sequence>
+			<xs:element ref="EmployerClass"/>
+			<xs:element ref="WorkerCode"/>
+			<xs:element ref="NOSSQuarterStartingDate"/>
+			<xs:element ref="NOSSQuarterEndingDate"/>
+			<xs:element ref="Border"/>
+			<xs:element ref="ActivityWithRisk" minOccurs="0"/>
+			<xs:element ref="LocalUnitID" minOccurs="0"/>
+			<xs:element ref="WorkerRecordUserReference" minOccurs="0"/>
+			<xs:element ref="WorkerRecordNewVersionNbr" minOccurs="0"/>
+			<xs:element ref="CodeSubjected"/>
+			<xs:element ref="Action"/>
+			<xs:element ref="BlockDecisionIndicator" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CUNPUpdateNotifType"/>
+
+	<xs:complexType name="CompanyVehicleUpdateNotifType"/>
+	
+</xs:schema>

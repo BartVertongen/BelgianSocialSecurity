@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann44 (Code?, DescDu?, DMFA?, DMFAAPL?, Capelo_DHG?, Geldig_vanaf?, Geldig_tot?)>
+     <!ELEMENT List (ann44+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescDu (#PCDATA)>
+     <!ELEMENT DMFA (#PCDATA)>
+     <!ELEMENT DMFAAPL (#PCDATA)>
+     <!ELEMENT Capelo_DHG (#PCDATA)>
+     <!ELEMENT Geldig_vanaf (#PCDATA)>
+     <!ELEMENT Geldig_tot (#PCDATA)>
+]>
+<List>
+<ann44>
+<Code>1</Code>
+<DescDu>Maatregel tot vermindering van de arbeidstijd in het kader van een plan voor de herverdeling van de arbeid goedgekeurd door de Minister van Tewerkstelling en Arbeid.</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>1</Code>
+<DescDu>Maatregel tot vermindering van de arbeidstijd in het kader van een plan voor de herverdeling van de arbeid goedgekeurd door de Minister van Tewerkstelling en Arbeid.</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>2005/3</Geldig_tot>
+</ann44>
+<ann44>
+<Code>2</Code>
+<DescDu>Systemen voorzien door de CAO nr 42 van 12 juni 1987 met betrekking tot de invoering van nieuwe arbeidsstelsels in de ondernemingen. De Hansenne-experimenten (K.B. 179 van 30/12/1982) zijn niet inbegrepen.</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>3</Code>
+<DescDu>Volledige onderbreking van de loopbaan (enkel de systemen waarbij een tussenkomst van de RVA of van WSE (VL) wordt voorzien)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>4</Code>
+<DescDu>Gedeeltelijke onderbreking van de loopbaan (enkel de systemen waarbij een tussenkomst van de RVA of van WSE (VL) wordt voorzien)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>5</Code>
+<DescDu>Aangepaste arbeid met loonverlies, d.w.z. wanneer de werknemer effectieve arbeidsprestaties levert waarvoor hij een verminderd loon ontvangt.</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>6</Code>
+<DescDu>Halftijds brugpensioen</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>7</Code>
+<DescDu>Vermindering van de prestaties in de openbare sector overeenkomstig de wet van 10 april 1995 (vrijwillige vierdagenweek, halftijdse vervroegde uitdiensttreding). Vierdagenweek met of zonder premie (wet van 19 juli 2012) voor contractuele werknemers.)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>8</Code>
+<DescDu>Verlof voor tijdelijke deeltijdse prestaties voor contractuelen in de openbare sector - niet bezoldigde deeltijdse afwezigheid; enkel de systemen waarbij geen tussenkomst van de RVA of WSE (VL) wordt voorzien, mogen worden aangeduid</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2018/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>107</Code>
+<DescDu>Contractuele of statutaire werknemer die een opleidingsproject voor verpleegkundige volgt in het kader van de sociale maribel en die bezoldigd op het werk afwezig is omdat hij in het kader van het voltijds onderwijs of het onderwijs van sociale promotie een opleiding volgt tot gediplomeerde of gegradueerde verpleegkundige.</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>2005/1</Geldig_tot>
+</ann44>
+<ann44>
+<Code>301</Code>
+<DescDu>Volledige loopbaanonderbreking voor ouderschapsverlof</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>302</Code>
+<DescDu>Volledige loopbaanonderbreking teneinde palliatieve zorg te verstrekken</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>303</Code>
+<DescDu>Volledige loopbaanonderbreking voor het bijstaan of verzorgen van een lid van zijn gezin of van een familielid tot in de tweede graad, dat lijdt aan een ernstige ziekte</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>401</Code>
+<DescDu>Gedeeltelijke loopbaanonderbreking voor ouderschapsverlof</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>402</Code>
+<DescDu>Gedeeltelijke loopbaanonderbreking teneinde palliatieve zorg te verstrekken</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>403</Code>
+<DescDu>Gedeeltelijke loopbaanonderbreking voor het bijstaan of verzorgen van een lid van zijn gezin of van een familielid tot in de tweede graad, dat lijdt aan een ernstige ziekte</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>501</Code>
+<DescDu>Afwezigheid (volledig of deeltijds) gelijkgesteld met dienstactiviteit of met actieve dienst, met een andere bezoldiging dan de activiteitswedde</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>502</Code>
+<DescDu>Niet bezoldigde afwezigheid (volledig of deeltijds) gelijkgesteld met dienstactiviteit</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>503</Code>
+<DescDu>Afwezigheid (volledig of deeltijds) gelijkgesteld met dienstactiviteit, voorafgaand aan het pensioen en met wachtwedde</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>504</Code>
+<DescDu>Ouderschapsverlof (volledige of deeltijdse afwezigheid)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>505</Code>
+<DescDu>Onbezoldigde afwezigheid gelijkgesteld met dienstactiviteit met het oog op het uitoefenen van een beroepsactiviteit (stage, interim in het onderwijs, opdracht, mandaat, ...)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>506</Code>
+<DescDu>Verminderde prestaties (deeltijds) wegens persoonlijke aangelegenheden, of elke vorm van verlof of afwezigheid, geheel of gedeeltelijk, waarvoor een opname in de lijst bij de wet van 6 januari 2014 vereist is, zolang deze opname niet is gebeurd, of vierdagenweek zonder premie (wet van 19 juli 2012) voor vastbenoemde werknemers.</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>507</Code>
+<DescDu>Terbeschikkingstelling (volledig of deeltijds) met wachtwedde en met behoud van het recht op weddenverhoging</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>508</Code>
+<DescDu>Terbeschikkingstelling (volledig of deeltijds) met wachtwedde en met verlies van het recht op weddenverhoging</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>509</Code>
+<DescDu>Terbeschikkingstelling (volledig of deeltijds) met wachtwedde, voorafgaand aan het pensioen</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>510</Code>
+<DescDu>Onbezoldigde afwezigheid (volledig of deeltijds) in administratieve toestand non-activiteit, of terbeschikkingstelling zonder wachtwedde, of - voor militairen - elke andere vorm van non-activiteit zonder wedde, of voor lokale mandatarissen elke vorm van afwezigheid of verlof zonder wedde</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>511</Code>
+<DescDu>Bezoldigde afwezigheid (volledig of deeltijds) in administratieve toestand non-activiteit of - voor militairen - vrijwillige indisponibiliteitsstelling met beroepsactiviteit zonder toestemming</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>512</Code>
+<DescDu>Verlof zonder wedde in administratieve toestand non-activiteit</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>513</Code>
+<DescDu>Ambtshalve verlof voor een opdracht van algemeen belang voor de uitoefening van een management- of staffunctie in de overheidsdiensten</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>514</Code>
+<DescDu>Vierdagenweek met premie of halftijds werken vanaf 50 of 55 jaar (wet van 19 juli 2012) voor vastbenoemde werknemers.</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2012/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>515</Code>
+<DescDu>Verlof of dienstvrijstelling toegekend aan een personeelslid van het onderwijs om tijdelijk of voorlopig een andere functie in het niet universitair onderwijs van dezelfde Gemeenschap uit te oefenen.</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>516</Code>
+<DescDu>Volledige afwezigheid gelijkgesteld met non-activiteit, voorafgaand aan pensioen en met wachtwedde (operationeel politiepersoneel).</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2015/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>517</Code>
+<DescDu>Disciplinaire schorsing van een lokale mandataris</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2022/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>521</Code>
+<DescDu>Afwezigheid (volledig of deeltijds) van een contractuele werknemer, niet bezoldigd door de werkgever</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>531</Code>
+<DescDu>Terbeschikkingstelling (volledig of deeltijds) wegens ontstentenis van betrekking zonder wachtwedde (onderwijs)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>541</Code>
+<DescDu>Tijdelijke ambtsontheffing wegens loopbaanonderbreking (militairen - TALO-R), of loopbaanonderbreking met vergoeding ten laste van de werkgever</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>542</Code>
+<DescDu>Tijdelijke ambtsontheffing wegens gezondheidsredenen (militairen)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>543</Code>
+<DescDu>Tijdelijke ambtsontheffing wegens disciplinaire maatregelen of elke andere periode van bezoldigde non-activiteit (militairen)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>544</Code>
+<DescDu>Verlof of loopbaanonderbreking voor het verstrekken van palliatieve zorgen, verlof voor ouderschapsbescherming of loopbaanonderbreking voor ouderschapsverlof, verlof of loopbaanonderbreking voor het verzorgen van een zwaar ziek familielid, met een vergoeding ten laste van de werkgever</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>545</Code>
+<DescDu>Automatische indisponibiliteitsstelling (militairen)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>546</Code>
+<DescDu>Vrijwillige indisponibiliteitsstelling (militairen)</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>547</Code>
+<DescDu>Tijdelijke ambtsontheffing wegens loopbaanonderbreking - « tijdelijke maatregel » (militairen - TALO-T)</DescDu>
+<DMFA>No</DMFA>
+<DMFAAPL>No</DMFAAPL>
+<Capelo_DHG>Yes</Capelo_DHG>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+<ann44>
+<Code>599</Code>
+<DescDu>Gelijktijdige afwezigheden die aanleiding geven tot een combinatie van maatregelen tot reorganisatie van de arbeidstijd voor een statutaire werknemer uit de overheidssector</DescDu>
+<DMFA>Yes</DMFA>
+<DMFAAPL>Yes</DMFAAPL>
+<Capelo_DHG>No</Capelo_DHG>
+<Geldig_vanaf>2012/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann44>
+</List>

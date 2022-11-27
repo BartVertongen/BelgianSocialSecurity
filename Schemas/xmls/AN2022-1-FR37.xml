@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann37 (typebijdrage?, Code?, Werkgeverscategorie?, ORDCONTRIB?, WNUMBER?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann37+)>
+     <!ELEMENT typebijdrage (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Werkgeverscategorie (#PCDATA)>
+     <!ELEMENT ORDCONTRIB (#PCDATA)>
+     <!ELEMENT WNUMBER (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>1xx (travailleurs ouvriers)</Code>
+<Werkgeverscategorie>951 - 952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>1xx (travailleurs ouvriers)</Code>
+<Werkgeverscategorie>981 - 982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>2xx (travailleurs intellectuels)</Code>
+<Werkgeverscategorie>951 - 952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>2xx (travailleurs intellectuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>3xx (cotisation de pension public)</Code>
+<Werkgeverscategorie>971-974 / 976</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2014</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>3xx (cotisation de pension public)</Code>
+<Werkgeverscategorie>977-978</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>6xx (définitifs)</Code>
+<Werkgeverscategorie>953 - 957</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>6xx (définitifs)</Code>
+<Werkgeverscategorie>971-976</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2014</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>6xx (définitifs)</Code>
+<Werkgeverscategorie>977-978</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>7xx (catégories spécifiques) à l'exception du code 741 (artistes)</Code>
+<Werkgeverscategorie>958</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>951-952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>872, 873 et 874 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>879, 880, 881, 882, 884 et 886 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>8xx (cotisations spéciales)</Code>
+<Werkgeverscategorie>953-957</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2011</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>8xx (cotisations spéciales)</Code>
+<Werkgeverscategorie>971-976</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2014</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>8xx (cotisations spéciales)</Code>
+<Werkgeverscategorie>977-798</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2015</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>8xx (cotisations spéciales) à l'exception des codes 842 et 843</Code>
+<Werkgeverscategorie>951-952 / 958</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>0</typebijdrage>
+<Code>8xx (cotisations spéciales) à l'exception des codes 842 et 843</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Code>741 (artistes)</Code>
+<Werkgeverscategorie>958</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 108%</ORDCONTRIB>
+<begin_geldigheid>01/01/1900</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>951-952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Code>872, 873 et 874 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>1</typebijdrage>
+<Code>879, 880, 881, 882, 884 et 886 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>2</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>951-952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>2</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>2</typebijdrage>
+<Code>872, 873 et 874 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>2</typebijdrage>
+<Code>879, 880, 881, 882 et 884 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>3</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>951-952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>3</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>3</typebijdrage>
+<Code>872, 873 et 874 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>3</typebijdrage>
+<Code>879, 880, 881, 882 et 884 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>4</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>951-952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>4</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>4</typebijdrage>
+<Code>872, 873 et 874 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2012</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>4</typebijdrage>
+<Code>879, 880, 881, 882 et 884 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/04/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>5</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>951-952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>5</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>5</typebijdrage>
+<Code>872, 873 et 874 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/01/2017</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>5</typebijdrage>
+<Code>879, 880, 881, 882 et 884 (chômeurs avec complément d'entreprise)</Code>
+<Werkgeverscategorie>959</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation RCC</ORDCONTRIB>
+<begin_geldigheid>01/01/2017</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>6</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>951-952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>6</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>7</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>951-952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>7</typebijdrage>
+<Code>842-843 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>8</typebijdrage>
+<Code>842 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>951-952</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/01/2010</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+<ann37>
+<typebijdrage>8</typebijdrage>
+<Code>842 (cotisations régime de pension complémentaire - contractuels)</Code>
+<Werkgeverscategorie>981-982</Werkgeverscategorie>
+<ORDCONTRIB>Cotisation rémunérations 100%</ORDCONTRIB>
+<begin_geldigheid>01/07/2013</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann37>
+</List>

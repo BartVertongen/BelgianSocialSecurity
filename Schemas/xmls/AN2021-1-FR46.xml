@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann46 (CategorieFR?, Code?, DescFR?, ParitairComite?, PrivateSectorFR?, PublicSectorFR?, Remarquebijlage46?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann46+)>
+     <!ELEMENT CategorieFR (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescFR (#PCDATA)>
+     <!ELEMENT ParitairComite (#PCDATA)>
+     <!ELEMENT PrivateSectorFR (#PCDATA)>
+     <!ELEMENT PublicSectorFR (#PCDATA)>
+     <!ELEMENT Remarquebijlage46 (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>700</Code>
+<DescFR>Secteur flamand de l'accueil d'un groupe d'enfants, pour bébés et bambins - échelle de subvention 1</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Garderie ou crèche (à partir de 9 enfants, dans la plupart des cas dans un bâtiment séparé) qui fixent eux-mêmes le prix.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>701</Code>
+<DescFR>Secteur flamand de l'accueil d'un groupe d'enfants, pour bébés et bambins - échelle de subvention 2A &amp; 3</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Garderie ou crèche (à partir de 9 enfants, dans la plupart des cas dans un bâtiment séparé) qui utilisent le système IKG et qui sont complètement subventionnés.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>702</Code>
+<DescFR>Secteur flamand de l'accueil d'un groupe d'enfants, pour bébés et bambins - échelle de subvention 2B</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Garderie ou crèche (à partir de 9 enfants, dans la plupart des cas dans un bâtiment séparé) qui utilisent le système IKG et qui sont complètement subventionnés.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>703</Code>
+<DescFR>Secteur flamand de l'accueil familial pour bébés et bambins - échelle de subvention 1</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Gardiens d'enfants (max. 8 enfants, dans la plupart des cas à leur domicile) qui fixent eux-mêmes le prix.
+
+Remarque : les gardiens d'enfants « sui generis » (déclaration séparée sous la CP 999 et le code travailleur spécifique 497 (secteur privé) ou 761 (secteur public)) doivent être déclarés sous ce code.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>704</Code>
+<DescFR>Secteur flamand de l'accueil familial pour bébés et bambins - échelle de subvention 2A &amp; 3</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Gardiens  d'enfants (max. 8 enfants, dans la plupart des cas à leur domicile) qui utilisent le système IKG et qui sont complètement subventionnés.
+
+Remarque : les gardiens d'enfants « sui generis » (déclaration séparée sous la CP 999 et le code travailleur spécifique 497 (secteur privé) ou 761 (secteur public) doivent être déclarés sous ce code.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>705</Code>
+<DescFR>Secteur flamand de l'accueil familial pour bébés et bambins - échelle de subvention 2B</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Gardiens d'enfants (max. 8 enfants, dans la plupart des cas à leur domicile) qui utilisent le système IKG mais qui ne bénéficient que d'un subventionnement partiel.
+
+Remarque : les parents d'accueil « sui generis » (déclaration séparée sous la CP 999 et le code travailleur spécifique 497 (secteur privé) ou 761 (secteur public) doivent être déclarés sous ce code.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>706</Code>
+<DescFR>Secteur flamand de l'accueil familial pour bébés et bambins - statut d'employé pour parents d'accueil</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Projet pilote « gardiens d'enfants » (max. 8 enfants, dans la plupart des cas à leur domicile) au statut de travailleur</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>707</Code>
+<DescFR>Secteur flamand des "Buitenschoolse Opvang met Afzonderlijke Binnenruimte (BOAB)"</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>708</Code>
+<DescFR>Secteur flamand des "Initiatieven Buitenschoolse opvang (IBO)"</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>709</Code>
+<DescFR>Secteur flamand des membres du personnel FCUD</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>710</Code>
+<DescFR>Secteur flamand de LDE (lokale diensteneconomie) - garderie d'enfants</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>711</Code>
+<DescFR>Secteur flamand des autres garderie d'enfants</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser pour les activités qui ne relèvent pas des sous-secteurs spécifiques, p.ex :
+• l'accueil des enfants avec l'échelle de subvention 0
+• accueil à domicile des enfants malades
+• centres de services régionaux</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Accueil des enfants, crèches, jardins d'enfants, services de garde d'enfants à domicile, services de garde à domicile des enfants malades, garderies extrascolaires</CategorieFR>
+<Code>712</Code>
+<DescFR>Secteur flamand de la garderie d'enfants - sous-secteur inconnu</DescFR>
+<ParitairComite>331.00.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser si aucune donnée n'est disponible concernant le sous-secteur. À terme, ce code doit être remplacé par un code plus spécifique.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Autres services et établissements - équipes d'accompagnement multidisciplinaire en soins palliatifs flamandes</CategorieFR>
+<Code>614</Code>
+<DescFR>Secteur flamand des équipes d'accompagnement multidisciplinaire en soins palliatifs</DescFR>
+<ParitairComite>330.04</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<Remarquebijlage46>S'il ne s'agit pas des équipes d'accompagnement multidisciplinaire en soins palliatifs, ce champ est laissé vide.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>713</Code>
+<DescFR>Secteur flamand des centres de soins de santé mentale</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>714</Code>
+<DescFR>Secteur flamand des bureaux de consultation pour le jeune enfant, centres de consultation prénatale, "inloopteams"</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Il s'agit ici du soutien préventif aux familles, p.ex. :
+• équipes de soutien éducatif (« inloopteams »)
+• boutique de l'éducation
+• lieux de rencontre
+• bureaux de consultation</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>715</Code>
+<DescFR>Secteur flamand centres de confiance pour l'enfance maltraitée</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>716</Code>
+<DescFR>Secteur flamand des services d'adoption</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>717</Code>
+<DescFR>Secteur flamand des centres des troubles du développement</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>718</Code>
+<DescFR>Secteur flamand de télé-accueil</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>719</Code>
+<DescFR>Secteur flamand des services/centres pour la promotion de la santé et la prévention</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>720</Code>
+<DescFR>Secteur flamand des initiatives de collaboration - Soins de santé de première ligne, des zones de première ligne et des Conseils des soins</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<Remarquebijlage46>Depuis le 01/07/2020 les initiatives de collaboration - Soins de santé de première ligne, les réseaux multidisciplinaires locaux et la concertation régionale en matière d'aide sociale de la Flandre Orientale se sont transformés en Conseils des soins</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>721</Code>
+<DescFR>Secteur flamand des établissements et services de bien-être et de santé</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser pour les activités qui ne relèvent pas des sous-secteurs spécifiques, p.ex. :
+• centres de services locaux (CSL)
+• les services de garde à domicile</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de planning familial, centres de télé-accueil, organisations de volontaires sociaux, services de lutte contre la toxicomanie (sans revalidation), centres de consultation matrimoniale, centres de consultation prénatale, bureaux de consultation pour le jeune enfant, centres de confiance pour l'enfance maltraitée, services d'adoption, centres de troubles du développement, centres de consultation de soins pour handicapés, initiatives de coopération en matière de soins à domicile, centres de santé mentale, les services et centres de promotion de la santé et de prévention</CategorieFR>
+<Code>722</Code>
+<DescFR>Secteur flamand des établissements de bien-être et de santé - sous-secteur inconnu</DescFR>
+<ParitairComite>331.00.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser si aucune donnée n'est disponible concernant le sous-secteur. À terme, ce code doit être remplacé par un code plus spécifique.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de revalidation autonomes flamands</CategorieFR>
+<Code>608</Code>
+<DescFR>Secteur flamand des dispositifs de revalidation, à l'exception des centre pour rééducation ambulatoire et les centres de traitement pour assuétudes</DescFR>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de revalidation autonomes flamands</CategorieFR>
+<Code>609</Code>
+<DescFR>Secteur flamand des centres de rééducation ambulatoire</DescFR>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de revalidation autonomes flamands</CategorieFR>
+<Code>610</Code>
+<DescFR>Secteur flamand des centres de traitement pour assuétudes</DescFR>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de revalidation autonomes flamands</CategorieFR>
+<Code>611</Code>
+<DescFR>Secteur flamand des dispositifs de revalidation - sous-secteur inconnu</DescFR>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser si aucune donnée n'est disponible concernant le sous-secteur. À terme, ce code doit être remplacé par un code plus spécifique.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Centres de revalidation autonomes flamands</CategorieFR>
+<Code>612</Code>
+<DescFR>Secteur des dispositifs de revalidation qui ne relèvent pas de la compétence flamande</DescFR>
+<ParitairComite>330.01.41</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Établissements et services flamands d'éducation et de logement</CategorieFR>
+<Code>200</Code>
+<DescFR>Secteur flamand de soutien aux personnes avec un handicap</DescFR>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Établissements et services flamands d'éducation et de logement</CategorieFR>
+<Code>201</Code>
+<DescFR>Secteur flamand de l'aide à la jeunesse</DescFR>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Établissements et services flamands d'éducation et de logement</CategorieFR>
+<Code>202</Code>
+<DescFR>Secteur flamand des centres d'action sociale globale (incl. aide aux sans-abri)</DescFR>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Les centres d'aide sociale générale offrent de l'aide professionnelle aux personnes ayant des problèmes. Les prestataires d'aide cherchent avec elles les possibilités renfermées en elles-mêmes et dans leur entourage. Ils peuvent aussi les renvoyer à d'autres services.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Établissements et services flamands d'éducation et de logement</CategorieFR>
+<Code>203</Code>
+<DescFR>Secteur flamand des centres d'aide intégrale aux familles</DescFR>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Les centres de soins intégraux à la famille offrent de l'aide aux familles et aux (futurs) parents faisant face à de graves problèmes d'éducation. L'accompagnement s'adresse à la famille en tant qu'un ensemble.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Établissements et services flamands d'éducation et de logement</CategorieFR>
+<Code>204</Code>
+<DescFR>Secteur flamand des centres d'assistance à l'enfance et de soutien aux familles</DescFR>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Les centres d'aide aux enfants et d'assistance des familles s'adressent aux familles ayant des enfants âgés de 0 à 12 ans (aussi longtemps qu'ils fréquentent l'enseignement fondamental, avec une attention particulière destinée aux enfants âgés de 0 à 6 ans) dans toute leur diversité (race, état civil, religion, origine,...) et posant une demande d'aide puisque l'éducation échoue ou risque d'échouer pour le parent et/ou l'enfant et dont une offre d'aide temporaire ouvre des perspectives de changement suffisantes.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Établissements et services flamands d'éducation et de logement</CategorieFR>
+<Code>205</Code>
+<DescFR>Secteur flamand des agences de location sociales</DescFR>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Établissements et services flamands d'éducation et de logement</CategorieFR>
+<Code>206</Code>
+<DescFR>Secteur flamand des syndicats des locataires</DescFR>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Établissements et services flamands d'éducation et de logement</CategorieFR>
+<Code>207</Code>
+<DescFR>Secteur flamand d'autres établissements et services d'éducation et d'hébergement</DescFR>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser pour les activités qui ne relèvent pas des sous-secteurs spécifiques, p.ex. :
+• centres de services locaux (CSL)
+• services d'aide sociale de la mutualité</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Établissements et services flamands d'éducation et de logement</CategorieFR>
+<Code>208</Code>
+<DescFR>Secteur flamand des établissements et services d'éducation et d'hébergement - sous-secteur inconnu</DescFR>
+<ParitairComite>319.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser si aucune donnée n'est disponible concernant le sous-secteur. À terme, ce code doit être remplacé par un code plus spécifique.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Initiatives flamandes d'habitations protégées</CategorieFR>
+<Code>613</Code>
+<DescFR>Secteur flamand des initiatives d'habitations protégées</DescFR>
+<ParitairComite>330.01.51</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Les hôpitaux privés, hôpitaux de revalidation et les maisons de soins psychiatriques</CategorieFR>
+<Code>600</Code>
+<DescFR>Secteur flamand des hôpitaux de revalidation</DescFR>
+<ParitairComite>330.01.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Les hôpitaux privés, hôpitaux de revalidation et les maisons de soins psychiatriques</CategorieFR>
+<Code>601</Code>
+<DescFR>Secteur flamand des maisons de soins psychiatriques</DescFR>
+<ParitairComite>330.01.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Les hôpitaux privés, hôpitaux de revalidation et les maisons de soins psychiatriques</CategorieFR>
+<Code>602</Code>
+<DescFR>Secteur flamand des hôpitaux - sous-secteur inconnu</DescFR>
+<ParitairComite>330.01.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser si aucune donnée n'est disponible concernant le sous-secteur. À terme, ce code doit être remplacé par un code plus spécifique.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Les hôpitaux privés, hôpitaux de revalidation et les maisons de soins psychiatriques</CategorieFR>
+<Code>603</Code>
+<DescFR>Secteur des hôpitaux qui ne relèvent pas de la compétence flamande</DescFR>
+<ParitairComite>330.01.10</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>P. ex. hôpitaux généraux</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Résidences pour personnes âgées, centre de soins de jour, centres de jour pour court séjour et résidences-services</CategorieFR>
+<Code>604</Code>
+<DescFR>Secteur flamand des résidences pour personnes âgées, des centre de soins de jour et des centre de court séjour</DescFR>
+<ParitairComite>330.01.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>On entend par « centres de soins de jour » les centres de soins de jours « normaux » qui ne sont pas conformes à l'article 51.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Résidences pour personnes âgées, centre de soins de jour, centres de jour pour court séjour et résidences-services</CategorieFR>
+<Code>605</Code>
+<DescFR>Secteur flamand des résidences-services</DescFR>
+<ParitairComite>330.01.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Pour l'employeur avec une résidence pour personnes âgées et résidences-services, il convient d'utiliser le code 604 pour le personnel de la résidence pour personnes âgées et le code 605 pour le personnel de la résidence-services.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Résidences pour personnes âgées, centre de soins de jour, centres de jour pour court séjour et résidences-services</CategorieFR>
+<Code>606</Code>
+<DescFR>Secteur flamand de soins aux personnes âgées - sous-secteur inconnu</DescFR>
+<ParitairComite>330.01.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser si aucune donnée n'est disponible concernant le sous-secteur. À terme, ce code doit être remplacé par un code plus spécifique.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Résidences pour personnes âgées, centre de soins de jour, centres de jour pour court séjour et résidences-services</CategorieFR>
+<Code>607</Code>
+<DescFR>Secteur des soins aux personnes âgées qui ne relève pas de la compétence flamande</DescFR>
+<ParitairComite>330.01.20</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Equipements de soins wallons et bruxellois pour les personnes âgées</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand de l'assistance familiale et de l'assistance aux personnes âgées</CategorieFR>
+<Code>100</Code>
+<DescFR>Secteur flamand d'assistance familiale</DescFR>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>p.ex. :
+• soins aux personnes (lavage, habillage, soins, ...)
+• aide dans le ménage (cuisine, lavage, repassage, ...)
+• soutien psychosocial et pédagogique et accompagnement (compagnie, point de contact, renvoi à d'autres prestataires de soins, ....)
+• dans une mesure restreinte, aide au nettoyage de la maison</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand de l'assistance familiale et de l'assistance aux personnes âgées</CategorieFR>
+<Code>101</Code>
+<DescFR>Secteur flamand des soins à domicile complémentaires</DescFR>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>p.ex. :
+• nettoyage de la maison (nettoyage, dépoussiérage et passage de l'aspirateur, ...)
+• aides de gardiennage (compagnie, aide pour manger, ...)
+• aide à l'exécution de petits travaux (petites réparations, peintures ou tapissages, ...)</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand de l'assistance familiale et de l'assistance aux personnes âgées</CategorieFR>
+<Code>102</Code>
+<DescFR>Secteur flamand des titres-services</DescFR>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Le personnel titres-services ainsi que leur encadrement :
+• aide dans le ménage (nettoyage (y compris les vitres), lavage et repassage, préparation des repas, petits raccommodages occasionnels)
+• repassage en dehors du domicile 
+• courses à usage quotidien
+• transport des personnes à mobilité réduite (aides aux transports des utilisateurs moins valides ou de l'enfant moins valide d'un utilisateur)</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand de l'assistance familiale et de l'assistance aux personnes âgées</CategorieFR>
+<Code>103</Code>
+<DescFR>Secteur flamand de la garderie d'enfants malades</DescFR>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<Remarquebijlage46>Quelques services d'assistance familiale sont agréés pour garder les enfants malades avec les moyens de l'ancien "FCUD", transmis aujourd'hui à Kind&amp;Gezin.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand de l'assistance familiale et de l'assistance aux personnes âgées</CategorieFR>
+<Code>104</Code>
+<DescFR>Secteur flamand des autres services pour l'assistance familiale et l'assistance aux personnes âgées</DescFR>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser pour les activités qui ne relèvent pas des sous-secteurs spécifiques, p.ex :
+• centres de services locaux (CSL)
+• centres de services régionaux
+• services de garde
+• centres de soins de jour ou « Collectieve Autonome DagOpvang (CADO) » (accueil de jour collectif et autonome), exploités par un service des d'assistance familiale et des soins à domicile complémentaires agréé (conformément à l'article 51)
+• services d'accueil temporaire
+• livraison de repas</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand de l'assistance familiale et de l'assistance aux personnes âgées</CategorieFR>
+<Code>105</Code>
+<DescFR>Secteur flamand de l'assistance familiale et de l'assistance aux personnes âgées - sous-secteur inconnu</DescFR>
+<ParitairComite>318.02</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser si aucune donnée n'est disponible concernant le sous-secteur. À terme, ce code doit être remplacé par un code plus spécifique.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand des ateliers protégés, des ateliers sociaux et des entreprises de travail adapté</CategorieFR>
+<Code>400</Code>
+<DescFR>Secteur flamand des ateliers sociaux</DescFR>
+<ParitairComite>327.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand des ateliers protégés, des ateliers sociaux et des entreprises de travail adapté</CategorieFR>
+<Code>401</Code>
+<DescFR>Secteur flamand des ateliers protégés</DescFR>
+<ParitairComite>327.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand des ateliers protégés, des ateliers sociaux et des entreprises de travail adapté</CategorieFR>
+<Code>402</Code>
+<DescFR>Secteur flamand des entreprises de travail adapté</DescFR>
+<ParitairComite>327.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<Remarquebijlage46>Ne pas utiliser tant qu'il existe une distinction entre, p. ex., les conditions de rémunération et d'emploi et l' ONSS</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>500</Code>
+<DescFR>Secteur flamand du travail socioculturel</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Le travail socioculturel pour adultes est un secteur au sein duquel beaucoup de pratiques socioculturelles sont organisées et soutenues.
+Les rencontres, l'apprentissage non-formel et informel, la formation d'une communauté et l'engagement social constituent le noyau de ces pratiques. Il est question de travail socio-culturel quand les pratiques socioculturelles présentent une certaine institutionnalisation.
+Cette institutionnalisation est effectuée par la voie de trois axes : la formalisation, la professionnalisation et la régulation par les autorités.
+• secteur privé : il s'agit ici uniquement des organisations recevant des moyens sur la base d'un décret ou d'un arrêté flamand et qui relèvent par conséquent aussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année.
+• secteur public : p.ex. les centres de quartier</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>501</Code>
+<DescFR>Secteur flamand de la diffusion de la culture</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>La diffusion de la culture vise à une diffusion géographique et sociale de l'art et de la culture.
+• secteur privé : il s'agit ici uniquement des organisations recevant des moyens sur la base d'un décret ou d'un arrêté flamand et qui relèvent par conséquent aussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année.
+• secteur public : p.ex. les bibliothèques, les services de culture, l'infrastructure culturelle, les musées, le fonctionnement de patrimoine culturel,...</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>502</Code>
+<DescFR>Secteur flamand de l'organisation sociétale</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<Remarquebijlage46>Le secteur de l'organisation sociétale consiste en huit instituts régionaux : un institut dans chaque province flamande et dans les villes d'Anvers, de Bruxelles et de Gand. Les instituts sont reconnus et subventionnés par l'Autorité flamande.
+Ceci vaut uniquement pour le secteur privé: il s'agit ici uniquement des organisations recevant des moyens sur la base d'un décret ou d'un arrêté flamand et qui relèvent par conséquent aussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>503</Code>
+<DescFR>Secteur flamand de l'intégration</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Objectif : s'engager pour une société qui offre des chances égales à tout le monde, quelle que soit leur origine. 
+Offre: parcours d'intégration ; soutien aux administrations, aux organisations et aux services pour faire face à la diversité croissante ; accompagnement des allophones vers une offre appropriée de néerlandais comme deuxième langue, ...
+• secteur privé : il s'agit ici uniquement des organisations recevant des moyens sur la base d'un décret ou d'un arrêté flamand et qui relèvent par conséquent aussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année.
+• secteur public : entres autres les initiatives d'accueil locales.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>504</Code>
+<DescFR>Secteur flamand des organisations néerlandophones d'activation socioprofessionnelle à Bruxelles</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<Remarquebijlage46>Ceci vaut uniquement le secteur privé: ceci concerne uniquement les organisations recevant des moyens sur la base d'un décret ou un arrêté flamand et qui relèvent par conséquent aussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>505</Code>
+<DescFR>Secteur flamand de la formation professionnelle</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<Remarquebijlage46>Ceci vaut uniquement le secteur privé: ceci concerne uniquement les organisations recevant des moyens sur la base d'un décret ou un arrêté flamand et qui relèvent par conséquent aussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>506</Code>
+<DescFR>Secteur flamand des fédérations sportives, services sportifs et infrastructures sportives</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Dans le domaine du secteur privé, ceci concerne uniquement les organisations recevant des moyens sur la base d'un décret ou un arrêté flamand et qui relèvent par conséquent aussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>507</Code>
+<DescFR>Secteur flamand du secteur de l'environnement et de la nature</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Dans le domaine du secteur privé, ceci concerne uniquement les organisations recevant des moyens sur la base d'un décret ou un arrêté flamand et qui relèvent par conséquent aussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>508</Code>
+<DescFR>Secteur flamand des organisations et mouvements de jeunesse</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>• secteur privé : il s'agit ici uniquement des organisations recevant des moyens sur la base d'un décret ou un arrêté flamand et qui relèvent par conséquentaussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année, p.ex. l'aide à la jeunesse communautaire et supralocale.
+• secteur public : entre autres des services de jeunes</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>509</Code>
+<DescFR>Secteur flamand des travailleurs du groupe cible LDE (lokale diensteneconomie)</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>510</Code>
+<DescFR>Secteur flamand des autres sous-secteurs qui relèvent de la prime de fin d'année VIA4</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<Remarquebijlage46>Ceci vaut uniquement le secteur privé : il s'agit ici uniquement des organisations recevant des moyens sur la base d'un décret ou un arrêté flamand et qui relèvent par conséquent aussi du champ d'application de la CCT du 6 décembre 2013 concernant l'octroi d'une prime de fin d'année, p.ex.
+• les associations où les pauvres prennent la parole
+• les centres de services locaux (CSL)
+• les centres culturels et les centres communautaires sous la forme d'asbl communales subventionnées par le Gouvernement flamand par le biais du Fonds des communes</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>511</Code>
+<DescFR>Secteur flamand des autres dispositifs socioculturels</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser pour les activités qui ne relèvent pas des sous-secteurs spécifiques
+• secteur privé : les organisations qui ne reçoivent pas de moyens via un agrément flamand, entre autres les centres d'éducation de base, le tourisme, les associations des utilisateurs et d'intervenants de proximité, les centres de service régionaux
+• secteur public : p.ex. les services de loisirs, le tourisme</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur flamand socioculturel</CategorieFR>
+<Code>512</Code>
+<DescFR>Secteur socioculturel flamand - sous-secteur inconnu</DescFR>
+<ParitairComite>329.01</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Oui</PublicSectorFR>
+<Remarquebijlage46>Code à utiliser si aucune donnée n'est disponible concernant le sous-secteur. À terme, ce code doit être remplacé par un code plus spécifique.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+<ann46>
+<CategorieFR>Secteur non-marchand - PVB/PAB</CategorieFR>
+<Code>209</Code>
+<DescFR>Secteur flamand des employeurs d'assistants personnels dans le cadre d'un "PVB (persoonsvolgend budget)" et d'un "PAB (persoonlijk assistentiebudget)"</DescFR>
+<ParitairComite>337</ParitairComite>
+<PrivateSectorFR>Oui</PrivateSectorFR>
+<PublicSectorFR>Non</PublicSectorFR>
+<Remarquebijlage46>Il s'agit d'employeurs qui engagent des assistants personnels avec un contrat de travail dans le cadre d'un PVB (persoonsvolgend budget) ou d'un PAB (persoonlijk assistentiebudget)
+S'il ne s'agit pas d'un PVB ou PAB, ce champ est laissé vide.</Remarquebijlage46>
+<begin_geldigheid>01/01/2019</begin_geldigheid>
+<einde_geldigheid>31/12/9999</einde_geldigheid>
+</ann46>
+</List>

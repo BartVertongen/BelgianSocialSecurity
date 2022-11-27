@@ -6,40 +6,6 @@ using System.Xml.Serialization;
 namespace VertSoft.BelgianHR.Xml.PersonnelFileConsultationAnswer223
 {
     [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public class FormType
-    {
-        public Identification Identification;
-
-        [XmlElement(DataType = "date")]
-        public DateTime FormCreationDate;
-
-        [XmlElement(DataType = "time")]
-        public DateTime FormCreationHour;
-
-        public AttestationStatus AttestationStatus;
-
-        public TypeForm TypeForm;
-    }
-
-
-    [Serializable()]
-    [XmlType(AnonymousType = true)]
-    [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum Identification { PFANS, PFREQ, }
-
-
-    [Serializable()]
-    [XmlType(AnonymousType = true)]
-    [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum AttestationStatus
-    {
-        [XmlEnum("0")] Item0,
-    }
-
-
-    [Serializable()]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum TypeForm { FA, RE, }

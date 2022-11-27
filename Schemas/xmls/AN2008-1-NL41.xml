@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann41 (Code?, DescDu?, Geldig_vanaf?, Geldig_tot?)>
+     <!ELEMENT List (ann41+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescDu (#PCDATA)>
+     <!ELEMENT Geldig_vanaf (#PCDATA)>
+     <!ELEMENT Geldig_tot (#PCDATA)>
+]>
+<List>
+<ann41>
+<Code>051</Code>
+<DescDu>Intresten berekend tot de afsluitingsdatum van dit document op het bijdragesaldo van het betrokken kwartaal.</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>101</Code>
+<DescDu>Aangegeven bijdragen voor het betrokken kwartaal.</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>104</Code>
+<DescDu>Verschuldigde bijdragen in toepassing van het koninklijk besluit van 18/06/1976.</DescDu>
+<Geldig_vanaf>1972/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>112</Code>
+<DescDu>Jaarlijkse vakantiebijdrage (die berekend wordt op grond van de arbeiderslonen die aangegeven worden voor het jaar dat het vermelde jaar voorafgaat).</DescDu>
+<Geldig_vanaf>1964/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>121</Code>
+<DescDu>Wijziging in voordeel van de R.S.Z. van de aangegeven bijdragen.</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>2004/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>121</Code>
+<DescDu>Wijziging in voordeel van de R.S.Z. van de aangegeven bijdragen (met uitsluiting van de solidariteitsbijdrage - bedrijfswagen).</DescDu>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>128</Code>
+<DescDu>Wijziging in voordeel van de R.S.Z. van de solidariteitsbijdrage - bedrijfswagen.</DescDu>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>132</Code>
+<DescDu>Wijziging in voordeel van de R.S.Z. van de jaarlijkse vakantiebijdrage (die berekend wordt op grond van de arbeiderslonen die aangegeven worden voor het jaar dat het vermelde jaar voorafgaat).</DescDu>
+<Geldig_vanaf>1964/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>135</Code>
+<DescDu>Wijziging in voordeel van de R.S.Z. van de bijdragevermindering voor handarbeiders (Maribel).</DescDu>
+<Geldig_vanaf>1983/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>201</Code>
+<DescDu>Betaling van bijdragen.</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>204</Code>
+<DescDu>Bedrag in voordeel van de werkgever in toepassing van het koninklijk besluit van 18/06/1976.</DescDu>
+<Geldig_vanaf>1972/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>221</Code>
+<DescDu>Wijziging in voordeel van de werkgever van de aangegeven bijdragen.</DescDu>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2004/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>221</Code>
+<DescDu>Wijziging in voordeel van de werkgever van de aangegeven bijdragen (met uitsluiting van de solidariteitsbijdrage - bedrijfswagen).</DescDu>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>228</Code>
+<DescDu>Wijziging in voordeel van de werkgever van de solidariteitsbijdrage - bedrijfswagen.</DescDu>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>232</Code>
+<DescDu>Wijziging in voordeel van de werkgever van de jaarlijkse vakantiebijdrage (die berekend wordt op grond van de arbeiderslonen die aangegeven worden voor het jaar dat het vermelde jaar voorafgaat).</DescDu>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>261</Code>
+<DescDu>Betaling van bijdragen die voortvloeien uit een inhouding van 35 % door een hoofdaannemer (Art. 30bis van de wet van 27/06/1969).</DescDu>
+<Geldig_vanaf>1964/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>301</Code>
+<DescDu>Aangerekende bijdrageopslag ingevolge de niet-betaling van de bijdrage binnen de door de wet vastgelegde termijn - 10 % van het onbetaalde bedrag op de vervaldag van het betrokken kwartaal (Artikel 54 van het koninklijk besluit van 28/11/1969).</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>306</Code>
+<DescDu>Forfaitaire vergoeding wegens het niet-indienen van de aangifte binnen de termijn voorzien in het artikel 33, § 2 of in het artikel 35bis van het koninklijk besluit van 28 november 1969 (artikel 54ter, § 2, lid 1 van het koninklijk besluit van 28/11/1969).</DescDu>
+<Geldig_vanaf>1963/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>311</Code>
+<DescDu>Forfaitaire vergoeding wegens niet-betaling of ontoereikende betaling van de maandelijkse voorschotten binnen de vastgelegde termijnen (artikel 54bis van het koninklijk besluit van 28/11/1969).</DescDu>
+<Geldig_vanaf>2001/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>316</Code>
+<DescDu>Forfaitaire vergoeding wegens een ontbrekende aangifte of een onvolledige of onjuiste aangifte, van 50 EURO eerderd met 4 EURO  per tewerkstellingslijn die ontbreekt of waarvoor de in aanmerking te nemen bezoldiging werd gewijzigd (artikel 54ter, § 1 van het koninklijk besluit van 28/11/1969).</DescDu>
+<Geldig_vanaf>2006/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>326</Code>
+<DescDu>Forfaitaire vergoeding wegens de gebruikelijke indiening van een onvolledige of onjuiste aangifte (artikel 54ter, § 2, lid 3 van het koninklijk besluit van 28.11.1969).</DescDu>
+<Geldig_vanaf>2006/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>356</Code>
+<DescDu>Forfaitaire vergoeding gelijk aan het dubbele van de solidariteitsbijdrage-bedrijfswagen (artikel 38, § 3quater van de wet van 29/06/1981, zoals vervangen door de wet van 20/07/2006).</DescDu>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>401</Code>
+<DescDu>Betaling van de bijdrageopslag en/of de forfaitaire vergoedingen.</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>422</Code>
+<DescDu>Vermindering van de bijdrageopslag.</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>429</Code>
+<DescDu>Vermindering van de forfaitaire vergoeding wegens het laattijdig indienen van de aangifte.</DescDu>
+<Geldig_vanaf>1993/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>432</Code>
+<DescDu>Vermindering van de forfaitaire vergoeding wegens niet-betaling of ontoereikende betaling van de maandelijkse voorschotten.</DescDu>
+<Geldig_vanaf>2001/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>439</Code>
+<DescDu>Vermindering van de forfaitaire vergoeding wegens een ontbrekende aangifte of een onvolledige of onjuiste aangifte.</DescDu>
+<Geldig_vanaf>2006/2</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>449</Code>
+<DescDu>Vermindering van de forfaitaire vergoeding wegens de gebruikelijke indiening van een onvolledige of onjuiste aangifte.</DescDu>
+<Geldig_vanaf>2006/4</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>461</Code>
+<DescDu>Betaling van bijdrageopslagen die voortvloeien uit een inhouding van 35% door een hoofdaannemer (Art. 30bis van de wet van 27/06/1969).</DescDu>
+<Geldig_vanaf>1964/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>601</Code>
+<DescDu>Betaling van intresten.</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>622</Code>
+<DescDu>Vermindering van intresten.</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>661</Code>
+<DescDu>Betaling van intresten die voortvloeien uit een inhouding van 35 % door een hoofdaannemer (Art. 30bis van de wet van 27/06/1969).</DescDu>
+<Geldig_vanaf>1964/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>901</Code>
+<DescDu>"""Nihil""aangifte, geen aangegeven bijdragen."</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>921</Code>
+<DescDu>Aangegeven bijdragen rekening houdend met de creditwijzigingen in uw voordeel die aangebracht worden aan de oorspronkelijke aangifte.</DescDu>
+<Geldig_vanaf>1963/3</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+<ann41>
+<Code>932</Code>
+<DescDu>Jaarlijkse vakantiebijdrage (rekening houdend met de wijzigingen in uw voordeel die aangebracht worden aan het bedrag van het oorspronkelijke debetbericht).</DescDu>
+<Geldig_vanaf>1964/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann41>
+</List>

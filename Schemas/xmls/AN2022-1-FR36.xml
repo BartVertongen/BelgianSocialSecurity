@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann36 (Code?, Description?, Geldig_vanaf?, Geldig_tot?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann36+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT Geldig_vanaf (#PCDATA)>
+     <!ELEMENT Geldig_tot (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann36>
+<Code>1</Code>
+<Description>travailleur engagé dans le cadre de l'A.R. 495</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2007/2</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>30/06/2007</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>2</Code>
+<Description>travailleur engagé dans le cadre de mesures d'activation des allocations de chômage, du revenu d'intégration ou de l'aide sociale financière. Ce code doit uniquement être utilisé dans le cas suivant : une occupation dans le cadre d'un programme de transition professionnelle reconnu et une occupation dans le cadre de l'économie d'insertion sociale (SINE).</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>3</Code>
+<Description>Travailleur engagé en remplacement dans le cadre de la redistribution du travail dans le secteur public (départ anticipé à mi-temps et semaine volontaire de 4 jours).
+</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2013/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2013</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>5</Code>
+<Description>travailleur engagé dans le cadre du programme PRIME</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>10</Code>
+<Description>travailleur engagé dans le cadre d'une convention de premier emploi, type un (définie à l'article 27, premier alinéa, 1°, de la loi du 24 décembre 1999)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>11</Code>
+<Description>travailleur engagé dans le cadre d'une convention de premier emploi, type deux (définie à l'article 27, premier alinéa, 2°, de la loi du 24 décembre 1999)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>12</Code>
+<Description>travailleur engagé dans le cadre d'une convention de premier emploi, type trois (définie à l'article 27, premier alinéa, 3°, de la loi du 24 décembre 1999)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>13</Code>
+<Description>travailleur handicapé engagé dans le cadre d'une convention de premier emploi, type un (définie à l'article 27, premier alinéa, 1°, de la loi du 24 décembre 1999)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>14</Code>
+<Description>travailleur handicapé engagé dans le cadre d'une convention de premier emploi, type deux (définie à l'article 27, premier alinéa, 2°, de la loi du 24 décembre 1999)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>15</Code>
+<Description>travailleur handicapé engagé dans le cadre d'une convention de premier emploi, type trois (définie à l'article 27, premier alinéa, 3°, de la loi du 24 décembre 1999)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>16</Code>
+<Description>travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi, type un (définie à l'article 27, premier alinéa, 1°, de la loi du 24 décembre 1999)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>17</Code>
+<Description>travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi, type deux (définie à l'article 27, premier alinéa, 2°, de la loi du 24 décembre 1999)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>18</Code>
+<Description>travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi, type trois (définie à l'article 27, premier alinéa, 3°, de la loi du 24 décembre 1999)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>21</Code>
+<Description>Travailleurs FBI (A.R. n° 25 du 24.3.1982)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2021/4</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/12/2021</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>22</Code>
+<Description>Maribel Social - assistant en logistique (occupé dans le cadre de l'A.R.du 05.02.1997)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2005/1</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/03/2005</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>23</Code>
+<Description>Maribel Social - autres travailleurs qu'assistant en logistique (occupés dans le cadre de l'A.R.du 05.02.1997)</Description>
+<Geldig_vanaf>2003/1</Geldig_vanaf>
+<Geldig_tot>2005/1</Geldig_tot>
+<begin_geldigheid>01/01/2003</begin_geldigheid>
+<einde_geldigheid>31/03/2005</einde_geldigheid>
+</ann36>
+<ann36>
+<Code>24</Code>
+<Description>travailleur contractuel embauché en remplacement d'un membre du personnel qui suit une formation en vue d'être diplômé ou  gradué en soins infirmiers dans le cadre du Maribel Social</Description>
+<Geldig_vanaf>2005/1</Geldig_vanaf>
+<Geldig_tot>2005/1</Geldig_tot>
+<begin_geldigheid>01/01/2005</begin_geldigheid>
+<einde_geldigheid>31/03/2005</einde_geldigheid>
+</ann36>
+</List>

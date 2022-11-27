@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann42 (Code?, DescFr?, Geldig_vanaf?, Geldig_tot?)>
+     <!ELEMENT List (ann42+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT DescFr (#PCDATA)>
+     <!ELEMENT Geldig_vanaf (#PCDATA)>
+     <!ELEMENT Geldig_tot (#PCDATA)>
+]>
+<List>
+<ann42>
+<Code>1</Code>
+<DescFr>Fédéral - Fonctionnaires</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>2</Code>
+<DescFr>Fédéral - Corps spéciaux</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>3</Code>
+<DescFr>Fédéral - Entreprises publiques autonomes</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>4</Code>
+<DescFr>Fédéral - Organismes d'intérêt public</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>5</Code>
+<DescFr>Fédéral - Cultes</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>6</Code>
+<DescFr>Fédéral - Armée</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>7</Code>
+<DescFr>Fédéral - Police intégrée</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>8</Code>
+<DescFr>Fédéral - Ancienne Gendarmerie</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>9</Code>
+<DescFr>Fédéral - Zones de secours</DescFr>
+<Geldig_vanaf>2015/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>17</Code>
+<DescFr>Ancienne institution nationale</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>20</Code>
+<DescFr>Région flamande - Communes</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>21</Code>
+<DescFr>Région flamande - CPAS</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>22</Code>
+<DescFr>Région flamande - Intercommunales</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>23</Code>
+<DescFr>Communauté flamande - Région - Départements</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>24</Code>
+<DescFr>Communauté flamande - Région - Organismes d'intérêt public</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>25</Code>
+<DescFr>Communauté flamande - Enseignement communautaire</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>26</Code>
+<DescFr>Communauté flamande - Enseignement officiel subventionné</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>27</Code>
+<DescFr>Communauté flamande - Enseignement libre subventionné</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>28</Code>
+<DescFr>Région flamande - Province</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>30</Code>
+<DescFr>Région wallonne - Communes</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>31</Code>
+<DescFr>Région wallonne  - CPAS</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>32</Code>
+<DescFr>Région wallonne - Intercommunales</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>33</Code>
+<DescFr>Région wallonne - Départements</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>34</Code>
+<DescFr>Région wallonne - Organismes d'intérêt public</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>35</Code>
+<DescFr>Région wallonne - Province</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>40</Code>
+<DescFr>Région de Bruxelles-Capitale - Communes</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>41</Code>
+<DescFr>Région de Bruxelles-Capitale - CPAS</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>42</Code>
+<DescFr>Région de Bruxelles-Capitale - Intercommunales</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>43</Code>
+<DescFr>Région de Bruxelles-Capitale - Départements</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>44</Code>
+<DescFr>Région de Bruxelles-Capitale - Organismes d'intérêt public</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>50</Code>
+<DescFr>Communauté française - Départements</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>51</Code>
+<DescFr>Communauté française - Organismes d'intérêt public</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>52</Code>
+<DescFr>Communauté française - Enseignement communautaire</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>53</Code>
+<DescFr>Communauté française - Enseignement officiel subventionné</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>54</Code>
+<DescFr>Communauté française - Enseignement libre subventionné</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>60</Code>
+<DescFr>Communauté germanophone - Départements</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>61</Code>
+<DescFr>Communauté germanophone - Organismes d'intérêt public</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>62</Code>
+<DescFr>Communauté germanophone - Enseignement communautaire</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>63</Code>
+<DescFr>Communauté germanophone - Enseignement officiel subventionné</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>64</Code>
+<DescFr>Communauté germanophone - Enseignement libre subventionné</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>65</Code>
+<DescFr>Communauté germanophone - Communes</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>66</Code>
+<DescFr>Communauté germanophone - CPAS</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+<ann42>
+<Code>67</Code>
+<DescFr>Communauté germanophone - Intercommunales</DescFr>
+<Geldig_vanaf>2011/1</Geldig_vanaf>
+<Geldig_tot>9999/4</Geldig_tot>
+</ann42>
+</List>
