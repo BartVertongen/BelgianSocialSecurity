@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Wetsverzekeraar -->
+<!-- Assureur-lésions -->
+<injury-insurers>
+    <injury-insurer>
+        <code>0004</code>
+        <name>
+            <fr>Allianz Belgium</fr>
+            <nl>Allianz Belgium</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>0006</code>
+        <name>
+            <fr>Fédérale Assurance</fr>
+            <nl>Federale Verzekering</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>0008</code>
+        <name>
+            <fr>APRA</fr>
+            <nl>APRA</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2004</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>0010</code>
+        <name>
+            <fr>P. &amp; V. Caisse Commune</fr>
+            <nl>P. &amp; V. Gemeenschappelijke Kas</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2014</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>0112</code>
+        <name>
+            <fr>Securex</fr>
+            <nl>Securex</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>0114</code>
+        <name>
+            <fr>Ethias</fr>
+            <nl>Ethias</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1001</code>
+        <name>
+            <fr>AG Insurance</fr>
+            <nl>AG Insurance</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1004</code>
+        <name>
+            <fr>Winterthur Europe Assurances</fr>
+            <nl>Winterthur Europe Verzekeringen</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>4</quarter>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1006</code>
+        <name>
+            <fr>Baloise Insurance</fr>
+            <nl>Baloise Insurance</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1007</code>
+        <name>
+            <fr>Generali Belgium</fr>
+            <nl>Generali Belgium</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1008</code>
+        <name>
+            <fr>C.B.C Assurances</fr>
+            <nl>K.B.C Verzekeringen</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1012</code>
+        <name>
+            <fr>Winterthur Europe Assurances (ex C.G.U.)</fr>
+            <nl>Winterthur Europe Verzekeringen (ex C.G.U.)</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2001</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1015</code>
+        <name>
+            <fr>Vivium (ex ING Insurance)</fr>
+            <nl>Vivium (ex ING Insurance)</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2010</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1017</code>
+        <name>
+            <fr>Dexia Insurance</fr>
+            <nl>Dexia Insurance</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2005</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1018</code>
+        <name>
+            <fr>Axa Belgium</fr>
+            <nl>Axa Belgium</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1021</code>
+        <name>
+            <fr>Winterthur Europe Assurances (ex Josi)</fr>
+            <nl>Winterthur Europe Verzekeringen (ex Josi)</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1025</code>
+        <name>
+            <fr>Fidea</fr>
+            <nl>Fidea</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1149</code>
+        <name>
+            <fr>Nateus</fr>
+            <nl>Nateus</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2004</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1150</code>
+        <name>
+            <fr>Belfius Assurances</fr>
+            <nl>Belfius Verzekeringen</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1152</code>
+        <name>
+            <fr>Winterthur Europe Assurances (ex A.S.G.)</fr>
+            <nl>Winterthur Europe Verzekeringen (ex A.S.G.)</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1998</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1153</code>
+        <name>
+            <fr>P. &amp; V. Assurances SCRL</fr>
+            <nl>P. &amp; V. Verzekeringen CVBA</nl>
+        </name>
+        <begin-validity>
+            <year>2009</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1248</code>
+        <name>
+            <fr>Winterthur Europe Assurances (ex General Bonus)</fr>
+            <nl>Winterthur Europe Verzekeringen (ex General Bonus)</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2000</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>1253</code>
+        <name>
+            <fr>Vivium</fr>
+            <nl>Vivium</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>6000</code>
+        <name>
+            <fr>FAT marine marchande</fr>
+            <nl>FAO Koopvaardij</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+    <injury-insurer>
+        <code>9015</code>
+        <name>
+            <fr>FAT pêche maritime</fr>
+            <nl>FAO Zeevisserij</nl>
+        </name>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-insurer>
+</injury-insurers>

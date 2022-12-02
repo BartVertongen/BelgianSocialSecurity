@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Activiteit ivm risico -->
+<!-- Activité par rapport au risque -->
+<activities>
+    <activity>
+        <type>Arbeiders</type>
+        <code>001</code>
+        <description>
+            <fr>Ouvrier sédentaire et/ou en atelier</fr>
+            <nl>Arbeider zonder verplaatsingen</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Arbeiders</type>
+        <code>002</code>
+        <description>
+            <fr>Ouvrier sur chantier</fr>
+            <nl>Arbeider op de werf</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Arbeiders</type>
+        <code>003</code>
+        <description>
+            <fr>Concierge</fr>
+            <nl>Huisbewaarders</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Arbeiders</type>
+        <code>004</code>
+        <description>
+            <fr>Femme d'ouvrage, nettoyeur, personnel d'entretien</fr>
+            <nl>Schoonmaak- en onderhoudspersoneel</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Arbeiders</type>
+        <code>005</code>
+        <description>
+            <fr>Personnel de cuisine (ne pas utiliser pour les entreprises du secteur HORECA)</fr>
+            <nl>Keukenpersoneel (niet te gebruiken door HORECA-ondernemingen)</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Arbeiders</type>
+        <code>006</code>
+        <description>
+            <fr>Ouvriers</fr>
+            <nl>Chauffeur</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>401</code>
+        <description>
+            <fr>Employé sédentaire</fr>
+            <nl>Bediende zonder verplaatsingen</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>402</code>
+        <description>
+            <fr>Employé avec missions extérieures occasionnelles</fr>
+            <nl>Bediende met occasionele opdrachten buiten de onderneming</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>403</code>
+        <description>
+            <fr>Employé avec missions extérieures fréquentes</fr>
+            <nl>Bediende met regelmatige opdrachten buiten de onderneming</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>404</code>
+        <description>
+            <fr>Représentant, personnel itinérant, coursier</fr>
+            <nl>Vertegenwoordiger, reizend personeel, loopjongen</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>405</code>
+        <description>
+            <fr>Employé pouvant accomplir un travail manuel</fr>
+            <nl>Bediende die manueel werk verricht</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>406</code>
+        <description>
+            <fr>Employé travaillant à domicile</fr>
+            <nl>Thuiswerkende bediende</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>407</code>
+        <description>
+            <fr>Personnel soignant</fr>
+            <nl>Verzorgend personeel</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>408</code>
+        <description>
+            <fr>Vendeur</fr>
+            <nl>Verkoper</nl>
+        </description>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>01/01/9999</end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>409</code>
+        <description>
+            <fr>Joueur de football assujetti au statut de sportif rémunéré</fr>
+            <nl>Voetballer onderworpen aan het statuut van betaalde sportbeoefenaar</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>410</code>
+        <description>
+            <fr>Joueur de football non assujetti au statut de sportif rémunéré et gagnant une rémunération annuelle fixe de 1239,47 EUR ou plus</fr>
+            <nl>Voetballer niet onderworpen aan het statuut van betaalde sportbeoefenaar met een vaste jaarwedde van 1239,47 EUR of meer</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>411</code>
+        <description>
+            <fr>Joueur de football non assujetti au statut de sportif rémunéré et gagnant une rémunération annuelle fixe de moins de 1239,47 EUR</fr>
+            <nl>Voetballer niet onderworpen aan het statuut van betaalde sportbeoefenaar met een vaste jaarwedde van minder dan 1239,47 EUR</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+    <activity>
+        <type>Bedienden</type>
+        <code>412</code>
+        <description>
+            <fr>Sportif, autre que footballeur (ne pas utiliser pour la catégorie employeur 070 jusqu'au 2ème trimestre 2007 inclus)</fr>
+            <nl>Andere sportbeoefenaar dan voetballer (niet gebruiken voor werkgeverscategorie 070 tot en met het tweede kwartaal 2007)</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </activity>
+</activities>

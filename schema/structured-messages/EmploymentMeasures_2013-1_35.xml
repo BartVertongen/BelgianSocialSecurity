@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Maatregel werkgelegenheid -->
+<!-- Mesure de travail -->
+<!-- EmploymentMeasures -->
+<employment-measures>
+    <employment-measure>
+        <code>1</code>
+        <description>
+            <fr>travailleur engagé dans le cadre de l'A.R. 495</fr>
+            <nl>werknemer aangeworven in het kader van K.B. 495</nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>2</code>
+        <description>
+            <fr>
+                travailleur engagé dans le cadre de mesures d'activation des allocations de chômage
+                , du revenu d'intégration ou de l'aide sociale financière.
+                Ce code doit uniquement être utilisé dans un des cas suivants:
+                une occupation dans le cadre d'un programme de transition
+                professionnelle reconnu
+                , une occupation dans le cadre d'un poste de travail reconnu
+                , une occupation dans le cadre de l'économie sociale d'insertion (SINE).
+            </fr>
+            <nl>
+                werknemer aangeworven in het kader van de volgende maatregelen
+                ter activering van de werkloosheidsuitkeringen
+                , het leefloon of de financiële maatschappelijke hulp.
+                De code mag enkel worden gebruikt voor één van de volgende tewerkstellingen: 
+                een tewerkstelling in het kader van een erkend doorstromingsprogramma
+                , een tewerkstelling in het kader van een erkende arbeidspost
+                , een tewerkstelling in het kader van de sociale inschakelingseconomie (SINE).
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quater>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>3</code>
+        <description>
+            <fr>
+                travailleur engagé dans le cadre de la redistribution du
+                travail dans le secteur public
+            </fr>
+            <nl>
+                werknemer aangeworven in het kader van de herverdeling
+                van de arbeid in de openbare sector
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quater>1</quater>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quater>4</quater>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>4</code>
+        <description>
+            <fr>travailleur engagé dans le cadre du troisième circuit du travail</fr>
+            <nl>werknemer aangeworven in het kader van het derde arbeidscircuit</nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>5</code>
+        <description>
+            <fr>travailleur engagé dans le cadre du programme PRIME</fr>
+            <nl>werknemer aangeworven in het kader het PRIME-programma</nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quater>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>10</code>
+        <description>
+            <fr>
+                travailleur engagé dans le cadre d'une convention de
+                premier emploi définie à l'article 27, premier alinéa,
+                1°, de la loi du 24 décembre 1999
+            </fr>
+            <nl>
+                werknemer aangeworven in het kader van een startbaanovereenkomst
+                bepaald in artikel 27, eerste lid, 1°,
+                van de wet van 24 december 1999
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quater>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>11</code>
+        <description>
+            <fr>
+                travailleur engagé dans le cadre d'une convention de
+                premier emploi définie à l'article 27, premier alinéa,
+                2°, de la loi du 24 décembre 1999
+            </fr>
+            <nl>
+                werknemer aangeworven in het kader van een startbaanovereenkomst
+                bepaald in artikel 27, eerste lid, 2°,
+                van de wet van 24 december 1999
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quater>1</quater>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>12</code>
+        <description>
+            <fr>
+                travailleur engagé dans le cadre d'une convention de premier emploi
+                définie à l'article 27, premier alinéa, 3°, de la loi du 24 décembre 1999
+            </fr>
+            <nl>
+                werknemer aangeworven in het kader van een startbaanovereenkomst
+                bepaald in artikel 27, eerste lid, 3°,
+                van de wet van 24 december 1999
+            </nl>
+        </description>
+        <Geldig_vanaf>2003/1</Geldig_vanaf>
+        <begin-validity>01/01/2003
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>13</code>
+        <description>
+            <fr>
+            </fr>
+            <nl>
+                mindervalide werknemer aangeworven in het kader van een
+                startbaanovereenkomst bepaald in artikel 27, eerste lid
+                , 1°, van de wet van 24 december 1999
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quater>3</quater>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>14</code>
+        <description>
+            <fr>
+                travailleur handicapé engagé dans le cadre d'une convention
+                de premier emploi définie à l'article 27, premier alinéa,
+                2°, de la loi du 24 décembre 1999
+            </fr>
+            <nl>
+                mindervalide werknemer aangeworven in het kader van 
+                een startbaanovereenkomst bepaald in artikel 27,
+                eerste lid, 2°, van de wet van 24 december 1999
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>15</code>
+        <description>
+            <fr>
+                travailleur handicapé engagé dans le cadre d'une convention
+                de premier emploi définie à l'article 27, premier alinéa,
+                3°, de la loi du 24 décembre 1999
+            </fr>
+            <nl>
+                mindervalide werknemer aangeworven in het kader van een
+                startbaanovereenkomst bepaald in artikel 27, eerste lid,
+                3°, van de wet van 24 december 1999
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>16</code>
+        <description>
+            <fr>
+                travailleur d'origine étrangère engagé dans le cadre
+                d'une convention de premier emploi définie à l'article 27,
+                premier alinéa, 1°, de la loi du 24 décembre 1999
+            </fr>
+            <nl>
+                werknemer van buitenlandse afkomst aangeworven in het
+                kader van een startbaanovereenkomst bepaald in artikel 27
+                , eerste lid, 1°, van de wet van 24 december 1999
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>17</code>
+        <description>
+            <fr>
+                travailleur d'origine étrangère engagé dans le cadre
+                d'une convention de premier emploi définie à l'article
+                27, premier alinéa, 2°, de la loi du 24 décembre 1999
+            </fr>
+            <nl>
+                werknemer van buitenlandse afkomst aangeworven in het
+                kader van een startbaanovereenkomst bepaald in artikel 27,
+                eerste lid, 2°, van de wet van 24 december 1999
+            </nl>
+        </description>
+        <Geldig_vanaf>2003/3</Geldig_vanaf>
+        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>01/07/2003
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>18</code>
+        <description>
+            <fr>
+                travailleur d'origine étrangère engagé dans le cadre
+                d'une convention de premier emploi définie à l'article 27,
+                premier alinéa, 3°, de la loi du 24 décembre 1999
+            </fr>
+            <nl>
+                werknemer van buitenlandse afkomst aangeworven in het kader
+                van een startbaanovereenkomst bepaald in artikel 27
+                , eerste lid, 3°, van de wet van 24 december 1999
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+    <employment-measure>
+        <code>19</code>
+        <description>
+            <fr>
+                travailleur ancien chômeur complet indemnisé de 45 ans
+                au moins dont l'engagement est assimilé à une convention
+                de premier emploi
+            </fr>
+            <nl>
+                oudere werknemer volledige uitkeringsgerechtigde werkloze
+                van ten minste 45 jaar waarvan de aanwerving gelijkgesteld
+                wordt met een startbaanovereenkomst
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2004</year>
+            <quater>4</quarter>
+        </end-validity>
+    </employment-measure>
+</employment-measures>

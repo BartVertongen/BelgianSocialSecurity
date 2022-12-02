@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Codification des indemnités pour les catégories employeurs 027 et 028 -->
+<!-- Codificatie van vergoedingen voor de werkgeverscategorieën 027 en 028 -->
+<employer-categories>
+    <employer-category>
+        <number>027</number>
+        <code>01</code>
+        <description>
+            <fr>Indemnité journalière</fr>
+            <nl>Dagelijkse vergoeding</nl>
+        </description>
+        <remark></remarks>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employer-category>
+    <employer-category>
+        <number>027</number>
+        <code>02</code>
+        <description>
+            <fr>Allocation annuelle</fr>
+            <nl>Jaarlijkse vergoeding</nl>
+        </description>
+        <remark></remarks>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employer-category>
+    <employer-category>
+        <number>027</number>
+        <code>03</code>
+        <description>
+            <fr>Rente</fr>
+            <nl>Rente</nl>
+        </description>
+        <remark></remarks>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employer-category>
+    <employer-category>
+        <number>027</number>
+        <code>04</code>
+        <description>
+            <fr>Capital</fr>
+            <nl>Kapitaal</nl>
+        </description>
+        <remark></remarks>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employer-category>
+    <employer-category>
+        <number>027</number>
+        <code>05</code>
+        <description>
+            <fr>Allocation</fr>
+            <nl>Bijslag</nl>
+        </description>
+        <remark></remarks>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employer-category>
+    <employer-category>
+        <number>027</number>
+        <code>12</code>
+        <description>
+            <fr>Allocation annuelle avec un degré d'incapacité &lt; à 10 %</fr>
+            <nl>Jaarlijkse vergoeding voor een graad ongeschiktheid &lt; 10 %</nl>
+        </description>
+        <remark>
+            <fr>
+                Ces codes ne peuvent être utilisés qu’en cas d’exception c.à.d. lorsqu’on a 
+                l’autorisation légale de faire la déclaration une seule fois par année.
+                La déclaration d’un travailleur avec un degré d’incapacité &lt; à 10 % 
+                doit de préférence être faite une fois par trimestre en utilisant les codes 01 à 05.
+            </fr>
+            <nl>
+                Deze codes mogen slechts uitzonderlijk gebruikt worden,
+                namelijk wanneer men de wettelijke toestemming heeft om
+                slechts één aangifte te doen per jaar.
+                De aangifte van een werknemer met een graad van
+                ongeschiktheid &lt; 10 % moet echter bij voorkeur één
+                keer per kwartaal gebeuren. In dat geval moeten de codes
+                01 tot en met 05 gebruikt worden.
+            </nl>
+        </remark>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employer-category>
+    <employer-category>
+        <number>027</number>
+        <code>13</code>
+        <description>
+            <fr>Rente avec un degré d'incapacité &lt; à 10 %</fr>
+            <nl>Rente voor een graad ongeschiktheid &lt; 10 %</nl>
+        </description>
+        <remark>
+            <fr>
+                Ces codes ne peuvent être utilisés qu’en cas d’exception c.à.d. lorsqu’on
+                a l’autorisation légale de faire la déclaration une seule fois par année.
+                La déclaration d’un travailleur avec un degré d’incapacité &lt;
+                à 10 % doit de préférence être faite une fois par
+                trimestre en utilisant les codes 01 à 05.
+            </fr>
+            <nl>
+                Deze codes mogen slechts uitzonderlijk gebruikt worden,
+                namelijk wanneer men de wettelijke toestemming heeft om
+                slechts één aangifte te doen per jaar. De aangifte van
+                een werknemer met een graad van ongeschiktheid &lt; 10 %
+                moet echter bij voorkeur één keer per kwartaal gebeuren.
+                In dat geval moeten de codes 01 tot en met 05 gebruikt worden.
+            </nl>
+        </remark>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employer-category>
+    <employer-category>
+        <number>027</number>
+        <code>15</code>
+        <description>
+            <fr>Allocation avec un degré d'incapacité &lt; à 10 %</fr>
+            <nl>Bijslag voor een graad ongeschiktheid &lt; 10 %</nl>
+        </description>
+        <remark>
+            <fr>
+                Ces codes ne peuvent être utilisés qu’en cas d’exception
+                c.à.d. lorsqu’on a l’autorisation légale de faire la
+                déclaration une seule fois par année.
+                La déclaration d’un travailleur avec un degré 
+                d’incapacité &lt; à 10 % doit de préférence être faite 
+                une fois par trimestre en utilisant les codes 01 à 05.
+            </fr>
+            <nl>
+                Deze codes mogen slechts uitzonderlijk gebruikt worden,
+                namelijk wanneer men de wettelijke toestemming heeft om
+                slechts één aangifte te doen per jaar. De aangifte van
+                een werknemer met een graad van ongeschiktheid &lt; 10 %
+                moet echter bij voorkeur één keer per kwartaal gebeuren.
+                In dat geval moeten de codes 01 tot en met 05 gebruikt worden.
+            </nl>
+        </remark>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employer-category>
+    <employer-category>
+        <number>028</number>
+        <code>00</code>
+        <description>
+            <fr>Toutes indemnités</fr>
+            <nl>Alle vergoedingen</nl>
+        </description>
+        <remark>
+            <fr>Concerne uniquement le Fonds des Maladies Professionnelles</fr>
+            <nl>Beperkt tot het Fonds voor Beroepsziekten</nl>
+        </remark>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employer-category>
+</employer-categories>

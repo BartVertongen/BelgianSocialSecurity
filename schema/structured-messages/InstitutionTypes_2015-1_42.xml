@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8?>
+<!-- Types van instellingen -->
+<!-- Types d'institutions -->
+
+<institution-types>
+    <institution-type>
+        <code>1</code>
+        <description>
+            <fr>Fédéral - Fonctionnaires</fr>
+            <nl>Federaal - Ambtenaren</nl>
+        </description>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </institution-type>
+    <institution-type>
+        <code>2</code>
+        <description>
+            <fr>Fédéral - Corps spéciaux</fr>
+            <nl>Federaal - Speciale korpsen</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>3</code>
+        <description>
+            <fr>Fédéral - Entreprises publiques autonomes</fr>
+            <nl>Federaal - Autonome overheidsbedrijven</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>4</code>
+        <description>
+            <fr>Fédéral - Organismes d'intérêt public</fr>
+            <nl>Federaal - Instellingen van openbaar nut</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>5</code>
+        <description>
+            <fr>Fédéral - Cultes</fr>
+            <nl>Federaal - Erediensten</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>6</code>
+        <description>
+            <fr>Fédéral - Armée</fr>
+            <nl>Federaal - Leger</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>7</code>
+        <description>
+            <fr>Fédéral - Police intégrée</fr>
+            <nl>Federaal - Geïntegreerde Politie</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>8</code>
+        <description>
+            <fr>Fédéral - Ancienne Gendarmerie</fr>
+            <nl>Federaal - Vroegere Rijkswacht</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>9</code>
+        <description>
+            <fr>Fédéral - Zones de secours</fr>
+            <nl>Federaal - Hulpverleningszones</nl>
+        </description>
+        <begin-validity>2015/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>17</code>
+        <description>
+            <fr>Ancienne institution nationale</fr>
+            <nl>Voormalig nationale instelling</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>20</code>
+        <description>
+            <fr>Région flamande - Communes</fr>
+            <nl>Vlaams Gewest - Gemeenten</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>21</code>
+        <description>
+            <fr>Région flamande - CPAS</fr>
+            <nl>Vlaams Gewest - OCMW</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>22</code>
+        <description>
+            <fr>Région flamande - Intercommunales</fr>
+            <nl>Vlaams Gewest - Intercommunales</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>23</code>
+        <description>
+            <fr>Communauté flamande - Région - Départements</fr>
+            <nl>Vlaamse Gemeenschap - Gewest - Departementen</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>24</code>
+        <description>
+            <fr>Communauté flamande - Région - Organismes d'intérêt public</fr>
+            <nl>Vlaamse Gemeenschap - Gewest - Instellingen van openbaar nut</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>25</code>
+        <description>
+            <fr>Communauté flamande - Enseignement communautaire</fr>
+            <nl>Vlaamse Gemeenschap -  Gemeenschapsonderwijs</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>26</code>
+        <description>
+            <fr>Communauté flamande - Enseignement officiel subventionné</fr>
+            <nl>Vlaamse Gemeenschap - Officieel Gesubsidieerd Onderwijs</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>27</code>
+        <description>
+            <fr>Communauté flamande - Enseignement libre subventionné</fr>
+            <nl>Vlaamse Gemeenschap - Vrij Gesubsidieerd Onderwijs</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>28</code>
+        <description>
+            <fr>Région flamande - Province</fr>
+            <nl>Vlaams Gewest - Provincie</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>30</code>
+        <description>
+            <fr>Région wallonne - Communes</fr>
+            <nl>Waals Gewest - Gemeenten</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>31</code>
+        <description>
+            <fr>Région wallonne  - CPAS</fr>
+            <nl>Waals Gewest - OCMW</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>32</code>
+        <description>
+            <fr>Région wallonne - Intercommunales</fr>
+            <nl>Waals Gewest - Intercommunales</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>33</code>
+        <description>
+            <fr>Région wallonne - Départements</fr>
+            <nl>Waals Gewest - Departementen</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>34</code>
+        <description>
+            <fr>Région wallonne - Organismes d'intérêt public</fr>
+            <nl>Waals Gewest - Instellingen van openbaar nut</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>35</code>
+        <description>
+            <fr>Région wallonne - Province</fr>
+            <nl>Waals Gewest - Provincie</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>40</code>
+        <description>
+            <fr>Région de Bruxelles-Capitale - Communes</fr>
+            <nl>Brussels Hoofdstedelijk Gewest - Gemeenten</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>41</code>
+        <description>
+            <fr>Région de Bruxelles-Capitale - CPAS</fr>
+            <nl>Brussels Hoofdstedelijk Gewest - OCMW</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>42</code>
+        <description>
+            <fr>Région de Bruxelles-Capitale - Intercommunales</fr>
+            <nl>Brussels Hoofdstedelijk Gewest - Intercommunales</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>43</code>
+        <description>
+            <fr>Région de Bruxelles-Capitale - Départements</fr>
+            <nl>Brussels Hoofdstedelijk Gewest - Departementen</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>44</code>
+        <description>
+            <fr>Région de Bruxelles-Capitale - Organismes d'intérêt public</fr>
+            <nl>Brussels Hoofdstedelijk Gewest - Instellingen van openbaar nut</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>50</code>
+        <description>
+            <fr>Communauté française - Départements</fr>
+            <nl>Franse Gemeenschap - Departementen</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>51</code>
+        <description>
+            <fr>Communauté française - Organismes d'intérêt public</fr>
+            <nl>Franse Gemeenschap - Instellingen van openbaar nut</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>52</code>
+        <description>
+            <fr>Communauté française - Enseignement communautaire</fr>
+            <nl>Franse Gemeenschap - Gemeenschapsonderwijs</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>53</code>
+        <description>
+            <fr>Communauté française - Enseignement officiel subventionné</fr>
+            <nl>Franse Gemeenschap - Officieel Gesubsidieerd Onderwijs</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>54</code>
+        <description>
+            <fr>Communauté française - Enseignement libre subventionné</fr>
+            <nl>Franse Gemeenschap - Vrij Gesubsidieerd Onderwijs</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>60</code>
+        <description>
+            <fr>Communauté germanophone - Départements</fr>
+            <nl>Duitstalige Gemeenschap - Departementen</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>61</code>
+        <description>
+            <fr>Communauté germanophone - Organismes d'intérêt public</fr>
+            <nl>Duitstalige Gemeenschap - Instellingen van openbaar nut</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>62</code>
+        <description>
+            <fr>Communauté germanophone - Enseignement communautaire</fr>
+            <nl>Duitstalige Gemeenschap - Gemeenschapsonderwijs</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>63</code>
+        <description>
+            <fr>Communauté germanophone - Enseignement officiel subventionné</fr>
+            <nl>Duitstalige Gemeenschap - Officieel Gesubsidieerd Onderwijs</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>64</code>
+        <description>
+            <fr>Communauté germanophone - Enseignement libre subventionné</fr>
+            <nl>Duitstalige Gemeenschap - Vrij Gesubsidieerd Onderwijs</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>65</code>
+        <description>
+            <fr>Communauté germanophone - Communes</fr>
+            <nl>Duitstalige Gemeenschap - Gemeenten</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>66</code>
+        <description>
+            <fr>Communauté germanophone - CPAS</fr>
+            <nl>Duitstalige Gemeenschap - OCMW</nl>
+        </description>
+        <begin-validity>2011/1</begin-validity>
+        <end-validity>9999/4</end-validity>
+    </institution-type>
+    <institution-type>
+        <code>67</code>
+        <description>
+            <fr>Communauté germanophone - Intercommunales</fr>
+            <nl>Duitstalige Gemeenschap - Intercommunales</nl>
+        </description>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </institution-type>
+</institution-types>

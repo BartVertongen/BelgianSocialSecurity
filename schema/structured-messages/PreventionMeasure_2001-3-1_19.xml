@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- nl  Preventiemaatregelen -->
+<!-- fr  Prevention mesures -->
+<!-- EN  Prevention measures -->
+<prevention-measures>
+    <prevention-measure>
+        <code>1</code>
+        <description>
+            <fr>Néant.</fr>
+            <nl>Geen.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>2</code>
+        <description>
+            <fr>Facteur individuel.</fr>
+            <nl>Individuele factor.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>3</code>
+        <description>
+            <fr>Facteur matériel</fr>
+            <nl>Materiële factor.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>21</code>
+        <description>
+            <fr>Poste de travail</fr>
+            <nl>Arbeidspost.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>22</code>
+        <description>
+            <fr>Apprentissage</fr>
+            <nl>Aanleren.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>23</code>
+        <description>
+            <fr>Révision des consignes</fr>
+            <nl>Herziening van de bevelen.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>24</code>
+        <description>
+            <fr>Surveillance des méthodes de travail</fr>
+            <nl>Toezicht op de arbeidsmethoden.</nl>
+        </description>
+        <begin-validity>1/01/1900</begin-validity>
+        <end-validity>1/01/9999</end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>25</code>
+        <description>
+            <fr>Adaptation physique ou psychique au poste de travail</fr>
+            <nl>Fysische of psychische aanpassing aan de arbeidspost.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>26</code>
+        <description>
+            <fr>Autres mesures</fr></description>
+            <nl>Andere maatregelen.</nl>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>31</code>
+        <description>
+            <fr>Inspection</fr>
+            <nl>Inspectie.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>32</code>
+        <description>
+            <fr>Entretien</fr>
+            <nl>Onderhoud.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+        </prevention-measure>
+    <prevention-measure>
+        <code>33</code>
+        <description>
+            <fr>Matériel</fr>
+            <nl>Materieel.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>34</code>
+        <description>
+            <fr>Equipement de protection individuelle ou collective</fr>
+            <nl>Persoonlijke of collectieve beschermingsmiddelen.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>35</code>
+        <description>
+            <fr>Environnement, facteurs d'ambiance</fr>
+            <nl>Leefmilieu, omgevingsfactoren.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+    <prevention-measure>
+        <code>36</code>
+        <description>
+            <fr>Autres mesures</fr>
+            <nl>Andere maatregelen.</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </prevention-measure>
+</prevention-measures>

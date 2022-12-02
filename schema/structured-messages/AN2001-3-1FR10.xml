@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT ann10 (werkgeverscategorienummer?, Code?, Description?, Remarquebijlage10?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (ann10+)>
+     <!ELEMENT werkgeverscategorienummer (#PCDATA)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
+     <!ELEMENT Remarquebijlage10 (#PCDATA)>
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+]>
+<List>
+<ann10>
+<werkgeverscategorienummer>027</werkgeverscategorienummer>
+<Code>01</Code>
+<Description>Indemnité journalière</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann10>
+<ann10>
+<werkgeverscategorienummer>027</werkgeverscategorienummer>
+<Code>02</Code>
+<Description>Allocation annuelle</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann10>
+<ann10>
+<werkgeverscategorienummer>027</werkgeverscategorienummer>
+<Code>03</Code>
+<Description>Rente</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann10>
+<ann10>
+<werkgeverscategorienummer>027</werkgeverscategorienummer>
+<Code>04</Code>
+<Description>Capital</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann10>
+<ann10>
+<werkgeverscategorienummer>027</werkgeverscategorienummer>
+<Code>05</Code>
+<Description>Allocation</Description>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann10>
+<ann10>
+<werkgeverscategorienummer>027</werkgeverscategorienummer>
+<Code>12</Code>
+<Description>Allocation annuelle avec un degré d'incapacité &lt; à 10 %</Description>
+<Remarquebijlage10>Ces codes ne peuvent être utilisés qu’en cas d’exception c.à.d. lorsqu’on a l’autorisation légale de faire la déclaration une seule fois par année. La déclaration d’un travailleur avec un degré d’incapacité &lt; à 10 % doit de préférence être faite une fois par trimestre en utilisant les codes 01 à 05.</Remarquebijlage10>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann10>
+<ann10>
+<werkgeverscategorienummer>027</werkgeverscategorienummer>
+<Code>13</Code>
+<Description>Rente avec un degré d'incapacité &lt; à 10 %</Description>
+<Remarquebijlage10>Ces codes ne peuvent être utilisés qu’en cas d’exception c.à.d. lorsqu’on a l’autorisation légale de faire la déclaration une seule fois par année. La déclaration d’un travailleur avec un degré d’incapacité &lt; à 10 % doit de préférence être faite une fois par trimestre en utilisant les codes 01 à 05.</Remarquebijlage10>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann10>
+<ann10>
+<werkgeverscategorienummer>027</werkgeverscategorienummer>
+<Code>15</Code>
+<Description>Allocation avec un degré d'incapacité &lt; à 10 %</Description>
+<Remarquebijlage10>Ces codes ne peuvent être utilisés qu’en cas d’exception c.à.d. lorsqu’on a l’autorisation légale de faire la déclaration une seule fois par année. La déclaration d’un travailleur avec un degré d’incapacité &lt; à 10 % doit de préférence être faite une fois par trimestre en utilisant les codes 01 à 05.</Remarquebijlage10>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann10>
+<ann10>
+<werkgeverscategorienummer>028</werkgeverscategorienummer>
+<Code>00</Code>
+<Description>Toutes indemnités</Description>
+<Remarquebijlage10>Concerne uniquement le Fonds des Maladies Professionnelles</Remarquebijlage10>
+<begin_geldigheid>1/01/1900</begin_geldigheid>
+<einde_geldigheid>1/01/9999</einde_geldigheid>
+</ann10>
+</List>

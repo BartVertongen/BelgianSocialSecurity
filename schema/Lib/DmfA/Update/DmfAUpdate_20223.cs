@@ -2767,1730 +2767,108 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         Item3,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlRootAttribute("AdditionalScaleSalary", Namespace = "", IsNullable = false)]
-    public partial class AdditionalScaleSalaryType
+    public class AdditionalScaleSalaryType
     {
-
-        private System.DateTime additionalScaleSalaryStartDateField;
-
-        private System.DateTime additionalScaleSalaryEndDateField;
-
-        private bool additionalScaleSalaryEndDateFieldSpecified;
-
-        private string additionalScaleSalaryReferenceField;
-
-        private string additionalScaleSalaryBasisAmountField;
-
-        private string additionalScaleSalaryPercentageField;
-
-        private string nbrHoursOrServicesField;
-
-        private string additionalScaleSalaryAmountField;
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
+        public System.DateTime AdditionalScaleSalaryStartDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime AdditionalScaleSalaryStartDate
-        {
-            get
-            {
-                return this.additionalScaleSalaryStartDateField;
-            }
-            set
-            {
-                this.additionalScaleSalaryStartDateField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime AdditionalScaleSalaryEndDate
-        {
-            get
-            {
-                return this.additionalScaleSalaryEndDateField;
-            }
-            set
-            {
-                this.additionalScaleSalaryEndDateField = value;
-            }
-        }
+        public System.DateTime AdditionalScaleSalaryEndDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AdditionalScaleSalaryEndDateSpecified
-        {
-            get
-            {
-                return this.additionalScaleSalaryEndDateFieldSpecified;
-            }
-            set
-            {
-                this.additionalScaleSalaryEndDateFieldSpecified = value;
-            }
-        }
+        public bool AdditionalScaleSalaryEndDateSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AdditionalScaleSalaryReference
-        {
-            get
-            {
-                return this.additionalScaleSalaryReferenceField;
-            }
-            set
-            {
-                this.additionalScaleSalaryReferenceField = value;
-            }
-        }
+        public string AdditionalScaleSalaryReference;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AdditionalScaleSalaryBasisAmount
-        {
-            get
-            {
-                return this.additionalScaleSalaryBasisAmountField;
-            }
-            set
-            {
-                this.additionalScaleSalaryBasisAmountField = value;
-            }
-        }
+        public string AdditionalScaleSalaryBasisAmount;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AdditionalScaleSalaryPercentage
-        {
-            get
-            {
-                return this.additionalScaleSalaryPercentageField;
-            }
-            set
-            {
-                this.additionalScaleSalaryPercentageField = value;
-            }
-        }
+        public string AdditionalScaleSalaryPercentage;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string NbrHoursOrServices
-        {
-            get
-            {
-                return this.nbrHoursOrServicesField;
-            }
-            set
-            {
-                this.nbrHoursOrServicesField = value;
-            }
-        }
+        public string NbrHoursOrServices;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AdditionalScaleSalaryAmount
-        {
-            get
-            {
-                return this.additionalScaleSalaryAmountField;
-            }
-            set
-            {
-                this.additionalScaleSalaryAmountField = value;
-            }
-        }
+        public string AdditionalScaleSalaryAmount;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
     public enum CapitalizationNotion
     {
+        [System.Xml.Serialization.XmlEnumAttribute("0")] Item0,
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("0")]
-        Item0,
+        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
+        [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum CareerMeasure
     {
+        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
+        [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("CompanyVehicleUpdateAction", Namespace = "", IsNullable = false)]
-    public partial class CompanyVehicleUpdateActionType
+    [XmlRootAttribute("CompanyVehicleUpdateAction", Namespace = "", IsNullable = false)]
+    public class CompanyVehicleUpdateActionType
     {
-
-        private string companyVehicleSequenceNbrField;
-
-        private string licensePlateField;
-
-        private string ecoVehicleField;
-
-        private string companyVehicleVersionNbrField;
-
-        private UpdateAction updateActionField;
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string CompanyVehicleSequenceNbr
-        {
-            get
-            {
-                return this.companyVehicleSequenceNbrField;
-            }
-            set
-            {
-                this.companyVehicleSequenceNbrField = value;
-            }
-        }
+        public string? CompanyVehicleSequenceNbr;
 
         /// <remarks/>
-        public string LicensePlate
-        {
-            get
-            {
-                return this.licensePlateField;
-            }
-            set
-            {
-                this.licensePlateField = value;
-            }
-        }
+        public string? LicensePlate;
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string EcoVehicle
-        {
-            get
-            {
-                return this.ecoVehicleField;
-            }
-            set
-            {
-                this.ecoVehicleField = value;
-            }
-        }
+        [XmlElementAttribute(DataType = "integer")]
+        public string? EcoVehicle;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string CompanyVehicleVersionNbr
-        {
-            get
-            {
-                return this.companyVehicleVersionNbrField;
-            }
-            set
-            {
-                this.companyVehicleVersionNbrField = value;
-            }
-        }
+        [XmlElementAttribute(DataType = "integer")]
+        public string? CompanyVehicleVersionNbr;
 
-        /// <remarks/>
-        public UpdateAction UpdateAction
-        {
-            get
-            {
-                return this.updateActionField;
-            }
-            set
-            {
-                this.updateActionField = value;
-            }
-        }
+        public UpdateAction UpdateAction;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class ComplementaryIndemnity : ComplementaryIndemnityType
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class ComplementaryIndemnity : ComplementaryIndemnityType
     {
-
-        private ComplIndemnityContributionType[] complIndemnityContributionField;
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ComplIndemnityContribution")]
-        public ComplIndemnityContributionType[] ComplIndemnityContribution
-        {
-            get
-            {
-                return this.complIndemnityContributionField;
-            }
-            set
-            {
-                this.complIndemnityContributionField = value;
-            }
-        }
+        public ComplIndemnityContributionType[] ComplIndemnityContribution;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlRootAttribute("ComplIndemnityContribution", Namespace = "", IsNullable = false)]
-    public partial class ComplIndemnityContributionType
-    {
-
-        private string contributionWorkerCodeField;
-
-        private string contributionTypeField;
-
-        private string indemnityContributionPeriodCodeField;
-
-        private ComplIndemnityAmountAdjustNotion complIndemnityAmountAdjustNotionField;
-
-        private string contributionSequenceNbrField;
-
-        private string complIndemnityAmountField;
-
-        private CapitalizationNotion capitalizationNotionField;
-
-        private bool capitalizationNotionFieldSpecified;
-
-        private string welfareBenefitTheoreticalAmountField;
-
-        private string complIndemnityNbrMonthsField;
-
-        private string nbrMonthsDecimalsField;
-
-        private string incompleteMonthNbrDaysField;
-
-        private string incompleteMonthReasonField;
-
-        private string floorApplicationNotionField;
-
-        private string contributionAmountField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ContributionWorkerCode
-        {
-            get
-            {
-                return this.contributionWorkerCodeField;
-            }
-            set
-            {
-                this.contributionWorkerCodeField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ContributionType
-        {
-            get
-            {
-                return this.contributionTypeField;
-            }
-            set
-            {
-                this.contributionTypeField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string IndemnityContributionPeriodCode
-        {
-            get
-            {
-                return this.indemnityContributionPeriodCodeField;
-            }
-            set
-            {
-                this.indemnityContributionPeriodCodeField = value;
-            }
-        }
-
-        /// <remarks/>
-        public ComplIndemnityAmountAdjustNotion ComplIndemnityAmountAdjustNotion
-        {
-            get
-            {
-                return this.complIndemnityAmountAdjustNotionField;
-            }
-            set
-            {
-                this.complIndemnityAmountAdjustNotionField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ContributionSequenceNbr
-        {
-            get
-            {
-                return this.contributionSequenceNbrField;
-            }
-            set
-            {
-                this.contributionSequenceNbrField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ComplIndemnityAmount
-        {
-            get
-            {
-                return this.complIndemnityAmountField;
-            }
-            set
-            {
-                this.complIndemnityAmountField = value;
-            }
-        }
-
-        /// <remarks/>
-        public CapitalizationNotion CapitalizationNotion
-        {
-            get
-            {
-                return this.capitalizationNotionField;
-            }
-            set
-            {
-                this.capitalizationNotionField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CapitalizationNotionSpecified
-        {
-            get
-            {
-                return this.capitalizationNotionFieldSpecified;
-            }
-            set
-            {
-                this.capitalizationNotionFieldSpecified = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string WelfareBenefitTheoreticalAmount
-        {
-            get
-            {
-                return this.welfareBenefitTheoreticalAmountField;
-            }
-            set
-            {
-                this.welfareBenefitTheoreticalAmountField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ComplIndemnityNbrMonths
-        {
-            get
-            {
-                return this.complIndemnityNbrMonthsField;
-            }
-            set
-            {
-                this.complIndemnityNbrMonthsField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string NbrMonthsDecimals
-        {
-            get
-            {
-                return this.nbrMonthsDecimalsField;
-            }
-            set
-            {
-                this.nbrMonthsDecimalsField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string IncompleteMonthNbrDays
-        {
-            get
-            {
-                return this.incompleteMonthNbrDaysField;
-            }
-            set
-            {
-                this.incompleteMonthNbrDaysField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string IncompleteMonthReason
-        {
-            get
-            {
-                return this.incompleteMonthReasonField;
-            }
-            set
-            {
-                this.incompleteMonthReasonField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string FloorApplicationNotion
-        {
-            get
-            {
-                return this.floorApplicationNotionField;
-            }
-            set
-            {
-                this.floorApplicationNotionField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ContributionAmount
-        {
-            get
-            {
-                return this.contributionAmountField;
-            }
-            set
-            {
-                this.contributionAmountField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum ComplIndemnityAmountAdjustNotion
-    {
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("0")]
-        Item0,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
-        Item3,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("4")]
-        Item4,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("9")]
-        Item9,
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class ContributionUnrelatedToNPUpdate : ContributionUnrelatedToNPUpdateType
-    {
-
-        private LastSituationCUNPType lastSituationCUNPField;
-
-        private CUNPUpdateActionType cUNPUpdateActionField;
-
-        /// <remarks/>
-        public LastSituationCUNPType LastSituationCUNP
-        {
-            get
-            {
-                return this.lastSituationCUNPField;
-            }
-            set
-            {
-                this.lastSituationCUNPField = value;
-            }
-        }
-
-        /// <remarks/>
-        public CUNPUpdateActionType CUNPUpdateAction
-        {
-            get
-            {
-                return this.cUNPUpdateActionField;
-            }
-            set
-            {
-                this.cUNPUpdateActionField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("LastSituationCUNP", Namespace = "", IsNullable = false)]
-    public partial class LastSituationCUNPType
-    {
-
-        private string unrelatedEmployerClassField;
-
-        private string unrelatedWorkerCodeField;
-
-        private string contUnrelatedToNPVersionNbrField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string UnrelatedEmployerClass
-        {
-            get
-            {
-                return this.unrelatedEmployerClassField;
-            }
-            set
-            {
-                this.unrelatedEmployerClassField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string UnrelatedWorkerCode
-        {
-            get
-            {
-                return this.unrelatedWorkerCodeField;
-            }
-            set
-            {
-                this.unrelatedWorkerCodeField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ContUnrelatedToNPVersionNbr
-        {
-            get
-            {
-                return this.contUnrelatedToNPVersionNbrField;
-            }
-            set
-            {
-                this.contUnrelatedToNPVersionNbrField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("CUNPUpdateAction", Namespace = "", IsNullable = false)]
-    public partial class CUNPUpdateActionType
-    {
-
-        private string unrelatedEmployerClassField;
-
-        private string unrelatedWorkerCodeField;
-
-        private string unrelatedCalculationBasisField;
-
-        private string unrelatedAmountField;
-
-        private UpdateAction updateActionField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string UnrelatedEmployerClass
-        {
-            get
-            {
-                return this.unrelatedEmployerClassField;
-            }
-            set
-            {
-                this.unrelatedEmployerClassField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string UnrelatedWorkerCode
-        {
-            get
-            {
-                return this.unrelatedWorkerCodeField;
-            }
-            set
-            {
-                this.unrelatedWorkerCodeField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string UnrelatedCalculationBasis
-        {
-            get
-            {
-                return this.unrelatedCalculationBasisField;
-            }
-            set
-            {
-                this.unrelatedCalculationBasisField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string UnrelatedAmount
-        {
-            get
-            {
-                return this.unrelatedAmountField;
-            }
-            set
-            {
-                this.unrelatedAmountField = value;
-            }
-        }
-
-        /// <remarks/>
-        public UpdateAction UpdateAction
-        {
-            get
-            {
-                return this.updateActionField;
-            }
-            set
-            {
-                this.updateActionField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("DeductionDetail", Namespace = "", IsNullable = false)]
-    public partial class DeductionDetailType
-    {
-
-        private string deductionDetailSequenceNbrField;
-
-        private string deductionDetailAmountField;
-
-        private string workingRegulationsRegistryNbrField;
-
-        private System.DateTime workingRegulationsStartingDateField;
-
-        private bool workingRegulationsStartingDateFieldSpecified;
-
-        private string averageWorkingTimeBeforeReductionField;
-
-        private string averageWorkingTimeAfterReductionField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionDetailSequenceNbr
-        {
-            get
-            {
-                return this.deductionDetailSequenceNbrField;
-            }
-            set
-            {
-                this.deductionDetailSequenceNbrField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionDetailAmount
-        {
-            get
-            {
-                return this.deductionDetailAmountField;
-            }
-            set
-            {
-                this.deductionDetailAmountField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkingRegulationsRegistryNbr
-        {
-            get
-            {
-                return this.workingRegulationsRegistryNbrField;
-            }
-            set
-            {
-                this.workingRegulationsRegistryNbrField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime WorkingRegulationsStartingDate
-        {
-            get
-            {
-                return this.workingRegulationsStartingDateField;
-            }
-            set
-            {
-                this.workingRegulationsStartingDateField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool WorkingRegulationsStartingDateSpecified
-        {
-            get
-            {
-                return this.workingRegulationsStartingDateFieldSpecified;
-            }
-            set
-            {
-                this.workingRegulationsStartingDateFieldSpecified = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AverageWorkingTimeBeforeReduction
-        {
-            get
-            {
-                return this.averageWorkingTimeBeforeReductionField;
-            }
-            set
-            {
-                this.averageWorkingTimeBeforeReductionField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AverageWorkingTimeAfterReduction
-        {
-            get
-            {
-                return this.averageWorkingTimeAfterReductionField;
-            }
-            set
-            {
-                this.averageWorkingTimeAfterReductionField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("DismissedStatutoryWorkerContribution", Namespace = "", IsNullable = false)]
-    public partial class DismissedStatutoryWorkerContributionType
-    {
-
-        private string grossRefRemunAmountField;
-
-        private string grossRefRemunContributionAmountField;
-
-        private string refNbrDaysField;
-
-        private System.DateTime subjectionStartingDateField;
-
-        private System.DateTime subjectionEndingDateField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string GrossRefRemunAmount
-        {
-            get
-            {
-                return this.grossRefRemunAmountField;
-            }
-            set
-            {
-                this.grossRefRemunAmountField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string GrossRefRemunContributionAmount
-        {
-            get
-            {
-                return this.grossRefRemunContributionAmountField;
-            }
-            set
-            {
-                this.grossRefRemunContributionAmountField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string RefNbrDays
-        {
-            get
-            {
-                return this.refNbrDaysField;
-            }
-            set
-            {
-                this.refNbrDaysField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime SubjectionStartingDate
-        {
-            get
-            {
-                return this.subjectionStartingDateField;
-            }
-            set
-            {
-                this.subjectionStartingDateField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime SubjectionEndingDate
-        {
-            get
-            {
-                return this.subjectionEndingDateField;
-            }
-            set
-            {
-                this.subjectionEndingDateField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class DmfAUpdate
-    {
-
-        private Form[] formField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Form")]
-        public Form[] Form
-        {
-            get
-            {
-                return this.formField;
-            }
-            set
-            {
-                this.formField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class Form : FormType
-    {
-
-        private ReferenceType referenceField;
-
-        private EmployerDeclarationUpdate employerDeclarationUpdateField;
-
-        /// <remarks/>
-        public ReferenceType Reference
-        {
-            get
-            {
-                return this.referenceField;
-            }
-            set
-            {
-                this.referenceField = value;
-            }
-        }
-
-        /// <remarks/>
-        public EmployerDeclarationUpdate EmployerDeclarationUpdate
-        {
-            get
-            {
-                return this.employerDeclarationUpdateField;
-            }
-            set
-            {
-                this.employerDeclarationUpdateField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("Reference", Namespace = "", IsNullable = false)]
-    public partial class ReferenceType
-    {
-
-        private ReferenceType1 referenceType1Field;
-
-        private ReferenceOrigin referenceOriginField;
-
-        private string referenceNbrField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ReferenceType")]
-        public ReferenceType1 ReferenceType1
-        {
-            get
-            {
-                return this.referenceType1Field;
-            }
-            set
-            {
-                this.referenceType1Field = value;
-            }
-        }
-
-        /// <remarks/>
-        public ReferenceOrigin ReferenceOrigin
-        {
-            get
-            {
-                return this.referenceOriginField;
-            }
-            set
-            {
-                this.referenceOriginField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string ReferenceNbr
-        {
-            get
-            {
-                return this.referenceNbrField;
-            }
-            set
-            {
-                this.referenceNbrField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute("ReferenceType", Namespace = "", IsNullable = false)]
-    public enum ReferenceType1
-    {
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum ReferenceOrigin
-    {
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class EmployerDeclarationUpdate : EmployerDeclarationUpdateType
-    {
-
-        private object[] itemsField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("CompanyVehicleUpdateAction", typeof(CompanyVehicleUpdateActionType))]
-        [System.Xml.Serialization.XmlElementAttribute("ContributionUnrelatedToNPUpdate", typeof(ContributionUnrelatedToNPUpdate))]
-        [System.Xml.Serialization.XmlElementAttribute("NaturalPersonUpdate", typeof(NaturalPersonUpdate))]
-        public object[] Items
-        {
-            get
-            {
-                return this.itemsField;
-            }
-            set
-            {
-                this.itemsField = value;
-            }
-        }
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class NaturalPersonUpdate : NaturalPersonUpdateType
-    {
-        [XmlElementAttribute("WorkerRecordUpdate")]
-        public WorkerRecordUpdate[] WorkerRecordUpdate;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public class WorkerRecordUpdate : WorkerRecordUpdateType
-    {
-        public LastSituationWRType LastSituationWR;
-
-        public WorkerRecordUpdateAction WorkerRecordUpdateAction;
-    }
-
-    [SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRootAttribute("LastSituationWR", Namespace = "", IsNullable = false)]
-    public partial class LastSituationWRType
-    {
-        [XmlElementAttribute(DataType = "integer")]
-        public string EmployerClass;
-
-        /// <remarks/>
-        [XmlElementAttribute(DataType = "integer")]
-        public string WorkerCode;
-
-        /// <remarks/>
-        [XmlElementAttribute(DataType = "integer")]
-        public string WorkerRecordVersionNbr;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class WorkerRecordUpdateAction : WorkerRecordUpdateActionType
-    {
-        [System.Xml.Serialization.XmlElementAttribute("ActivationInformation", typeof(ActivationInformationType))]
-        [System.Xml.Serialization.XmlElementAttribute("ComplementaryIndemnity", typeof(ComplementaryIndemnity))]
-        [System.Xml.Serialization.XmlElementAttribute("DismissedStatutoryWorkerContribution", typeof(DismissedStatutoryWorkerContributionType))]
-        [System.Xml.Serialization.XmlElementAttribute("EarlyRetirementContribution", typeof(EarlyRetirementContributionType))]
-        [System.Xml.Serialization.XmlElementAttribute("IndemnityWAPM", typeof(IndemnityWAPMType))]
-        [System.Xml.Serialization.XmlElementAttribute("OccupationUpdate", typeof(OccupationUpdate))]
-        [System.Xml.Serialization.XmlElementAttribute("StudentContribution", typeof(StudentContributionType))]
-        [System.Xml.Serialization.XmlElementAttribute("WorkerContribution", typeof(WorkerContributionType))]
-        [System.Xml.Serialization.XmlElementAttribute("WorkerDeduction", typeof(WorkerDeduction))]
-        public object[] Items;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("EarlyRetirementContribution", Namespace = "", IsNullable = false)]
-    public partial class EarlyRetirementContributionType
-    {
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string EarlyRetirementCode;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string EarlyRetirementNbrMonths;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string EarlyRetirementContributionAmount;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("IndemnityWAPM", Namespace = "", IsNullable = false)]
-    public class IndemnityWAPMType
-    {
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string IndemnityNature;
-
-        /// <remarks/>
-        public string IncapacityDegree;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string IndemnityAmount;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class OccupationUpdate : OccupationUpdateType
-    {
-        public OccupationInformationsType OccupationInformations;
-
-        /// <remarks/>
-        public SecondPillarInformationType SecondPillarInformation;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Service")]
-        public ServiceType[] Service;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("Remun")]
-        public RemunType[] Remun;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("OccupationPublicServiceData")]
-        public OccupationPublicServiceData[] OccupationPublicServiceData;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ReorgMeasureInformation")]
-        public ReorgMeasureInformationType[] ReorgMeasureInformation;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("OccupationDeduction")]
-        public OccupationDeduction[] OccupationDeduction;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("OccupationInformations", Namespace = "", IsNullable = false)]
-    public class OccupationInformationsType
-    {
-        public HorecaExtra HorecaExtra;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool HorecaExtraSpecified;
-
-        /// <remarks/>
-        public PostedWorker PostedWorker;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PostedWorkerSpecified;
-
-        /// <remarks/>
-        public NOSSLPASocialMaribel NOSSLPASocialMaribel;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NOSSLPASocialMaribelSpecified;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string HourRemun;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string HourRemunInThousandthOfEuro;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime SixMonthsIllnessDate;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SixMonthsIllnessDateSpecified;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string FirstWeekGuaranteedSalaryNbrDays;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string IllnessGrossRemunAmount;
-
-        /// <remarks/>
-        public PSDDclExemption PSDDclExemption;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PSDDclExemptionSpecified;
-
-        /// <remarks/>
-        public SupplPensionContributionExemption SupplPensionContributionExemption;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SupplPensionContributionExemptionSpecified;
-
-        /// <remarks/>
-        public ObligationControlInformation ObligationControlInformation;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ObligationControlInformationSpecified;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime DefinitiveNominationDate;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DefinitiveNominationDateSpecified;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime NewMaribelEmploymentDate;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NewMaribelEmploymentDateSpecified;
-
-        /// <remarks/>
-        public PSPContribCalcBasisDerogation PSPContribCalcBasisDerogation;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool PSPContribCalcBasisDerogationSpecified;
-
-        /// <remarks/>
-        public CareerMeasure CareerMeasure;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool CareerMeasureSpecified;
-
-        /// <remarks/>
-        public ServiceExemptionNotion ServiceExemptionNotion;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ServiceExemptionNotionSpecified;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string HolidayDaysNumber;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string SectorDetail;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string MobilityBudget;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string FlemishTrainingHolidayHoursNbr;
-
-        /// <remarks/>
-        public RegionalAidMeasure RegionalAidMeasure;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool RegionalAidMeasureSpecified;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum HorecaExtra { E, }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum PostedWorker
-    {
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum NOSSLPASocialMaribel
-    {
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
-        Item3,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("4")]
-        Item4,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("5")]
-        Item5,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("6")]
-        Item6,
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("7")]
-        Item7,
-
-        [System.Xml.Serialization.XmlEnumAttribute("8")]
-        Item8,
-
-        [System.Xml.Serialization.XmlEnumAttribute("9")]
-        Item9,
-
-        [System.Xml.Serialization.XmlEnumAttribute("10")]
-        Item10,
-
-        [System.Xml.Serialization.XmlEnumAttribute("11")]
-        Item11,
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum PSDDclExemption
-    {
-        [XmlEnumAttribute("1")] Item1,
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum SupplPensionContributionExemption
-    {
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum ObligationControlInformation { FWT, }
-
-
-    [System.SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum PSPContribCalcBasisDerogation
-    {
-        [XmlEnumAttribute("1")] Item1,
-
-        [XmlEnumAttribute("2")] Item2,
-    }
-
-
-    [System.SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum RegionalAidMeasure { B, }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRootAttribute("SecondPillarInformation", Namespace = "", IsNullable = false)]
-    public class SecondPillarInformationType
-    {
-        public string ReferenceYearMonth;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string MonthlyScaleSalary;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string MonthlyAdditionalScaleSalary;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string MonthlyHomeIndemnity;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string OfficialLanguage;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("Service", Namespace = "", IsNullable = false)]
-    public partial class ServiceType
-    {
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ServiceSequenceNbr;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ServiceCode;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ServiceNbrDays;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ServiceNbrHours;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string FlightNbrMinutes;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("Remun", Namespace = "", IsNullable = false)]
-    public partial class RemunType
-    {
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string RemunSequenceNbr;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string RemunCode;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string BonusPaymentFrequency;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string PercentagePaid;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string RemunAmount;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public class OccupationPublicServiceData : OccupationPublicServiceDataType
-    {
-        [System.Xml.Serialization.XmlElementAttribute("ScaleSalary")]
-        public ScaleSalary[] ScaleSalary;
-    }
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class ScaleSalary : ScaleSalaryType
-    {
-        [System.Xml.Serialization.XmlElementAttribute("AdditionalScaleSalary")]
-        public AdditionalScaleSalaryType[] AdditionalScaleSalary;
-    }
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("ReorgMeasureInformation", Namespace = "", IsNullable = false)]
-    public partial class ReorgMeasureInformationType
-    {
-        public ReorganisationMeasure ReorganisationMeasure;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ReorganisationMeasurePercentage;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public class OccupationDeduction : OccupationDeductionType
-    {
-        public OccupationDeductionDetailType OccupationDeductionDetail;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRoot("OccupationDeductionDetail", Namespace = "", IsNullable = false)]
-    public class OccupationDeductionDetailType
-    {
-        [XmlElement(DataType = "integer")]
-        public string DeductionDetailSequenceNbr;
-
-        /// <remarks/>
-        [XmlElementAttribute(DataType = "date")]
-        public System.DateTime WorkingRegulationsStartingDate;
-
-        /// <remarks/>
-        [XmlIgnoreAttribute()]
-        public bool WorkingRegulationsStartingDateSpecified;
-
-        /// <remarks/>
-        [XmlElementAttribute(DataType = "date")]
-        public System.DateTime WorkingRegulationsEndingDate;
-
-        /// <remarks/>
-        [XmlIgnoreAttribute()]
-        public bool WorkingRegulationsEndingDateSpecified;
-
-        /// <remarks/>
-        [XmlElementAttribute(DataType = "integer")]
-        public string AverageWorkingTimeBeforeReduction;
-
-        /// <remarks/>
-        [XmlElementAttribute(DataType = "integer")]
-        public string AverageWorkingTimeAfterReduction;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRootAttribute("StudentContribution", Namespace = "", IsNullable = false)]
-    public class StudentContributionType
-    {
-        [XmlElementAttribute(DataType = "integer")]
-        public string StudentRemunAmount;
-
-        /// <remarks/>
-        [XmlElementAttribute(DataType = "integer")]
-        public string StudentContributionAmount;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("StudentHoursNbr", typeof(string), DataType = "integer")]
-        [System.Xml.Serialization.XmlElementAttribute("StudentNbrDays", typeof(string), DataType = "integer")]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName")]
-        public string Item;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemChoiceType ItemElementName;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string LocalUnitID;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(IncludeInSchema = false)]
-    public enum ItemChoiceType { StudentHoursNbr, StudentNbrDays, }
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("WorkerContribution", Namespace = "", IsNullable = false)]
-    public partial class WorkerContributionType
+    public class ComplIndemnityContributionType
     {
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ContributionWorkerCode;
@@ -4501,19 +2879,183 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ContributionCalculationBasis;
+        public string IndemnityContributionPeriodCode;
+
+        /// <remarks/>
+        public ComplIndemnityAmountAdjustNotion ComplIndemnityAmountAdjustNotion;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string ContributionSequenceNbr;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string ComplIndemnityAmount;
+
+        /// <remarks/>
+        public CapitalizationNotion CapitalizationNotion;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool CapitalizationNotionSpecified;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string WelfareBenefitTheoreticalAmount;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string ComplIndemnityNbrMonths;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string NbrMonthsDecimals;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string IncompleteMonthNbrDays;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string IncompleteMonthReason;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string FloorApplicationNotion;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ContributionAmount;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum ComplIndemnityAmountAdjustNotion
+    {
+        [System.Xml.Serialization.XmlEnumAttribute("0")] Item0,
+
+        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
+
+        [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
+
+        [System.Xml.Serialization.XmlEnumAttribute("3")] Item3,
 
         /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("4")] Item4,
+
+        [System.Xml.Serialization.XmlEnumAttribute("9")] Item9,
+    }
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public partial class ContributionUnrelatedToNPUpdate : ContributionUnrelatedToNPUpdateType
+    {
+        public LastSituationCUNPType LastSituationCUNP;
+
+        public CUNPUpdateActionType CUNPUpdateAction;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("LastSituationCUNP", Namespace = "", IsNullable = false)]
+    public class LastSituationCUNPType
+    {
+        [XmlElementAttribute(DataType = "integer")]
+        public string? UnrelatedEmployerClass;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? UnrelatedWorkerCode;
+
+        /// <remarks/>
+        [XmlElementAttribute(DataType = "integer")]
+        public string? ContUnrelatedToNPVersionNbr;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("CUNPUpdateAction", Namespace = "", IsNullable = false)]
+    public class CUNPUpdateActionType
+    {
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string UnrelatedEmployerClass;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string UnrelatedWorkerCode;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string UnrelatedCalculationBasis;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string UnrelatedAmount;
+
+        /// <remarks/>
+        public UpdateAction UpdateAction;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("DeductionDetail", Namespace = "", IsNullable = false)]
+    public class DeductionDetailType
+    {
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string DeductionDetailSequenceNbr;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string DeductionDetailAmount;
+
+        public string WorkingRegulationsRegistryNbr;
+
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime FirstHiringDate;
+        public System.DateTime WorkingRegulationsStartingDate;
+
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool WorkingRegulationsStartingDateSpecified;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string AverageWorkingTimeBeforeReduction;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string AverageWorkingTimeAfterReduction;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlRootAttribute("DismissedStatutoryWorkerContribution", Namespace = "", IsNullable = false)]
+    public class DismissedStatutoryWorkerContributionType
+    {
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string GrossRefRemunAmount;
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool FirstHiringDateSpecified;
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string GrossRefRemunContributionAmount;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? RefNbrDays;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
+        public System.DateTime SubjectionStartingDate;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
+        public System.DateTime SubjectionEndingDate;
     }
 
 
@@ -4522,9 +3064,590 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class WorkerDeduction : WorkerDeductionType
+    public class DmfAUpdate
     {
-        [System.Xml.Serialization.XmlElementAttribute("DeductionDetail")]
+        [System.Xml.Serialization.XmlElementAttribute("Form")]
+        public Form[]? Form;
+    }
+
+
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class Form : FormType
+    {
+        public ReferenceType? Reference;
+
+        public EmployerDeclarationUpdate? EmployerDeclarationUpdate;
+    }
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("Reference", Namespace = "", IsNullable = false)]
+    public class ReferenceType
+    {
+        [XmlElementAttribute("ReferenceType")]
+        public ReferenceType1 ReferenceType1;
+
+        public ReferenceOrigin ReferenceOrigin;
+
+        public string? ReferenceNbr;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    [System.Xml.Serialization.XmlRootAttribute("ReferenceType", Namespace = "", IsNullable = false)]
+    public enum ReferenceType1
+    {
+        [XmlEnumAttribute("1")] Item1,
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum ReferenceOrigin
+    {
+        [XmlEnumAttribute("1")] Item1,
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class EmployerDeclarationUpdate : EmployerDeclarationUpdateType
+    {
+        [System.Xml.Serialization.XmlElementAttribute("CompanyVehicleUpdateAction", typeof(CompanyVehicleUpdateActionType))]
+        [System.Xml.Serialization.XmlElementAttribute("ContributionUnrelatedToNPUpdate", typeof(ContributionUnrelatedToNPUpdate))]
+        [XmlElementAttribute("NaturalPersonUpdate", typeof(NaturalPersonUpdate))]
+        public object[]? Items;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class NaturalPersonUpdate : NaturalPersonUpdateType
+    {
+        [XmlElementAttribute("WorkerRecordUpdate")]
+        public WorkerRecordUpdate[]? WorkerRecordUpdate;
+    }
+
+
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class WorkerRecordUpdate : WorkerRecordUpdateType
+    {
+        public LastSituationWRType? LastSituationWR;
+
+        public WorkerRecordUpdateAction? WorkerRecordUpdateAction;
+    }
+
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("LastSituationWR", Namespace = "", IsNullable = false)]
+    public class LastSituationWRType
+    {
+        [XmlElementAttribute(DataType = "integer")]
+        public string? EmployerClass;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? WorkerCode;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? WorkerRecordVersionNbr;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class WorkerRecordUpdateAction : WorkerRecordUpdateActionType
+    {
+        [XmlElementAttribute("ActivationInformation", typeof(ActivationInformationType))]
+        [System.Xml.Serialization.XmlElementAttribute("ComplementaryIndemnity", typeof(ComplementaryIndemnity))]
+        [System.Xml.Serialization.XmlElementAttribute("DismissedStatutoryWorkerContribution", typeof(DismissedStatutoryWorkerContributionType))]
+        [System.Xml.Serialization.XmlElementAttribute("EarlyRetirementContribution", typeof(EarlyRetirementContributionType))]
+        [System.Xml.Serialization.XmlElementAttribute("IndemnityWAPM", typeof(IndemnityWAPMType))]
+        [System.Xml.Serialization.XmlElementAttribute("OccupationUpdate", typeof(OccupationUpdate))]
+        [System.Xml.Serialization.XmlElementAttribute("StudentContribution", typeof(StudentContributionType))]
+        [System.Xml.Serialization.XmlElementAttribute("WorkerContribution", typeof(WorkerContributionType))]
+        [XmlElementAttribute("WorkerDeduction", typeof(WorkerDeduction))]
+        public object[]? Items;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("EarlyRetirementContribution", Namespace = "", IsNullable = false)]
+    public class EarlyRetirementContributionType
+    {
+        [XmlElementAttribute(DataType = "integer")]
+        public string? EarlyRetirementCode;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? EarlyRetirementNbrMonths;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? EarlyRetirementContributionAmount;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("IndemnityWAPM", Namespace = "", IsNullable = false)]
+    public class IndemnityWAPMType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? IndemnityNature;
+
+        public string? IncapacityDegree;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? IndemnityAmount;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class OccupationUpdate : OccupationUpdateType
+    {
+        public OccupationInformationsType? OccupationInformations;
+
+        public SecondPillarInformationType? SecondPillarInformation;
+
+        [XmlElementAttribute("Service")]
+        public ServiceType[]? Service;
+
+        [XmlElementAttribute("Remun")]
+        public RemunType[]? Remun;
+
+        [XmlElementAttribute("OccupationPublicServiceData")]
+        public OccupationPublicServiceData[]? OccupationPublicServiceData;
+
+        [XmlElementAttribute("ReorgMeasureInformation")]
+        public ReorgMeasureInformationType[]? ReorgMeasureInformation;
+
+        [XmlElementAttribute("OccupationDeduction")]
+        public OccupationDeduction[]? OccupationDeduction;
+    }
+
+
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRoot("OccupationInformations", Namespace = "", IsNullable = false)]
+    public class OccupationInformationsType
+    {
+        public HorecaExtra HorecaExtra;
+
+        [XmlIgnoreAttribute()]
+        public bool HorecaExtraSpecified;
+
+        public PostedWorker PostedWorker;
+
+        [XmlIgnoreAttribute()]
+        public bool PostedWorkerSpecified;
+
+        public NOSSLPASocialMaribel NOSSLPASocialMaribel;
+
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool NOSSLPASocialMaribelSpecified;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? HourRemun;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? HourRemunInThousandthOfEuro;
+
+        [XmlElementAttribute(DataType = "date")]
+        public DateTime SixMonthsIllnessDate;
+
+        [XmlIgnoreAttribute()]
+        public bool SixMonthsIllnessDateSpecified;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? FirstWeekGuaranteedSalaryNbrDays;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? IllnessGrossRemunAmount;
+
+        public PSDDclExemption PSDDclExemption;
+
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool PSDDclExemptionSpecified;
+
+        public SupplPensionContributionExemption SupplPensionContributionExemption;
+
+        [XmlIgnoreAttribute()]
+        public bool SupplPensionContributionExemptionSpecified;
+
+        public ObligationControlInformation ObligationControlInformation;
+
+        [XmlIgnoreAttribute()]
+        public bool ObligationControlInformationSpecified;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
+        public System.DateTime DefinitiveNominationDate;
+
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool DefinitiveNominationDateSpecified;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
+        public System.DateTime NewMaribelEmploymentDate;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool NewMaribelEmploymentDateSpecified;
+
+        public PSPContribCalcBasisDerogation PSPContribCalcBasisDerogation;
+
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool PSPContribCalcBasisDerogationSpecified;
+
+        public CareerMeasure CareerMeasure;
+
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool CareerMeasureSpecified;
+
+        public ServiceExemptionNotion ServiceExemptionNotion;
+
+        [XmlIgnoreAttribute()]
+        public bool ServiceExemptionNotionSpecified;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? HolidayDaysNumber;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? SectorDetail;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? MobilityBudget;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? FlemishTrainingHolidayHoursNbr;
+
+        public RegionalAidMeasure RegionalAidMeasure;
+
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool RegionalAidMeasureSpecified;
+    }
+
+
+    [System.SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum HorecaExtra { E, }
+
+
+    [System.SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum PostedWorker
+    {
+        [XmlEnumAttribute("1")] Item1,
+
+        [XmlEnumAttribute("2")] Item2,
+    }
+
+
+    [System.SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum NOSSLPASocialMaribel
+    {
+        [XmlEnum("1")] Item1,
+
+        [XmlEnumAttribute("2")] Item2,
+
+        [System.Xml.Serialization.XmlEnumAttribute("3")] Item3,
+
+        [System.Xml.Serialization.XmlEnumAttribute("4")] Item4,
+
+        [System.Xml.Serialization.XmlEnumAttribute("5")] Item5,
+
+        [System.Xml.Serialization.XmlEnumAttribute("6")] Item6,
+
+        [XmlEnumAttribute("7")] Item7,
+
+        [XmlEnumAttribute("8")] Item8,
+
+        [XmlEnumAttribute("9")] Item9,
+
+        [XmlEnum("10")] Item10,
+
+        [XmlEnumAttribute("11")] Item11,
+    }
+
+
+    [System.SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum PSDDclExemption
+    {
+        [XmlEnumAttribute("1")] Item1,
+    }
+
+
+    [System.SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum SupplPensionContributionExemption
+    {
+        [XmlEnumAttribute("1")] Item1,
+    }
+
+
+    [SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum ObligationControlInformation { FWT, }
+
+
+    [System.SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum PSPContribCalcBasisDerogation
+    {
+        [XmlEnum("1")] Item1,
+
+        [XmlEnum("2")] Item2,
+    }
+
+
+    [SerializableAttribute()]
+    [XmlType(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public enum RegionalAidMeasure { B, }
+
+
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRoot("SecondPillarInformation", Namespace = "", IsNullable = false)]
+    public class SecondPillarInformationType
+    {
+        public string? ReferenceYearMonth;
+
+        /// <remarks/>
+        [XmlElementAttribute(DataType = "integer")]
+        public string? MonthlyScaleSalary;
+
+        /// <remarks/>
+        [XmlElementAttribute(DataType = "integer")]
+        public string? MonthlyAdditionalScaleSalary;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? MonthlyHomeIndemnity;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? OfficialLanguage;
+    }
+
+
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("Service", Namespace = "", IsNullable = false)]
+    public class ServiceType
+    {
+        [XmlElementAttribute(DataType = "integer")]
+        public string? ServiceSequenceNbr;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? ServiceCode;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? ServiceNbrDays;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? ServiceNbrHours;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? FlightNbrMinutes;
+    }
+
+
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("Remun", Namespace = "", IsNullable = false)]
+    public class RemunType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? RemunSequenceNbr;
+
+        [XmlElement(DataType = "integer")]
+        public string? RemunCode;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? BonusPaymentFrequency;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? PercentagePaid;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? RemunAmount;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class OccupationPublicServiceData : OccupationPublicServiceDataType
+    {
+        [XmlElementAttribute("ScaleSalary")]
+        public ScaleSalary[]? ScaleSalary;
+    }
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public partial class ScaleSalary : ScaleSalaryType
+    {
+        [XmlElementAttribute("AdditionalScaleSalary")]
+        public AdditionalScaleSalaryType[]? AdditionalScaleSalary;
+    }
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRoot("ReorgMeasureInformation", Namespace = "", IsNullable = false)]
+    public class ReorgMeasureInformationType
+    {
+        public ReorganisationMeasure ReorganisationMeasure;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? ReorganisationMeasurePercentage;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public class OccupationDeduction : OccupationDeductionType
+    {
+        public OccupationDeductionDetailType? OccupationDeductionDetail;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRoot("OccupationDeductionDetail", Namespace = "", IsNullable = false)]
+    public class OccupationDeductionDetailType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? DeductionDetailSequenceNbr;
+
+        [XmlElementAttribute(DataType = "date")]
+        public System.DateTime WorkingRegulationsStartingDate;
+
+        [XmlIgnoreAttribute()]
+        public bool WorkingRegulationsStartingDateSpecified;
+
+        [XmlElementAttribute(DataType = "date")]
+        public System.DateTime WorkingRegulationsEndingDate;
+
+        [XmlIgnoreAttribute()]
+        public bool WorkingRegulationsEndingDateSpecified;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? AverageWorkingTimeBeforeReduction;
+
+        [XmlElement(DataType = "integer")]
+        public string? AverageWorkingTimeAfterReduction;
+    }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("StudentContribution", Namespace = "", IsNullable = false)]
+    public class StudentContributionType
+    {
+        [XmlElementAttribute(DataType = "integer")]
+        public string? StudentRemunAmount;
+
+        [XmlElementAttribute(DataType = "integer")]
+        public string? StudentContributionAmount;
+
+        [System.Xml.Serialization.XmlElementAttribute("StudentHoursNbr", typeof(string), DataType = "integer")]
+        [System.Xml.Serialization.XmlElementAttribute("StudentNbrDays", typeof(string), DataType = "integer")]
+        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName")]
+        public string? Item;
+
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ItemChoiceType ItemElementName;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? LocalUnitID;
+    }
+
+
+    [System.SerializableAttribute()]
+    [XmlTypeAttribute(IncludeInSchema = false)]
+    public enum ItemChoiceType { StudentHoursNbr, StudentNbrDays, }
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlRootAttribute("WorkerContribution", Namespace = "", IsNullable = false)]
+    public class WorkerContributionType
+    {
+        [XmlElementAttribute(DataType = "integer")]
+        public string? ContributionWorkerCode;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? ContributionType;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? ContributionCalculationBasis;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string? ContributionAmount;
+
+        [XmlElementAttribute(DataType = "date")]
+        public System.DateTime FirstHiringDate;
+
+        [XmlIgnore()]
+        public bool FirstHiringDateSpecified;
+    }
+
+
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class WorkerDeduction : WorkerDeductionType
+    {
+        [XmlElement("DeductionDetail")]
         public DeductionDetailType[]? DeductionDetail;
     }
 }
