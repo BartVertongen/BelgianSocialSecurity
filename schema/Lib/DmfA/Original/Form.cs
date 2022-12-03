@@ -11,9 +11,10 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Original223
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class DmfAOriginal
+    public class Form : FormType
     {
-        [XmlElement("Form")]
-        public Form[]? Form;
+        public ReferenceType? Reference;
+
+        public EmployerDeclaration? EmployerDeclaration;
     }
 }

@@ -1,7 +1,6 @@
 ﻿//By Bart Vertongen Dec 2022.
 
 using System.Xml.Serialization;
-using VertSoft.BelgianHR.Xml.DmfA.Common;
 
 
 namespace VertSoft.BelgianHR.Xml.DmfA.Original223
@@ -11,9 +10,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Original223
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class DmfAOriginal
+    public class OccupationPublicServiceData : OccupationPublicServiceDataType
     {
-        [XmlElement("Form")]
-        public Form[]? Form;
+        [XmlElement("ScaleSalary")]
+        public ScaleSalary[]? ScaleSalary;
     }
 }

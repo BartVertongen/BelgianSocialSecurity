@@ -1,5 +1,7 @@
-﻿
+﻿//By Bart Vertongen Dec 2022.
+
 using System.Xml.Serialization;
+using VertSoft.BelgianHR.Xml.DmfA.Common;
 
 
 namespace VertSoft.BelgianHR.Xml.DmfA.Original223
@@ -7,15 +9,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Original223
     [Serializable()]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum TenthOrTwelfth
+    public enum SupplPensionContributionExemption
     {
-        [XmlEnum("10")]
-        Item10,
-
-        [XmlEnum("12")]
-        Item12,
-
-        [XmlEnum("20")]
-        Item20,
+        [XmlEnum("1")] Item1,
     }
 }

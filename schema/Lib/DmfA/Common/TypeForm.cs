@@ -3,7 +3,7 @@
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.DmfA.Original223
+namespace VertSoft.BelgianHR.Xml.DmfA.Common
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]

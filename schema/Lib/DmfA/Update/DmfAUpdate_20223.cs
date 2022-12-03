@@ -5,100 +5,48 @@ using VertSoft.BelgianHR.Xml.DmfA.Common;
 
 namespace VertSoft.BelgianHR.Xml.DmfA.Update223
 {
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class ScaleSalaryType
-    {
-        [XmlElementAttribute(DataType = "date")]
-        public System.DateTime ScaleSalaryStartDate;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime ScaleSalaryEndDate;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ScaleSalaryEndDateSpecified;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "gYearMonth")]
-        public string PecuniarySeniorityStartDate;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string SalaryScaleReference;
-
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ScaleSalaryAmount;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string WeekHoursNbr;
-
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ScaleSalaryWeekHoursNbr;
-
-        /// <remarks/>
-        public ReducedScaleSalaryNotion ReducedScaleSalaryNotion;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReducedScaleSalaryNotionSpecified;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [SerializableAttribute()]
+    [XmlType(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum ReducedScaleSalaryNotion
     {
-        [XmlEnumAttribute("1")] Item1,
+        [XmlEnum("1")] Item1,
     }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class OccupationPublicServiceDataType
+    public class OccupationPublicServiceDataType
     {
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
+        [XmlElementAttribute(DataType = "date")]
         public System.DateTime OccupationPSDStartDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
         public System.DateTime OccupationPSDEndDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool OccupationPSDEndDateSpecified;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string PublicSectorInstitutionType;
+        public string? PublicSectorInstitutionType;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string PublicSectorPersonnelCategory;
+        public string? PublicSectorPersonnelCategory;
 
-        /// <remarks/>
-        public string GradeOrFunction;
+        public string? GradeOrFunction;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string OfficialLanguage;
+        public string? OfficialLanguage;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AssignmentType;
+        public string? AssignmentType;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string FunctionNature;
+        public string? FunctionNature;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string StatutoryRelationEndReason;
+        public string? StatutoryRelationEndReason;
     }
 
 
@@ -107,8 +55,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public class OccupationUpdateType
     {
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string OccupationSequenceNbr;
+        [XmlElementAttribute(DataType = "integer")]
+        public string? OccupationSequenceNbr;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
@@ -126,24 +74,20 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool OccupationEndingDateSpecified;
 
-        /// <remarks/>
         public string JointCommissionNbr;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string WorkingDaysSystem;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ContractType;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string RefMeanWorkingHours;
 
         public string WorkerStatus;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElementAttribute(DataType = "integer")]
         public string MeanWorkingHours;
 
         public ReorganisationMeasure ReorganisationMeasure;
@@ -190,19 +134,16 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool DaysJustificationSpecified;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ActivityCode;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string OccupationVersionNbr;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string LocalUnitID;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElementAttribute(DataType = "integer")]
         public string ShipId;
 
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
@@ -348,22 +289,6 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum TenthOrTwelfth
-    {
-        [System.Xml.Serialization.XmlEnumAttribute("10")]
-        Item10,
-
-        [System.Xml.Serialization.XmlEnumAttribute("12")]
-        Item12,
-
-        [System.Xml.Serialization.XmlEnumAttribute("20")]
-        Item20,
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum DaysJustification
     {
         [System.Xml.Serialization.XmlEnumAttribute("1")]
@@ -464,9 +389,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
     public class WorkerRecordUpdateType
     { }
 
@@ -590,17 +515,17 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public class FormType
     {
         public Identification Identification;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
+        [XmlElementAttribute(DataType = "date")]
         public System.DateTime FormCreationDate;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "time")]
+        [XmlElementAttribute(DataType = "time")]
         public System.DateTime FormCreationHour;
 
         public AttestationStatus AttestationStatus;
@@ -610,22 +535,22 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
 
 
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum Identification { DMFAUPD, }
 
 
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum AttestationStatus
     { [System.Xml.Serialization.XmlEnumAttribute("1")] Item1, }
 
 
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum TypeForm { SU, }
+    //[System.SerializableAttribute()]
+    //[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    //[System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    //public enum TypeForm { SU, }
 
 
     [System.SerializableAttribute()]
@@ -644,26 +569,22 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string EmployerNotion;
 
-        /// <remarks/>
         public string JointCommissionNbr;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ActivityCode;
 
-        /// <remarks/>
         public DebtorType DebtorType;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnoreAttribute()]
         public bool DebtorTypeSpecified;
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
+        [XmlElementAttribute(DataType = "date")]
         public System.DateTime FirstComplIndemnityDate;
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElementAttribute(DataType = "integer")]
         public string ComplIndemnityAgreementNotion;
 
         /// <remarks/>
@@ -724,14 +645,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
 
         [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
 
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
-        Item3,
+        [System.Xml.Serialization.XmlEnumAttribute("3")] Item3,
 
-        [System.Xml.Serialization.XmlEnumAttribute("4")]
-        Item4,
+        [System.Xml.Serialization.XmlEnumAttribute("4")] Item4,
 
-        [System.Xml.Serialization.XmlEnumAttribute("5")]
-        Item5,
+        [System.Xml.Serialization.XmlEnumAttribute("5")] Item5,
     }
 
 
@@ -740,14 +658,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum HalfTimeCareerInterruptionNotion
     {
-        [XmlEnumAttribute("0")]
-        Item0,
+        [XmlEnumAttribute("0")] Item0,
 
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
+        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
 
-        [System.Xml.Serialization.XmlEnumAttribute("9")]
-        Item9,
+        [System.Xml.Serialization.XmlEnumAttribute("9")] Item9,
     }
 
 
@@ -756,29 +671,21 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum ServiceExemptionNotion
     {
-        [System.Xml.Serialization.XmlEnumAttribute("0")]
-        Item0,
+        [System.Xml.Serialization.XmlEnumAttribute("0")] Item0,
 
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
+        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
 
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
+        [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
 
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
-        Item3,
+        [System.Xml.Serialization.XmlEnumAttribute("3")] Item3,
 
-        [System.Xml.Serialization.XmlEnumAttribute("4")]
-        Item4,
+        [System.Xml.Serialization.XmlEnumAttribute("4")] Item4,
 
-        [System.Xml.Serialization.XmlEnumAttribute("5")]
-        Item5,
+        [System.Xml.Serialization.XmlEnumAttribute("5")] Item5,
 
-        [System.Xml.Serialization.XmlEnumAttribute("6")]
-        Item6,
+        [System.Xml.Serialization.XmlEnumAttribute("6")] Item6,
 
-        [System.Xml.Serialization.XmlEnumAttribute("9")]
-        Item9,
+        [System.Xml.Serialization.XmlEnumAttribute("9")] Item9,
     }
 
 
@@ -787,14 +694,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum ReplacementAccordanceWCCNotion
     {
-        [System.Xml.Serialization.XmlEnumAttribute("0")]
-        Item0,
+        [System.Xml.Serialization.XmlEnumAttribute("0")] Item0,
 
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
+        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
 
-        [System.Xml.Serialization.XmlEnumAttribute("9")]
-        Item9,
+        [System.Xml.Serialization.XmlEnumAttribute("9")] Item9,
     }
 
 
@@ -804,14 +708,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     public enum ResumptionOfWorkMeasure
     {
 
-        [System.Xml.Serialization.XmlEnumAttribute("0")]
-        Item0,
+        [System.Xml.Serialization.XmlEnumAttribute("0")] Item0,
 
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
+        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
 
-        [System.Xml.Serialization.XmlEnumAttribute("9")]
-        Item9,
+        [System.Xml.Serialization.XmlEnumAttribute("9")] Item9,
     }
 
 
@@ -846,10 +747,10 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
         public System.DateTime AdditionalScaleSalaryEndDate;
 
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnoreAttribute()]
         public bool AdditionalScaleSalaryEndDateSpecified;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElementAttribute(DataType = "integer")]
         public string AdditionalScaleSalaryReference;
 
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
@@ -871,9 +772,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum CapitalizationNotion
     {
-        [System.Xml.Serialization.XmlEnumAttribute("0")] Item0,
+        [XmlEnumAttribute("0")] Item0,
 
-        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
+        [XmlEnumAttribute("1")] Item1,
 
         [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
     }
@@ -886,21 +787,21 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     {
         [XmlEnumAttribute("1")] Item1,
 
-        [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
+        [XmlEnumAttribute("2")] Item2,
     }
 
     [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [XmlRootAttribute("CompanyVehicleUpdateAction", Namespace = "", IsNullable = false)]
     public class CompanyVehicleUpdateActionType
     {
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElementAttribute(DataType = "integer")]
         public string? CompanyVehicleSequenceNbr;
 
         public string? LicensePlate;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? EcoVehicle;
 
         [XmlElementAttribute(DataType = "integer")]
@@ -924,7 +825,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("ComplIndemnityContribution", Namespace = "", IsNullable = false)]
+    [XmlRootAttribute("ComplIndemnityContribution", Namespace = "", IsNullable = false)]
     public class ComplIndemnityContributionType
     {
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
@@ -1218,11 +1119,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [XmlRootAttribute(Namespace = "", IsNullable = false)]
     public class WorkerRecordUpdateAction : WorkerRecordUpdateActionType
     {
-        [XmlElementAttribute("ActivationInformation", typeof(ActivationInformationType))]
-        [System.Xml.Serialization.XmlElementAttribute("ComplementaryIndemnity", typeof(ComplementaryIndemnity))]
-        [System.Xml.Serialization.XmlElementAttribute("DismissedStatutoryWorkerContribution", typeof(DismissedStatutoryWorkerContributionType))]
-        [System.Xml.Serialization.XmlElementAttribute("EarlyRetirementContribution", typeof(EarlyRetirementContributionType))]
-        [System.Xml.Serialization.XmlElementAttribute("IndemnityWAPM", typeof(IndemnityWAPMType))]
+        [XmlElement("ActivationInformation", typeof(ActivationInformationType))]
+        [XmlElement("ComplementaryIndemnity", typeof(ComplementaryIndemnity))]
+        [XmlElement("DismissedStatutoryWorkerContribution", typeof(DismissedStatutoryWorkerContributionType))]
+        [XmlElement("EarlyRetirementContribution", typeof(EarlyRetirementContributionType))]
+        [XmlElement("IndemnityWAPM", typeof(IndemnityWAPMType))]
         [System.Xml.Serialization.XmlElementAttribute("OccupationUpdate", typeof(OccupationUpdate))]
         [System.Xml.Serialization.XmlElementAttribute("StudentContribution", typeof(StudentContributionType))]
         [System.Xml.Serialization.XmlElementAttribute("WorkerContribution", typeof(WorkerContributionType))]
@@ -1355,7 +1256,6 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
         public System.DateTime NewMaribelEmploymentDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool NewMaribelEmploymentDateSpecified;
 
@@ -1404,9 +1304,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum PostedWorker
     {
-        [XmlEnumAttribute("1")] Item1,
+        [XmlEnum("1")] Item1,
 
-        [XmlEnumAttribute("2")] Item2,
+        [XmlEnum("2")] Item2,
     }
 
 
@@ -1419,13 +1319,13 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
 
         [XmlEnumAttribute("2")] Item2,
 
-        [System.Xml.Serialization.XmlEnumAttribute("3")] Item3,
+        [XmlEnumAttribute("3")] Item3,
 
-        [System.Xml.Serialization.XmlEnumAttribute("4")] Item4,
+        [XmlEnumAttribute("4")] Item4,
 
-        [System.Xml.Serialization.XmlEnumAttribute("5")] Item5,
+        [XmlEnumAttribute("5")] Item5,
 
-        [System.Xml.Serialization.XmlEnumAttribute("6")] Item6,
+        [XmlEnumAttribute("6")] Item6,
 
         [XmlEnumAttribute("7")] Item7,
 
@@ -1474,9 +1374,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     }
 
 
-    [SerializableAttribute()]
+    [Serializable()]
     [XmlType(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
     public enum RegionalAidMeasure { B, }
 
 
@@ -1488,18 +1388,16 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     {
         public string? ReferenceYearMonth;
 
-        /// <remarks/>
         [XmlElementAttribute(DataType = "integer")]
         public string? MonthlyScaleSalary;
 
-        /// <remarks/>
         [XmlElementAttribute(DataType = "integer")]
         public string? MonthlyAdditionalScaleSalary;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? MonthlyHomeIndemnity;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? OfficialLanguage;
     }
 
@@ -1530,7 +1428,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRootAttribute("Remun", Namespace = "", IsNullable = false)]
+    [XmlRoot("Remun", Namespace = "", IsNullable = false)]
     public class RemunType
     {
         [XmlElement(DataType = "integer")]
@@ -1550,11 +1448,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
     public class OccupationPublicServiceData : OccupationPublicServiceDataType
     {
         [XmlElementAttribute("ScaleSalary")]
@@ -1572,9 +1470,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         public AdditionalScaleSalaryType[]? AdditionalScaleSalary;
     }
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("ReorgMeasureInformation", Namespace = "", IsNullable = false)]
     public class ReorgMeasureInformationType
     {
@@ -1585,11 +1483,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true)]
-    [XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
     public class OccupationDeduction : OccupationDeductionType
     {
         public OccupationDeductionDetailType? OccupationDeductionDetail;
@@ -1625,7 +1523,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [XmlRootAttribute("StudentContribution", Namespace = "", IsNullable = false)]
@@ -1637,43 +1535,43 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [XmlElementAttribute(DataType = "integer")]
         public string? StudentContributionAmount;
 
-        [System.Xml.Serialization.XmlElementAttribute("StudentHoursNbr", typeof(string), DataType = "integer")]
-        [System.Xml.Serialization.XmlElementAttribute("StudentNbrDays", typeof(string), DataType = "integer")]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName")]
+        [XmlElement("StudentHoursNbr", typeof(string), DataType = "integer")]
+        [XmlElement("StudentNbrDays", typeof(string), DataType = "integer")]
+        [XmlChoiceIdentifier("ItemElementName")]
         public string? Item;
 
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnoreAttribute()]
         public ItemChoiceType ItemElementName;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElementAttribute(DataType = "integer")]
         public string? LocalUnitID;
     }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [XmlTypeAttribute(IncludeInSchema = false)]
     public enum ItemChoiceType { StudentHoursNbr, StudentNbrDays, }
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlRootAttribute("WorkerContribution", Namespace = "", IsNullable = false)]
+    [XmlRoot("WorkerContribution", Namespace = "", IsNullable = false)]
     public class WorkerContributionType
     {
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? ContributionWorkerCode;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElementAttribute(DataType = "integer")]
         public string? ContributionType;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElementAttribute(DataType = "integer")]
         public string? ContributionCalculationBasis;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? ContributionAmount;
 
         [XmlElementAttribute(DataType = "date")]
-        public System.DateTime FirstHiringDate;
+        public DateTime FirstHiringDate;
 
         [XmlIgnore()]
         public bool FirstHiringDateSpecified;
