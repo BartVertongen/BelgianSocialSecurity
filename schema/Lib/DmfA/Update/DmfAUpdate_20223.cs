@@ -7,1226 +7,332 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("ActivationInformation", Namespace = "", IsNullable = false)]
+    [XmlRoot("ActivationInformation", Namespace = "", IsNullable = false)]
     public partial class ActivationInformationType
     {
-
-        private System.DateTime serviceExemptionStartDateField;
-
-        private System.DateTime trainingSituationStartDateField;
-
-        private string trainingSituationField;
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime ServiceExemptionStartDate
-        {
-            get
-            {
-                return this.serviceExemptionStartDateField;
-            }
-            set
-            {
-                this.serviceExemptionStartDateField = value;
-            }
-        }
+        public System.DateTime ServiceExemptionStartDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime TrainingSituationStartDate
-        {
-            get
-            {
-                return this.trainingSituationStartDateField;
-            }
-            set
-            {
-                this.trainingSituationStartDateField = value;
-            }
-        }
+        public System.DateTime TrainingSituationStartDate;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string TrainingSituation
-        {
-            get
-            {
-                return this.trainingSituationField;
-            }
-            set
-            {
-                this.trainingSituationField = value;
-            }
-        }
+        [XmlElementAttribute(DataType = "integer")]
+        public string TrainingSituation;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class WorkerDeductionType
+    public class WorkerDeductionType
     {
-
-        private string deductionCodeField;
-
-        private string deductionCalculationBasisField;
-
-        private string deductionAmountField;
-
-        private System.DateTime deductionRightStartingDateField;
-
-        private bool deductionRightStartingDateFieldSpecified;
-
-        private string managementCostNbrMonthsField;
-
-        private string replacedINSSField;
-
-        private string applicantINSSField;
-
-        private string certificateOriginField;
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string DeductionCode;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionCode
-        {
-            get
-            {
-                return this.deductionCodeField;
-            }
-            set
-            {
-                this.deductionCodeField = value;
-            }
-        }
+        public string DeductionCalculationBasis;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionCalculationBasis
-        {
-            get
-            {
-                return this.deductionCalculationBasisField;
-            }
-            set
-            {
-                this.deductionCalculationBasisField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionAmount
-        {
-            get
-            {
-                return this.deductionAmountField;
-            }
-            set
-            {
-                this.deductionAmountField = value;
-            }
-        }
+        public string DeductionAmount;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime DeductionRightStartingDate
-        {
-            get
-            {
-                return this.deductionRightStartingDateField;
-            }
-            set
-            {
-                this.deductionRightStartingDateField = value;
-            }
-        }
+        public System.DateTime DeductionRightStartingDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DeductionRightStartingDateSpecified
-        {
-            get
-            {
-                return this.deductionRightStartingDateFieldSpecified;
-            }
-            set
-            {
-                this.deductionRightStartingDateFieldSpecified = value;
-            }
-        }
+        public bool DeductionRightStartingDateSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ManagementCostNbrMonths
-        {
-            get
-            {
-                return this.managementCostNbrMonthsField;
-            }
-            set
-            {
-                this.managementCostNbrMonthsField = value;
-            }
-        }
+        public string ManagementCostNbrMonths;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ReplacedINSS
-        {
-            get
-            {
-                return this.replacedINSSField;
-            }
-            set
-            {
-                this.replacedINSSField = value;
-            }
-        }
+        public string ReplacedINSS;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ApplicantINSS
-        {
-            get
-            {
-                return this.applicantINSSField;
-            }
-            set
-            {
-                this.applicantINSSField = value;
-            }
-        }
+        public string ApplicantINSS;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string CertificateOrigin
-        {
-            get
-            {
-                return this.certificateOriginField;
-            }
-            set
-            {
-                this.certificateOriginField = value;
-            }
-        }
+        public string CertificateOrigin;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class OccupationDeductionType
+    public class OccupationDeductionType
     {
-
-        private string deductionCodeField;
-
-        private string deductionCalculationBasisField;
-
-        private string deductionAmountField;
-
-        private System.DateTime deductionRightStartingDateField;
-
-        private bool deductionRightStartingDateFieldSpecified;
-
-        private string managementCostNbrMonthsField;
-
-        private string replacedINSSField;
-
-        private string applicantINSSField;
-
-        private string certificateOriginField;
+        [XmlElementAttribute(DataType = "integer")]
+        public string DeductionCode;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionCode
-        {
-            get
-            {
-                return this.deductionCodeField;
-            }
-            set
-            {
-                this.deductionCodeField = value;
-            }
-        }
+        public string DeductionCalculationBasis;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionCalculationBasis
-        {
-            get
-            {
-                return this.deductionCalculationBasisField;
-            }
-            set
-            {
-                this.deductionCalculationBasisField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionAmount
-        {
-            get
-            {
-                return this.deductionAmountField;
-            }
-            set
-            {
-                this.deductionAmountField = value;
-            }
-        }
+        public string DeductionAmount;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime DeductionRightStartingDate
-        {
-            get
-            {
-                return this.deductionRightStartingDateField;
-            }
-            set
-            {
-                this.deductionRightStartingDateField = value;
-            }
-        }
+        public System.DateTime DeductionRightStartingDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DeductionRightStartingDateSpecified
-        {
-            get
-            {
-                return this.deductionRightStartingDateFieldSpecified;
-            }
-            set
-            {
-                this.deductionRightStartingDateFieldSpecified = value;
-            }
-        }
+        public bool DeductionRightStartingDateSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ManagementCostNbrMonths
-        {
-            get
-            {
-                return this.managementCostNbrMonthsField;
-            }
-            set
-            {
-                this.managementCostNbrMonthsField = value;
-            }
-        }
+        public string ManagementCostNbrMonths;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ReplacedINSS
-        {
-            get
-            {
-                return this.replacedINSSField;
-            }
-            set
-            {
-                this.replacedINSSField = value;
-            }
-        }
+        public string ReplacedINSS;
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ApplicantINSS
-        {
-            get
-            {
-                return this.applicantINSSField;
-            }
-            set
-            {
-                this.applicantINSSField = value;
-            }
-        }
+        [XmlElementAttribute(DataType = "integer")]
+        public string ApplicantINSS;
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string CertificateOrigin
-        {
-            get
-            {
-                return this.certificateOriginField;
-            }
-            set
-            {
-                this.certificateOriginField = value;
-            }
-        }
+        [XmlElementAttribute(DataType = "integer")]
+        public string CertificateOrigin;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class ScaleSalaryType
     {
-
-        private System.DateTime scaleSalaryStartDateField;
-
-        private System.DateTime scaleSalaryEndDateField;
-
-        private bool scaleSalaryEndDateFieldSpecified;
-
-        private string pecuniarySeniorityStartDateField;
-
-        private string salaryScaleReferenceField;
-
-        private string scaleSalaryAmountField;
-
-        private string weekHoursNbrField;
-
-        private string scaleSalaryWeekHoursNbrField;
-
-        private ReducedScaleSalaryNotion reducedScaleSalaryNotionField;
-
-        private bool reducedScaleSalaryNotionFieldSpecified;
+        [XmlElementAttribute(DataType = "date")]
+        public System.DateTime ScaleSalaryStartDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime ScaleSalaryStartDate
-        {
-            get
-            {
-                return this.scaleSalaryStartDateField;
-            }
-            set
-            {
-                this.scaleSalaryStartDateField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime ScaleSalaryEndDate
-        {
-            get
-            {
-                return this.scaleSalaryEndDateField;
-            }
-            set
-            {
-                this.scaleSalaryEndDateField = value;
-            }
-        }
+        public System.DateTime ScaleSalaryEndDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ScaleSalaryEndDateSpecified
-        {
-            get
-            {
-                return this.scaleSalaryEndDateFieldSpecified;
-            }
-            set
-            {
-                this.scaleSalaryEndDateFieldSpecified = value;
-            }
-        }
+        public bool ScaleSalaryEndDateSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "gYearMonth")]
-        public string PecuniarySeniorityStartDate
-        {
-            get
-            {
-                return this.pecuniarySeniorityStartDateField;
-            }
-            set
-            {
-                this.pecuniarySeniorityStartDateField = value;
-            }
-        }
+        public string PecuniarySeniorityStartDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string SalaryScaleReference
-        {
-            get
-            {
-                return this.salaryScaleReferenceField;
-            }
-            set
-            {
-                this.salaryScaleReferenceField = value;
-            }
-        }
+        public string SalaryScaleReference;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string ScaleSalaryAmount;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ScaleSalaryAmount
-        {
-            get
-            {
-                return this.scaleSalaryAmountField;
-            }
-            set
-            {
-                this.scaleSalaryAmountField = value;
-            }
-        }
+        public string WeekHoursNbr;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string WeekHoursNbr
-        {
-            get
-            {
-                return this.weekHoursNbrField;
-            }
-            set
-            {
-                this.weekHoursNbrField = value;
-            }
-        }
+        public string ScaleSalaryWeekHoursNbr;
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ScaleSalaryWeekHoursNbr
-        {
-            get
-            {
-                return this.scaleSalaryWeekHoursNbrField;
-            }
-            set
-            {
-                this.scaleSalaryWeekHoursNbrField = value;
-            }
-        }
-
-        /// <remarks/>
-        public ReducedScaleSalaryNotion ReducedScaleSalaryNotion
-        {
-            get
-            {
-                return this.reducedScaleSalaryNotionField;
-            }
-            set
-            {
-                this.reducedScaleSalaryNotionField = value;
-            }
-        }
+        public ReducedScaleSalaryNotion ReducedScaleSalaryNotion;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReducedScaleSalaryNotionSpecified
-        {
-            get
-            {
-                return this.reducedScaleSalaryNotionFieldSpecified;
-            }
-            set
-            {
-                this.reducedScaleSalaryNotionFieldSpecified = value;
-            }
-        }
+        public bool ReducedScaleSalaryNotionSpecified;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum ReducedScaleSalaryNotion
     {
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
+        [XmlEnumAttribute("1")] Item1,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class OccupationPublicServiceDataType
     {
-
-        private System.DateTime occupationPSDStartDateField;
-
-        private System.DateTime occupationPSDEndDateField;
-
-        private bool occupationPSDEndDateFieldSpecified;
-
-        private string publicSectorInstitutionTypeField;
-
-        private string publicSectorPersonnelCategoryField;
-
-        private string gradeOrFunctionField;
-
-        private string officialLanguageField;
-
-        private string assignmentTypeField;
-
-        private string functionNatureField;
-
-        private string statutoryRelationEndReasonField;
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
+        public System.DateTime OccupationPSDStartDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime OccupationPSDStartDate
-        {
-            get
-            {
-                return this.occupationPSDStartDateField;
-            }
-            set
-            {
-                this.occupationPSDStartDateField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime OccupationPSDEndDate
-        {
-            get
-            {
-                return this.occupationPSDEndDateField;
-            }
-            set
-            {
-                this.occupationPSDEndDateField = value;
-            }
-        }
+        public System.DateTime OccupationPSDEndDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool OccupationPSDEndDateSpecified
-        {
-            get
-            {
-                return this.occupationPSDEndDateFieldSpecified;
-            }
-            set
-            {
-                this.occupationPSDEndDateFieldSpecified = value;
-            }
-        }
+        public bool OccupationPSDEndDateSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string PublicSectorInstitutionType
-        {
-            get
-            {
-                return this.publicSectorInstitutionTypeField;
-            }
-            set
-            {
-                this.publicSectorInstitutionTypeField = value;
-            }
-        }
+        public string PublicSectorInstitutionType;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string PublicSectorPersonnelCategory
-        {
-            get
-            {
-                return this.publicSectorPersonnelCategoryField;
-            }
-            set
-            {
-                this.publicSectorPersonnelCategoryField = value;
-            }
-        }
+        public string PublicSectorPersonnelCategory;
 
         /// <remarks/>
-        public string GradeOrFunction
-        {
-            get
-            {
-                return this.gradeOrFunctionField;
-            }
-            set
-            {
-                this.gradeOrFunctionField = value;
-            }
-        }
+        public string GradeOrFunction;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string OfficialLanguage
-        {
-            get
-            {
-                return this.officialLanguageField;
-            }
-            set
-            {
-                this.officialLanguageField = value;
-            }
-        }
+        public string OfficialLanguage;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AssignmentType
-        {
-            get
-            {
-                return this.assignmentTypeField;
-            }
-            set
-            {
-                this.assignmentTypeField = value;
-            }
-        }
+        public string AssignmentType;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string FunctionNature
-        {
-            get
-            {
-                return this.functionNatureField;
-            }
-            set
-            {
-                this.functionNatureField = value;
-            }
-        }
+        public string FunctionNature;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string StatutoryRelationEndReason
-        {
-            get
-            {
-                return this.statutoryRelationEndReasonField;
-            }
-            set
-            {
-                this.statutoryRelationEndReasonField = value;
-            }
-        }
+        public string StatutoryRelationEndReason;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class OccupationUpdateType
+    public class OccupationUpdateType
     {
-
-        private string occupationSequenceNbrField;
-
-        private System.DateTime occupationStartingDateField;
-
-        private bool occupationStartingDateFieldSpecified;
-
-        private System.DateTime occupationEndingDateField;
-
-        private bool occupationEndingDateFieldSpecified;
-
-        private string jointCommissionNbrField;
-
-        private string workingDaysSystemField;
-
-        private string contractTypeField;
-
-        private string refMeanWorkingHoursField;
-
-        private string workerStatusField;
-
-        private string meanWorkingHoursField;
-
-        private ReorganisationMeasure reorganisationMeasureField;
-
-        private bool reorganisationMeasureFieldSpecified;
-
-        private string employmentPromotionField;
-
-        private string retiredField;
-
-        private string apprenticeshipField;
-
-        private string remunMethodField;
-
-        private string positionCodeField;
-
-        private string flyingStaffClassField;
-
-        private TenthOrTwelfth tenthOrTwelfthField;
-
-        private bool tenthOrTwelfthFieldSpecified;
-
-        private string occupationUserReferenceField;
-
-        private DaysJustification daysJustificationField;
-
-        private bool daysJustificationFieldSpecified;
-
-        private string activityCodeField;
-
-        private string occupationVersionNbrField;
-
-        private string localUnitIDField;
-
-        private string shipIdField;
-
-        private string staffCodeField;
-
-        private string subsidizedMeanWorkingHoursField;
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string OccupationSequenceNbr
-        {
-            get
-            {
-                return this.occupationSequenceNbrField;
-            }
-            set
-            {
-                this.occupationSequenceNbrField = value;
-            }
-        }
+        public string OccupationSequenceNbr;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime OccupationStartingDate
-        {
-            get
-            {
-                return this.occupationStartingDateField;
-            }
-            set
-            {
-                this.occupationStartingDateField = value;
-            }
-        }
+        public System.DateTime OccupationStartingDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool OccupationStartingDateSpecified
-        {
-            get
-            {
-                return this.occupationStartingDateFieldSpecified;
-            }
-            set
-            {
-                this.occupationStartingDateFieldSpecified = value;
-            }
-        }
+        public bool OccupationStartingDateSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime OccupationEndingDate
-        {
-            get
-            {
-                return this.occupationEndingDateField;
-            }
-            set
-            {
-                this.occupationEndingDateField = value;
-            }
-        }
+        public System.DateTime OccupationEndingDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool OccupationEndingDateSpecified
-        {
-            get
-            {
-                return this.occupationEndingDateFieldSpecified;
-            }
-            set
-            {
-                this.occupationEndingDateFieldSpecified = value;
-            }
-        }
+        public bool OccupationEndingDateSpecified;
 
         /// <remarks/>
-        public string JointCommissionNbr
-        {
-            get
-            {
-                return this.jointCommissionNbrField;
-            }
-            set
-            {
-                this.jointCommissionNbrField = value;
-            }
-        }
+        public string JointCommissionNbr;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string WorkingDaysSystem
-        {
-            get
-            {
-                return this.workingDaysSystemField;
-            }
-            set
-            {
-                this.workingDaysSystemField = value;
-            }
-        }
+        public string WorkingDaysSystem;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ContractType
-        {
-            get
-            {
-                return this.contractTypeField;
-            }
-            set
-            {
-                this.contractTypeField = value;
-            }
-        }
+        public string ContractType;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string RefMeanWorkingHours
-        {
-            get
-            {
-                return this.refMeanWorkingHoursField;
-            }
-            set
-            {
-                this.refMeanWorkingHoursField = value;
-            }
-        }
+        public string RefMeanWorkingHours;
 
-        /// <remarks/>
-        public string WorkerStatus
-        {
-            get
-            {
-                return this.workerStatusField;
-            }
-            set
-            {
-                this.workerStatusField = value;
-            }
-        }
+        public string WorkerStatus;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string MeanWorkingHours;
+
+        public ReorganisationMeasure ReorganisationMeasure;
+
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool ReorganisationMeasureSpecified;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string EmploymentPromotion;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string Retired;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string MeanWorkingHours
-        {
-            get
-            {
-                return this.meanWorkingHoursField;
-            }
-            set
-            {
-                this.meanWorkingHoursField = value;
-            }
-        }
+        public string Apprenticeship;
 
         /// <remarks/>
-        public ReorganisationMeasure ReorganisationMeasure
-        {
-            get
-            {
-                return this.reorganisationMeasureField;
-            }
-            set
-            {
-                this.reorganisationMeasureField = value;
-            }
-        }
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string RemunMethod;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string PositionCode;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string FlyingStaffClass;
+
+        /// <remarks/>
+        public TenthOrTwelfth TenthOrTwelfth;
+
+        /// <remarks/>
+        [XmlIgnoreAttribute()]
+        public bool TenthOrTwelfthSpecified;
+
+        /// <remarks/>
+        public string OccupationUserReference;
+
+        /// <remarks/>
+        public DaysJustification DaysJustification;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ReorganisationMeasureSpecified
-        {
-            get
-            {
-                return this.reorganisationMeasureFieldSpecified;
-            }
-            set
-            {
-                this.reorganisationMeasureFieldSpecified = value;
-            }
-        }
+        public bool DaysJustificationSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string EmploymentPromotion
-        {
-            get
-            {
-                return this.employmentPromotionField;
-            }
-            set
-            {
-                this.employmentPromotionField = value;
-            }
-        }
+        public string ActivityCode;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string Retired
-        {
-            get
-            {
-                return this.retiredField;
-            }
-            set
-            {
-                this.retiredField = value;
-            }
-        }
+        public string OccupationVersionNbr;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string Apprenticeship
-        {
-            get
-            {
-                return this.apprenticeshipField;
-            }
-            set
-            {
-                this.apprenticeshipField = value;
-            }
-        }
+        public string LocalUnitID;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string RemunMethod
-        {
-            get
-            {
-                return this.remunMethodField;
-            }
-            set
-            {
-                this.remunMethodField = value;
-            }
-        }
+        public string ShipId;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string PositionCode
-        {
-            get
-            {
-                return this.positionCodeField;
-            }
-            set
-            {
-                this.positionCodeField = value;
-            }
-        }
+        public string StaffCode;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string FlyingStaffClass
-        {
-            get
-            {
-                return this.flyingStaffClassField;
-            }
-            set
-            {
-                this.flyingStaffClassField = value;
-            }
-        }
-
-        /// <remarks/>
-        public TenthOrTwelfth TenthOrTwelfth
-        {
-            get
-            {
-                return this.tenthOrTwelfthField;
-            }
-            set
-            {
-                this.tenthOrTwelfthField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool TenthOrTwelfthSpecified
-        {
-            get
-            {
-                return this.tenthOrTwelfthFieldSpecified;
-            }
-            set
-            {
-                this.tenthOrTwelfthFieldSpecified = value;
-            }
-        }
-
-        /// <remarks/>
-        public string OccupationUserReference
-        {
-            get
-            {
-                return this.occupationUserReferenceField;
-            }
-            set
-            {
-                this.occupationUserReferenceField = value;
-            }
-        }
-
-        /// <remarks/>
-        public DaysJustification DaysJustification
-        {
-            get
-            {
-                return this.daysJustificationField;
-            }
-            set
-            {
-                this.daysJustificationField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DaysJustificationSpecified
-        {
-            get
-            {
-                return this.daysJustificationFieldSpecified;
-            }
-            set
-            {
-                this.daysJustificationFieldSpecified = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ActivityCode
-        {
-            get
-            {
-                return this.activityCodeField;
-            }
-            set
-            {
-                this.activityCodeField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string OccupationVersionNbr
-        {
-            get
-            {
-                return this.occupationVersionNbrField;
-            }
-            set
-            {
-                this.occupationVersionNbrField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string LocalUnitID
-        {
-            get
-            {
-                return this.localUnitIDField;
-            }
-            set
-            {
-                this.localUnitIDField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ShipId
-        {
-            get
-            {
-                return this.shipIdField;
-            }
-            set
-            {
-                this.shipIdField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string StaffCode
-        {
-            get
-            {
-                return this.staffCodeField;
-            }
-            set
-            {
-                this.staffCodeField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string SubsidizedMeanWorkingHours
-        {
-            get
-            {
-                return this.subsidizedMeanWorkingHoursField;
-            }
-            set
-            {
-                this.subsidizedMeanWorkingHoursField = value;
-            }
-        }
+        public string SubsidizedMeanWorkingHours;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum ReorganisationMeasure
     {
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("1")]
         Item1,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("2")]
         Item2,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("3")]
         Item3,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("4")]
         Item4,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("5")]
         Item5,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("6")]
         Item6,
 
@@ -1334,45 +440,35 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlEnumAttribute("546")]
         Item546,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("599")]
         Item599,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum TenthOrTwelfth
     {
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("10")]
         Item10,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("12")]
         Item12,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("20")]
         Item20,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum DaysJustification
     {
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("1")]
         Item1,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("2")]
         Item2,
 
@@ -1396,1374 +492,444 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlEnumAttribute("7")]
         Item7,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("8")]
         Item8,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class WorkerRecordUpdateActionType
+    public class WorkerRecordUpdateActionType
     {
-
-        private string employerClassField;
-
-        private string workerCodeField;
-
-        private System.DateTime nOSSQuarterStartingDateField;
-
-        private bool nOSSQuarterStartingDateFieldSpecified;
-
-        private System.DateTime nOSSQuarterEndingDateField;
-
-        private bool nOSSQuarterEndingDateFieldSpecified;
-
-        private string borderField;
-
-        private string activityWithRiskField;
-
-        private string localUnitIDField;
-
-        private string workerRecordUserReferenceField;
-
-        private UpdateAction updateActionField;
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string EmployerClass;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string EmployerClass
-        {
-            get
-            {
-                return this.employerClassField;
-            }
-            set
-            {
-                this.employerClassField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string WorkerCode
-        {
-            get
-            {
-                return this.workerCodeField;
-            }
-            set
-            {
-                this.workerCodeField = value;
-            }
-        }
+        public string WorkerCode;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime NOSSQuarterStartingDate
-        {
-            get
-            {
-                return this.nOSSQuarterStartingDateField;
-            }
-            set
-            {
-                this.nOSSQuarterStartingDateField = value;
-            }
-        }
+        public System.DateTime NOSSQuarterStartingDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NOSSQuarterStartingDateSpecified
-        {
-            get
-            {
-                return this.nOSSQuarterStartingDateFieldSpecified;
-            }
-            set
-            {
-                this.nOSSQuarterStartingDateFieldSpecified = value;
-            }
-        }
+        public bool NOSSQuarterStartingDateSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime NOSSQuarterEndingDate
-        {
-            get
-            {
-                return this.nOSSQuarterEndingDateField;
-            }
-            set
-            {
-                this.nOSSQuarterEndingDateField = value;
-            }
-        }
+        public System.DateTime NOSSQuarterEndingDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NOSSQuarterEndingDateSpecified
-        {
-            get
-            {
-                return this.nOSSQuarterEndingDateFieldSpecified;
-            }
-            set
-            {
-                this.nOSSQuarterEndingDateFieldSpecified = value;
-            }
-        }
+        public bool NOSSQuarterEndingDateSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string Border
-        {
-            get
-            {
-                return this.borderField;
-            }
-            set
-            {
-                this.borderField = value;
-            }
-        }
+        public string Border;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ActivityWithRisk
-        {
-            get
-            {
-                return this.activityWithRiskField;
-            }
-            set
-            {
-                this.activityWithRiskField = value;
-            }
-        }
+        public string ActivityWithRisk;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string LocalUnitID
-        {
-            get
-            {
-                return this.localUnitIDField;
-            }
-            set
-            {
-                this.localUnitIDField = value;
-            }
-        }
+        public string LocalUnitID;
 
         /// <remarks/>
-        public string WorkerRecordUserReference
-        {
-            get
-            {
-                return this.workerRecordUserReferenceField;
-            }
-            set
-            {
-                this.workerRecordUserReferenceField = value;
-            }
-        }
+        public string WorkerRecordUserReference;
 
         /// <remarks/>
-        public UpdateAction UpdateAction
-        {
-            get
-            {
-                return this.updateActionField;
-            }
-            set
-            {
-                this.updateActionField = value;
-            }
-        }
+        public UpdateAction UpdateAction;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum UpdateAction
     {
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("0")]
         Item0,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("1")]
         Item1,
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
+        [XmlEnumAttribute("3")]
         Item3,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("9")]
         Item9,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class WorkerRecordUpdateType
+    public class WorkerRecordUpdateType
+    { }
+
+
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public class NaturalPersonUpdateType
     {
+        [XmlElementAttribute(DataType = "integer")]
+        public string NaturalPersonSequenceNbr;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string INSS;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string SIS;
+
+        /// <remarks/>
+        public string WorkerName;
+
+        /// <remarks/>
+        public string WorkerFirstName;
+
+        /// <remarks/>
+        public string WorkerInitial;
+
+        /// <remarks/>
+        public string WorkerBirthdate;
+
+        /// <remarks/>
+        public string WorkerBirthplace;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string WorkerBirthplaceCountry;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string WorkerSex;
+
+        /// <remarks/>
+        public string WorkerStreet;
+
+        /// <remarks/>
+        public string WorkerHouseNbr;
+
+        /// <remarks/>
+        public string WorkerPostBox;
+
+        /// <remarks/>
+        public string WorkerZIPCode;
+
+        /// <remarks/>
+        public string WorkerCity;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string WorkerCountry;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string Nationality;
+
+        /// <remarks/>
+        public string NaturalPersonUserReference;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string NaturalPersonPID;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string DeclNaturalPersonPID;
+
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string DeclNaturalPersonVersionNbr;
+
+        public string Justification;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class NaturalPersonUpdateType
+    public class EmployerDeclarationUpdateType
     {
-
-        private string naturalPersonSequenceNbrField;
-
-        private string iNSSField;
-
-        private string sISField;
-
-        private string workerNameField;
-
-        private string workerFirstNameField;
-
-        private string workerInitialField;
-
-        private string workerBirthdateField;
-
-        private string workerBirthplaceField;
-
-        private string workerBirthplaceCountryField;
-
-        private string workerSexField;
-
-        private string workerStreetField;
-
-        private string workerHouseNbrField;
-
-        private string workerPostBoxField;
-
-        private string workerZIPCodeField;
-
-        private string workerCityField;
-
-        private string workerCountryField;
-
-        private string nationalityField;
-
-        private string naturalPersonUserReferenceField;
-
-        private string naturalPersonPIDField;
-
-        private string declNaturalPersonPIDField;
-
-        private string declNaturalPersonVersionNbrField;
-
-        private string justificationField;
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string Quarter;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string NaturalPersonSequenceNbr
-        {
-            get
-            {
-                return this.naturalPersonSequenceNbrField;
-            }
-            set
-            {
-                this.naturalPersonSequenceNbrField = value;
-            }
-        }
+        public string NOSSRegistrationNbr;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string INSS
-        {
-            get
-            {
-                return this.iNSSField;
-            }
-            set
-            {
-                this.iNSSField = value;
-            }
-        }
+        public string Trusteeship;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string SIS
-        {
-            get
-            {
-                return this.sISField;
-            }
-            set
-            {
-                this.sISField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerName
-        {
-            get
-            {
-                return this.workerNameField;
-            }
-            set
-            {
-                this.workerNameField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerFirstName
-        {
-            get
-            {
-                return this.workerFirstNameField;
-            }
-            set
-            {
-                this.workerFirstNameField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerInitial
-        {
-            get
-            {
-                return this.workerInitialField;
-            }
-            set
-            {
-                this.workerInitialField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerBirthdate
-        {
-            get
-            {
-                return this.workerBirthdateField;
-            }
-            set
-            {
-                this.workerBirthdateField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerBirthplace
-        {
-            get
-            {
-                return this.workerBirthplaceField;
-            }
-            set
-            {
-                this.workerBirthplaceField = value;
-            }
-        }
+        public string CompanyID;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string WorkerBirthplaceCountry
-        {
-            get
-            {
-                return this.workerBirthplaceCountryField;
-            }
-            set
-            {
-                this.workerBirthplaceCountryField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string WorkerSex
-        {
-            get
-            {
-                return this.workerSexField;
-            }
-            set
-            {
-                this.workerSexField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerStreet
-        {
-            get
-            {
-                return this.workerStreetField;
-            }
-            set
-            {
-                this.workerStreetField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerHouseNbr
-        {
-            get
-            {
-                return this.workerHouseNbrField;
-            }
-            set
-            {
-                this.workerHouseNbrField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerPostBox
-        {
-            get
-            {
-                return this.workerPostBoxField;
-            }
-            set
-            {
-                this.workerPostBoxField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerZIPCode
-        {
-            get
-            {
-                return this.workerZIPCodeField;
-            }
-            set
-            {
-                this.workerZIPCodeField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string WorkerCity
-        {
-            get
-            {
-                return this.workerCityField;
-            }
-            set
-            {
-                this.workerCityField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string WorkerCountry
-        {
-            get
-            {
-                return this.workerCountryField;
-            }
-            set
-            {
-                this.workerCountryField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string Nationality
-        {
-            get
-            {
-                return this.nationalityField;
-            }
-            set
-            {
-                this.nationalityField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string NaturalPersonUserReference
-        {
-            get
-            {
-                return this.naturalPersonUserReferenceField;
-            }
-            set
-            {
-                this.naturalPersonUserReferenceField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string NaturalPersonPID
-        {
-            get
-            {
-                return this.naturalPersonPIDField;
-            }
-            set
-            {
-                this.naturalPersonPIDField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeclNaturalPersonPID
-        {
-            get
-            {
-                return this.declNaturalPersonPIDField;
-            }
-            set
-            {
-                this.declNaturalPersonPIDField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeclNaturalPersonVersionNbr
-        {
-            get
-            {
-                return this.declNaturalPersonVersionNbrField;
-            }
-            set
-            {
-                this.declNaturalPersonVersionNbrField = value;
-            }
-        }
-
-        /// <remarks/>
-        public string Justification
-        {
-            get
-            {
-                return this.justificationField;
-            }
-            set
-            {
-                this.justificationField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class EmployerDeclarationUpdateType
-    {
-
-        private string quarterField;
-
-        private string nOSSRegistrationNbrField;
-
-        private string trusteeshipField;
-
-        private string companyIDField;
-
-        private string system5Field;
-
-        private System.DateTime holidayStartingDateField;
-
-        private bool holidayStartingDateFieldSpecified;
-
-        private string employerDeclarationPIDField;
-
-        private string justificationField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string Quarter
-        {
-            get
-            {
-                return this.quarterField;
-            }
-            set
-            {
-                this.quarterField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string NOSSRegistrationNbr
-        {
-            get
-            {
-                return this.nOSSRegistrationNbrField;
-            }
-            set
-            {
-                this.nOSSRegistrationNbrField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string Trusteeship
-        {
-            get
-            {
-                return this.trusteeshipField;
-            }
-            set
-            {
-                this.trusteeshipField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string CompanyID
-        {
-            get
-            {
-                return this.companyIDField;
-            }
-            set
-            {
-                this.companyIDField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string System5
-        {
-            get
-            {
-                return this.system5Field;
-            }
-            set
-            {
-                this.system5Field = value;
-            }
-        }
+        public string System5;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime HolidayStartingDate
-        {
-            get
-            {
-                return this.holidayStartingDateField;
-            }
-            set
-            {
-                this.holidayStartingDateField = value;
-            }
-        }
+        public System.DateTime HolidayStartingDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool HolidayStartingDateSpecified
-        {
-            get
-            {
-                return this.holidayStartingDateFieldSpecified;
-            }
-            set
-            {
-                this.holidayStartingDateFieldSpecified = value;
-            }
-        }
+        public bool HolidayStartingDateSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string EmployerDeclarationPID
-        {
-            get
-            {
-                return this.employerDeclarationPIDField;
-            }
-            set
-            {
-                this.employerDeclarationPIDField = value;
-            }
-        }
+        public string EmployerDeclarationPID;
 
         /// <remarks/>
-        public string Justification
-        {
-            get
-            {
-                return this.justificationField;
-            }
-            set
-            {
-                this.justificationField = value;
-            }
-        }
+        public string Justification;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class FormType
+    public class FormType
     {
+        public Identification Identification;
 
-        private Identification identificationField;
-
-        private System.DateTime formCreationDateField;
-
-        private System.DateTime formCreationHourField;
-
-        private AttestationStatus attestationStatusField;
-
-        private TypeForm typeFormField;
-
-        /// <remarks/>
-        public Identification Identification
-        {
-            get
-            {
-                return this.identificationField;
-            }
-            set
-            {
-                this.identificationField = value;
-            }
-        }
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime FormCreationDate
-        {
-            get
-            {
-                return this.formCreationDateField;
-            }
-            set
-            {
-                this.formCreationDateField = value;
-            }
-        }
+        public System.DateTime FormCreationDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "time")]
-        public System.DateTime FormCreationHour
-        {
-            get
-            {
-                return this.formCreationHourField;
-            }
-            set
-            {
-                this.formCreationHourField = value;
-            }
-        }
+        public System.DateTime FormCreationHour;
 
-        /// <remarks/>
-        public AttestationStatus AttestationStatus
-        {
-            get
-            {
-                return this.attestationStatusField;
-            }
-            set
-            {
-                this.attestationStatusField = value;
-            }
-        }
+        public AttestationStatus AttestationStatus;
 
-        /// <remarks/>
-        public TypeForm TypeForm
-        {
-            get
-            {
-                return this.typeFormField;
-            }
-            set
-            {
-                this.typeFormField = value;
-            }
-        }
+        public TypeForm TypeForm;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum Identification
-    {
+    public enum Identification { DMFAUPD, }
 
-        /// <remarks/>
-        DMFAUPD,
-    }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum AttestationStatus
-    {
+    { [System.Xml.Serialization.XmlEnumAttribute("1")] Item1, }
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-    }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public enum TypeForm
-    {
+    public enum TypeForm { SU, }
 
-        /// <remarks/>
-        SU,
-    }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class ContributionUnrelatedToNPUpdateType
+    public class ContributionUnrelatedToNPUpdateType
     {
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    public partial class ComplementaryIndemnityType
+    public class ComplementaryIndemnityType
     {
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        public string EmployerNotion;
 
-        private string employerNotionField;
-
-        private string jointCommissionNbrField;
-
-        private string activityCodeField;
-
-        private DebtorType debtorTypeField;
-
-        private bool debtorTypeFieldSpecified;
-
-        private System.DateTime firstComplIndemnityDateField;
-
-        private string complIndemnityAgreementNotionField;
-
-        private HalfTimeCareerInterruptionNotion halfTimeCareerInterruptionNotionField;
-
-        private ServiceExemptionNotion serviceExemptionNotionField;
-
-        private ReplacementAccordanceWCCNotion replacementAccordanceWCCNotionField;
-
-        private string substituteINSSField;
-
-        private ResumptionOfWorkMeasure resumptionOfWorkMeasureField;
-
-        private bool resumptionOfWorkMeasureFieldSpecified;
-
-        private string complIndemnityNbrOfPartsField;
-
-        private System.DateTime noticeDateField;
-
-        private bool noticeDateFieldSpecified;
-
-        private AilingOrReorgCompanyNotion ailingOrReorgCompanyNotionField;
-
-        private bool ailingOrReorgCompanyNotionFieldSpecified;
-
-        private System.DateTime acknowledgementStartDateField;
-
-        private bool acknowledgementStartDateFieldSpecified;
-
-        private System.DateTime acknowledgementEndDateField;
-
-        private bool acknowledgementEndDateFieldSpecified;
+        /// <remarks/>
+        public string JointCommissionNbr;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string EmployerNotion
-        {
-            get
-            {
-                return this.employerNotionField;
-            }
-            set
-            {
-                this.employerNotionField = value;
-            }
-        }
+        public string ActivityCode;
 
         /// <remarks/>
-        public string JointCommissionNbr
-        {
-            get
-            {
-                return this.jointCommissionNbrField;
-            }
-            set
-            {
-                this.jointCommissionNbrField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ActivityCode
-        {
-            get
-            {
-                return this.activityCodeField;
-            }
-            set
-            {
-                this.activityCodeField = value;
-            }
-        }
-
-        /// <remarks/>
-        public DebtorType DebtorType
-        {
-            get
-            {
-                return this.debtorTypeField;
-            }
-            set
-            {
-                this.debtorTypeField = value;
-            }
-        }
+        public DebtorType DebtorType;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DebtorTypeSpecified
-        {
-            get
-            {
-                return this.debtorTypeFieldSpecified;
-            }
-            set
-            {
-                this.debtorTypeFieldSpecified = value;
-            }
-        }
+        public bool DebtorTypeSpecified;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime FirstComplIndemnityDate
-        {
-            get
-            {
-                return this.firstComplIndemnityDateField;
-            }
-            set
-            {
-                this.firstComplIndemnityDateField = value;
-            }
-        }
+        public System.DateTime FirstComplIndemnityDate;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ComplIndemnityAgreementNotion
-        {
-            get
-            {
-                return this.complIndemnityAgreementNotionField;
-            }
-            set
-            {
-                this.complIndemnityAgreementNotionField = value;
-            }
-        }
+        public string ComplIndemnityAgreementNotion;
 
         /// <remarks/>
-        public HalfTimeCareerInterruptionNotion HalfTimeCareerInterruptionNotion
-        {
-            get
-            {
-                return this.halfTimeCareerInterruptionNotionField;
-            }
-            set
-            {
-                this.halfTimeCareerInterruptionNotionField = value;
-            }
-        }
+        public HalfTimeCareerInterruptionNotion HalfTimeCareerInterruptionNotion;
 
         /// <remarks/>
-        public ServiceExemptionNotion ServiceExemptionNotion
-        {
-            get
-            {
-                return this.serviceExemptionNotionField;
-            }
-            set
-            {
-                this.serviceExemptionNotionField = value;
-            }
-        }
+        public ServiceExemptionNotion ServiceExemptionNotion;
 
         /// <remarks/>
-        public ReplacementAccordanceWCCNotion ReplacementAccordanceWCCNotion
-        {
-            get
-            {
-                return this.replacementAccordanceWCCNotionField;
-            }
-            set
-            {
-                this.replacementAccordanceWCCNotionField = value;
-            }
-        }
+        public ReplacementAccordanceWCCNotion ReplacementAccordanceWCCNotion;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string SubstituteINSS
-        {
-            get
-            {
-                return this.substituteINSSField;
-            }
-            set
-            {
-                this.substituteINSSField = value;
-            }
-        }
+        public string SubstituteINSS;
 
         /// <remarks/>
-        public ResumptionOfWorkMeasure ResumptionOfWorkMeasure
-        {
-            get
-            {
-                return this.resumptionOfWorkMeasureField;
-            }
-            set
-            {
-                this.resumptionOfWorkMeasureField = value;
-            }
-        }
+        public ResumptionOfWorkMeasure ResumptionOfWorkMeasure;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ResumptionOfWorkMeasureSpecified
-        {
-            get
-            {
-                return this.resumptionOfWorkMeasureFieldSpecified;
-            }
-            set
-            {
-                this.resumptionOfWorkMeasureFieldSpecified = value;
-            }
-        }
+        public bool ResumptionOfWorkMeasureSpecified;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ComplIndemnityNbrOfParts
-        {
-            get
-            {
-                return this.complIndemnityNbrOfPartsField;
-            }
-            set
-            {
-                this.complIndemnityNbrOfPartsField = value;
-            }
-        }
+        public string ComplIndemnityNbrOfParts;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime NoticeDate
-        {
-            get
-            {
-                return this.noticeDateField;
-            }
-            set
-            {
-                this.noticeDateField = value;
-            }
-        }
+        public System.DateTime NoticeDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool NoticeDateSpecified
-        {
-            get
-            {
-                return this.noticeDateFieldSpecified;
-            }
-            set
-            {
-                this.noticeDateFieldSpecified = value;
-            }
-        }
+        public bool NoticeDateSpecified;
 
-        /// <remarks/>
-        public AilingOrReorgCompanyNotion AilingOrReorgCompanyNotion
-        {
-            get
-            {
-                return this.ailingOrReorgCompanyNotionField;
-            }
-            set
-            {
-                this.ailingOrReorgCompanyNotionField = value;
-            }
-        }
+        public AilingOrReorgCompanyNotion AilingOrReorgCompanyNotion;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AilingOrReorgCompanyNotionSpecified
-        {
-            get
-            {
-                return this.ailingOrReorgCompanyNotionFieldSpecified;
-            }
-            set
-            {
-                this.ailingOrReorgCompanyNotionFieldSpecified = value;
-            }
-        }
+        public bool AilingOrReorgCompanyNotionSpecified;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime AcknowledgementStartDate
-        {
-            get
-            {
-                return this.acknowledgementStartDateField;
-            }
-            set
-            {
-                this.acknowledgementStartDateField = value;
-            }
-        }
+        public System.DateTime AcknowledgementStartDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AcknowledgementStartDateSpecified
-        {
-            get
-            {
-                return this.acknowledgementStartDateFieldSpecified;
-            }
-            set
-            {
-                this.acknowledgementStartDateFieldSpecified = value;
-            }
-        }
+        public bool AcknowledgementStartDateSpecified;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime AcknowledgementEndDate
-        {
-            get
-            {
-                return this.acknowledgementEndDateField;
-            }
-            set
-            {
-                this.acknowledgementEndDateField = value;
-            }
-        }
+        public System.DateTime AcknowledgementEndDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AcknowledgementEndDateSpecified
-        {
-            get
-            {
-                return this.acknowledgementEndDateFieldSpecified;
-            }
-            set
-            {
-                this.acknowledgementEndDateFieldSpecified = value;
-            }
-        }
+        public bool AcknowledgementEndDateSpecified;
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum DebtorType
     {
+        [System.Xml.Serialization.XmlEnumAttribute("0")] Item0,
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("0")]
-        Item0,
+        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
+        [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("3")]
         Item3,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("4")]
         Item4,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("5")]
         Item5,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum HalfTimeCareerInterruptionNotion
     {
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("0")]
+        [XmlEnumAttribute("0")]
         Item0,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("1")]
         Item1,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("9")]
         Item9,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum ServiceExemptionNotion
     {
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("0")]
         Item0,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("1")]
         Item1,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("2")]
         Item2,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("3")]
         Item3,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("4")]
         Item4,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("5")]
         Item5,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("6")]
         Item6,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("9")]
         Item9,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum ReplacementAccordanceWCCNotion
     {
-
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("0")]
         Item0,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("1")]
         Item1,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("9")]
         Item9,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum ResumptionOfWorkMeasure
     {
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("0")]
         Item0,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("1")]
         Item1,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("9")]
         Item9,
     }
 
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.8.4084.0")]
+
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    [XmlTypeAttribute(AnonymousType = true)]
+    [XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum AilingOrReorgCompanyNotion
     {
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("0")]
+        [XmlEnumAttribute("0")]
         Item0,
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
+        [XmlEnumAttribute("1")]
         Item1,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("2")]
         Item2,
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
+        [XmlEnumAttribute("3")]
         Item3,
     }
 
@@ -2771,37 +937,30 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute("AdditionalScaleSalary", Namespace = "", IsNullable = false)]
+    [XmlRootAttribute("AdditionalScaleSalary", Namespace = "", IsNullable = false)]
     public class AdditionalScaleSalaryType
     {
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
         public System.DateTime AdditionalScaleSalaryStartDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
         public System.DateTime AdditionalScaleSalaryEndDate;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool AdditionalScaleSalaryEndDateSpecified;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string AdditionalScaleSalaryReference;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string AdditionalScaleSalaryBasisAmount;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string AdditionalScaleSalaryPercentage;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string NbrHoursOrServices;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string AdditionalScaleSalaryAmount;
     }
@@ -2825,7 +984,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum CareerMeasure
     {
-        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
+        [XmlEnumAttribute("1")] Item1,
 
         [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
     }
@@ -2839,10 +998,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string? CompanyVehicleSequenceNbr;
 
-        /// <remarks/>
         public string? LicensePlate;
 
-        /// <remarks/>
         [XmlElementAttribute(DataType = "integer")]
         public string? EcoVehicle;
 
@@ -2860,7 +1017,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [XmlRootAttribute(Namespace = "", IsNullable = false)]
     public class ComplementaryIndemnity : ComplementaryIndemnityType
     {
-        [System.Xml.Serialization.XmlElementAttribute("ComplIndemnityContribution")]
+        [XmlElementAttribute("ComplIndemnityContribution")]
         public ComplIndemnityContributionType[] ComplIndemnityContribution;
     }
 
@@ -2873,18 +1030,14 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ContributionWorkerCode;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ContributionType;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string IndemnityContributionPeriodCode;
 
-        /// <remarks/>
         public ComplIndemnityAmountAdjustNotion ComplIndemnityAmountAdjustNotion;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ContributionSequenceNbr;
 
@@ -2892,14 +1045,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ComplIndemnityAmount;
 
-        /// <remarks/>
         public CapitalizationNotion CapitalizationNotion;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool CapitalizationNotionSpecified;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string WelfareBenefitTheoreticalAmount;
 
@@ -2907,23 +1057,18 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ComplIndemnityNbrMonths;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string NbrMonthsDecimals;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string IncompleteMonthNbrDays;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string IncompleteMonthReason;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string FloorApplicationNotion;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string ContributionAmount;
     }
@@ -2942,10 +1087,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
 
         [System.Xml.Serialization.XmlEnumAttribute("3")] Item3,
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlEnumAttribute("4")] Item4,
 
-        [System.Xml.Serialization.XmlEnumAttribute("9")] Item9,
+        [XmlEnumAttribute("9")] Item9,
     }
 
     [System.SerializableAttribute()]
@@ -2970,11 +1114,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [XmlElementAttribute(DataType = "integer")]
         public string? UnrelatedEmployerClass;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string? UnrelatedWorkerCode;
 
-        /// <remarks/>
         [XmlElementAttribute(DataType = "integer")]
         public string? ContUnrelatedToNPVersionNbr;
     }
@@ -2997,11 +1139,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string UnrelatedCalculationBasis;
 
-        /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
         public string UnrelatedAmount;
 
-        /// <remarks/>
         public UpdateAction UpdateAction;
     }
 
@@ -3013,12 +1153,12 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     public class DeductionDetailType
     {
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionDetailSequenceNbr;
+        public string? DeductionDetailSequenceNbr;
 
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string DeductionDetailAmount;
+        public string? DeductionDetailAmount;
 
-        public string WorkingRegulationsRegistryNbr;
+        public string? WorkingRegulationsRegistryNbr;
 
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
         public System.DateTime WorkingRegulationsStartingDate;
@@ -3027,10 +1167,10 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         public bool WorkingRegulationsStartingDateSpecified;
 
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AverageWorkingTimeBeforeReduction;
+        public string? AverageWorkingTimeBeforeReduction;
 
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string AverageWorkingTimeAfterReduction;
+        public string? AverageWorkingTimeAfterReduction;
     }
 
 
@@ -3041,11 +1181,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     public class DismissedStatutoryWorkerContributionType
     {
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string GrossRefRemunAmount;
+        public string? GrossRefRemunAmount;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string GrossRefRemunContributionAmount;
+        public string? GrossRefRemunContributionAmount;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
