@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Werkrooster -->
+<!-- Grille de travail -->
+<!-- Work Schedule -->
+<work-schedules employer="">
+    <work-schedule>
+        <name>Kantoor uren dag vast 40</name>
+        <days>
+            <day>
+                <name>Monday</name>
+                <ordinal>1</ordinal>
+                <number-of-hours>8</number-of-hours>
+                <start-of-day>08:00</start-of-day>
+                <start-of-break name="noon">12:00</start-of-break>
+                <end-of-break>13:00</end-of-break>
+                <end-of-day>17:00</end-of-day>
+            </day>
+            <day>
+                <name>Tuesday</name>
+                <ordinal>2</ordinal>
+                <number-of-hours>8</number-of-hours>
+                <start-of-day>08:00</start-of-day>
+                <start-of-break name="noon">12:00</start-of-break>
+                <end-of-break>13:00</end-of-break>
+                <end-of-day>17:00</end-of-day>
+            </day>
+            <day>
+                <name>Wednesday</name>
+                <ordinal>3</ordinal>
+                <number-of-hours>8</number-of-hours>
+            </day>
+            <day>
+                <name>Thursday</name>
+                <ordinal>4</ordinal>
+                <number-of-hours>8</number-of-hours>
+            </day>
+            <day>
+                <name>Friday</name>
+                <ordinal>5</ordinal>
+                <number-of-hours>8</number-of-hours>
+            </day>
+            <day>
+                <name>Saturday</name>
+                <ordinal>6</ordinal>
+                <number-of-hours>0</number-of-hours>
+            </day>
+            <day>
+                <name>Sunday</name>
+                <ordinal>7</ordinal>
+                <number-of-hours>0</number-of-hours>
+            </day>
+        </days>
+        <Categorie>rooster 1</Categorie>
+        <Code>1</Code>
+        <Omschrijving>Maandag eerste week</Omschrijving>
+    </work-schedule>
+</work-schedules>

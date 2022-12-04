@@ -1,15 +1,13 @@
-﻿//By Bart Vertongen Dec 2022.
-
+﻿
 using System.Xml.Serialization;
-using VertSoft.BelgianHR.Xml.DmfA.Common;
 
 
-namespace VertSoft.BelgianHR.Xml.DmfA.Original223
+namespace VertSoft.BelgianHR.Xml.DmfA.Common
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum ComplIndemnityAmountAdjustNotion
+    public enum DebtorType
     {
         [XmlEnum("0")] Item0,
 
@@ -21,6 +19,6 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Original223
 
         [XmlEnum("4")] Item4,
 
-        [XmlEnum("9")] Item9,
+        [XmlEnum("5")] Item5,
     }
 }

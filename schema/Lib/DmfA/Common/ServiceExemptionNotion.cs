@@ -2,13 +2,15 @@
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.DmfA.Original223
+namespace VertSoft.BelgianHR.Xml.DmfA.Common
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum DaysJustification
+    public enum ServiceExemptionNotion
     {
+        [XmlEnum("0")] Item0,
+
         [XmlEnum("1")] Item1,
 
         [XmlEnum("2")] Item2,
@@ -21,8 +23,6 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Original223
 
         [XmlEnum("6")] Item6,
 
-        [XmlEnum("7")] Item7,
-
-        [XmlEnum("8")] Item8,
+        [XmlEnum("9")] Item9,
     }
 }

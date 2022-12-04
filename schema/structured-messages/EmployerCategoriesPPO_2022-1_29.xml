@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<employer-categories-ppo>
+    <employer-category>
+        <code>951</code>
+        <description>
+            <fr>Agents contractuels - régime de vacances secteur privé et régime accidents du travail secteur public</fr>
+            <nl>Contractuelen - vakantieregeling privésector en arbeidsongevallenregeling openbare sector</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>952</code>
+        <description>
+            <fr>Agents contractuels - régime de vacances secteur public et régime accidents du travail secteur public</fr>
+            <nl>Contractuelen - vakantieregeling openbare sector en arbeidsongevallenregeling openbare sector</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>953</code>
+        <description>
+            <fr>Agents définitifs - régime commun des pensions</fr>
+            <nl>Vastbenoemden - gemeenschappelijk pensioenstelsel</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>31/12/2011</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>954</code>
+        <description>
+            <fr>Agents définitifs - régime de pension - nouveaux affiliés à l'Office</fr>
+            <nl>Vastbenoemden - pensioenstelsel - nieuwe bij de Rijksdienst aangeslotenen</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>31/12/2011</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>955</code>
+        <description>
+            <fr>Agents définitifs - caisse propre de pension</fr>
+            <nl>Vastbenoemden - eigen pensioenstelsel</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>31/12/2011</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>956</code>
+        <description>
+            <fr>Agents définitifs - régime de pension - institution de prévoyance</fr>
+            <nl>Vastbenoemden - pensioenstelsel - voorzorgsinstelling</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>31/12/2011</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>957</code>
+        <description>
+            <fr>Agents définitifs - régime de pension - personnel de police</fr>
+            <nl>Vastbenoemden - pensioenstelsel - politiepersoneel</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>31/12/2011</end-validity>
+    </employer-category>
+    <employer-category>
+    <code>958</code>
+    <description>
+        <fr>Catégories spéciales</fr>
+        <nl>Bijzondere categorieën</nl>
+    </description>
+    <presence-code>6</presence-code>
+    <begin-validity>01/01/1900</begin-validity>
+    <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+    <code>959</code>
+    <description>
+        <fr>Travailleurs qui ne sont plus en service</fr>
+        <nl>Werknemers die niet meer in dienst zijn</nl>
+    </description>
+    <presence-code>6</presence-code>
+    <begin-validity>01/01/1900</begin-validity>
+    <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+    <code>971</code>
+    <description>
+        <fr>Nommés - fonds de pension solidarisé - ex-régime commun</fr>
+        <nl>Vastbenoemden - gesolidariseerd pensioenfonds - ex-gemeenschappelijk pensioenstelsel</nl>
+    </description>
+    <presence-code>6</presence-code>
+    <begin-validity>01/01/2012</begin-validity>
+    <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+    <code>972</code>
+    <description>
+        <fr>
+            Nommés - fonds de pension solidarisé - ex-régime des nouveaux affiliés
+            + adhérents après le 31-12-2011 au taux supérieur
+        </fr>
+        <nl>Vastbenoemden - gesolidariseerde pensioenfonds -
+            ex-pensioenstelsel nieuwe bij de Rijksdienst aangeslotenen
+            + aangeslotenen na 31-12-2011 met hoge bijdragevoet
+        </nl>
+    </description>
+    <presence-code>6</presence-code>
+    <begin-validity>01/01/2012</begin-validity>
+    <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+    <code>973</code>
+    <description>
+        <fr>Nommés - fonds de pension solidarisé - police locale</fr>
+        <nl>Vastbenoemden - gesolidariseerde pensioenfonds -  lokale politie</nl>
+    </description>
+    <presence-code>6</presence-code>
+    <begin-validity>01/01/2012</begin-validity>
+    <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+    <code>974</code>
+    <description>
+        <fr>Nommés - fonds de pension solidarisé - adhérents après le 31-12-2011 au taux inférieur</fr>
+        <nl>Vastbenoemden - gesolidariseerde pensioenfonds - aangeslotenen na 31-12-2011 met lage bijdragevoet</nl>
+    </description>
+    <presence-code>6</presence-code>
+    <begin-validity>01/01/2012</begin-validity>
+    <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>975</code>
+        <description>
+            <fr>Nommés - régime de pension propre ou régime de pension institution de prévoyance</fr>
+            <nl>Vastbenoemden - eigen pensioenstelsel of pensioenstelsel voorzorgsinstelling</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/2012</begin-validity>
+        <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>976</code>
+        <description>
+            <fr>Nommés - fonds de pension solidarisé - ex- institution de prévoyance au taux spécifique</fr>
+            <nl>Vastbenoemden - gesolidariseerd pensioenfonds -  ex-voorzorgsinstelling met specifieke bijdragevoet</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/2012</begin-validity>
+        <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>977</code>
+        <description>
+            <fr>Nommés - pool des parastataux (loi du 28-4-1958)</fr>
+            <nl>Vastbenoemden - pool der parastatalen (wet van 28-4-1958)</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/2015</begin-validity>
+        <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>978</code>
+        <description>
+            <fr>Nommés - pension à charge du trésor public</fr>
+            <nl>Vastbenoemden - pensioen ten laste van Schatkist</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/01/2015</begin-validity>
+        <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>981</code>
+        <description>
+            <fr>Agents contractuels - régime de vacances secteur privé et régime accidents du travail secteur privé</fr>
+            <nl>Contractuelen - vakantieregeling privésector en arbeidsongevallenregeling privésector</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/07/2013</begin-validity>
+        <end-validity>31/12/2021</end-validity>
+    </employer-category>
+    <employer-category>
+        <code>982</code>
+        <description>
+            <fr>Agents contractuels - régime de vacances secteur public et régime accidents du travail secteur privé</fr>
+            <nl>Contractuelen - vakantieregeling openbare sector en arbeidsongevallenregeling privésector</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>01/07/2013</begin-validity>
+        <end-validity>31/12/2021</end-validity>
+    </employer-category>
+</employer-categories-ppo>
