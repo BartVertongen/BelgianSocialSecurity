@@ -11,24 +11,24 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.ComponentModel.DesignerCategory("code")]
     public class ComplementaryIndemnityType
     {
-        [XmlElementAttribute(DataType = "integer")]
-        public string EmployerNotion;
+        [XmlElement(DataType = "integer")]
+        public string? EmployerNotion;
 
-        public string JointCommissionNbr;
+        public string? JointCommissionNbr;
 
-        [XmlElementAttribute(DataType = "integer")]
-        public string ActivityCode;
+        [XmlElement(DataType = "integer")]
+        public string? ActivityCode;
 
         public DebtorType DebtorType;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool DebtorTypeSpecified;
 
-        [XmlElementAttribute(DataType = "date")]
-        public System.DateTime FirstComplIndemnityDate;
+        [XmlElement(DataType = "date")]
+        public DateTime FirstComplIndemnityDate;
 
-        [XmlElementAttribute(DataType = "integer")]
-        public string ComplIndemnityAgreementNotion;
+        [XmlElement(DataType = "integer")]
+        public string? ComplIndemnityAgreementNotion;
 
         public HalfTimeCareerInterruptionNotion HalfTimeCareerInterruptionNotion;
 
@@ -36,21 +36,21 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
 
         public ReplacementAccordanceWCCNotion ReplacementAccordanceWCCNotion;
 
-        [XmlElementAttribute(DataType = "integer")]
-        public string SubstituteINSS;
+        [XmlElement(DataType = "integer")]
+        public string? SubstituteINSS;
 
         public ResumptionOfWorkMeasure ResumptionOfWorkMeasure;
 
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool ResumptionOfWorkMeasureSpecified;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string ComplIndemnityNbrOfParts;
+        [XmlElementAttribute(DataType = "integer")]
+        public string? ComplIndemnityNbrOfParts;
 
         [XmlElement(DataType = "date")]
-        public System.DateTime NoticeDate;
+        public DateTime NoticeDate;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool NoticeDateSpecified;
 
         public AilingOrReorgCompanyNotion AilingOrReorgCompanyNotion;
@@ -58,16 +58,16 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
         [XmlIgnore()]
         public bool AilingOrReorgCompanyNotionSpecified;
 
-        [XmlElementAttribute(DataType = "date")]
-        public System.DateTime AcknowledgementStartDate;
+        [XmlElement(DataType = "date")]
+        public DateTime AcknowledgementStartDate;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool AcknowledgementStartDateSpecified;
 
-        [XmlElementAttribute(DataType = "date")]
-        public System.DateTime AcknowledgementEndDate;
+        [XmlElement(DataType = "date")]
+        public DateTime AcknowledgementEndDate;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool AcknowledgementEndDateSpecified;
     }
 }

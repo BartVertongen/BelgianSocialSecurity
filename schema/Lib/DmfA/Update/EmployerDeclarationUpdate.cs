@@ -11,9 +11,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class DmfAUpdate
+    public class EmployerDeclarationUpdate : EmployerDeclarationUpdateType
     {
-        [XmlElement("Form")]
-        public Form[]? Form;
+        [XmlElement("CompanyVehicleUpdateAction", typeof(CompanyVehicleUpdateActionType))]
+        [XmlElement("ContributionUnrelatedToNPUpdate", typeof(ContributionUnrelatedToNPUpdate))]
+        [XmlElement("NaturalPersonUpdate", typeof(NaturalPersonUpdate))]
+        public object[]? Items;
     }
 }

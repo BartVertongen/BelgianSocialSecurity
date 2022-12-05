@@ -8,12 +8,12 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Update223
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class DmfAUpdate
+    public class NaturalPersonUpdate : NaturalPersonUpdateType
     {
-        [XmlElement("Form")]
-        public Form[]? Form;
+        [XmlElement("WorkerRecordUpdate")]
+        public WorkerRecordUpdate[]? WorkerRecordUpdate;
     }
 }
