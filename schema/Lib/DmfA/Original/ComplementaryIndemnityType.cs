@@ -1,5 +1,6 @@
 ﻿
 using System.Xml.Serialization;
+using VertSoft.BelgianHR.Xml.DmfA.Common;
 
 
 namespace VertSoft.BelgianHR.Xml.DmfA.Original223
@@ -53,7 +54,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Original223
 
         public AilingOrReorgCompanyNotion AilingOrReorgCompanyNotion;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool AilingOrReorgCompanyNotionSpecified;
 
         [XmlElement(DataType = "date")]

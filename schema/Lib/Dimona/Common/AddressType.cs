@@ -3,7 +3,7 @@
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
+namespace VertSoft.BelgianHR.Xml.Dimona.Common
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
@@ -21,7 +21,7 @@ namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
 
         public string? City;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? Country;
     }
 }
