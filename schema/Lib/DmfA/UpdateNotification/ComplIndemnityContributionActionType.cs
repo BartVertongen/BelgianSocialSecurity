@@ -3,13 +3,14 @@
 using System.Xml.Serialization;
 using VertSoft.BelgianHR.Xml.DmfA.Common;
 
-namespace VertSoft.BelgianHR.Xml.DmfA.Original223
+
+namespace VertSoft.BelgianHR.Xml.DmfA.UpdateNotification223
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    [XmlRoot("ComplIndemnityContribution", Namespace = "", IsNullable = false)]
-    public class ComplIndemnityContributionType
+    [XmlRoot("ComplIndemnityContributionAction", Namespace = "", IsNullable = false)]
+    public class ComplIndemnityContributionActionType
     {
         [XmlElement(DataType = "integer")]
         public string? ContributionWorkerCode;
@@ -53,5 +54,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.Original223
 
         [XmlElement(DataType = "integer")]
         public string? ContributionAmount;
+
+        public Action Action;
     }
 }

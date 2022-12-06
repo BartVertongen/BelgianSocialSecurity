@@ -197,10 +197,10 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION223
         [XmlIgnore()]
         public bool StartingDateSpecified;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string? StartingHour;
 
-        [XmlElementAttribute(DataType = "date")]
+        [XmlElement(DataType = "date")]
         public System.DateTime EndingDate;
 
         [XmlIgnoreAttribute()]
@@ -215,7 +215,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION223
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("DataValue", Namespace = "", IsNullable = false)]
-    public partial class DataValueType
+    public class DataValueType
     {
         public string? FieldName;
 
@@ -227,7 +227,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION223
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlRoot("DeclarationComplInformations", Namespace = "", IsNullable = false)]
-    public partial class DeclarationComplInformationsType
+    public class DeclarationComplInformationsType
     {
         [XmlElement(DataType = "integer")]
         public string? DMFAWorkersNbr;
@@ -283,7 +283,7 @@ namespace VertSoft.BelgianHR.Xml.NOTIFICATION223
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [XmlRoot("DimonaPeriodBefore", Namespace = "", IsNullable = false)]
-    public partial class DimonaPeriodBeforeType
+    public class DimonaPeriodBeforeType
     {
         [XmlElement(DataType = "date")]
         public DateTime StartingDate;

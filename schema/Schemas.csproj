@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <Folder Include="Lib\DmfA\BewareNotification\" />
-    <Folder Include="Lib\DmfA\UpdateNotification\" />
   </ItemGroup>
 
 </Project>

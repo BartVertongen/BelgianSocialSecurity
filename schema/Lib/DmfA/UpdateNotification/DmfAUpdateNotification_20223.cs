@@ -1,2137 +1,699 @@
-﻿
+﻿//By Bart Vertongen Dec 2022.
 
 using System.Xml.Serialization;
+using VertSoft.BelgianHR.Xml.DmfA.Common;
 
 
-[SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum Action {
-
-    [XmlEnumAttribute("0")]
-    Item0,
-
-    [XmlEnumAttribute("1")]
-    Item1,
-
-    [System.Xml.Serialization.XmlEnumAttribute("2")]
-    Item2,
-
-    [System.Xml.Serialization.XmlEnumAttribute("3")]
-    Item3,
-
-    [System.Xml.Serialization.XmlEnumAttribute("5")]
-    Item5,
-
-    [System.Xml.Serialization.XmlEnumAttribute("6")]
-    Item6,
-
-    [XmlEnumAttribute("7")]
-    Item7,
-
-    [XmlEnumAttribute("9")]
-    Item9,
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("ActivationInformationAction", Namespace="", IsNullable=false)]
-public class ActivationInformationActionType
+namespace VertSoft.BelgianHR.Xml.DmfA.UpdateNotification223
 {
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime ServiceExemptionStartDate;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("DismissedStatWorkerContAction", Namespace = "", IsNullable = false)]
+    public class DismissedStatWorkerContActionType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? GrossRefRemunAmount;
+
+        [XmlElement(DataType = "integer")]
+        public string? GrossRefRemunContributionAmount;
+
+        [XmlElement(DataType = "integer")]
+        public string? RefNbrDays;
 
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime TrainingSituationStartDate;
+        [XmlElement(DataType = "date")]
+        public DateTime SubjectionStartingDate;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string? TrainingSituation;
+        [XmlElement(DataType = "date")]
+        public DateTime SubjectionEndingDate;
 
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public partial class WRCorrectedPartType
-{
-    [XmlElement(DataType = "integer")]
-    public string EmployerClass;
-
-    [XmlElement(DataType = "integer")]
-    public string WorkerCode;
-
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime NOSSQuarterStartingDate;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime NOSSQuarterEndingDate;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string Border;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ActivityWithRisk;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string LocalUnitID;
-
-    public string WorkerRecordUserReference;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string WorkerRecordNewVersionNbr;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string CodeSubjected;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class WorkerDeductionActionType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionCode;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionCalculationBasis;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionAmount;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime DeductionRightStartingDate;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool DeductionRightStartingDateSpecified;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ManagementCostNbrMonths;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ReplacedINSS;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ApplicantINSS;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string CertificateOrigin;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class OccupationDeductionActionType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionCode;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionCalculationBasis;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionAmount;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime DeductionRightStartingDate;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool DeductionRightStartingDateSpecified;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ManagementCostNbrMonths;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ReplacedINSS;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ApplicantINSS;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string CertificateOrigin;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class ScaleSalaryActionType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime ScaleSalaryStartDate;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime ScaleSalaryEndDate;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool ScaleSalaryEndDateSpecified;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "gYearMonth")]
-    public string PecuniarySeniorityStartDate;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string SalaryScaleReference;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ScaleSalaryAmount;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string WeekHoursNbr;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ScaleSalaryWeekHoursNbr;
-
-    public ReducedScaleSalaryNotion ReducedScaleSalaryNotion;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool ReducedScaleSalaryNotionSpecified;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum ReducedScaleSalaryNotion { [System.Xml.Serialization.XmlEnumAttribute("1")] Item1, }
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class OccupationPSDActionType
-{
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime OccupationPSDStartDate;
-
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime OccupationPSDEndDate;
-
-    [XmlIgnoreAttribute()]
-    public bool OccupationPSDEndDateSpecified;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string PublicSectorInstitutionType;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string PublicSectorPersonnelCategory;
-
-    public string GradeOrFunction;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string OfficialLanguage;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string AssignmentType;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string FunctionNature;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string StatutoryRelationEndReason;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class OccupationUpdateNotificationType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string OccupationSequenceNbr;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime OccupationStartingDate;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool OccupationStartingDateSpecified;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime OccupationEndingDate;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool OccupationEndingDateSpecified;
-
-    public string JointCommissionNbr;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string WorkingDaysSystem;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ContractType;
-
-    /// <remarks/>
-    [XmlElement(DataType = "integer")]
-    public string RefMeanWorkingHours;
-
-    public string WorkerStatus;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string MeanWorkingHours;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string ReorganisationMeasure;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string EmploymentPromotion;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string Retired;
-
-    /// <remarks/>
-    [XmlElementAttribute(DataType = "integer")]
-    public string Apprenticeship;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string RemunMethod;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string PositionCode;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string FlyingStaffClass;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string TenthOrTwelfth;
-
-    /// <remarks/>
-    public string OccupationUserReference;
-
-    /// <remarks/>
-    public DaysJustification DaysJustification;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool DaysJustificationSpecified;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ActivityCode;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string OccupationVersionNbr;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string OccupationNewVersionNbr;
-
-    /// <remarks/>
-    public Action Action;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string LocalUnitID;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ShipId;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string StaffCode;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string SubsidizedMeanWorkingHours;
-}
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum DaysJustification {
-
-    [System.Xml.Serialization.XmlEnumAttribute("1")]
-    Item1,
-
-    [System.Xml.Serialization.XmlEnumAttribute("2")]
-    Item2,
-
-    [System.Xml.Serialization.XmlEnumAttribute("3")]
-    Item3,
-
-    [System.Xml.Serialization.XmlEnumAttribute("4")]
-    Item4,
-
-    [System.Xml.Serialization.XmlEnumAttribute("5")]
-    Item5,
-
-    [System.Xml.Serialization.XmlEnumAttribute("6")]
-    Item6,
-
-    [System.Xml.Serialization.XmlEnumAttribute("7")]
-    Item7,
-
-    [System.Xml.Serialization.XmlEnumAttribute("8")]
-    Item8,
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class WRDclPartType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string EmployerClass;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string WorkerCode;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime NOSSQuarterStartingDate;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime NOSSQuarterEndingDate;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string Border;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ActivityWithRisk;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string LocalUnitID;
-
-    /// <remarks/>
-    public string WorkerRecordUserReference;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string WorkerRecordNewVersionNbr;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string CodeSubjected;
-
-    public Action Action;
-
-    /// <remarks/>
-    public BlockDecisionIndicator BlockDecisionIndicator;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool BlockDecisionIndicatorSpecified;
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum BlockDecisionIndicator { A, M, R, }
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class WorkerRecordUpdateNotifType { }
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class NaturalPersonUpdateNotifType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string NaturalPersonSequenceNbr;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string INSS;
-
-    public string NaturalPersonUserReference;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string NaturalPersonPID;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeclNaturalPersonPID;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeclNaturalPersonVersionNbr;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeclNaturalPersonNewVersionNbr;
-
-    /// <remarks/>
-    public Action Action;
-
-    /// <remarks/>
-    public BlockDecisionIndicator BlockDecisionIndicator;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool BlockDecisionIndicatorSpecified;
-
-    /// <remarks/>
-    public RepaymentDecision RepaymentDecision;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool RepaymentDecisionSpecified;
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum RepaymentDecision {
-    [XmlEnumAttribute("0")]
-    Item0,
-
-    [XmlEnumAttribute("1")]
-    Item1,
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class EmployerDeclarationUpdateNotifType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string Quarter;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute("NOSSLPARegistrationNbr", typeof(string), DataType = "integer")]
-    [System.Xml.Serialization.XmlElementAttribute("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
-    [System.Xml.Serialization.XmlElementAttribute("Trusteeship", typeof(string), DataType = "integer")]
-    [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
-    public string[] Items;
-
-    [System.Xml.Serialization.XmlElementAttribute("ItemsElementName")]
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public ItemsChoiceType[] ItemsElementName;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string CompanyID;
-
-    /// <remarks/>
-    public TransmissionMode TransmissionMode;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string EmployerDeclarationPID;
-
-    /// <remarks/>
-    public FaultyCode FaultyCode;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool FaultyCodeSpecified;
-
-    public CalculationRequestArt54ter CalculationRequestArt54ter;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool CalculationRequestArt54terSpecified;
-
-    public Notion22Quater Notion22Quater;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool Notion22QuaterSpecified;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string EmployerDeclarationNewVersionNbr;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(IncludeInSchema=false)]
-public enum ItemsChoiceType {
-    NOSSLPARegistrationNbr,
-    NOSSRegistrationNbr,
-    Trusteeship,
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum TransmissionMode { WB, LO, CS, OD, }
-
-
-[System.SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum FaultyCode { F, }
-
-
-[SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum CalculationRequestArt54ter { S, }
-
-
-[SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum Notion22Quater { Q, }
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class FormType
-{
-    public Identification Identification;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime FormCreationDate;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "time")]
-    public System.DateTime FormCreationHour;
-
-    /// <remarks/>
-    public AttestationStatus AttestationStatus;
-
-    /// <remarks/>
-    public TypeForm TypeForm;
-}
-
-
-[System.SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum Identification {
-    DMFANOT,
-}
-
-
-[System.SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum AttestationStatus {
-    [XmlEnumAttribute("0")]
-    Item0,
-
-    [XmlEnumAttribute("2")]
-    Item2,
-}
-
-
-[System.SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum TypeForm { SU, }
-
-
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class CUNPUpdateNotifType {
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class ComplementaryIndemnityActionType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string EmployerNotion;
-
-    /// <remarks/>
-    public string JointCommissionNbr;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ActivityCode;
-
-    /// <remarks/>
-    public DebtorType DebtorType;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool DebtorTypeSpecified;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime FirstComplIndemnityDate;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ComplIndemnityAgreementNotion;
-
-    /// <remarks/>
-    public string HalfTimeCareerInterruptionNotion;
-
-    public string ServiceExemptionNotion;
-
-    public string ReplacementAccordanceWCCNotion;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string SubstituteINSS;
-
-    public string ResumptionOfWorkMeasure;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ComplIndemnityNbrOfParts;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime NoticeDate;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool NoticeDateSpecified;
-
-    /// <remarks/>
-    public AilingOrReorgCompanyNotion AilingOrReorgCompanyNotion;
-
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool AilingOrReorgCompanyNotionSpecified;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime AcknowledgementStartDate;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool AcknowledgementStartDateSpecified;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime AcknowledgementEndDate;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool AcknowledgementEndDateSpecified;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum DebtorType {
-
-    [XmlEnumAttribute("0")]
-    Item0,
-
-    [System.Xml.Serialization.XmlEnumAttribute("1")]
-    Item1,
-
-    [System.Xml.Serialization.XmlEnumAttribute("2")]
-    Item2,
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlEnumAttribute("3")]
-    Item3,
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlEnumAttribute("4")]
-    Item4,
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlEnumAttribute("5")]
-    Item5,
-}
-
-
-[System.SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum AilingOrReorgCompanyNotion {
-    [XmlEnumAttribute("0")]
-    Item0,
-
-    [XmlEnumAttribute("1")]
-    Item1,
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlEnumAttribute("2")]
-    Item2,
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlEnumAttribute("3")]
-    Item3,
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class CompanyVehicleUpdateNotifType {
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public class AnomalyReportType
-{
-    public string ErrorID;
-
-    public string TagName;
-
-    public string Value;
-
-    public string AnomalyClass;
-
-    public string AnomalyLabel;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlRootAttribute("AdditionalScaleSalaryAction", Namespace="", IsNullable=false)]
-public class AdditionalScaleSalaryActionType
-{
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime AdditionalScaleSalaryStartDate;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime AdditionalScaleSalaryEndDate;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool AdditionalScaleSalaryEndDateSpecified;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string AdditionalScaleSalaryReference;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string AdditionalScaleSalaryBasisAmount;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string AdditionalScaleSalaryPercentage;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string NbrHoursOrServices;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string AdditionalScaleSalaryAmount;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public class AnomalyReport : AnomalyReportType
-{
-    public PathType Path;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("Path", Namespace="", IsNullable=false)]
-public class PathType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string Quarter;
-
-    [System.Xml.Serialization.XmlElementAttribute("NOSSLPARegistrationNbr", typeof(string), DataType = "integer")]
-    [System.Xml.Serialization.XmlElementAttribute("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
-    [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName")]
-    public string Item;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public ItemChoiceType ItemElementName;
+        public Action Action;
+    }
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string Trusteeship;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string CompanyID;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class Form : FormType
+    {
+        [XmlElement("Reference")]
+        public ReferenceType[]? Reference;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedEmployerClass;
+        public EmployerDeclarationUpdateNotif? EmployerDeclarationUpdateNotif;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedWorkerCode;
+        public RectificationAmountType? RectificationAmount;
+    }
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string NaturalPersonSequenceNbr;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string INSS;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("Reference", Namespace = "", IsNullable = false)]
+    public class ReferenceType
+    {
+        [XmlElement("ReferenceType")]
+        public ReferenceType1 ReferenceType1;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string EmployerClass;
+        public ReferenceOrigin ReferenceOrigin;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string WorkerCode;
+        public string? ReferenceNbr;
+    }
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string OccupationSequenceNbr;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ReorganisationMeasure;
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot("ReferenceType", Namespace = "", IsNullable = false)]
+    public enum ReferenceType1
+    {
+        [XmlEnum("1")] Item1,
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ServiceSequenceNbr;
+        [XmlEnum("3")] Item3,
+    }
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ServiceCode;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string RemunSequenceNbr;
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public enum ReferenceOrigin
+    {
+        [XmlEnum("1")] Item1,
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string RemunCode;
+        [XmlEnum("2")] Item2,
+    }
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string BonusPaymentFrequency;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string PercentagePaid;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class EmployerDeclarationUpdateNotif : EmployerDeclarationUpdateNotifType
+    {
+        [XmlElement("SubGroupInformation")]
+        public SubGroupInformationType[]? SubGroupInformation;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionCode;
+        [XmlElement("CUNPUpdateNotif", typeof(CUNPUpdateNotif))]
+        [XmlElement("CompanyVehicleUpdateNotif", typeof(CompanyVehicleUpdateNotif))]
+        [XmlElement("NaturalPersonUpdateNotif", typeof(NaturalPersonUpdateNotif))]
+        public object[]? Items1;
+    }
+
+
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("SubGroupInformation", Namespace = "", IsNullable = false)]
+    public class SubGroupInformationType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? SubGroup;
+
+        public SubGroupDecisionIndicator SubGroupDecisionIndicator;
+
+        [XmlIgnoreAttribute()]
+        public bool SubGroupDecisionIndicatorSpecified;
+
+        [XmlElement(DataType = "integer")]
+        public string? UserQuality;
+
+        public string? Justification;
+
+        [XmlElement(DataType = "integer")]
+        public string? JustificationCode;
+
+        [XmlElement(DataType = "date")]
+        public DateTime JustificationDate;
+
+        [XmlIgnore()]
+        public bool JustificationDateSpecified;
+    }
+
+
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public enum SubGroupDecisionIndicator { R, }
+
+
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class NaturalPersonUpdateNotif : NaturalPersonUpdateNotifType
+    {
+        [XmlElement("WorkerRecordUpdateNotif")]
+        public WorkerRecordUpdateNotif[]? WorkerRecordUpdateNotif;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionDetailSequenceNbr;
+        [XmlElement("NaturalPersonJustification")]
+        public NaturalPersonJustificationType[]? NaturalPersonJustification;
+
+        [XmlElement("AnomalyReport")]
+        public AnomalyReport[]? AnomalyReport;
+    }
+
+
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class WorkerRecordUpdateNotif : WorkerRecordUpdateNotifType
+    {
+        public LastSituationWRType? LastSituationWR;
+
+        public WRDclPart? WRDclPart;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string EmployerNotion;
+        public WRCorrectedPart? WRCorrectedPart;
+    }
 
-    /// <remarks/>
-    public string JointCommissionNbr;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ActivityCode;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("LastSituationWR", Namespace = "", IsNullable = false)]
+    public class LastSituationWRType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? EmployerClass;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ComplIndemnityAgreementNotion;
+        [XmlElement(DataType = "integer")]
+        public string? WorkerCode;
 
-    /// <remarks/>
-    public string HalfTimeCareerInterruptionNotion;
+        [XmlElement(DataType = "integer")]
+        public string? WorkerRecordVersionNbr;
+    }
 
-    /// <remarks/>
-    public string ServiceExemptionNotion;
 
-    /// <remarks/>
-    public string ReplacementAccordanceWCCNotion;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class WRDclPart : WRDclPartType
+    {
+        [XmlElement("ActivationInformationAction", typeof(ActivationInformationActionType))]
+        [XmlElement("ComplementaryIndemnityAction", typeof(ComplementaryIndemnityAction))]
+        [XmlElement("DismissedStatWorkerContAction", typeof(DismissedStatWorkerContActionType))]
+        [XmlElement("EarlyRetirementContAction", typeof(EarlyRetirementContActionType))]
+        [XmlElement("IndemnityWAPMAction", typeof(IndemnityWAPMActionType))]
+        [XmlElement("OccupationUpdateNotification", typeof(OccupationUpdateNotification))]
+        [XmlElement("StudentContributionAction", typeof(StudentContributionActionType))]
+        [XmlElement("WorkerContributionAction", typeof(WorkerContributionActionType))]
+        [XmlElement("WorkerDeductionAction", typeof(WorkerDeductionAction))]
+        public object[]? Items;
+    }
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ContributionWorkerCode;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ContributionType;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("EarlyRetirementContAction", Namespace = "", IsNullable = false)]
+    public class EarlyRetirementContActionType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? EarlyRetirementCode;
 
-    /// <remarks/>
-    public ComplIndemnityAmountAdjustNotion ComplIndemnityAmountAdjustNotion;
+        [XmlElement(DataType = "integer")]
+        public string? EarlyRetirementNbrMonths;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool ComplIndemnityAmountAdjustNotionSpecified;
+        [XmlElement(DataType = "integer")]
+        public string? EarlyRetirementContributionAmount;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ContributionSequenceNbr;
+        public Action Action;
+    }
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string EarlyRetirementCode;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string IndemnityNature;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("IndemnityWAPMAction", Namespace = "", IsNullable = false)]
+    public class IndemnityWAPMActionType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? IndemnityNature;
 
-    /// <remarks/>
-    public string IncapacityDegree;
+        public string? IncapacityDegree;
 
-    /// <remarks/>
-    public string NaturalPersonUserReference;
+        [XmlElement(DataType = "integer")]
+        public string? IndemnityAmount;
 
-    /// <remarks/>
-    public string WorkerRecordUserReference;
+        public Action Action;
+    }
 
-    /// <remarks/>
-    public string OccupationUserReference;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string CompanyVehicleSequenceNbr;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class OccupationUpdateNotification : OccupationUpdateNotificationType
+    {
+        public OccupationInformationsActionType? OccupationInformationsAction;
 
-    /// <remarks/>
-    public string NPCalculatedAmount;
+        public SecondPillarInformationActionType? SecondPillarInformationAction;
 
-    /// <remarks/>
-    public string CUNPCalculatedAmount;
+        [XmlElement("ServiceAction")]
+        public ServiceActionType[]? ServiceAction;
 
-    /// <remarks/>
-    public string WorksContractActorId;
+        [XmlElement("RemunAction")]
+        public RemunActionType[]? RemunAction;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime OccupationPSDStartDate;
+        [XmlElement("OccupationPSDAction")]
+        public OccupationPSDAction[]? OccupationPSDAction;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool OccupationPSDStartDateSpecified;
+        [XmlElement("ReorgMeasureInformationAction")]
+        public ReorgMeasureInformationActionType[]? ReorgMeasureInformationAction;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string EmployerSequenceNbr;
+        [XmlElement("OccupationDeductionAction")]
+        public OccupationDeductionAction[]? OccupationDeductionAction;
+    }
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string CareerElementSequenceNbr;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string PublicSectorInstitutionType;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("OccupationInformationsAction", Namespace = "", IsNullable = false)]
+    public class OccupationInformationsActionType
+    {
+        public HorecaExtra HorecaExtra;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string PublicSectorPersonnelCategory;
+        [XmlIgnore()]
+        public bool HorecaExtraSpecified;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string AssignmentType;
+        public PostedWorker PostedWorker;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string FunctionNature;
+        [XmlIgnore()]
+        public bool PostedWorkerSpecified;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ScaleSalarySequenceNbr;
+        [XmlElement(DataType = "integer")]
+        public string? NOSSLPASocialMaribel;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime ScaleSalaryStartDate;
+        [XmlElement(DataType = "integer")]
+        public string? HourRemun;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool ScaleSalaryStartDateSpecified;
+        [XmlElement(DataType = "integer")]
+        public string? HourRemunInThousandthOfEuro;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "gYearMonth")]
-    public string PecuniarySeniorityStartDate;
+        [XmlElement(DataType = "date")]
+        public DateTime SixMonthsIllnessDate;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string SalaryScaleReference;
+        [XmlIgnore()]
+        public bool SixMonthsIllnessDateSpecified;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string AdditionalScaleSalarySequenceNbr;
+        [XmlElement(DataType = "integer")]
+        public string? FirstWeekGuaranteedSalaryNbrDays;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string AdditionalScaleSalaryReference;
+        [XmlElement(DataType = "integer")]
+        public string? IllnessGrossRemunAmount;
 
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime AdditionalScaleSalaryStartDate;
+        public PSDDclExemption PSDDclExemption;
 
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool AdditionalScaleSalaryStartDateSpecified;
+        [XmlIgnore()]
+        public bool PSDDclExemptionSpecified;
 
-    public NonSituableAbsenceCode NonSituableAbsenceCode;
+        public SupplPensionContributionExemption SupplPensionContributionExemption;
 
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool NonSituableAbsenceCodeSpecified;
+        [XmlIgnore()]
+        public bool SupplPensionContributionExemptionSpecified;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string CalendarYear;
+        public ObligationControlInformation ObligationControlInformation;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime StartingDate;
+        [XmlIgnoreAttribute()]
+        public bool ObligationControlInformationSpecified;
 
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool StartingDateSpecified;
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(IncludeInSchema=false)]
-public enum ItemChoiceType {
-    NOSSLPARegistrationNbr,
-
-    NOSSRegistrationNbr,
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum ComplIndemnityAmountAdjustNotion {
-
-    [XmlEnumAttribute("0")]
-    Item0,
-
-    [System.Xml.Serialization.XmlEnumAttribute("1")]
-    Item1,
-
-    [System.Xml.Serialization.XmlEnumAttribute("2")]
-    Item2,
-
-    [XmlEnumAttribute("3")]
-    Item3,
-
-    [XmlEnumAttribute("4")]
-    Item4,
-
-    [XmlEnumAttribute("9")]
-    Item9,
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum NonSituableAbsenceCode
-{
-    [XmlEnumAttribute("31")]
-    Item31,
-
-    [XmlEnumAttribute("32")]
-    Item32,
-
-    [XmlEnumAttribute("33")]
-    Item33,
-
-    [XmlEnumAttribute("41")]
-    Item41,
-
-    [XmlEnumAttribute("42")]
-    Item42,
-
-    [XmlEnumAttribute("43")]
-    Item43,
-}
-
-
-[SerializableAttribute()]
-[XmlType(AnonymousType=true)]
-[XmlRoot(Namespace="", IsNullable=false)]
-public enum CapitalizationNotion {
-
-    [XmlEnumAttribute("0")] Item0,
-
-    [XmlEnumAttribute("1")] Item1,
-
-    [XmlEnumAttribute("2")] Item2,
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("CompanyVehicleCorrectedPart", Namespace="", IsNullable=false)]
-public class CompanyVehicleCorrectedPartType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string? CompanyVehicleSequenceNbr;
-
-    public string? LicensePlate;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string EcoVehicle;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string CompanyVehicleNewVersionNbr;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("CompanyVehicleDclPart", Namespace="", IsNullable=false)]
-public partial class CompanyVehicleDclPartType {
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string CompanyVehicleSequenceNbr;
-
-    public string LicensePlate;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string EcoVehicle;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string CompanyVehicleNewVersionNbr;
-
-    public Action Action;
-
-    public BlockDecisionIndicator BlockDecisionIndicator;
-
-    [XmlIgnoreAttribute()]
-    public bool BlockDecisionIndicatorSpecified;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public partial class CompanyVehicleUpdateNotif : CompanyVehicleUpdateNotifType
-{
-    public LastSituationCompanyVehicleType LastSituationCompanyVehicle;
-
-    public CompanyVehicleDclPartType CompanyVehicleDclPart;
-
-    public CompanyVehicleCorrectedPartType CompanyVehicleCorrectedPart;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("LastSituationCompanyVehicle", Namespace="", IsNullable=false)]
-public partial class LastSituationCompanyVehicleType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string CompanyVehicleSequenceNbr;
-
-    public string LicensePlate;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string CompanyVehicleVersionNbr;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public class ComplementaryIndemnityAction : ComplementaryIndemnityActionType {
-
-    [XmlElementAttribute("ComplIndemnityContributionAction")]
-    public ComplIndemnityContributionActionType[] ComplIndemnityContributionAction;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("ComplIndemnityContributionAction", Namespace="", IsNullable=false)]
-public partial class ComplIndemnityContributionActionType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string ContributionWorkerCode;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ContributionType;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string IndemnityContributionPeriodCode;
-
-    public ComplIndemnityAmountAdjustNotion ComplIndemnityAmountAdjustNotion;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ContributionSequenceNbr;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ComplIndemnityAmount;
-
-    public CapitalizationNotion CapitalizationNotion;
-
-    [XmlIgnoreAttribute()]
-    public bool CapitalizationNotionSpecified;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string WelfareBenefitTheoreticalAmount;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string ComplIndemnityNbrMonths;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string NbrMonthsDecimals;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string IncompleteMonthNbrDays;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string IncompleteMonthReason;
-
-    [XmlElement(DataType = "integer")]
-    public string FloorApplicationNotion;
-
-    [XmlElement(DataType = "integer")]
-    public string ContributionAmount;
-
-    public Action Action;
-}
-
-
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRoot("CUNPCorrectedPart", Namespace="", IsNullable=false)]
-public class CUNPCorrectedPartType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedEmployerClass;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedWorkerCode;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedCalculationBasis;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedAmount;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string ContUnrelatedToNPNewVersionNbr;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string CodeSubjected;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("CUNPDclPart", Namespace="", IsNullable=false)]
-public class CUNPDclPartType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedEmployerClass;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedWorkerCode;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedCalculationBasis;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedAmount;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string ContUnrelatedToNPNewVersionNbr;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string CodeSubjected;
-
-    public Action Action;
-
-    public BlockDecisionIndicator BlockDecisionIndicator;
-
-    [XmlIgnoreAttribute()]
-    public bool BlockDecisionIndicatorSpecified;
-}
-
-
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public class CUNPUpdateNotif : CUNPUpdateNotifType {
-
-    public LastSituationCUNPType LastSituationCUNP;
-
-    public CUNPDclPartType CUNPDclPart;
-
-    public CUNPCorrectedPartType CUNPCorrectedPart;
-
-    [XmlElementAttribute("AnomalyReport")]
-    public AnomalyReport[] AnomalyReport;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("LastSituationCUNP", Namespace="", IsNullable=false)]
-public class LastSituationCUNPType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedEmployerClass;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string UnrelatedWorkerCode;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string ContUnrelatedToNPVersionNbr;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("DeductionDetailAction", Namespace="", IsNullable=false)]
-public class DeductionDetailActionType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionDetailSequenceNbr;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string DeductionDetailAmount;
-
-    public string WorkingRegulationsRegistryNbr;
-
-    [XmlElementAttribute(DataType = "date")]
-    public DateTime WorkingRegulationsStartingDate;
-
-    /// <remarks/>
-    [XmlIgnoreAttribute()]
-    public bool WorkingRegulationsStartingDateSpecified;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string AverageWorkingTimeBeforeReduction;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string AverageWorkingTimeAfterReduction;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlRootAttribute("DismissedStatWorkerContAction", Namespace="", IsNullable=false)]
-public class DismissedStatWorkerContActionType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string GrossRefRemunAmount;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string GrossRefRemunContributionAmount;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string RefNbrDays;
-
-    [XmlElementAttribute(DataType = "date")]
-    public DateTime SubjectionStartingDate;
+        [XmlElement(DataType = "date")]
+        public DateTime DefinitiveNominationDate;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime SubjectionEndingDate;
+        [XmlIgnore()]
+        public bool DefinitiveNominationDateSpecified;
 
-    public Action Action;
-}
-
-
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public class DmfAUpdateNotification
-{
-    public Form? Form;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public partial class Form : FormType
-{
-    [XmlElement("Reference")]
-    public ReferenceType[] Reference;
-
-    public EmployerDeclarationUpdateNotif EmployerDeclarationUpdateNotif;
-
-    public RectificationAmountType RectificationAmount;
-}
-
-
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("Reference", Namespace="", IsNullable=false)]
-public partial class ReferenceType
-{
-    [XmlElementAttribute("ReferenceType")]
-    public ReferenceType1 ReferenceType1;
-
-    public ReferenceOrigin ReferenceOrigin;
-
-    public string ReferenceNbr;
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute("ReferenceType", Namespace="", IsNullable=false)]
-public enum ReferenceType1
-{
-
-    [XmlEnumAttribute("1")]
-    Item1,
-
-    [XmlEnumAttribute("3")]
-    Item3,
-}
-
-
-[SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum ReferenceOrigin {
-
-    [XmlEnumAttribute("1")]
-    Item1,
-
-    [XmlEnumAttribute("2")]
-    Item2,
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public class EmployerDeclarationUpdateNotif : EmployerDeclarationUpdateNotifType
-{
-    [XmlElementAttribute("SubGroupInformation")]
-    public SubGroupInformationType[] SubGroupInformation;
-
-    [System.Xml.Serialization.XmlElementAttribute("CUNPUpdateNotif", typeof(CUNPUpdateNotif))]
-    [System.Xml.Serialization.XmlElementAttribute("CompanyVehicleUpdateNotif", typeof(CompanyVehicleUpdateNotif))]
-    [XmlElementAttribute("NaturalPersonUpdateNotif", typeof(NaturalPersonUpdateNotif))]
-    public object[] Items1;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlRootAttribute("SubGroupInformation", Namespace="", IsNullable=false)]
-public partial class SubGroupInformationType
-{
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string? SubGroup;
-
-    public SubGroupDecisionIndicator SubGroupDecisionIndicator;
-
-    [XmlIgnoreAttribute()]
-    public bool SubGroupDecisionIndicatorSpecified;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string UserQuality;
-
-    public string Justification;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string JustificationCode;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-    public System.DateTime JustificationDate;
-
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool JustificationDateSpecified;
-}
-
-
-[SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum SubGroupDecisionIndicator { R, }
-
-
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlType(AnonymousType=true)]
-[XmlRoot(Namespace="", IsNullable=false)]
-public class NaturalPersonUpdateNotif : NaturalPersonUpdateNotifType
-{
-    [XmlElement("WorkerRecordUpdateNotif")]
-    public WorkerRecordUpdateNotif[]? WorkerRecordUpdateNotif;
-
-    [XmlElement("NaturalPersonJustification")]
-    public NaturalPersonJustificationType[]? NaturalPersonJustification;
-
-    [XmlElement("AnomalyReport")]
-    public AnomalyReport[]? AnomalyReport;
-}
-
-
-[Serializable()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlType(AnonymousType=true)]
-[XmlRoot(Namespace="", IsNullable=false)]
-public class WorkerRecordUpdateNotif : WorkerRecordUpdateNotifType
-{
-    public LastSituationWRType? LastSituationWR;
-
-    public WRDclPart? WRDclPart;
-
-    public WRCorrectedPart? WRCorrectedPart;
-}
-
-
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("LastSituationWR", Namespace="", IsNullable=false)]
-public class LastSituationWRType
-{
-    [XmlElement(DataType = "integer")]
-    public string? EmployerClass;
-
-    [XmlElement(DataType = "integer")]
-    public string? WorkerCode;
-
-    [XmlElement(DataType = "integer")]
-    public string? WorkerRecordVersionNbr;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public partial class WRDclPart : WRDclPartType {
-
-    [XmlElementAttribute("ActivationInformationAction", typeof(ActivationInformationActionType))]
-    [XmlElementAttribute("ComplementaryIndemnityAction", typeof(ComplementaryIndemnityAction))]
-    [XmlElementAttribute("DismissedStatWorkerContAction", typeof(DismissedStatWorkerContActionType))]
-    [XmlElementAttribute("EarlyRetirementContAction", typeof(EarlyRetirementContActionType))]
-    [XmlElementAttribute("IndemnityWAPMAction", typeof(IndemnityWAPMActionType))]
-    [XmlElementAttribute("OccupationUpdateNotification", typeof(OccupationUpdateNotification))]
-    [System.Xml.Serialization.XmlElementAttribute("StudentContributionAction", typeof(StudentContributionActionType))]
-    [System.Xml.Serialization.XmlElementAttribute("WorkerContributionAction", typeof(WorkerContributionActionType))]
-    [System.Xml.Serialization.XmlElementAttribute("WorkerDeductionAction", typeof(WorkerDeductionAction))]
-    public object[]? Items;
-}
-
-
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRoot("EarlyRetirementContAction", Namespace="", IsNullable=false)]
-public class EarlyRetirementContActionType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string? EarlyRetirementCode;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string? EarlyRetirementNbrMonths;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string? EarlyRetirementContributionAmount;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("IndemnityWAPMAction", Namespace="", IsNullable=false)]
-public class IndemnityWAPMActionType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string IndemnityNature;
-
-    public string IncapacityDegree;
-
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string IndemnityAmount;
-
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public class OccupationUpdateNotification : OccupationUpdateNotificationType
-{
-    public OccupationInformationsActionType? OccupationInformationsAction;
-
-    public SecondPillarInformationActionType? SecondPillarInformationAction;
-
-    [XmlElementAttribute("ServiceAction")]
-    public ServiceActionType[]? ServiceAction;
-
-    [XmlElementAttribute("RemunAction")]
-    public RemunActionType[]? RemunAction;
-
-    [XmlElementAttribute("OccupationPSDAction")]
-    public OccupationPSDAction[]? OccupationPSDAction;
-
-    [XmlElementAttribute("ReorgMeasureInformationAction")]
-    public ReorgMeasureInformationActionType[]? ReorgMeasureInformationAction;
-
-    [XmlElementAttribute("OccupationDeductionAction")]
-    public OccupationDeductionAction[]? OccupationDeductionAction;
-}
-
-
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThrough()]
-[System.ComponentModel.DesignerCategory("code")]
-[XmlRootAttribute("OccupationInformationsAction", Namespace="", IsNullable=false)]
-public class OccupationInformationsActionType
-{
-    public HorecaExtra HorecaExtra;
-
-    [XmlIgnore()]
-    public bool HorecaExtraSpecified;
-
-    public PostedWorker PostedWorker;
-
-    [XmlIgnoreAttribute()]
-    public bool PostedWorkerSpecified;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string NOSSLPASocialMaribel;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string HourRemun;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string HourRemunInThousandthOfEuro;
-
-    [XmlElement(DataType = "date")]
-    public DateTime SixMonthsIllnessDate;
-
-    [XmlIgnore()]
-    public bool SixMonthsIllnessDateSpecified;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string FirstWeekGuaranteedSalaryNbrDays;
-
-    [XmlElementAttribute(DataType = "integer")]
-    public string IllnessGrossRemunAmount;
-
-    public PSDDclExemption PSDDclExemption;
-
-    [XmlIgnore()]
-    public bool PSDDclExemptionSpecified;
-
-    public SupplPensionContributionExemption SupplPensionContributionExemption;
+        [XmlElement(DataType = "date")]
+        public DateTime NewMaribelEmploymentDate;
 
-    [XmlIgnore()]
-    public bool SupplPensionContributionExemptionSpecified;
+        [XmlIgnoreAttribute()]
+        public bool NewMaribelEmploymentDateSpecified;
 
-    public ObligationControlInformation ObligationControlInformation;
+        public PSPContribCalcBasisDerogation PSPContribCalcBasisDerogation;
 
-    [XmlIgnoreAttribute()]
-    public bool ObligationControlInformationSpecified;
+        [XmlIgnore()]
+        public bool PSPContribCalcBasisDerogationSpecified;
 
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime DefinitiveNominationDate;
+        [XmlElement(DataType = "integer")]
+        public string? CareerMeasure;
 
-    [XmlIgnore()]
-    public bool DefinitiveNominationDateSpecified;
+        public string? ServiceExemptionNotion;
 
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime NewMaribelEmploymentDate;
+        [XmlElement(DataType = "integer")]
+        public string? HolidayDaysNumber;
 
-    [XmlIgnoreAttribute()]
-    public bool NewMaribelEmploymentDateSpecified;
+        [XmlElement(DataType = "integer")]
+        public string? SectorDetail;
 
-    public PSPContribCalcBasisDerogation PSPContribCalcBasisDerogation;
+        [XmlElement(DataType = "integer")]
+        public string? MobilityBudget;
 
-    [XmlIgnore()]
-    public bool PSPContribCalcBasisDerogationSpecified;
+        [XmlElement(DataType = "integer")]
+        public string? FlemishTrainingHolidayHoursNbr;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string CareerMeasure;
+        public string? RegionalAidMeasure;
 
-    public string ServiceExemptionNotion;
+        public Action Action;
+    }
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string HolidayDaysNumber;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string SectorDetail;
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public enum SupplPensionContributionExemption
+    {
+        [XmlEnum("1")]
+        Item1,
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string MobilityBudget;
+        [XmlEnum("2")]
+        Item2,
+    }
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string FlemishTrainingHolidayHoursNbr;
 
-    public string RegionalAidMeasure;
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public enum ObligationControlInformation { FWT, }
 
-    public Action Action;
-}
-
-
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum HorecaExtra { E, }
-
-
-[System.SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum PostedWorker {
-
-    [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
-
-    [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
-}
-
-
-[SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum PSDDclExemption {
-    [XmlEnum("1")] Item1,
-}
-
-
-[System.SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum SupplPensionContributionExemption {
-
-    [XmlEnumAttribute("1")]
-    Item1,
-
-    [XmlEnumAttribute("2")]
-    Item2,
-}
 
+    [Serializable()]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public enum PSPContribCalcBasisDerogation
+    {
+        [XmlEnum("1")] Item1,
 
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum ObligationControlInformation { FWT, }
+        [XmlEnum("2")] Item2,
+    }
 
 
-[System.SerializableAttribute()]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public enum PSPContribCalcBasisDerogation {
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("SecondPillarInformationAction", Namespace = "", IsNullable = false)]
+    public class SecondPillarInformationActionType
+    {
+        public string? ReferenceYearMonth;
 
-    [XmlEnumAttribute("1")] Item1,
+        [XmlElement(DataType = "integer")]
+        public string? MonthlyScaleSalary;
 
-    [XmlEnumAttribute("2")] Item2,
-}
+        [XmlElement(DataType = "integer")]
+        public string? MonthlyAdditionalScaleSalary;
 
+        [XmlElement(DataType = "integer")]
+        public string? MonthlyHomeIndemnity;
 
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("SecondPillarInformationAction", Namespace="", IsNullable=false)]
-public class SecondPillarInformationActionType
-{
-    public string ReferenceYearMonth;
+        [XmlElement(DataType = "integer")]
+        public string? OfficialLanguage;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string MonthlyScaleSalary;
+        public Action Action;
+    }
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string MonthlyAdditionalScaleSalary;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string MonthlyHomeIndemnity;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("ServiceAction", Namespace = "", IsNullable = false)]
+    public class ServiceActionType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? ServiceSequenceNbr;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string OfficialLanguage;
+        [XmlElement(DataType = "integer")]
+        public string? ServiceCode;
 
-    public Action Action;
-}
+        [XmlElement(DataType = "integer")]
+        public string? ServiceNbrDays;
 
+        [XmlElement(DataType = "integer")]
+        public string? ServiceNbrHours;
 
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("ServiceAction", Namespace="", IsNullable=false)]
-public class ServiceActionType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string ServiceSequenceNbr;
+        [XmlElement(DataType = "integer")]
+        public string? FlightNbrMinutes;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string ServiceCode;
+        public Action Action;
+    }
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string ServiceNbrDays;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string ServiceNbrHours;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("RemunAction", Namespace = "", IsNullable = false)]
+    public class RemunActionType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? RemunSequenceNbr;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string FlightNbrMinutes;
+        [XmlElement(DataType = "integer")]
+        public string? RemunCode;
 
-    public Action Action;
-}
+        [XmlElement(DataType = "integer")]
+        public string? BonusPaymentFrequency;
 
+        [XmlElement(DataType = "integer")]
+        public string? PercentagePaid;
 
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThrough()]
-[System.ComponentModel.DesignerCategory("code")]
-[XmlRoot("RemunAction", Namespace="", IsNullable=false)]
-public partial class RemunActionType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string RemunSequenceNbr;
+        [XmlElement(DataType = "integer")]
+        public string? RemunAmount;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string RemunCode;
+        public Action Action;
+    }
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string BonusPaymentFrequency;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string PercentagePaid;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class OccupationPSDAction : OccupationPSDActionType
+    {
+        [XmlElement("ScaleSalaryAction")]
+        public ScaleSalaryAction[]? ScaleSalaryAction;
+    }
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string RemunAmount;
 
-    public Action Action;
-}
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class ScaleSalaryAction : ScaleSalaryActionType
+    {
+        [XmlElement("AdditionalScaleSalaryAction")]
+        public AdditionalScaleSalaryActionType[]? AdditionalScaleSalaryAction;
+    }
 
 
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public partial class OccupationPSDAction : OccupationPSDActionType
-{
-    [XmlElementAttribute("ScaleSalaryAction")]
-    public ScaleSalaryAction[] ScaleSalaryAction;
-}
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("ReorgMeasureInformationAction", Namespace = "", IsNullable = false)]
+    public class ReorgMeasureInformationActionType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? ReorganisationMeasure;
 
+        [XmlElement(DataType = "integer")]
+        public string? ReorganisationMeasurePercentage;
 
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public class ScaleSalaryAction : ScaleSalaryActionType
-{
-    [XmlElementAttribute("AdditionalScaleSalaryAction")]
-    public AdditionalScaleSalaryActionType[] AdditionalScaleSalaryAction;
-}
+        public Action Action;
+    }
 
 
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("ReorgMeasureInformationAction", Namespace="", IsNullable=false)]
-public class ReorgMeasureInformationActionType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string ReorganisationMeasure;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class OccupationDeductionAction : OccupationDeductionActionType
+    {
+        [XmlElement("OccupationDeductionDetailAction")]
+        public OccupationDeductionDetailActionType[]? OccupationDeductionDetailAction;
+    }
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string ReorganisationMeasurePercentage;
 
-    public Action Action;
-}
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("OccupationDeductionDetailAction", Namespace = "", IsNullable = false)]
+    public class OccupationDeductionDetailActionType
+    {
 
+        [XmlElement(DataType = "integer")]
+        public string? DeductionDetailSequenceNbr;
 
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public partial class OccupationDeductionAction : OccupationDeductionActionType {
+        [XmlElement(DataType = "date")]
+        public DateTime WorkingRegulationsStartingDate;
 
-    [XmlElementAttribute("OccupationDeductionDetailAction")]
-    public OccupationDeductionDetailActionType[] OccupationDeductionDetailAction;
-}
+        [XmlIgnore()]
+        public bool WorkingRegulationsStartingDateSpecified;
 
+        [XmlElement(DataType = "date")]
+        public DateTime WorkingRegulationsEndingDate;
 
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThrough()]
-[System.ComponentModel.DesignerCategory("code")]
-[XmlRoot("OccupationDeductionDetailAction", Namespace="", IsNullable=false)]
-public class OccupationDeductionDetailActionType {
+        [XmlIgnoreAttribute()]
+        public bool WorkingRegulationsEndingDateSpecified;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string DeductionDetailSequenceNbr;
+        [XmlElement(DataType = "integer")]
+        public string? AverageWorkingTimeBeforeReduction;
 
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime WorkingRegulationsStartingDate;
+        [XmlElement(DataType = "integer")]
+        public string? AverageWorkingTimeAfterReduction;
 
-    [XmlIgnoreAttribute()]
-    public bool WorkingRegulationsStartingDateSpecified;
+        public Action Action;
+    }
 
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime WorkingRegulationsEndingDate;
 
-    [XmlIgnoreAttribute()]
-    public bool WorkingRegulationsEndingDateSpecified;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("StudentContributionAction", Namespace = "", IsNullable = false)]
+    public class StudentContributionActionType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? StudentRemunAmount;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string AverageWorkingTimeBeforeReduction;
+        [XmlElement(DataType = "integer")]
+        public string? StudentContributionAmount;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string AverageWorkingTimeAfterReduction;
+        [XmlElement("StudentHoursNbr", typeof(string), DataType = "integer")]
+        [XmlElement("StudentNbrDays", typeof(string), DataType = "integer")]
+        [XmlChoiceIdentifierAttribute("ItemElementName")]
+        public string? Item;
 
-    public Action Action;
-}
+        [XmlIgnore()]
+        public ItemChoiceType1 ItemElementName;
 
+        [XmlElement(DataType = "integer")]
+        public string? LocalUnitID;
 
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlRootAttribute("StudentContributionAction", Namespace="", IsNullable=false)]
-public class StudentContributionActionType
-{
-    [XmlElement(DataType = "integer")]
-    public string StudentRemunAmount;
+        public Action Action;
+    }
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string StudentContributionAmount;
 
-    [System.Xml.Serialization.XmlElementAttribute("StudentHoursNbr", typeof(string), DataType = "integer")]
-    [System.Xml.Serialization.XmlElementAttribute("StudentNbrDays", typeof(string), DataType = "integer")]
-    [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName")]
-    public string Item;
+    [Serializable()]
+    [XmlType(IncludeInSchema = false)]
+    public enum ItemChoiceType1 { StudentHoursNbr, StudentNbrDays, }
 
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public ItemChoiceType1 ItemElementName;
 
-    [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-    public string LocalUnitID;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("WorkerContributionAction", Namespace = "", IsNullable = false)]
+    public class WorkerContributionActionType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? ContributionWorkerCode;
 
-    public Action Action;
-}
+        [XmlElement(DataType = "integer")]
+        public string? ContributionType;
 
+        [XmlElement(DataType = "integer")]
+        public string? ContributionCalculationBasis;
 
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(IncludeInSchema=false)]
-public enum ItemChoiceType1 { StudentHoursNbr, StudentNbrDays, }
+        [XmlElement(DataType = "integer")]
+        public string? ContributionAmount;
 
+        [XmlElement(DataType = "date")]
+        public DateTime FirstHiringDate;
 
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlRootAttribute("WorkerContributionAction", Namespace="", IsNullable=false)]
-public partial class WorkerContributionActionType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string ContributionWorkerCode;
+        [XmlIgnoreAttribute()]
+        public bool FirstHiringDateSpecified;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string ContributionType;
+        public Action Action;
+    }
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string ContributionCalculationBasis;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string ContributionAmount;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class WorkerDeductionAction : WorkerDeductionActionType
+    {
+        [XmlElement("DeductionDetailAction")]
+        public DeductionDetailActionType[]? DeductionDetailAction;
+    }
 
-    [XmlElementAttribute(DataType = "date")]
-    public DateTime FirstHiringDate;
 
-    [XmlIgnoreAttribute()]
-    public bool FirstHiringDateSpecified;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class WRCorrectedPart : WRCorrectedPartType
+    {
+        [XmlElement("ActivationInformationAction", typeof(ActivationInformationActionType))]
+        [XmlElement("ComplementaryIndemnityAction", typeof(ComplementaryIndemnityAction))]
+        [XmlElement("DismissedStatWorkerContAction", typeof(DismissedStatWorkerContActionType))]
+        [XmlElement("EarlyRetirementContAction", typeof(EarlyRetirementContActionType))]
+        [XmlElement("IndemnityWAPMAction", typeof(IndemnityWAPMActionType))]
+        [XmlElement("OccupationUpdateNotification", typeof(OccupationUpdateNotification))]
+        [XmlElement("StudentContributionAction", typeof(StudentContributionActionType))]
+        [XmlElement("WorkerContributionAction", typeof(WorkerContributionActionType))]
+        [XmlElement("WorkerDeductionAction", typeof(WorkerDeductionAction))]
+        public object[]? Items;
+    }
 
-    public Action Action;
-}
 
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("NaturalPersonJustification", Namespace = "", IsNullable = false)]
+    public class NaturalPersonJustificationType
+    {
+        [XmlElement(DataType = "integer")]
+        public string? SubGroup;
 
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public class WorkerDeductionAction : WorkerDeductionActionType
-{    
-    [XmlElementAttribute("DeductionDetailAction")]
-    public DeductionDetailActionType[] DeductionDetailAction;
-}
+        public string? Justification;
 
+        [XmlElement(DataType = "integer")]
+        public string? JustificationCode;
 
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[XmlTypeAttribute(AnonymousType=true)]
-[XmlRootAttribute(Namespace="", IsNullable=false)]
-public class WRCorrectedPart : WRCorrectedPartType
-{
-    [XmlElementAttribute("ActivationInformationAction", typeof(ActivationInformationActionType))]
-    [XmlElementAttribute("ComplementaryIndemnityAction", typeof(ComplementaryIndemnityAction))]
-    [XmlElementAttribute("DismissedStatWorkerContAction", typeof(DismissedStatWorkerContActionType))]
-    [System.Xml.Serialization.XmlElementAttribute("EarlyRetirementContAction", typeof(EarlyRetirementContActionType))]
-    [System.Xml.Serialization.XmlElementAttribute("IndemnityWAPMAction", typeof(IndemnityWAPMActionType))]
-    [System.Xml.Serialization.XmlElementAttribute("OccupationUpdateNotification", typeof(OccupationUpdateNotification))]
-    [System.Xml.Serialization.XmlElementAttribute("StudentContributionAction", typeof(StudentContributionActionType))]
-    [System.Xml.Serialization.XmlElementAttribute("WorkerContributionAction", typeof(WorkerContributionActionType))]
-    [System.Xml.Serialization.XmlElementAttribute("WorkerDeductionAction", typeof(WorkerDeductionAction))]
-    public object[]? Items;
-}
+        [XmlElement(DataType = "date")]
+        public DateTime JustificationDate;
 
+        [XmlIgnore()]
+        public bool JustificationDateSpecified;
+    }
 
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlRootAttribute("NaturalPersonJustification", Namespace="", IsNullable=false)]
-public class NaturalPersonJustificationType
-{
-    [XmlElementAttribute(DataType = "integer")]
-    public string SubGroup;
 
-    public string Justification;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlRoot("RectificationAmount", Namespace = "", IsNullable = false)]
+    public class RectificationAmountType
+    {
+        [XmlElement("CreditAmount", typeof(string), DataType = "integer")]
+        [XmlElement("DebitAmount", typeof(string), DataType = "integer")]
+        [XmlChoiceIdentifier("ItemElementName")]
+        public string? Item;
 
-    [XmlElementAttribute(DataType = "integer")]
-    public string JustificationCode;
+        [XmlIgnore()]
+        public ItemChoiceType2 ItemElementName;
+    }
 
-    [XmlElementAttribute(DataType = "date")]
-    public System.DateTime JustificationDate;
 
-    [XmlIgnoreAttribute()]
-    public bool JustificationDateSpecified;
-}
+    [Serializable()]
+    [XmlType(IncludeInSchema = false)]
+    public enum ItemChoiceType2 { CreditAmount, DebitAmount, }
 
 
-[SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThrough()]
-[System.ComponentModel.DesignerCategory("code")]
-[XmlRoot("RectificationAmount", Namespace="", IsNullable=false)]
-public class RectificationAmountType
-{
-    [XmlElement("CreditAmount", typeof(string), DataType = "integer")]
-    [XmlElement("DebitAmount", typeof(string), DataType = "integer")]
-    [XmlChoiceIdentifier("ItemElementName")]
-    public string? Item;
-
-    [XmlIgnore()]
-    public ItemChoiceType2 ItemElementName;
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true)]
+    [XmlRoot(Namespace = "", IsNullable = false)]
+    public class DmfAUpdateNotification
+    {
+        public Form? Form;
+    }
 }
-
-
-[Serializable()]
-[XmlType(IncludeInSchema=false)]
-public enum ItemChoiceType2 { CreditAmount, DebitAmount, }

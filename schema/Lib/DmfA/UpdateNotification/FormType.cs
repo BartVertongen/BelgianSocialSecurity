@@ -1,8 +1,9 @@
-﻿
-using System.Xml.Serialization;
-using VertSoft.BelgianHR.Xml.DmfA.Common;
+﻿//By Bart Vertongen Dec 2022.
 
-namespace VertSoft.BelgianHR.Xml.DmfA.Original223
+using System.Xml.Serialization;
+
+
+namespace VertSoft.BelgianHR.Xml.DmfA.UpdateNotification223
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
