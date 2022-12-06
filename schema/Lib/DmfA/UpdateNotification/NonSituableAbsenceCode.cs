@@ -1,6 +1,6 @@
 ﻿//By Bart Vertongen Dec 2022.
 
-using System.Xml.Serialization;;
+using System.Xml.Serialization;
 
 
 namespace VertSoft.BelgianHR.Xml.DmfA.UpdateNotification223

@@ -1,6 +1,7 @@
 ﻿//By Bart Vertongen Dec 2022.
 
 using System.Xml.Serialization;
+using VertSoft.BelgianHR.Xml.DmfA.Common;
 
 
 namespace VertSoft.BelgianHR.Xml.DmfA.UpdateNotification223
@@ -10,8 +11,12 @@ namespace VertSoft.BelgianHR.Xml.DmfA.UpdateNotification223
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class DmfAUpdateNotification
+    public class WorkerRecordUpdateNotif : WorkerRecordUpdateNotifType
     {
-        public Form? Form;
+        public LastSituationWRType? LastSituationWR;
+
+        public WRDclPart? WRDclPart;
+
+        public WRCorrectedPart? WRCorrectedPart;
     }
 }
