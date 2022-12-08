@@ -341,36 +341,36 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
 
         [XmlEnumAttribute("512")] Item512,
 
-        [System.Xml.Serialization.XmlEnumAttribute("513")] Item513,
+        [XmlEnum("513")] Item513,
 
-        [System.Xml.Serialization.XmlEnumAttribute("514")] Item514,
+        [XmlEnum("514")] Item514,
 
-        [System.Xml.Serialization.XmlEnumAttribute("515")] Item515,
+        [XmlEnum("515")] Item515,
 
-        [System.Xml.Serialization.XmlEnumAttribute("516")] Item516,
+        [XmlEnum("516")] Item516,
 
-        [System.Xml.Serialization.XmlEnumAttribute("517")]
+        [XmlEnum("517")]
         Item517,
 
-        [System.Xml.Serialization.XmlEnumAttribute("531")]
+        [XmlEnum("531")]
         Item531,
 
-        [System.Xml.Serialization.XmlEnumAttribute("541")]
+        [XmlEnum("541")]
         Item541,
 
-        [System.Xml.Serialization.XmlEnumAttribute("542")]
+        [XmlEnum("542")]
         Item542,
 
-        [System.Xml.Serialization.XmlEnumAttribute("543")]
+        [XmlEnum("543")]
         Item543,
 
-        [System.Xml.Serialization.XmlEnumAttribute("544")] Item544,
+        [XmlEnum("544")] Item544,
 
-        [System.Xml.Serialization.XmlEnumAttribute("545")] Item545,
+        [XmlEnum("545")] Item545,
 
-        [System.Xml.Serialization.XmlEnumAttribute("546")] Item546,
+        [XmlEnum("546")] Item546,
 
-        [System.Xml.Serialization.XmlEnumAttribute("599")] Item599,
+        [XmlEnum("599")] Item599,
     }
 
 
@@ -664,19 +664,19 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum DebtorType {
 
-        [System.Xml.Serialization.XmlEnumAttribute("0")] Item0,
+        [XmlEnum("0")] Item0,
 
-        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
+        [XmlEnum("1")] Item1,
 
-        [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
+        [XmlEnum("2")] Item2,
 
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
+        [XmlEnum("3")]
         Item3,
 
-        [System.Xml.Serialization.XmlEnumAttribute("4")]
+        [XmlEnum("4")]
         Item4,
 
-        [System.Xml.Serialization.XmlEnumAttribute("5")]
+        [XmlEnum("5")]
         Item5,
     }
 
@@ -686,16 +686,16 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum AilingOrReorgCompanyNotion
     {
-        [System.Xml.Serialization.XmlEnumAttribute("0")]
+        [XmlEnum("0")]
         Item0,
 
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
+        [XmlEnum("1")]
         Item1,
 
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
+        [XmlEnum("2")]
         Item2,
 
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
+        [XmlEnum("3")]
         Item3,
     }
 
@@ -969,17 +969,17 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum ComplIndemnityAmountAdjustNotion {
 
-        [System.Xml.Serialization.XmlEnumAttribute("0")] Item0,
+        [XmlEnum("0")] Item0,
 
-        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
+        [XmlEnum("1")] Item1,
 
-        [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
+        [XmlEnum("2")] Item2,
 
-        [System.Xml.Serialization.XmlEnumAttribute("3")] Item3,
+        [XmlEnum("3")] Item3,
 
-        [System.Xml.Serialization.XmlEnumAttribute("4")] Item4,
+        [XmlEnum("4")] Item4,
 
-        [System.Xml.Serialization.XmlEnumAttribute("9")] Item9,
+        [XmlEnum("9")] Item9,
     }
 
 
@@ -997,13 +997,13 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         [XmlEnumAttribute("33")]
         Item33,
 
-        [System.Xml.Serialization.XmlEnumAttribute("41")]
+        [XmlEnum("41")]
         Item41,
 
-        [System.Xml.Serialization.XmlEnumAttribute("42")]
+        [XmlEnum("42")]
         Item42,
 
-        [System.Xml.Serialization.XmlEnumAttribute("43")]
+        [XmlEnum("43")]
         Item43,
     }
 
@@ -1509,7 +1509,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum PSDDclExemption
 {
-        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
+        [XmlEnum("1")] Item1,
     }
 
 
@@ -1535,9 +1535,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum PSPContribCalcBasisDerogation
     {
-        [System.Xml.Serialization.XmlEnumAttribute("1")] Item1,
+        [XmlEnum("1")] Item1,
 
-        [System.Xml.Serialization.XmlEnumAttribute("2")] Item2,
+        [XmlEnum("2")] Item2,
     }
 
 
@@ -1547,19 +1547,19 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot("SecondPillarInformationAction", Namespace = "", IsNullable = false)]
     public class SecondPillarInformationActionType
     {
-        public string ReferenceYearMonth;
+        public string? ReferenceYearMonth;
 
         [XmlElement(DataType = "integer")]
-        public string MonthlyScaleSalary;
+        public string? MonthlyScaleSalary;
 
         [XmlElement(DataType = "integer")]
-        public string MonthlyAdditionalScaleSalary;
+        public string? MonthlyAdditionalScaleSalary;
 
         [XmlElement(DataType = "integer")]
-        public string MonthlyHomeIndemnity;
+        public string? MonthlyHomeIndemnity;
 
         [XmlElement(DataType = "integer")]
-        public string OfficialLanguage;
+        public string? OfficialLanguage;
 
         public Action Action;
     }

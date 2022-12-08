@@ -12,8 +12,4 @@
     <None Remove="xmls\ACRF_20223_2.xml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Lib\DmfA\BewareNotification\" />
-  </ItemGroup>
-
 </Project>

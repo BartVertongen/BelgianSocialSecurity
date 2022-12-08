@@ -4,15 +4,14 @@ using System.Xml.Serialization;
 
 
 namespace VertSoft.BelgianHR.Xml.DmfA.BewareNotification224
-{    
+{
     [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class BewareNotification
+    public enum UserQualityClass
     {
-        [XmlElement("Form")]
-        public Form[]? Form;
+        [XmlEnum("01")] Item01,
+
+        [XmlEnum("02")] Item02,
     }
 }
