@@ -10,9 +10,10 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationRequest224
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class DmfAConsultationRequest
+    public class Form : FormType
     {
-        [XmlElement("Form")]
-        public Form[]? Form;
+        public ReferenceType? Reference;
+
+        public EmployerDeclarationId? EmployerDeclarationId;
     }
 }

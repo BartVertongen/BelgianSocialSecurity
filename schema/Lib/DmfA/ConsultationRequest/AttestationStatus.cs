@@ -6,13 +6,7 @@ using System.Xml.Serialization;
 namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationRequest224
 {
     [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class DmfAConsultationRequest
-    {
-        [XmlElement("Form")]
-        public Form[]? Form;
-    }
+    public enum AttestationStatus { [XmlEnum("0")] Item0 }
 }

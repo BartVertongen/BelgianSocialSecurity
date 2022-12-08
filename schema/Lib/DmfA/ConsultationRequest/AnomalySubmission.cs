@@ -6,13 +6,12 @@ using System.Xml.Serialization;
 namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationRequest224
 {
     [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class DmfAConsultationRequest
+    public enum AnomalySubmission
     {
-        [XmlElement("Form")]
-        public Form[]? Form;
+        [XmlEnum("0")] Item0,
+
+        [XmlEnum("1")] Item1,
     }
 }

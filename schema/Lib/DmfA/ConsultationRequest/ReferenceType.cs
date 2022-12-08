@@ -8,11 +8,14 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationRequest224
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
-    [XmlType(AnonymousType = true)]
-    [XmlRoot(Namespace = "", IsNullable = false)]
-    public class DmfAConsultationRequest
+    [XmlRoot("Reference", Namespace = "", IsNullable = false)]
+    public class ReferenceType
     {
-        [XmlElement("Form")]
-        public Form[]? Form;
+        [XmlElement("ReferenceType")]
+        public ReferenceType1 ReferenceType1;
+
+        public ReferenceOrigin ReferenceOrigin;
+
+        public string? ReferenceNbr;
     }
 }
