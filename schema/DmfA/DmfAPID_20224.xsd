@@ -1,0 +1,605 @@
+﻿<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="AttestationStatus">
+		<xs:annotation>
+			<xs:documentation>00110</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="8"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CompanyID">
+		<xs:annotation>
+			<xs:documentation>00014</xs:documentation>
+			<xs:appinfo source="ConversionID">CompanyID_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:companyId</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1999999943"/>
+				<xs:totalDigits value="10"/>
+				<xs:pattern value="0|\d{9}|\d{10}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CompanyVehicleID" type="CompanyVehicleIDType">
+		<xs:annotation>
+			<xs:documentation>90297</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="CompanyVehicleVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00782</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ContUnrelatedToNPVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00611</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeclNaturalPersonPID">
+		<xs:annotation>
+			<xs:documentation>00548</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeclNaturalPersonVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00620</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DmfAPID">
+		<xs:annotation>
+			<xs:documentation>90249</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Form" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="EmployerClass">
+		<xs:annotation>
+			<xs:documentation>00036</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerDeclarationPID">
+		<xs:annotation>
+			<xs:documentation>00534</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Form">
+		<xs:annotation>
+			<xs:documentation>90059</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="FormType">
+					<xs:sequence>
+						<xs:element ref="Reference" minOccurs="2" maxOccurs="3"/>
+						<xs:element ref="IDEmployerDeclaration"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="FormCreationDate">
+		<xs:annotation>
+			<xs:documentation>00218</xs:documentation>
+			<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FormCreationHour">
+		<xs:annotation>
+			<xs:documentation>00299</xs:documentation>
+			<xs:appinfo source="ConversionID">Time_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:time">
+				<xs:pattern value="\d{2}:\d{2}:\d{2}.\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IDContUnrelatedToNP" type="IDContUnrelatedToNPType">
+		<xs:annotation>
+			<xs:documentation>90247</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="IDEmployerDeclaration">
+		<xs:annotation>
+			<xs:documentation>90244</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="IDEmployerDeclarationType">
+					<xs:sequence>
+						<xs:element ref="IDNaturalPerson" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="IDContUnrelatedToNP" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="CompanyVehicleID" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Identification">
+		<xs:annotation>
+			<xs:documentation>00296</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="7"/>
+				<xs:enumeration value="DMFAPID"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IDNaturalPerson">
+		<xs:annotation>
+			<xs:documentation>90245</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="IDNaturalPersonType">
+					<xs:sequence>
+						<xs:element ref="IDWorkerRecord" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="IDOccupation" type="IDOccupationType">
+		<xs:annotation>
+			<xs:documentation>90246</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="IDWorkerRecord">
+		<xs:annotation>
+			<xs:documentation>90248</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="IDWorkerRecordType">
+					<xs:sequence>
+						<xs:element ref="IDOccupation" minOccurs="0" maxOccurs="99"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="INSS">
+		<xs:annotation>
+			<xs:documentation>00024</xs:documentation>
+			<xs:appinfo source="ConversionID">Inss_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:inss</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+				<xs:pattern value="[0]|\d{11}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="LicensePlate">
+		<xs:annotation>
+			<xs:documentation>00781</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="10"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NaturalPersonPID">
+		<xs:annotation>
+			<xs:documentation>00549</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NaturalPersonUserReference">
+		<xs:annotation>
+			<xs:documentation>00615</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSLPARegistrationNbr">
+		<xs:annotation>
+			<xs:documentation>00109</xs:documentation>
+			<xs:appinfo source="ConversionID">NossAPL_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:nossLpaRegistrationNbr</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999926"/>
+				<xs:totalDigits value="8"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSRegistrationNbr">
+		<xs:annotation>
+			<xs:documentation>00011</xs:documentation>
+			<xs:appinfo source="ConversionID">Noss_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:nossRegistrationNbr</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="100006"/>
+				<xs:maxInclusive value="199999934"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationSequenceNbr">
+		<xs:annotation>
+			<xs:documentation>00043</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationUserReference">
+		<xs:annotation>
+			<xs:documentation>00617</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OccupationVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00619</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OriginalDeclaredWorkerFirstName">
+		<xs:annotation>
+			<xs:documentation>00494</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="24"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OriginalDeclaredWorkerName">
+		<xs:annotation>
+			<xs:documentation>00493</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="48"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Quarter">
+		<xs:annotation>
+			<xs:documentation>00013</xs:documentation>
+			<xs:appinfo source="TDOType">xs:yearQuarter</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="20031"/>
+				<xs:totalDigits value="5"/>
+				<xs:pattern value="\d{4}(1|2|3|4)"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Reference" type="ReferenceType">
+		<xs:annotation>
+			<xs:documentation>90082</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ReferenceNbr">
+		<xs:annotation>
+			<xs:documentation>00222</xs:documentation>
+			<xs:appinfo source="ConversionID">TicketNumber_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1"/>
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReferenceOrigin">
+		<xs:annotation>
+			<xs:documentation>00298</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReferenceType">
+		<xs:annotation>
+			<xs:documentation>00221</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Trusteeship">
+		<xs:annotation>
+			<xs:documentation>00012</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TypeForm">
+		<xs:annotation>
+			<xs:documentation>00297</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="2"/>
+				<xs:enumeration value="SU"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="UnrelatedEmployerClass">
+		<xs:annotation>
+			<xs:documentation>00019</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="UnrelatedWorkerCode">
+		<xs:annotation>
+			<xs:documentation>00020</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkerCode">
+		<xs:annotation>
+			<xs:documentation>00037</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkerRecordUserReference">
+		<xs:annotation>
+			<xs:documentation>00616</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="WorkerRecordVersionNbr">
+		<xs:annotation>
+			<xs:documentation>00610</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99999999999"/>
+				<xs:totalDigits value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:complexType name="CompanyVehicleIDType">
+		<xs:sequence>
+			<xs:element ref="LicensePlate"/>
+			<xs:element ref="CompanyVehicleVersionNbr"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="FormType">
+		<xs:sequence>
+			<xs:element ref="Identification"/>
+			<xs:element ref="FormCreationDate"/>
+			<xs:element ref="FormCreationHour"/>
+			<xs:element ref="AttestationStatus"/>
+			<xs:element ref="TypeForm"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="IDContUnrelatedToNPType">
+		<xs:sequence>
+			<xs:element ref="UnrelatedEmployerClass"/>
+			<xs:element ref="UnrelatedWorkerCode"/>
+			<xs:element ref="ContUnrelatedToNPVersionNbr"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="IDEmployerDeclarationType">
+		<xs:sequence>
+			<xs:element ref="Quarter"/>
+			<xs:choice>
+				<xs:sequence>
+					<xs:element ref="NOSSRegistrationNbr" minOccurs="0"/>
+					<xs:element ref="Trusteeship" minOccurs="0"/>
+				</xs:sequence>
+				<xs:element ref="NOSSLPARegistrationNbr" minOccurs="0"/>
+			</xs:choice>
+			<xs:element ref="CompanyID"/>
+			<xs:element ref="EmployerDeclarationPID"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="IDNaturalPersonType">
+		<xs:sequence>
+			<xs:element ref="INSS"/>
+			<xs:element ref="NaturalPersonUserReference" minOccurs="0"/>
+			<xs:element ref="NaturalPersonPID"/>
+			<xs:element ref="DeclNaturalPersonPID"/>
+			<xs:element ref="DeclNaturalPersonVersionNbr"/>
+			<xs:element ref="OriginalDeclaredWorkerName" minOccurs="0"/>
+			<xs:element ref="OriginalDeclaredWorkerFirstName" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="IDOccupationType">
+		<xs:sequence>
+			<xs:element ref="OccupationSequenceNbr"/>
+			<xs:element ref="OccupationVersionNbr"/>
+			<xs:element ref="OccupationUserReference" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="IDWorkerRecordType">
+		<xs:sequence>
+			<xs:element ref="EmployerClass"/>
+			<xs:element ref="WorkerCode"/>
+			<xs:element ref="WorkerRecordVersionNbr"/>
+			<xs:element ref="WorkerRecordUserReference" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ReferenceType">
+		<xs:sequence>
+			<xs:element ref="ReferenceType"/>
+			<xs:element ref="ReferenceOrigin"/>
+			<xs:element ref="ReferenceNbr"/>
+		</xs:sequence>
+	</xs:complexType>
+		
+</xs:schema>

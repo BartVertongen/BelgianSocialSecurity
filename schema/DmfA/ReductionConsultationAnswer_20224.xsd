@@ -1,0 +1,129 @@
+﻿<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="DeductionCode">
+		<xs:annotation>
+			<xs:documentation>00086</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DeductionRightStartingDate">
+		<xs:annotation>
+			<xs:documentation>00090</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="INSS">
+		<xs:annotation>
+			<xs:documentation>00024</xs:documentation>
+			<xs:appinfo source="ConversionID">Inss_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:inss</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+				<xs:pattern value="[0]|\d{11}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Quarter">
+		<xs:annotation>
+			<xs:documentation>00013</xs:documentation>
+			<xs:appinfo source="TDOType">xs:yearQuarter</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="5"/>
+				<xs:pattern value="\d{4}(1|2|3|4)"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReductionConsultation">
+		<xs:annotation>
+			<xs:documentation>90527</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="ReductionConsultationType">
+					<xs:sequence>
+						<xs:element ref="ReductionConsultationDetail" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ReductionConsultationAnswer">
+		<xs:annotation>
+			<xs:documentation>90526</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ReductionConsultation"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ReductionConsultationDetail" type="ReductionConsultationDetailType">
+		<xs:annotation>
+			<xs:documentation>90528</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ResultCodeResearch">
+		<xs:annotation>
+			<xs:documentation>00609</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="5"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Trusteeship">
+		<xs:annotation>
+			<xs:documentation>00012</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:complexType name="ReductionConsultationDetailType">
+		<xs:sequence>
+			<xs:element ref="Quarter"/>
+			<xs:element ref="Trusteeship"/>
+			<xs:element ref="INSS"/>
+			<xs:element ref="DeductionCode"/>
+			<xs:element ref="DeductionRightStartingDate"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ReductionConsultationType">
+		<xs:sequence>
+			<xs:element ref="ResultCodeResearch"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>

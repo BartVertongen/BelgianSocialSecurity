@@ -1,4 +1,4 @@
-﻿
+﻿//By Bart Vertongen Dec 2022.
 
 using System.Xml.Serialization;
 
@@ -6,212 +6,12 @@ using System.Xml.Serialization;
 namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
 {
     [Serializable()]
-    [XmlType(AnonymousType = true)]
-    [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum Action {
-
-        [XmlEnum("0")] Item0,
-
-        [XmlEnum("1")] Item1,
-
-        [XmlEnum("2")] Item2,
-
-        [XmlEnumAttribute("3")]
-        Item3,
-
-        [XmlEnumAttribute("5")]
-        Item5,
-
-        [XmlEnumAttribute("6")]
-        Item6,
-
-        [XmlEnumAttribute("7")]
-        Item7,
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    [XmlRoot("ActivationInformationAction", Namespace = "", IsNullable = false)]
-    public class ActivationInformationActionType
-    {
-        [XmlElement(DataType = "date")]
-        public DateTime ServiceExemptionStartDate;
-
-        [XmlElement(DataType = "date")]
-        public DateTime TrainingSituationStartDate;
-
-        [XmlElement(DataType = "integer")]
-        public string? TrainingSituation;
-
-        public Action Action;
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public class WorkerDeductionActionType
-    {
-        [XmlElement(DataType = "integer")]
-        public string? DeductionCode;
-
-        [XmlElement(DataType = "integer")]
-        public string? DeductionCalculationBasis;
-
-        [XmlElement(DataType = "integer")]
-        public string? DeductionAmount;
-
-        [XmlElement(DataType = "date")]
-        public DateTime DeductionRightStartingDate;
-
-        [XmlIgnoreAttribute()]
-        public bool DeductionRightStartingDateSpecified;
-
-        [XmlElement(DataType = "integer")]
-        public string? ManagementCostNbrMonths;
-
-        [XmlElement(DataType = "integer")]
-        public string? ReplacedINSS;
-
-        [XmlElement(DataType = "integer")]
-        public string? ApplicantINSS;
-
-        [XmlElement(DataType = "integer")]
-        public string? CertificateOrigin;
-
-        public Action Action;
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public class OccupationDeductionActionType
-    {
-        [XmlElement(DataType = "integer")]
-        public string? DeductionCode;
-
-        [XmlElement(DataType = "integer")]
-        public string? DeductionCalculationBasis;
-
-        [XmlElement(DataType = "integer")]
-        public string DeductionAmount;
-
-        [XmlElement(DataType = "date")]
-        public DateTime DeductionRightStartingDate;
-
-        [XmlIgnore()]
-        public bool DeductionRightStartingDateSpecified;
-
-        [XmlElement(DataType = "integer")]
-        public string ManagementCostNbrMonths;
-
-        [XmlElement(DataType = "integer")]
-        public string ReplacedINSS;
-
-        [XmlElement(DataType = "integer")]
-        public string ApplicantINSS;
-
-        [XmlElement(DataType = "integer")]
-        public string CertificateOrigin;
-
-        public Action Action;
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public class ScaleSalaryActionType
-    {
-        [XmlElement(DataType = "date")]
-        public DateTime ScaleSalaryStartDate;
-
-        [XmlElement(DataType = "date")]
-        public DateTime ScaleSalaryEndDate;
-
-        [XmlIgnore()]
-        public bool ScaleSalaryEndDateSpecified;
-
-        [XmlElement(DataType = "gYearMonth")]
-        public string PecuniarySeniorityStartDate;
-
-        [XmlElement(DataType = "integer")]
-        public string SalaryScaleReference;
-
-        [XmlElement(DataType = "integer")]
-        public string ScaleSalaryAmount;
-
-        [XmlElement(DataType = "integer")]
-        public string WeekHoursNbr;
-
-        [XmlElement(DataType = "integer")]
-        public string ScaleSalaryWeekHoursNbr;
-
-        public ReducedScaleSalaryNotion ReducedScaleSalaryNotion;
-
-        [XmlIgnore()]
-        public bool ReducedScaleSalaryNotionSpecified;
-
-        public Action Action;
-    }
-
-
-    [Serializable()]
-    [XmlType(AnonymousType = true)]
-    [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum ReducedScaleSalaryNotion {
-        [XmlEnumAttribute("1")] Item1,
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    public class OccupationPSDActionType
-    {
-        [XmlElement(DataType = "date")]
-        public DateTime OccupationPSDStartDate;
-
-        [XmlElement(DataType = "date")]
-        public DateTime OccupationPSDEndDate;
-
-        [XmlIgnoreAttribute()]
-        public bool OccupationPSDEndDateSpecified;
-
-        [XmlElement(DataType = "integer")]
-        public string PublicSectorInstitutionType;
-
-        [XmlElement(DataType = "integer")]
-        public string PublicSectorPersonnelCategory;
-
-        public string GradeOrFunction;
-
-        [XmlElement(DataType = "integer")]
-        public string OfficialLanguage;
-
-        [XmlElement(DataType = "integer")]
-        public string AssignmentType;
-
-        [XmlElement(DataType = "integer")]
-        public string FunctionNature;
-
-        [XmlElement(DataType = "integer")]
-        public string StatutoryRelationEndReason;
-
-        public Action Action;
-    }
-
-
-    [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     public class OccupationConsultationType
     {
         [XmlElement(DataType = "integer")]
-        public string OccupationSequenceNbr;
+        public string? OccupationSequenceNbr;
 
         [XmlElement(DataType = "date")]
         public DateTime OccupationStartingDate;
@@ -225,21 +25,21 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         [XmlIgnore()]
         public bool OccupationEndingDateSpecified;
 
-        public string JointCommissionNbr;
+        public string? JointCommissionNbr;
 
         [XmlElement(DataType = "integer")]
-        public string WorkingDaysSystem;
+        public string? WorkingDaysSystem;
 
         [XmlElement(DataType = "integer")]
-        public string ContractType;
+        public string? ContractType;
 
         [XmlElement(DataType = "integer")]
-        public string RefMeanWorkingHours;
+        public string? RefMeanWorkingHours;
 
-        public string WorkerStatus;
+        public string? WorkerStatus;
 
         [XmlElement(DataType = "integer")]
-        public string MeanWorkingHours;
+        public string? MeanWorkingHours;
 
         public ReorganisationMeasure ReorganisationMeasure;
 
@@ -247,19 +47,19 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         public bool ReorganisationMeasureSpecified;
 
         [XmlElement(DataType = "integer")]
-        public string EmploymentPromotion;
+        public string? EmploymentPromotion;
 
         [XmlElement(DataType = "integer")]
-        public string Retired;
+        public string? Retired;
 
         [XmlElement(DataType = "integer")]
-        public string Apprenticeship;
+        public string? Apprenticeship;
 
         [XmlElement(DataType = "integer")]
-        public string RemunMethod;
+        public string? RemunMethod;
 
         [XmlElement(DataType = "integer")]
-        public string PositionCode;
+        public string? PositionCode;
 
         [XmlElement(DataType = "integer")]
         public string FlyingStaffClass;
@@ -305,10 +105,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
 
         [XmlEnumAttribute("4")] Item4,
 
-        /// <remarks/>
         [XmlEnumAttribute("5")] Item5,
 
-        /// <remarks/>
         [XmlEnumAttribute("6")] Item6,
 
         [XmlEnumAttribute("7")] Item7,
@@ -349,20 +147,15 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
 
         [XmlEnum("516")] Item516,
 
-        [XmlEnum("517")]
-        Item517,
+        [XmlEnum("517")] Item517,
 
-        [XmlEnum("531")]
-        Item531,
+        [XmlEnum("531")] Item531,
 
-        [XmlEnum("541")]
-        Item541,
+        [XmlEnum("541")] Item541,
 
-        [XmlEnum("542")]
-        Item542,
+        [XmlEnum("542")] Item542,
 
-        [XmlEnum("543")]
-        Item543,
+        [XmlEnum("543")] Item543,
 
         [XmlEnum("544")] Item544,
 
@@ -380,10 +173,10 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     public class WorkerRecordConsultType
     {
         [XmlElement(DataType = "integer")]
-        public string EmployerClass;
+        public string? EmployerClass;
 
         [XmlElement(DataType = "integer")]
-        public string WorkerCode;
+        public string? WorkerCode;
 
         [XmlElement(DataType = "date")]
         public DateTime NOSSQuarterStartingDate;
@@ -392,24 +185,24 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         public DateTime NOSSQuarterEndingDate;
 
         [XmlElement(DataType = "integer")]
-        public string Border;
+        public string? Border;
 
         [XmlElement(DataType = "integer")]
-        public string ActivityWithRisk;
+        public string? ActivityWithRisk;
 
         [XmlElement(DataType = "integer")]
-        public string LocalUnitID;
+        public string? LocalUnitID;
 
-        public string WorkerRecordUserReference;
-
-        [XmlElement(DataType = "integer")]
-        public string WorkerRecordPID;
+        public string? WorkerRecordUserReference;
 
         [XmlElement(DataType = "integer")]
-        public string WorkerRecordVersionNbr;
+        public string? WorkerRecordPID;
 
         [XmlElement(DataType = "integer")]
-        public string CodeSubjected;
+        public string? WorkerRecordVersionNbr;
+
+        [XmlElement(DataType = "integer")]
+        public string? CodeSubjected;
 
         public Action Action;
     }
@@ -421,28 +214,28 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     public class NaturalPersonConsultType
     {
         [XmlElement(DataType = "integer")]
-        public string NaturalPersonSequenceNbr;
+        public string? NaturalPersonSequenceNbr;
 
         [XmlElement(DataType = "integer")]
-        public string INSS;
+        public string? INSS;
 
-        public string WorkerName;
+        public string? WorkerName;
 
-        public string WorkerFirstName;
+        public string? WorkerFirstName;
 
-        public string NaturalPersonUserReference;
-
-        [XmlElement(DataType = "integer")]
-        public string NaturalPersonPID;
+        public string? NaturalPersonUserReference;
 
         [XmlElement(DataType = "integer")]
-        public string DeclNaturalPersonPID;
+        public string? NaturalPersonPID;
 
         [XmlElement(DataType = "integer")]
-        public string DeclNaturalPersonVersionNbr;
+        public string? DeclNaturalPersonPID;
 
         [XmlElement(DataType = "integer")]
-        public string ResultCodeResearch;
+        public string? DeclNaturalPersonVersionNbr;
+
+        [XmlElement(DataType = "integer")]
+        public string? ResultCodeResearch;
     }
 
 
@@ -452,32 +245,32 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     public class EmployerDeclarationConsultType
     {
         [XmlElement(DataType = "integer")]
-        public string Quarter;
+        public string? Quarter;
 
         [XmlElement("NOSSLPARegistrationNbr", typeof(string), DataType = "integer")]
         [XmlElement("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
         [XmlElement("Trusteeship", typeof(string), DataType = "integer")]
-        [System.Xml.Serialization.XmlChoiceIdentifier("ItemsElementName")]
-        public string[] Items;
+        [XmlChoiceIdentifier("ItemsElementName")]
+        public string[]? Items;
 
         [XmlElement("ItemsElementName")]
         [XmlIgnore()]
-        public ItemsChoiceType[] ItemsElementName;
+        public ItemsChoiceType[]? ItemsElementName;
 
         [XmlElement(DataType = "integer")]
-        public string CompanyID;
+        public string? CompanyID;
 
         [XmlElement(DataType = "integer")]
-        public string System5;
+        public string? System5;
 
         [XmlElement(DataType = "integer")]
-        public string EmployerDeclarationPID;
+        public string? EmployerDeclarationPID;
 
         [XmlElement(DataType = "integer")]
-        public string EmployerDeclarationVersionNbr;
+        public string? EmployerDeclarationVersionNbr;
 
         [XmlElement(DataType = "integer")]
-        public string ResultCodeResearch;
+        public string? ResultCodeResearch;
 
         public AnomalySubmission AnomalySubmission;
 
@@ -581,80 +374,59 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         [XmlElement(DataType = "integer")]
         public string EmployerNotion;
 
-        /// <remarks/>
         public string JointCommissionNbr;
 
-        /// <remarks/>
         [XmlElement(DataType = "integer")]
         public string ActivityCode;
 
-        /// <remarks/>
         public DebtorType DebtorType;
 
-        /// <remarks/>
         [XmlIgnore()]
         public bool DebtorTypeSpecified;
 
-        /// <remarks/>
         [XmlElement(DataType = "date")]
         public DateTime FirstComplIndemnityDate;
 
-        /// <remarks/>
         [XmlElement(DataType = "integer")]
         public string ComplIndemnityAgreementNotion;
 
-        /// <remarks/>
         public string HalfTimeCareerInterruptionNotion;
 
-        /// <remarks/>
         public string ServiceExemptionNotion;
 
-        /// <remarks/>
         public string ReplacementAccordanceWCCNotion;
 
-        /// <remarks/>
         [XmlElement(DataType = "integer")]
         public string SubstituteINSS;
 
-        /// <remarks/>
         public string ResumptionOfWorkMeasure;
 
-        /// <remarks/>
         [XmlElement(DataType = "integer")]
         public string ComplIndemnityNbrOfParts;
 
-        /// <remarks/>
         [XmlElement(DataType = "date")]
         public DateTime NoticeDate;
 
-        /// <remarks/>
         [XmlIgnore()]
         public bool NoticeDateSpecified;
 
-        /// <remarks/>
         public AilingOrReorgCompanyNotion AilingOrReorgCompanyNotion;
 
-        /// <remarks/>
         [XmlIgnore()]
         public bool AilingOrReorgCompanyNotionSpecified;
 
-        /// <remarks/>
         [XmlElement(DataType = "date")]
         public DateTime AcknowledgementStartDate;
 
-        /// <remarks/>
         [XmlIgnore()]
         public bool AcknowledgementStartDateSpecified;
 
-        /// <remarks/>
         [XmlElement(DataType = "date")]
         public DateTime AcknowledgementEndDate;
 
-        /// <remarks/>
         [XmlIgnore()]
         public bool AcknowledgementEndDateSpecified;
 
-        /// <remarks/>
         public Action Action;
     }
 
@@ -670,14 +442,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
 
         [XmlEnum("2")] Item2,
 
-        [XmlEnum("3")]
-        Item3,
+        [XmlEnum("3")] Item3,
 
-        [XmlEnum("4")]
-        Item4,
+        [XmlEnum("4")] Item4,
 
-        [XmlEnum("5")]
-        Item5,
+        [XmlEnum("5")] Item5,
     }
 
 
@@ -686,17 +455,13 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum AilingOrReorgCompanyNotion
     {
-        [XmlEnum("0")]
-        Item0,
+        [XmlEnum("0")] Item0,
 
-        [XmlEnum("1")]
-        Item1,
+        [XmlEnum("1")] Item1,
 
-        [XmlEnum("2")]
-        Item2,
+        [XmlEnum("2")] Item2,
 
-        [XmlEnum("3")]
-        Item3,
+        [XmlEnum("3")] Item3,
     }
 
 
@@ -705,15 +470,15 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [System.ComponentModel.DesignerCategory("code")]
     public class AnomalyReportType
     {
-        public string ErrorID;
+        public string? ErrorID;
 
-        public string TagName;
+        public string? TagName;
 
-        public string Value;
+        public string? Value;
 
-        public string AnomalyClass;
+        public string? AnomalyClass;
 
-        public string AnomalyLabel;
+        public string? AnomalyLabel;
     }
 
 
@@ -733,19 +498,19 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         public bool AdditionalScaleSalaryEndDateSpecified;
 
         [XmlElement(DataType = "integer")]
-        public string AdditionalScaleSalaryReference;
+        public string? AdditionalScaleSalaryReference;
 
         [XmlElement(DataType = "integer")]
-        public string AdditionalScaleSalaryBasisAmount;
+        public string? AdditionalScaleSalaryBasisAmount;
 
         [XmlElement(DataType = "integer")]
-        public string AdditionalScaleSalaryPercentage;
+        public string? AdditionalScaleSalaryPercentage;
 
         [XmlElement(DataType = "integer")]
-        public string NbrHoursOrServices;
+        public string? NbrHoursOrServices;
 
         [XmlElement(DataType = "integer")]
-        public string AdditionalScaleSalaryAmount;
+        public string? AdditionalScaleSalaryAmount;
 
         public Action Action;
     }
@@ -758,7 +523,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot(Namespace = "", IsNullable = false)]
     public class AnomalyReport : AnomalyReportType
     {
-        public PathType Path;
+        public PathType? Path;
     }
 
 
@@ -864,13 +629,13 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         public bool ComplIndemnityAmountAdjustNotionSpecified;
 
         [XmlElement(DataType = "integer")]
-        public string ContributionSequenceNbr;
+        public string? ContributionSequenceNbr;
 
         [XmlElement(DataType = "integer")]
-        public string EarlyRetirementCode;
+        public string? EarlyRetirementCode;
 
         [XmlElement(DataType = "integer")]
-        public string IndemnityNature;
+        public string? IndemnityNature;
 
         public string IncapacityDegree;
 
@@ -892,7 +657,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         [XmlElement(DataType = "date")]
         public DateTime OccupationPSDStartDate;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool OccupationPSDStartDateSpecified;
 
         [XmlElement(DataType = "integer")]
@@ -908,13 +673,13 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         public string PublicSectorPersonnelCategory;
 
         [XmlElement(DataType = "integer")]
-        public string AssignmentType;
+        public string? AssignmentType;
 
         [XmlElement(DataType = "integer")]
-        public string FunctionNature;
+        public string? FunctionNature;
 
         [XmlElement(DataType = "integer")]
-        public string ScaleSalarySequenceNbr;
+        public string? ScaleSalarySequenceNbr;
 
         [XmlElement(DataType = "date")]
         public DateTime ScaleSalaryStartDate;
@@ -988,23 +753,17 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum NonSituableAbsenceCode {
 
-        [XmlEnumAttribute("31")]
-        Item31,
+        [XmlEnum("31")] Item31,
 
-        [XmlEnumAttribute("32")]
-        Item32,
+        [XmlEnum("32")] Item32,
 
-        [XmlEnumAttribute("33")]
-        Item33,
+        [XmlEnum("33")] Item33,
 
-        [XmlEnum("41")]
-        Item41,
+        [XmlEnum("41")] Item41,
 
-        [XmlEnum("42")]
-        Item42,
+        [XmlEnum("42")] Item42,
 
-        [XmlEnum("43")]
-        Item43,
+        [XmlEnum("43")] Item43,
     }
 
 
@@ -1012,14 +771,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum CapitalizationNotion {
-        [XmlEnumAttribute("0")]
-        Item0,
+        [XmlEnum("0")] Item0,
 
-        [XmlEnum("1")]
-        Item1,
+        [XmlEnum("1")] Item1,
 
-        [XmlEnum("2")]
-        Item2,
+        [XmlEnum("2")] Item2,
     }
 
 
@@ -1030,15 +786,15 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     public class CompanyVehicleActionType
     {
         [XmlElement(DataType = "integer")]
-        public string CompanyVehicleSequenceNbr;
+        public string? CompanyVehicleSequenceNbr;
 
-        public string LicensePlate;
-
-        [XmlElement(DataType = "integer")]
-        public string EcoVehicle;
+        public string? LicensePlate;
 
         [XmlElement(DataType = "integer")]
-        public string CompanyVehicleVersionNbr;
+        public string? EcoVehicle;
+
+        [XmlElement(DataType = "integer")]
+        public string? CompanyVehicleVersionNbr;
 
         public Action Action;
     }
@@ -1098,7 +854,6 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         [XmlElement(DataType = "integer")]
         public string IncompleteMonthNbrDays;
 
-        /// <remarks/>
         [XmlElement(DataType = "integer")]
         public string IncompleteMonthReason;
 
@@ -1134,9 +889,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         public string DeductionDetailSequenceNbr;
 
         [XmlElement(DataType = "integer")]
-        public string DeductionDetailAmount;
+        public string? DeductionDetailAmount;
 
-        public string WorkingRegulationsRegistryNbr;
+        public string? WorkingRegulationsRegistryNbr;
 
         [XmlElement(DataType = "date")]
         public DateTime WorkingRegulationsStartingDate;
@@ -1145,10 +900,10 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
         public bool WorkingRegulationsStartingDateSpecified;
 
         [XmlElement(DataType = "integer")]
-        public string AverageWorkingTimeBeforeReduction;
+        public string? AverageWorkingTimeBeforeReduction;
 
         [XmlElement(DataType = "integer")]
-        public string AverageWorkingTimeAfterReduction;
+        public string? AverageWorkingTimeAfterReduction;
 
         public Action Action;
     }
@@ -1161,13 +916,13 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     public class DismissedStatWorkerContActionType
     {
         [XmlElement(DataType = "integer")]
-        public string GrossRefRemunAmount;
+        public string? GrossRefRemunAmount;
 
         [XmlElement(DataType = "integer")]
-        public string GrossRefRemunContributionAmount;
+        public string? GrossRefRemunContributionAmount;
 
         [XmlElement(DataType = "integer")]
-        public string RefNbrDays;
+        public string? RefNbrDays;
 
         [XmlElement(DataType = "date")]
         public DateTime SubjectionStartingDate;
@@ -1229,9 +984,9 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum ReferenceOrigin
     {
-        [XmlEnumAttribute("1")] Item1,
+        [XmlEnum("1")] Item1,
 
-        [XmlEnumAttribute("2")] Item2,
+        [XmlEnum("2")] Item2,
     }
 
 
@@ -1266,7 +1021,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
 
         public ReferenceOrigin ReferenceOrigin;
 
-        public string ReferenceNbr;
+        public string? ReferenceNbr;
     }
 
 
