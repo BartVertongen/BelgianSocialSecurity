@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Personeels klassen -->
+<!-- Staff classes -->
+<staff-classes>
+    <staff-class>
+        <code>1</code>
+        <description>
+            <fr>
+                MARIN : 
+                - officier pont (aspirant matelot, aspirant officier, premier/deuxième/troisième/quatrième officier, premier/deuxième second, capitaine);
+                - officier machine (aspirant mécanicien, aspirant mécanicien automatisation, mécanicien automatisation, premier mécanicien (en chef), deuxième/troisième, quatrième/cinquième mécanicien, premier électricien);
+                - shortsea officier pont (capitaine);
+                - shortsea officier machine (premier mécanicien); 
+                - marin subalterne (maître d'équipage, premier cuisinier, cuisinier et maître d'équipage, cuisinier et maître d'hôtel, pumpman, steward(ess) avec plus d'un an de service, deuxième cuisinier-boulanger, matelot qualifié, matelot qualifié-wiper, wiper-matelot); 
+                - shoregang (tous les grades)
+            </fr>
+            <nl>
+                ZEEVARENDE: 
+                - officier dek (aspirant-matroos, aspirant-officier, eerste/tweede/derde/vierde officier,  eerste/tweede stuurman, kapitein);
+                - officier machine (aspirant-werktuigkundige, aspirant-werktuigkundige automatisatie, werktuigkundige automatisatie, eerste (hoofd)werktuigkundige, tweede/derde/vierde/vijfde werktuigkundige, eerste elektricien);
+                - shortsea officier dek (kapitein);
+                - shortsea officier machine (eerste werktuigkundige); 
+                - scheepsgezel (bootsman, eerste kok, kok bootsman, kok en hoofmeester, pompman, steward(ess) met meer dan één jaar dienst, tweede kok-bakker, volmatroos, volmatroos-wiper, wiper-matroos); 
+                - shoregang (alle rangen)
+            </nl>
+            </description>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>2</code>
+        <description>
+            <fr>MARIN : marin subalterne (matelot)</fr>
+            <nl>ZEEVARENDE: scheepsgezel (matroos)</nl>
+        </description>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>3</code>
+        <description>
+            <fr>
+                MARIN :
+                - shortsea officier pont (premier officier); 
+                - shortsea officier machine (deuxième mécanicien)
+            </fr>
+            <nl>
+                ZEEVARENDE: 
+                - shortsea officier dek (eerste officier); 
+                - shortsea officier machine (tweede werktuigkundige)
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>4</code>
+        <description>
+            <fr>MARIN : shortsea navire à passagers (commissaire)</fr>
+            <nl>ZEEVARENDE: shortsea passagiersschip (commissaris)</nl>
+        </description>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>5</code>
+        <description>
+            <fr>
+                MARIN :
+                - shortsea officier pont (chef de garde); 
+                - shortsea officier machine (officier mécanicien chef de garde)
+            </fr>
+            <nl>
+                ZEEVARENDE: 
+                - shortsea officier dek (wachtoverste); 
+                - shortsea officier machine (officier werktuigkundige wachtoverste)
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>6</code>
+        <description>
+            <fr>MARIN : shortsea navire à passagers (premier cuisinier)</fr>
+            <nl>ZEEVARENDE: shortsea passagiersschip (eerste kok)</nl>
+        </description>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>7</code>
+        <description>
+            <fr>
+                MARIN : 
+                - shortsea navire à passagers (animateur, gouvernante, maître d'hôtel)
+                - shortsea marin subalterne (maître d'équipage, matelot, steward, cuisinier);
+                - shortsea officier pont (aspirant officier);
+                - shortsea officier machine (aspirant mécanicien);
+                - shortsea navire à passagers (aide-cuisinier, électricien)
+            </fr>
+            <nl>
+                ZEEVARENDE:
+                - shortsea passagiersschip (animator, gouvernante, hofmeester)
+                - shortsea scheepsgezel (bootsman, matroos, steward, kok); 
+                - shortsea officier dek (aspirant-officier); 
+                - shortsea officier machine (aspirant-werktuigkundige); 
+                - shortsea passagiersschepen (keukenhulp, elektricien)
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>8</code>
+        <description>
+            <fr>
+                MARIN :
+                - shortsea marin subalterne (maître d'équipage, matelot, steward, cuisinier); 
+                - shortsea officier pont (aspirant officier); 
+                - shortsea officier machine (aspirant mécanicien); 
+                - shortsea navire à passagers (aide-cuisinier, plongeur, barman, garçon, lingère, électricien)
+            </fr>
+            <nl>
+                ZEEVARENDE: 
+                - shortsea scheepsgezel (bootsman, matroos, steward, kok); 
+                - shortsea officier dek (aspirant-officier); 
+                - shortsea officier machine (aspirant-werktuigkundige); 
+                - shortsea passagiersschepen (keukenhulp, afwasser, barman, ober, dame linnenkamer, elektricien)
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quater>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>9</code>
+        <description>
+            <fr>MARIN : navires à passagers commerciaux officier pont (capitaine)</fr>
+            <nl>ZEEVARENDE: commerciële passagiersschepen officier dek (kapitein)</nl>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>10</code>
+        <description>
+            <fr>MARIN : navires à passagers commerciaux officier pont (premier officier)</fr>
+            <nl>ZEEVARENDE: commerciële passagiersschepen officier dek (eerste officier)</nl>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>11</code>
+        <description>
+            <fr>
+                MARIN : 
+                - navires à passagers commerciaux officier pont (deuxième officier)
+                - navires à passagers commerciaux officier machine (troisième mécanicien)
+                - navires à passagers commerciaux subalterne (matelot)
+            </fr>
+            <nl>
+                ZEEVARENDE:
+                - commerciële passagiersschepen officier dek (tweede officier)
+                - commerciële passagiersschepen officier machine (derde werktuigkundige)
+                - commerciële passagiersschepen scheepsgezel (matroos)
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>12</code>
+        <description>
+            <fr>
+                MARIN : 
+                - navires à passagers commerciaux officier pont (aspirant officier)
+                - navires à passagers commerciaux subalterne (steward)
+            </fr>
+            <nl>
+                ZEEVARENDE:
+                - commerciële passagiersschepen officier dek (aspirant-officier)
+                - commerciële passagiersschepen scheepsgezel (steward)
+            </nl>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>13</code>
+        <description>
+            <fr>MARIN : navires à passagers commerciaux officier machine (premier mécanicien)</fr>
+            <nl>ZEEVARENDE: commerciële passagiersschepen officier machine (eerste werktuigkundige)</nl>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>14</code>
+        <description>
+            <fr>MARIN : navires à passagers commerciaux officier machine (deuxième mécanicien)</fr>
+            <nl>ZEEVARENDE: commerciële passagiersschepen officier machine (tweede werktuigkundige)</nl>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+    <staff-class>
+        <code>15</code>
+        <description>
+            <fr>MARIN : navires à passagers commerciaux subalterne (cuisinier)</fr>
+            <nl>ZEEVARENDE: commerciële passagiersschepen scheepsgezel (kok)</nl>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </staff-class>
+</staff-classes>

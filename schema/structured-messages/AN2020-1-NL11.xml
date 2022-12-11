@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Identificatie van formulier -->
+<!-- Identification of forms -->
 <!DOCTYPE List [
      <!ELEMENT ann11 (Code?, Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
      <!ELEMENT List (ann11+)>
