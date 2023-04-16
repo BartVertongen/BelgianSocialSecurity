@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Maatregels bevordering werkgelegenheid PPO -->
+<employment-measures-ppo>
+    <employment-measure-ppo>
+        <code>1</code>
+        <description>
+            <nl>werknemer aangeworven in het kader van K.B. 495</nl>
+            <fr>travailleur engagé dans le cadre de l'A.R. 495</fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>2</code>
+        <description>
+            <nl>
+                werknemer aangeworven in het kader van de volgende maatregelen ter activering van de werkloosheidsuitkeringen
+                , het leefloon of de financiële maatschappelijke hulp.
+                 De code mag enkel worden gebruikt voor de volgende tewerkstelling : 
+                 een tewerkstelling in het kader van een doorstromingsprogramma 
+                 of een tewerkstelling in het kader van een sociale inschakelingseconomie (SINE).
+            </nl>
+            <fr>
+                travailleur engagé dans le cadre de mesures d'activation des allocations de chômage
+                , du revenu d'intégration ou de l'aide sociale financière. 
+                Ce code doit uniquement être utilisé dans le cas suivant : 
+                une occupation dans le cadre d'un programme de transition professionnelle reconnu 
+                et une occupation dans le cadre de l'économie d'insertion sociale (SINE).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>3</code>
+        <description>
+            <nl>
+                Werknemer aangeworven ter vervanging van een werknemer die gekozen heeft voor halftijdse vervroegde uittreding 
+                of vrijwillige vierdagenweek (herverdeling van arbeid in de openbare sector).
+            </nl>
+            <fr>
+                Travailleur engagé en remplacement dans le cadre de la redistribution du travail
+                dans le secteur public(départ anticipé à mi-temps et semaine volontaire de 4 jours).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>5</code>
+        <description>
+            <nl>werknemer aangeworven in het kader het PRIME-programma</nl>
+            <fr>travailleur engagé dans le cadre du programme PRIME</fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>10</code>
+        <description>
+            <nl>
+                werknemer aangeworven in het kader van een startbaanovereenkomst
+                , type één (bepaald in artikel 27, eerste lid, 1§ van de wet van 24 december 1999)
+            </nl>
+            <fr>
+                travailleur engagé dans le cadre d'une convention de premier emploi
+                , type un (définie à l'article 27, premier alinéa, 1§, de la loi du 24 décembre 1999)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>11</code>
+        <description>
+            <nl>
+                werknemer aangeworven in het kader van een startbaanovereenkomst
+                , type twee (bepaald in artikel 27, eerste lid, 2§ van de wet van 24 december 1999)
+            </nl>
+            <fr>
+                travailleur engagé dans le cadre d'une convention de premier emploi
+                , type deux (définie à l'article 27, premier alinéa, 2§, de la loi du 24 décembre 1999)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>12</code>
+        <description>
+            <nl>
+                werknemer aangeworven in het kader van een startbaanovereenkomst, type drie
+                (bepaald in artikel 27, eerste lid, 3§ van de wet van 24 december 1999)
+            </nl>
+            <fr>
+                travailleur engagé dans le cadre d'une convention de premier emploi
+                , type trois (définie à l'article 27, premier alinéa, 3§, de la loi du 24 décembre 1999)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>13</code>
+        <description>
+            <nl>
+                mindervalide werknemer aangeworven in het kader van een startbaanovereenkomst
+                 , type één (bepaald in artikel 27, eerste lid, 1§ van de wet van 24 december 1999)
+            </nl>
+            <fr>
+                travailleur handicapé engagé dans le cadre d'une convention de premier emploi
+                , type un (définie à l'article 27, premier alinéa, 1§, de la loi du 24 décembre 1999)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>14</code>
+        <description>
+            <nl>
+                mindervalide werknemer aangeworven in het kader van een startbaanovereenkomst
+                , type twee (bepaald in artikel 27, eerste lid, 2� van de wet van 24 december 1999)
+            </nl>
+            <fr>
+                travailleur handicapé engagé dans le cadre d'une convention de premier emploi
+                , type deux (définie à l'article 27, premier alinéa, 2§, de la loi du 24 décembre 1999)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>15</code>
+        <description>
+            <nl>
+                mindervalide werknemer aangeworven in het kader van een startbaanovereenkomst
+                , type drie (bepaald in artikel 27, eerste lid, 3§ van de wet van 24 december 1999)
+            </nl>
+            <fr>
+                travailleur handicapé engagé dans le cadre d'une convention de premier emploi
+                , type trois (définie à l'article 27, premier alinéa, 3§, de la loi du 24 décembre 1999)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>16</code>
+        <description>
+            <nl>
+                werknemer van buitenlandse afkomst aangeworven in het kader van een startbaanovereenkomst
+                , type één (bepaald in artikel 27, eerste lid, 1§ van de wet van 24 december 1999)
+            </nl>
+            <fr>
+                travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi
+                , type un (définie à l'article 27, premier alinéa, 1§, de la loi du 24 décembre 1999)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>17</code>
+        <description>
+            <nl>
+                werknemer van buitenlandse afkomst aangeworven in het kader van een startbaanovereenkomst
+                , type twee (bepaald in artikel 27, eerste lid, 2§ van de wet van 24 december 1999)
+            </nl>
+            <fr>
+               travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi
+               , type deux (définie à l'article 27, premier alinéa, 2§, de la loi du 24 décembre 1999)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>18</code>
+        <description>
+            <nl>
+                werknemer van buitenlandse afkomst aangeworven in het kader van een startbaanovereenkomst
+                , type drie (bepaald in artikel 27, eerste lid, 3§ van de wet van 24 december 1999)
+            </nl>
+            <fr>
+                travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi
+                , type trois (définie à l'article 27, premier alinéa, 3§, de la loi du 24 décembre 1999)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>21</code>
+        <description>
+            <nl>IBF-werknemers (KB nr. 25 van 24.3.1982)</nl>
+            <fr>Travailleurs FBI (A.R. nô 25 du 24.3.1982)</fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>22</code>
+        <description>
+            <nl>sociale maribel - logistiek assistent (aangeworven in het kader van het KB van 5.2.1997)</nl>
+            <fr>Maribel Social - assistant en logistique (occupé dans le cadre de l'A.R.du 05.02.1997)</fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2005</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>23</code>
+        <description>
+            <nl>sociale maribel - andere werknemers dan logistiek assistent (aangeworven in het kader van het KB van 5.2.1997)</nl>
+            <fr>Maribel Social - autres travailleurs qu'assistant en logistique (occupés dans le cadre de l'A.R.du 05.02.1997)</fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2005</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+    <employment-measure-ppo>
+        <code>24</code>
+        <description>
+            <nl>
+                contractuele werknemer, aangeworven ter vervanging van personeelsleden 
+                die een opleiding volgen tot gediplomeerde of gegradueerde verpleegkundige
+                in het kader van de sociale maribel
+            </nl>
+            <fr>
+                travailleur contractuel embauché en remplacement d'un membre du personnel qui suit une formation
+                en vue d'être diplômé ou  gradué en soins infirmiers dans le cadre du Maribel Social
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2005</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2005</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </employment-measure-ppo>
+</employment-measures-ppo>
