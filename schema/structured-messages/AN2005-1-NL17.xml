@@ -1,260 +1,592 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Plaats opgelopen risico -->
-<!-- Si�ge de la l�sions -->
-<!-- Plaats opgelopen risico -->
-<!DOCTYPE List [
-     <!ELEMENT ann17 (Code?, Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
-     <!ELEMENT List (ann17+)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT Omschrijving (#PCDATA)>
-     <!ELEMENT begin_geldigheid (#PCDATA)>
-     <!ELEMENT einde_geldigheid (#PCDATA)>
-]>
-<List>
-    <ann17>
-        <Code>00</Code>
-        <Omschrijving>Verwond deel van het lichaam niet gespecificeerd</Omschrijving>
+<!-- Siège de la lésions -->
+<!-- Place risk incurred -->
+<places-risk-incurred>
+    <places-risk-incurred>
+        <code>00</code>
+        <description>
+            <nl>Verwond deel van het lichaam niet gespecificeerd</nl>
+            <fr>Localisation de la l�sion non d�termin�e</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>10</code>
+        <description>
+            <nl>Hoofd, niet nader gespecificeerd</nl>
+            <fr>T�te, sans autre spécification</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>11</code>
+        <description>
+            <nl>Hoofd (caput), hersenen en hersenzenuwen en -bloedvaten</nl>
+            <fr>T�te (caput), cerveau, nerfs cr�niens et vaisseaux c�r�braux</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>12</code>
+        <description>
+            <nl>Aangezicht</nl>
+            <fr>Zone faciale</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>13</code>
+        <description>
+            <nl>Oog/ogen</nl>
+            <fr>Oeil/yeux</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>14</code>
+        <description>
+            <nl>Oor/oren</nl>
+            <fr>Oreille(s)</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+    <code>15</code>
+        <description>
+            <nl>Tanden</nl>
+            <fr>Dentition</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>18</code>
+        <description>
+            <nl>Hoofd, diverse plaatsen gewond</nl>
+            <fr>T�te, multiples endroits affect�s</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>19</code>
+        <description>
+            <nl>Hoofd, andere hierboven niet genoemde delen</nl>
+            <fr>Autres parties de la t�te</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>20</code>
+        <description>
+            <nl>Hals, inclusief ruggengraat en halswervels</nl>
+            <fr>Cou, y compris colonne vert�brale et vert�bres du cou</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>21</code>
+        <description>
+            <nl>Hals, inclusief ruggengraat en halswervels</nl>
+            <fr>Cou, y compris colonne vert�brale et vert�bres du cou</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>29</code>
+        <description>
+            <nl>Hals, andere hierboven niet genoemde delen</nl>
+            <fr>Autres parties du cou</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>30</code>
+        <description>
+            <nl>Rug, inclusief ruggengraat en rugwervels</nl>
+            <fr>Dos, y compris colonne vert�brale et vert�bres du dos</fr>
+        </description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>10</Code>
-        <Omschrijving>Hoofd, niet nader gespecificeerd</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>11</Code>
-        <Omschrijving>Hoofd (caput), hersenen en hersenzenuwen en -bloedvaten</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>12</Code>
-        <Omschrijving>Aangezicht</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>13</Code>
-        <Omschrijving>Oog/ogen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>14</Code>
-        <Omschrijving>Oor/oren</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-    <Code>15</Code>
-        <Omschrijving>Tanden</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>18</Code>
-        <Omschrijving>Hoofd, diverse plaatsen gewond</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>19</Code>
-        <Omschrijving>Hoofd, andere hierboven niet genoemde delen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>20</Code>
-        <Omschrijving>Hals, inclusief ruggengraat en halswervels</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>21</Code>
-        <Omschrijving>Hals, inclusief ruggengraat en halswervels</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>29</Code>
-        <Omschrijving>Hals, andere hierboven niet genoemde delen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>30</Code>
-        <Omschrijving>Rug, inclusief ruggengraat en rugwervels</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>31</Code>
-        <Omschrijving>Rug, inclusief ruggengraat en rugwervels</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>39</Code>
-        <Omschrijving>Rug, andere hierboven niet genoemde delen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>40</Code>
-        <Omschrijving>Romp en organen, niet nader gespecificeerd</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>41</Code>
-        <Omschrijving>Borstkas, ribben met gewrichten en schouderbladen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>42</Code>
-        <Omschrijving>Borststreek met organen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>43</Code>
-        <Omschrijving>Bekken en buik met organen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>48</Code>
-        <Omschrijving>Romp, diverse plaatsen gewond</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>49</Code>
-        <Omschrijving>Romp, andere hierboven niet genoemde delen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>50</Code>
-        <Omschrijving>Bovenste ledematen, niet nader gespecificeerd</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>51</Code>
-        <Omschrijving>Schouder en schoudergewrichten</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>52</Code>
-        <Omschrijving>Arm, inclusief elleboog</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>53</Code>
-        <Omschrijving>Hand</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>54</Code>
-        <Omschrijving>Vinger(s)</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>55</Code>
-        <Omschrijving>Pols</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>58</Code>
-        <Omschrijving>Bovenste ledematen, diverse plaatsen gewond</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>59</Code>
-        <Omschrijving>Bovenste ledematen, andere hierboven niet genoemde delen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>60</Code>
-        <Omschrijving>Onderste ledematen, niet nader gespecificeerd</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>61</Code>
-        <Omschrijving>Heup en heupgewricht</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>62</Code>
-        <Omschrijving>Been, inclusief knie</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>63</Code>
-        <Omschrijving>Enkel</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>64</Code>
-        <Omschrijving>Voet</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>65</Code>
-        <Omschrijving>Teen/tenen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>68</Code>
-        <Omschrijving>Onderste ledematen, diverse plaatsen gewond</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>69</Code>
-        <Omschrijving>Onderste ledematen, andere hierboven niet genoemde delen</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>70</Code>
-        <Omschrijving>Gehele lichaam en diverse plaatsen, niet nader gespecificeer</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>71</Code>
-        <Omschrijving>Gehele lichaam (systemische gevolgen)</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>78</Code>
-        <Omschrijving>Diverse plaatsen van het lichaam gewond</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>99</Code>
-        <Omschrijving>Andere hierboven niet genoemde delen van het lichaam verwond</Omschrijving>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-</List>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>31</code>
+        <description>
+            <nl>Rug, inclusief ruggengraat en rugwervels</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>39</code>
+        <description>
+            <nl>Rug, andere hierboven niet genoemde delen</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>40</code>
+        <description>
+            <nl>Romp en organen, niet nader gespecificeerd</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>41</code>
+        <description>
+            <nl>Borstkas, ribben met gewrichten en schouderbladen</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>42</code>
+        <description>
+            <nl>Borststreek met organen</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>43</code>
+        <description>
+            <nl>Bekken en buik met organen</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>48</code>
+        <description>
+            <nl>Romp, diverse plaatsen gewond</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>49</code>
+        <description>
+            <nl>Romp, andere hierboven niet genoemde delen</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>50</code>
+        <description>
+            <nl>Bovenste ledematen, niet nader gespecificeerd</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>51</code>
+        <description>
+            <nl>Schouder en schoudergewrichten</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>52</code>
+        <description>
+            <nl>Arm, inclusief elleboog</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>53</code>
+        <description>
+            <nl>Hand</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>54</code>
+        <description>
+            <nl>Vinger(s)</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>55</code>
+        <description>Pols</description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>58</code>
+        <description>Bovenste ledematen, diverse plaatsen gewond</description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>59</code>
+        <description>Bovenste ledematen, andere hierboven niet genoemde delen</description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>60</code>
+        <description>Onderste ledematen, niet nader gespecificeerd</description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>61</code>
+        <description>Heup en heupgewricht</description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>62</code>
+        <description>Been, inclusief knie</description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>63</code>
+        <description>Enkel</description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>64</code>
+        <description>
+            <nl>Voet</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>65</code>
+        <description>
+            <nl>Teen/tenen</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>68</code>
+        <description>
+            <nl>Onderste ledematen, diverse plaatsen gewond</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>69</code>
+        <description>
+            <nl>Onderste ledematen, andere hierboven niet genoemde delen</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>70</code>
+        <description>
+            <nl>Gehele lichaam en diverse plaatsen, niet nader gespecificeer</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>71</code>
+        <description>
+            <nl>Gehele lichaam (systemische gevolgen)</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>78</code>
+        <description>
+            <nl>Diverse plaatsen van het lichaam gewond</nl>
+            <fr></fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>99</code>
+        <description>
+            <nl>Andere hierboven niet genoemde delen van het lichaam verwond</nl>
+            <fr>Autres parties du corps blessées</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+</places-risk-incurred>

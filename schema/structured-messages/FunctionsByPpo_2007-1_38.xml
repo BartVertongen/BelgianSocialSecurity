@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- descriptionnummer PPO -->
+<!-- Functie nummers voor PPO -->
 <!-- Numéros de fonction pour l'APL -->
 <functions-by-PPO>
     <function>
         <code>20</code>
         <age></age>
         <description>
-            <fr></fr>
             <nl>programmaverkoopsters en aangestelde in de vestiaire van schouwburgen</nl>
+            <fr>Ouvreuses et prôposées au vestiaire occupées dans les théâtres</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -22,8 +22,14 @@
         <code>21</code>
         <age></age>
         <description>
-            <fr></fr>
-            <nl>werknemers tewerkgesteld in badinrichtingen en in ondernemingen  welke badinrichtingen exploiteren: cabine- of badjongen of badmeisje</nl>
+            <nl>
+                werknemers tewerkgesteld in badinrichtingen en in ondernemingen
+                welke badinrichtingen exploiteren: cabine- of badjongen of badmeisje
+            </nl>
+            <fr>
+                Travailleurs occupés dans les établissements de bain et dans les entreprises exploitant des établissements de bain :
+                garçon ou fille de cabine ou de bain
+            </fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -37,7 +43,16 @@
     <function>
         <code>23</code>
         <age></age>
-        <description>werknemers tewerkgesteld in badinrichtingen en in ondernemingen  welke badinrichtingen exploiteren: pedicure</description>
+        <description>
+            <nl>
+                werknemers tewerkgesteld in badinrichtingen en in ondernemingen
+                welke badinrichtingen exploiteren: pedicure
+            </nl>
+            <fr>
+                Travailleurs occupés dans les établissements de bain 
+                et dans les entreprises exploitant des établissements de bain : pédicure
+            </fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -50,7 +65,16 @@
     <function>
         <code>24</code>
         <age>/</age>
-        <description>werknemers tewerkgesteld in badinrichtingen en in ondernemingen  welke badinrichtingen exploiteren: masseu(r) (se)</description>
+        <description>
+            <nl>
+                werknemers tewerkgesteld in badinrichtingen en in ondernemingen
+                welke badinrichtingen exploiteren: masseu(r) (se)
+            </nl>
+            <fr>
+                Travailleurs occupés dans les établissements de bain et dans 
+                les entreprises exploitant des établissements de bain : masseur - masseuse
+            </fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -63,7 +87,16 @@
     <function>
         <code>25</code>
         <age>/</age>
-        <description>programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren  per week</description>
+        <description>
+            <nl>
+                programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld 
+                in de zalen voor filmvertoningen gedurende minimum 40 uren  per week
+            </nl>
+            <fr>
+                Ouvreuses et prôposées au vestiaire occupées dans les salles de spectacles cinématographiques
+                pendant au moins 40 heures/semaine
+            </fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -76,7 +109,16 @@
     <function>
         <code>26</code>
         <age>/</age>
-        <description>programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40  uren per week</description>
+        <description>
+            <nl>
+                programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld 
+                in de zalen voor filmvertoningen gedurende minder dan 40  uren per week
+            </nl>
+            <fr>
+                Ouvreuses et prôosées au vestiaire occupées dans les salles de spectacles cinématographiques
+                pendant moins de 40 heures/semaine
+            </fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -89,7 +131,10 @@
     <function>
         <code>27</code>
         <age>/</age>
-        <description>kruier</description>
+        <description>
+            <nl>kruier</nl>
+            <fr>Porteurs de bagages</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -102,7 +147,10 @@
     <function>
         <code>29</code>
         <age>/</age>
-        <description>alle andere met fooien bezoldigde werknemers</description>
+        <description>
+            <nl>alle andere met fooien bezoldigde werknemers</nl>
+            <fr>Tous les autres travailleurs rémunérés au pourboire</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -115,7 +163,10 @@
     <function>
         <code>32</code>
         <age>15</age>
-        <description>loopjongen</description>
+        <description>
+            <nl>loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -128,7 +179,10 @@
     <function>
         <code>33</code>
         <age>16</age>
-        <description>loopjongen</description>
+        <description>
+            <nl>loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -141,7 +195,10 @@
     <function>
         <code>34</code>
         <age>17</age>
-        <description>adjunct chef loopjongen</description>
+        <description>
+            <nl>adjunct chef loopjongen</nl>
+            <fr>Adjoint chef chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -154,7 +211,10 @@
     <function>
         <code>35</code>
         <age>18</age>
-        <description>chef loopjongen</description>
+        <description>
+            <nl>chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -167,7 +227,10 @@
     <function>
         <code>36</code>
         <age>19</age>
-        <description>chef loopjongen</description>
+        <description>
+            <nl>chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -180,7 +243,10 @@
     <function>
         <code>37</code>
         <age>20</age>
-        <description>chef loopjongen</description>
+        <description>
+            <nl>chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -193,7 +259,10 @@
     <function>
         <code>38</code>
         <age>-,21,-,18,18,-,-</age>
-        <description>voiturier, portier, kruier, kamerknecht, kamermeisje, toiletvrouw, aangestelde kleedkamer - leeftijd</description>
+        <description>
+            <nl>voiturier, portier, kruier, kamerknecht, kamermeisje, toiletvrouw, aangestelde kleedkamer - leeftijd</nl>
+            <fr>Voiturier, Portier, Bagagiste, Valet de chambre, Femme de chambre, Prôposée à la toilette, Prôposée au vestiaire</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -206,7 +275,10 @@
     <function>
         <code>39</code>
         <age>21</age>
-        <description>conciërge</description>
+        <description>
+            <nl>conciërge</nl>
+            <fr>Concierge</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -219,7 +291,10 @@
     <function>
         <code>40</code>
         <age>23</age>
-        <description>chef conciërge</description>
+        <description>
+            <nl>chef conciërge</nl>
+            <fr>Chef concierge</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -232,7 +307,10 @@
     <function>
         <code>41</code>
         <age>19</age>
-        <description>kamerknecht, kamermeisje</description>
+        <description>
+            <nl>kamerknecht, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -245,7 +323,10 @@
     <function>
         <code>43</code>
         <age>15</age>
-        <description>leerjongen zaal</description>
+        <description>
+            <nl>leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -258,7 +339,10 @@
     <function>
         <code>44</code>
         <age>16</age>
-        <description>leerjongen zaal</description>
+        <description>
+            <nl>leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -271,7 +355,10 @@
     <function>
         <code>45</code>
         <age>17</age>
-        <description>hulpkelner- afruimer</description>
+        <description>
+            <nl>hulpkelner- afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -284,7 +371,10 @@
     <function>
         <code>46</code>
         <age></age>
-        <description>hulpkelner-suite, hulpkelner-suite/banket, hulpknecht barman, hulp étage-kelner</description>
+        <description>
+            <nl>hulpkelner-suite, hulpkelner-suite/banket, hulpknecht barman, hulp étage-kelner</nl>
+            <fr>Commis de suite, Commis de suite banquet, Commis barman, Commis d'étage</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -297,7 +387,10 @@
     <function>
         <code>47</code>
         <age>19</age>
-        <description>hulpkelner-rijleider, banketkelner</description>
+        <description>
+            <nl>hulpkelner-rijleider, banketkelner</nl>
+            <fr>Commis de rang, Garçon de banquet</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -310,7 +403,10 @@
     <function>
         <code>48</code>
         <age>20</age>
-        <description>1/2 rijleider restaurant, 1/2 rijleider banket, hulpknecht barman</description>
+        <description>
+            <nl>1/2 rijleider restaurant, 1/2 rijleider banket, hulpknecht barman</nl>
+            <fr>1/2 chef de rang, 1/2 chef de rang banquet, Commis barman</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -323,7 +419,16 @@
     <function>
         <code>49</code>
         <age>21</age>
-        <description>rangkelner restaurant, rijleider restaurant, kelner banket, rijleider banket, kelner brasserie, taverne, bistro, kelner café, barman, étage-kelner</description>
+        <description>
+            <nl>
+                rangkelner restaurant, rijleider restaurant, kelner banket, rijleider banket, kelner brasserie
+                , taverne, bistro, kelner café, barman, étage-kelner
+            </nl>
+            <fr>
+                Garçon de restaurant, Chef de rang restaurant, Garçon de banquet
+                , Chef de rang banquet, Garçon de brasserie, taverne, bistro, Garçon de café, Barman, Garçon d'étage
+            </fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -336,7 +441,10 @@
     <function>
         <code>50</code>
         <age>22</age>
-        <description>eerste rangkelner restaurant, wijnkelner, eerste rangkelner banket, verantwoordelijke barman</description>
+        <description>
+            <nl>eerste rangkelner restaurant, wijnkelner, eerste rangkelner banket, verantwoordelijke barman</nl>
+            <fr>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -351,6 +459,7 @@
         <age>23</age>
         <description>
             <nl>Maître d'hôtel restaurant, Maître d'hôtel banket, oberkelner roomservice</nl>
+            <fr>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</fr>
         </description>
         <begin-validity>01/01/1900</begin-validity>
         <end-validity>31/03/2007</end-validity>
@@ -359,8 +468,8 @@
         <code>52</code>
         <age></age>
         <description>
-            <fr></fr>
             <nl>assistent maître d'hôtel restaurant, assistent maître d'hôtel  banket, assistent oberkelner roomservice</nl>
+            <fr>Assistant maître d'hôtel restaurant, Assistant maître d'hôtel banquet, Assistant maître d'hôtel roomservice</fr>
         </description>
         <begin-validity>
             <year>1900</year>

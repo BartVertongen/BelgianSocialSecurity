@@ -1,97 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- Plaats opgelopen risico -->
-<!-- Siège de la lésions -->
+<!-- Siï¿½ge de la lï¿½sions -->
 <!-- Plaats opgelopen risico -->
-<!DOCTYPE List [
-     <!ELEMENT ann17 (Code?, Description?, begin_geldigheid?, einde_geldigheid?)>
-     <!ELEMENT List (ann17+)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT Description (#PCDATA)>
-     <!ELEMENT begin_geldigheid (#PCDATA)>
-     <!ELEMENT einde_geldigheid (#PCDATA)>
-]>
 <List>
-    <ann17>
-        <Code>00</Code>
-        <Description>Localisation de la lésion non déterminée</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>10</Code>
-        <Description>Tête, sans autre spécification</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>11</Code>
-        <Description>Tête (caput), cerveau, nerfs crâniens et vaisseaux cérébraux</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>12</Code>
-        <Description>Zone faciale</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>13</Code>
-        <Description>Oeil/yeux</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>14</Code>
-        <Description>Oreille(s)</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>15</Code>
-        <Description>Dentition</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>18</Code>
-        <Description>Tête, multiples endroits affectés</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>19</Code>
-        <Description>Autres parties de la tête</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>20</Code>
-        <Description>Cou, y compris colonne vertébrale et vertèbres du cou</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>21</Code>
-        <Description>Cou, y compris colonne vertébrale et vertèbres du cou</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
-    <ann17>
-        <Code>29</Code>
-        <Description>Autres parties du cou</Description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann17>
+
     <ann17>
         <Code>30</Code>
-        <Description>Dos, y compris colonne vertébrale et vertèbres du dos</Description>
+        <Description>Dos, y compris colonne vertï¿½brale et vertï¿½bres du dos</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
         <Code>31</Code>
-        <Description>Dos, y compris colonne vertébrale et vertèbres du dos</Description>
+        <Description>Dos, y compris colonne vertï¿½brale et vertï¿½bres du dos</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
@@ -103,13 +24,13 @@
     </ann17>
     <ann17>
         <Code>40</Code>
-        <Description>Torse et organes, sans autre spécification</Description>
+        <Description>Torse et organes, sans autre spï¿½cification</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
         <Code>41</Code>
-        <Description>Cage thoracique, côtes y compris omoplates et articulations</Description>
+        <Description>Cage thoracique, cï¿½tes y compris omoplates et articulations</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
@@ -127,7 +48,7 @@
     </ann17>
     <ann17>
         <Code>48</Code>
-        <Description>Torse, multiples endroits affectés</Description>
+        <Description>Torse, multiples endroits affectï¿½s</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
@@ -139,13 +60,13 @@
     </ann17>
     <ann17>
         <Code>50</Code>
-        <Description>Membres supérieurs, sans autre spécification</Description>
+        <Description>Membres supï¿½rieurs, sans autre spï¿½cification</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
         <Code>51</Code>
-        <Description>Epaule et articulations de l'épaule</Description>
+        <Description>Epaule et articulations de l'ï¿½paule</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
@@ -175,19 +96,19 @@
     </ann17>
     <ann17>
         <Code>58</Code>
-        <Description>Membres supérieurs, multiples endroits affectés</Description>
+        <Description>Membres supï¿½rieurs, multiples endroits affectï¿½s</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
         <Code>59</Code>
-        <Description>Autres parties des membres supérieur</Description>
+        <Description>Autres parties des membres supï¿½rieur</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
         <Code>60</Code>
-        <Description>Membres inférieurs, sans autre spécification</Description>
+        <Description>Membres infï¿½rieurs, sans autre spï¿½cification</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
@@ -223,37 +144,37 @@
     </ann17>
     <ann17>
         <Code>68</Code>
-        <Description>Membres inférieurs, multiples endroits affectés</Description>
+        <Description>Membres infï¿½rieurs, multiples endroits affectï¿½s</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
         <Code>69</Code>
-        <Description>Autres parties des membres inférieurs</Description>
+        <Description>Autres parties des membres infï¿½rieurs</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
         <Code>70</Code>
-        <Description>Ensemble du corps et endroits multiples, sans autre spécification</Description>
+        <Description>Ensemble du corps et endroits multiples, sans autre spï¿½cification</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
         <Code>71</Code>
-        <Description>Ensemble du corps (effets systémiques)</Description>
+        <Description>Ensemble du corps (effets systï¿½miques)</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
         <Code>78</Code>
-        <Description>Multiples endroits du corps affectés</Description>
+        <Description>Multiples endroits du corps affectï¿½s</Description>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
     <ann17>
     <Code>99</Code>
-    <Description>Autres parties du corps blessées</Description>
+    <Description>Autres parties du corps blessï¿½es</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
     </ann17>
