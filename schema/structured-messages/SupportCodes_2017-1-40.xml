@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Stavingscodes -->
+<!-- codes d'assistance -->
+<!-- support codes -->
+<support-codes>
+     <support-code>
+          <code>01</code>
+          <description>
+               <nl>Uw voorstel tot wijziging</nl>
+               <fr>Votre proposition de modification</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>02</code>
+          <description>
+               <nl>Onze brief van</nl>
+               <fr>Notre lettre du</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>03</code>
+          <description>
+               <nl>
+                    Ambtshalve regularisatie opgesteld overeenkomstig artikel 22 van de wet van 27/06/1969.
+                    Zie onze aangetekende brief
+               </nl>
+               <fr>
+                    Régularisation d'office établie conformément à l'article 22 de la loi du 27/06/1969.
+                    Voir notre lettre recommandée
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>04</code>
+          <description>
+               <nl>
+                    Verbetering ingevolge de anomalieën die u werden meegedeeld in onze notificatie
+                    betreffende het ticketnummer...
+               </nl>
+               <fr>
+                    Rectification faisant suite aux anomalies détectées qui vous ont été 
+                    signalées dans notre notification relative au numéro de ticket...
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>05</code>
+          <description>
+               <nl>Wijziging aangebracht op vraag van het FSO</nl>
+               <fr>Modification apportée à la demande du FFE</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>06</code>
+          <description>
+               <nl>
+                    Ambtshalve regularisatie van de DmfA voor provinciale en lokale besturen opgesteld
+                    overeenkomstig artikel 22 van de wet van 27 juni 1969. Zie onze aangetekende brief.
+               </nl>
+               <fr>
+                    Régularisation d'office de la DmfA pour administrations provinciales et locales établie
+                    conformément à l'article 22 de la loi du 27/06/1969. Voir notre lettre recommandée.
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>07</code>
+          <description>
+               <nl>
+                    Ambtshalve regularisatie van de solidariteitsbijdrage voor het nalaten
+                    van de Dimona-aangifte op basis van artikel 22quater van de wet van 27 juni 1969.
+                    Zie ook onze aangetekende brief hierover.
+               </nl>
+               <fr>
+                    Régularisation d'office de la cotisation de solidarité pour l'omission de 
+                    déclaration Dimona sur base de l'article 22 quater de la loi du 27 juin 1969.
+                    Voir aussi notre lettre recommandée à ce sujet.
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2009</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>08</code>
+          <description>
+               <nl>Nazicht vermindering ok</nl>
+               <fr>Vérification déduction ok</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>09</code>
+          <description>
+               <nl>Regularisatie uitgevoerd op basis van door ons verzamelde elementen en nazicht van uw dossier</nl>
+               <fr>Régularisation établie sur base des élèments en notre possession et après examen du dossier</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>10</code>
+          <description>
+               <nl>
+                    In dit kwartaal werd het forfait gelegenheidsarbeid in de horeca toegepast op deze werknemer(s).
+                    Hiervoor werd geen correcte dimona ingediend.
+                    Hierbij wordt de aangegeven tewerkstelling overgezet naar werkgeverskengetal 017 
+                    en werknemerskengetal 011 en het forfaitaire dagloon oberkelner (019).
+               </nl>
+               <fr>
+                    Pour ce trimestre, vous aviez appliqué le forfait travailleurs occasionnels dans l'horeca
+                    pour ce(s) travailleur(s).
+                    Il n'y a toutefois pas de Dimona correcte introduite pour pouvoir bénèficier de ce forfait.
+                    L'occupation déclarée est par conséquent régularisée sous la catégorie employeur 017
+                    et code travailleur 011 sur base du forfait journalier Maître d'hôtel (019).
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>11</code>
+          <description>
+               <nl>
+                    Ambtshalve omzetting van flexi-jobwerknemer naar 'gewone' werknemer 
+                    op basis van art. 22 van de wet van 27/06/1969,
+                    vermits niet voldaan is aan de volgende wettelijke voorwaarde:
+               </nl>
+               <fr>
+                    Modification d'office du statut de travailleur "Flexi-Job" en travailleur "ordinaire"
+                    sur base de l'article 22 de la Loi du 27 juin 1969
+                    suite au non respect du prescrit légal suivant :
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2015</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>30</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van de anomalie Te veel dagen wettelijke vakantie 
+                    (jaarlijks maximum = 4 weken)
+               </nl>
+               <fr>
+                    Modification apport�e par le secteur vacances annuelles
+                    - Correction de l'anomalie Trop de jours de vacances légales
+                    (maximum annuel = 4 semaines)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>31</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van de incoherentie van het arbeidsstelsel
+                    en het aantal dagen ten opzichte van de periode van tewerkstelling in het kwartaal
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles
+                    - Correction de l'incohérence du  régime de travail et du nombre de jours
+                    par rapport à la période de l'occupation dans le trimestre.
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>32</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van het aantal aangegeven dagen
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles
+                    - Correction du nombre de jours déclarés
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>33</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van het foutieve contracttype
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles
+                    - Correction du type de contrat erroné
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>34</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van het arbeidsstelsel in dagen
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles
+                    - Correction du régime de travail en jours
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>35</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van het arbeidsstelsel in uren (waarde Q)
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles
+                    - Correction du régime de travail en heures (valeur Q)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>36</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van het arbeidsstelsel in uren van de voltijdse maatman (waarde S)
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles
+                    - Correction du régime de travail en heures du travailleur de réféence à temps plein (valeur S)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>37</code>
+          <description>
+               <nl>Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van de bezoldigingscode</nl>
+               <fr>Modification apportée par le secteur vacances annuelles - Correction du code rémunérations</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>38</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van de anomalie 'Loon aangegeven zonder bezoldigde dagen 
+                    of bezoldigde dagen aangegeven zonder loon'
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles
+                    - Correction de l'anomalie 'Salaire déclaré sans jours rémunérés 
+                    ou jours rémunérés déclarés sans salaire
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>39</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van het aantal gepresteerde uren
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles
+                    - Correction du nombre d'heures prestées
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>40</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Verbetering van de begin- en/of einddatum van tewerkstelling
+               </nl>
+               <fr></fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>41</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Spreiding van de verbrekingsvergoeding
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles
+                    - Ventilation de l'indemnité de rupture
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>42</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie
+                    - Annulering van een tewerkstelling
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles - Annulation d'une occupation
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>43</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door de sector jaarlijkse vakantie - Verbetering van anomalieën
+               </nl>
+               <fr>
+                    Modification apportée par le secteur vacances annuelles - Correction d'anomalies
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>51</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door CIMIRe
+                    - Verbetering van de incoherentie van het arbeidsstelsel en het aantal dagen
+                    ten opzichte van de periode van tewerkstelling in het kwartaal
+               </nl>
+               <fr>
+                    Modification apportée par CIMIRe - Correction de l'incohérence du régime de travail
+                    et du nombre de jours par rapport à la période de l'occupation dans le trimestre
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>52</code>
+          <description>
+               <nl>Wijziging aangebracht door CIMIRe - Verbetering van het aantal aangegeven dagen</nl>
+               <fr>Modification apportée par CIMIRe - Correction du nombre de jours déclarés</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>53</code>
+          <description>
+               <nl>Wijziging aangebracht door CIMIRe - Verbetering van het foutieve contracttype</nl>
+               <fr>Modification apportée par CIMIRe - Correction du type de contrat erroné</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>54</code>
+          <description>
+               <nl>Wijziging aangebracht door CIMIRe - Verbetering van het arbeidsstelsel in dagen</nl>
+               <fr>Modification apportée par CIMIRe - Correction du régime de travail en jours</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <einde_geldigheid>31/12/9999</einde_geldigheid>
+     </support-code>
+     <support-code>
+          <code>55</code>
+          <description>
+               <nl>Wijziging aangebracht door CIMIRe - Verbetering van het arbeidsstelsel in uren (waarde Q)</nl>
+               <fr>Modification apportée par CIMIRe - Correction du régime de travail en heures (valeur Q)</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>56</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door CIMIRe
+                    - Verbetering van het arbeidsstelsel in uren van de voltijdse maatman (waarde S)
+               </nl>
+               <fr>
+                    Modification apportée par CIMIRe
+                    - Correction du régime de travail en heures du travailleur de référence à temps plein (valeur S)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>57</code>
+          <description>
+               <nl>Wijziging aangebracht door CIMIRe - Verbetering van de bezoldigingscode</nl>
+               <fr>Modification apportée par CIMIRe - Correction du code rémunérations</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>58</code>
+          <description>
+               <nl>
+                    Wijziging aangebracht door CIMIRe
+                    - Verbetering van de anomalie 'Loon aangegeven zonder bezoldigde dagen 
+                    of bezoldigde dagen aangegeven zonder loon'
+               </nl>
+               <fr>
+                    Modification apportée par CIMIRe
+                    - Correction de l'anomalie 'Salaire déclaré sans jours rémunérés
+                    ou jours rémunérés déclarés sans salaire
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>59</code>
+          <description>
+               <nl>Wijziging aangebracht door CIMIRe - Verbetering van het aantal gepresteerde uren</nl>
+               <fr>Modification apportée par CIMIRe - Correction du nombre d'heures prestées</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>60</code>
+          <description>
+               <nl>Wijziging aangebracht door CIMIRe - Verbetering van de begin- en/of einddatum van tewerkstelling</nl>
+               <fr>Modification apportée par CIMIRe - Correction de la date de début et/ou de fin d'occupation</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>61</code>
+          <description>
+               <nl>Wijziging aangebracht door CIMIRe - Spreiding van de verbrekingsvergoeding</nl>
+               <fr>Modification apportée par CIMIRe - Ventilation de l'indemnité de rupture</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+               <code>62</code>
+               <description>
+                    <nl>Wijziging aangebracht door CIMIRe - Annulering van een tewerkstelling</nl>
+                    <fr>Modification apportée par CIMIRe - Annulation d'une occupation</fr>
+               </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>63</code>
+          <description>
+               <nl>Wijziging aangebracht door CIMIRe - Verbetering van anomalieën</nl>
+               <fr>Modification apportée par CIMIRe - Correction d'anomalies</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>90</code>
+          <description>
+               <nl>Wijziging van de gegevens van een natuurlijk persoon - INSZ-mutatie</nl>
+               <fr>Changement des données d'une personne physique - Mutation de NISS</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>91</code>
+          <description>
+               <nl>Wijziging van de gegevens van een natuurlijk persoon - Synchronisatie</nl>
+               <fr>Changement des données d'une personne physique - Synchronisation</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+          <code>92</code>
+          <description>
+               <nl>Transfer van stamnummer wegens wijziging van taalregime</nl>
+               <fr>Transfert de matricule pour cause de changement de régime linguistique</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+     <support-code>
+     <code>93</code>
+          <description>
+               <nl>Transfer van stamnummer wegens dubbel gebruik</nl>
+               <fr>Transfert de matricule pour cause de double emploi</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </support-code>
+</support-codes>
