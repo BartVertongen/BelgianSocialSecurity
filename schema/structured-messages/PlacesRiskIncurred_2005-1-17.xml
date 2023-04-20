@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Plaats opgelopen risico -->
+<!-- Siège de la lésions -->
+<!-- Place risk incurred -->
+<places-risk-incurred>
+    <places-risk-incurred>
+        <code>00</code>
+        <description>
+            <nl>Verwond deel van het lichaam niet gespecificeerd</nl>
+            <fr>Localisation de la lésion non déterminée</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>10</code>
+        <description>
+            <nl>Hoofd, niet nader gespecificeerd</nl>
+            <fr>Tête, sans autre spécification</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>11</code>
+        <description>
+            <nl>Hoofd (caput), hersenen en hersenzenuwen en -bloedvaten</nl>
+            <fr>Tete (caput), cerveau, nerfs crâniens et vaisseaux cérébraux</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>12</code>
+        <description>
+            <nl>Aangezicht</nl>
+            <fr>Zone faciale</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>13</code>
+        <description>
+            <nl>Oog/ogen</nl>
+            <fr>Oeil/yeux</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>14</code>
+        <description>
+            <nl>Oor/oren</nl>
+            <fr>Oreille(s)</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+    <code>15</code>
+        <description>
+            <nl>Tanden</nl>
+            <fr>Dentition</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>18</code>
+        <description>
+            <nl>Hoofd, diverse plaatsen gewond</nl>
+            <fr>Tête, multiples endroits affectés</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>19</code>
+        <description>
+            <nl>Hoofd, andere hierboven niet genoemde delen</nl>
+            <fr>Autres parties de la tête</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>20</code>
+        <description>
+            <nl>Hals, inclusief ruggengraat en halswervels</nl>
+            <fr>Cou, y compris colonne vertébrale et vertébres du cou</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>21</code>
+        <description>
+            <nl>Hals, inclusief ruggengraat en halswervels</nl>
+            <fr>Cou, y compris colonne vertébrale et vertébres du cou</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>29</code>
+        <description>
+            <nl>Hals, andere hierboven niet genoemde delen</nl>
+            <fr>Autres parties du cou</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>30</code>
+        <description>
+            <nl>Rug, inclusief ruggengraat en rugwervels</nl>
+            <fr>Dos, y compris colonne vertébrale et vertébres du dos</fr>
+        </description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>31</code>
+        <description>
+            <nl>Rug, inclusief ruggengraat en rugwervels</nl>
+            <fr>Dos, y compris colonne vertébrale et vertébres du dos</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>39</code>
+        <description>
+            <nl>Rug, andere hierboven niet genoemde delen</nl>
+            <fr>Autres parties du dos</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>40</code>
+        <description>
+            <nl>Romp en organen, niet nader gespecificeerd</nl>
+            <fr>Torse et organes, sans autre spécification</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>41</code>
+        <description>
+            <nl>Borstkas, ribben met gewrichten en schouderbladen</nl>
+            <fr>Cage thoracique, côtes y compris omoplates et articulations</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>42</code>
+        <description>
+            <nl>Borststreek met organen</nl>
+            <fr>Poitrine, y compris organes</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>43</code>
+        <description>
+            <nl>Bekken en buik met organen</nl>
+            <fr>Abdomen et pelvis, y compris organes</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>48</code>
+        <description>
+            <nl>Romp, diverse plaatsen gewond</nl>
+            <fr>Torse, multiples endroits affectés</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>49</code>
+        <description>
+            <nl>Romp, andere hierboven niet genoemde delen</nl>
+            <fr>Autres parties du torse</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>50</code>
+        <description>
+            <nl>Bovenste ledematen, niet nader gespecificeerd</nl>
+            <fr>Membres supérieurs, sans autre spécification</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>51</code>
+        <description>
+            <nl>Schouder en schoudergewrichten</nl>
+            <fr>Epaule et articulations de l'épaule</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>52</code>
+        <description>
+            <nl>Arm, inclusief elleboog</nl>
+            <fr>Bras, y compris coude</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>53</code>
+        <description>
+            <nl>Hand</nl>
+            <fr>Main</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>54</code>
+        <description>
+            <nl>Vinger(s)</nl>
+            <fr>Doigt(s)</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>55</code>
+        <description>
+            <nl>Pols</nl>
+            <fr>Poignet</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>58</code>
+        <description>
+            <nl>Bovenste ledematen, diverse plaatsen gewond</nl>
+            <fr>Membres supérieurs, multiples endroits affectés</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>59</code>
+        <description>
+            <nl>Bovenste ledematen, andere hierboven niet genoemde delen</nl>
+            <fr>Autres parties des membres supérieur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>60</code>
+        <description>
+            <nl>Onderste ledematen, niet nader gespecificeerd</nl>
+            <fr>Membres inférieurs, sans autre spécification</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>61</code>
+        <description>
+            <nl>Heup en heupgewricht</nl>
+            <fr>Hanche et articulation de la hanche</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>62</code>
+        <description>
+            <nl>Been, inclusief knie</nl>
+            <fr>Jambe, y compris genou</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>63</code>
+        <description>
+            <nl>Enkel</nl>
+            <fr>Cheville</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>64</code>
+        <description>
+            <nl>Voet</nl>
+            <fr>Pied</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>65</code>
+        <description>
+            <nl>Teen/tenen</nl>
+            <fr>Orteil(s)</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>68</code>
+        <description>
+            <nl>Onderste ledematen, diverse plaatsen gewond</nl>
+            <fr>Membres inférieurs, multiples endroits affectés</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>69</code>
+        <description>
+            <nl>Onderste ledematen, andere hierboven niet genoemde delen</nl>
+            <fr>Autres parties des membres inférieurs</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>70</code>
+        <description>
+            <nl>Gehele lichaam en diverse plaatsen, niet nader gespecificeerd</nl>
+            <fr>Ensemble du corps et endroits multiples, sans autre spécification</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>71</code>
+        <description>
+            <nl>Gehele lichaam (systemische gevolgen)</nl>
+            <fr>Ensemble du corps (effets systèmiques)</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>78</code>
+        <description>
+            <nl>Diverse plaatsen van het lichaam gewond</nl>
+            <fr>Multiples endroits du corps affectés</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+    <places-risk-incurred>
+        <code>99</code>
+        <description>
+            <nl>Andere hierboven niet genoemde delen van het lichaam verwond</nl>
+            <fr>Autres parties du corps blessées</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </places-risk-incurred>
+</places-risk-incurred>

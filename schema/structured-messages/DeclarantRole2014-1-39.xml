@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Plaats opgelopen risico -->
-<!-- Siège de la lésions -->
-<!-- Place risk incurred -->
-<places-risk-incurred>
-    <places-risk-incurred>
-        <code>00</code>
-        <description>
-            <nl>Verwond deel van het lichaam niet gespecificeerd</nl>
-            <fr>Localisation de la l�sion non d�termin�e</fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+<!-- Identificatie hoedanigheid aangever -->
+<!-- Identification de la qualité du déclarant -->
+<!-- Role of the declarant -->
+<declarant-roles>
+    <declarant-role>
         <code>10</code>
         <description>
-            <nl>Hoofd, niet nader gespecificeerd</nl>
-            <fr>T�te, sans autre spécification</fr>
+            <nl>Werkgever</nl>
+            <fr>Employeur</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -32,12 +17,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>11</code>
         <description>
-            <nl>Hoofd (caput), hersenen en hersenzenuwen en -bloedvaten</nl>
-            <fr>T�te (caput), cerveau, nerfs cr�niens et vaisseaux c�r�braux</fr>
+            <nl>Sociaal Secretariaat</nl>
+            <fr>Secrétariat Social</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -47,12 +32,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>12</code>
         <description>
-            <nl>Aangezicht</nl>
-            <fr>Zone faciale</fr>
+            <nl>Dienstverlener</nl>
+            <fr>Prestataire de service</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -62,12 +47,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>13</code>
         <description>
-            <nl>Oog/ogen</nl>
-            <fr>Oeil/yeux</fr>
+            <nl>Curator</nl>
+            <fr>Curateur</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -77,72 +62,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>14</code>
-        <description>
-            <nl>Oor/oren</nl>
-            <fr>Oreille(s)</fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-    <code>15</code>
-        <description>
-            <nl>Tanden</nl>
-            <fr>Dentition</fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>18</code>
-        <description>
-            <nl>Hoofd, diverse plaatsen gewond</nl>
-            <fr>T�te, multiples endroits affect�s</fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>19</code>
-        <description>
-            <nl>Hoofd, andere hierboven niet genoemde delen</nl>
-            <fr>Autres parties de la t�te</fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>20</code>
         <description>
-            <nl>Hals, inclusief ruggengraat en halswervels</nl>
-            <fr>Cou, y compris colonne vert�brale et vert�bres du cou</fr>
+            <nl>Inspecteur RSZ hoedanigheid werkgever</nl>
+            <fr>Inspecteur ONSS qualité employeur</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -152,12 +77,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>21</code>
+    </declarant-role>
+    <declarant-role>
+        <code>22</code>
         <description>
-            <nl>Hals, inclusief ruggengraat en halswervels</nl>
-            <fr>Cou, y compris colonne vert�brale et vert�bres du cou</fr>
+            <nl>Systeem</nl>
+            <fr>Système</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -167,12 +92,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>29</code>
+    </declarant-role>
+    <declarant-role>
+        <code>23</code>
         <description>
-            <nl>Hals, andere hierboven niet genoemde delen</nl>
-            <fr>Autres parties du cou</fr>
+            <nl>Inspecteur RSZ hoedanigheid RSZ</nl>
+            <fr>Inspecteur ONSS qualité ONSS</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -182,21 +107,42 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
+        <code>24</code>
+        <description>
+            <nl>Agent hoedanigheid RSZ</nl>
+            <fr>Agent qualité ONSS</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </declarant-role>
+    <declarant-role>
         <code>30</code>
         <description>
-            <nl>Rug, inclusief ruggengraat en rugwervels</nl>
-            <fr>Dos, y compris colonne vert�brale et vert�bres du dos</fr>
+            <nl>Inspecteur MET</nl>
+            <fr>Inspecteur MET</fr>
         </description>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </places-risk-incurred>
-    <places-risk-incurred>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </declarant-role>
+    <declarant-role>
         <code>31</code>
         <description>
-            <nl>Rug, inclusief ruggengraat en rugwervels</nl>
-            <fr></fr>
+            <nl>Inspecteur MSZ</nl>
+            <fr>Inspecteur MAS</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -206,117 +152,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>39</code>
-        <description>
-            <nl>Rug, andere hierboven niet genoemde delen</nl>
-            <fr></fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>40</code>
-        <description>
-            <nl>Romp en organen, niet nader gespecificeerd</nl>
-            <fr></fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>41</code>
-        <description>
-            <nl>Borstkas, ribben met gewrichten en schouderbladen</nl>
-            <fr></fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>42</code>
-        <description>
-            <nl>Borststreek met organen</nl>
-            <fr></fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>43</code>
-        <description>
-            <nl>Bekken en buik met organen</nl>
-            <fr></fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>48</code>
-        <description>
-            <nl>Romp, diverse plaatsen gewond</nl>
-            <fr></fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>49</code>
-        <description>
-            <nl>Romp, andere hierboven niet genoemde delen</nl>
-            <fr></fr>
-        </description>
-        <begin-validity>
-            <year>1900</year>
-            <quarter>1</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>50</code>
         <description>
-            <nl>Bovenste ledematen, niet nader gespecificeerd</nl>
-            <fr></fr>
+            <nl>Agent MET</nl>
+            <fr>Agent MET</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -326,12 +167,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>51</code>
         <description>
-            <nl>Schouder en schoudergewrichten</nl>
-            <fr></fr>
+            <nl>Agent MSZ</nl>
+            <fr>Agent MAS</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -341,12 +182,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>52</code>
         <description>
-            <nl>Arm, inclusief elleboog</nl>
-            <fr></fr>
+            <nl>Agent NIC</nl>
+            <fr>Agent CIN</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -356,12 +197,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>53</code>
         <description>
-            <nl>Hand</nl>
-            <fr></fr>
+            <nl>Agent A O</nl>
+            <fr>Agent FAT</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -371,11 +212,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>54</code>
         <description>
-            <nl>Vinger(s)</nl>
+            <nl>Agent FBZ</nl>
+            <fr>Agent FMP</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -385,10 +227,13 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>55</code>
-        <description>Pols</description>
+        <description>
+            <nl>Agent RIZIV</nl>
+            <fr>Agent INAMI</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -397,10 +242,43 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
+        <code>56</code>
+        <description>
+            <nl>Agent RVP</nl>
+            <fr>Agent ONP</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </declarant-role>
+    <declarant-role>
+        <code>57</code>
+        <description>
+            <nl>Agent RJV</nl>
+            <fr>Agent ONVA</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </declarant-role>
+    <declarant-role>
         <code>58</code>
-        <description>Bovenste ledematen, diverse plaatsen gewond</description>
+        <description>
+            <nl>Agent FOD Financiën Thesaurie</nl>
+            <fr>Agent SPF Finances Trésor</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -409,10 +287,13 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>59</code>
-        <description>Bovenste ledematen, andere hierboven niet genoemde delen</description>
+        <description>
+            <nl>Agent Fondsen Best. Zekerheid</nl>
+            <fr>Agent Ass Fonds sécurité existence</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -421,10 +302,13 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>60</code>
-        <description>Onderste ledematen, niet nader gespecificeerd</description>
+        <description>
+            <nl>Agent RVA</nl>
+            <fr>Agent ONEM</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -433,10 +317,13 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>61</code>
-        <description>Heup en heupgewricht</description>
+        <description>
+            <nl>Agent RSVZ</nl>
+            <fr>Agent INASTI</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -445,10 +332,13 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>62</code>
-        <description>Been, inclusief knie</description>
+        <description>
+            <nl>Agent HVZ</nl>
+            <fr>Agent CPM</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -457,10 +347,13 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>63</code>
-        <description>Enkel</description>
+        <description>
+            <nl>Agent DOSZ</nl>
+            <fr>Agent OSSOM</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -469,12 +362,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>64</code>
         <description>
-            <nl>Voet</nl>
-            <fr></fr>
+            <nl>Agent Admin. Pensioenen</nl>
+            <fr>Agent Admin. Pensions</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -484,11 +377,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
         <code>65</code>
         <description>
-            <nl>Teen/tenen</nl>
+            <nl>Agent KSZ</nl>
+            <fr>Agent BCSS</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -498,12 +392,42 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
+        <code>66</code>
+        <description>
+            <nl>Agent HVW</nl>
+            <fr>Agent CAPAC</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </declarant-role>
+    <declarant-role>
+        <code>67</code>
+        <description>
+            <nl>Agent HZIV</nl>
+            <fr>Agent CAAMI</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </declarant-role>
+    <declarant-role>
         <code>68</code>
         <description>
-            <nl>Onderste ledematen, diverse plaatsen gewond</nl>
-            <fr></fr>
+            <nl>Agent RKW</nl>
+            <fr>Agent ONAFTS</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -513,12 +437,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>69</code>
+    </declarant-role>
+    <declarant-role>
+        <code>74</code>
         <description>
-            <nl>Onderste ledematen, andere hierboven niet genoemde delen</nl>
-            <fr></fr>
+            <nl>Agent IVA Jongerenwelzijn</nl>
+            <fr>Agent IVA Jongerenwelzijn</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -528,12 +452,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>70</code>
+    </declarant-role>
+    <declarant-role>
+        <code>90</code>
         <description>
-            <nl>Gehele lichaam en diverse plaatsen, niet nader gespecificeer</nl>
-            <fr></fr>
+            <nl>Werkgever PPL</nl>
+            <fr>Employeur PPL</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -543,12 +467,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>71</code>
+    </declarant-role>
+    <declarant-role>
+        <code>91</code>
         <description>
-            <nl>Gehele lichaam (systemische gevolgen)</nl>
-            <fr></fr>
+            <nl>Dienstverrichter PPL</nl>
+            <fr>Prestataire de services PPL</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -558,12 +482,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>78</code>
+    </declarant-role>
+    <declarant-role>
+        <code>92</code>
         <description>
-            <nl>Diverse plaatsen van het lichaam gewond</nl>
-            <fr></fr>
+            <nl>Dienstverlener RSZ PPO</nl>
+            <fr>Fournisseur de service ONSS APL</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -573,12 +497,12 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-    <places-risk-incurred>
-        <code>99</code>
+    </declarant-role>
+    <declarant-role>
+        <code>93</code>
         <description>
-            <nl>Andere hierboven niet genoemde delen van het lichaam verwond</nl>
-            <fr>Autres parties du corps blessées</fr>
+            <nl>Inspecteur RSZ (ex-DIBISS)</nl>
+            <fr>Inspecteur ONSS (ancien ORPSS)</fr>
         </description>
         <begin-validity>
             <year>1900</year>
@@ -588,5 +512,21 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </places-risk-incurred>
-</places-risk-incurred>
+    </declarant-role>
+    <declarant-role>
+        <code>94</code>
+        <description>
+            <nl>Agent RSZ (ex-DIBISS)</nl>
+            <fr>Agent ONSS (ancien ORPSS)</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </declarant-role>
+</declarant-roles>
+
