@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TWCT001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TWCT001_20231.xsd">
+	<Form>
+		<Identification>TWCT001</Identification>
+		<FormCreationDate>2022-08-11</FormCreationDate>
+		<FormCreationHour>09:25:58.082</FormCreationHour>
+		<AttestationStatus>1</AttestationStatus>
+		<TypeForm>SU</TypeForm>
+		<DclInformation>
+			<LanguageCodePdf>1</LanguageCodePdf>
+		</DclInformation>
+		<RiskIdentification>
+			<IdentificationOfRisk>001</IdentificationOfRisk>
+		</RiskIdentification>
+		<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>1</ReferenceOrigin>
+			<ReferenceNbr>ref orig rsz mod</ReferenceNbr>
+		</Reference>
+		<Reference>
+			<ReferenceType>3</ReferenceType>
+			<ReferenceOrigin>2</ReferenceOrigin>
+			<ReferenceNbr>3A0000516E00D</ReferenceNbr>
+		</Reference>
+		<EmployerDeclarationLink>
+			<NOSSRegistrationNbr>114135340</NOSSRegistrationNbr>
+			<Trusteeship>0</Trusteeship>
+			<CompanyID>1999999943</CompanyID>
+			<OperationalOffice>
+				<Street>Munkkaai</Street>
+				<HouseNbr>2</HouseNbr>
+				<ZIPCode>1000</ZIPCode>
+				<City>Brussel</City>
+			</OperationalOffice>
+			<CoordinatesContactPerson>
+				<Name>Van Heerwege</Name>
+				<FirstName>Jan</FirstName>
+				<Address>
+					<Street>Ganzenpas</Street>
+					<HouseNbr>52</HouseNbr>
+					<PostBox>C</PostBox>
+					<ZIPCode>9050</ZIPCode>
+					<City>Gentbrugge</City>
+					<Country>00150</Country>
+				</Address>
+				<Communication>
+					<PhoneNbr>09/211.52.24</PhoneNbr>
+					<EmailAddress>J.VHeerwege@internet.be</EmailAddress>
+				</Communication>
+			</CoordinatesContactPerson>
+			<TemporaryEmploymentAgency>
+				<CommunicationSourceIndicator>0</CommunicationSourceIndicator>
+			</TemporaryEmploymentAgency>
+			<NaturalPerson>
+				<NaturalPersonSequenceNbr>1</NaturalPersonSequenceNbr>
+				<INSS>74101199805 </INSS>
+				<IndividualUnempPeriod>
+					<IndividualUnempEndingDate>2013-07-11</IndividualUnempEndingDate>
+				</IndividualUnempPeriod>
+			</NaturalPerson>
+			<NaturalPerson>
+				<NaturalPersonSequenceNbr>2</NaturalPersonSequenceNbr>
+				<INSS>80110927812</INSS>
+			</NaturalPerson>
+			<TempUnempEconomical>
+				<RegimeTempUnemp>1</RegimeTempUnemp>
+				<JointCommissionNbr>100</JointCommissionNbr>
+				<ReasonTempUnemp>Gebrek aan bestellingen</ReasonTempUnemp>
+				<DeclarationOnHonour>1</DeclarationOnHonour>
+				<TempUnemploymentPeriod>
+					<TempUnemploymentStartingDate>2013-07-10</TempUnemploymentStartingDate>
+					<TempUnemploymentEndingDate>2013-07-13</TempUnemploymentEndingDate>
+				</TempUnemploymentPeriod>
+			</TempUnempEconomical>
+		</EmployerDeclarationLink>
+	</Form>
+</TWCT001>

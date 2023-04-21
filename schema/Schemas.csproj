@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Lib\Dimona\Dimona\FormType.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\TypeForm.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="DmfA\DmfAOriginal_20222.xsd" />
     <None Remove="xmls\ACRF_20223_1.xml" />
     <None Remove="xmls\ACRF_20223_2.xml" />

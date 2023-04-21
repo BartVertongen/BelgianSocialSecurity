@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TWCT001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TWCT001_20231.xsd">
+	<Form>
+		<Identification>TWCT001</Identification>
+		<FormCreationDate>2022-08-11</FormCreationDate>
+		<FormCreationHour>09:25:58.082</FormCreationHour>
+		<AttestationStatus>3</AttestationStatus>
+		<TypeForm>SU</TypeForm>
+		<DclInformation>
+			<LanguageCodePdf>1</LanguageCodePdf>
+		</DclInformation>
+		<RiskIdentification>
+			<IdentificationOfRisk>001</IdentificationOfRisk>
+		</RiskIdentification>
+		<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>1</ReferenceOrigin>
+			<ReferenceNbr>ref orig rsz anu</ReferenceNbr>
+		</Reference>
+		<Reference>
+			<ReferenceType>3</ReferenceType>
+			<ReferenceOrigin>2</ReferenceOrigin>
+			<ReferenceNbr>3A000051BN003</ReferenceNbr>
+		</Reference>
+		<EmployerDeclarationLink>
+			<NOSSRegistrationNbr>114135340</NOSSRegistrationNbr>
+			<Trusteeship>0</Trusteeship>
+			<CompanyID>1999999943</CompanyID>
+			<TemporaryEmploymentAgency>
+				<CommunicationSourceIndicator>0</CommunicationSourceIndicator>
+			</TemporaryEmploymentAgency>
+		</EmployerDeclarationLink>
+	</Form>
+</TWCT001>

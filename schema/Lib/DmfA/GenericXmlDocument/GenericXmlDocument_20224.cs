@@ -1,4 +1,4 @@
-﻿//By Bart Vertongen Dec 2022.
+﻿//By Bart Vertongen April 2023.
 
 using System.Xml.Serialization;
 
@@ -6,339 +6,123 @@ using System.Xml.Serialization;
 namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
 {
     [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRoot("AddresseeData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public class AddresseeDataType
-    {
-        public string? Addressee;
-
-        public string? AddresseeType;
-
-        public string? AddresseeQuality;
-
-        public string? Identification;
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThrough()]
-    [System.ComponentModel.DesignerCategory("code")]
-    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public class ProcessingDataType
-    { }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public class ReferenceDataType
-    {
-        [XmlElement(DataType = "integer")]
-        public string? INSS;
-
-        [XmlElementAttribute("Quarter", DataType = "integer")]
-        public string[]? Quarter;
-
-        public string? GroupName;
-
-        [XmlElement(DataType = "integer")]
-        public string? FormSequenceNbr;
-
-        public bool IsLastForm;
-
-        [XmlIgnore()]
-        public bool IsLastFormSpecified;
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public class HandledSenderIdentificationType
-    {
-        [XmlElement(DataType = "integer")]
-        public string? CompanyID;
-
-        [XmlElement(DataType = "integer")]
-        public string? NOSSRegistrationNbr;
-
-        [XmlElement(DataType = "integer")]
-        public string? NOSSLPARegistrationNbr;
-
-        [XmlElement(DataType = "integer")]
-        public string? ProvisionalNSSONbr;
-
-        [XmlElement(DataType = "integer")]
-        public string? SocialSecretariatNumber;
-
-        [XmlElement(DataType = "integer")]
-        public string? INSS;
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public  class HandledOriginalFileType
-    {
-        [XmlElementAttribute(DataType = "integer")]
-        public string? SenderId;
-    }
-
-
-    [Serializable()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public class FormType
-    {
-        public string? Identification;
-
-        [XmlElement(DataType = "date")]
-        public System.DateTime FormCreationDate;
-
-        [XmlElement(DataType = "time")]
-        public DateTime FormCreationHour;
-
-        [XmlElement(DataType = "integer")]
-        public string? AttestationStatus;
-
-        public TypeForm TypeForm;
-    }
-
-
-    [SerializableAttribute()]
     [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
     [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public enum TypeForm { RE, PA, FA, LA, SU }
+    public enum MandateType{ ReferenceData }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public class EmployerIdType
-    {
-
-        private string itemField;
-
-        private ItemChoiceType1 itemElementNameField;
-
-        private string companyIDField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("NOSSLPARegistrationNbr", typeof(string), DataType = "integer")]
-        [System.Xml.Serialization.XmlElementAttribute("NOSSRegistrationNbr", typeof(string), DataType = "integer")]
-        [System.Xml.Serialization.XmlElementAttribute("ProvisionalNSSONbr", typeof(string), DataType = "integer")]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName")]
-        public string Item;
-
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemChoiceType1 ItemElementName;
-
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string CompanyID;
-    }
-
-
-    [System.SerializableAttribute()]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IncludeInSchema = false)]
-    public enum ItemChoiceType1 { NOSSLPARegistrationNbr, NOSSRegistrationNbr, ProvisionalNSSONbr }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public class DocumentDataType
-    {
-
-        private System.DateTime documentDateField;
-
-        private bool documentDateFieldSpecified;
-
-        private string documentReferenceField;
-
-        private string iNSSField;
-
-        private string companyIDField;
-
-        /// <remarks/>
-        [XmlElementAttribute(DataType = "date")]
-        public System.DateTime DocumentDate;
-
-        /// <remarks/>
-        [XmlIgnoreAttribute()]
-        public bool DocumentDateSpecified;
-
-        /// <remarks/>
-        public string DocumentReference;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string INSS;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
-        public string CompanyID;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public class DestinationDataType
-    {
-        public DestinationType DestinationType;
-    }
-
-
-    [System.SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public enum DestinationType {
-        DESTHA, DESTHAFOREMPLOYER, SUIVIFOREMPLOYER, SUIVI,
-        CONTRACTUALRELATIONSHIPREGISTRY, ENTREPRISE, CLC,
-        SMALS, DOCUMENTSENDINGDATA, }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public class MandateCriteriaType
-    {
-        [System.Xml.Serialization.XmlElementAttribute("Date", typeof(System.DateTime), DataType = "date")]
-        [System.Xml.Serialization.XmlElementAttribute("MandateType", typeof(MandateType))]
-        [System.Xml.Serialization.XmlElementAttribute("Quarter", typeof(string), DataType = "integer")]
-        public object Item;
-    }
-
-
-    [System.SerializableAttribute()]
-    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public enum MandateType { ReferenceData }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    public partial class DestinationCriteriaType
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    public class DestinationCriteriaType
     {
         [XmlElement(DataType = "integer")]
         public string ReferenceType;
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
     public class TechnicalDescriptionType
     {
         public MimeType MimeType;
 
         public CharacterSet CharacterSet;
 
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool CharacterSetSpecified;
 
         public CharacterFormat CharacterFormat;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string Language;
 
         public string FileName;
 
         public DocumentType DocumentType;
 
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnoreAttribute()]
         public bool DocumentTypeSpecified;
 
         public string AttachmentId;
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [Serializable()]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public enum MimeType
     {
-        [System.Xml.Serialization.XmlEnumAttribute("application/pdf")]
+        [XmlEnum("application/pdf")]
         applicationpdf,
 
-        [System.Xml.Serialization.XmlEnumAttribute("application/xml")]
+        [XmlEnum("application/xml")]
         applicationxml,
 
-        [System.Xml.Serialization.XmlEnumAttribute("application/msword")]
+        [XmlEnum("application/msword")]
         applicationmsword,
 
-        [System.Xml.Serialization.XmlEnumAttribute("application/vnd.openxmlformats-officedocument.wordprocessingml.document")]
+        [XmlEnum("application/vnd.openxmlformats-officedocument.wordprocessingml.document")]
         applicationvndopenxmlformatsofficedocumentwordprocessingmldocument,
 
-        [System.Xml.Serialization.XmlEnumAttribute("application/vnd.ms-excel")]
+        [XmlEnum("application/vnd.ms-excel")]
         applicationvndmsexcel,
 
-        [System.Xml.Serialization.XmlEnumAttribute("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")]
+        [XmlEnum("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")]
         applicationvndopenxmlformatsofficedocumentspreadsheetmlsheet,
 
-        [System.Xml.Serialization.XmlEnumAttribute("application/zip")]
+        [XmlEnum("application/zip")]
         applicationzip,
 
-        [System.Xml.Serialization.XmlEnumAttribute("image/jpeg")]
+        [XmlEnum("image/jpeg")]
         imagejpeg,
 
-        [System.Xml.Serialization.XmlEnumAttribute("image/tiff")]
+        [XmlEnum("image/tiff")]
         imagetiff,
 
-        [System.Xml.Serialization.XmlEnumAttribute("text/plain")]
+        [XmlEnum("text/plain")]
         textplain,
 
         application,
 
-        [System.Xml.Serialization.XmlEnumAttribute("application/vnd.oasis.opendocument.text")]
+        [XmlEnum("application/vnd.oasis.opendocument.text")]
         applicationvndoasisopendocumenttext,
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public enum CharacterSet
     {
-        [XmlEnumAttribute("UTF-8")] UTF8,
+        [XmlEnum("UTF-8")] UTF8,
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [Serializable()]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public enum CharacterFormat { NATIVE, Base64, }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
     [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public enum DocumentType { MAIN, ATTACHMENT, }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
     public class DocumentDescriptionType
     { }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
@@ -349,7 +133,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
     public class SpecificIndexDataType
     { }
 
@@ -357,11 +141,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
     public class CaseDataType
     {
 
-        private NSSOService nSSOServiceField;
+        /*private NSSOService nSSOServiceField;
 
         private bool nSSOServiceFieldSpecified;
 
@@ -377,106 +161,81 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
 
         private ProcessType processTypeField;
 
-        private bool processTypeFieldSpecified;
+        private bool processTypeFieldSpecified;*/
 
-        /// <remarks/>
         public NSSOService NSSOService;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool NSSOServiceSpecified;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime CreationDate;
+        [XmlElement(DataType = "date")]
+        public DateTime CreationDate;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool CreationDateSpecified;
 
-        /// <remarks/>
         public CaseSubType CaseSubType;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool CaseSubTypeSpecified;
 
-        /// <remarks/>
         public string CaseId;
 
-        /// <remarks/>
         public ProcessType ProcessType;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool ProcessTypeSpecified;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public enum NSSOService { INNI, REJU, RIPAD }
-
-
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public enum CaseSubType
-    {
-        TYP_SC_026,
-        TYP_SC_119,
-        TYP_SC_214,
-
-        /// <remarks/>
-        TYP_SC_215,
-
-        /// <remarks/>
-        TYP_SC_216,
-
-        /// <remarks/>
-        TYP_SC_217,
-
-        /// <remarks/>
-        TYP_SC_246,
-
-        /// <remarks/>
-        TYP_SC_247,
-
-        /// <remarks/>
-        TYP_SC_283,
-
-        /// <remarks/>
-        TYP_SC_284,
-
-        /// <remarks/>
-        TYP_SC_502,
     }
 
 
     [System.SerializableAttribute()]
     [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
     [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public enum ProcessType { SUBMITDOCUMENT, SUBMITCASEID, SUBMITARCHIVE }
+    public enum NSSOService { INNI, REJU, RIPAD }
 
 
     [System.SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public enum CaseSubType
+    {
+        TYP_SC_026,
+        TYP_SC_119,
+        TYP_SC_214,
+        TYP_SC_215,
+        TYP_SC_216,
+        TYP_SC_217,
+        TYP_SC_246,
+        TYP_SC_247,
+        TYP_SC_283,
+        TYP_SC_284,
+        TYP_SC_502,
+    }
+
+
+    [SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public enum ProcessType { SUBMITDOCUMENT, SUBMITCASEID, SUBMITARCHIVE }
+
+
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
     public class AssignedUserDataType
     { }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("AssignedUserCriteria", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("AssignedUserCriteria", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class AssignedUserCriteriaType
     {
         public string AssignedUserType;
 
-        /// <remarks/>
         public string AssignedUserId;
     }
 
@@ -488,41 +247,24 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class AssignedUserData : AssignedUserDataType
     {
-
         private AssignedUserCriteriaType assignedUserCriteriaField;
 
-        /// <remarks/>
         public AssignedUserCriteriaType AssignedUserCriteria;
     }
 
 
     [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public partial class CaseData : CaseDataType
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public class CaseData : CaseDataType
     {
-
-        private CaseStatusDataType caseStatusDataField;
-
-        private CaseReferenceDataType[] caseReferenceDataField;
-
-        private SpecificIndexData specificIndexDataField;
-
-        private AssignedUserData assignedUserDataField;
-
-        /// <remarks/>
-        public CaseStatusDataType CaseStatusData;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("CaseReferenceData")]
+        [XmlElement("CaseReferenceData")]
         public CaseReferenceDataType[] CaseReferenceData;
 
-        /// <remarks/>
         public SpecificIndexData SpecificIndexData;
 
-        /// <remarks/>
         public AssignedUserData AssignedUserData;
     }
 
@@ -530,8 +272,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("CaseStatusData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("CaseStatusData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class CaseStatusDataType
     {
         [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
@@ -542,8 +284,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("CaseReferenceData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute("CaseReferenceData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public partial class CaseReferenceDataType
     {
         public string ReferenceNbr;
@@ -551,19 +293,19 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
 
 
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public enum CaseReferenceType { PRODUCER_REF, NOSS_REF, EXTERNAL_REF }
 
 
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class SpecificIndexData : SpecificIndexDataType
     {
-        [System.Xml.Serialization.XmlElementAttribute("SpecificIndexCriteria")]
+        [XmlElementAttribute("SpecificIndexCriteria")]
         public SpecificIndexCriteriaType[] SpecificIndexCriteria;
     }
 
@@ -577,54 +319,48 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     {
         public string IndexId;
 
-        /// <remarks/>
         public string IndexValue;
     }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("CoordinatesReceiver", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public partial class CoordinatesReceiverType
+    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("CoordinatesReceiver", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public class CoordinatesReceiverType
     {
         public string Denomination;
 
         public string Street;
 
-        /// <remarks/>
         public string HouseNbr;
 
-        /// <remarks/>
         public string PostBox;
 
-        /// <remarks/>
         public string ZIPCode;
 
-        /// <remarks/>
         public string City;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string Country;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string Language;
     }
 
 
-    [System.SerializableAttribute()]
+    [Serializable()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class Data : DataType
     {
         public DocumentDescription DocumentDescription;
 
-        [System.Xml.Serialization.XmlElementAttribute("DocumentNonXML", typeof(DocumentNonXMLType))]
-        [System.Xml.Serialization.XmlElementAttribute("DocumentXML", typeof(System.Xml.XmlElement))]
+        [XmlElementAttribute("DocumentNonXML", typeof(DocumentNonXMLType))]
+        [XmlElementAttribute("DocumentXML", typeof(System.Xml.XmlElement))]
         public object Item;
     }
 
@@ -667,14 +403,14 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [SerializableAttribute()]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public enum IntegrityMethod
     {
-        [XmlEnumAttribute("SHA-256")] SHA256,
+        [XmlEnum("SHA-256")] SHA256,
 
-        [XmlEnumAttribute("SHA-512")] SHA512,
+        [XmlEnum("SHA-512")] SHA512,
 
         MD5,
     }
@@ -683,34 +419,12 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("DocumentNonXML", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute("DocumentNonXML", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class DocumentNonXMLType
     {
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "base64Binary")]
+        [XmlElement(DataType = "base64Binary")]
         public byte[] DocumentBase64;
-    }
-
-
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public partial class DestinationCriteria : DestinationCriteriaType
-    {
-        public AddresseeDataType AddresseeData;
-
-        /// <remarks/>
-        public MandateCriteria MandateCriteria;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DocumentSendingData")]
-        public DocumentSendingDataType[] DocumentSendingData;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("CoordinatesReceiver")]
-        public CoordinatesReceiverType[] CoordinatesReceiver;
     }
 
 
@@ -719,9 +433,28 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
     [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public partial class DestinationCriteria : DestinationCriteriaType
+    {
+        public AddresseeDataType AddresseeData;
+
+        public MandateCriteria MandateCriteria;
+
+        [XmlElement("DocumentSendingData")]
+        public DocumentSendingDataType[] DocumentSendingData;
+
+        [XmlElement("CoordinatesReceiver")]
+        public CoordinatesReceiverType[] CoordinatesReceiver;
+    }
+
+
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class MandateCriteria : MandateCriteriaType
     {
-        [System.Xml.Serialization.XmlElementAttribute("ObjectCriteria")]
+        [XmlElement("ObjectCriteria")]
         public ObjectCriteriaType[] ObjectCriteria;
     }
 
@@ -729,50 +462,43 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute("ObjectCriteria", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("ObjectCriteria", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class ObjectCriteriaType
     {
         public string Object;
 
-        /// <remarks/>
         public ObjectType ObjectType;
     }
 
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public enum ObjectType
-    {
-        SECTOR, GROUP, APPLICATION,
-    }
+    [SerializableAttribute()]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public enum ObjectType { SECTOR, GROUP, APPLICATION, }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("DocumentSendingData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public partial class DocumentSendingDataType
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("DocumentSendingData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public class DocumentSendingDataType
     {
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string Channel;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string AttestationStatus;
 
-        /// <remarks/>
         public DocumentSendingModus DocumentSendingModus;
 
-        /// <remarks/>
         public string EmailAddress;
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [SerializableAttribute()]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public enum DocumentSendingModus
     {
         NORMAL,
@@ -780,11 +506,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class DestinationData : DestinationDataType
     {
         public DestinationCriteria DestinationCriteria;
@@ -794,8 +520,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class DocumentData : DocumentDataType
     {
         [System.Xml.Serialization.XmlElementAttribute("DocumentTitle")]
@@ -806,33 +532,33 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("DocumentTitle", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute("DocumentTitle", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class DocumentTitleType
     {
-        [System.Xml.Serialization.XmlElementAttribute("Denomination", typeof(string))]
-        [System.Xml.Serialization.XmlElementAttribute("TitleLongValue", typeof(string))]
-        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemElementName")]
+        [XmlElement("Denomination", typeof(string))]
+        [XmlElement("TitleLongValue", typeof(string))]
+        [XmlChoiceIdentifierAttribute("ItemElementName")]
         public string Item;
 
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnoreAttribute()]
         public ItemChoiceType ItemElementName;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string Language;
     }
 
 
-    [System.SerializableAttribute()]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IncludeInSchema = false)]
+    [SerializableAttribute()]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IncludeInSchema = false)]
     public enum ItemChoiceType { Denomination, TitleLongValue, }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class EmployerId : EmployerIdType
     {
         [XmlElementAttribute("HandledEmployerId")]
@@ -840,11 +566,11 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     }
 
 
-    [System.SerializableAttribute()]
+    [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute("HandledEmployerId", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("HandledEmployerId", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class HandledEmployerIdType
     {
         public string EmployerDenomination;
@@ -859,24 +585,24 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
 
         public string EmployerCity;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string EmployerCountry;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string ImportanceCode;
 
         public string LegalForm;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string Language;
     }
 
     [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute("FileReceptionInformation", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public partial class FileReceptionInformationType
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("FileReceptionInformation", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public class FileReceptionInformationType
     {
         [XmlElementAttribute(DataType = "date")]
         public DateTime ReceptionDate;
@@ -892,24 +618,24 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute("FileReference", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("FileReference", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class FileReferenceType
     {
         public string FileName;
 
-        [XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string ReferenceOrigin;
 
         public string ReferenceNbr;
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute("FinalAddresseeData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("FinalAddresseeData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class FinalAddresseeDataType
     {
         public string Addressee;
@@ -923,8 +649,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class Form : FormType
     {
         [XmlElement("Reference")]
@@ -943,12 +669,12 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
 
         public OriginSendingDataType OriginSendingData;
 
-        [XmlElementAttribute("FinalAddresseeData")]
+        [XmlElement("FinalAddresseeData")]
         public FinalAddresseeDataType[] FinalAddresseeData;
 
         public ProcessingData ProcessingData;
 
-        [XmlElementAttribute("Data")]
+        [XmlElement("Data")]
         public Data[] Data;
     }
 
@@ -956,8 +682,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute("Reference", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("Reference", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class ReferenceType
     {
         [XmlElementAttribute("ReferenceType", DataType = "integer")]
@@ -973,8 +699,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class HandledOriginalFile : HandledOriginalFileType
     {
         public HandledSenderIdentification HandledSenderIdentification;
@@ -987,40 +713,37 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public partial class HandledSenderIdentification : HandledSenderIdentificationType
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public class HandledSenderIdentification : HandledSenderIdentificationType
     {
         public SenderType Sender;
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("Sender", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("Sender", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class SenderType
     {
         public string Denomination;
 
-        /// <remarks/>
         public string Street;
 
-        /// <remarks/>
         public string HouseNbr;
 
-        /// <remarks/>
         public string PostBox;
 
         public string ZIPCode;
 
         public string City;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string Country;
 
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "integer")]
+        [XmlElement(DataType = "integer")]
         public string Language;
     }
 
@@ -1028,14 +751,14 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class ReferenceData : ReferenceDataType
     {
-        [System.Xml.Serialization.XmlElementAttribute("SubGroupCriteria")]
+        [XmlElement("SubGroupCriteria")]
         public SubGroupCriteriaType[] SubGroupCriteria;
 
-        [System.Xml.Serialization.XmlElementAttribute("EmployerId")]
+        [XmlElement("EmployerId")]
         public EmployerId[] EmployerId;
     }
 
@@ -1043,8 +766,8 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("SubGroupCriteria", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("SubGroupCriteria", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class SubGroupCriteriaType
     {
         public string GroupType;
@@ -1053,58 +776,50 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public enum OutputChannel
-    {
-        BATCH,
-        PRINT,
-    }
+    [Serializable()]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public enum OutputChannel { BATCH, PRINT }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("OriginSendingData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
-    public partial class OriginSendingDataType
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("OriginSendingData", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    public class OriginSendingDataType
     {
         public string Addressee;
 
-        /// <remarks/>
         public string AddresseeType;
 
-        /// <remarks/>
         public string AddresseeQuality;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date")]
-        public System.DateTime DateSubmission;
+        [XmlElement(DataType = "date")]
+        public DateTime DateSubmission;
 
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool DateSubmissionSpecified;
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class ProcessingData : ProcessingDataType
     {
-        [XmlElementAttribute("ProcessingKeyValue")]
+        [XmlElement("ProcessingKeyValue")]
         public ProcessingKeyValueType[] ProcessingKeyValue;
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [System.Xml.Serialization.XmlRootAttribute("ProcessingKeyValue", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot("ProcessingKeyValue", Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class ProcessingKeyValueType
     {
         public string ProcessingKey;
@@ -1113,14 +828,14 @@ namespace VertSoft.BelgianHR.Xml.DmfA.GenericXmlDocument224
     }
 
 
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
-    [XmlRootAttribute(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
+    [Serializable()]
+    [System.Diagnostics.DebuggerStepThrough()]
+    [System.ComponentModel.DesignerCategory("code")]
+    [XmlType(AnonymousType = true, Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux")]
+    [XmlRoot(Namespace = "http://www.smals-mvm.be/xml/ns/systemFlux", IsNullable = false)]
     public class GenericXmlDocument
     {
-        [XmlElementAttribute("Form")]
+        [XmlElement("Form")]
         public Form[] Form;
     }
 }

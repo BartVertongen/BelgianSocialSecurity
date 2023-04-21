@@ -2,6 +2,7 @@
 
 using System.Xml.Serialization;
 
+
 namespace VertSoft.BelgianHR.Xml.DmfA.ReductionConsultationAnswer224
 {
     [Serializable()]

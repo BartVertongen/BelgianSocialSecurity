@@ -1,5 +1,4 @@
-﻿
-
+﻿// By Bart Vertongen April 2023
 using System.Xml.Serialization;
 
 
