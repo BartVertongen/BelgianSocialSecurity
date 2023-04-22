@@ -6,13 +6,7 @@ using System.Xml.Serialization;
 namespace VertSoft.BelgianHR.Xml.Dimona.Dimona.Dimona231
 {
 	[Serializable()]
-	[System.Diagnostics.DebuggerStepThrough()]
-	[System.ComponentModel.DesignerCategory("code")]
 	[XmlType(AnonymousType = true)]
 	[XmlRoot(Namespace = "", IsNullable = false)]
-	public class Dimona
-	{
-		[XmlElement("Form")]
-		public Form[] Form;
-	}
+	public enum WorkerStatus { F1, F2 }
 }

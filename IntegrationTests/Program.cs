@@ -18,10 +18,11 @@ namespace VertSoft.BelgianSocialSecurity.IntegrationTests
 			/*Console.WriteLine("Test Deserialize of Dimona223!");
             DeserializeDimona223("Dimona_20223_1.xml");*/
 
-			Console.WriteLine("Test Deserialize of Dimona231 voorbeeld 1!");
-			DeserializeDimona231("Dimona_20231_1.xml");
+			/*Console.WriteLine("Test Deserialize of Dimona231 voorbeeld 1!");
+			DeserializeDimona231("Dimona_20231_1.xml");*/
 
-			//In EmployerID we can not get the number of NOSSRegistrationNbr
+			//REM: In EmployerId we can not get the number of NOSSRegistrationNbr
+			//REM: EmployerId works fine if we keep the namespace empty
 			Console.WriteLine("Test Deserialize of Dimona231 voorbeeld 2!");
 			DeserializeDimona231("Dimona_20231_2.xml");
 
