@@ -7,6 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\ConstructionControlCardsType.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\DailyRegistrationDeclarationType.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\DimonaCancel.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\DimonaCancelType.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\DimonaFeatures.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\DimonaFeaturesType.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\DimonaIn.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\DimonaInType.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\EmploymentNature.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\Form.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\ItemChoiceType.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\ItemChoiceType1.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\ItemChoiceType2.cs" />
+    <Compile Remove="Lib\Dimona\Dimona\Dimona223\WorkerType.cs" />
     <Compile Remove="Lib\Dimona\Dimona\FormType.cs" />
     <Compile Remove="Lib\Dimona\Dimona\TypeForm.cs" />
   </ItemGroup>

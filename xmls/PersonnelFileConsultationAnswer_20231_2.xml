@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PersonnelFileConsultationAnswer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PersonnelFileConsultationAnswer_20231.xsd">
+	<Form>
+		<Identification>PFANS</Identification>
+		<FormCreationDate>2023-01-02</FormCreationDate>
+		<FormCreationHour>13:53:37.100</FormCreationHour>
+		<AttestationStatus>0</AttestationStatus>
+		<TypeForm>RE</TypeForm>
+		<HandledOriginalForm>
+			<Identification>PFREQ</Identification>
+			<FormCreationDate>2022-07-02</FormCreationDate>
+			<FormCreationHour>13:50:00.000</FormCreationHour>
+			<AttestationStatus>0</AttestationStatus>
+			<TypeForm>RE</TypeForm>
+		</HandledOriginalForm>
+		<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>1</ReferenceOrigin>
+			<ReferenceNbr>reference</ReferenceNbr>
+		</Reference>
+		<HandledReference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>2</ReferenceOrigin>
+			<ReferenceNbr>340000RQD600V</ReferenceNbr>
+		</HandledReference>
+		<PersonnelFileConsult>
+			<NOSSRegistrationNbr>15170023</NOSSRegistrationNbr>
+			<CompanyID>407585882</CompanyID>
+			<RefStartingDate>2021-12-01</RefStartingDate>
+			<RefEndingDate>2021-12-01</RefEndingDate>
+			<ResultCodeResearch>1</ResultCodeResearch>
+		</PersonnelFileConsult>
+	</Form>
+</PersonnelFileConsultationAnswer>

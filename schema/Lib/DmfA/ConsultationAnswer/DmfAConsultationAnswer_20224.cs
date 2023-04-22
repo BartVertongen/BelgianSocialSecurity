@@ -96,32 +96,33 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
     [Serializable()]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum ReorganisationMeasure {
-        [XmlEnumAttribute("1")] Item1,
+    public enum ReorganisationMeasure
+    {
+        [XmlEnum("1")] Item1,
 
-        [XmlEnumAttribute("2")] Item2,
+        [XmlEnum("2")] Item2,
 
-        [XmlEnumAttribute("3")] Item3,
+        [XmlEnum("3")] Item3,
 
-        [XmlEnumAttribute("4")] Item4,
+        [XmlEnum("4")] Item4,
 
-        [XmlEnumAttribute("5")] Item5,
+        [XmlEnum("5")] Item5,
 
-        [XmlEnumAttribute("6")] Item6,
+        [XmlEnum("6")] Item6,
 
-        [XmlEnumAttribute("7")] Item7,
+        [XmlEnum("7")] Item7,
 
-        [XmlEnumAttribute("8")] Item8,
+        [XmlEnum("8")] Item8,
 
-        [XmlEnumAttribute("107")] Item107,
+        [XmlEnum("107")] Item107,
 
-        [XmlEnumAttribute("501")] Item501,
+        [XmlEnum("501")] Item501,
 
-        [XmlEnumAttribute("502")] Item502,
+        [XmlEnum("502")] Item502,
 
-        [XmlEnumAttribute("503")] Item503,
+        [XmlEnum("503")] Item503,
 
-        [XmlEnumAttribute("504")] Item504,
+        [XmlEnum("504")] Item504,
 
         [XmlEnumAttribute("505")] Item505,
 
@@ -274,7 +275,7 @@ namespace VertSoft.BelgianHR.Xml.DmfA.ConsultationAnswer224
 
         public AnomalySubmission AnomalySubmission;
 
-        [XmlIgnoreAttribute()]
+        [XmlIgnore()]
         public bool AnomalySubmissionSpecified;
     }
 
