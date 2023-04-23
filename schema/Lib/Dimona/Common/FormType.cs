@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.Dimona.Common
+namespace VertSoft.BelgianHR.Xml.Dimona.Dimona.Common
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]

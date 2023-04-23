@@ -2,7 +2,7 @@
 
 using System.Xml.Serialization;
 
-namespace Schemas.Lib.Dimona.PersonnelFileConsultationRequest.PersonnelFileConsultationRequest223
+namespace VertSoft.BelgianHR.Xml.Dimona.PersonnelFileConsultationRequest.PersonnelFileConsultationRequest223
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]

@@ -3,7 +3,7 @@
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.Dimona.Dimona223
+namespace VertSoft.BelgianHR.Xml.Dimona.Dimona.Dimona223
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]

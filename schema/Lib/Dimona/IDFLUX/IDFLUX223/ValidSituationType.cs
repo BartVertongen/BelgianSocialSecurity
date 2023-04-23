@@ -3,7 +3,7 @@
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.IDFLUX223
+namespace VertSoft.BelgianHR.Xml.Dimona.IDFLUX.IDFLUX223
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]

@@ -3,10 +3,13 @@
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.IDFLUX223
+namespace VertSoft.BelgianHR.Xml.Dimona.IDFLUX.IDFLUX223
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public enum Identification { IDFLUX, }
+    public enum ReferenceOrigin
+    {
+        [XmlEnum("2")] Item2,
+    }
 }

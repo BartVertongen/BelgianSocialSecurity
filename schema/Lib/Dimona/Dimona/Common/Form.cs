@@ -1,7 +1,6 @@
 ﻿//By Bart Vertongen Nov 2022.
 
 using System.Xml.Serialization;
-using VertSoft.BelgianHR.Xml.Dimona.Common;
 
 
 namespace VertSoft.BelgianHR.Xml.Dimona.Dimona.Common

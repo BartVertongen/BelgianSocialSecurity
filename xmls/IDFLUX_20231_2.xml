@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDFLUX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="IDFLUX_20231.xsd">
+	<Form>
+		<Identification>IDFLUX</Identification>
+		<FormCreationDate>2023-01-21</FormCreationDate>
+		<FormCreationHour>10:10:07.991</FormCreationHour>
+		<AttestationStatus>0</AttestationStatus>
+		<TypeForm>SU</TypeForm>
+		<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>2</ReferenceOrigin>
+			<ReferenceNbr>340000LKFR007</ReferenceNbr>
+		</Reference>
+		<IdfluxInformation>
+			<JustificationCode>91</JustificationCode>
+			<EffectiveStartingDate>2023-01-20</EffectiveStartingDate>
+			<EmployerId>
+				<NOSSRegistrationNbr>175702307</NOSSRegistrationNbr>
+				<CompanyID>471149091</CompanyID>
+			</EmployerId>
+			<ValidSituation>
+				<INSS>78070739119</INSS>
+				<WorkerName>FRANS</WorkerName>
+				<WorkerFirstName>ROBERT</WorkerFirstName>
+				<WorkerBirthdate>1978-07-07</WorkerBirthdate>
+				<WorkerSex>1</WorkerSex>
+			</ValidSituation>
+			<OutdatedSituation>
+				<WorkerBirthdate>1970-07-07</WorkerBirthdate>
+			</OutdatedSituation>
+		</IdfluxInformation>
+	</Form>
+</IDFLUX>

@@ -3,19 +3,17 @@
 using System.Xml.Serialization;
 
 
-namespace VertSoft.BelgianHR.Xml.IDFLUX223
+namespace VertSoft.BelgianHR.Xml.Dimona.IDFLUX.IDFLUX223
 {
     [Serializable()]
     [System.Diagnostics.DebuggerStepThrough()]
     [System.ComponentModel.DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
-    public class IdfluxInformation : IdfluxInformationType
+    public class Form : FormType
     {
-        public EmployerIdType? EmployerId;
+        public ReferenceType? Reference;
 
-        public ValidSituationType? ValidSituation;
-
-        public OutdatedSituationType? OutdatedSituation;
+        public IdfluxInformation? IdfluxInformation;
     }
 }

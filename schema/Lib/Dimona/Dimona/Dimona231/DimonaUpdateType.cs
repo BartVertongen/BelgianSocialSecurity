@@ -1,6 +1,5 @@
 ﻿
 using System.Xml.Serialization;
-using VertSoft.BelgianHR.Xml.Dimona.Common;
 using VertSoft.BelgianHR.Xml.Dimona.Dimona.Common;
 
 

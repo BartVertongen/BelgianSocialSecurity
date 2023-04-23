@@ -33,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Lib\Dimona\IDFLUX\IDFLUX231\" />
     <Folder Include="Lib\Dimona\PersonnelFileConsultationAnswer\PersonnelFileConsultationAnswer231\" />
     <Folder Include="Lib\Dimona\PersonnelFileConsultationRequest\PersonnelFileConsultationRequest231\" />
   </ItemGroup>

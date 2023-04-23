@@ -1,9 +1,9 @@
 ﻿// By Bart Vertongen Nov 2022.
 
 using System.Xml.Serialization;
+using VertSoft.BelgianHR.Xml.Dimona.Dimona.Common;
 
-
-namespace Schemas.Lib.Dimona.PersonnelFileConsultationAnswer.PersonnelFileConsultationAnswer223
+namespace VertSoft.BelgianHR.Xml.Dimona.PersonnelFileConsultationAnswer.PersonnelFileConsultationAnswer223
 {
     [Serializable()]
     [XmlType(AnonymousType = true)]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDFLUX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="IDFLUX_20231.xsd">
+	<Form>
+		<Identification>IDFLUX</Identification>
+		<FormCreationDate>2023-01-02</FormCreationDate>
+		<FormCreationHour>10:10:06.230</FormCreationHour>
+		<AttestationStatus>0</AttestationStatus>
+		<TypeForm>SU</TypeForm>
+		<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>2</ReferenceOrigin>
+			<ReferenceNbr>340000LKFR007</ReferenceNbr>
+		</Reference>
+		<IdfluxInformation>
+			<JustificationCode>90</JustificationCode>
+			<EffectiveStartingDate>2023-01-01</EffectiveStartingDate>
+			<EmployerId>
+				<NOSSRegistrationNbr>162518843</NOSSRegistrationNbr>
+				<CompanyID>449888671</CompanyID>
+			</EmployerId>
+			<ValidSituation>
+				<INSS>29111114418</INSS>
+				<WorkerName>DUPONT</WorkerName>
+				<WorkerFirstName>ELISABETH MARIE</WorkerFirstName>
+				<WorkerBirthdate>1929-11-11</WorkerBirthdate>
+				<WorkerSex>2</WorkerSex>
+			</ValidSituation>
+			<OutdatedSituation>
+				<INSS>29311104266</INSS>
+			</OutdatedSituation>
+		</IdfluxInformation>
+	</Form>
+</IDFLUX>

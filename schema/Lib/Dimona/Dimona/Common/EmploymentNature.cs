@@ -5,9 +5,9 @@ using System.Xml.Serialization;
 
 namespace VertSoft.BelgianHR.Xml.Dimona.Dimona.Common
 {
-    [Serializable()]
+    /*[Serializable()]
     [XmlType(AnonymousType = true)]
     [XmlRoot(Namespace = "", IsNullable = false)]
     public enum EmploymentNature
-    { EMPLOYEE, WORKER, }
+    { EMPLOYEE, WORKER, }*/
 }
