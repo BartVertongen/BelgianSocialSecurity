@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\schema\Schemas.csproj" />
+    <ProjectReference Include="..\schema\VertSoft.BelgianHR.Xml.csproj" />
   </ItemGroup>
 
 </Project>

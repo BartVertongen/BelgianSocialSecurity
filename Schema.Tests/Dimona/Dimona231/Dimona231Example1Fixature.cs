@@ -114,5 +114,59 @@ namespace VertSoft.BelgianHR.Xml.Dimona.Dimona.Dimona231.Tests
 			//Assert
 			Assert.True(sAttestationStatus == "Original");
 		}
+
+		[Fact]
+		public void Dimona231_Example1_TypeFormShouldBe_SU()
+		{
+			//Arrange
+			string sTypeForm;
+
+			//Act
+			sTypeForm = oDimona231.Form.First().TypeForm.ToString();
+
+			//Assert
+			Assert.True(sTypeForm == "SU");
+		}
+
+		[Fact]
+		public void Dimona231_Example1_ReferenceTypeShouldBe_One()
+		{
+			//Arrange
+			string sReferenceType;
+
+			//Act
+			sReferenceType = oDimona231.Form.First().Reference[0].ReferenceType1.ToString();
+
+			//Assert
+			Assert.True(sReferenceType == "ReferenceToThisForm");
+		}
+
+		[Fact]
+		public void Dimona231_Example1_ReferenceOriginShouldBe_One()
+		{
+			//Arrange
+			string sReferenceOrigin;
+
+			//Act
+			sReferenceOrigin = oDimona231.Form.First().Reference[0].ReferenceOrigin.ToString();
+
+			//Assert
+			Assert.True(sReferenceOrigin == "Declarant_or_Requester");
+		}
+
+		[Fact]
+		public void Dimona231_Example1_ReferenceNbrShouldBe_string()
+		{
+			//Arrange
+			string? sReferenceNbr;
+
+			//Act
+			sReferenceNbr = oDimona231.Form.First().Reference[0].ReferenceNbr;
+
+			//Assert
+			Assert.True(sReferenceNbr == "string");
+		}
+
+
 	}
 }

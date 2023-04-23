@@ -10,12 +10,12 @@ namespace VertSoft.BelgianHR.Xml.Dimona.Dimona.Common
     [XmlRoot("ReferenceType", Namespace = "", IsNullable = false)]
     public enum ReferenceType1
     {
-        [XmlEnum("1")] Item1,
+        [XmlEnum("1")] ReferenceToThisForm,
 
-        [XmlEnum("6")] Item6,
+        [XmlEnum("6")] ReferenceToRefusedForm,
 
-        [XmlEnum("7")] Item7,
+        [XmlEnum("7")] ReferenceToEmployer,
 
-        [XmlEnum("8")] Item8,
+        [XmlEnum("8")] ReferenceToEmployee,
     }
 }

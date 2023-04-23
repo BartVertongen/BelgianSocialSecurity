@@ -17,11 +17,11 @@ namespace VertSoft.BelgianHR.Xml.Dimona.Dimona.Dimona231
 		[XmlElement("Reference")]
 		public ReferenceType[] Reference;
 
-		[XmlElementAttribute("DailyRegistrationDeclaration", typeof(DailyRegistrationDeclarationType))]
-		[XmlElementAttribute("DimonaCancel", typeof(DimonaCancel))]
-		[XmlElementAttribute("DimonaIn", typeof(DimonaIn))]
-		[XmlElementAttribute("DimonaOut", typeof(DimonaOut))]
-		[XmlElementAttribute("DimonaUpdate", typeof(DimonaUpdate))]
+		[XmlElement("DailyRegistrationDeclaration", typeof(DailyRegistrationDeclarationType))]
+		[XmlElement("DimonaCancel", typeof(DimonaCancel))]
+		[XmlElement("DimonaIn", typeof(DimonaIn))]
+		[XmlElement("DimonaOut", typeof(DimonaOut))]
+		[XmlElement("DimonaUpdate", typeof(DimonaUpdate))]
 		public object Item;
 	}
 }
