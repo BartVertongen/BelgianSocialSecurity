@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>VertSoft.BelgianHR.Xml</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,6 +30,11 @@
     <None Remove="DmfA\DmfAOriginal_20222.xsd" />
     <None Remove="xmls\ACRF_20223_1.xml" />
     <None Remove="xmls\ACRF_20223_2.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Lib\Dimona\PersonnelFileConsultationAnswer\PersonnelFileConsultationAnswer231\" />
+    <Folder Include="Lib\Dimona\PersonnelFileConsultationRequest\PersonnelFileConsultationRequest231\" />
   </ItemGroup>
 
 </Project>
