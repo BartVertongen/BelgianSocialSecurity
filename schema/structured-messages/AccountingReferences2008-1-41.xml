@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Lijst van boekhoudkundige referenties -->
+<!-- Liste des références compatbles -->
+<!-- Accounting References -->
+<accounting-references>
+    <accounting-reference>
+        <code>051</code>
+        <description>
+            <nl>Intresten berekend tot de afsluitingsdatum van dit document op het bijdragesaldo van het betrokken kwartaal.</nl>
+            <fr>Intérêts arrètés à la date de clôture du présent document et calculés sur le solde en cotisations du trimestre concerné</fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>101</code>
+        <description>
+            <nl>Aangegeven bijdragen voor het betrokken kwartaal.</nl>
+            <fr>Cotisations déclarées pour le trimestre concerné.</fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>104</code>
+        <description>
+            <nl>Verschuldigde bijdragen in toepassing van het koninklijk besluit van 18/06/1976.</nl>
+            <fr>Cotisations dues en application de l'arrèté royal du 18/06/1976.</fr>
+        </description>
+        <begin-validity>
+            <year>1972</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>112</code>
+        <description>
+            <nl>
+                Jaarlijkse vakantiebijdrage (die berekend wordt op grond van de arbeiderslonen 
+                die aangegeven worden voor het jaar dat het vermelde jaar voorafgaat).
+            </nl>
+            <fr>
+                Cotisation annuelle de vacances (cotisation calculée sur base des salaires ouvriers
+                déclarés pour l'année précèdant celle renseignée).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1964</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>121</code>
+        <description>
+            <nl>Wijziging in voordeel van de R.S.Z. van de aangegeven bijdragen.</nl>
+            <fr>Rectification en faveur de l'O.N.S.S. apportée aux cotisations déclarées.</fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <Geldig_tot>2004/4</Geldig_tot>
+    </accounting-reference>
+    <accounting-reference>
+        <code>121</code>
+        <description>
+            <nl>
+                Wijziging in voordeel van de R.S.Z. van de aangegeven bijdragen
+                (met uitsluiting van de solidariteitsbijdrage - bedrijfswagen).
+            </nl>
+            <fr>
+                Rectification en faveur de l'O.N.S.S. apportée aux cotisations déclarées
+                (à l'exclusion des cotisations de solidarité "véhicule de société").
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2005</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>128</code>
+        <description>
+            <nl>Wijziging in voordeel van de R.S.Z. van de solidariteitsbijdrage - bedrijfswagen.</nl>
+            <fr>Rectification en faveur de l'O.N.S.S. apportée à la cotisation de solidarité à véhicule de société.</fr>
+        </description>
+        <begin-validity>
+            <year>2005</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>132</code>
+        <description>
+            <nl>
+                Wijziging in voordeel van de R.S.Z. van de jaarlijkse vakantiebijdrage
+                (die berekend wordt op grond van de arbeiderslonen die aangegeven worden 
+                voor het jaar dat het vermelde jaar voorafgaat).
+            </nl>
+            <fr>
+                Rectification en faveur de l'O.N.S.S. apportée à la cotisation annuelle de vacances
+                (cotisation calculée sur base des salaires ouvriers déclarés pour l'année précédant celle renseignée).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1964</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>135</code>
+        <description>
+            <nl>Wijziging in voordeel van de R.S.Z. van de bijdragevermindering voor handarbeiders (Maribel).</nl>
+            <fr>Rectification en faveur de l'O.N.S.S. de la réduction des cotisations pour travailleurs manuels (Maribel).</fr>
+        </description>
+        <begin-validity>
+            <year>1983</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>201</code>
+        <description>
+            <nl>Betaling van bijdragen.</nl>
+            <fr>Paiement de cotisations.</fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>204</code>
+        <description>
+            <nl>Bedrag in voordeel van de werkgever in toepassing van het koninklijk besluit van 18/06/1976.</nl>
+            <fr>Montant en faveur de l'employeur en application de l'arrêté royal du 18/06/1976.</fr>
+        </description>
+        <begin-validity>
+            <year>1972</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>221</code>
+        <description>
+            <nl>Wijziging in voordeel van de werkgever van de aangegeven bijdragen.</nl>
+            <fr>Rectification en faveur de l'employeur apportée aux cotisations déclarées.</fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <Geldig_tot>2004/4</Geldig_tot>
+    </accounting-reference>
+    <accounting-reference>
+        <code>221</code>
+        <description>
+            <nl>
+                Wijziging in voordeel van de werkgever van de aangegeven bijdragen
+                (met uitsluiting van de solidariteitsbijdrage - bedrijfswagen).
+            </nl>
+            <fr>
+                Rectification en faveur de l'employeur apportée aux cotisations déclarées
+                (à l'exclusion des cotisations de solidarité "véhicule de société").
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2005</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>228</code>
+        <description>
+            <nl>Wijziging in voordeel van de werkgever van de solidariteitsbijdrage - bedrijfswagen.</nl>
+            <fr>Rectification en faveur de l'employeur apportée à la cotisation de solidarité au véhicule de société.</fr>
+        </description>
+        <begin-validity>
+            <year>2005</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>232</code>
+        <description>
+            <nl>
+                Wijziging in voordeel van de werkgever van de jaarlijkse vakantiebijdrage
+                (die berekend wordt op grond van de arbeiderslonen die aangegeven worden 
+                voor het jaar dat het vermelde jaar voorafgaat).
+            </nl>
+            <fr>
+                Rectification en faveur de l'employeur apportée à la cotisation annuelle de vacances
+                (cotisation calculée sur base des salaires ouvriers déclarés
+                pour l'année précédant celle renseignée).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>261</code>
+        <description>
+            <nl>
+                Betaling van bijdragen die voortvloeien uit een inhouding van 35 % door een hoofdaannemer
+                (Art. 30bis van de wet van 27/06/1969).
+            </nl>
+            <fr>
+                Paiement de cotisations résultant d'une retenue de 35 % effectuée par un entrepreneur principal
+                (Art. 30bis de la loi du 27/06/1969).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1964</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>301</code>
+        <description>
+            <nl>
+                Aangerekende bijdrage opslag ingevolge de niet-betaling van de bijdrage binnen de door de wet vastgelegde termijn
+                - 10 % van het onbetaalde bedrag op de vervaldag van het betrokken kwartaal
+                (Artikel 54 van het koninklijk besluit van 28/11/1969).
+            </nl>
+            <fr>
+                Majoration appliqu�e en raison du non paiement de la cotisation dans le délai fixé par la loi
+                égal à 10 % du montant restant impayé à la date d'échéance du trimestre concerné
+                (Article 54 de l'arrêté royal du 28/11/1969).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>306</code>
+        <description>
+            <nl>
+                Forfaitaire vergoeding wegens het niet-indienen van de aangifte binnen de termijn voorzien in het artikel 33
+                , § 2 of in het artikel 35bis van het koninklijk besluit van 28 november 1969
+                (artikel 54ter, §2, lid 1 van het koninklijk besluit van 28/11/1969).
+            </nl>
+            <fr>
+                Indemnité forfaitaire pour défaut de remise de la déclaration dans le délai prévu à l'article 33
+                , § 2 ou à l'article 35bis de l'arrêté royal du 28/11/1969
+                (article 54ter, § 2, alinéa 1 de l'arrêté royal du 28/11/1969).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>311</code>
+        <description>
+            <nl>
+                Forfaitaire vergoeding wegens niet-betaling of ontoereikende betaling van de maandelijkse voorschotten
+                binnen de vastgelegde termijnen (artikel 54bis van het koninklijk besluit van 28/11/1969).
+            </nl>
+            <fr>
+                Indemnité forfaitaire pour non paiement ou paiement insuffisant 
+                des provisions mensuelles dans les délais fixés
+                (article 54bis de l'arrêté royal du 28/11/1969).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2001</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>316</code>
+        <description>
+            <nl>
+                Forfaitaire vergoeding wegens een ontbrekende aangifte of een onvolledige of onjuiste aangifte
+                , van 50 EURO eerderd met 4 EURO  per tewerkstellingslijn die ontbreekt 
+                of waarvoor de in aanmerking te nemen bezoldiging werd gewijzigd
+                (artikel 54ter, §1 van het koninklijk besluit van 28/11/1969).
+            </nl>
+            <fr>
+                Indemnité forfaitaire pour absence de déclaration ou déclaration incomplète ou inexacte
+                , de 50 EURO entés de 4 EURO par ligne d'occupation manquante ou pour laquelle 
+                la rémunération à prendre en compte est modifiée 
+                (article 54ter, § 1er de l'arrêté royal du 28/11/1969).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2006</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>326</code>
+        <description>
+            <nl>
+                Forfaitaire vergoeding wegens de gebruikelijke indiening van een onvolledige of onjuiste aangifte
+                (artikel 54ter, §2, lid 3 van het koninklijk besluit van 28.11.1969).
+            </nl>
+            <fr>
+                Indemnité forfaitaire pour transmission habituelle d'une déclaration incomplète ou inexacte
+                (article 54ter, § 2, alinéa 3 de l'arrêté royal du 28/11/1969).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2006</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>356</code>
+        <description>
+            <nl>
+                Forfaitaire vergoeding gelijk aan het dubbele van de solidariteitsbijdrage-bedrijfswagen
+                (artikel 38, § 3quater van de wet van 29/06/1981, zoals vervangen door de wet van 20/07/2006).
+            </nl>
+            <fr>
+                Indemnité forfaitaire égale au double de la cotisation de solidarité à véhicule de société
+                (article 38, § 3quater de la loi du 29/06/1981, tel que remplacé par la loi du 20/07/2006).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>2005</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>401</code>
+        <description>
+            <nl>Betaling van de bijdrageopslag en/of de forfaitaire vergoedingen.</nl>
+            <fr>Paiement de la majoration et/ou des indemnités forfaitaires.</fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>422</code>
+        <description>
+            <nl>Vermindering van de bijdrageopslag.</nl>
+            <fr>Réduction de majoration.</fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>429</code>
+        <description>
+            <nl>Vermindering van de forfaitaire vergoeding wegens het laattijdig indienen van de aangifte.</nl>
+            <fr>Réduction de l'indemnité forfaitaire pour rentrée tardive de la déclaration.</fr>
+        </description>
+        <begin-validity>
+            <year>1993</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>432</code>
+        <description>
+            <nl>Vermindering van de forfaitaire vergoeding wegens niet-betaling of ontoereikende betaling van de maandelijkse voorschotten.</nl>
+            <fr>Réduction de l'indemnité forfaitaire pour non paiement ou paiement insuffisant des provisions mensuelles.</fr>
+        </description>
+        <begin-validity>
+            <year>2001</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>439</code>
+        <description>
+            <nl>Vermindering van de forfaitaire vergoeding wegens een ontbrekende aangifte of een onvolledige of onjuiste aangifte.</nl>
+            <fr>Réduction de l'indemnité forfaitaire pour absence de déclaration ou déclaration incomplète ou inexacte.</fr>
+        </description>
+        <begin-validity>
+            <year>2006</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>449</code>
+        <description>
+            <nl>Vermindering van de forfaitaire vergoeding wegens de gebruikelijke indiening van een onvolledige of onjuiste aangifte.</nl>
+            <fr>Réduction de l'indemnité forfaitaire pour transmission habituelle d'une déclaration incomplète ou inexacte.</fr>
+        </description>
+        <begin-validity>
+            <year>2006</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>461</code>
+        <description>
+            <nl>
+                Betaling van bijdrageopslagen die voortvloeien uit een inhouding van 35% door een hoofdaannemer
+                (Art. 30bis van de wet van 27/06/1969).
+            </nl>
+            <fr>
+                Paiement de majorations, résultant d'une retenue de 35% effectuée par un entrepreneur principal
+                (Art. 30bis de la loi du 27/06/1969).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1964</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>601</code>
+        <description>
+            <nl>Betaling van intresten.</nl>
+            <fr>Paiement d'intèrêts.</fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>622</code>
+        <description>
+            <nl>Vermindering van intresten.</nl>
+            <fr>Réduction d'intèrêts.</fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>661</code>
+        <description>
+            <nl>
+                Betaling van intresten die voortvloeien uit een inhouding van 35 % door een hoofdaannemer
+                (Art. 30bis van de wet van 27/06/1969).
+            </nl>
+            <fr>
+                Paiement d'intèrêts, résultant d'une retenue de 35 % effectuée par un entrepreneur principal
+                (Art. 30bis de la loi du 27/06/1969).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1964</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>901</code>
+        <description>
+            <nl>"""Nihil""aangifte, geen aangegeven bijdragen."</nl>
+            <fr>"Déclaration ""néant"", pas de cotisations déclarées."</fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>921</code>
+        <description>
+            <nl>
+                Aangegeven bijdragen rekening houdend met de creditwijzigingen in uw voordeel
+                die aangebracht worden aan de oorspronkelijke aangifte.
+            </nl>
+            <fr>
+                Cotisations déclarées compte tenu des rectifications en faveur 
+                de l'employeur apportées à la déclaration originale.
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1963</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+    <accounting-reference>
+        <code>932</code>
+        <description>
+            <nl>
+                Jaarlijkse vakantiebijdrage (rekening houdend met de wijzigingen 
+                in uw voordeel die aangebracht worden aan het bedrag van het oorspronkelijke debetbericht).
+            </nl>
+            <fr>
+                Cotisation annuelle de vacances (compte tenu des rectifications en faveur de l'employeur
+                apportées au montant de l'avis de débit original).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1964</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </accounting-reference>
+</accounting-references>

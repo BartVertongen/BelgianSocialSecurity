@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Worker Categories Government -->
+<worker-categories-government>
+     <worker-category-government>
+          <code>1</code>
+          <description>
+               <nl>
+                    Lid van het administratief personeel (federaal, gemeenschappelijk, gewestelijk, provinciaal, lokaal
+                    , van een gemeenschapsuniversiteit, van een publiek autonoom bedrijf)
+                    ; lid van het personeel van een dienst voor beroepsoriëntering of een centrum voor leerlingenbegeleiding
+                    ; lid van het personeel van het administratief en logistiek kader van de politie
+                    ; afgevaardigde van de Centrale Vrijzinnige Raad; gerechtelijke stagiair
+                    ; algemeen afgevaardigde van de Franse Gemeenschap voor de rechten van het kind
+                    ; persoon die werd aangesteld om een management- of staffunctie uit te oefenen in een overheidsdienst
+                    ; lid van het administratief personeel van een hulpverleningszone
+                    ;  lid van het operationeel personeel van een hulpverleningszone dat 
+                    NIET rechtstreeks deelneemt aan de brandbestrijding (= tantième 1/60).
+               </nl>
+               <fr>
+               </fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>2</code>
+          <description>
+               <nl>Meesters-, vak- en dienstpersoneel (gemeenschapsonderwijs inbegrepen) (= tantième 1/60 of percentage Rijkswerkliedenkas)</nl>
+               <fr>
+               </fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>3</code>
+          <description>
+               <nl>
+                    Lid van het personeel van het onderwijs (behalve arbeider); lid van het wetenschappelijk personeel van een universiteit
+                    ; lid van het onderwijzend personeel van een universiteit van de Franse Gemeenschap in de hoedanigheid van docent
+                    , geassocieerd docent of titularis van een gelijkwaardige graad (zonder diensten in die hoedanigheid voor 01-01-2003)
+                    ; lid van het onderwijzend personeel van een universiteit van de Vlaamse Gemeenschap in de hoedanigheid van docent
+                    (zonder diensten als docent voor 01-10-1991), van geassocieerd docent (zonder diensten als geassocieerd docent voor 01-10-1991)
+                    of van hoofddocent (zonder diensten als hoofddocent voor 01-01-2003)
+                    ; lid van het burgerlijk onderwijzend personeel van de Krijgsschool
+                    , het Koninklijk Hoger Instituut voor Defensie of de Koninklijke Militaire School 
+                    in de hoedanigheid van docent (zonder diensten als docent voor 01-01-2003)
+                    ; lid van het onderwijzend personeel aan de voorbereidende divisie van de Koninklijke Militaire School
+                    ; taalleraar aan de School voor Rijkswachtofficieren; lid van het personeel van de RTBF
+                    ; lid van het niet-rijdend personeel van de NMBS-Holding
+                    ; lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/55)
+               </nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>4</code>
+          <description>
+               <nl>
+                    Titularis van een betrekking vermeld in de bij de wet van 21/07/1844 gevoegde lijst (actieve dienst)
+                    ; lid van het operationeel kader van de politie
+                    ; politieambtenaar of hulpagent van politie bij een gemeentelijk politiekorps
+                    , politieambtenaar bij de zeevaartpolitie, de luchtvaartpolitie of de spoorwegpolitie
+                    , bij de dienst "enquêtes" van het Hoog Comité van Toezicht, bij de jeugdpolitie
+                    , bij de gerechtelijke politie bij de parketten of lid van het operationeel korps
+                    of van de categorie bijzonder politiepersoneel van de Rijkswacht
+                    ; militair van het actief kader; lid van het operationeel korps van een brandweer dat rechtstreeks deelneemt aan de brandbestrijding
+                    ; onderwijzer bij een strafinrichting die ressorteert onder het Bestuur der Strafinrichtingen
+                    , of bij de Rijksgestichten voor Observatie en Opvoeding die ressorteren onder de Dienst voor Jeugdbescherming
+                    ; lid van een personeelscategorie die een tanti�me geniet dat in een bijzondere regeling wordt bepaald
+                    ; lid van het operationeel personeel van een hulpverleningszone dat rechtstreeks deelneemt aan de brandbestrijding (= tantième 1/50).
+               </nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>5</code>
+          <description>
+               <nl>Lid van het rijdend personeel van de NMBS-Holding (= tantième 1/48)</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>6</code>
+          <description>
+               <nl>
+                    Lid van het onderwijzend personeel van een universiteit van de Franse Gemeenschap in de hoedanigheid van docent
+                    , geassocieerd docent of titularis van een gelijkwaardige graad (met diensten in die hoedanigheid voor 01-01-2003)
+                    , of in de hoedanigheid van hoogleraar, gewoon hoogleraar, buitengewoon hoogleraar of geassocieerd hoogleraar
+                    ; lid van het onderwijzend personeel van een universiteit van de Vlaamse Gemeenschap
+                    in de hoedanigheid van docent (met diensten als docent voor 01-10-1991), van geassocieerd docent
+                    (met diensten als geassocieerd docent voor 01-10-1991) of van hoofddocent (met diensten als hoofddocent voor 01-01-2003)
+                    , of als lid van het zelfstandig academisch personeel (ZAP) in de hoedanigheid van hoogleraar, gewoon hoogleraar
+                    , buitengewoon hoogleraar, geassocieerd hoogleraar, of een gelijkwaardige graad
+                    ; lid van het burgerlijk onderwijzend personeel van de Krijgsschool
+                    , het Koninklijk Hoger Instituut voor Defensie of de Koninklijke Militaire School in de hoedanigheid van hoogleraar
+                    , buitengewoon hoogleraar, gewoon hoogleraar of geassocieerd hoogleraar, burgerlijk meester of repetitor
+                    (benoemd voor 01-10-1982 in deze hoedanigheid), of als docent (met diensten als docent voor 01-01-2003)
+                    ;regeringscommissaris bij de universiteiten (= tantième 1/30)
+               </nl>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>7</code>
+          <description>
+               <nl>
+                    Lid van het Vastcomité van Toezicht op de politiediensten; lid van het Vastcomité van Toezicht op 
+                    de inlichtingen- en veiligheidsdiensten (= tantième 1/20)
+               </nl>
+               <fr>
+               </fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>8</code>
+          <description>
+               <nl>Bedienaar van de rooms-katholieke eredienst (= meerdere tantièmes)</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>9</code>
+          <description>
+               <nl>Bedienaars van de protestantse, anglicaanse, orthodoxe, israëlitische of islamitische eredienst (= meerdere tantièmes)</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>10</code>
+          <description>
+               <nl>
+                    Magistraat; lid van de Raad van State, van het Grondwettelijk Hof, van het Rekenhof
+                    ; Federale ombudsman; Vlaamse ombudsman; ombudsman van het Waals Gewest
+                    ; griffier van het Vastcomité van Toezicht op de Politiediensten of 
+                    het Vastcomité van Toezicht op de inlichtingen- en veiligheidsdiensten
+                    ; ombudsman en adjunct-ombudsman van de Franse Gemeenschap
+                    ; ombudsman van de Duitstalige Gemeenschap
+                    ; ombudsman van de gemeenschappelijke ombudsdienst voor de parlementen
+                         van het Waalse Gewest en de Franse Gemeenschap (= meerdere tantièmes)
+               </nl>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>11</code>
+          <description>
+               <nl>Provinciegouverneur of vice-provinciegouverneur; vice-gouverneur van het Brussels Hoofdstedelijk Gewest (= meerdere tantièmes)</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>12</code>
+          <description>
+               <nl>
+                    Arrondissementscommissaris; adjunct-arrondissementscommissaris; griffier bij de Provincie Luik
+                    (titularis van die functie op 01-10-1987) (= meerdere tantièmes)
+               </nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>13</code>
+          <description>
+               <nl>Lid van een personeelscategorie die een tanti�me geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/40)</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>14</code>
+          <description>
+               <nl>Lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/45)</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>Yes</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>15</code>
+          <description>
+               <nl>Burgemeester</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>No</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2022</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>16</code>
+          <description>
+               <nl>Schepen</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>No</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2022</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>17</code>
+          <description>
+               <nl>Districtburgemeester</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>No</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2022</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>18</code>
+          <description>
+               <nl>Districtschepen</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>No</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2022</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>19</code>
+          <description>
+               <nl>Lid van de Bestendige Deputatie of de provincieraad</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>No</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2022</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>20</code>
+          <description>
+               <nl>Voorzitter van het OCMW of voorzitter van het BCSD</nl>
+               <fr></fr>
+          </description>
+          <DMFA>Yes</DMFA>
+          <DMFAAPL>No</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2022</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>21</code>
+          <description>
+               <nl>Ondervoorzitter van het OCMW</nl>
+               <fr></fr>
+          </description>
+          <DMFA>No</DMFA>
+          <DMFAAPL>No</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2022</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>22</code>
+          <description>
+               <nl>Voorzitter of mandataris van de agglomeraties en federaties van gemeenten</nl>
+               <fr></fr>
+          </description>
+          <DMFA>No</DMFA>
+          <DMFAAPL>No</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2022</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+     <worker-category-government>
+          <code>23</code>
+          <description>
+               <nl>Mandataris van de cultuurcommissies van de Brusselse agglomeratie</nl>
+               <fr></fr>
+          </description>
+          <DMFA>No</DMFA>
+          <DMFAAPL>No</DMFAAPL>
+          <Capelo_DHG>Yes</Capelo_DHG>
+          <begin-validity>
+               <year>2022</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </worker-category-government>
+</worker-categories-government>

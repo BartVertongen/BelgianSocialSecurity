@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AVWDDT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AVWDDT_20231.xsd">
+	<Form>
+		<Identification>AVWDDT</Identification>
+		<FormCreationDate>2020-05-16</FormCreationDate>
+		<FormCreationHour>15:39:53.039</FormCreationHour>
+		<AttestationStatus>0</AttestationStatus>
+		<TypeForm>SU</TypeForm>
+		<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>1</ReferenceOrigin>
+			<ReferenceNbr>DDTCREATEexemple</ReferenceNbr>
+		</Reference>
+		<WorksGlobalProject>
+			<WorksGlobalProjectSector>1</WorksGlobalProjectSector>
+			<IsObligedToRegister>1</IsObligedToRegister>
+			<WorksGlobalProjectPurpose>1</WorksGlobalProjectPurpose>
+			<WorksGlobalProjectType>1</WorksGlobalProjectType>
+			<BuildingUsage>19</BuildingUsage>
+			<WorksGlobalProjectMobilityNotion>0</WorksGlobalProjectMobilityNotion>
+			<AddressDetails>Creation DDT construction declarant coord SM ST</AddressDetails>
+			<SiteAddress>
+				<Street>Place Victor Horta</Street>
+				<HouseNbr>11</HouseNbr>
+				<ZIPCode>1060</ZIPCode>
+				<City>SAINT-GILLES</City>
+				<Country>150</Country>
+			</SiteAddress>
+			<WorksGlobalProjectOwnerId>
+				<CompanyID>000000000</CompanyID>
+			</WorksGlobalProjectOwnerId>
+			<OtherParticipant>
+				<CompanyID>000000001</CompanyID>
+				<ParticipantQuality>1</ParticipantQuality>
+				<Name>Name 1</Name>
+			</OtherParticipant>
+			<OtherParticipant>
+				<CompanyID>000000002</CompanyID>
+				<ParticipantQuality>2</ParticipantQuality>
+				<Name>Name 2</Name>
+			</OtherParticipant>		
+			<OtherParticipant>
+				<CompanyID>000000003</CompanyID>
+				<ParticipantQuality>3</ParticipantQuality>
+				<Name>Name 3</Name>
+			</OtherParticipant>
+			<OtherParticipant>
+				<CompanyID>000000004</CompanyID>
+				<ParticipantQuality>4</ParticipantQuality>
+				<Name>Name 4</Name>
+			</OtherParticipant>	
+		</WorksGlobalProject>
+		<WorksContractDeclarantId>
+			<CompanyID>000000010</CompanyID>
+			<Communication>
+				<EmailAddress>xxxxxxx@smals.be</EmailAddress>
+			</Communication>
+			<TempComCompanyID>
+				<CompanyID>000000011</CompanyID>
+			</TempComCompanyID>
+		</WorksContractDeclarantId>
+		<WorksContract>
+			<WorksGlobalProjectType>1</WorksGlobalProjectType>
+			<WorksContractTotalCost>99999905</WorksContractTotalCost>
+			<CostPlusContractNotion>0</CostPlusContractNotion>
+			<ContractSignatureDate>2019-06-01</ContractSignatureDate>
+			<WorksContractStartDate>2019-06-01</WorksContractStartDate>
+			<WorksContractEndDate>2019-12-31</WorksContractEndDate>
+			<ReferenceNbr>DDT Contrat 1</ReferenceNbr>
+			<LateWorksContractDeclReason>1</LateWorksContractDeclReason>
+			<DangerousConstrWorkNature>1</DangerousConstrWorkNature>
+			<Comment>Additional comment about your contract</Comment>
+			<CoordinatesContactPerson>
+				<Name>Smith</Name>
+				<FirstName>Paul</FirstName>
+				<Communication>
+					<PhoneNbr>0123456789</PhoneNbr>
+					<EmailAddress>contact@smals.be</EmailAddress>
+				</Communication>
+			</CoordinatesContactPerson>
+			<SubcontractorId>
+				<CompanyID>000000020</CompanyID>
+				<SubcontractorActivityInfo>
+					<InterventionStartDate>2019-07-01</InterventionStartDate>
+					<InterventionEndDate>2019-08-03</InterventionEndDate>
+					<DangerousConstrWorkNature>9</DangerousConstrWorkNature>
+					<SubcontractorActivity>1</SubcontractorActivity>
+					<SubcontractorActivity>2</SubcontractorActivity>
+					<SubcontractorEmployerId>
+						<CompanyID>000000011</CompanyID>
+					</SubcontractorEmployerId>
+				</SubcontractorActivityInfo>
+			</SubcontractorId>
+			<SubcontractorId>
+				<VATNbr>ATU000000</VATNbr>
+				<Denomination>VATNbr Subcontractor 1</Denomination>
+				<LanguagePreference>3</LanguagePreference>
+				<Address>
+					<Street>AT Street</Street>
+					<HouseNbr>77</HouseNbr>
+					<ZIPCode>AT-5441</ZIPCode>
+					<City>Abtenau</City>
+					<Country>105</Country>
+				</Address>
+				<SubcontractorActivityInfo>
+					<InterventionStartDate>2019-07-01</InterventionStartDate>
+					<InterventionEndDate>2019-08-03</InterventionEndDate>
+					<SubcontractorActivity>3</SubcontractorActivity>
+					<SubcontractorEmployerId>
+						<CompanyID>000000011</CompanyID>
+					</SubcontractorEmployerId>
+				</SubcontractorActivityInfo>
+			</SubcontractorId>
+			<SubcontractorId>
+				<Justification>Justification why no VATNbr</Justification>
+				<Denomination>No VATNbr Subcontractor 1</Denomination>
+				<LanguagePreference>1</LanguagePreference>
+				<Address>
+					<Street>NL Street</Street>
+					<HouseNbr>88</HouseNbr>
+					<ZIPCode>5406 XP</ZIPCode>
+					<City>Uden</City>
+					<Country>129</Country>
+				</Address>
+				<SubcontractorActivityInfo>
+					<InterventionStartDate>2019-07-01</InterventionStartDate>
+					<InterventionEndDate>2019-08-03</InterventionEndDate>
+					<SubcontractorActivity>1</SubcontractorActivity>
+					<SubcontractorEmployerId>
+						<CompanyID>000000011</CompanyID>
+					</SubcontractorEmployerId>
+				</SubcontractorActivityInfo>
+			</SubcontractorId>
+			<SubcontractorId>
+				<ForeignCompanyID>ABC001</ForeignCompanyID>
+				<Denomination>Foreign International Subcontractor 1</Denomination>
+				<LanguagePreference>4</LanguagePreference>
+				<Address>
+					<Street>Foreign International Street</Street>
+					<HouseNbr>98</HouseNbr>
+					<ZIPCode>001</ZIPCode>
+					<City>Manama</City>
+					<Country>268</Country>
+				</Address>
+				<SubcontractorActivityInfo>
+					<InterventionStartDate>2019-07-01</InterventionStartDate>
+					<InterventionEndDate>2019-08-03</InterventionEndDate>
+					<DangerousConstrWorkNature>9</DangerousConstrWorkNature>
+					<SubcontractorActivity>11</SubcontractorActivity>
+					<SubcontractorActivity>12</SubcontractorActivity>
+					<SubcontractorActivity>13</SubcontractorActivity>
+					<SubcontractorActivity>14</SubcontractorActivity>
+					<SubcontractorEmployerId>
+						<CompanyID>000000011</CompanyID>
+					</SubcontractorEmployerId>
+				</SubcontractorActivityInfo>
+			</SubcontractorId>
+		</WorksContract>
+	</Form>
+</AVWDDT>
