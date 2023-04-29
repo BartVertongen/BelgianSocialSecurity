@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Afwijkende gebeurtenis -->
-<!-- Déviations -->
+<!-- DÃ©viations -->
 <!-- Anomalous event -->
 <anomalous-events>
     <anomalous-event>
@@ -9,31 +9,46 @@
             <fr>Pas d'information</fr>
             <nl>Geen informatie</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>10</code>
         <description>
-            <fr>Déviation par problème électrique, explosion, feu - Non précisé</fr>
+            <fr>DÃ©viation par problÃ¨me Ã©lectrique, explosion, feu - Non prÃ©cisÃ©</fr>
             <nl>Afwijkende gebeurtenis als gevolg van een elektrische storing, explosie, brand - niet gespecificeerd</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>11</code>
         <description>
-            <fr>Problème électrique par défaillance dans l'installation - entraînant un contact indirect</fr>
+            <fr>ProblÃ¨me Ã©lectrique par dÃ©faillance dans l'installation - entraï¿½nant un contact indirect</fr>
             <nl>Elektrische storing door een defect in de installatie - met indirect contact als gevolg</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>12</code>
         <description>
-            <fr>Problème électrique - entraînant un contact direct</fr>
+            <fr>ProblÃ¨me Ã©lectrique - entraï¿½nant un contact direct</fr>
             <nl>Elektrische storing - met direct contact als gevolg</nl>
         </description>
         <begin-validity>1/01/1900</begin-validity>
@@ -45,7 +60,10 @@
             <fr>Explosion</fr>
             <nl>Explosie</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
@@ -54,53 +72,68 @@
             <fr>Incendie, embrasement</fr>
             <nl>Brand, vuurzee</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>19</code>
         <description>
-            <fr>Autre déviation connue du groupe 10 mais non listée ci-dessus</fr>
+            <fr>Autre dÃ©viation connue du groupe 10 mais non listÃ©e ci-dessus</fr>
             <nl>Overige afwijkende gebeurtenissen, behorend tot groep 10, hierboven niet vermeld</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>20</code>
         <description>
-            <fr>Déviation par débordement, renversement, fuite, écoulement, vaporisation, dégagement - Non précisé</fr>
+            <fr>DÃ©viation par dÃ©bordement, renversement, fuite, Ã©coulement, vaporisation, dÃ©gagement - Non prÃ©cisÃ©</fr>
             <nl>
                 Afwijkende gebeurtenis door overlopen, kantelen, lekken, leeglopen, verdampen,
                 vrijkomen - niet gespecificeerd
             </nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>21</code>
         <description>
-            <fr>A l'état de solide - débordement, renversement</fr>
+            <fr>A l'Ã©tat de solide - dÃ©bordement, renversement</fr>
             <nl>In vaste toestand - overlopen, kantelen</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>22</code>
         <description>
-            <fr>A l'état de liquide - fuite, suintement, écoulement, éclaboussure, aspersion</fr>
+            <fr>A l'Ã©tat de liquide - fuite, suintement, Ã©coulement, Ã©claboussure, aspersion</fr>
             <nl>In vloeibare toestand - lekken, sijpelen, leeglopen, spatten, sproeien</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>23</code>
         <description>
-            <fr>A l'état gazeux - vaporisation, formation d'aérosol, formation de gaz</fr>
-            <nl>In gasvormige toestand - verdampen, aërosolvorming, gasvorming</nl>
+            <fr>A l'Ã©tat gazeux - vaporisation, formation d'aÃ©rosol, formation de gaz</fr>
+            <nl>In gasvormige toestand - verdampen, aÃ©rosolvorming, gasvorming</nl>
         </description>
         <begin-validity>1/01/1900</begin-validity>
         <end-validity>1/01/9999</end-validity>
@@ -108,10 +141,13 @@
     <anomalous-event>
         <code>24</code>
         <description>
-            <fr>Pulvérulent - génération de fumée, émission de poussières, particules</fr>
+            <fr>PulvÃ©rulent - gÃ©nÃ©ration de fumÃ©e, Ã©mission de poussiÃ¨res, particules</fr>
             <nl>In poedervorm - rookontwikkeling, stof, deeltjes</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
@@ -243,8 +279,14 @@
                 (dat wordt gedragen, verplaatst, gehanteerd enz.)
             </nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>45</code>
@@ -252,7 +294,10 @@
             <fr></fr>
             <nl>Verlies van controle (geheel of gedeeltelijk) - over een dier</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
@@ -261,13 +306,19 @@
             <fr></fr>
             <nl>Overige afwijkende gebeurtenissen, behorend tot groep 40, hierboven niet vermeld</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>50</code>
         <description>Uitglijden of struikelen met val, vallen van personen - niet gespecificeerd</description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
@@ -276,16 +327,22 @@
             <fr></fr>
             <nl>Vallen van personen - van hoogte</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>52</code>
         <description>
             <fr></fr>
-            <nl>Uitglijden of struikelen met val, vallen van personen - op ± dezelfde hoogte</nl>
+            <nl>Uitglijden of struikelen met val, vallen van personen - op ï¿½ dezelfde hoogte</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
@@ -294,7 +351,10 @@
             <fr></fr>
             <nl>Overige afwijkende gebeurtenissen, behorend tot groep 50, hierboven niet vermeld</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>1/01/9999</end-validity>
     </anomalous-event>
     <anomalous-event>
@@ -340,7 +400,7 @@
     <code>64</code>
         <description>
             <fr></fr>
-            <nl>Ongecoördineerde, onbeheerste of verkeerde bewegingen</nl>
+            <nl>OngecoÃ¶rdineerde, onbeheerste of verkeerde bewegingen</nl>
         </description>
         <begin-validity>1/01/1900</begin-validity>
         <end-validity>1/01/9999</end-validity>

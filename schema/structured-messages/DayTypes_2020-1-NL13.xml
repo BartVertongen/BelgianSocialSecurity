@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<day-types>
+    <day-type>
+        <code>1</code>
+        <description>
+            <nl>Dagen gedekt door loon met RSZ bijdragen, met uitzondering van de hieronder vermelde dagen</nl>
+            <fr>Jours rémunérés à l'exception des jours rémunérés visés ci-dessous</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.1</code>
+        <description>
+            <nl>Haven - Werkloosheid</nl>
+            <fr>Port - Chômage</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.10</code>
+        <description>
+            <nl>Haven - Bijkomende vakantie met bestaanszekerheid / dubbele bestaanszekerheid</nl>
+            <fr>Port - Vacances supplémentaires avec sécurité d'existence / sécurité d'existence double</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.11</code>
+        <description>
+            <nl>Haven - Vrijstelling stempelcontrole / werkloosheidsverlof / bijkomende vakantie</nl>
+            <fr>Port - Dispense contrôle de chômage / vacances pendant une période de chômage / vacances supplémentaires</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.12</code>
+        <description>
+            <nl>Haven - Familiaal verlof</nl>
+            <fr>Port - Congé familial</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.13</code>
+        <description>
+            <nl>Haven - Klein verlet</nl>
+            <fr>Port - Petit chômage</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.14</code>
+        <description>
+            <nl>Haven - Solidariteitsdag</nl>
+            <fr>Port - Jour de solidarité</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.15</code>
+        <description>
+            <nl>Haven - Syndicaal verlof</nl>
+            <fr>Port - Congé syndical</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.16</code>
+        <description>
+            <nl>Haven - Cursus / initiatieopleiding</nl>
+            <fr>Port - Cours / formation d'initiation</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.17</code>
+        <description>
+            <nl>Haven - (Beroeps)opleiding</nl>
+            <fr>Port - Formation (professionnelle)</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+            <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.18</code>
+        <description>
+            <nl>Haven - Gedeeltelijk verminderd arbeidsgeschikt</nl>
+            <fr>Port - Capacité de travail partiellement réduite</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.19</code>
+        <description>
+            <nl>Haven - Verminderd arbeidsgeschikt</nl>
+            <fr>Port - Capacité de travail réduite</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.2</code>
+        <description>
+            <nl>Haven - Werkloosheid mits goedkeuring</nl>
+            <fr>Port - Chômage soumis à l'approbation</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.20</code>
+        <description>
+            <nl>Haven - Medisch onderzoek</nl>
+            <fr>Port - Examen médical</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.21</code>
+        <description>
+            <nl>Haven - Medische vrijstelling stempelcontrole</nl>
+            <fr>Port - Dispense médicale contrôle de chômage</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.22</code>
+        <description>
+            <nl>Haven - Niet opgenomen verlof</nl>
+            <fr>Port - Vacances pas prises</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.3</code>
+        <description>
+            <nl>Haven - KB 225</nl>
+            <fr>Port - AR 225</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.4</code>
+        <description>
+            <nl>Haven - Betaalde feestdag</nl>
+            <fr>Port - Jour férié payé</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.5</code>
+        <description>
+            <nl>Haven - Betaalde feestdag waarop gewerkt wordt</nl>
+            <fr>Port - Jour férié sur lequel sont effectuées des prestations de travail</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.6</code>
+        <description>
+            <nl>Haven - Vervangende feestdag waarop gewerkt wordt</nl>
+            <fr>Port - Jour férié de remplacement  sur lequel sont effectuées des prestations de travail</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.7</code>
+        <description>
+            <nl>Haven - Arbeidsongeval - betaalde feestdag AO</nl>
+            <fr>Port - Accident de travail - jour  férié accident de travail</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.8</code>
+        <description>
+            <nl>Haven - Ziekte - betaalde feestdag</nl>
+            <fr>Port - Maladie - jour férié payé</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>10.9</code>
+        <description>
+            <nl>Haven - Anciënniteitsvakantie</nl>
+            <fr>Port - Vacances d'ancienneté</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>1.1</code>
+        <description>
+            <nl>Werkhervatting tijdens de periode van gewaarborgd loon gevolgd door een herval - enkel toegelaten voor sector Uitkeringen</nl>
+            <fr>Reprise du travail durant la période de salaire garanti suivi d'une rechute - uniquement autorisé pour le secteur Indemnités</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>1.2</code>
+        <description>
+            <nl>Inhaalrust betaald door een derde</nl>
+            <fr>Repos compensatoire payé par un tiers</fr>
+        </description>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>1.3</code>
+        <description>
+            <nl>Arbeidsongeschiktheid betaald door de onderwijssector</nl>
+            <fr>Incapacité de travail payée par le secteur de l'enseignement</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>1.4</code>
+        <description>
+            <nl>Uren buiten uurrooster</nl>
+            <fr>Heures en dehors de l'horaire</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>1.5</code>
+        <description>
+            <nl>Recuperatie uren buiten uurrooster</nl>
+            <fr>Récupération d'heures en dehors de l'horaire</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>2.1</code>
+        <description>
+            <nl>Gewaarborgd dagloon wegens arbeidsongeschiktheid</nl>
+            <fr>Rémunération journalière garantie pour cause d'incapacité de travail</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>2.2</code>
+        <description>
+            <nl>Gewaarborgd dagloon wegens een andere reden dan arbeidsongeschiktheid</nl>
+            <fr>Rémunération journalière garantie pour une raison autre que l'incapacité de travail</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>2.3</code>
+        <description>
+            <nl>Afwezigheid eerste dag wegens slecht weer - bouwbedrijf</nl>
+            <fr>Absence premier jour par suite d'intempèries - secteur de la construction</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>2.4</code>
+        <description>
+            <nl>Gewaarborgd loon eerste week</nl>
+            <fr>Rémunération garantie première semaine</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>2.5</code>
+        <description>
+            <nl>Gewaarborgd loon tweede week</nl>
+            <fr>Rémunération garantie deuxième semaine</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>2.6</code>
+        <description>
+            <nl>Gewaarborgd maandloon</nl>
+            <fr>Rémunération mensuelle garantie</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>2.7</code>
+        <description>
+            <nl>Arbeidsongeschiktheidsuitkering C.A.O. 12bis/13bis ingevolge ziekte of ongeval van gemeen recht</nl>
+            <fr>Indemnité CCT 12bis/13bis suite à une maladie ou un accident de droit commun</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>2.8</code>
+        <description>
+            <nl>Carensdag</nl>
+            <fr>Jour de carence</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>2.9</code>
+        <description>
+            <nl>Arbeidsongeschiktheidsuitkering C.A.O. 12bis/13bis ingevolge arbeidsongeval of beroepsziekte</nl>
+            <fr>Indemnité CCT 12bis/13bis suite à un accident du travail ou une maladie professionnelle</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <einde_geldigheid>01/01/9999</einde_geldigheid>
+    </day-type>
+    <day-type>
+        <code>3.1</code>
+        <description>
+            <nl>Wettelijke vakantie</nl>
+            <fr>Vacances légales</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>3.2</code>
+        <description>
+            <nl>Bijkomende vakantie</nl>
+            <fr>Vacances complémentaires</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>3.3</code>
+        <description>
+            <nl>Vakantie krachtens algemeen verbindend verklaarde collectieve arbeidsovereenkomst</nl>
+            <fr>Vacances en vertu d'une convention collective de travail rendue obligatoire</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>3.4</code>
+        <description>
+            <nl>Jeugdvakantie en seniorvakantie</nl>
+            <fr>Vacances jeunes et vacances seniors</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>3.5</code>
+        <description>
+            <nl>Aanvullende vakantiedagen bij activiteitsaanvang of -hervatting (art. 17bis Wet 28.06.1971)</nl>
+            <fr>Jours de vacances supplémentaires en cas de début ou de reprise d'activité (art. 17bis Loi 28.06.1971)</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>4</code>
+        <description>
+            <nl>Vervangingsdagen van feestdagen.</nl>
+            <fr>Jours de remplacement de jours fériés</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.1</code>
+        <description>
+            <nl>Tijdelijke werkloosheid ingevolge gebrek aan werk wegens economische redenen</nl>
+            <fr>Chômage temporaire par suite de manque de travail résultant de causes économiques</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.10</code>
+        <description>
+            <nl>Tijdelijke werkloosheid in geval van ontslag van een beschermde werknemer</nl>
+            <fr>Chômage temporaire en cas de licenciement d'un travailleur protégé</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.11</code>
+        <description>
+            <nl>Schorsingsdagen bedienden wegens werkgebrek</nl>
+            <fr>Jours de suspension employés pour manque de travail</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.2</code>
+        <description>
+            <nl>Tijdelijke werkloosheid ingevolge slecht weer</nl>
+            <fr>Chômage temporaire par suite d'intempéries</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.3</code>
+        <description>
+            <nl>Tijdelijke werkloosheid ingevolge technische stoornis</nl>
+            <fr>Chômage temporaire par suite d'un accident technique</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.4</code>
+        <description>
+            <nl>Tijdelijke werkloosheid ingevolge overmacht</nl>
+            <fr>Chômage temporaire par suite de force majeure</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.5</code>
+        <description>
+            <nl>Tijdelijke werkloosheid ingevolge overmacht om medische redenen</nl>
+            <fr>Chômage temporaire par suite de force majeure à caractère médical</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.6</code>
+        <description>
+            <nl>Tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens jaarlijkse vakantie</nl>
+            <fr>Chômage temporaire par suite de fermeture de l'entreprise pour cause de vacances annuelles</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.7</code>
+        <description>
+            <nl>Tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens vakantie krachtens een algemeen bindend verklaarde CAO</nl>
+            <fr>Chômage temporaire par suite de fermeture de l'entreprise pour cause de vacances en vertu d'une CCT rendue obligatoire</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.8</code>
+        <description>
+            <nl>Tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens inhaalrust in het kader van arbeidsduurvermindering</nl>
+            <fr>Chômage temporaire par suite de fermeture de l'entreprise pour cause de repos compensatoire dans le cadre d'une réduction de la durée du travail</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>5.9</code>
+        <description>
+            <nl>Tijdelijke werkloosheid ingevolge staking of lock-out</nl>
+            <fr>Chômage temporaire par suite de grêve ou de lock-out</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.1</code>
+        <description>
+            <nl>Arbeidsongeschiktheid met arbeidsongevallenvergoeding in toepassing van artikel 54 van de arbeidsongevallenwet</nl>
+            <fr>Incapacité de travail avec indemnité d'accidents du travail en application de l'article 54 de la loi sur les accidents du travail</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.10</code>
+        <description>
+            <nl>
+                Vaderschapsverlof of geboorteverlof bedoeld in de wet van 3 juli 1978 betreffende de arbeidsovereenkomsten
+                (alleen de dagen ten laste van de sector "uitkeringen") en borstvoedingspauze
+            </nl>
+            <fr>
+                Congé de paternité ou de naissance visé par la loi du 3 juillet 1978 relative aux contrats de travail
+                (seulement les jours à charge du secteur "indemnités") et pause d'allaitement
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.11</code>
+        <description>
+            <nl>Adoptieverlof en pleegouderverlof (alleen de dagen ten laste van de sector "uitkeringen")</nl>
+            <fr>Congé d'adoption et Congé parental d'accueil (seulement les jours à charge du secteur "indemnités")</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.2</code>
+        <description>
+            <nl>Elke afwezigheid zonder loon wegens ziekte en ongeval, arbeidsongeschiktheid ingevolge profylactisch verlof</nl>
+            <fr>Toute absence non rémunéré pour maladie et accident, incapacité de travail par suite de Congé prophylactique</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.21</code>
+        <description>
+            <nl>Niet bezoldigde afwezigheid wegens arbeidsongeval of beroepsziekte tijdens de uitoefening van een aangepaste arbeid</nl>
+            <fr>Absence non rémunéré pour accident de travail ou maladie professionnelle durant l'exercice d'un travail adapté</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.22</code>
+        <description>
+            <nl>Datum van definitieve stopzetting van de aangepaste arbeid</nl>
+            <fr>Date de cessation définitive du travail adapté</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.3</code>
+        <description>
+            <nl>
+                Aangepaste arbeid met loonverlies in het kader van een arbeidsongeschiktheid
+                , aangepaste arbeid met loonverlies als maatregel voor moederschapsbescherming
+            </nl>
+            <fr>
+                Travail adapté avec perte de salaire dans le cadre d'une incapacité de travail,
+                travail adapté avec perte de salaire en tant que mesure de protection de la maternité
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.4</code>
+        <description>
+            <nl>
+                Volledige werkverwijdering als maatregel voor moederschapsbescherming, moederschapsrust
+                , vaderschapsverlof bedoeld in de arbeidswet van 16 maart 1971
+            </nl>
+            <fr>
+                Ecartement complet du travail en tant que mesure de protection de la maternité, repos de maternit
+                , congé de paternité visé par la loi du 16 mars 1971 sur le travail
+            
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.5</code>
+        <description>
+            <nl>Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald wordt wegens tijdelijke werkloosheid</nl>
+            <fr>Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé en raison de chômage temporaire</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.6</code>
+        <description>
+            <nl>Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald wordt ingevolge wederinstorting</nl>
+            <fr>Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé pour cause de rechute</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.7</code>
+        <description>
+            <nl>Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald wordt wegens collectief jaarlijks verlof</nl>
+            <fr>Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé pour cause de vacances annuelles collectives</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.8</code>
+        <description>
+            <nl>
+                Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald wordt
+                wegens redenen toe te schrijven aan de werknemer
+                ( bijvoorbeeld ongewettigde afwezigheid of weigering zich te onderwerpen aan de controle )
+            </nl>
+            <fr>
+                Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé pour des raisons imputables au  
+                travailleur (absence injustifiée ou refus de se soumettre au controle)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>6.9</code>
+        <description>
+            <nl>
+                Afwezigheid wegens arbeidsongeschiktheid waarvoor het gewaarborgd loon niet betaald
+                wordt wegens een onvoldoende anciënniteit of wegens elke andere reden 
+                dan diegene bedoeld onder de codes 6.5, 6.6, 6.7 en 6.8.
+            </nl>
+            <fr>
+                Absence pour incapacité de travail pour laquelle le salaire garanti n'est pas payé à cause d'une ancienneté insuffisante 
+                ou pour tout autre motif que ceux visés sous les codes 6.5, 6.6, 6.7 et 6.8.
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>7</code>
+        <description>
+            <nl>Afwezigheid of verlof zonder wedde</nl>
+            <fr>Absence ou congé sans solde</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>8</code>
+        <description>
+            <nl>Gewone inactiviteitsdagen binnen de tewerkstelling</nl>
+            <fr>Jours habituels d'inactivité dans l'occupation</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+    <day-type>
+        <code>9</code>
+        <description>
+            <nl>Afwezigheidsdagen voor pleegzorgen</nl>
+            <fr>Jours d'absence pour soins d'accueil</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </day-type>
+</day-types>
