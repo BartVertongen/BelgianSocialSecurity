@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FinancialSituation_20231" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://socialsecurity.be/xml/ns/financialsituation"
+    elementFormDefault="qualified" attributeFormDefault="unqualified" 
+		   xmlns:fsn="http://socialsecurity.be/xml/ns/financialsituation">
+
+	<xs:element name="FirstName">
+		<xs:annotation>
+			<xs:documentation>00727</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="24"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PhoneNbr">
+		<xs:annotation>
+			<xs:documentation>00677</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="GSMNbr">
+		<xs:annotation>
+			<xs:documentation>00636</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="HouseNbr">
+		<xs:annotation>
+			<xs:documentation>00518</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="10"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="City">
+		<xs:annotation>
+			<xs:documentation>00522</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="40"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Communication" type="fsn:CommunicationType">
+		<xs:annotation>
+			<xs:documentation>90258</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="CompanyID">
+		<xs:annotation>
+			<xs:documentation>00014</xs:documentation>
+			<xs:appinfo source="ConversionID">CompanyID_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:companyId</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1999999943"/>
+				<xs:totalDigits value="10"/>
+				<xs:pattern value="0|\d{9}|\d{10}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="ActivityCode">
+		<xs:annotation>
+			<xs:documentation>00228</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999"/>
+				<xs:totalDigits value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Address" type="fsn:AddressType">
+		<xs:annotation>
+			<xs:documentation>90022</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ApplicationData">
+		<xs:annotation>
+			<xs:documentation>90410</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="fsn:ApplicationDataType">
+					<xs:sequence>
+						<xs:any namespace="##any"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="StartingDate">
+		<xs:annotation>
+			<xs:documentation>00910</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="StartingQuarter">
+		<xs:annotation>
+			<xs:documentation>01109</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="5"/>
+				<xs:pattern value="\d{4}(1|2|3|4)"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Street">
+		<xs:annotation>
+			<xs:documentation>00517</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="42"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ZIPCode">
+		<xs:annotation>
+			<xs:documentation>00520</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:complexType name="ApplicationDataType"/>
+
+	<xs:complexType name="CommunicationType">
+		<xs:sequence>
+			<xs:element ref="fsn:PhoneNbr" minOccurs="0"/>
+			<xs:element ref="fsn:GSMNbr" minOccurs="0"/>
+			<xs:element ref="fsn:FaxNbr" minOccurs="0"/>
+			<xs:element ref="fsn:EmailAddress" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="FinancialSituationInformationType">
+		<xs:sequence>
+			<xs:element ref="fsn:ReferenceNbr"/>
+			<xs:element ref="fsn:FinancialNoteInitiator"/>
+			<xs:element ref="fsn:FinancialTransactionDomain"/>
+			<xs:element ref="fsn:NOSSRegistrationNbr" minOccurs="0"/>
+			<xs:element ref="fsn:CompanyID" minOccurs="0"/>
+			<xs:element ref="fsn:DateSubmission"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ReceiverInformationType"/>
+
+	<xs:complexType name="SectorInformationType">
+		<xs:sequence>
+			<xs:element ref="fsn:OfficeNumber"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="CoordinatesContactPerson">
+		<xs:annotation>
+			<xs:documentation>90257</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="fsn:CoordinatesContactPersonType">
+					<xs:sequence>
+						<xs:element ref="fsn:Communication" minOccurs="0"/>
+						<xs:element ref="fsn:SectorInformation" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+
+	<xs:element name="CoordinatesEmployer" type="fsn:CoordinatesEmployerType">
+		<xs:annotation>
+			<xs:documentation>90265</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="CoordinatesRepresentative" type="fsn:CoordinatesRepresentativeType">
+		<xs:annotation>
+			<xs:documentation>90369</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="CoordinatesSocialSecretariat" type="fsn:CoordinatesSocialSecretariatType">
+		<xs:annotation>
+			<xs:documentation>90368</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="Country">
+		<xs:annotation>
+			<xs:documentation>00523</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999"/>
+				<xs:totalDigits value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DateSubmission">
+		<xs:annotation>
+			<xs:documentation>00805</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Denomination">
+		<xs:annotation>
+			<xs:documentation>00776</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="96"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DueDate">
+		<xs:annotation>
+			<xs:documentation>01024</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmailAddress">
+		<xs:annotation>
+			<xs:documentation>00637</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="60"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerActivityPeriod" type="fsn:EmployerActivityPeriodType">
+		<xs:annotation>
+			<xs:documentation>90507</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="EmployerClass">
+		<xs:annotation>
+			<xs:documentation>00036</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="000"/>
+				<xs:maxInclusive value="999"/>
+				<xs:totalDigits value="3"/>
+				<xs:pattern value="\d{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerClassInformation" type="fsn:EmployerClassInformationType">
+		<xs:annotation>
+			<xs:documentation>90508</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="EmployerDenomination">
+		<xs:annotation>
+			<xs:documentation>00157</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="96"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerInformation">
+		<xs:annotation>
+			<xs:documentation>90506</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="fsn:EmployerInformationType">
+					<xs:sequence>
+						<xs:element ref="fsn:CoordinatesRepresentative" minOccurs="0"/>
+						<xs:element ref="fsn:EmployerActivityPeriod" minOccurs="0"/>
+						<xs:element ref="fsn:Address" minOccurs="0"/>
+						<xs:element ref="fsn:EmployerClassInformation" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="EndingDate">
+		<xs:annotation>
+			<xs:documentation>00911</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EndingQuarter">
+		<xs:annotation>
+			<xs:documentation>01110</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="5"/>
+				<xs:pattern value="\d{4}(1|2|3|4)"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FaxNbr">
+		<xs:annotation>
+			<xs:documentation>00678</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FilialSecSocNbr">
+		<xs:annotation>
+			<xs:documentation>00150</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FinancialNoteInitiator">
+		<xs:annotation>
+			<xs:documentation>01038</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="7"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FinancialSituation">
+		<xs:annotation>
+			<xs:documentation>90466</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="fsn:FinancialSituationInformation"/>
+				<xs:element ref="fsn:FinancialSituationDetail"/>
+				<xs:element ref="fsn:CoordinatesContactPerson" minOccurs="0" maxOccurs="2"/>
+				<xs:element ref="fsn:ReceiverInformation"/>
+				<xs:element ref="fsn:EmployerInformation" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="FinancialSituationDetailType"/>
+	
+	<xs:element name="FinancialSituationDetail">
+		<xs:annotation>
+			<xs:documentation>90468</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="fsn:FinancialSituationDetailType">
+					<xs:sequence>
+						<xs:element ref="fsn:ApplicationData"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="FinancialSituationInformation" type="fsn:FinancialSituationInformationType">
+		<xs:annotation>
+			<xs:documentation>90467</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="FinancialTransactionDomain">
+		<xs:annotation>
+			<xs:documentation>01039</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="6"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ImportanceCode">
+		<xs:annotation>
+			<xs:documentation>00164</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="LegalDistrict">
+		<xs:annotation>
+			<xs:documentation>01108</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="LegalForm">
+		<xs:annotation>
+			<xs:documentation>00219</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Name">
+		<xs:annotation>
+			<xs:documentation>00726</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="48"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSRegistrationNbr">
+		<xs:annotation>
+			<xs:documentation>00011</xs:documentation>
+			<xs:appinfo source="ConversionID">Noss_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:nossRegistrationNbr</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="199999934"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="OfficeNumber">
+		<xs:annotation>
+			<xs:documentation>00470</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PostBox">
+		<xs:annotation>
+			<xs:documentation>00519</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReceiverInformation">
+		<xs:annotation>
+			<xs:documentation>90367</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="fsn:ReceiverInformationType">
+					<xs:sequence>
+						<xs:element ref="fsn:CoordinatesSocialSecretariat" minOccurs="0"/>
+						<xs:choice>
+							<xs:element ref="fsn:CoordinatesEmployer"/>
+							<xs:element ref="fsn:CoordinatesContactPerson" minOccurs="1" maxOccurs="2"/>
+						</xs:choice>
+						<xs:element ref="fsn:CoordinatesRepresentative" minOccurs="0"/>
+						<xs:element ref="fsn:Address"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ReferenceNbr">
+		<xs:annotation>
+			<xs:documentation>00222</xs:documentation>
+			<xs:appinfo source="ConversionID">TicketNumber_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1"/>
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SectorInformation" type="fsn:SectorInformationType">
+		<xs:annotation>
+			<xs:documentation>90366</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="SocialSecretariatNumber">
+		<xs:annotation>
+			<xs:documentation>00479</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element ref="fsn:Street" minOccurs="0"/>
+			<xs:element ref="fsn:HouseNbr" minOccurs="0"/>
+			<xs:element ref="fsn:PostBox" minOccurs="0"/>
+			<xs:element ref="fsn:ZIPCode" minOccurs="0"/>
+			<xs:element ref="fsn:City"/>
+			<xs:element ref="fsn:Country" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CoordinatesContactPersonType">
+		<xs:sequence>
+			<xs:element ref="fsn:Name"/>
+			<xs:element ref="fsn:FirstName" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CoordinatesEmployerType">
+		<xs:sequence>
+			<xs:element ref="fsn:EmployerDenomination"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CoordinatesRepresentativeType">
+		<xs:sequence>
+			<xs:element ref="fsn:Denomination"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CoordinatesSocialSecretariatType">
+		<xs:sequence>
+			<xs:element ref="fsn:SocialSecretariatNumber"/>
+			<xs:element ref="fsn:FilialSecSocNbr" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="EmployerActivityPeriodType">
+		<xs:sequence>
+			<xs:element ref="fsn:StartingDate"/>
+			<xs:element ref="fsn:StartingQuarter" minOccurs="0"/>
+			<xs:element ref="fsn:DueDate" minOccurs="0"/>
+			<xs:element ref="fsn:EndingDate" minOccurs="0"/>
+			<xs:element ref="fsn:EndingQuarter" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="EmployerClassInformationType">
+		<xs:sequence>
+			<xs:element ref="fsn:EmployerClass"/>
+			<xs:element ref="fsn:StartingDate"/>
+			<xs:element ref="fsn:EndingDate" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="EmployerInformationType">
+		<xs:sequence>
+			<xs:element ref="fsn:EmployerDenomination" minOccurs="0"/>
+			<xs:element ref="fsn:LegalDistrict" minOccurs="0"/>
+			<xs:element ref="fsn:LegalForm" minOccurs="0"/>
+			<xs:element ref="fsn:ImportanceCode" minOccurs="0"/>
+			<xs:element ref="fsn:ActivityCode" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>

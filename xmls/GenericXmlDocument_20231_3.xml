@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenericXmlDocument xmlns="http://www.smals-mvm.be/xml/ns/systemFlux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.smals-mvm.be/xml/ns/systemFlux GenericXmlDocument_20231.xsd">
+	<Form>
+		<Identification>ECOUDAN</Identification>
+		<FormCreationDate>2025-11-16</FormCreationDate>
+		<FormCreationHour>12:56:37.781</FormCreationHour>
+		<AttestationStatus>0</AttestationStatus>
+		<TypeForm>FA</TypeForm>
+		<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>1</ReferenceOrigin>
+			<ReferenceNbr>99-9998-999999998-98</ReferenceNbr>
+</Reference>
+<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>3</ReferenceOrigin>
+			<ReferenceNbr>ref-applic-secu001</ReferenceNbr>
+
+		</Reference>
+                <Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>2</ReferenceOrigin>
+			<ReferenceNbr>03402221RGXXZ</ReferenceNbr>
+
+		</Reference>
+
+		<ReferenceData>
+                <INSS>99999999998</INSS> 
+                <Quarter>20171</Quarter>  
+			<EmployerId>
+				<NOSSRegistrationNbr>127792067</NOSSRegistrationNbr>
+				<CompanyID>852093431</CompanyID>
+			</EmployerId>
+		</ReferenceData>
+		<Data>
+			<DocumentDescription>
+				<TechnicalDescription>
+					<MimeType>application/xml</MimeType>
+					<CharacterFormat>NATIVE</CharacterFormat>
+				</TechnicalDescription>
+			</DocumentDescription>
+			<DocumentXML>
+			<!--	voir documentation business -->
+			</DocumentXML>
+		</Data>
+	</Form>
+	<Form>
+		<Identification>ECOUDAN</Identification>
+		<FormCreationDate>2022-08-03</FormCreationDate>
+		<FormCreationHour>12:56:37.782</FormCreationHour>
+		<AttestationStatus>0</AttestationStatus>
+		<TypeForm>FA</TypeForm>
+		<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>1</ReferenceOrigin>
+			<ReferenceNbr>99-99Q9-999999999-99</ReferenceNbr>
+</Reference>
+
+<Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>3</ReferenceOrigin>
+			<ReferenceNbr>ref-applic-secu002</ReferenceNbr>
+
+		</Reference>
+                <Reference>
+			<ReferenceType>1</ReferenceType>
+			<ReferenceOrigin>2</ReferenceOrigin>
+			<ReferenceNbr>03402221RGZZZ</ReferenceNbr>
+
+		</Reference>
+
+			<ReferenceData>
+<Quarter>20164</Quarter> 
+
+			<EmployerId>
+                     
+				<NOSSRegistrationNbr>127792067</NOSSRegistrationNbr>
+				<CompanyID>852093431</CompanyID>
+			</EmployerId>
+		</ReferenceData>
+		<Data>
+			<DocumentDescription>
+				<TechnicalDescription>
+					<MimeType>application/xml</MimeType>
+					<CharacterFormat>NATIVE</CharacterFormat>
+				</TechnicalDescription>
+			</DocumentDescription>
+			<DocumentXML>
+				<!--	voir documentation business -->
+			</DocumentXML>
+		</Data>
+	</Form>
+</GenericXmlDocument>

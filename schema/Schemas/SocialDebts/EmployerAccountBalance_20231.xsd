@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EmployerAccountBalance_20231"
+    targetNamespace="http://socialsecurity.be/xml/ns/accountbalance"
+    elementFormDefault="qualified" attributeFormDefault="unqualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:eab="http://socialsecurity.be/xml/ns/accountbalance">
+
+	<xs:element name="Amount">
+		<xs:annotation>
+			<xs:documentation>01057</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="999999999999999"/>
+				<xs:totalDigits value="15"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AttestationInformation" type="eab:AttestationInformationType">
+		<xs:annotation>
+			<xs:documentation>90566</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="BalanceAmounts" type="eab:BalanceAmountsType">
+		<xs:annotation>
+			<xs:documentation>90503</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="BalanceAnalysisResult">
+		<xs:annotation>
+			<xs:documentation>90502</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="eab:BalanceAnalysisResultType">
+					<xs:sequence>
+						<xs:element ref="eab:BalanceAmounts"/>
+						<xs:element ref="eab:Dispute" minOccurs="0"/>
+						<xs:element ref="eab:MissingDeclarationQuarters" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="CDSDocumentId">
+		<xs:annotation>
+			<xs:documentation>01100</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ClosingDate">
+		<xs:annotation>
+			<xs:documentation>01066</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ClosingQuarter">
+		<xs:annotation>
+			<xs:documentation>01101</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="5"/>
+				<xs:pattern value="\d{4}(1|2|3|4)"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CompanyID">
+		<xs:annotation>
+			<xs:documentation>00014</xs:documentation>
+			<xs:appinfo source="ConversionID">CompanyID_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:companyId</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1999999943"/>
+				<xs:totalDigits value="10"/>
+				<xs:pattern value="0|\d{9}|\d{10}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Consumer">
+		<xs:annotation>
+			<xs:documentation>90497</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="eab:ConsumerType">
+					<xs:sequence>
+						<xs:element ref="eab:PersonIdentification"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ContributionTotalAmount">
+		<xs:annotation>
+			<xs:documentation>00426</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="16"/>
+				<xs:pattern value="[+-]?\d{1,15}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Denomination">
+		<xs:annotation>
+			<xs:documentation>00776</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="96"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Dispute" type="eab:DisputeType">
+		<xs:annotation>
+			<xs:documentation>90504</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="DisputeType">
+		<xs:annotation>
+			<xs:documentation>01107</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="4"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerAccountBalance">
+		<xs:annotation>
+			<xs:documentation>90494</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="eab:Request"/>
+				<xs:element ref="eab:Response"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="EmployerId" type="eab:EmployerIdType">
+		<xs:annotation>
+			<xs:documentation>90256</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ErrorID">
+		<xs:annotation>
+			<xs:documentation>00108</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ExecutionResult" type="eab:ExecutionResultType">
+		<xs:annotation>
+			<xs:documentation>90501</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="INSS">
+		<xs:annotation>
+			<xs:documentation>00024</xs:documentation>
+			<xs:appinfo source="ConversionID">Inss_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:inss</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="11"/>
+				<xs:pattern value="[0]|\d{11}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="IsPaymentPlanFollowed">
+		<xs:annotation>
+			<xs:documentation>01102</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Justification">
+		<xs:annotation>
+			<xs:documentation>00545</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="5000"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="LegalContext">
+		<xs:annotation>
+			<xs:documentation>01179</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="9999"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="LegalContextInformation" type="eab:LegalContextInformationType">
+		<xs:annotation>
+			<xs:documentation>90565</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="LocalUnitID">
+		<xs:annotation>
+			<xs:documentation>00042</xs:documentation>
+			<xs:appinfo source="TDOType">xs:localUnitId</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="10"/>
+				<xs:pattern value="[2,8]\d{9}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="MissingDeclarationQuarters" type="eab:MissingDeclarationQuartersType">
+		<xs:annotation>
+			<xs:documentation>90505</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="NOSSLPARegistrationNbr">
+		<xs:annotation>
+			<xs:documentation>00109</xs:documentation>
+			<xs:appinfo source="ConversionID">NossAPL_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:nossLpaRegistrationNbr</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="99999926"/>
+				<xs:totalDigits value="8"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="NOSSRegistrationNbr">
+		<xs:annotation>
+			<xs:documentation>00011</xs:documentation>
+			<xs:appinfo source="ConversionID">Noss_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:nossRegistrationNbr</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="199999934"/>
+				<xs:totalDigits value="9"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="PersonIdentification" type="eab:PersonIdentificationType">
+		<xs:annotation>
+			<xs:documentation>90498</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ProvisionalNSSONbr">
+		<xs:annotation>
+			<xs:documentation>00948</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="5000000120"/>
+				<xs:maxInclusive value="5999999989"/>
+				<xs:totalDigits value="10"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Quarter">
+		<xs:annotation>
+			<xs:documentation>00013</xs:documentation>
+			<xs:appinfo source="TDOType">xs:yearQuarter</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="5"/>
+				<xs:pattern value="\d{4}(1|2|3|4)"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Reference" type="eab:ReferenceType">
+		<xs:annotation>
+			<xs:documentation>90082</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="ReferenceNbr">
+		<xs:annotation>
+			<xs:documentation>00222</xs:documentation>
+			<xs:appinfo source="ConversionID">TicketNumber_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1"/>
+				<xs:maxLength value="64"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReferenceOrigin">
+		<xs:annotation>
+			<xs:documentation>00298</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ReferenceType">
+		<xs:annotation>
+			<xs:documentation>00221</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="9"/>
+				<xs:totalDigits value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Request">
+		<xs:annotation>
+			<xs:documentation>90495</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="eab:RequestType">
+					<xs:sequence>
+						<xs:element ref="eab:RequestInformation"/>
+						<xs:element ref="eab:RequestDetail"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="RequestDetail">
+		<xs:annotation>
+			<xs:documentation>90499</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="eab:RequestDetailType">
+					<xs:sequence>
+						<xs:element ref="eab:EmployerId"/>
+						<xs:element ref="eab:Reference" minOccurs="0" maxOccurs="2"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="RequestInformation">
+		<xs:annotation>
+			<xs:documentation>90496</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="eab:RequestInformationType">
+					<xs:sequence>
+						<xs:element ref="eab:Consumer"/>
+						<xs:element ref="eab:LegalContextInformation"/>
+						<xs:element ref="eab:Reference" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Response">
+		<xs:annotation>
+			<xs:documentation>90500</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="eab:ResponseType">
+					<xs:sequence>
+						<xs:element ref="eab:ExecutionResult"/>
+						<xs:element ref="eab:BalanceAnalysisResult" minOccurs="0"/>
+						<xs:element ref="eab:AttestationInformation" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ResultCode">
+		<xs:annotation>
+			<xs:documentation>00107</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="1"/>
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="3"/>
+				<xs:enumeration value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="SocialSecretariatNumber">
+		<xs:annotation>
+			<xs:documentation>00479</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Timestamp">
+		<xs:annotation>
+			<xs:documentation>01099</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:dateTime"/>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TotalIncreases">
+		<xs:annotation>
+			<xs:documentation>01104</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="16"/>
+				<xs:pattern value="[+-]?\d{1,15}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TotalInterests">
+		<xs:annotation>
+			<xs:documentation>01105</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="16"/>
+				<xs:pattern value="[+-]?\d{1,15}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="TotalLegalCosts">
+		<xs:annotation>
+			<xs:documentation>01106</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="16"/>
+				<xs:pattern value="[+-]?\d{1,15}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:complexType name="AttestationInformationType">
+		<xs:sequence>
+			<xs:element ref="eab:Justification" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="BalanceAmountsType">
+		<xs:sequence>
+			<xs:element ref="eab:ContributionTotalAmount"/>
+			<xs:element ref="eab:TotalIncreases" minOccurs="0"/>
+			<xs:element ref="eab:TotalInterests" minOccurs="0"/>
+			<xs:element ref="eab:TotalLegalCosts" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="BalanceAnalysisResultType">
+		<xs:sequence>
+			<xs:element ref="eab:CDSDocumentId"/>
+			<xs:element ref="eab:ClosingDate"/>
+			<xs:element ref="eab:ClosingQuarter"/>
+			<xs:element ref="eab:IsPaymentPlanFollowed" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ConsumerType">
+		<xs:sequence>
+			<xs:element ref="eab:Denomination"/>
+			<xs:element ref="eab:LocalUnitID" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DisputeType">
+		<xs:sequence>
+			<xs:element ref="eab:DisputeType"/>
+			<xs:element ref="eab:Amount"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="EmployerIdType">
+		<xs:sequence>
+			<xs:choice>
+				<xs:element ref="eab:NOSSRegistrationNbr" minOccurs="0" maxOccurs="0"/>
+				<xs:element ref="eab:ProvisionalNSSONbr" minOccurs="0" maxOccurs="0"/>
+				<xs:element ref="eab:NOSSLPARegistrationNbr" minOccurs="0" maxOccurs="0"/>
+			</xs:choice>
+			<xs:element ref="eab:CompanyID"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ExecutionResultType">
+		<xs:sequence>
+			<xs:element ref="eab:ResultCode"/>
+			<xs:element ref="eab:ErrorID" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="LegalContextInformationType">
+		<xs:sequence>
+			<xs:element ref="eab:LegalContext"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="MissingDeclarationQuartersType">
+		<xs:sequence>
+			<xs:element ref="eab:Quarter" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="PersonIdentificationType">
+		<xs:choice>
+			<xs:element ref="eab:CompanyID"/>
+			<xs:element ref="eab:NOSSRegistrationNbr" minOccurs="0" maxOccurs="0"/>
+			<xs:element ref="eab:NOSSLPARegistrationNbr" minOccurs="0" maxOccurs="0"/>
+			<xs:element ref="eab:ProvisionalNSSONbr" minOccurs="0" maxOccurs="0"/>
+			<xs:element ref="eab:SocialSecretariatNumber" minOccurs="0" maxOccurs="0"/>
+			<xs:element ref="eab:INSS" minOccurs="0" maxOccurs="0"/>
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:complexType name="ReferenceType">
+		<xs:sequence>
+			<xs:element ref="eab:ReferenceType"/>
+			<xs:element ref="eab:ReferenceOrigin"/>
+			<xs:element ref="eab:ReferenceNbr"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="RequestDetailType"/>
+
+	<xs:complexType name="RequestInformationType">
+		<xs:sequence>
+			<xs:element ref="eab:Timestamp" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="RequestType"/>
+
+	<xs:complexType name="ResponseType"/>
+	
+</xs:schema>

@@ -1,0 +1,1656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GenericXmlDocument_20231" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://www.smals-mvm.be/xml/ns/systemFlux"
+		elementFormDefault="qualified" attributeFormDefault="unqualified"
+		xmlns:flx="http://www.smals-mvm.be/xml/ns/systemFlux"
+		>
+
+	<xs:element name="Addressee">
+		<xs:annotation>
+			<xs:documentation>01113</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="AddresseeData" type="flx:AddresseeDataType">
+	  <xs:annotation>
+		<xs:documentation>90514</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+
+	<xs:element name="AddresseeQuality">
+	  <xs:annotation>
+		<xs:documentation>01115</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="40"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AddresseeType">
+	  <xs:annotation>
+		<xs:documentation>01114</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="20"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AssignedUserCriteria" type="flx:AssignedUserCriteriaType">
+	  <xs:annotation>
+		<xs:documentation>90523</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+	
+	<xs:complexType name="AssignedUserDataType"/>
+	
+	<xs:element name="AssignedUserData">
+	  <xs:annotation>
+		<xs:documentation>90522</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:AssignedUserDataType">
+			<xs:sequence>
+			  <xs:element ref="flx:AssignedUserCriteria"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="AssignedUserId">
+	  <xs:annotation>
+		<xs:documentation>01127</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string"/>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="AssignedUserType">
+	  <xs:annotation>
+		<xs:documentation>01126</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string"/>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AttachmentId">
+	  <xs:annotation>
+		<xs:documentation>01165</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="7"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="AttestationStatus">
+	  <xs:annotation>
+		<xs:documentation>00110</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="0"/>
+		  <xs:maxInclusive value="8"/>
+		  <xs:totalDigits value="1"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="BusinessDescription">
+	  <xs:annotation>
+		<xs:documentation>90464</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:sequence>
+		  <xs:any namespace="##any"/>
+		</xs:sequence>
+	  </xs:complexType>
+	</xs:element>	
+
+	<xs:element name="CaseData">
+	  <xs:annotation>
+		<xs:documentation>90517</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:CaseDataType">
+			<xs:sequence>
+			  <xs:element ref="flx:CaseStatusData" minOccurs="0"/>
+			  <xs:element ref="flx:CaseReferenceData" minOccurs="0" maxOccurs="3"/>
+			  <xs:element ref="flx:SpecificIndexData" minOccurs="0"/>
+			  <xs:element ref="flx:AssignedUserData" minOccurs="0"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="CaseId">
+	  <xs:annotation>
+		<xs:documentation>01122</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:minLength value="1"/>
+		  <xs:maxLength value="18"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CaseReferenceData" type="flx:CaseReferenceDataType">
+	  <xs:annotation>
+		<xs:documentation>90519</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+
+	<xs:element name="CaseReferenceType">
+	  <xs:annotation>
+		<xs:documentation>01123</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="12"/>
+		  <xs:enumeration value="PRODUCER_REF"/>
+		  <xs:enumeration value="NOSS_REF"/>
+		  <xs:enumeration value="EXTERNAL_REF"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CaseStatusData" type="flx:CaseStatusDataType">
+		<xs:annotation>
+			<xs:documentation>90518</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	
+	<xs:element name="CaseSubType">
+		<xs:annotation>
+			<xs:documentation>01121</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="10"/>
+				<xs:enumeration value="TYP_SC_026"/>
+				<xs:enumeration value="TYP_SC_119"/>
+				<xs:enumeration value="TYP_SC_214"/>
+				<xs:enumeration value="TYP_SC_215"/>
+				<xs:enumeration value="TYP_SC_216"/>
+				<xs:enumeration value="TYP_SC_217"/>
+				<xs:enumeration value="TYP_SC_246"/>
+				<xs:enumeration value="TYP_SC_247"/>
+				<xs:enumeration value="TYP_SC_283"/>
+				<xs:enumeration value="TYP_SC_284"/>
+				<xs:enumeration value="TYP_SC_502"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Channel">
+		<xs:annotation>
+			<xs:documentation>00737</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="17"/>
+				<xs:totalDigits value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CharacterFormat">
+		<xs:annotation>
+			<xs:documentation>01046</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:maxLength value="30"/>
+				<xs:enumeration value="NATIVE"/>
+				<xs:enumeration value="Base64"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CharacterSet">
+	  <xs:annotation>
+		<xs:documentation>01045</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="30"/>
+		  <xs:enumeration value="UTF-8"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="City">
+	  <xs:annotation>
+		<xs:documentation>00522</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="40"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CompanyID">
+		<xs:annotation>
+			<xs:documentation>00014</xs:documentation>
+			<xs:appinfo source="ConversionID">CompanyID_conversion1</xs:appinfo>
+			<xs:appinfo source="TDOType">xs:companyId</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="1999999943"/>
+				<xs:totalDigits value="10"/>
+				<xs:pattern value="0|\d{9}|\d{10}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CoordinatesReceiver" type="flx:CoordinatesReceiverType">
+	  <xs:annotation>
+		<xs:documentation>90266</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+
+	<xs:element name="Country">
+	  <xs:annotation>
+		<xs:documentation>00523</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="0"/>
+		  <xs:maxInclusive value="99999"/>
+		  <xs:totalDigits value="5"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="CreationDate">
+	  <xs:annotation>
+		<xs:documentation>01120</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:date">
+		  <xs:minInclusive value="2012-12-31"/>
+		  <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:complexType name="DataType"/>
+	
+	<xs:element name="Data">
+	  <xs:annotation>
+		<xs:documentation>90370</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:DataType">
+			<xs:sequence>
+			  <xs:element ref="flx:DocumentDescription"/>
+			  <xs:choice minOccurs="0">
+				<xs:element ref="flx:DocumentXML"/>
+				<xs:element ref="flx:DocumentNonXML" minOccurs="0"/>
+			  </xs:choice>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="Date">
+	  <xs:annotation>
+		<xs:documentation>01116</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:date">
+		  <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="DateSubmission">
+	  <xs:annotation>
+		<xs:documentation>00805</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:date">
+		  <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Denomination">
+	  <xs:annotation>
+		<xs:documentation>00776</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="96"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DestinationCriteria">
+	  <xs:annotation>
+		<xs:documentation>90513</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:DestinationCriteriaType">
+			<xs:sequence>
+			  <xs:element ref="flx:AddresseeData" minOccurs="0"/>
+			  <xs:element ref="flx:MandateCriteria" minOccurs="0"/>
+			  <xs:element ref="flx:DocumentSendingData" minOccurs="0" maxOccurs="2"/>
+			  <xs:element ref="flx:CoordinatesReceiver" minOccurs="0" maxOccurs="2"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="DestinationData">
+	  <xs:annotation>
+		<xs:documentation>90512</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:DestinationDataType">
+			<xs:sequence>
+			  <xs:element ref="flx:DestinationCriteria" minOccurs="0"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="DestinationType">
+	  <xs:annotation>
+		<xs:documentation>00704</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="40"/>
+		  <xs:enumeration value="DESTHA"/>
+		  <xs:enumeration value="DESTHAFOREMPLOYER"/>
+		  <xs:enumeration value="SUIVIFOREMPLOYER"/>
+		  <xs:enumeration value="SUIVI"/>
+		  <xs:enumeration value="CONTRACTUALRELATIONSHIPREGISTRY"/>
+		  <xs:enumeration value="ENTREPRISE"/>
+		  <xs:enumeration value="CLC"/>
+		  <xs:enumeration value="SMALS"/>
+		  <xs:enumeration value="DOCUMENTSENDINGDATA"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DocumentBase64">
+	  <xs:annotation>
+		<xs:documentation>01059</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:base64Binary"/>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DocumentData">
+	  <xs:annotation>
+		<xs:documentation>90485</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:DocumentDataType">
+			<xs:sequence>
+			  <xs:element ref="flx:DocumentTitle" minOccurs="0" maxOccurs="5"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="DocumentDate">
+	  <xs:annotation>
+		<xs:documentation>01086</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:date">
+		  <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="DocumentDescription">
+	  <xs:annotation>
+		<xs:documentation>90453</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:DocumentDescriptionType">
+			<xs:sequence>
+			  <xs:element ref="flx:TechnicalDescription"/>
+			  <xs:element ref="flx:BusinessDescription" minOccurs="0"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="DocumentNonXML" type="flx:DocumentNonXMLType">
+	  <xs:annotation>
+		<xs:documentation>90463</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+
+	<xs:element name="DocumentReference">
+	  <xs:annotation>
+		<xs:documentation>01087</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="64"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DocumentSendingData" type="flx:DocumentSendingDataType">
+	  <xs:annotation>
+		<xs:documentation>90567</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+
+	<xs:element name="DocumentSendingModus">
+	  <xs:annotation>
+		<xs:documentation>01181</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="10"/>
+		  <xs:enumeration value="NORMAL"/>
+		  <xs:enumeration value="REGISTERED"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DocumentTitle" type="flx:DocumentTitleType">
+	  <xs:annotation>
+		<xs:documentation>90572</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+
+	<xs:element name="DocumentType">
+	  <xs:annotation>
+		<xs:documentation>01164</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="10"/>
+		  <xs:enumeration value="MAIN"/>
+		  <xs:enumeration value="ATTACHMENT"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="DocumentXML">
+	  <xs:annotation>
+		<xs:documentation>90456</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:sequence>
+		  <xs:any namespace="##any"/>
+		</xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="DueDate">
+	  <xs:annotation>
+		<xs:documentation>01024</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:date">
+		  <xs:minInclusive value="2015-10-15"/>
+		  <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="EmailAddress">
+	  <xs:annotation>
+		<xs:documentation>00637</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="60"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerCity">
+	  <xs:annotation>
+		<xs:documentation>00162</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="40"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerCountry">
+	  <xs:annotation>
+		<xs:documentation>00163</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="0"/>
+		  <xs:maxInclusive value="99999"/>
+		  <xs:totalDigits value="5"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerDenomination">
+	  <xs:annotation>
+		<xs:documentation>00157</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="96"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerHouseNbr">
+	  <xs:annotation>
+		<xs:documentation>00159</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="10"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerId">
+	  <xs:annotation>
+		<xs:documentation>90256</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:EmployerIdType">
+			<xs:sequence>
+			  <xs:element ref="flx:HandledEmployerId" minOccurs="0" maxOccurs="2"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="EmployerPostBox">
+	  <xs:annotation>
+		<xs:documentation>00160</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="4"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerStreet">
+	  <xs:annotation>
+		<xs:documentation>00158</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="35"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="EmployerZIPCode">
+	  <xs:annotation>
+		<xs:documentation>00161</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="9"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FileName">
+	  <xs:annotation>
+		<xs:documentation>00106</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:minLength value="1"/>
+		  <xs:maxLength value="64"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FileReceptionInformation" type="flx:FileReceptionInformationType">
+	  <xs:annotation>
+		<xs:documentation>90390</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+
+	<xs:element name="FileReference" type="flx:FileReferenceType">
+	  <xs:annotation>
+		<xs:documentation>90102</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+
+	<xs:element name="FinalAddresseeData" type="flx:FinalAddresseeDataType">
+	  <xs:annotation>
+		<xs:documentation>90571</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+
+	<xs:element name="Form">
+	  <xs:annotation>
+		<xs:documentation>90059</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:FormType">
+			<xs:sequence>
+			  <xs:element ref="flx:Reference" maxOccurs="50"/>
+			  <xs:element ref="flx:HandledOriginalFile" minOccurs="0"/>
+			  <xs:element ref="flx:ReferenceData" minOccurs="0"/>
+			  <xs:element ref="flx:DocumentData" minOccurs="0"/>
+			  <xs:element ref="flx:CaseData" minOccurs="0"/>
+			  <xs:element ref="flx:DestinationData" minOccurs="0" maxOccurs="unbounded"/>
+			  <xs:element ref="flx:OriginSendingData" minOccurs="0"/>
+			  <xs:element ref="flx:FinalAddresseeData" minOccurs="0" maxOccurs="10"/>
+			  <xs:element ref="flx:ProcessingData" minOccurs="0"/>
+			  <xs:element ref="flx:Data" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="FormCreationDate">
+	  <xs:annotation>
+		<xs:documentation>00218</xs:documentation>
+		<xs:appinfo source="ConversionID">Date_conversion1</xs:appinfo>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:date">
+		  <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FormCreationHour">
+	  <xs:annotation>
+		<xs:documentation>00299</xs:documentation>
+		<xs:appinfo source="ConversionID">Time_conversion1</xs:appinfo>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:time">
+		  <xs:pattern value="\d{2}:\d{2}:\d{2}.\d{3}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="FormSequenceNbr">
+	  <xs:annotation>
+		<xs:documentation>00220</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:totalDigits value="8"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="GroupName">
+	  <xs:annotation>
+		<xs:documentation>01159</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="20"/>
+		  <xs:pattern value="([\-_a-zA-Z0-9])*"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="GroupType">
+	  <xs:annotation>
+		<xs:documentation>01091</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="20"/>
+		  <xs:pattern value="([\-_a-zA-Z0-9])*"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>		
+			
+	<xs:element name="HandledEmployerId" type="flx:HandledEmployerIdType">
+	  <xs:annotation>
+		<xs:documentation>90550</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+	
+	<xs:element name="HandledOriginalFile">
+	  <xs:annotation>
+		<xs:documentation>90511</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:HandledOriginalFileType">
+			<xs:sequence>
+			  <xs:element ref="flx:HandledSenderIdentification" minOccurs="0"/>
+			  <xs:element ref="flx:FileReference"/>
+			  <xs:element ref="flx:FileReceptionInformation"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+	
+	<xs:element name="HandledSenderIdentification">
+	  <xs:annotation>
+		<xs:documentation>90560</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:HandledSenderIdentificationType">
+			<xs:sequence>
+			  <xs:element ref="flx:Sender" minOccurs="0"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+	
+	<xs:element name="HouseNbr">
+	  <xs:annotation>
+		<xs:documentation>00518</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="10"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="Identification">
+	  <xs:annotation>
+		<xs:documentation>00296</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="7"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="ImportanceCode">
+	  <xs:annotation>
+		<xs:documentation>00164</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="1"/>
+		  <xs:maxInclusive value="9"/>
+		  <xs:totalDigits value="1"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="IndexId">
+	  <xs:annotation>
+		<xs:documentation>01124</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="28"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="IndexValue">
+	  <xs:annotation>
+		<xs:documentation>01125</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:minLength value="3"/>
+		  <xs:maxLength value="10"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="INSS">
+	  <xs:annotation>
+		<xs:documentation>00024</xs:documentation>
+		<xs:appinfo source="ConversionID">Inss_conversion1</xs:appinfo>
+		<xs:appinfo source="TDOType">xs:inss</xs:appinfo>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:totalDigits value="11"/>
+		  <xs:pattern value="[0]|\d{11}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+
+	<xs:element name="IntegrityCheck" type="flx:IntegrityCheckType">
+	  <xs:annotation>
+		<xs:documentation>90455</xs:documentation>
+	  </xs:annotation>
+	</xs:element>	
+	
+	<xs:element name="IntegrityMethod">
+	  <xs:annotation>
+		<xs:documentation>01048</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="30"/>
+		  <xs:enumeration value="SHA-256"/>
+		  <xs:enumeration value="SHA-512"/>
+		  <xs:enumeration value="MD5"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+  
+	<xs:element name="IsLastForm">
+	  <xs:annotation>
+		<xs:documentation>01147</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:boolean"/>
+	  </xs:simpleType>
+	</xs:element>			
+
+	<xs:element name="Language">
+	  <xs:annotation>
+		<xs:documentation>01047</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="1"/>
+		  <xs:maxInclusive value="5"/>
+		  <xs:totalDigits value="1"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+		
+	<xs:element name="LegalForm">
+	  <xs:annotation>
+		<xs:documentation>00219</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="20"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="MandateCriteria">
+	  <xs:annotation>
+		<xs:documentation>90515</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:MandateCriteriaType">
+			<xs:sequence>
+			  <xs:element ref="flx:ObjectCriteria" minOccurs="0" maxOccurs="10"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>	
+		
+	<xs:element name="MandateType">
+	  <xs:annotation>
+		<xs:documentation>01128</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="32"/>
+		  <xs:enumeration value="ReferenceData"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="MimeType">
+	  <xs:annotation>
+		<xs:documentation>01044</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="255"/>
+		  <xs:enumeration value="application/pdf"/>
+		  <xs:enumeration value="application/xml"/>
+		  <xs:enumeration value="application/msword"/>
+		  <xs:enumeration value="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+		  <xs:enumeration value="application/vnd.ms-excel"/>
+		  <xs:enumeration value="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+		  <xs:enumeration value="application/zip"/>
+		  <xs:enumeration value="image/jpeg"/>
+		  <xs:enumeration value="image/tiff"/>
+		  <xs:enumeration value="text/plain"/>
+		  <xs:enumeration value="application"/>
+		  <xs:enumeration value="application/vnd.oasis.opendocument.text"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="NOSSLPARegistrationNbr">
+	  <xs:annotation>
+		<xs:documentation>00109</xs:documentation>
+		<xs:appinfo source="ConversionID">NossAPL_conversion1</xs:appinfo>
+		<xs:appinfo source="TDOType">xs:nossLpaRegistrationNbr</xs:appinfo>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="0"/>
+		  <xs:maxInclusive value="99999926"/>
+		  <xs:totalDigits value="8"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="NOSSRegistrationNbr">
+	  <xs:annotation>
+		<xs:documentation>00011</xs:documentation>
+		<xs:appinfo source="ConversionID">Noss_conversion1</xs:appinfo>
+		<xs:appinfo source="TDOType">xs:nossRegistrationNbr</xs:appinfo>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="0"/>
+		  <xs:maxInclusive value="199999934"/>
+		  <xs:totalDigits value="9"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="NSSOService">
+	  <xs:annotation>
+		<xs:documentation>01119</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="5"/>
+		  <xs:enumeration value="INNI"/>
+		  <xs:enumeration value="REJU"/>
+		  <xs:enumeration value="RIPAD"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="Object">
+	  <xs:annotation>
+		<xs:documentation>01117</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="20"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="ObjectCriteria" type="flx:ObjectCriteriaType">
+	  <xs:annotation>
+		<xs:documentation>90516</xs:documentation>
+	  </xs:annotation>
+	</xs:element>		
+
+	<xs:element name="ObjectType">
+	  <xs:annotation>
+		<xs:documentation>01118</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="20"/>
+		  <xs:enumeration value="SECTOR"/>
+		  <xs:enumeration value="GROUP"/>
+		  <xs:enumeration value="APPLICATION"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="OriginSendingData" type="flx:OriginSendingDataType">
+	  <xs:annotation>
+		<xs:documentation>90590</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+	
+	<xs:element name="OutputChannel">
+	  <xs:annotation>
+		<xs:documentation>00693</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="10"/>
+		  <xs:enumeration value="BATCH"/>
+		  <xs:enumeration value="PRINT"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="PostBox">
+	  <xs:annotation>
+		<xs:documentation>00519</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="4"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+		
+	<xs:element name="ProcessingData">
+	  <xs:annotation>
+		<xs:documentation>90592</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:ProcessingDataType">
+			<xs:sequence>
+			  <xs:element ref="flx:ProcessingKeyValue" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+	
+	<xs:element name="ProcessingKey">
+	  <xs:annotation>
+		<xs:documentation>01227</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="50"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="ProcessingKeyValue" type="flx:ProcessingKeyValueType">
+	  <xs:annotation>
+		<xs:documentation>90593</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+	
+	<xs:element name="ProcessingValue">
+	  <xs:annotation>
+		<xs:documentation>01228</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="200"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="ProcessType">
+	  <xs:annotation>
+		<xs:documentation>01184</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="14"/>
+		  <xs:enumeration value="SUBMITDOCUMENT"/>
+		  <xs:enumeration value="SUBMITCASEID"/>
+		  <xs:enumeration value="SUBMITARCHIVE"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="ProvisionalNSSONbr">
+	  <xs:annotation>
+		<xs:documentation>00948</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="0"/>
+		  <xs:maxInclusive value="5999999989"/>
+		  <xs:totalDigits value="10"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="Quarter">
+	  <xs:annotation>
+		<xs:documentation>00013</xs:documentation>
+		<xs:appinfo source="TDOType">xs:yearQuarter</xs:appinfo>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:totalDigits value="5"/>
+		  <xs:pattern value="\d{4}(1|2|3|4)"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="ReceptionDate">
+	  <xs:annotation>
+		<xs:documentation>00898</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:date">
+		  <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="ReceptionHour">
+	  <xs:annotation>
+		<xs:documentation>00935</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:time">
+		  <xs:pattern value="\d{2}:\d{2}:\d{2}.\d{3}"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+
+	<xs:element name="Reference" type="flx:ReferenceType">
+	  <xs:annotation>
+		<xs:documentation>90082</xs:documentation>
+	  </xs:annotation>
+	</xs:element>	
+  
+	<xs:element name="ReferenceData">
+	  <xs:annotation>
+		<xs:documentation>90452</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:ReferenceDataType">
+			<xs:sequence>
+			  <xs:element ref="flx:SubGroupCriteria" minOccurs="0" maxOccurs="unbounded"/>
+			  <xs:element ref="flx:EmployerId" minOccurs="0" maxOccurs="2"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>	
+
+	<xs:element name="ReferenceNbr">
+	  <xs:annotation>
+		<xs:documentation>00222</xs:documentation>
+		<xs:appinfo source="ConversionID">TicketNumber_conversion1</xs:appinfo>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:minLength value="1"/>
+		  <xs:maxLength value="64"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="ReferenceOrigin">
+	  <xs:annotation>
+		<xs:documentation>00298</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="1"/>
+		  <xs:maxInclusive value="7"/>
+		  <xs:totalDigits value="1"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+  
+	<xs:element name="ReferenceType">
+	  <xs:annotation>
+		<xs:documentation>00221</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="0"/>
+		  <xs:maxInclusive value="9"/>
+		  <xs:totalDigits value="1"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+		
+	<xs:element name="Sender" type="flx:SenderType">
+	  <xs:annotation>
+		<xs:documentation>90093</xs:documentation>
+	  </xs:annotation>
+	</xs:element>
+	
+	<xs:element name="SenderId">
+	  <xs:annotation>
+		<xs:documentation>00002</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="000001"/>
+		  <xs:maxInclusive value="999999"/>
+		  <xs:totalDigits value="6"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>		
+
+	<xs:element name="SocialSecretariatNumber">
+	  <xs:annotation>
+		<xs:documentation>00479</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:totalDigits value="3"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="SpecificIndexCriteria" type="flx:SpecificIndexCriteriaType">
+	  <xs:annotation>
+		<xs:documentation>90521</xs:documentation>
+	  </xs:annotation>
+	</xs:element>	
+	
+	<xs:element name="SpecificIndexData">
+	  <xs:annotation>
+		<xs:documentation>90520</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:SpecificIndexDataType">
+			<xs:sequence>
+			  <xs:element ref="flx:SpecificIndexCriteria" minOccurs="2" maxOccurs="2"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Street">
+	  <xs:annotation>
+		<xs:documentation>00517</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="42"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>	
+	
+	<xs:element name="SubGroupCriteria" type="flx:SubGroupCriteriaType">
+	  <xs:annotation>
+		<xs:documentation>90551</xs:documentation>
+	  </xs:annotation>
+	</xs:element>		
+
+	<xs:element name="TechnicalDescription">
+	  <xs:annotation>
+		<xs:documentation>90454</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:complexContent>
+		  <xs:extension base="flx:TechnicalDescriptionType">
+			<xs:sequence>
+			  <xs:element ref="flx:IntegrityCheck" minOccurs="0"/>
+			</xs:sequence>
+		  </xs:extension>
+		</xs:complexContent>
+	  </xs:complexType>
+	</xs:element>	
+
+	<xs:element name="TitleLongValue">
+	  <xs:annotation>
+		<xs:documentation>01234</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="400"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="TypeForm">
+	  <xs:annotation>
+		<xs:documentation>00297</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="2"/>
+		  <xs:enumeration value="RE"/>
+		  <xs:enumeration value="PA"/>
+		  <xs:enumeration value="FA"/>
+		  <xs:enumeration value="LA"/>
+		  <xs:enumeration value="SU"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>		
+			
+	<xs:element name="Value">
+	  <xs:annotation>
+		<xs:documentation>00236</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:hexBinary"/>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="ZIPCode">
+	  <xs:annotation>
+		<xs:documentation>00520</xs:documentation>
+	  </xs:annotation>
+	  <xs:simpleType>
+		<xs:restriction base="xs:string">
+		  <xs:maxLength value="9"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:complexType name="AddresseeDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:Addressee" minOccurs="0"/>
+		<xs:element ref="flx:AddresseeType"/>
+		<xs:element ref="flx:AddresseeQuality" minOccurs="0"/>
+		<xs:element ref="flx:Identification" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>
+		
+	<xs:complexType name="AssignedUserCriteriaType">
+	  <xs:sequence>
+		<xs:element ref="flx:AssignedUserType"/>
+		<xs:element ref="flx:AssignedUserId"/>
+	  </xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CaseDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:NSSOService" minOccurs="0"/>
+		<xs:element ref="flx:CreationDate" minOccurs="0"/>
+		<xs:element ref="flx:CaseSubType" minOccurs="0"/>
+		<xs:element ref="flx:CaseId" minOccurs="0"/>
+		<xs:element ref="flx:ProcessType" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="CaseReferenceDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:CaseReferenceType"/>
+		<xs:element ref="flx:ReferenceNbr"/>
+	  </xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="CaseStatusDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:DueDate"/>
+	  </xs:sequence>
+	</xs:complexType>
+	  
+	<xs:complexType name="CoordinatesReceiverType">
+	  <xs:sequence>
+		<xs:element ref="flx:Denomination" minOccurs="1" maxOccurs="1"/>
+		<xs:element ref="flx:Street" minOccurs="1" maxOccurs="1"/>
+		<xs:element ref="flx:HouseNbr" minOccurs="0"/>
+		<xs:element ref="flx:PostBox" minOccurs="0"/>
+		<xs:element ref="flx:ZIPCode" minOccurs="1" maxOccurs="1"/>
+		<xs:element ref="flx:City" minOccurs="0"/>
+		<xs:element ref="flx:Country" minOccurs="1" maxOccurs="1"/>
+		<xs:element ref="flx:Language" minOccurs="1" maxOccurs="1"/>
+	  </xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DestinationCriteriaType">
+	  <xs:sequence>
+		<xs:element ref="flx:ReferenceType" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="DestinationDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:DestinationType"/>
+	  </xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="DocumentDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:DocumentDate" minOccurs="0"/>
+		<xs:element ref="flx:DocumentReference" minOccurs="0"/>
+		<xs:element ref="flx:INSS" minOccurs="0"/>
+		<xs:element ref="flx:CompanyID" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="DocumentDescriptionType"/>
+	
+	<xs:complexType name="DocumentNonXMLType">
+	  <xs:sequence>
+		<xs:element ref="flx:DocumentBase64"/>
+	  </xs:sequence>
+	</xs:complexType>	
+
+	<xs:complexType name="DocumentSendingDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:Channel" minOccurs="0"/>
+		<xs:element ref="flx:AttestationStatus"/>
+		<xs:element ref="flx:DocumentSendingModus"/>
+		<xs:element ref="flx:EmailAddress" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="DocumentTitleType">
+	  <xs:sequence>
+		<xs:choice>
+		  <xs:element ref="flx:Denomination" minOccurs="1" maxOccurs="1"/>
+		  <xs:element ref="flx:TitleLongValue"/>
+		</xs:choice>
+		<xs:element ref="flx:Language" minOccurs="1" maxOccurs="1"/>
+	  </xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="DocumentXMLType"/>
+	
+	<xs:complexType name="EmployerIdType">
+	  <xs:sequence>
+		<xs:choice>
+		  <xs:element ref="flx:NOSSRegistrationNbr" minOccurs="0"/>
+		  <xs:element ref="flx:ProvisionalNSSONbr" minOccurs="0"/>
+		  <xs:element ref="flx:NOSSLPARegistrationNbr" minOccurs="0"/>
+		</xs:choice>
+		<xs:element ref="flx:CompanyID" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="FileReceptionInformationType">
+	  <xs:sequence>
+		<xs:element ref="flx:ReceptionDate"/>
+		<xs:element ref="flx:ReceptionHour"/>
+		<xs:element ref="flx:Channel"/>
+	  </xs:sequence>
+	</xs:complexType>			
+
+	<xs:complexType name="FileReferenceType">
+	  <xs:sequence>
+		<xs:element ref="flx:FileName"/>
+		<xs:element ref="flx:ReferenceOrigin"/>
+		<xs:element ref="flx:ReferenceNbr"/>
+	  </xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="FinalAddresseeDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:Addressee" minOccurs="0"/>
+		<xs:element ref="flx:AddresseeType"/>
+		<xs:element ref="flx:AddresseeQuality" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>			  
+
+	<xs:complexType name="FormType">
+	  <xs:sequence>
+		<xs:element ref="flx:Identification"/>
+		<xs:element ref="flx:FormCreationDate"/>
+		<xs:element ref="flx:FormCreationHour"/>
+		<xs:element ref="flx:AttestationStatus"/>
+		<xs:element ref="flx:TypeForm"/>
+	  </xs:sequence>
+	</xs:complexType>	
+		
+	<xs:complexType name="HandledEmployerIdType">
+	  <xs:sequence>
+		<xs:element ref="flx:EmployerDenomination" minOccurs="0"/>
+		<xs:element ref="flx:EmployerStreet" minOccurs="0"/>
+		<xs:element ref="flx:EmployerHouseNbr" minOccurs="0"/>
+		<xs:element ref="flx:EmployerPostBox" minOccurs="0"/>
+		<xs:element ref="flx:EmployerZIPCode" minOccurs="0"/>
+		<xs:element ref="flx:EmployerCity" minOccurs="0"/>
+		<xs:element ref="flx:EmployerCountry" minOccurs="0"/>
+		<xs:element ref="flx:ImportanceCode" minOccurs="0"/>
+		<xs:element ref="flx:LegalForm" minOccurs="0"/>
+		<xs:element ref="flx:Language" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="HandledOriginalFileType">
+	  <xs:sequence>
+		<xs:element ref="flx:SenderId"/>
+	  </xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="HandledSenderIdentificationType">
+	  <xs:sequence>
+		<xs:element ref="flx:CompanyID" minOccurs="0"/>
+		<xs:element ref="flx:NOSSRegistrationNbr" minOccurs="0"/>
+		<xs:element ref="flx:NOSSLPARegistrationNbr" minOccurs="0"/>
+		<xs:element ref="flx:ProvisionalNSSONbr" minOccurs="0"/>
+		<xs:element ref="flx:SocialSecretariatNumber" minOccurs="0"/>
+		<xs:element ref="flx:INSS" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="IntegrityCheckType">
+	  <xs:sequence>
+		<xs:element ref="flx:IntegrityMethod"/>
+		<xs:element ref="flx:Value"/>
+	  </xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="MandateCriteriaType">
+	  <xs:choice>
+		<xs:element ref="flx:Date"/>
+		<xs:element ref="flx:Quarter"/>
+		<xs:element ref="flx:MandateType"/>
+	  </xs:choice>
+	</xs:complexType>
+
+	<xs:complexType name="ObjectCriteriaType">
+	  <xs:sequence>
+		<xs:element ref="flx:Object"/>
+		<xs:element ref="flx:ObjectType"/>
+	  </xs:sequence>
+	</xs:complexType>
+  
+	<xs:complexType name="OriginSendingDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:Addressee" minOccurs="0"/>
+		<xs:element ref="flx:AddresseeType"/>
+		<xs:element ref="flx:AddresseeQuality" minOccurs="0"/>
+		<xs:element ref="flx:DateSubmission" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="ProcessingDataType"/>
+	
+	<xs:complexType name="ProcessingKeyValueType">
+	  <xs:sequence>
+		<xs:element ref="flx:ProcessingKey"/>
+		<xs:element ref="flx:ProcessingValue"/>
+	  </xs:sequence>
+	</xs:complexType>		
+	
+	<xs:complexType name="ReferenceDataType">
+	  <xs:sequence>
+		<xs:element ref="flx:INSS" minOccurs="0"/>
+		<xs:element ref="flx:Quarter" minOccurs="0" maxOccurs="unbounded"/>
+		<xs:element ref="flx:GroupName" minOccurs="0"/>
+		<xs:element ref="flx:FormSequenceNbr" minOccurs="0"/>
+		<xs:element ref="flx:IsLastForm" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ReferenceType">
+	  <xs:sequence>
+		<xs:element ref="flx:ReferenceType"/>
+		<xs:element ref="flx:ReferenceOrigin"/>
+		<xs:element ref="flx:ReferenceNbr"/>
+	  </xs:sequence>
+	</xs:complexType>	
+		
+	<xs:complexType name="SenderType">
+	  <xs:sequence>
+		<xs:element ref="flx:Denomination" minOccurs="0"/>
+		<xs:element ref="flx:Street" minOccurs="0"/>
+		<xs:element ref="flx:HouseNbr" minOccurs="0"/>
+		<xs:element ref="flx:PostBox" minOccurs="0"/>
+		<xs:element ref="flx:ZIPCode" minOccurs="0"/>
+		<xs:element ref="flx:City" minOccurs="0"/>
+		<xs:element ref="flx:Country" minOccurs="0"/>
+		<xs:element ref="flx:Language" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>			
+		
+	<xs:complexType name="SpecificIndexCriteriaType">
+	  <xs:sequence>
+		<xs:element ref="flx:IndexId"/>
+		<xs:element ref="flx:IndexValue"/>
+	  </xs:sequence>
+	</xs:complexType>
+		
+	<xs:complexType name="SpecificIndexDataType"/>
+	
+	<xs:complexType name="SubGroupCriteriaType">
+	  <xs:sequence>
+		<xs:element ref="flx:GroupType"/>
+		<xs:element ref="flx:OutputChannel"/>
+	  </xs:sequence>
+	</xs:complexType>
+		
+	<xs:complexType name="TechnicalDescriptionType">
+	  <xs:sequence>
+		<xs:element ref="flx:MimeType"/>
+		<xs:element ref="flx:CharacterSet" minOccurs="0"/>
+		<xs:element ref="flx:CharacterFormat"/>
+		<xs:element ref="flx:Language" minOccurs="0"/>
+		<xs:element ref="flx:FileName" minOccurs="0"/>
+		<xs:element ref="flx:DocumentType" minOccurs="0"/>
+		<xs:element ref="flx:AttachmentId" minOccurs="0"/>
+	  </xs:sequence>
+	</xs:complexType>
+	
+			
+	<xs:element name="GenericXmlDocument">
+	  <xs:annotation>
+		<xs:documentation>90371</xs:documentation>
+	  </xs:annotation>
+	  <xs:complexType>
+		<xs:sequence>
+		  <xs:element ref="flx:Form" maxOccurs="unbounded"/>
+		</xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+
+</xs:schema>
