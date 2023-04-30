@@ -1,0 +1,74 @@
+VERSIE - VERSION 2.1.12
+=======================
+* Extra afhandeling ongeldige schema's
+
+VERSIE - VERSION 2.1.11
+=======================
+* Extra foutboodschap voor batchverwerking
+* Fix voor dubbel label (Engels/Nederlands) bij batchverwerking
+
+VERSIE - VERSION 2.1.10
+=======================
+* Schema's 20074
+
+VERSIE - VERSION 2.1.9
+======================
+* Batch uitvoering via command line parameters toegevoegd.
+
+VERSIE - VERSION 2.1.7-2.1.8
+============================
+* Dubbele NISS controle over meerdere forms: per stamnummer/kwartaal mogen nissen niet dubbel voorkomen.
+* Schema's 20073 toegevoegd.
+
+VERSIE - VERSION 2.1.2-2.1.6
+============================
+* Fix controle dubbel INSZ-nummer voor updates.
+* Schema's 20064-20072 toegevoegd.
+
+VERSIE - VERSION 2.1.1 - sept 06
+==================================
+* Conversie van SWT naar Swing
+* Schema's worden van nu opgenomen in de jar
+* Schema's 20063 toegevoegd.
+
+VERSIE - VERSION 1.03.00
+========================
+* Aanpassing RSZPPO
+
+VERSIE - VERSION 1.02.00
+========================
+Schema 20041
+Ondersteuning wijzigende aangiftes
+
+Schéma 20041
+Support pour déclarations des modifications
+
+VERSIE - VERSION 1.01.01
+========================
+Fixed bug schema 20034
+
+
+VERSIE - VERSION 1.01.00
+========================
+Verbeterde controle van het xml schema
+Houdt rekening met de werkgever bij de controle van dubbele personen
+Houdt rekening met de werkgever bij de controle van de berekening van het verschuldigd bedrag
+
+Amélioration du contrôle des règles du schema xml
+Contrôle double personnes physiques pour chaque employeur
+Contrôle vérification du montant dû déclaré pour chaque employeur
+
+
+VERSIE - VERSION 1.00.00
+========================
+Initiële versie, bevat de volgende functionaliteiten
+	- verificatie xml formaat
+	- verificatie conformiteit met het xml schema
+	- controle dubbele werknemers
+	- vergelijking gedeclareerd verschuldigd bedrag met het berekend verschuldigd bedrag
+
+Version initiel, contiens les functionalités suivants
+	- contrôle du format xml
+	- contrôle des règles du schema xml
+	- contrôle double personnes physiques
+	- vérification du montant dû déclaré

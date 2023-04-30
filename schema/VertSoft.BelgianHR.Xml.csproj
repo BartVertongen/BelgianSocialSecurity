@@ -35,6 +35,12 @@
   <ItemGroup>
     <Folder Include="Lib\Dimona\PersonnelFileConsultationAnswer\PersonnelFileConsultationAnswer231\" />
     <Folder Include="Lib\Dimona\PersonnelFileConsultationRequest\PersonnelFileConsultationRequest231\" />
+    <Folder Include="Schemas\InvoicesEmployers\" />
+    <Folder Include="Schemas\DeclarationWorks\" />
+    <Folder Include="Schemas\ASR_UnEmployment\" />
+    <Folder Include="Schemas\ASR_Indemnities\" />
+    <Folder Include="Schemas\ASR_Accident\" />
+    <Folder Include="Schemas\Tempora\" />
   </ItemGroup>
 
 </Project>

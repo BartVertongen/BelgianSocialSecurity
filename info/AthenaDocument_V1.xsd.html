@@ -1,0 +1,294 @@
+
+<!-- saved from url=(0100)https://www.socialsecurity.be/site_nl/employer/applics/careerpro/documents/xml/AthenaDocument_V1.xsd -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><xs:schema xmlns:ns2="http://www.w3.org/2005/05/xmlmime" xmlns="http://socialsecurity.be/xml/ns/athenadocument" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetnamespace="http://socialsecurity.be/xml/ns/athenadocument" elementformdefault="qualified" attributeformdefault="unqualified">
+	<xs:element name="SignStatus">
+		<xs:annotation>
+			<xs:documentation>If the contract need the employee signature on MyCareer. </xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:mininclusive value="0">
+				<xs:maxinclusive value="2">
+				<xs:totaldigits value="1">
+			</xs:totaldigits></xs:maxinclusive></xs:mininclusive></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="SignMaxDate">
+		<xs:annotation>
+			<xs:documentation>In case of document to be signed by employee,  date in format YYYYMMDD when the document will be removed if not signed yet.</xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}">
+			</xs:pattern></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="SignEmail">
+		<xs:annotation>
+			<xs:documentation>A notification is sent to this mails when employee has signed the document.</xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:string">
+				<xs:minlength value="5">
+				<xs:maxlength value="250">
+				<xs:pattern value="[^@]+@[^\.]+\..+">
+			</xs:pattern></xs:maxlength></xs:minlength></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="CompanyID">
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:mininclusive value="0">
+				<xs:maxinclusive value="1999999943">
+				<xs:totaldigits value="10">
+				<xs:pattern value="0|\d{9}|\d{10}">
+			</xs:pattern></xs:totaldigits></xs:maxinclusive></xs:mininclusive></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="INSS">
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:totaldigits value="11">
+				<xs:pattern value="[0]|\d{11}">
+			</xs:pattern></xs:totaldigits></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="UsingEmployerCompanyID">
+		<xs:annotation>
+			<xs:documentation>If contract is interim,  here are the infos of the using employer. </xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:mininclusive value="0">
+				<xs:maxinclusive value="1999999943">
+				<xs:totaldigits value="10">
+				<xs:pattern value="0|\d{9}|\d{10}">
+			</xs:pattern></xs:totaldigits></xs:maxinclusive></xs:mininclusive></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:complextype name="InvolvedPartsType">
+		<xs:sequence>
+			<xs:element ref="CompanyID">
+				<xs:annotation>
+					<xs:documentation>00014 - CBE number of the employer</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="INSS">
+				<xs:annotation>
+					<xs:documentation>00024 - INSS of the worker</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="UsingEmployerCompanyID" minoccurs="0">
+				<xs:annotation>
+					<xs:documentation>000131 CBE number of using employer. Only for interim contract.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complextype>
+	<xs:element name="DocumentCategory">
+		<xs:annotation>
+			<xs:documentation>XXXXX Category of contract/document : CONTRACT_BASE = Base contract ; CONTRACT_AMENDMENT = Emendment to a base contract ; PAYSLIP = Payslip</xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="CONTRACT_BASE">
+				<xs:enumeration value="CONTRACT_AMENDMENT">
+				<xs:enumeration value="PAYSLIP">
+			</xs:enumeration></xs:enumeration></xs:enumeration></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="InvolvedParts" type="InvolvedPartsType">
+		<xs:annotation>
+			<xs:documentation>Features that identifies the 2 or 3 persons involved in the contract</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="DocumentDate">
+		<xs:simpletype>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}">
+			</xs:pattern></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="Language">
+		<xs:annotation>
+			<xs:documentation>1 = Néerlandais ; 2 = Français ; 3 = Allemand ; 4 = Anglais</xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:mininclusive value="1">
+				<xs:maxinclusive value="4">
+				<xs:totaldigits value="1">
+			</xs:totaldigits></xs:maxinclusive></xs:mininclusive></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="ContractDurationCode">
+		<xs:annotation>
+			<xs:documentation>Permanent or temporary contract duration.  Need to be extended with values Defined word and Remplacement to match the law :  need 4 vfalues : 0 undefined ending date ; 1 defined ending date ; [NEW] 2 Strictly defined work ; [NEW] 3 Remplacement </xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:mininclusive value="0">
+				<xs:maxinclusive value="3">
+				<xs:totaldigits value="1">
+			</xs:totaldigits></xs:maxinclusive></xs:mininclusive></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="StartingDate">
+		<xs:annotation>
+			<xs:documentation>Begin date of contract </xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}">
+			</xs:pattern></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="EndingDate">
+		<xs:annotation>
+			<xs:documentation>End date of contract </xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:date">
+				<xs:pattern value="\d{4}-\d{2}-\d{2}">
+			</xs:pattern></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="ContractType">
+		<xs:annotation>
+			<xs:documentation>Full time or Part time</xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:mininclusive value="0">
+				<xs:maxinclusive value="1">
+				<xs:totaldigits value="1">
+			</xs:totaldigits></xs:maxinclusive></xs:mininclusive></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="MeanWorkingHours">
+		<xs:annotation>
+			<xs:documentation>Nb of working hours per week </xs:documentation>
+			<xs:appinfo source="ConversionID">HoursCount_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:mininclusive value="0000">
+				<xs:maxinclusive value="9999">
+				<xs:totaldigits value="4">
+			</xs:totaldigits></xs:maxinclusive></xs:mininclusive></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="RefMeanWorkingHours">
+		<xs:annotation>
+			<xs:documentation>Average working hours per week </xs:documentation>
+			<xs:appinfo source="ConversionID">HoursCount_conversion1</xs:appinfo>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:mininclusive value="0000">
+				<xs:maxinclusive value="9999">
+				<xs:totaldigits value="4">
+			</xs:totaldigits></xs:maxinclusive></xs:mininclusive></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="DimonaPeriodId">
+		<xs:annotation>
+			<xs:documentation>N° Dimona of contract </xs:documentation>
+		</xs:annotation>
+		<xs:simpletype>
+			<xs:restriction base="xs:integer">
+				<xs:totaldigits value="12">
+			</xs:totaldigits></xs:restriction>
+		</xs:simpletype>
+	</xs:element>
+	<xs:element name="ContractInformations">
+		<xs:complextype>
+			<xs:sequence>
+				<xs:element ref="ContractDurationCode">
+					<xs:annotation>
+						<xs:documentation>00885 - Define contract duration:
+              0 undefined ending date ;
+              1 defined ending date ;
+              2 Strictly defined work ;
+              3 Remplacement
+            </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="StartingDate">
+					<xs:annotation>
+						<xs:documentation>00910 - Begin date of contract </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="EndingDate" minoccurs="0">
+					<xs:annotation>
+						<xs:documentation>00911 - End date of contract </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="ContractType">
+					<xs:annotation>
+						<xs:documentation>00050 - Define working time
+              0=Full time
+              1=Part time
+            </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="MeanWorkingHours">
+					<xs:annotation>
+						<xs:documentation>00048 - Number of working hours per week </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="RefMeanWorkingHours">
+					<xs:annotation>
+						<xs:documentation>00049 - Number of working hours per week for a reference person</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element ref="DimonaPeriodId" minoccurs="0">
+					<xs:annotation>
+						<xs:documentation>00913 - Dimona number related to the contract </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complextype>
+	</xs:element>
+	<xs:complextype name="DocumentInformationsType">
+		<xs:sequence>
+			<xs:element ref="DocumentCategory">
+				<xs:annotation>
+					<xs:documentation>ATDO01 - Category of contract/document</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="SignStatus">
+				<xs:annotation>
+					<xs:documentation>ATDO02 - If the contract need the employee signature on MyCareer. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="SignMaxDate" minoccurs="0">
+				<xs:annotation>
+					<xs:documentation>ATDO03 - In case of document to be signed by employee,  date in format YYYYMMDD when the document will be removed if not signed yet.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="SignEmail" minoccurs="0">
+				<xs:annotation>
+					<xs:documentation>ATDO04 - A notification is sent to this mails when employee has signed the document.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="InvolvedParts">
+			<xs:element ref="DocumentDate">
+				<xs:annotation>
+					<xs:documentation>01086</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="Language">
+				<xs:annotation>
+					<xs:documentation>01047 - 1 = Néerlandais ; 2 = Français ; 3 = Allemand ; 4 = Anglais</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="ContractInformations">
+		</xs:element></xs:element></xs:sequence>
+	</xs:complextype>
+	<xs:element name="AthenaDocument" type="DocumentInformationsType">
+		<xs:annotation>
+			<xs:documentation>All metadatas about the archived document</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema></body></html>
