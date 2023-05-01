@@ -1,19 +1,10 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE List [
-     <!ELEMENT ann43 (Code?, DescFr?, DMFA?, DMFAAPL?, Capelo_DHG?, Geldig_vanaf?, Geldig_tot?)>
-     <!ELEMENT List (ann43+)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT DescFr (#PCDATA)>
-     <!ELEMENT DMFA (#PCDATA)>
-     <!ELEMENT DMFAAPL (#PCDATA)>
-     <!ELEMENT Capelo_DHG (#PCDATA)>
-     <!ELEMENT Geldig_vanaf (#PCDATA)>
-     <!ELEMENT Geldig_tot (#PCDATA)>
-]>
-<List>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--  -->
+<List>
+
 <ann43>
 <Code>1</Code>
-<DescFr>Membre du personnel administratif (fédéral, communautaire, régional, provincial, local, d'une université communautaire, d'une entreprise publique autonome) ; membre du personnel d'un centre psycho-médico-social ou d'un office d'orientation scolaire ; membre du personnel du cadre administratif et logistique de la police ; délégué du Conseil central laïque ; stagiaire judiciaire ; délégué général de la Communauté française aux droits de l'enfant ; personne désignée pour exercer une fonction de management ou d'encadrement dans un service public, membre du personnel administratif d'une zone de secours ; membre du personnel opérationnel d'une zone de secours qui NE participe PAS directement à la lutte contre le feu (tantième 1/60)</DescFr>
+<DescFr>Membre du personnel administratif (fï¿½dï¿½ral, communautaire, rï¿½gional, provincial, local, d'une universitï¿½ communautaire, d'une entreprise publique autonome) ; membre du personnel d'un centre psycho-mï¿½dico-social ou d'un office d'orientation scolaire ; membre du personnel du cadre administratif et logistique de la police ; dï¿½lï¿½guï¿½ du Conseil central laï¿½que ; stagiaire judiciaire ; dï¿½lï¿½guï¿½ gï¿½nï¿½ral de la Communautï¿½ franï¿½aise aux droits de l'enfant ; personne dï¿½signï¿½e pour exercer une fonction de management ou d'encadrement dans un service public, membre du personnel administratif d'une zone de secours ; membre du personnel opï¿½rationnel d'une zone de secours qui NE participe PAS directement ï¿½ la lutte contre le feu (tantiï¿½me 1/60)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -22,7 +13,7 @@
 </ann43>
 <ann43>
 <Code>2</Code>
-<DescFr>Personnel de maîtrise, gens de métier et de service (y compris de l'enseignement communautaire) (= tantième 1/60 ou pourcentage Caisse des Ouvriers de l'Etat)</DescFr>
+<DescFr>Personnel de maï¿½trise, gens de mï¿½tier et de service (y compris de l'enseignement communautaire) (= tantiï¿½me 1/60 ou pourcentage Caisse des Ouvriers de l'Etat)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -31,7 +22,7 @@
 </ann43>
 <ann43>
 <Code>3</Code>
-<DescFr>Membre du personnel de l'enseignement (sauf ouvrier) ; membre du personnel scientifique d'une université ; membre du personnel enseignant d'une université de la Communauté française en qualité de chargé de cours, chargé de cours associé ou titulaire d'un grade équivalent (sans service en cette qualité avant le 01-01-2003) ; membre du personnel enseignant d'une université de la Communauté flamande en qualité de chargé de cours (sans service comme chargé de cours avant le 01-01-1991), de chargé de cours associé (sans service comme chargé de cours associé avant le 01-01-1991) de chargé de cours principal (sans service comme chargé de cours principal avant le 01-01-2003) ; membre du personnel enseignant civil de l'Ecole de guerre, de l'Institut royal supérieur de défense ou des facultés de l'Ecole royale militaire en qualité de chargé de cours (sans services comme chargé de cours avant le 01-01-2003) ; membre du personnel enseignant dans la section préparatoire de l'Ecole Royale Militaire ; maître de langue à l'Ecole d'officier de la gendarmerie ; membre du personnel de la RTBF ; membre du personnel non roulant de la SNCB-Holding ; membre d'une catégorie de personnel bénéficiant d'un tantième déterminé dans un règlement particulier (= tantième 1/55)</DescFr>
+<DescFr>Membre du personnel de l'enseignement (sauf ouvrier) ; membre du personnel scientifique d'une universitï¿½ ; membre du personnel enseignant d'une universitï¿½ de la Communautï¿½ franï¿½aise en qualitï¿½ de chargï¿½ de cours, chargï¿½ de cours associï¿½ ou titulaire d'un grade ï¿½quivalent (sans service en cette qualitï¿½ avant le 01-01-2003) ; membre du personnel enseignant d'une universitï¿½ de la Communautï¿½ flamande en qualitï¿½ de chargï¿½ de cours (sans service comme chargï¿½ de cours avant le 01-01-1991), de chargï¿½ de cours associï¿½ (sans service comme chargï¿½ de cours associï¿½ avant le 01-01-1991) de chargï¿½ de cours principal (sans service comme chargï¿½ de cours principal avant le 01-01-2003) ; membre du personnel enseignant civil de l'Ecole de guerre, de l'Institut royal supï¿½rieur de dï¿½fense ou des facultï¿½s de l'Ecole royale militaire en qualitï¿½ de chargï¿½ de cours (sans services comme chargï¿½ de cours avant le 01-01-2003) ; membre du personnel enseignant dans la section prï¿½paratoire de l'Ecole Royale Militaire ; maï¿½tre de langue ï¿½ l'Ecole d'officier de la gendarmerie ; membre du personnel de la RTBF ; membre du personnel non roulant de la SNCB-Holding ; membre d'une catï¿½gorie de personnel bï¿½nï¿½ficiant d'un tantiï¿½me dï¿½terminï¿½ dans un rï¿½glement particulier (= tantiï¿½me 1/55)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -40,7 +31,7 @@
 </ann43>
 <ann43>
 <Code>4</Code>
-<DescFr>Titulaire d'un emploi repris au tableau annexé à la loi du 21/07/1844 (service actif) ; membre du personnel du cadre opérationnel de la police ; fonctionnaire de police ou agent auxiliaire de police dans un corps de police communale, fonctionnaire de police dans la police maritime, la police aéronautique ou la police des chemins de fer, dans le service d'enquêtes du Comité supérieur de Contrôle, dans la police de la jeunesse, dans la police judiciaire près les parquets ou membre du corps opérationnel ou de la catégorie de personnel de police spécial de la gendarmerie ; militaire du cadre actif ; membre du corps opérationnel d'un service d'incendie qui participe directement à la lutte contre le feu ; instituteur dans un établissement pénitentiaire relevant de l'Administration des Etablissements pénitentiaires ou dans un établissement d'observation et d'éducation de l'Etat relevant de l'Office de la Protection de la Jeunesse ; membre d'une catégorie de personnel bénéficiant d'un tantième déterminé dans un règlement particulier, membre du personnel opérationnel d'une zone de secours qui participe directement à la lutte contre le feu (tantième 1/50)</DescFr>
+<DescFr>Titulaire d'un emploi repris au tableau annexï¿½ ï¿½ la loi du 21/07/1844 (service actif) ; membre du personnel du cadre opï¿½rationnel de la police ; fonctionnaire de police ou agent auxiliaire de police dans un corps de police communale, fonctionnaire de police dans la police maritime, la police aï¿½ronautique ou la police des chemins de fer, dans le service d'enquï¿½tes du Comitï¿½ supï¿½rieur de Contrï¿½le, dans la police de la jeunesse, dans la police judiciaire prï¿½s les parquets ou membre du corps opï¿½rationnel ou de la catï¿½gorie de personnel de police spï¿½cial de la gendarmerie ; militaire du cadre actif ; membre du corps opï¿½rationnel d'un service d'incendie qui participe directement ï¿½ la lutte contre le feu ; instituteur dans un ï¿½tablissement pï¿½nitentiaire relevant de l'Administration des Etablissements pï¿½nitentiaires ou dans un ï¿½tablissement d'observation et d'ï¿½ducation de l'Etat relevant de l'Office de la Protection de la Jeunesse ; membre d'une catï¿½gorie de personnel bï¿½nï¿½ficiant d'un tantiï¿½me dï¿½terminï¿½ dans un rï¿½glement particulier, membre du personnel opï¿½rationnel d'une zone de secours qui participe directement ï¿½ la lutte contre le feu (tantiï¿½me 1/50)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -49,7 +40,7 @@
 </ann43>
 <ann43>
 <Code>5</Code>
-<DescFr>Membre du personnel roulant de la SNCB-Holding (= tantième 1/48)</DescFr>
+<DescFr>Membre du personnel roulant de la SNCB-Holding (= tantiï¿½me 1/48)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -58,7 +49,7 @@
 </ann43>
 <ann43>
 <Code>6</Code>
-<DescFr>Membre du personnel enseignant d'une université de la Communauté française en qualité de chargé de cours, chargé de cours associé ou titulaire d'un grade équivalent (avec des services en cette qualité avant le 01-01-2003), ou en qualité de professeur, professeur ordinaire, professeur extraordinaire ou professeur associé ; membre du personnel enseignant d'une université de la Communauté flamande en qualité chargé de cours (avec des services comme chargé de cours avant le 01-01-1991), de chargé de cours associé (avec des services comme chargé de cours associé avant le 01-01-1991), de chargé de cours principal (avec des services comme chargé de cours principal avant le 01-01-2003), ou comme membre du personnel académique indépendant (ZAP), en qualité de professeur, professeur ordinaire, professeur extraordinaire, professeur associé, ou titulaire d'un grade équivalent ; membre du personnel enseignant civil de l'Ecole de guerre, de l'Institut royal supérieur de défense ou des facultés de l'Ecole royale militaire en qualité de professeur, professeur ordinaire, professeur extraordinaire, professeur associé, maître ou répétiteur civil (nommé en cette qualité avant le 01-10-1982) ou de chargé de cours (avec des services comme chargé de cours avant le 01-01-2003) ;délégué du gouvernement auprès des universités (= tantième 1/30)</DescFr>
+<DescFr>Membre du personnel enseignant d'une universitï¿½ de la Communautï¿½ franï¿½aise en qualitï¿½ de chargï¿½ de cours, chargï¿½ de cours associï¿½ ou titulaire d'un grade ï¿½quivalent (avec des services en cette qualitï¿½ avant le 01-01-2003), ou en qualitï¿½ de professeur, professeur ordinaire, professeur extraordinaire ou professeur associï¿½ ; membre du personnel enseignant d'une universitï¿½ de la Communautï¿½ flamande en qualitï¿½ chargï¿½ de cours (avec des services comme chargï¿½ de cours avant le 01-01-1991), de chargï¿½ de cours associï¿½ (avec des services comme chargï¿½ de cours associï¿½ avant le 01-01-1991), de chargï¿½ de cours principal (avec des services comme chargï¿½ de cours principal avant le 01-01-2003), ou comme membre du personnel acadï¿½mique indï¿½pendant (ZAP), en qualitï¿½ de professeur, professeur ordinaire, professeur extraordinaire, professeur associï¿½, ou titulaire d'un grade ï¿½quivalent ; membre du personnel enseignant civil de l'Ecole de guerre, de l'Institut royal supï¿½rieur de dï¿½fense ou des facultï¿½s de l'Ecole royale militaire en qualitï¿½ de professeur, professeur ordinaire, professeur extraordinaire, professeur associï¿½, maï¿½tre ou rï¿½pï¿½titeur civil (nommï¿½ en cette qualitï¿½ avant le 01-10-1982) ou de chargï¿½ de cours (avec des services comme chargï¿½ de cours avant le 01-01-2003) ;dï¿½lï¿½guï¿½ du gouvernement auprï¿½s des universitï¿½s (= tantiï¿½me 1/30)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -67,7 +58,7 @@
 </ann43>
 <ann43>
 <Code>7</Code>
-<DescFr>Membre du Comité permanent de contrôle des services de police ; membre du Comité permanent de contrôle des services de renseignement (= tantième 1/20)</DescFr>
+<DescFr>Membre du Comitï¿½ permanent de contrï¿½le des services de police ; membre du Comitï¿½ permanent de contrï¿½le des services de renseignement (= tantiï¿½me 1/20)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -76,7 +67,7 @@
 </ann43>
 <ann43>
 <Code>8</Code>
-<DescFr>Ministre du culte catholique romain (= tantièmes multiples)</DescFr>
+<DescFr>Ministre du culte catholique romain (= tantiï¿½mes multiples)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -85,7 +76,7 @@
 </ann43>
 <ann43>
 <Code>9</Code>
-<DescFr>Ministre du culte protestant, anglican, orthodoxe, israélite ou islamique (= tantièmes multiples)</DescFr>
+<DescFr>Ministre du culte protestant, anglican, orthodoxe, israï¿½lite ou islamique (= tantiï¿½mes multiples)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -94,7 +85,7 @@
 </ann43>
 <ann43>
 <Code>10</Code>
-<DescFr>Magistrat ; membre du Conseil d'Etat, de la Cour Constitutionnelle ou de la Cour des Comptes ; médiateur fédéral ; médiateur flamand ; médiateur de la Région wallonne ; greffier du Comité permanent de contrôle des services de police ou du Comité permanent de contrôle des services de renseignement et de sécurité ; médiateur et médiateur adjoint de la Communauté française ; médiateur de la Communauté germanophone ; médiateur du service de médiation commun aux Parlements de la Région Wallonne et de la Communauté française (= tantièmes multiples)</DescFr>
+<DescFr>Magistrat ; membre du Conseil d'Etat, de la Cour Constitutionnelle ou de la Cour des Comptes ; mï¿½diateur fï¿½dï¿½ral ; mï¿½diateur flamand ; mï¿½diateur de la Rï¿½gion wallonne ; greffier du Comitï¿½ permanent de contrï¿½le des services de police ou du Comitï¿½ permanent de contrï¿½le des services de renseignement et de sï¿½curitï¿½ ; mï¿½diateur et mï¿½diateur adjoint de la Communautï¿½ franï¿½aise ; mï¿½diateur de la Communautï¿½ germanophone ; mï¿½diateur du service de mï¿½diation commun aux Parlements de la Rï¿½gion Wallonne et de la Communautï¿½ franï¿½aise (= tantiï¿½mes multiples)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -103,7 +94,7 @@
 </ann43>
 <ann43>
 <Code>11</Code>
-<DescFr>Gouverneur ou vice-gouverneur de Province ; vice-gouverneur de la Région de Bruxelles-Capitale (= tantièmes multiples)</DescFr>
+<DescFr>Gouverneur ou vice-gouverneur de Province ; vice-gouverneur de la Rï¿½gion de Bruxelles-Capitale (= tantiï¿½mes multiples)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -112,7 +103,7 @@
 </ann43>
 <ann43>
 <Code>12</Code>
-<DescFr>Commissaire d'arrondissement  ; commissaire d'arrondissement adjoint ; greffier à la Province de Liège (titulaire de cette fonction au 01-10-1987) (= tantièmes multiples)</DescFr>
+<DescFr>Commissaire d'arrondissement  ; commissaire d'arrondissement adjoint ; greffier ï¿½ la Province de Liï¿½ge (titulaire de cette fonction au 01-10-1987) (= tantiï¿½mes multiples)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -121,7 +112,7 @@
 </ann43>
 <ann43>
 <Code>13</Code>
-<DescFr>Membre d'une catégorie de personnel bénéficiant d'un tantième déterminé dans un règlement particulier (= tantième 1/40)</DescFr>
+<DescFr>Membre d'une catï¿½gorie de personnel bï¿½nï¿½ficiant d'un tantiï¿½me dï¿½terminï¿½ dans un rï¿½glement particulier (= tantiï¿½me 1/40)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -130,7 +121,7 @@
 </ann43>
 <ann43>
 <Code>14</Code>
-<DescFr>Membre d'une catégorie de personnel bénéficiant d'un tantième déterminé dans un règlement particulier (= tantième 1/45)</DescFr>
+<DescFr>Membre d'une catï¿½gorie de personnel bï¿½nï¿½ficiant d'un tantiï¿½me dï¿½terminï¿½ dans un rï¿½glement particulier (= tantiï¿½me 1/45)</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>Yes</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -175,7 +166,7 @@
 </ann43>
 <ann43>
 <Code>19</Code>
-<DescFr>Membre de la Députation permanente ou du collège provincial</DescFr>
+<DescFr>Membre de la Dï¿½putation permanente ou du collï¿½ge provincial</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>No</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -184,7 +175,7 @@
 </ann43>
 <ann43>
 <Code>20</Code>
-<DescFr>Président de CPAS ou président de BCSD</DescFr>
+<DescFr>Prï¿½sident de CPAS ou prï¿½sident de BCSD</DescFr>
 <DMFA>Yes</DMFA>
 <DMFAAPL>No</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -193,7 +184,7 @@
 </ann43>
 <ann43>
 <Code>21</Code>
-<DescFr>Vice-président de CPAS</DescFr>
+<DescFr>Vice-prï¿½sident de CPAS</DescFr>
 <DMFA>No</DMFA>
 <DMFAAPL>No</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -202,7 +193,7 @@
 </ann43>
 <ann43>
 <Code>22</Code>
-<DescFr>Président ou mandataire des agglomérations et fédérations de communes</DescFr>
+<DescFr>Prï¿½sident ou mandataire des agglomï¿½rations et fï¿½dï¿½rations de communes</DescFr>
 <DMFA>No</DMFA>
 <DMFAAPL>No</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
@@ -211,11 +202,12 @@
 </ann43>
 <ann43>
 <Code>23</Code>
-<DescFr>Mandataire des commissions de la culture de l'agglomération bruxelloise</DescFr>
+<DescFr>Mandataire des commissions de la culture de l'agglomï¿½ration bruxelloise</DescFr>
 <DMFA>No</DMFA>
 <DMFAAPL>No</DMFAAPL>
 <Capelo_DHG>Yes</Capelo_DHG>
 <Geldig_vanaf>2022/1</Geldig_vanaf>
 <Geldig_tot>9999/4</Geldig_tot>
 </ann43>
-</List>
+</List>
+

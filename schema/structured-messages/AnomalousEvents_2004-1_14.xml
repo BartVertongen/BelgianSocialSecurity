@@ -43,7 +43,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>12</code>
@@ -51,8 +54,14 @@
             <fr>Problème électrique - entra�nant un contact direct</fr>
             <nl>Elektrische storing - met direct contact als gevolg</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter> 
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>13</code>
@@ -64,7 +73,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>14</code>
@@ -76,7 +88,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>19</code>
@@ -88,7 +103,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>20</code>
@@ -103,7 +121,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>21</code>
@@ -115,7 +136,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>22</code>
@@ -127,7 +151,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>23</code>
@@ -135,8 +162,14 @@
             <fr>A l'état gazeux - vaporisation, formation d'aérosol, formation de gaz</fr>
             <nl>In gasvormige toestand - verdampen, aérosolvorming, gasvorming</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>24</code>
@@ -148,132 +181,219 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>29</code>
         <description>
-            <fr></fr>
+            <fr>Autre déviation connue du groupe 20 mais non listée ci-dessus</fr>
             <nl>Overige afwijkende gebeurtenissen, behorend tot groep 20, hierboven niet vermeld</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>30</code>
         <description>
-            <fr></fr>
+            <fr>Rupture, bris, éclatement, glissade, chute, effondrement d'Agent matériel - Non précise</fr>
             <nl>Breken, barsten, glijden, vallen, instorten van het betrokken voorwerp - niet gespecificeerd</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>31</code>
         <description>
-            <fr></fr>
+            <fr>Rupture de matériel, aux joints, aux connexions</fr>
             <nl>Breken van materiaal, op de voegen of verbindingen</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>32</code>
         <description>
-            <fr></fr>
+            <fr>Rupture, éclatement, causant des éclats (bois, verre, métal, pierre, plastique, autres)</fr>
             <nl>Breken, barsten, waarbij scherven/spanen ontstaan (hout, glas, metaal, steen, kunststof, overige)</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>33</code>
         <description>
-            <fr></fr>
+            <fr>Glissade, chute, effondrement d'agent matériel - supérieur (tombant sur la victime)</fr>
             <nl>Glijden, vallen, instorten van het betrokken voorwerp - hoger gelegen (op het slachtoffer vallend)</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>34</code>
         <description>
-            <fr></fr>
+            <fr>Glissade, chute, effondrement d'agent matériel - inférieur (entra�nant la victime)</fr>
             <nl>Glijden, vallen, instorten van het betrokken voorwerp - lager gelegen (het slachtoffer meeslepend)</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>35</code>
         <description>
-            <fr></fr>
+            <fr>Glissade, chute, effondrement d'Agent matériel - de plain-pied</fr>
             <nl>Glijden, vallen, instorten van het betrokken voorwerp - op gelijke hoogte gelegen</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>39</code>
         <description>
-            <fr></fr>
+            <fr>Autre déviation connue du groupe 30 mais non listée ci-dessus</fr>
             <nl>Overige afwijkende gebeurtenissen, behorend tot groep 30, hierboven niet vermeld</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>40</code>
         <description>
-            <fr></fr>
+            <fr>
+                Perte, totale ou partielle, de controle de machine, moyen de transport - équipement de 
+                manutention, outil à main, objet, animal - Non précise
+            </fr>
             <nl>
                 Verlies van controle (geheel of gedeeltelijk) over een machine, vervoer- of transportmiddel,
                 handgereedschap, voorwerp, dier - niet gespecificeerd
             </nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>41</code>
         <description>
-            <fr></fr>
+            <fr>
+                 Perte, totale ou partielle, de controle - de machine (y compris le démarrage intempestif) ainsi 
+                 que de la matière travaillée par la machine
+            </fr>
             <nl>
                 Verlies van controle (geheel of gedeeltelijk) - over een machine (inclusief onbedoeld starten)
                 en over het met de machine bewerkte materiaal
             </nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>42</code>
         <description>
-            <fr></fr>
+            <fr>
+                 Perte, totale ou partielle, de controle de moyen de transport - d'équipement de 
+                 manutention (motorisé ou non)
+            </fr>
             <nl>
                 Verlies van controle (geheel of gedeeltelijk) - over een vervoer- of transportmiddel
                 (al dan niet gemotoriseerd)
             </nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>43</code>
         <description>
-            <fr></fr>
+            <fr> 
+                Perte, totale ou partielle, de controle d'outil à main (motorisé ou non) ainsi que de la
+                 matière travaillée par l'outil
+            </fr>
             <nl>
                 Verlies van controle (geheel of gedeeltelijk) - over een handgereedschap
                 (al dan niet gemotoriseerd) en over het met het gereedschap bewerkte materiaal
             </nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>44</code>
         <description>
-            <fr></fr>
+            <fr>Perte, totale ou partielle, de controle d'objet (porté, déplacé, manipulé, etc.)</fr>
             <nl>
                 Verlies van controle (geheel of gedeeltelijk) - over een voorwerp
                 (dat wordt gedragen, verplaatst, gehanteerd enz.)
@@ -291,259 +411,418 @@
     <anomalous-event>
         <code>45</code>
         <description>
-            <fr></fr>
+            <fr>Perte, totale ou partielle, de controle d'animal</fr>
             <nl>Verlies van controle (geheel of gedeeltelijk) - over een dier</nl>
         </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>49</code>
         <description>
-            <fr></fr>
+            <fr>Autre déviation connue du groupe 40 mais non listée ci-dessus</fr>
             <nl>Overige afwijkende gebeurtenissen, behorend tot groep 40, hierboven niet vermeld</nl>
         </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>50</code>
-        <description>Uitglijden of struikelen met val, vallen van personen - niet gespecificeerd</description>
+        <description>
+            <fr>Glissade ou trébuchement avec chute, chute de personne - Non précisé</fr>
+            <nl>Uitglijden of struikelen met val, vallen van personen - niet gespecificeerd</nl>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>51</code>
         <description>
-            <fr></fr>
+            <fr>Chute de personne - de hauteur</fr>
             <nl>Vallen van personen - van hoogte</nl>
         </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>52</code>
         <description>
-            <fr></fr>
-            <nl>Uitglijden of struikelen met val, vallen van personen - op � dezelfde hoogte</nl>
+            <fr>Glissade ou trébuchement avec chute, chute de personne - de plain-pied</fr>
+            <nl>Uitglijden of struikelen met val, vallen van personen - op dezelfde hoogte</nl>
         </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>59</code>
         <description>
-            <fr></fr>
+            <fr>Autre déviation connue du groupe 50 mais non listée ci-dessus</fr>
             <nl>Overige afwijkende gebeurtenissen, behorend tot groep 50, hierboven niet vermeld</nl>
         </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>60</code>
         <description>
-            <fr></fr>
-            <nl>
-                Bewegen van het lichaam zonder fysieke belasting (doorgaans leidend tot uitwendig letsel)
-                - niet gespecificeerd
-            </nl>
+            <fr>Mouvement du corps sans contrainte physique (conduisant généralement à une blessure externe) - Non précise</fr>
+            <nl>Bewegen van het lichaam zonder fysieke belasting (doorgaans leidend tot uitwendig letsel)- niet gespecificeerd</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>61</code>
         <description>
-            <fr></fr>
+            <fr>En marchant sur un objet coupant</fr>
             <nl>Op een snijdend voorwerp stappen</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
     <code>62</code>
         <description>
-            <fr></fr>
+            <fr>En s'agenouillant, s'asseyant, s'appuyant contre</fr>
             <nl>Knielen, gaan zitten, tegen iets leunen</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>63</code>
         <description>
-            <fr></fr>
+            <fr>En étant attrapé, entra�n�, par quelque chose ou par son élan</fr>
             <nl>Door een voorwerp of de vaart daarvan gegrepen of meegesleept worden</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
     <code>64</code>
         <description>
-            <fr></fr>
+            <fr>Mouvements non coordonnés, gestes intempestifs, inopportuns</fr>
             <nl>Ongecoördineerde, onbeheerste of verkeerde bewegingen</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>69</code>
         <description>
-            <fr></fr>
+            <fr>Autre déviation connue du groupe 60 mais non listée ci-dessus</fr>
             <nl>Overige afwijkende gebeurtenissen, behorend tot groep 60, hierboven niet vermeld</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>70</code>
         <description>
-            <fr></fr>
-            <nl>
-                Bewegen van het lichaam met of zonder fysieke belasting (doorgaans leidend tot inwendig letsel)
-                - niet gespecificeerd
-            </nl>
+            <fr>Mouvement du corps sous ou avec contrainte physique (conduisant généralement à une blessure interne) - Non précise</fr>
+            <nl>Bewegen van het lichaam met of zonder fysieke belasting (doorgaans leidend tot inwendig letsel)- niet gespecificeerd</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>71</code>
         <description>
-            <fr></fr>
+            <fr>En soulevant, en portant, en se levant</fr>
             <nl>Optillen, dragen, opstaan</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>72</code>
         <description>
-            <fr></fr>
+            <fr>En poussant, en tractant</fr>
             <nl>Duwen, trekken</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+             <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>73</code>
         <description>
-            <fr></fr>
+            <fr>En déposant, en se baissant</fr>
             <nl>Neerzetten, bukken</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>74</code>
-        <description>Buigen, draaien, zich omdraaien</description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <description>
+            <fr>En torsion, en rotation, en se tournant</fr>
+            <nl>Buigen, draaien, zich omdraaien</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>75</code>
-        <description>Zwaarbeladen lopen, misstap of uitglijden zonder vallen</description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <description>
+             <fr>En marchant lourdement, faux pas, glissade - sans chute</fr>
+             <nl>Zwaarbeladen lopen, misstap of uitglijden zonder vallen</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>79</code>
-        <description>Overige afwijkende gebeurtenissen, behorend tot groep 70, hierboven niet vermeld</description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <description>
+            <fr>Autre déviation connue du groupe 70 mais non listée ci-dessus</fr>
+            <nl>Overige afwijkende gebeurtenissen, behorend tot groep 70, hierboven niet vermeld</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>80</code>
-        <description>Verrassing, schrik, geweldpleging, agressie, bedreiging, aanwezig zijn - niet gespecificeerd</description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <description>
+            <fr>Surprise, frayeur, violence, agression, menace, présence - Non précisé</fr>
+            <nl>Verrassing, schrik, geweldpleging, agressie, bedreiging, aanwezig zijn - niet gespecificeerd</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>81</code>
         <description>
-            <fr></fr>
+            <fr>Surprise, fayeur</fr>
             <nl>Verrassing, schrik</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>82</code>
         <description>
-            <fr></fr>
+            <fr>Violence, agression, menace entre membres de l'entreprise soumis à l'autorité de l'employeur</fr>
             <nl>Geweldpleging, agressie, bedreiging tussen personeelsleden van de werkgever</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>83</code>
         <description>
-            <fr></fr>
+            <fr>
+                Violence, agression, menace - provenant de personnes externes à l'entreprise envers 
+                les victimes dans le cadre de leur fonction (attaque de banque, chauffeurs de bus, etc.)
+            </fr>
             <nl>
                 Geweldpleging, agressie, bedreiging - door buitenstaanders jegens de
                 slachtoffers in het kader van hun beroepsuitoefening (bankoverval, buschauffeurs)
             </nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>84</code>
         <description>
-            <fr></fr>
+            <fr>Agression, bousculade - par animal</fr>
             <nl>Aangevallen, omvergelopen worden - door een dier</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>85</code>
         <description>
-            <fr></fr>
+            <fr>
+                Présence de la victime ou d'un tiers créant en soi un danger pour elle/lui-même
+                et le cas échéant pour autrui
+            </fr>
             <nl>
                 Aanwezig zijn van het slachtoffer of van een ander waardoor gevaar voor
                 de persoon zelf en eventueel ook voor anderen ontstaat
             </nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>89</code>
         <description>
-            <fr></fr>
+            <fr>Autre déviation connue du groupe 80 mais non listée ci-dessus</fr>
             <nl>Overige afwijkende gebeurtenissen, behorend tot groep 80, hierboven niet vermeld</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
     <anomalous-event>
         <code>99</code>
         <description>
-            <fr></fr>
+            <fr>Autre Déviation non listée dans cette classification</fr>
             <nl>Overige afwijkende gebeurtenissen, niet in deze lijst vermeld</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </anomalous-event>
 </anomalous-events>

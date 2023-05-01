@@ -75,3 +75,22 @@ VALUES (90573, "Werkgevende onderneming", "SubContractorEmployerId");
 INSERT INTO functional_blocks (Id, NameNL, XmlLabel)
 VALUES (90594, "Kleine statuten - Informatie", "SmallStatutesInformation");
 
+INSERT INTO functional_blocks (Id, NameNL, XmlLabel)
+VALUES (90181, "Ontvangstbewijs van het bestand", "ACRF");
+
+INSERT INTO functional_blocks (Id, NameNL, XmlLabel)
+VALUES (90102, "Referentie van het ontvangen bestand", "FileReference");
+
+INSERT INTO functional_blocks (Id, NameNL, XmlLabel)
+VALUES (90167, "Resultaat van de ontvangstverwerking", "ReceptionResult");
+
+INSERT INTO functional_blocks (Id, NameNL, XmlLabel)
+VALUES (90074, "Aard van de dag", "NatureOfDay");
+
+INSERT INTO functional_blocks (Id, NameNL, XmlLabel)
+VALUES (90030, "Berekeningsbasis bijzondere omstandigheden", "ExceptSituationCalculBase");
+
+INSERT INTO functional_blocks (Id, NameNL, XmlLabel)
+VALUES (90405, "Berekeningsbasis - Referteperiode", "CalculBaseRefPeriod");
+
+
