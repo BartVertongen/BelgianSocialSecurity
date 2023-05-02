@@ -1,19 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- NL -- ISCO Code -->
-<!-- FR -- Codes CITP -->
-<!DOCTYPE List [
-     <!ELEMENT ann18 (Validite?, Niveau1?, Niveau2?, Niveau3?, Code?
-	        , Omschrijving?, begin_geldigheid?, einde_geldigheid?)>
-     <!ELEMENT List (ann18+)>
-     <!ELEMENT Validite (#PCDATA)>
-     <!ELEMENT Niveau1 (#PCDATA)>
-     <!ELEMENT Niveau2 (#PCDATA)>
-     <!ELEMENT Niveau3 (#PCDATA)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT Omschrijving (#PCDATA)>
-     <!ELEMENT begin_geldigheid (#PCDATA)>
-     <!ELEMENT einde_geldigheid (#PCDATA)>
-]>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./Test01.xsl"?>
+<!-- NL  ISCO Code -->
+<!-- FR  Codes CITP -->
 <List>
     <ann18>
         <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
@@ -291,7 +279,7 @@
     <Niveau2>13 - Managers op het gebied van productie en gespecialiseerde diensten</Niveau2>
     <Niveau3>134 -  Managers op het gebied van professionele diensten</Niveau3>
     <Code>1346</Code>
-    <Omschrijving>Filiaalhouders op het gebied van financiële dienstverlening en verzekeringen</Omschrijving>
+    <Omschrijving>Filiaalhouders op het gebied van financiï¿½le dienstverlening en verzekeringen</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -411,7 +399,7 @@
     <Niveau2>21 - Wetenschappers en ingenieurs</Niveau2>
     <Niveau3>213 -  Biowetenschappers</Niveau3>
     <Code>2131</Code>
-    <Omschrijving>Biologen, botanici, zoölogen en dergelijke</Omschrijving>
+    <Omschrijving>Biologen, botanici, zoï¿½logen en dergelijke</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -681,7 +669,7 @@
     <Niveau2>22 - Specialisten op het gebied van de gezondheidszorg</Niveau2>
     <Niveau3>226 -  Andere specialisten op het gebied van de gezondheidszorg</Niveau3>
     <Code>2263</Code>
-    <Omschrijving>Specialisten op het gebied van de milieu- en arbeidshygiëne</Omschrijving>
+    <Omschrijving>Specialisten op het gebied van de milieu- en arbeidshygiï¿½ne</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -701,7 +689,7 @@
     <Niveau2>22 - Specialisten op het gebied van de gezondheidszorg</Niveau2>
     <Niveau3>226 -  Andere specialisten op het gebied van de gezondheidszorg</Niveau3>
     <Code>2265</Code>
-    <Omschrijving>Diëtisten en voedingsdeskundigen</Omschrijving>
+    <Omschrijving>Diï¿½tisten en voedingsdeskundigen</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -1389,7 +1377,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>3 - Technici en verwante beroepen</Niveau1>
     <Niveau2>31 - Technici op het gebied van wetenschap en techniek</Niveau2>
-    <Niveau3>313 -  Technici voor het beheer en de controle van industriële processen</Niveau3>
+    <Niveau3>313 -  Technici voor het beheer en de controle van industriï¿½le processen</Niveau3>
     <Code>3131</Code>
     <Omschrijving>Procesoperatoren van elektriciteitscentrales</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -1399,7 +1387,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>3 - Technici en verwante beroepen</Niveau1>
     <Niveau2>31 - Technici op het gebied van wetenschap en techniek</Niveau2>
-    <Niveau3>313 -  Technici voor het beheer en de controle van industriële processen</Niveau3>
+    <Niveau3>313 -  Technici voor het beheer en de controle van industriï¿½le processen</Niveau3>
     <Code>3132</Code>
     <Omschrijving>Procesoperatoren van verbrandingsovens en waterzuiveringsinstallaties</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -1409,7 +1397,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>3 - Technici en verwante beroepen</Niveau1>
     <Niveau2>31 - Technici op het gebied van wetenschap en techniek</Niveau2>
-    <Niveau3>313 -  Technici voor het beheer en de controle van industriële processen</Niveau3>
+    <Niveau3>313 -  Technici voor het beheer en de controle van industriï¿½le processen</Niveau3>
     <Code>3133</Code>
     <Omschrijving>Procesoperatoren van chemische installaties</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -1419,7 +1407,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>3 - Technici en verwante beroepen</Niveau1>
     <Niveau2>31 - Technici op het gebied van wetenschap en techniek</Niveau2>
-    <Niveau3>313 -  Technici voor het beheer en de controle van industriële processen</Niveau3>
+    <Niveau3>313 -  Technici voor het beheer en de controle van industriï¿½le processen</Niveau3>
     <Code>3134</Code>
     <Omschrijving>Procesoperatoren van aardolie- en aardgasraffinaderijen</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -1429,7 +1417,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>3 - Technici en verwante beroepen</Niveau1>
     <Niveau2>31 - Technici op het gebied van wetenschap en techniek</Niveau2>
-    <Niveau3>313 -  Technici voor het beheer en de controle van industriële processen</Niveau3>
+    <Niveau3>313 -  Technici voor het beheer en de controle van industriï¿½le processen</Niveau3>
     <Code>3135</Code>
     <Omschrijving>Procesoperatoren metaalproductie</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -1439,9 +1427,9 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>3 - Technici en verwante beroepen</Niveau1>
     <Niveau2>31 - Technici op het gebied van wetenschap en techniek</Niveau2>
-    <Niveau3>313 -  Technici voor het beheer en de controle van industriële processen</Niveau3>
+    <Niveau3>313 -  Technici voor het beheer en de controle van industriï¿½le processen</Niveau3>
     <Code>3139</Code>
-    <Omschrijving>Technici voor het beheer en de controle van industriële processen, niet elders geclassificeerd</Omschrijving>
+    <Omschrijving>Technici voor het beheer en de controle van industriï¿½le processen, niet elders geclassificeerd</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -1611,7 +1599,7 @@
     <Niveau2>32 - Technici op het gebied van de gezondheidszorg</Niveau2>
     <Niveau3>325 -  Ander ondersteunend personeel op het gebied van de gezondheidszorg</Niveau3>
     <Code>3251</Code>
-    <Omschrijving>Tandartsassistenten en mondhygiënisten</Omschrijving>
+    <Omschrijving>Tandartsassistenten en mondhygiï¿½nisten</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -1671,7 +1659,7 @@
     <Niveau2>32 - Technici op het gebied van de gezondheidszorg</Niveau2>
     <Niveau3>325 -  Ander ondersteunend personeel op het gebied van de gezondheidszorg</Niveau3>
     <Code>3257</Code>
-    <Omschrijving>Milieu-inspecteurs, inspecteurs arbeidshygiëne, inspecteurs voedselhygiëne en -veiligheid en dergelijke</Omschrijving>
+    <Omschrijving>Milieu-inspecteurs, inspecteurs arbeidshygiï¿½ne, inspecteurs voedselhygiï¿½ne en -veiligheid en dergelijke</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -2021,7 +2009,7 @@
     <Niveau2>34 - Ondersteunend personeel op juridisch, maatschappelijk en cultureel gebied</Niveau2>
     <Niveau3>343 -  Vakspecialisten op artistiek, cultureel en culinair gebied</Niveau3>
     <Code>3433</Code>
-    <Omschrijving>Technici in galerieën, musea en bibliotheken</Omschrijving>
+    <Omschrijving>Technici in galerieï¿½n, musea en bibliotheken</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -2251,7 +2239,7 @@
     <Niveau2>42 - Klantenbedienend personeel</Niveau2>
     <Niveau3>422 -  Klanteninformatieverstrekkers</Niveau3>
     <Code>4227</Code>
-    <Omschrijving>Interviewers voor enquêtes en marktonderzoek</Omschrijving>
+    <Omschrijving>Interviewers voor enquï¿½tes en marktonderzoek</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -2268,8 +2256,8 @@
     <ann18>
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>4 - Administratief personeel</Niveau1>
-    <Niveau2>43 - Administratief personeel in de boekhouding, financiën, loonadministratie en dergelijke en magazijniers</Niveau2>
-    <Niveau3>431 -  Administratief personeel in de boekhouding, financiën, loonadministratie en dergelijke</Niveau3>
+    <Niveau2>43 - Administratief personeel in de boekhouding, financiï¿½n, loonadministratie en dergelijke en magazijniers</Niveau2>
+    <Niveau3>431 -  Administratief personeel in de boekhouding, financiï¿½n, loonadministratie en dergelijke</Niveau3>
     <Code>4311</Code>
     <Omschrijving>Administratief personeel: boekhouding</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -2278,18 +2266,18 @@
     <ann18>
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>4 - Administratief personeel</Niveau1>
-    <Niveau2>43 - Administratief personeel in de boekhouding, financiën, loonadministratie en dergelijke en magazijniers</Niveau2>
-    <Niveau3>431 -  Administratief personeel in de boekhouding, financiën, loonadministratie en dergelijke</Niveau3>
+    <Niveau2>43 - Administratief personeel in de boekhouding, financiï¿½n, loonadministratie en dergelijke en magazijniers</Niveau2>
+    <Niveau3>431 -  Administratief personeel in de boekhouding, financiï¿½n, loonadministratie en dergelijke</Niveau3>
     <Code>4312</Code>
-    <Omschrijving>Administratief personeel: statistiek, financiën en verzekeringen</Omschrijving>
+    <Omschrijving>Administratief personeel: statistiek, financiï¿½n en verzekeringen</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
     <ann18>
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>4 - Administratief personeel</Niveau1>
-    <Niveau2>43 - Administratief personeel in de boekhouding, financiën, loonadministratie en dergelijke en magazijniers</Niveau2>
-    <Niveau3>431 -  Administratief personeel in de boekhouding, financiën, loonadministratie en dergelijke</Niveau3>
+    <Niveau2>43 - Administratief personeel in de boekhouding, financiï¿½n, loonadministratie en dergelijke en magazijniers</Niveau2>
+    <Niveau3>431 -  Administratief personeel in de boekhouding, financiï¿½n, loonadministratie en dergelijke</Niveau3>
     <Code>4313</Code>
     <Omschrijving>Administratief personeel: loonadministratie</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -2298,7 +2286,7 @@
     <ann18>
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>4 - Administratief personeel</Niveau1>
-    <Niveau2>43 - Administratief personeel in de boekhouding, financiën, loonadministratie en dergelijke en magazijniers</Niveau2>
+    <Niveau2>43 - Administratief personeel in de boekhouding, financiï¿½n, loonadministratie en dergelijke en magazijniers</Niveau2>
     <Niveau3>432 -  Magazijniers en logistiek medewerkers</Niveau3>
     <Code>4321</Code>
     <Omschrijving>Magazijniers</Omschrijving>
@@ -2308,7 +2296,7 @@
     <ann18>
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>4 - Administratief personeel</Niveau1>
-    <Niveau2>43 - Administratief personeel in de boekhouding, financiën, loonadministratie en dergelijke en magazijniers</Niveau2>
+    <Niveau2>43 - Administratief personeel in de boekhouding, financiï¿½n, loonadministratie en dergelijke en magazijniers</Niveau2>
     <Niveau3>432 -  Magazijniers en logistiek medewerkers</Niveau3>
     <Code>4322</Code>
     <Omschrijving>Logistiek medewerkers: productie</Omschrijving>
@@ -2318,7 +2306,7 @@
     <ann18>
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>4 - Administratief personeel</Niveau1>
-    <Niveau2>43 - Administratief personeel in de boekhouding, financiën, loonadministratie en dergelijke en magazijniers</Niveau2>
+    <Niveau2>43 - Administratief personeel in de boekhouding, financiï¿½n, loonadministratie en dergelijke en magazijniers</Niveau2>
     <Niveau3>432 -  Magazijniers en logistiek medewerkers</Niveau3>
     <Code>4323</Code>
     <Omschrijving>Logistiek medewerkers: vervoer</Omschrijving>
@@ -2479,7 +2467,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>5 - Dienstverlenend personeel en verkopers</Niveau1>
     <Niveau2>51 - Medewerkers persoonlijke dienstverlening</Niveau2>
-    <Niveau3>515 -  Toezichthouders van huishoudelijk personeel en conciërges</Niveau3>
+    <Niveau3>515 -  Toezichthouders van huishoudelijk personeel en conciï¿½rges</Niveau3>
     <Code>5151</Code>
     <Omschrijving>Toezichthouders van huishoudelijk en schoonmaakpersoneel in kantoren, hotels en dergelijke accomodatie</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -2489,7 +2477,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>5 - Dienstverlenend personeel en verkopers</Niveau1>
     <Niveau2>51 - Medewerkers persoonlijke dienstverlening</Niveau2>
-    <Niveau3>515 -  Toezichthouders van huishoudelijk personeel en conciërges</Niveau3>
+    <Niveau3>515 -  Toezichthouders van huishoudelijk personeel en conciï¿½rges</Niveau3>
     <Code>5152</Code>
     <Omschrijving>Huismeesters  in particuliere huishoudens</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -2499,9 +2487,9 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>5 - Dienstverlenend personeel en verkopers</Niveau1>
     <Niveau2>51 - Medewerkers persoonlijke dienstverlening</Niveau2>
-    <Niveau3>515 -  Toezichthouders van huishoudelijk personeel en conciërges</Niveau3>
+    <Niveau3>515 -  Toezichthouders van huishoudelijk personeel en conciï¿½rges</Niveau3>
     <Code>5153</Code>
-    <Omschrijving>Conciërges</Omschrijving>
+    <Omschrijving>Conciï¿½rges</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -2699,9 +2687,9 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>5 - Dienstverlenend personeel en verkopers</Niveau1>
     <Niveau2>53 - Verzorgend personeel</Niveau2>
-    <Niveau3>531 -  Verzorgend personeel in kinderdagverblijven, créches en dergelijke, onthaalmoeders en onderwijsassistenten</Niveau3>
+    <Niveau3>531 -  Verzorgend personeel in kinderdagverblijven, crï¿½ches en dergelijke, onthaalmoeders en onderwijsassistenten</Niveau3>
     <Code>5311</Code>
-    <Omschrijving>Verzorgend personeel in kinderdagverblijven, crèches en dergelijke en onthaalmoeders</Omschrijving>
+    <Omschrijving>Verzorgend personeel in kinderdagverblijven, crï¿½ches en dergelijke en onthaalmoeders</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -2709,7 +2697,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>5 - Dienstverlenend personeel en verkopers</Niveau1>
     <Niveau2>53 - Verzorgend personeel</Niveau2>
-    <Niveau3>531 -  Verzorgend personeel in kinderdagverblijven, créches en dergelijke, onthaalmoeders en onderwijsassistenten</Niveau3>
+    <Niveau3>531 -  Verzorgend personeel in kinderdagverblijven, crï¿½ches en dergelijke, onthaalmoeders en onderwijsassistenten</Niveau3>
     <Code>5312</Code>
     <Omschrijving>Onderwijsassistenten</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -3229,7 +3217,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>7 - Ambachtslieden</Niveau1>
     <Niveau2>72 - Metaalarbeiders, machinemonteurs en dergelijke</Niveau2>
-    <Niveau3>723 -  Monteurs en reparateurs van motorvoertuigen, vliegtuigmotoren, industriële en landbouwmachines en fietsen</Niveau3>
+    <Niveau3>723 -  Monteurs en reparateurs van motorvoertuigen, vliegtuigmotoren, industriï¿½le en landbouwmachines en fietsen</Niveau3>
     <Code>7231</Code>
     <Omschrijving>Monteurs en reparateurs van motorvoertuigen</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -3239,7 +3227,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>7 - Ambachtslieden</Niveau1>
     <Niveau2>72 - Metaalarbeiders, machinemonteurs en dergelijke</Niveau2>
-    <Niveau3>723 -  Monteurs en reparateurs van motorvoertuigen, vliegtuigmotoren, industriële en landbouwmachines en fietsen</Niveau3>
+    <Niveau3>723 -  Monteurs en reparateurs van motorvoertuigen, vliegtuigmotoren, industriï¿½le en landbouwmachines en fietsen</Niveau3>
     <Code>7232</Code>
     <Omschrijving>Monteurs en reparateurs van vliegtuigmotoren</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -3249,9 +3237,9 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>7 - Ambachtslieden</Niveau1>
     <Niveau2>72 - Metaalarbeiders, machinemonteurs en dergelijke</Niveau2>
-    <Niveau3>723 -  Monteurs en reparateurs van motorvoertuigen, vliegtuigmotoren, industriële en landbouwmachines en fietsen</Niveau3>
+    <Niveau3>723 -  Monteurs en reparateurs van motorvoertuigen, vliegtuigmotoren, industriï¿½le en landbouwmachines en fietsen</Niveau3>
     <Code>7233</Code>
-    <Omschrijving>Monteurs en reparateurs van industriële en landbouwmachines</Omschrijving>
+    <Omschrijving>Monteurs en reparateurs van industriï¿½le en landbouwmachines</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann18>
@@ -3259,7 +3247,7 @@
     <Validite>ISCO08 - nomenclatuur geldig voor de arbeidsongevallen vanaf 2012</Validite>
     <Niveau1>7 - Ambachtslieden</Niveau1>
     <Niveau2>72 - Metaalarbeiders, machinemonteurs en dergelijke</Niveau2>
-    <Niveau3>723 -  Monteurs en reparateurs van motorvoertuigen, vliegtuigmotoren, industriële en landbouwmachines en fietsen</Niveau3>
+    <Niveau3>723 -  Monteurs en reparateurs van motorvoertuigen, vliegtuigmotoren, industriï¿½le en landbouwmachines en fietsen</Niveau3>
     <Code>7234</Code>
     <Omschrijving>Monteurs en reparateurs van fietsen en dergelijke</Omschrijving>
     <begin_geldigheid>01/01/2012</begin_geldigheid>
@@ -4581,7 +4569,7 @@
     <Niveau2>-</Niveau2>
     <Niveau3>-</Niveau3>
     <Code>241</Code>
-    <Omschrijving>Specialisten in de administratieve en commerciële functies van de bedrijven</Omschrijving>
+    <Omschrijving>Specialisten in de administratieve en commerciï¿½le functies van de bedrijven</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/2011</einde_geldigheid>
     </ann18>
@@ -4681,7 +4669,7 @@
     <Niveau2>-</Niveau2>
     <Niveau3>-</Niveau3>
     <Code>315</Code>
-    <Omschrijving>Inspecteurs van gebouwen, veiligheids-, hygiëne- en kwaliteitsinspecteurs</Omschrijving>
+    <Omschrijving>Inspecteurs van gebouwen, veiligheids-, hygiï¿½ne- en kwaliteitsinspecteurs</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/2011</einde_geldigheid>
     </ann18>
@@ -4771,7 +4759,7 @@
     <Niveau2>-</Niveau2>
     <Niveau3>-</Niveau3>
     <Code>341</Code>
-    <Omschrijving>Ondergeschikt personeel in financiën en verkoop</Omschrijving>
+    <Omschrijving>Ondergeschikt personeel in financiï¿½n en verkoop</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/2011</einde_geldigheid>
     </ann18>
@@ -4861,7 +4849,7 @@
 <Niveau2>-</Niveau2>
 <Niveau3>-</Niveau3>
 <Code>412</Code>
-<Omschrijving>Bedienden in boekhoudkundige en financiële diensten</Omschrijving>
+<Omschrijving>Bedienden in boekhoudkundige en financiï¿½le diensten</Omschrijving>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2011</einde_geldigheid>
 </ann18>
@@ -5271,7 +5259,7 @@
         <Niveau2>-</Niveau2>
         <Niveau3>-</Niveau3>
         <Code>815</Code>
-        <Omschrijving>Bestuurders van uitrustingen voor chemicaliënbewerking</Omschrijving>
+        <Omschrijving>Bestuurders van uitrustingen voor chemicaliï¿½nbewerking</Omschrijving>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>31/12/2011</einde_geldigheid>
     </ann18>
@@ -5291,7 +5279,7 @@
         <Niveau2>-</Niveau2>
         <Niveau3>-</Niveau3>
         <Code>817</Code>
-        <Omschrijving>Bestuurders van automatische montageketens en van industriële robots</Omschrijving>
+        <Omschrijving>Bestuurders van automatische montageketens en van industriï¿½le robots</Omschrijving>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>31/12/2011</einde_geldigheid>
     </ann18>
@@ -5301,7 +5289,7 @@
         <Niveau2>-</Niveau2>
         <Niveau3>-</Niveau3>
         <Code>821</Code>
-        <Omschrijving>Bestuurders van machines voor metaal- en mineraliënbewerking</Omschrijving>
+        <Omschrijving>Bestuurders van machines voor metaal- en mineraliï¿½nbewerking</Omschrijving>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>31/12/2011</einde_geldigheid>
     </ann18>
@@ -5311,7 +5299,7 @@
         <Niveau2>-</Niveau2>
         <Niveau3>-</Niveau3>
         <Code>822</Code>
-        <Omschrijving>Bestuurders van machines voor chemicaliënproductie</Omschrijving>
+        <Omschrijving>Bestuurders van machines voor chemicaliï¿½nproductie</Omschrijving>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>31/12/2011</einde_geldigheid>
     </ann18>

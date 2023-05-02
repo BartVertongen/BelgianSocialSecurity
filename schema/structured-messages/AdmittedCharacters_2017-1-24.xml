@@ -84,17 +84,13 @@
         <dec-value>67</dec-value>
     </admitted-character>
 
-
-</admitted-characters>
-
-
-Caract�res admis;D;44;68;;01/01/1900;01/01/9999
-Caract�res admis;E;45;69;;01/01/1900;01/01/9999
-Caract�res admis;F;46;70;;01/01/1900;01/01/9999
-Caract�res admis;G;47;71;;01/01/1900;01/01/9999
-Caract�res admis;H;48;72;;01/01/1900;01/01/9999
-Caract�res admis;I;49;73;;01/01/1900;01/01/9999
-Caract�res admis;J;4A;74;;01/01/1900;01/01/9999
+;D;44;68;
+E;45;69;
+;F;46;70;
+G;47;71;
+H;48;72;;
+Caract�res admis;I;49;73;
+Caract�res admis;J;4A;74;
 Caract�res admis;K;4B;75;;01/01/1900;01/01/9999
 Caract�res admis;L;4C;76;;01/01/1900;01/01/9999
 Caract�res admis;M;4D;77;;01/01/1900;01/01/9999
@@ -201,7 +197,11 @@ Caract�res traduits;�;EA;234;U;01/01/1900;01/01/9999
 Caract�res traduits;v;76;118;V;01/01/1900;01/01/9999
 Caract�res traduits;w;77;119;W;01/01/1900;01/01/9999
 Caract�res traduits;x;78;120;X;01/01/1900;01/01/9999
-Caract�res traduits;�;ED;237;Y;01/01/1900;01/01/9999
-Caract�res traduits;y;79;121;Y;01/01/1900;01/01/9999
-Caract�res traduits;z;7A;122;Z;01/01/1900;01/01/9999
-Caract�res traduits;�;F8;248;O;01/01/1900;01/01/9999
+Caract�res traduits;�;ED;237;Y;
+Caract�res traduits;y;79;121;Y;
+Caract�res traduits;z;7A;122;Z;
+Caract�res traduits;�;F8;248;O;
+
+
+
+</admitted-characters>

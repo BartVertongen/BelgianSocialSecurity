@@ -17,6 +17,16 @@
                     NIET rechtstreeks deelneemt aan de brandbestrijding (= tantième 1/60).
                </nl>
                <fr>
+                    Membre du personnel administratif (fédéral, communautaire, régional, provincial, local
+                    , d'une université communautaire, d'une entreprise publique autonome) 
+                    ; membre du personnel d'un centre psycho-médico-social ou d'un office d'orientation scolaire 
+                    ; membre du personnel du cadre administratif et logistique de la police 
+                    ; délégué du Conseil central laïque ; stagiaire judiciaire 
+                    ; délégué général de la Communauté française aux droits de l'enfant 
+                    ; personne désignée pour exercer une fonction de management ou d'encadrement dans un service public
+                    , membre du personnel administratif d'une zone de secours 
+                    ; membre du personnel opérationnel d'une zone de secours qui NE participe 
+                    PAS directement à la lutte contre le feu (tantième 1/60)
                </fr>
           </description>
           <DMFA>Yes</DMFA>
@@ -34,8 +44,13 @@
      <worker-category-government>
           <code>2</code>
           <description>
-               <nl>Meesters-, vak- en dienstpersoneel (gemeenschapsonderwijs inbegrepen) (= tantième 1/60 of percentage Rijkswerkliedenkas)</nl>
+               <nl>
+                    Meesters-, vak- en dienstpersoneel (gemeenschapsonderwijs inbegrepen)
+                    (= tantième 1/60 of percentage Rijkswerkliedenkas)
+               </nl>
                <fr>
+                    Personnel de maîtrise, gens de métier et de service (y compris de l'enseignement communautaire) 
+                    (= tantième 1/60 ou pourcentage Caisse des Ouvriers de l'Etat)
                </fr>
           </description>
           <DMFA>Yes</DMFA>
@@ -66,9 +81,25 @@
                     ; lid van het onderwijzend personeel aan de voorbereidende divisie van de Koninklijke Militaire School
                     ; taalleraar aan de School voor Rijkswachtofficieren; lid van het personeel van de RTBF
                     ; lid van het niet-rijdend personeel van de NMBS-Holding
-                    ; lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/55)
+                    ; lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald
+                    (= tantième 1/55)
                </nl>
-               <fr></fr>
+               <fr>
+                    Membre du personnel de l'enseignement (sauf ouvrier) ; membre du personnel scientifique d'une université
+                    ; membre du personnel enseignant d'une université de la Communauté  française en qualité de chargé de cours
+                    , chargé de cours associé ou titulaire d'un grade équivalent (sans service en cette qualité avant le 01-01-2003) 
+                    ; membre du personnel enseignant d'une université de la Communauté flamande en qualité de chargé de cours 
+                    (sans service comme chargé de cours avant le 01-01-1991)
+                    , de chargé de cours associé (sans service comme chargé de cours associé avant le 01-01-1991) de chargé de cours
+                    principal (sans service comme chargé de cours principal avant le 01-01-2003) 
+                    ; membre du personnel enseignant civil de l'Ecole de guerre, de l'Institut royal supérieur de défense ou des facultés 
+                    de l'Ecole royale militaire en qualité de chargé de cours (sans services comme chargé de cours avant le 01-01-2003) 
+                    ; membre du personnel enseignant dans la section préparatoire de l'Ecole Royale Militaire 
+                    ; maître  de langue à l'Ecole d'officier de la gendarmerie ; membre du personnel de la RTBF 
+                    ; membre du personnel non roulant de la SNCB-Holding 
+                    ; membre d'une catégorie de personnel bénéficiant d'un tantième déterminé dans un règlement particulier
+                    (= tantième 1/55)
+               </fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -96,10 +127,26 @@
                     ; militair van het actief kader; lid van het operationeel korps van een brandweer dat rechtstreeks deelneemt aan de brandbestrijding
                     ; onderwijzer bij een strafinrichting die ressorteert onder het Bestuur der Strafinrichtingen
                     , of bij de Rijksgestichten voor Observatie en Opvoeding die ressorteren onder de Dienst voor Jeugdbescherming
-                    ; lid van een personeelscategorie die een tanti�me geniet dat in een bijzondere regeling wordt bepaald
-                    ; lid van het operationeel personeel van een hulpverleningszone dat rechtstreeks deelneemt aan de brandbestrijding (= tantième 1/50).
+                    ; lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald
+                    ; lid van het operationeel personeel van een hulpverleningszone dat rechtstreeks deelneemt aan 
+                    de brandbestrijding (= tantième 1/50).
                </nl>
-               <fr></fr>
+               <fr>
+                    Titulaire d'un emploi repris au tableau annexé à la loi du 21/07/1844 (service actif) 
+                    ; membre du personnel du cadre opérationnel de la police 
+                    ; fonctionnaire de police ou agent auxiliaire de police dans un corps de police communale
+                    , fonctionnaire de police dans la police maritime
+                    , la police aéronautique ou la police des chemins de fer
+                    , dans le service d'enquêtes du Comité supérieur de Contrôle, dans la police de la jeunesse
+                    , dans la police judiciaire près les parquets ou membre du corps opérationnel ou de la catégorie de personnel
+                    de police spécial de la gendarmerie ; militaire du cadre actif 
+                    ; membre du corps opérationnel d'un service d'incendie qui participe directement à la lutte contre le feu 
+                    ; instituteur dans un établissement pénitentiaire relevant de l'Administration des Etablissements pénitentiaires 
+                    ou dans un établissement d'observation et d'éducation de l'Etat relevant de l'Office de la Protection de la Jeunesse 
+                    ; membre d'une catégorie de personnel bénéficiant d'un tantième déterminé dans un règlement particulier
+                    , membre du personnel opérationnel  d'une zone de secours qui participe directement à la lutte contre le feu 
+                    (tantième 1/50)
+               </fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -117,7 +164,7 @@
           <code>5</code>
           <description>
                <nl>Lid van het rijdend personeel van de NMBS-Holding (= tantième 1/48)</nl>
-               <fr></fr>
+               <fr>Membre du personnel roulant de la SNCB-Holding (= tantième 1/48)</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -149,6 +196,23 @@
                     (benoemd voor 01-10-1982 in deze hoedanigheid), of als docent (met diensten als docent voor 01-01-2003)
                     ;regeringscommissaris bij de universiteiten (= tantième 1/30)
                </nl>
+               <fr>
+                    Membre du personnel enseignant d'une université de la Communauté française en qualité de chargé de cours
+                    , chargé  de cours associé ou titulaire d'un grade équivalent (avec des services en cette qualité avant le 01-01-2003)
+                    , ou en qualité de professeur, professeur ordinaire, professeur extraordinaire ou professeur associé
+                    ; membre du personnel enseignant d'une université de la Communauté flamande en qualité chargé  de cours 
+                    (avec des services comme cchargé  de cours avant le 01-01-1991)
+                    , de chargé  de cours associé (avec des services comme chargé  de cours associé avant le 01-01-1991)
+                    , de chargé  de cours principal (avec des services comme chargé  de cours principal avant le 01-01-2003)
+                    , ou comme membre du personnel académique indépendant (ZAP), en qualité de professeur
+                    , professeur ordinaire, professeur extraordinaire, professeur associé
+                    , ou titulaire d'un grade équivalent ; membre du personnel enseignant civil de l'Ecole de guerre
+                    , de l'Institut royal supérieur de défense ou des facultés de l'Ecole royale militaire en qualité de professeur
+                    , professeur ordinaire, professeur extraordinaire, professeur associé
+                    , maître ou répétiteur civil (nommé  en cette qualité avant le 01-10-1982) ou de chargé  de cours 
+                    (avec des services comme chargé  de cours avant le 01-01-2003) 
+                    ;délégué du gouvernement auprès des universités (= tantième 1/30)
+               </fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -170,6 +234,8 @@
                     de inlichtingen- en veiligheidsdiensten (= tantième 1/20)
                </nl>
                <fr>
+                    Membre du Comité permanent de contrôle des services de police ; membre du Comité permanent 
+                    de contrôle des services de renseignement (= tantième 1/20)
                </fr>
           </description>
           <DMFA>Yes</DMFA>
@@ -188,7 +254,7 @@
           <code>8</code>
           <description>
                <nl>Bedienaar van de rooms-katholieke eredienst (= meerdere tantièmes)</nl>
-               <fr></fr>
+               <fr>Ministre du culte catholique romain (= tantième multiples)</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -206,7 +272,7 @@
           <code>9</code>
           <description>
                <nl>Bedienaars van de protestantse, anglicaanse, orthodoxe, israëlitische of islamitische eredienst (= meerdere tantièmes)</nl>
-               <fr></fr>
+               <fr>Ministre du culte protestant, anglican, orthodoxe, israélite ou islamique (= tantièmes multiples)</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -233,6 +299,15 @@
                     ; ombudsman van de gemeenschappelijke ombudsdienst voor de parlementen
                          van het Waalse Gewest en de Franse Gemeenschap (= meerdere tantièmes)
                </nl>
+               <fr>
+                    Magistrat ; membre du Conseil d'Etat, de la Cour Constitutionnelle ou de la Cour des Comptes 
+                    ; médiateur fédéral  ; médiateur flamand ; médiateur de la Région wallonne 
+                    ; greffier du Comité permanent de contrôle des services de police ou du Comité permanent de contrôle des services
+                    de renseignement et de sécurité ; médiateur et médiateur adjoint de la Communauté française 
+                    ; médiateur de la Communauté germanophone 
+                    ; médiateur du service de médiation commun aux Parlements de la Région Wallonne et de la Communauté française 
+                    (= tantièmes multiples)
+               </f>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -250,7 +325,7 @@
           <code>11</code>
           <description>
                <nl>Provinciegouverneur of vice-provinciegouverneur; vice-gouverneur van het Brussels Hoofdstedelijk Gewest (= meerdere tantièmes)</nl>
-               <fr></fr>
+               <fr>Gouverneur ou vice-gouverneur de Province ; vice-gouverneur de la Région de Bruxelles-Capitale (= tantièmes multiples)</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -271,7 +346,10 @@
                     Arrondissementscommissaris; adjunct-arrondissementscommissaris; griffier bij de Provincie Luik
                     (titularis van die functie op 01-10-1987) (= meerdere tantièmes)
                </nl>
-               <fr></fr>
+               <fr>
+                    Commissaire d'arrondissement  ; commissaire d'arrondissement adjoint 
+                    ; greffier à la Province de Liège (titulaire de cette fonction au 01-10-1987) (= tantièmes multiples)
+               </fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -289,7 +367,7 @@
           <code>13</code>
           <description>
                <nl>Lid van een personeelscategorie die een tanti�me geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/40)</nl>
-               <fr></fr>
+               <fr>Membre d'une catégorie de personnel bénéficiant d'un tantième déterminé dans un règlement particulier (= tantième 1/40)</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -307,7 +385,7 @@
           <code>14</code>
           <description>
                <nl>Lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/45)</nl>
-               <fr></fr>
+               <fr>Membre d'une catégorie de personnel bénéficiant d'un  tantième déterminé dans un règlement particulier (= tantième 1/45)</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -325,7 +403,7 @@
           <code>15</code>
           <description>
                <nl>Burgemeester</nl>
-               <fr></fr>
+               <fr>Bourgmestre</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>No</DMFAAPL>
@@ -343,7 +421,7 @@
           <code>16</code>
           <description>
                <nl>Schepen</nl>
-               <fr></fr>
+               <fr>Echevin</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>No</DMFAAPL>
@@ -361,7 +439,7 @@
           <code>17</code>
           <description>
                <nl>Districtburgemeester</nl>
-               <fr></fr>
+               <fr>Bourgmestre de district</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>No</DMFAAPL>
@@ -379,7 +457,7 @@
           <code>18</code>
           <description>
                <nl>Districtschepen</nl>
-               <fr></fr>
+               <fr>Echevin de district</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>No</DMFAAPL>
@@ -397,7 +475,7 @@
           <code>19</code>
           <description>
                <nl>Lid van de Bestendige Deputatie of de provincieraad</nl>
-               <fr></fr>
+               <fr>Membre de la Députation permanente ou du collège provincial</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>No</DMFAAPL>
@@ -415,7 +493,7 @@
           <code>20</code>
           <description>
                <nl>Voorzitter van het OCMW of voorzitter van het BCSD</nl>
-               <fr></fr>
+               <fr>Président de CPAS ou président de BCSD</fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>No</DMFAAPL>
@@ -433,7 +511,7 @@
           <code>21</code>
           <description>
                <nl>Ondervoorzitter van het OCMW</nl>
-               <fr></fr>
+               <fr>Vice-président de CPAS</fr>
           </description>
           <DMFA>No</DMFA>
           <DMFAAPL>No</DMFAAPL>
@@ -451,7 +529,7 @@
           <code>22</code>
           <description>
                <nl>Voorzitter of mandataris van de agglomeraties en federaties van gemeenten</nl>
-               <fr></fr>
+               <fr>Président ou mandataire des agglomérations et fédérations de communes</fr>
           </description>
           <DMFA>No</DMFA>
           <DMFAAPL>No</DMFAAPL>
@@ -469,7 +547,7 @@
           <code>23</code>
           <description>
                <nl>Mandataris van de cultuurcommissies van de Brusselse agglomeratie</nl>
-               <fr></fr>
+               <fr>Mandataire des commissions de la culture de l'agglomération bruxelloise</fr>
           </description>
           <DMFA>No</DMFA>
           <DMFAAPL>No</DMFAAPL>
