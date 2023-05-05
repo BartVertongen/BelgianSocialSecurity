@@ -1,4 +1,4 @@
-
+/*
 CREATE TABLE functional_blocks (
     Id          INTEGER PRIMARY KEY
     , NameNL    TEXT UNIQUE NOT NULL
@@ -92,5 +92,7 @@ VALUES (90030, "Berekeningsbasis bijzondere omstandigheden", "ExceptSituationCal
 
 INSERT INTO functional_blocks (Id, NameNL, XmlLabel)
 VALUES (90405, "Berekeningsbasis - Referteperiode", "CalculBaseRefPeriod");
+*/
 
-
+INSERT INTO functional_blocks (Id, NameNL, XmlLabel)
+VALUES (90405, "Berekeningsbasis - Referteperiode", "CalculBaseRefPeriod");

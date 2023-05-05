@@ -311,100 +311,100 @@ VALUES(12, 5);
 
 -- DOSSIER LOOPBAANONDERBREKING EN TIJDSKREDIET
 -- Dossier Loopbaanonderbreking en tijdskrediet & Originale aangifte
-/*INSERT INTO service_messages
-VALUES(13, 5);*/
+INSERT INTO service_messages
+VALUES(13, 1);
 
 -- Dossier Loopbaanonderbreking en tijdskrediet & Generieke aangifte
-/*INSERT INTO service_messages
-VALUES(13, 5);*/
+INSERT INTO service_messages
+VALUES(13, 28);
 
 -- Dossier Loopbaanonderbreking en tijdskrediet & Ontvangstbewijs
-/*INSERT INTO service_messages
-VALUES(13, 5);*/
+INSERT INTO service_messages
+VALUES(13, 5);
 
 -- Dossier Loopbaanonderbreking en tijdskrediet & Notificatie
-/*INSERT INTO service_messages
-VALUES(13, 5);*/
+INSERT INTO service_messages
+VALUES(13, 6);
 
 
 
 -- ECARO
 -- Ecaro & Vraag tot consultatie Ecaro gegevens
-/*INSERT INTO service_messages
-VALUES(16, 5);*/
+INSERT INTO service_messages
+VALUES(16, 45);
 
 -- Ecaro & Antwoord op een aanvraag tot consultatie Ecaro gegevens
-/*INSERT INTO service_messages
-VALUES(16, 5);*/
+INSERT INTO service_messages
+VALUES(16, 46);
 
 -- Ecaro & Generieke uitwisseling
-/*INSERT INTO service_messages
-VALUES(16, 5);*/
+INSERT INTO service_messages
+VALUES(16, 28);
 
 -- Ecaro & Ontvangstbewijs
-/*INSERT INTO service_messages
-VALUES(16, 5);*/
+INSERT INTO service_messages
+VALUES(16, 5);
 
 -- Ecaro & Notificatie
-/*INSERT INTO service_messages
-VALUES(16, 5);*/
+INSERT INTO service_messages
+VALUES(16, 6);
 
 
 
 -- PUBLIATO
 --Publiato & Generieke uitwisseling
-/*INSERT INTO service_messages
-VALUES(25, 5);*/
+INSERT INTO service_messages
+VALUES(25, 28);
 
 --Publiato & Ontvangstbewijs
-/*INSERT INTO service_messages
-VALUES(25, 5);*/
+INSERT INTO service_messages
+VALUES(25, 5);
 
 
 
 -- SOCIALE SCHULDEN
 -- Sociale schulden & Financiële situatie
-/*INSERT INTO service_messages
-VALUES(44, 5);*/
+INSERT INTO service_messages
+VALUES(44, 35);
 
 -- Sociale schulden & Berekening van sociale schulden
-/*INSERT INTO service_messages
-VALUES(44, 5);*/
+INSERT INTO service_messages
+VALUES(44, 47);
 
 -- Sociale schulden & Generieke uitwisseling
-/*INSERT INTO service_messages
-VALUES(44, 5);*/
+INSERT INTO service_messages
+VALUES(44, 28);
 
 -- Sociale schulden & Ontvangstbewijs
-/*INSERT INTO service_messages
-VALUES(44, 5);*/
+INSERT INTO service_messages
+VALUES(44, 5);
 
 
 
 -- TIJDELIJKE WERKLOOSHEID
 -- Tijdelijke werkloosheid & Originele aangifte
-/*INSERT INTO service_messages
-VALUES(31, 5);*/
+INSERT INTO service_messages
+VALUES(31, 1);
 
 -- Tijdelijke werkloosheid & Eindbeslissing (DEFI)
-/*INSERT INTO service_messages
-VALUES(31, 5);*/
+INSERT INTO service_messages
+VALUES(31, 49);
 
 -- Tijdelijke werkloosheid & Generieke uitwisseling
-/*INSERT INTO service_messages
-VALUES(31, 5);*/
+INSERT INTO service_messages
+VALUES(31, 28);
 
 -- Tijdelijke werkloosheid & Ontvangstbewijs
-/*INSERT INTO service_messages
-VALUES(31, 5);*/
+INSERT INTO service_messages
+VALUES(31, 5);
 
 
 
 -- VALIDATIEBOEK
 -- Validatieboek & Originele aangifte
-/*INSERT INTO service_messages
-VALUES(35, 5);*/
+INSERT INTO service_messages
+VALUES(35, 1);
 
 -- Validatieboek & Ontvangstbewijs
-/*INSERT INTO service_messages
-VALUES(35, 5);*/
+INSERT INTO service_messages
+VALUES(35, 5);
