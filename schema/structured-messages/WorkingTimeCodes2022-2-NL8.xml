@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Arbeidstijd gegevens -->
 <!-- Temp de Travailleur -->
-
 <working-time-codes>
     <working-time-code>
         <code>1</code>
@@ -154,8 +153,6 @@
         <DMFAPPL>Yes</DMFAPPL>
         <Geldig_vanaf>2003/1</Geldig_vanaf>
         <Geldig_tot>9999/4</Geldig_tot>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
     </working-time-code>
     <working-time-code>
         <code>31</code>
@@ -252,8 +249,6 @@
         <DMFAPPL>Yes</DMFAPPL>
         <Geldig_vanaf>2003/1</Geldig_vanaf>
         <Geldig_tot>9999/4</Geldig_tot>
-        <begin_geldigheid>01/01/1900</begin_geldigheid>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
     </working-time-code>
     <working-time-code>
         <code>70</code>
@@ -313,7 +308,7 @@
     </working-time-code>
     <working-time-code>
         <code>77</code>
-        <description>Tijdelijke werkloosheid wegens overmacht Corona of overstromingen of oorlog Oekra�ne</description>
+        <description>Tijdelijke werkloosheid wegens overmacht Corona of overstromingen of oorlog Oekraïne</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <Geldig_vanaf>2020/2</Geldig_vanaf>

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <employee-codes>
     <employee-code>
-        <type>Bijdrage niet gebonden aan een natuurlijke persoon</type>
         <code>802</code>
-        <description>
+        <type>
+            <nl>Bijdrage niet gebonden aan een natuurlijke persoon</nl>
             <fr></fr>
+        </type>
+        <description>
             <nl>Bijdrage in het kader van sociale toelage II voor de lokale politie</nl>
+            <fr></fr>
         </description>
-        <employee-type>Andere (type werknemers)</employee-type>
+        <employee-type>
+            <nl>Andere (type werknemers)</nl>
+            <fr></fr>
+        </employee-type>
         <presence>4</presence>
         <begin-validity>2022/1</begin-validity>
         <end-validity>9999/4</end-validity>
@@ -507,27 +513,61 @@
         <end-validity>9999/4</end-validity>
     </employee-code>
     <employee-code>
-        <type>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</type>
+        <type>
+            <nl>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</nl>
+            <fr></fr>
+        </type>
         <code>879</code>
         <description>Werknemers in het stelsel van werkloosheid met bedrijfstoeslag (SWT) waarvoor een bijzondere bijdrage verschuldigd is</description>
-        <employee-type>Andere (type werknemers)</employee-type>
+        <employee-type>
+            <nl>Andere (type werknemers)</nl>
+            <fr>Autres (type travailleurs)</fr>
+        </employee-type>
         <presence>1</presence>
         <begin-validity>2003/1</begin-validity>
         <end-validity>9999/4</end-validity>
     </employee-code>
     <employee-code>
-    <type>Fedris bijdrage</type>
+        <type>
+            <nl>Fedris bijdrage</nl>
+            <fr>Cotisation Fedris</fr>
+        </type>
         <code>010</code>
-        <description>Gepensioneerde werknemers die worden bedoeld in artikel 42 bis van de arbeidsongevallenwet van 10.04.1971 en in artikel 66 van de wetten betreffende de preventie van beroepsziekten en de vergoeding van de schade die uit die ziekten voortvloeit, gecoördineerd op 03.06.1970 of als het slachtoffer de leeftijd van 65 jaar bereikt heeft.</description>
-        <employee-type>Andere (type werknemers)</employee-type>
+        <description>
+            <nl>
+                Gepensioneerde werknemers die worden bedoeld in artikel 42 bis van de arbeidsongevallenwet van 10.04.1971
+                en in artikel 66 van de wetten betreffende de preventie van beroepsziekten
+                en de vergoeding van de schade die uit die ziekten voortvloeit, gecoördineerd op 03.06.1970
+                of als het slachtoffer de leeftijd van 65 jaar bereikt heeft.
+            </nl>
+            <fr>
+                Travailleurs pensionnés visés par l'article 42 bis de la loi du 10 avril 1971 sur
+                les accidents du travail et de par l'article 66 des lois coordonnées le 3 juin 1970
+                relatives à la prévention des maladies professionnelles et à la réparation des dommages
+                résultant de celles-ci ou lorsque la victime a atteint l'âge de 65 ans.
+            </fr>
+        </description>
+        <employee-type>
+            <nl>Andere (type werknemers)</nl>
+            <fr>Autres (type travailleurs)</fr>
+        </employee-type>
         <presence>3</presence>
-        <begin-validity>2015/4</begin-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
         <end-validity>9999/4</end-validity>
     </employee-code>
     <employee-code>
-        <type>Fedris bijdrage</type>
+        <type>
+            <nl>Fedris bijdrage</nl>
+            <fr></fr>
+        </type>
         <code>013</code>
-        <description>Kansarme jongeren</description>
+        <description>
+            <nl>Kansarme jongeren</nl>
+            <fr></fr>
+        </description>
         <employee-type>Speciale handarbeiders</employee-type>
         <presence>3</presence>
         <begin-validity>2003/1</begin-validity>
@@ -1585,8 +1625,11 @@
         <end-validity>9999/4</end-validity>
     </employee-code>
     <employee-code>
-        <type>Werknemersbijdrage werkloze met bedrijfstoeslag (SWT) of aanvullende vergoedingen oudere werknemers (SWAV)</type>
         <code>295</code>
+        <type>
+            <nl>Werknemersbijdrage werkloze met bedrijfstoeslag (SWT) of aanvullende vergoedingen oudere werknemers (SWAV)</nl>
+            <fr></fr>
+        </type>
         <description>Werknemersbijdrage voor een werknemer in het stelsel werkloosheid met bedrijfstoeslag (SWT) of aanvullende vergoedingen oudere (SWAV) na ontslag of in tijdskrediet</description>
         <employee-type>Andere (type werknemers)</employee-type>
         <presence>2</presence>

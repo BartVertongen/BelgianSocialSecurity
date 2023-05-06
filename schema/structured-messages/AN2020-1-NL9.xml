@@ -1,2672 +1,2672 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE List [
-     <!ELEMENT ann9 (Ventilation?, Categorie?, Code?
-	    , Leeftijd?, Functie?, begin_geldigheid?, einde_geldigheid?)>
-     <!ELEMENT List (ann9+)>
+     <!ELEMENT function (Ventilation?, Categorie?, Code?
+	    , Leeftijd?, Description?, begin_geldigheid?, einde_geldigheid?)>
+     <!ELEMENT List (function+)>
      <!ELEMENT Ventilation (#PCDATA)>
      <!ELEMENT Categorie (#PCDATA)>
      <!ELEMENT Code (#PCDATA)>
      <!ELEMENT Leeftijd (#PCDATA)>
-     <!ELEMENT Functie (#PCDATA)>
+     <!ELEMENT Description (#PCDATA)>
      <!ELEMENT begin_geldigheid (#PCDATA)>
      <!ELEMENT einde_geldigheid (#PCDATA)>
 ]>
-<List>
+<functions>
 
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>27</Code>
-    <Leeftijd>-</Leeftijd>
-    <Functie>Kruier</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>32</Code>
-    <Leeftijd>15</Leeftijd>
-    <Functie>Loopjongen</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>33</Code>
-    <Leeftijd>16</Leeftijd>
-    <Functie>Loopjongen</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>34</Code>
-    <Leeftijd>17</Leeftijd>
-    <Functie>Adjunct chef loopjongen</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>35</Code>
-    <Leeftijd>18</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>36</Code>
-    <Leeftijd>19</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>37</Code>
-    <Leeftijd>20</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>38</Code>
-    <Leeftijd>-,21,-,18,18,-,-</Leeftijd>
-    <Functie>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, toiletvrouw, Aangestelde kleedkamer, Andere werknemers</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>39</Code>
-    <Leeftijd>21</Leeftijd>
-    <Functie>Conciërge</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>40</Code>
-    <Leeftijd>23</Leeftijd>
-    <Functie>Chef conciërge</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>41</Code>
-    <Leeftijd>19</Leeftijd>
-    <Functie>Kamerknecht, kamermeisje</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>43</Code>
-    <Leeftijd>15</Leeftijd>
-    <Functie>Leerjongen zaal</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>44</Code>
-    <Leeftijd>16</Leeftijd>
-    <Functie>Leerjongen zaal</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>45</Code>
-    <Leeftijd>17</Leeftijd>
-    <Functie>Hulpkelner-afruimer</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>46</Code>
-    <Leeftijd>18</Leeftijd>
-    <Functie>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>47</Code>
-    <Leeftijd>19</Leeftijd>
-    <Functie>Hulpkelner-rijleider, Banketkelner</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>48</Code>
-    <Leeftijd>20</Leeftijd>
-    <Functie>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>49</Code>
-    <Leeftijd>21,21,21,21,21,21,22,-</Leeftijd>
-    <Functie>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro,Kelner café, Barman, Etage-kelner</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>50</Code>
-    <Leeftijd>22,22,22,-</Leeftijd>
-    <Functie>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>51</Code>
-    <Leeftijd>23</Leeftijd>
-    <Functie>Maître d'hôtel restaurant, Maître d'hôtel banket, Oberkelner roomservice</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>52</Code>
-    <Leeftijd>-</Leeftijd>
-    <Functie>Assistent maître d'hôtel restaurant, Assistent maître d'hôtel banket, Assistent oberkelner roomservice</Functie>
-    <begin_geldigheid>01/01/1900</begin_geldigheid>
-    <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
-    <Categorie>16</Categorie>
-    <Code>98</Code>
-    <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidswerknemer in de Horeca</Functie>
-    <begin_geldigheid>01/07/2003</begin_geldigheid>
-    <einde_geldigheid>30/06/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>27</Code>
+        <Leeftijd>-</Leeftijd>
+        <Description>Kruier</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>32</Code>
+        <Leeftijd>15</Leeftijd>
+        <Description>Loopjongen</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>33</Code>
+        <Leeftijd>16</Leeftijd>
+        <Description>Loopjongen</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>34</Code>
+        <Leeftijd>17</Leeftijd>
+        <Description>Adjunct chef loopjongen</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>35</Code>
+        <Leeftijd>18</Leeftijd>
+        <Description>Chef loopjongen</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>36</Code>
+        <Leeftijd>19</Leeftijd>
+        <Description>Chef loopjongen</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>37</Code>
+        <Leeftijd>20</Leeftijd>
+        <Description>Chef loopjongen</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>38</Code>
+        <Leeftijd>-,21,-,18,18,-,-</Leeftijd>
+        <Description>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, toiletvrouw, Aangestelde kleedkamer, Andere werknemers</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>39</Code>
+        <Leeftijd>21</Leeftijd>
+        <Description>ConciÃ«rge</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>40</Code>
+        <Leeftijd>23</Leeftijd>
+        <Description>Chef conciÃ«rge</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>41</Code>
+        <Leeftijd>19</Leeftijd>
+        <Description>Kamerknecht, kamermeisje</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>43</Code>
+        <Leeftijd>15</Leeftijd>
+        <Description>Leerjongen zaal</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>44</Code>
+        <Leeftijd>16</Leeftijd>
+        <Description>Leerjongen zaal</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>45</Code>
+        <Leeftijd>17</Leeftijd>
+        <Description>Hulpkelner-afruimer</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>46</Code>
+        <Leeftijd>18</Leeftijd>
+        <Description>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp ï¿½tage-kelner</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>47</Code>
+        <Leeftijd>19</Leeftijd>
+        <Description>Hulpkelner-rijleider, Banketkelner</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>48</Code>
+        <Leeftijd>20</Leeftijd>
+        <Description>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>49</Code>
+        <Leeftijd>21,21,21,21,21,21,22,-</Leeftijd>
+        <Description>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro,Kelner cafï¿½, Barman, Etage-kelner</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>50</Code>
+        <Leeftijd>22,22,22,-</Leeftijd>
+        <Description>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>51</Code>
+        <Leeftijd>23</Leeftijd>
+        <Description>Maï¿½tre d'hï¿½tel restaurant, Maï¿½tre d'hï¿½tel banket, Oberkelner roomservice</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>52</Code>
+        <Leeftijd>-</Leeftijd>
+        <Description>Assistent maï¿½tre d'hï¿½tel restaurant, Assistent maï¿½tre d'hï¿½tel banket, Assistent oberkelner roomservice</Description>
+        <begin_geldigheid>01/01/1900</begin_geldigheid>
+        <einde_geldigheid>31/03/2007</einde_geldigheid>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
+        <Categorie>16</Categorie>
+        <Code>98</Code>
+        <Leeftijd>-</Leeftijd>
+        <Description>Gelegenheidswerknemer in de Horeca</Description>
+        <begin_geldigheid>01/07/2003</begin_geldigheid>
+        <einde_geldigheid>30/06/2007</einde_geldigheid>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>27</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kruier</Functie>
+    <Description>Kruier</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>32</Code>
     <Leeftijd>15</Leeftijd>
-    <Functie>Loopjongen</Functie>
+    <Description>Loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>33</Code>
     <Leeftijd>16</Leeftijd>
-    <Functie>Loopjongen</Functie>
+    <Description>Loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>34</Code>
     <Leeftijd>17</Leeftijd>
-    <Functie>Adjunct chef loopjongen</Functie>
+    <Description>Adjunct chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>35</Code>
     <Leeftijd>18</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
+    <Description>Chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>36</Code>
     <Leeftijd>19</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
+    <Description>Chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>37</Code>
     <Leeftijd>20</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
+    <Description>Chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>38</Code>
     <Leeftijd>-,21,-,18,18,-,-</Leeftijd>
-    <Functie>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</Functie>
+    <Description>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>39</Code>
     <Leeftijd>21</Leeftijd>
-    <Functie>Conciërge</Functie>
+    <Description>Conciï¿½rge</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>40</Code>
     <Leeftijd>23</Leeftijd>
-    <Functie>Chef conciërge</Functie>
+    <Description>Chef conciï¿½rge</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>41</Code>
     <Leeftijd>19</Leeftijd>
-    <Functie>Kamerknecht, kamermeisje</Functie>
+    <Description>Kamerknecht, kamermeisje</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>43</Code>
     <Leeftijd>15</Leeftijd>
-    <Functie>Leerjongen zaal</Functie>
+    <Description>Leerjongen zaal</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>44</Code>
     <Leeftijd>16</Leeftijd>
-    <Functie>Leerjongen zaal</Functie>
+    <Description>Leerjongen zaal</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>45</Code>
     <Leeftijd>17</Leeftijd>
-    <Functie>Hulpkelner-afruimer</Functie>
+    <Description>Hulpkelner-afruimer</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>46</Code>
     <Leeftijd>18</Leeftijd>
-    <Functie>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</Functie>
+    <Description>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp ï¿½tage-kelner</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>47</Code>
     <Leeftijd>19</Leeftijd>
-    <Functie>Hulpkelner-rijleider, Banketkelner</Functie>
+    <Description>Hulpkelner-rijleider, Banketkelner</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>48</Code>
     <Leeftijd>20</Leeftijd>
-    <Functie>1/2 rijleider restaurant,1/2 rijleider banket, Hulpknecht barman</Functie>
+    <Description>1/2 rijleider restaurant,1/2 rijleider banket, Hulpknecht barman</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>49</Code>
     <Leeftijd>21,21,21,21,21,21,22,-</Leeftijd>
-    <Functie>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner café, Barman, Etage-kelner</Functie>
+    <Description>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner cafï¿½, Barman, Etage-kelner</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>50</Code>
     <Leeftijd>22</Leeftijd>
-    <Functie>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</Functie>
+    <Description>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>51</Code>
     <Leeftijd>23</Leeftijd>
-    <Functie>Maître d'hôtel restaurant, Maître d'hôtel banket, Oberkelner roomservice</Functie>
+    <Description>Maï¿½tre d'hï¿½tel restaurant, Maï¿½tre d'hï¿½tel banket, Oberkelner roomservice</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>52</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent maître d'hôtel restaurant, Assistent maître d'hôtel banket, Assistent oberkelner roomservice</Functie>
+    <Description>Assistent maï¿½tre d'hï¿½tel restaurant, Assistent maï¿½tre d'hï¿½tel banket, Assistent oberkelner roomservice</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>17</Categorie>
     <Code>98</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidswerknemer in de Horeca</Functie>
+    <Description>Gelegenheidswerknemer in de Horeca</Description>
     <begin_geldigheid>01/07/2003</begin_geldigheid>
     <einde_geldigheid>30/06/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>19</Categorie>
     <Code>81</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Zeevissers : bemanning van de vissersvaartuigen uitgezonderd scheepsleerjongens</Functie>
+    <Description>Zeevissers : bemanning van de vissersvaartuigen uitgezonderd scheepsleerjongens</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>19</Categorie>
     <Code>82</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Zeevissers : scheepsleerjongens</Functie>
+    <Description>Zeevissers : scheepsleerjongens</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>20</Categorie>
     <Code>20</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>20</Categorie>
     <Code>25</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren per week</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren per week</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>20</Categorie>
     <Code>26</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>20</Categorie>
     <Code>29</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</Functie>
+    <Description>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>23</Categorie>
     <Code>20</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>23</Categorie>
     <Code>25</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren per week</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren per week</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>23</Categorie>
     <Code>26</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>23</Categorie>
     <Code>29</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</Functie>
+    <Description>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>68</Categorie>
     <Code>28</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Chauffeurs van taxibestelwagens : andere chauffeurs</Functie>
+    <Description>Chauffeurs van taxibestelwagens : andere chauffeurs</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>68</Categorie>
     <Code>30</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Chauffeurs van taxibestelwagens : chauffeurs tewerkgesteld gedurende maximum 6 uren per dag en 30 uren per week</Functie>
+    <Description>Chauffeurs van taxibestelwagens : chauffeurs tewerkgesteld gedurende maximum 6 uren per dag en 30 uren per week</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>97</Categorie>
     <Code>91</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de landbouw</Functie>
+    <Description>Gelegenheidsarbeider in de landbouw</Description>
     <begin_geldigheid>01/01/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>97</Categorie>
     <Code>98</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidswerknemer in de Horeca</Functie>
+    <Description>Gelegenheidswerknemer in de Horeca</Description>
     <begin_geldigheid>01/01/2004</begin_geldigheid>
     <einde_geldigheid>30/06/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>97</Categorie>
     <Code>99</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006, de landbouw</Functie>
+    <Description>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006, de landbouw</Description>
     <begin_geldigheid>01/07/2004</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>27</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kruier</Functie>
+    <Description>Kruier</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>32</Code>
     <Leeftijd>15</Leeftijd>
-    <Functie>Loopjongen</Functie>
+    <Description>Loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>33</Code>
     <Leeftijd>16</Leeftijd>
-    <Functie>Loopjongen</Functie>
+    <Description>Loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>34</Code>
     <Leeftijd>17</Leeftijd>
-    <Functie>Adjunct chef loopjongen</Functie>
+    <Description>Adjunct chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>35</Code>
     <Leeftijd>18</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
+    <Description>Chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>36</Code>
     <Leeftijd>19</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
+    <Description>Chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>37</Code>
     <Leeftijd>20</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
+    <Description>Chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>38</Code>
     <Leeftijd>-,21,-,18,18,-,-</Leeftijd>
-    <Functie>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje,Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</Functie>
+    <Description>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje,Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>39</Code>
     <Leeftijd>21</Leeftijd>
-    <Functie>Conciërge</Functie>
+    <Description>Conciï¿½rge</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>40</Code>
     <Leeftijd>23</Leeftijd>
-    <Functie>Chef conciërge</Functie>
+    <Description>Chef conciï¿½rge</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>41</Code>
     <Leeftijd>19</Leeftijd>
-    <Functie>Kamerknecht, kamermeisje</Functie>
+    <Description>Kamerknecht, kamermeisje</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>43</Code>
     <Leeftijd>15</Leeftijd>
-    <Functie>Leerjongen zaal</Functie>
+    <Description>Leerjongen zaal</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>44</Code>
     <Leeftijd>16</Leeftijd>
-    <Functie>Leerjongen zaal</Functie>
+    <Description>Leerjongen zaal</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>45</Code>
     <Leeftijd>17</Leeftijd>
-    <Functie>Hulpkelner-afruimer</Functie>
+    <Description>Hulpkelner-afruimer</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>46</Code>
     <Leeftijd>18</Leeftijd>
-    <Functie>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</Functie>
+    <Description>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp ï¿½tage-kelner</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>47</Code>
     <Leeftijd>19</Leeftijd>
-    <Functie>Hulpkelner-rijleider, Banketkelner</Functie>
+    <Description>Hulpkelner-rijleider, Banketkelner</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-<ann9>
-<Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+<function>
+<Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
 <Categorie>146</Categorie>
 <Code>48</Code>
 <Leeftijd>20</Leeftijd>
-<Functie>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</Functie>
+<Description>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</Description>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/03/2007</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
 <Categorie>146</Categorie>
 <Code>49</Code>
 <Leeftijd>21,21,21,21,21,21,22,-</Leeftijd>
-<Functie>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner café, Barman, Etage-kelner</Functie>
+<Description>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner cafï¿½, Barman, Etage-kelner</Description>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/03/2007</einde_geldigheid>
-</ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+</function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>50</Code>
     <Leeftijd>22,22,22,-</Leeftijd>
-    <Functie>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</Functie>
+    <Description>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>51</Code>
     <Leeftijd>23</Leeftijd>
-    <Functie>Maître d'hôtel restaurant, Maître d'hôtel banket, Oberkelner roomservice</Functie>
+    <Description>Maï¿½tre d'hï¿½tel restaurant, Maï¿½tre d'hï¿½tel banket, Oberkelner roomservice</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>146</Categorie>
     <Code>52</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent maître d'hôtel restaurant, Assistent maître d'hôtel banket, Assistent oberkelner roomservice</Functie>
+    <Description>Assistent maï¿½tre d'hï¿½tel restaurant, Assistent maï¿½tre d'hï¿½tel banket, Assistent oberkelner roomservice</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>27</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kruier</Functie>
+    <Description>Kruier</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>32</Code>
     <Leeftijd>15</Leeftijd>
-    <Functie>Loopjongen</Functie>
+    <Description>Loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>33</Code>
     <Leeftijd>16</Leeftijd>
-    <Functie>Loopjongen</Functie>
+    <Description>Loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>34</Code>
     <Leeftijd>17</Leeftijd>
-    <Functie>Adjunct chef loopjongen</Functie>
+    <Description>Adjunct chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>35</Code>
     <Leeftijd>18</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
+    <Description>Chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>36</Code>
     <Leeftijd>19</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
+    <Description>Chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>37</Code>
     <Leeftijd>20</Leeftijd>
-    <Functie>Chef loopjongen</Functie>
+    <Description>Chef loopjongen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>38</Code>
     <Leeftijd>-,21,-,18,18,-,-</Leeftijd>
-    <Functie>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</Functie>
+    <Description>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>39</Code>
     <Leeftijd>21</Leeftijd>
-    <Functie>Conciërge</Functie>
+    <Description>Conciï¿½rge</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>40</Code>
     <Leeftijd>23</Leeftijd>
-    <Functie>Chef conciërge</Functie>
+    <Description>Chef conciï¿½rge</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>41</Code>
     <Leeftijd>19</Leeftijd>
-    <Functie>Kamerknecht, kamermeisje</Functie>
+    <Description>Kamerknecht, kamermeisje</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>43</Code>
     <Leeftijd>15</Leeftijd>
-    <Functie>Leerjongen zaal</Functie>
+    <Description>Leerjongen zaal</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>44</Code>
     <Leeftijd>16</Leeftijd>
-    <Functie>Leerjongen zaal</Functie>
+    <Description>Leerjongen zaal</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>45</Code>
     <Leeftijd>17</Leeftijd>
-    <Functie>Hulpkelner-afruimer</Functie>
+    <Description>Hulpkelner-afruimer</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>46</Code>
     <Leeftijd>18</Leeftijd>
-    <Functie>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</Functie>
+    <Description>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp ï¿½tage-kelner</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>47</Code>
     <Leeftijd>19</Leeftijd>
-    <Functie>Hulpkelner-rijleider, Banketkelner</Functie>
+    <Description>Hulpkelner-rijleider, Banketkelner</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>48</Code>
     <Leeftijd>20</Leeftijd>
-    <Functie>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</Functie>
+    <Description>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>49</Code>
     <Leeftijd>21,21,21,21,21,21,22,-</Leeftijd>
-    <Functie>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner café, Barman, Etage-kelner</Functie>
+    <Description>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner cafï¿½, Barman, Etage-kelner</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>50</Code>
     <Leeftijd>22,22,22,-</Leeftijd>
-    <Functie>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</Functie>
+    <Description>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>51</Code>
     <Leeftijd>23</Leeftijd>
-    <Functie>Maître d'hôtel restaurant, Maître d'hôtel banket, Oberkelner roomservice</Functie>
+    <Description>Maï¿½tre d'hï¿½tel restaurant, Maï¿½tre d'hï¿½tel banket, Oberkelner roomservice</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>158</Categorie>
     <Code>52</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent maître d'hôtel restaurant, Assistent maître d'hôtel banket, Assistent oberkelner roomservice</Functie>
+    <Description>Assistent maï¿½tre d'hï¿½tel restaurant, Assistent maï¿½tre d'hï¿½tel banket, Assistent oberkelner roomservice</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>166</Categorie>
     <Code>21</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : cabine- of badjongen of badmeisje</Functie>
+    <Description>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : cabine- of badjongen of badmeisje</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>166</Categorie>
     <Code>23</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : pedicure</Functie>
+    <Description>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : pedicure</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>166</Categorie>
     <Code>24</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : masseu(r)(se)</Functie>
+    <Description>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : masseu(r)(se)</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>166</Categorie>
     <Code>26</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>193</Categorie>
     <Code>91</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de landbouw</Functie>
+    <Description>Gelegenheidsarbeider in de landbouw</Description>
     <begin_geldigheid>01/01/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>193</Categorie>
     <Code>99</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de landbouw</Functie>
+    <Description>Gelegenheidsarbeider in de landbouw</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/2006</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>194</Categorie>
     <Code>99</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de tuinbouw</Functie>
+    <Description>Gelegenheidsarbeider in de tuinbouw</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>323</Categorie>
     <Code>20</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>323</Categorie>
     <Code>25</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren per week</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren per week</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>323</Categorie>
     <Code>26</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>323</Categorie>
     <Code>29</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</Functie>
+    <Description>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>494</Categorie>
     <Code>99</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de tuinbouw</Functie>
+    <Description>Gelegenheidsarbeider in de tuinbouw</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>497</Categorie>
     <Code>91</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de landbouw</Functie>
+    <Description>Gelegenheidsarbeider in de landbouw</Description>
     <begin_geldigheid>01/01/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>497</Categorie>
     <Code>98</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidswerknemer in de Horeca</Functie>
+    <Description>Gelegenheidswerknemer in de Horeca</Description>
     <begin_geldigheid>01/01/2004</begin_geldigheid>
     <einde_geldigheid>30/06/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>497</Categorie>
     <Code>99</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006 de landbouw</Functie>
+    <Description>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006 de landbouw</Description>
     <begin_geldigheid>01/07/2004</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>562</Categorie>
     <Code>20</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>562</Categorie>
     <Code>26</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwspelondernemingen of toiletvrouwen</Functie>
+    <Description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwspelondernemingen of toiletvrouwen</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>562</Categorie>
     <Code>29</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</Functie>
+    <Description>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/03/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>594</Categorie>
     <Code>90</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de witloofsector voor de dagen waarop gelegenheidswerk verricht wordt bovenop de 65 dagen</Functie>
+    <Description>Gelegenheidsarbeider in de witloofsector voor de dagen waarop gelegenheidswerk verricht wordt bovenop de 65 dagen</Description>
     <begin_geldigheid>01/01/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig tot 2007/1</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig tot 2007/1</Ventilation>
     <Categorie>594</Categorie>
     <Code>99</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de tuinbouw</Functie>
+    <Description>Gelegenheidsarbeider in de tuinbouw</Description>
     <begin_geldigheid>01/01/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>10</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpkelner(in)-afruimer</Functie>
+    <Description>Hulpkelner(in)-afruimer</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>11</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpkelner(in)-suite</Functie>
+    <Description>Hulpkelner(in)-suite</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>12</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpkelner(in)-rijleider</Functie>
+    <Description>Hulpkelner(in)-rijleider</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>13</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>1/2 rijleid(st)er restaurant</Functie>
+    <Description>1/2 rijleid(st)er restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>14</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kelner(in) restaurant</Functie>
+    <Description>Kelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>15</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Rangkelner(in) restaurant</Functie>
+    <Description>Rangkelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>16</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Eerste rangkelner(in) restaurant</Functie>
+    <Description>Eerste rangkelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>17</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Wijnkelner(in)</Functie>
+    <Description>Wijnkelner(in)</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>18</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent(e) oberkelner(in) restaurant</Functie>
+    <Description>Assistent(e) oberkelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>19</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Oberkelner(in) restaurant</Functie>
+    <Description>Oberkelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>22</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpkelner(in), Commis</Functie>
+    <Description>Hulpkelner(in), Commis</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>23</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Banketkelner(in)</Functie>
+    <Description>Banketkelner(in)</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>24</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>1/2 rijleid(st)er banket</Functie>
+    <Description>1/2 rijleid(st)er banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>25</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Rijleid(st)er banket</Functie>
+    <Description>Rijleid(st)er banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>26</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Eerste rangkelner(in) banket</Functie>
+    <Description>Eerste rangkelner(in) banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>27</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent(e) oberkelner(in) banket</Functie>
+    <Description>Assistent(e) oberkelner(in) banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>28</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Oberkelner(in) banket</Functie>
+    <Description>Oberkelner(in) banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>53</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kelner(in) brasserie, taverne, bistro</Functie>
+    <Description>Kelner(in) brasserie, taverne, bistro</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>55</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kelner café</Functie>
+    <Description>Kelner cafï¿½</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>57</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpknecht barman</Functie>
+    <Description>Hulpknecht barman</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>58</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Barman</Functie>
+    <Description>Barman</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>59</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Verantwoordelijke barman, verantwoordelijke barmeid</Functie>
+    <Description>Verantwoordelijke barman, verantwoordelijke barmeid</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>61</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Loopjongen, loopmeisje</Functie>
+    <Description>Loopjongen, loopmeisje</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>62</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Voiturier</Functie>
+    <Description>Voiturier</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>63</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Portier</Functie>
+    <Description>Portier</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>64</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kruier</Functie>
+    <Description>Kruier</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>65</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kamerjongen, kamermeisje</Functie>
+    <Description>Kamerjongen, kamermeisje</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>66</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Conciërge</Functie>
+    <Description>Conciï¿½rge</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>67</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Chef conciërge</Functie>
+    <Description>Chef conciï¿½rge</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>70</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulp étage-kelner(in)</Functie>
+    <Description>Hulp ï¿½tage-kelner(in)</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>16</Categorie>
 <Code>71</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Etage-kelner(in)</Functie>
+<Description>Etage-kelner(in)</Description>
 <begin_geldigheid>01/04/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>72</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent(e) oberkelner(in) roomservice</Functie>
+    <Description>Assistent(e) oberkelner(in) roomservice</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>73</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Oberkelner(in) roomservice</Functie>
+    <Description>Oberkelner(in) roomservice</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>75</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Aangestelden toiletten</Functie>
+    <Description>Aangestelden toiletten</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>77</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Aangestelde kleedkamer</Functie>
+    <Description>Aangestelde kleedkamer</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>16</Categorie>
     <Code>98</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidswerknemer in de Horeca</Functie>
+    <Description>Gelegenheidswerknemer in de Horeca</Description>
     <begin_geldigheid>01/07/2003</begin_geldigheid>
     <einde_geldigheid>30/06/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>10</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpkelner(in)-afruimer</Functie>
+    <Description>Hulpkelner(in)-afruimer</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>11</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpkelner(in)-suite</Functie>
+    <Description>Hulpkelner(in)-suite</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>12</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpkelner(in)-rijleider</Functie>
+    <Description>Hulpkelner(in)-rijleider</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>13</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>1/2 rijleid(st)er restaurant</Functie>
+    <Description>1/2 rijleid(st)er restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>14</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kelner(in) restaurant</Functie>
+    <Description>Kelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>15</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Rangkelner(in) restaurant</Functie>
+    <Description>Rangkelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>16</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Eerste rangkelner(in) restaurant</Functie>
+    <Description>Eerste rangkelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>17</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Wijnkelner(in)</Functie>
+    <Description>Wijnkelner(in)</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>18</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent(e) oberkelner(in) restaurant</Functie>
+    <Description>Assistent(e) oberkelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>19</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Oberkelner(in) restaurant</Functie>
+    <Description>Oberkelner(in) restaurant</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>22</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpkelner(in), Commis</Functie>
+    <Description>Hulpkelner(in), Commis</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>23</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Banketkelner(in)</Functie>
+    <Description>Banketkelner(in)</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>24</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>1/2 rijleid(st)er banket</Functie>
+    <Description>1/2 rijleid(st)er banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>25</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Rijleid(st)er banket</Functie>
+    <Description>Rijleid(st)er banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>26</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Eerste rangkelner(in) banket</Functie>
+    <Description>Eerste rangkelner(in) banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>27</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent(e) oberkelner(in) banket</Functie>
+    <Description>Assistent(e) oberkelner(in) banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>28</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Oberkelner(in) banket</Functie>
+    <Description>Oberkelner(in) banket</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>53</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kelner(in) brasserie, taverne, bistro</Functie>
+    <Description>Kelner(in) brasserie, taverne, bistro</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>55</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kelner café</Functie>
+    <Description>Kelner cafï¿½</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>57</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpknecht barman</Functie>
+    <Description>Hulpknecht barman</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>58</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Barman</Functie>
+    <Description>Barman</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>59</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Verantwoordelijke barman, verantwoordelijke barmeid</Functie>
+    <Description>Verantwoordelijke barman, verantwoordelijke barmeid</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>61</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Loopjongen, loopmeisje</Functie>
+    <Description>Loopjongen, loopmeisje</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>62</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Voiturier</Functie>
+    <Description>Voiturier</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>63</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Portier</Functie>
+    <Description>Portier</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>64</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kruier</Functie>
+    <Description>Kruier</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>65</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kamerjongen, kamermeisje</Functie>
+    <Description>Kamerjongen, kamermeisje</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>66</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Conciërge</Functie>
+    <Description>Conciï¿½rge</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>67</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Chef conciërge</Functie>
+    <Description>Chef conciï¿½rge</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>70</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulp étage-kelner(in)</Functie>
+    <Description>Hulp ï¿½tage-kelner(in)</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>71</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Etage-kelner(in)</Functie>
+    <Description>Etage-kelner(in)</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>72</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent(e) oberkelner(in) roomservice</Functie>
+    <Description>Assistent(e) oberkelner(in) roomservice</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>73</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Oberkelner(in) roomservice</Functie>
+    <Description>Oberkelner(in) roomservice</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>75</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Aangestelden toiletten</Functie>
+    <Description>Aangestelden toiletten</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>77</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Aangestelde kleedkamer</Functie>
+    <Description>Aangestelde kleedkamer</Description>
     <begin_geldigheid>01/04/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>17</Categorie>
     <Code>98</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidswerknemer in de Horeca</Functie>
+    <Description>Gelegenheidswerknemer in de Horeca</Description>
     <begin_geldigheid>01/07/2003</begin_geldigheid>
     <einde_geldigheid>30/06/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>19</Categorie>
     <Code>81</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Zeevissers : bemanning van de vissersvaartuigen uitgezonderd scheepsleerjongens</Functie>
+    <Description>Zeevissers : bemanning van de vissersvaartuigen uitgezonderd scheepsleerjongens</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>19</Categorie>
     <Code>82</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Zeevissers : scheepsleerjongens</Functie>
+    <Description>Zeevissers : scheepsleerjongens</Description>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>66</Categorie>
     <Code>85</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Aangestelden toiletten</Functie>
+    <Description>Aangestelden toiletten</Description>
     <begin_geldigheid>01/01/2010</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>95</Categorie>
     <Code>85</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Aangestelden toiletten</Functie>
+    <Description>Aangestelden toiletten</Description>
     <begin_geldigheid>01/01/2011</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>97</Categorie>
     <Code>91</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de landbouw</Functie>
+    <Description>Gelegenheidsarbeider in de landbouw</Description>
     <begin_geldigheid>01/01/2007</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>97</Categorie>
     <Code>94</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidswerknemers uit de horeca met dagforfait</Functie>
+    <Description>Gelegenheidswerknemers uit de horeca met dagforfait</Description>
     <begin_geldigheid>01/10/2013</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>97</Categorie>
     <Code>95</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidswerknemers uit de horeca met uurforfait</Functie>
+    <Description>Gelegenheidswerknemers uit de horeca met uurforfait</Description>
     <begin_geldigheid>01/10/2013</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>97</Categorie>
     <Code>98</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidswerknemer in de Horeca</Functie>
+    <Description>Gelegenheidswerknemer in de Horeca</Description>
     <begin_geldigheid>01/01/2004</begin_geldigheid>
     <einde_geldigheid>30/06/2007</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>97</Categorie>
     <Code>99</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006, de landbouw</Functie>
+    <Description>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006, de landbouw</Description>
     <begin_geldigheid>01/07/2004</begin_geldigheid>
     <einde_geldigheid>01/01/9999</einde_geldigheid>
-    </ann9>
-    <ann9>
-        <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
         <Categorie>116</Categorie>
         <Code>10</Code>
         <Leeftijd>-</Leeftijd>
-        <Functie>Hulpkelner(in)-afruimer</Functie>
+        <Description>Hulpkelner(in)-afruimer</Description>
         <begin_geldigheid>01/07/2007</begin_geldigheid>
         <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-        <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
         <Categorie>116</Categorie>
         <Code>11</Code>
         <Leeftijd>-</Leeftijd>
-        <Functie>Hulpkelner(in)-suite</Functie>
+        <Description>Hulpkelner(in)-suite</Description>
         <begin_geldigheid>01/07/2007</begin_geldigheid>
         <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-        <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+        <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
         <Categorie>116</Categorie>
         <Code>12</Code>
         <Leeftijd>-</Leeftijd>
-        <Functie>Hulpkelner(in)-rijleider</Functie>
+        <Description>Hulpkelner(in)-rijleider</Description>
         <begin_geldigheid>01/07/2007</begin_geldigheid>
         <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>13</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>1/2 rijleid(st)er restaurant</Functie>
+    <Description>1/2 rijleid(st)er restaurant</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>14</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kelner(in) restaurant</Functie>
+    <Description>Kelner(in) restaurant</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>15</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Rangkelner(in) restaurant</Functie>
+    <Description>Rangkelner(in) restaurant</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>16</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Eerste rangkelner(in) restaurant</Functie>
+    <Description>Eerste rangkelner(in) restaurant</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>17</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Wijnkelner(in)</Functie>
+    <Description>Wijnkelner(in)</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>18</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent(e) oberkelner(in) restaurant</Functie>
+    <Description>Assistent(e) oberkelner(in) restaurant</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>19</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Oberkelner(in) restaurant</Functie>
+    <Description>Oberkelner(in) restaurant</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>22</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpkelner(in), Commis</Functie>
+    <Description>Hulpkelner(in), Commis</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>23</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Banketkelner(in)</Functie>
+    <Description>Banketkelner(in)</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>24</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>1/2 rijleid(st)er banket</Functie>
+    <Description>1/2 rijleid(st)er banket</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>25</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Rijleid(st)er banket</Functie>
+    <Description>Rijleid(st)er banket</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>26</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Eerste rangkelner(in) banket</Functie>
+    <Description>Eerste rangkelner(in) banket</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>27</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Assistent(e) oberkelner(in) banket</Functie>
+    <Description>Assistent(e) oberkelner(in) banket</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>28</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Oberkelner(in) banket</Functie>
+    <Description>Oberkelner(in) banket</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>53</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kelner(in) brasserie, taverne, bistro</Functie>
+    <Description>Kelner(in) brasserie, taverne, bistro</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>55</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Kelner café</Functie>
+    <Description>Kelner cafï¿½</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-    <ann9>
-    <Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+    <function>
+    <Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
     <Categorie>116</Categorie>
     <Code>57</Code>
     <Leeftijd>-</Leeftijd>
-    <Functie>Hulpknecht barman</Functie>
+    <Description>Hulpknecht barman</Description>
     <begin_geldigheid>01/07/2007</begin_geldigheid>
     <einde_geldigheid>30/09/2013</einde_geldigheid>
-    </ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+    </function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>58</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Barman</Functie>
+<Description>Barman</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>59</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Verantwoordelijke barman, verantwoordelijke barmeid</Functie>
+<Description>Verantwoordelijke barman, verantwoordelijke barmeid</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>61</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Loopjongen, loopmeisje</Functie>
+<Description>Loopjongen, loopmeisje</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>62</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Voiturier</Functie>
+<Description>Voiturier</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>63</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Portier</Functie>
+<Description>Portier</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>64</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Kruier</Functie>
+<Description>Kruier</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>65</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Kamerjongen, kamermeisje</Functie>
+<Description>Kamerjongen, kamermeisje</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>66</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Conciërge</Functie>
+<Description>Conciï¿½rge</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>67</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Chef conciërge</Functie>
+<Description>Chef conciï¿½rge</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>70</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Hulp étage-kelner(in)</Functie>
+<Description>Hulp ï¿½tage-kelner(in)</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>71</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Etage-kelner(in)</Functie>
+<Description>Etage-kelner(in)</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>72</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Assistent(e) oberkelner(in) roomservice</Functie>
+<Description>Assistent(e) oberkelner(in) roomservice</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>73</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Oberkelner(in) roomservice</Functie>
+<Description>Oberkelner(in) roomservice</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>75</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Aangestelden toiletten</Functie>
+<Description>Aangestelden toiletten</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>116</Categorie>
 <Code>77</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Aangestelde kleedkamer</Functie>
+<Description>Aangestelde kleedkamer</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>10</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Hulpkelner(in)-afruimer</Functie>
+<Description>Hulpkelner(in)-afruimer</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>11</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Hulpkelner(in)-suite</Functie>
+<Description>Hulpkelner(in)-suite</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>12</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Hulpkelner(in)-rijleider</Functie>
+<Description>Hulpkelner(in)-rijleider</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>13</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>1/2 rijleid(st)er restaurant</Functie>
+<Description>1/2 rijleid(st)er restaurant</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>14</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Kelner(in) restaurant</Functie>
+<Description>Kelner(in) restaurant</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>15</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Rangkelner(in) restaurant</Functie>
+<Description>Rangkelner(in) restaurant</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>16</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Eerste rangkelner(in) restaurant</Functie>
+<Description>Eerste rangkelner(in) restaurant</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>17</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Wijnkelner(in)</Functie>
+<Description>Wijnkelner(in)</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>18</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Assistent(e) oberkelner(in) restaurant</Functie>
+<Description>Assistent(e) oberkelner(in) restaurant</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>19</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Oberkelner(in) restaurant</Functie>
+<Description>Oberkelner(in) restaurant</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>22</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Hulpkelner(in), Commis</Functie>
+<Description>Hulpkelner(in), Commis</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>23</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Banketkelner(in)</Functie>
+<Description>Banketkelner(in)</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>24</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>1/2 rijleid(st)er banket</Functie>
+<Description>1/2 rijleid(st)er banket</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>25</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Rijleid(st)er banket</Functie>
+<Description>Rijleid(st)er banket</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>26</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Eerste rangkelner(in) banket</Functie>
+<Description>Eerste rangkelner(in) banket</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>27</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Assistent(e) oberkelner(in) banket</Functie>
+<Description>Assistent(e) oberkelner(in) banket</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>28</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Oberkelner(in) banket</Functie>
+<Description>Oberkelner(in) banket</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>53</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Kelner(in) brasserie, taverne, bistro</Functie>
+<Description>Kelner(in) brasserie, taverne, bistro</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>55</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Kelner café</Functie>
+<Description>Kelner cafï¿½</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>57</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Hulpknecht barman</Functie>
+<Description>Hulpknecht barman</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>58</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Barman</Functie>
+<Description>Barman</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>59</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Verantwoordelijke barman, verantwoordelijke barmeid</Functie>
+<Description>Verantwoordelijke barman, verantwoordelijke barmeid</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>61</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Loopjongen, loopmeisje</Functie>
+<Description>Loopjongen, loopmeisje</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>62</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Voiturier</Functie>
+<Description>Voiturier</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>63</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Portier</Functie>
+<Description>Portier</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>64</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Kruier</Functie>
+<Description>Kruier</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>65</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Kamerjongen, kamermeisje</Functie>
+<Description>Kamerjongen, kamermeisje</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>66</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Conciërge</Functie>
+<Description>Conciï¿½rge</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>67</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Chef conciërge</Functie>
+<Description>Chef conciï¿½rge</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>70</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Hulp étage-kelner(in)</Functie>
+<Description>Hulp ï¿½tage-kelner(in)</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>71</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Etage-kelner(in)</Functie>
+<Description>Etage-kelner(in)</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>72</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Assistent(e) oberkelner(in) roomservice</Functie>
+<Description>Assistent(e) oberkelner(in) roomservice</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>73</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Oberkelner(in) roomservice</Functie>
+<Description>Oberkelner(in) roomservice</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>75</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Aangestelden toiletten</Functie>
+<Description>Aangestelden toiletten</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>117</Categorie>
 <Code>77</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Aangestelde kleedkamer</Functie>
+<Description>Aangestelde kleedkamer</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>193</Categorie>
 <Code>91</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de landbouw</Functie>
+<Description>Gelegenheidsarbeider in de landbouw</Description>
 <begin_geldigheid>01/01/2007</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>194</Categorie>
 <Code>93</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de fruitteelt</Functie>
+<Description>Gelegenheidsarbeider in de fruitteelt</Description>
 <begin_geldigheid>01/01/2020</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>194</Categorie>
 <Code>99</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de tuinbouw</Functie>
+<Description>Gelegenheidsarbeider in de tuinbouw</Description>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>216</Categorie>
 <Code>96</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidswerknemer in de horeca met tijdsblok 5 uur</Functie>
+<Description>Gelegenheidswerknemer in de horeca met tijdsblok 5 uur</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>216</Categorie>
 <Code>97</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidswerknemer in de horeca met tijdsblok 11 uur</Functie>
+<Description>Gelegenheidswerknemer in de horeca met tijdsblok 11 uur</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>217</Categorie>
 <Code>96</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidswerknemer in de horeca met tijdsblok 5 uur</Functie>
+<Description>Gelegenheidswerknemer in de horeca met tijdsblok 5 uur</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>217</Categorie>
 <Code>97</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidswerknemer in de horeca met tijdsblok 11 uur</Functie>
+<Description>Gelegenheidswerknemer in de horeca met tijdsblok 11 uur</Description>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
 <einde_geldigheid>30/09/2013</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>293</Categorie>
 <Code>91</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de landbouw</Functie>
+<Description>Gelegenheidsarbeider in de landbouw</Description>
 <begin_geldigheid>01/01/2020</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>317</Categorie>
 <Code>94</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidswerknemers uit de horeca met dagforfait</Functie>
+<Description>Gelegenheidswerknemers uit de horeca met dagforfait</Description>
 <begin_geldigheid>01/10/2013</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>317</Categorie>
 <Code>95</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidswerknemers uit de horeca met uurforfait</Functie>
+<Description>Gelegenheidswerknemers uit de horeca met uurforfait</Description>
 <begin_geldigheid>01/10/2013</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>323</Categorie>
 <Code>85</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Aangestelden toiletten</Functie>
+<Description>Aangestelden toiletten</Description>
 <begin_geldigheid>01/01/2010</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>494</Categorie>
 <Code>99</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de tuinbouw</Functie>
+<Description>Gelegenheidsarbeider in de tuinbouw</Description>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>497</Categorie>
 <Code>91</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de landbouw</Functie>
+<Description>Gelegenheidsarbeider in de landbouw</Description>
 <begin_geldigheid>01/01/2007</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>497</Categorie>
 <Code>94</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidswerknemers uit de horeca met dagforfait</Functie>
+<Description>Gelegenheidswerknemers uit de horeca met dagforfait</Description>
 <begin_geldigheid>01/10/2013</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>497</Categorie>
 <Code>95</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidswerknemers uit de horeca met uurforfait</Functie>
+<Description>Gelegenheidswerknemers uit de horeca met uurforfait</Description>
 <begin_geldigheid>01/10/2013</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>497</Categorie>
 <Code>98</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidswerknemer in de Horeca</Functie>
+<Description>Gelegenheidswerknemer in de Horeca</Description>
 <begin_geldigheid>01/01/2004</begin_geldigheid>
 <einde_geldigheid>30/06/2007</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>497</Categorie>
 <Code>99</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006 de landbouw</Functie>
+<Description>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006 de landbouw</Description>
 <begin_geldigheid>01/07/2004</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>562</Categorie>
 <Code>85</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Aangestelden toiletten</Functie>
+<Description>Aangestelden toiletten</Description>
 <begin_geldigheid>01/01/2010</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>594</Categorie>
 <Code>90</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de witloofsector voor de dagen waarop gelegenheidswerk verricht wordt bovenop de 65 dagen</Functie>
+<Description>Gelegenheidsarbeider in de witloofsector voor de dagen waarop gelegenheidswerk verricht wordt bovenop de 65 dagen</Description>
 <begin_geldigheid>01/01/2007</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>594</Categorie>
 <Code>92</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de champignonsector</Functie>
+<Description>Gelegenheidsarbeider in de champignonsector</Description>
 <begin_geldigheid>01/01/2013</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>594</Categorie>
 <Code>93</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de fruitteelt</Functie>
+<Description>Gelegenheidsarbeider in de fruitteelt</Description>
 <begin_geldigheid>01/01/2020</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>594</Categorie>
 <Code>99</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Gelegenheidsarbeider in de tuinbouw</Functie>
+<Description>Gelegenheidsarbeider in de tuinbouw</Description>
 <begin_geldigheid>01/01/2007</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
-<ann9>
-<Ventilation>Functienummers geldig vanaf 2007/2</Ventilation>
+</function>
+<function>
+<Ventilation>Descriptionnummers geldig vanaf 2007/2</Ventilation>
 <Categorie>662</Categorie>
 <Code>85</Code>
 <Leeftijd>-</Leeftijd>
-<Functie>Aangestelden toiletten</Functie>
+<Description>Aangestelden toiletten</Description>
 <begin_geldigheid>01/01/2010</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
-</ann9>
+</function>
 </List>
 

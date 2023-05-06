@@ -8,7 +8,6 @@
 	<!ELEMENT einde_geldigheid (#PCDATA)>
 ]>
 <List>
-
     <ann30>
     <Code>001</Code>
     <Omschrijving>Niet aanwezig</Omschrijving>
@@ -59,7 +58,7 @@
     </ann30>
     <ann30>
     <Code>009</Code>
-    <Omschrijving>Leeftijd te verifiëren</Omschrijving>
+    <Omschrijving>Leeftijd te verifiï¿½ren</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -77,7 +76,7 @@
     </ann30>
     <ann30>
     <Code>012</Code>
-    <Omschrijving>Cumul te verifiëren</Omschrijving>
+    <Omschrijving>Cumul te verifiï¿½ren</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -125,7 +124,7 @@
     </ann30>
     <ann30>
     <Code>020</Code>
-    <Omschrijving>Onverenigbaar met het paritair comité</Omschrijving>
+    <Omschrijving>Onverenigbaar met het paritair comitÃ©</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -263,7 +262,7 @@
     </ann30>
     <ann30>
     <Code>043</Code>
-    <Omschrijving>Bedrag te verifiëren</Omschrijving>
+    <Omschrijving>Bedrag te verifiÃ«ren</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -347,7 +346,7 @@
     </ann30>
     <ann30>
     <Code>057</Code>
-    <Omschrijving>Prestaties te verifiëren</Omschrijving>
+    <Omschrijving>Prestaties te verifiÃ«ren</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -461,7 +460,7 @@
     </ann30>
     <ann30>
     <Code>076</Code>
-    <Omschrijving>Prestatiebreuk (µ) voldoet niet aan de vereisten</Omschrijving>
+    <Omschrijving>Prestatiebreuk voldoet niet aan de vereisten</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -1103,7 +1102,7 @@
     </ann30>
     <ann30>
     <Code>188</Code>
-    <Omschrijving>Het formulier verwijst naar meer dan één vroeger geregistreerd formulier</Omschrijving>
+    <Omschrijving>Het formulier verwijst naar meer dan ï¿½ï¿½n vroeger geregistreerd formulier</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -1193,7 +1192,7 @@
     </ann30>
     <ann30>
     <Code>205</Code>
-    <Omschrijving>Het bestand bevat ten minste één gegevensblok dat geen formulier is (blok Form)</Omschrijving>
+    <Omschrijving>Het bestand bevat ten minste ï¿½ï¿½n gegevensblok dat geen formulier is (blok Form)</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -1211,13 +1210,13 @@
     </ann30>
     <ann30>
     <Code>208</Code>
-    <Omschrijving>Combinatie « RSZ/PPL nummer - INSZ - Periode » niet gevonden in DIMONA</Omschrijving>
+    <Omschrijving>Combinatie ï¿½ RSZ/PPL nummer - INSZ - Periode ï¿½ niet gevonden in DIMONA</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
     <ann30>
     <Code>209</Code>
-    <Omschrijving>INSZ niet geïntegreerd binnen de referteperiode</Omschrijving>
+    <Omschrijving>INSZ niet geï¿½ntegreerd binnen de referteperiode</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -1415,7 +1414,7 @@
     </ann30>
     <ann30>
     <Code>242</Code>
-    <Omschrijving>Einddatum tewerkstelling ontbreekt voor minstens één tewerkstelling</Omschrijving>
+    <Omschrijving>Einddatum tewerkstelling ontbreekt voor minstens ï¿½ï¿½n tewerkstelling</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -1433,19 +1432,19 @@
     </ann30>
     <ann30>
     <Code>245</Code>
-    <Omschrijving>Te verifiëren</Omschrijving>
+    <Omschrijving>Te verifiï¿½ren</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
     <ann30>
     <Code>246</Code>
-    <Omschrijving>De boodschap bevat meer dan één formulier</Omschrijving>
+    <Omschrijving>De boodschap bevat meer dan ï¿½ï¿½n formulier</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
     <ann30>
     <Code>247</Code>
-    <Omschrijving>De beëindigde tewerkstelling wordt niet teruggevonden</Omschrijving>
+    <Omschrijving>De beï¿½indigde tewerkstelling wordt niet teruggevonden</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -1637,7 +1636,7 @@
     </ann30>
     <ann30>
     <Code>281</Code>
-    <Omschrijving>Foutief ZIP-bestand (bevat geen bestand of meer dan één bestand)</Omschrijving>
+    <Omschrijving>Foutief ZIP-bestand (bevat geen bestand of meer dan ï¿½ï¿½n bestand)</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -1715,7 +1714,7 @@
     </ann30>
     <ann30>
     <Code>294</Code>
-    <Omschrijving>De tag CBSS/Référence is niet aanwezig in de tag MessageContext</Omschrijving>
+    <Omschrijving>De tag CBSS/Rï¿½fï¿½rence is niet aanwezig in de tag MessageContext</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -1799,7 +1798,7 @@
     </ann30>
     <ann30>
     <Code>308</Code>
-    <Omschrijving>Meer dan één tag Destination aanwezig in het record</Omschrijving>
+    <Omschrijving>Meer dan ï¿½ï¿½n tag Destination aanwezig in het record</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -1835,7 +1834,7 @@
     </ann30>
     <ann30>
     <Code>314</Code>
-    <Omschrijving>Paritaire comité 999 niet toegelaten</Omschrijving>
+    <Omschrijving>Paritaire comitï¿½ 999 niet toegelaten</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -2003,7 +2002,7 @@
     </ann30>
     <ann30>
     <Code>349</Code>
-    <Omschrijving>Onverenigbaarheid tussen het paritair comité en het werknemerstype</Omschrijving>
+    <Omschrijving>Onverenigbaarheid tussen het paritair comitï¿½ en het werknemerstype</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -2489,7 +2488,7 @@
     </ann30>
     <ann30>
     <Code>438</Code>
-    <Omschrijving>Een andere werkgever heeft minstens één DmfA(PPL) doorgestuurd na 01/01/2011</Omschrijving>
+    <Omschrijving>Een andere werkgever heeft minstens ï¿½ï¿½n DmfA(PPL) doorgestuurd na 01/01/2011</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -2609,7 +2608,7 @@
     </ann30>
     <ann30>
     <Code>468</Code>
-    <Omschrijving>KBO-gegevens te verifiëren</Omschrijving>
+    <Omschrijving>KBO-gegevens te verifiï¿½ren</Omschrijving>
     <begin_geldigheid>01/01/1900</begin_geldigheid>
     <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -2723,7 +2722,7 @@
     </ann30>
     <ann30>
         <Code>489</Code>
-        <Omschrijving>Onverenigbaar met datum ministeriële beslissing</Omschrijving>
+        <Omschrijving>Onverenigbaar met datum ministeriï¿½le beslissing</Omschrijving>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>
@@ -2837,7 +2836,7 @@
     </ann30>
     <ann30>
         <Code>508</Code>
-        <Omschrijving>Meer dan één verrijkt formulier gestuurd voor het origineel formulier</Omschrijving>
+        <Omschrijving>Meer dan ï¿½ï¿½n verrijkt formulier gestuurd voor het origineel formulier</Omschrijving>
         <begin_geldigheid>01/01/1900</begin_geldigheid>
         <einde_geldigheid>31/12/9999</einde_geldigheid>
     </ann30>

@@ -6,7 +6,10 @@
     <remuneration>
         <code>1</code>
         <description>
-            <nl>Alle bedragen die steeds als loon worden beschouwd, met uitzondering van de vergoedingen die onder een andere code worden vermeld.</nl>
+            <nl>
+                Alle bedragen die steeds als loon worden beschouwd,
+                met uitzondering van de vergoedingen die onder een andere code worden vermeld.
+            </nl>
             <fr></fr>
         </description>
         <DMFA>Yes</DMFA>
@@ -23,7 +26,10 @@
     <remuneration>
         <code>2</code>
         <description>
-            <nl>Premies en gelijkaardige voordelen die worden toegekend onafhankelijk van het aantal effectief gewerkte dagen in het aangiftekwartaal.</nl>
+            <nl>
+                Premies en gelijkaardige voordelen die worden toegekend onafhankelijk van het aantal effectief gewerkte dagen
+                in het aangiftekwartaal.
+            </nl>
             <fr></fr>
         </description>
         <DMFA>Yes</DMFA>
