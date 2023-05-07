@@ -104,7 +104,11 @@ In de laatste stap wordt het totaal te betalen bedrag vergeleken met de som van 
 5. Automatische verwerking van aangiftes
 ========================================
 
-De xml validator laat ook een geautomatiseerde controle van aangiftes toe. Hierbij kan via de opdrachtregel het de te controleren aangifte worden opgegeven. De uitvoer van de controles die in paragraaf 4 wordt beschreven, wordt dan naar een op te geven uitvoer bestand weggeschreven. Voor deze manier van werken moet de xmlvalidator opgestart worden via batch-bestand "xmlvalidatorbatch.bat"
+De xml validator laat ook een geautomatiseerde controle van aangiftes toe.
+Hierbij kan via de opdrachtregel het de te controleren aangifte worden opgegeven.
+De uitvoer van de controles die in paragraaf 4 wordt beschreven
+, wordt dan naar een op te geven uitvoer bestand weggeschreven.
+Voor deze manier van werken moet de xmlvalidator opgestart worden via batch-bestand "xmlvalidatorbatch.bat"
 
 	xmlvalidatorbatch.bat invoerbestand [uitvoerbestand]
 
@@ -113,7 +117,8 @@ Waarbij
 	invoerbestand:	De te valideren DmfA-aangifte.
 	uitvoerbestand:	Het bestand waarnaar de uitvoer wordt weggeschreven.
 
-o	Indien geen uitvoerbestand wordt opgegeven, zal xmlvalidator zelf een uitvoerbestand aanmaken met als naam "invoerbestand.out". 
+o	Indien geen uitvoerbestand wordt opgegeven, zal xmlvalidator zelf een uitvoerbestand aanmaken
+        met als naam "invoerbestand.out". 
 o	Indien het uitvoerbestand reeds bestaat, wordt de nieuwe uitvoer toegevoegd aan het bestaande bestand. 
 o	Om het onderscheid te maken tussen verschillende bestanden wordt bij elke controle de naam van het invoerbestand ook weggeschreven naar het uitvoerbestand. 
 
