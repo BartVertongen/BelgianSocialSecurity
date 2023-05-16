@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<risk-identifications>
+  <risk-identification>
+    <id>
+      <main>AOAT001</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>ARBEIDSONGEVALLEN</nl>
+      <fr>ACCIDENTS DE TRAVAIL</fr>
+    </title>
+    <description>
+      <nl>Volledige aangifte</nl>
+      <fr>Déclaration complète</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - aangifte van een arbeidsongeval</nl>
+      <fr>Scénario 1 - Déclaration d'un accident de travail</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>AOAT001</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>ARBEIDSONGEVALLEN</nl>
+      <fr>ACCIDENTS DE TRAVAIL</fr>
+    </title>
+    <description>
+      <nl>Vereenvoudigde aangifte</nl>
+      <fr>Déclaration simplifiée</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - aangifte van een arbeidsongeval</nl>
+      <fr>Scénario 1 - Déclaration d'un accident de travail</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>BZMP001</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>BEROEPSZIEKTEN</nl>
+      <fr>MALADIES PROFESSIONELLES</fr>
+    </title>
+    <description>
+      <nl>Volledige werkstopzetting</nl>
+      <fr>Arrêt de travail complet</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Gemachtigde aanvraag - verwijdering van een zwangere werkneemster-  privé-sector</nl>
+      <fr>Scénario 1- Demande mandatée - écartement d'une travailleuse enceinte - secteur privé</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>2011</year>
+      <quarter>2</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>BZMP001</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>BEROEPSZIEKTEN</nl>
+      <fr>MALADIES PROFESSIONELLES</fr>
+    </title>
+    <description>
+      <nl>Postenmutatie met loonverlies</nl>
+      <fr>Mutation de poste avec perte de salaire</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Gemachtigde aanvraag - verwijdering van een zwangere werkneemster-  privé-sector</nl>
+      <fr>Scénario 1- Demande mandatée - écartement d'une travailleuse enceinte - secteur privé</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>2011</year>
+      <quarter>2</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>BZMP001</main>
+      <sub>003</sub>
+    </id>
+    <title>
+      <nl>BEROEPSZIEKTEN</nl>
+      <fr>MALADIES PROFESSIONELLES</fr>
+    </title>
+    <description>
+      <nl>Combinatie van volledige werkstopzetting en postenmutatie</nl>
+      <fr>Combinaison d'arrêt de travail complet et mutation de poste</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Gemachtigde aanvraag - verwijdering van een zwangere werkneemster-  privé-sector</nl>
+      <fr>Scénario 1- Demande mandatée - écartement d'une travailleuse enceinte - secteur privé</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>2011</year>
+      <quarter>2</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA001</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Aangifte van arbeidsongeschiktheid (ziekte, ongeval, profylactisch verlof)</nl>
+      <fr>Incapacité de travail (maladie, accident, congé prophylactique)</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</nl>
+      <fr>Scénario 1 - Déclaration en cas d'incapacité de travail, de repos de maternité, d'écartement complet du travail en tant que mesure de protection de la maternité, d'écartement partiel du travail en tant que mesure de protection de la maternité, de congé de paternité (art. 39, al. 6 loi du 16.3.1971 sur le travail), de congé de naissance (art. 30, § 2, loi du 3 juillet 1978 relative aux contrats de travail) et de congé d'adoption</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA001</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Moederschapsrust</nl>
+      <fr>Repos de maternité</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</nl>
+      <fr>Scénario 1 - Déclaration en cas d'incapacité de travail, de repos de maternité, d'écartement complet du travail en tant que mesure de protection de la maternité, d'écartement partiel du travail en tant que mesure de protection de la maternité, de congé de paternité (art. 39, al. 6 loi du 16.3.1971 sur le travail), de congé de naissance (art. 30, § 2, loi du 3 juillet 1978 relative aux contrats de travail) et de congé d'adoption</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA001</main>
+      <sub>003</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Volledige werkverwijdering als maatregel inzake moederschapsbescherming</nl>
+      <fr>Ecartement complet  du travail en tant que mesure de protection de la maternité</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</nl>
+      <fr>Scénario 1 - Déclaration en cas d'incapacité de travail, de repos de maternité, d'écartement complet du travail en tant que mesure de protection de la maternité, d'écartement partiel du travail en tant que mesure de protection de la maternité, de congé de paternité (art. 39, al. 6 loi du 16.3.1971 sur le travail), de congé de naissance (art. 30, § 2, loi du 3 juillet 1978 relative aux contrats de travail) et de congé d'adoption</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA001</main>
+      <sub>004</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming</nl>
+      <fr>Ecartement partiel du travail en tant que mesure de protection de la maternité</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</nl>
+      <fr>Scénario 1 - Déclaration en cas d'incapacité de travail, de repos de maternité, d'écartement complet du travail en tant que mesure de protection de la maternité, d'écartement partiel du travail en tant que mesure de protection de la maternité, de congé de paternité (art. 39, al. 6 loi du 16.3.1971 sur le travail), de congé de naissance (art. 30, § 2, loi du 3 juillet 1978 relative aux contrats de travail) et de congé d'adoption</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA001</main>
+      <sub>005</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Omgezet moederschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971)</nl>
+      <fr>Congé de maternité converti (art. 39 al. 6 de la loi du 16.3.1971 sur le travail)</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</nl>
+      <fr>Scénario 1 - Déclaration en cas d'incapacité de travail, de repos de maternité, d'écartement complet du travail en tant que mesure de protection de la maternité, d'écartement partiel du travail en tant que mesure de protection de la maternité, de congé de paternité (art. 39, al. 6 loi du 16.3.1971 sur le travail), de congé de naissance (art. 30, § 2, loi du 3 juillet 1978 relative aux contrats de travail) et de congé d'adoption</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA001</main>
+      <sub>006</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Vaderschaps- of geboorteverlof - 10 dagen (art. 30, § 2 wet van 3.7.1978 betreffende de arbeidsovereenkomsten)</nl>
+      <fr>Congé de paternité ou de naissance - 10 jours (art. 30 §2 de la loi du 3.7.1978 relative aux contrats de travail)</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</nl>
+      <fr>Scénario 1 - Déclaration en cas d'incapacité de travail, de repos de maternité, d'écartement complet du travail en tant que mesure de protection de la maternité, d'écartement partiel du travail en tant que mesure de protection de la maternité, de congé de paternité (art. 39, al. 6 loi du 16.3.1971 sur le travail), de congé de naissance (art. 30, § 2, loi du 3 juillet 1978 relative aux contrats de travail) et de congé d'adoption</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA001</main>
+      <sub>007</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Adoptieverlof</nl>
+      <fr>Congé d'adoption</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</nl>
+      <fr>Scénario 1 - Déclaration en cas d'incapacité de travail, de repos de maternité, d'écartement complet du travail en tant que mesure de protection de la maternité, d'écartement partiel du travail en tant que mesure de protection de la maternité, de congé de paternité (art. 39, al. 6 loi du 16.3.1971 sur le travail), de congé de naissance (art. 30, § 2, loi du 3 juillet 1978 relative aux contrats de travail) et de congé d'adoption</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA001</main>
+      <sub>008</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Pleegouderverlof</nl>
+      <fr>Congé parental d'accueil</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte van arbeidsongeschiktheid, moederschapsrust, volledige werkverwijdering als maatregel inzake moederschapsbescherming, gedeeltelijke werkverwijdering als maatregel inzake moederschapsbescherming, vaderschapsverlof (art. 39, zesde lid arbeidswet van 16.3.1971), geboorteverlof (art. 30, § 2, wet van 3 juli 1978 betreffende de arbeidsovereenkomsten) en adoptieverlof</nl>
+      <fr>Scénario 1 - Déclaration en cas d'incapacité de travail, de repos de maternité, d'écartement complet du travail en tant que mesure de protection de la maternité, d'écartement partiel du travail en tant que mesure de protection de la maternité, de congé de paternité (art. 39, al. 6 loi du 16.3.1971 sur le travail), de congé de naissance (art. 30, § 2, loi du 3 juillet 1978 relative aux contrats de travail) et de congé d'adoption</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA002</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Aangifte in geval van hervatting van een aangepaste arbeid in de loop van een periode van arbeidsongeschiktheid</nl>
+      <fr>Déclaration en cas de reprise d'un travail adapté au cours d'une période d'incapacité de travail</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Maandelijkse aangifte in geval van hervatting van een aangepaste arbeid in de loop van een periode van arbeidsongeschiktheid, uitoefening van een aangepaste arbeid in het kader van een maatregel van moederschapsbescherming [en (tot en met 31/12/2017) voortzetting van een activiteit bij één van de twee werkgevers wanneer de werkneemster bij twee verschillende werkgevers tewerkgesteld is en slechts van het werk verwijderd wordt bij één van deze twee werkgevers]</nl>
+      <fr>Scénario 2 - Déclaration mensuelle en cas de reprise d'un travail adapté dans le courant d'une période d'incapacité de travail, d'exercice d'un travail adapté dans le cadre d'une mesure de protection de la maternité [et (jusqu'au 31/12/2017) de poursuite d'une activité chez un des deux employeurs, lorsque la travailleuse est titulaire de deux emplois salariés auprès d'employeurs différents et n'est écartée du travail que du chef de l'une de ces deux occupations]</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA002</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse inkomstenaangifte in geval van uitoefening van een aangepaste arbeid in de loop van een maatregel van moederschapsbescherming</nl>
+      <fr>Déclaration mensuelle de revenus en cas d'exercice d'un travail adapté au cours d'une mesure de protection de la maternité</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Maandelijkse aangifte in geval van hervatting van een aangepaste arbeid in de loop van een periode van arbeidsongeschiktheid, uitoefening van een aangepaste arbeid in het kader van een maatregel van moederschapsbescherming [en (tot en met 31/12/2017) voortzetting van een activiteit bij één van de twee werkgevers wanneer de werkneemster bij twee verschillende werkgevers tewerkgesteld is en slechts van het werk verwijderd wordt bij één van deze twee werkgevers]</nl>
+      <fr>Scénario 2 - Déclaration mensuelle en cas de reprise d'un travail adapté dans le courant d'une période d'incapacité de travail, d'exercice d'un travail adapté dans le cadre d'une mesure de protection de la maternité [et (jusqu'au 31/12/2017) de poursuite d'une activité chez un des deux employeurs, lorsque la travailleuse est titulaire de deux emplois salariés auprès d'employeurs différents et n'est écartée du travail que du chef de l'une de ces deux occupations]</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA003</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Attest met het oog op de vergoeding van de borstvoedingspauzes</nl>
+      <fr>Attestation en vue de l'indemnisation des pauses d'allaitement</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 3 - Attest met het oog op de vergoeding van de borstvoedingspauzes</nl>
+      <fr>Scénario 3 - Attestation en vue de l'indemnisation des pauses d'allaitement</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA005</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Vakantieaangifte van de werknemers aan wie het vakantiegeld betaald wordt door een vakantiekas of de RJV</nl>
+      <fr>Déclaration de vacances des travailleurs dont le pécule de vacances est payé par une caisse de vacances ou l'ONVA</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Jaarlijkse vakantieaangifte</nl>
+      <fr>Scénario 5 - Déclaration annuelle de vacances</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA005</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Vakantieaangifte van de werknemers aan wie het vakantiegeld betaald wordt door de werkgever</nl>
+      <fr>Déclaration de vacances des travailleurs dont le pécule de vacances est payé par l'employeur</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Jaarlijkse vakantieaangifte</nl>
+      <fr>Scénario 5 - Déclaration annuelle de vacances</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA005</main>
+      <sub>003</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Vakantieaangifte van de werknemers aan wie het vakantiegeld betaald wordt door een vakantiekas of de RJV - Aangepaste arbeid</nl>
+      <fr>Déclaration de vacances des travailleurs dont le pécule de vacances est payé par une caisse de vacances ou l'ONVA - Travail adapté</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Jaarlijkse vakantieaangifte</nl>
+      <fr>Scénario 5 - Déclaration annuelle de vacances</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA005</main>
+      <sub>004</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Vakantieaangifte van de werknemers aan wie het vakantiegeld betaald wordt door de werkgever - Aangepaste arbeid</nl>
+      <fr>Déclaration de vacances des travailleurs dont le pécule de vacances est payé par l'employeur - Travail adapté</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Jaarlijkse vakantieaangifte</nl>
+      <fr>Scénario 5 - Déclaration annuelle de vacances</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>ZIMA006</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>UITKERINGEN</nl>
+      <fr>INDEMNITES</fr>
+    </title>
+    <description>
+      <nl>Aangifte van de datum van werkhervatting</nl>
+      <fr>Déclaration de la date de reprise du travail</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 6 - Aangifte van werkhervatting</nl>
+      <fr>Scénario 6 - Déclaration de reprise du travail</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>CWTEMP</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Tijdelijke werkloosheid economische oorzaken</nl>
+      <fr>Chômage temporaire causes économiques</fr>
+    </description>
+    <scenario>
+      <nl>Mededeling van tijdelijke werkloosheid door de werkgever</nl>
+      <fr>Communication de chômage temporaire par l'employeur</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>CWTEMP</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Tijdelijke werkloosheid slecht weer</nl>
+      <fr>Chômage temporaire intempéries</fr>
+    </description>
+    <scenario>
+      <nl>Mededeling van tijdelijke werkloosheid door de werkgever</nl>
+      <fr>Communication de chômage temporaire par l'employeur</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>CWTEMP</main>
+      <sub>003</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Tijdelijke werkloosheid technische stoornis</nl>
+      <fr>Chômage temporaire accident technique</fr>
+    </description>
+    <scenario>
+      <nl>Mededeling van tijdelijke werkloosheid door de werkgever</nl>
+      <fr>Communication de chômage temporaire par l'employeur</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>CWTEMP</main>
+      <sub>004</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Tijdelijke werkloosheid overmacht</nl>
+      <fr>Chômage temporaire force majeure</fr>
+    </description>
+    <scenario>
+      <nl>Mededeling van tijdelijke werkloosheid door de werkgever</nl>
+      <fr>Communication de chômage temporaire par l'employeur</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>CWTEMP</main>
+      <sub>005</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Effectieve werkloosheid</nl>
+      <fr>Chômage effectif</fr>
+    </description>
+    <scenario>
+      <nl>Mededeling van tijdelijke werkloosheid door de werkgever</nl>
+      <fr>Communication de chômage temporaire par l'employeur</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>CWTEMP</main>
+      <sub>006</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Tijdelijke werkloosheid sociale actie</nl>
+      <fr>Chômage temporaire action sociale</fr>
+    </description>
+    <scenario>
+      <nl>Mededeling van tijdelijke werkloosheid door de werkgever</nl>
+      <fr>Communication de chômage temporaire par l'employeur</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>VBLV001</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Inschrijving controleformulier C 3.2 A in het validatieboek tijdelijke werkloosheid</nl>
+      <fr>Inscription du formulaire de contrôle C 3.2 A dans le livre de validation chômage temporaire</fr>
+    </description>
+    <scenario>
+      <nl>Validatieboek tijdelijke werkloosheid</nl>
+      <fr>Livre de validation chômage temporaire</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH001</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van einde arbeidsovereenkomst</nl>
+      <fr>Déclaration de fin de contrat de travail</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte einde arbeidsovereenkomst of werkloosheid met bedrijfstoeslag (voorheen brugpensioen) / Arbeidsbewijs</nl>
+      <fr>Scénario 1 - Déclaration de fin de contrat de travail ou de chômage avec complément d'entreprise (anciennement prépension) / Preuve de travail</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH001</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van werkloosheid met bedrijfstoeslag</nl>
+      <fr>Déclaration de chômage avec complément d'entreprise</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte einde arbeidsovereenkomst of werkloosheid met bedrijfstoeslag (voorheen brugpensioen) / Arbeidsbewijs</nl>
+      <fr>Scénario 1 - Déclaration de fin de contrat de travail ou de chômage avec complément d'entreprise (anciennement prépension) / Preuve de travail</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH001</main>
+      <sub>003</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van einde arbeidsovereenkomst in het onderwijs</nl>
+      <fr>Déclaration de fin de contrat de travail dans l'enseignement</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte einde arbeidsovereenkomst of werkloosheid met bedrijfstoeslag (voorheen brugpensioen) / Arbeidsbewijs</nl>
+      <fr>Scénario 1 - Déclaration de fin de contrat de travail ou de chômage avec complément d'entreprise (anciennement prépension) / Preuve de travail</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH001</main>
+      <sub>004</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Arbeidsbewijs</nl>
+      <fr>Preuve de travail</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 1 - Aangifte einde arbeidsovereenkomst of werkloosheid met bedrijfstoeslag (voorheen brugpensioen) / Arbeidsbewijs</nl>
+      <fr>Scénario 1 - Déclaration de fin de contrat de travail ou de chômage avec complément d'entreprise (anciennement prépension) / Preuve de travail</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid ingevolge gebrek aan werk wegens economische redenen</nl>
+      <fr>Déclaration de chômage temporaire par suite à un manque de travail résultant de causes économiques</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid ingevolge slecht weer</nl>
+      <fr>Déclaration de chômage temporaire par suite d'intempéries</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>003</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid ingevolge technische stoornis</nl>
+      <fr>Déclaration de chômage temporaire par suite d'un accident technique</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>004</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid ingevolge overmacht</nl>
+      <fr>Déclaration de chômage temporaire par suite de force majeure</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>005</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid ingevolge overmacht om medische redenen</nl>
+      <fr>Déclaration de chômage temporaire par suite de force majeure à caractère médical</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>006</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens jaarlijkse vakantie</nl>
+      <fr>Déclaration de chômage temporaire par suite de fermeture de l'entreprise pour cause de vacances annuelles</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>007</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens vakantie krachtens een algemeen bindend verklaarde CAO.</nl>
+      <fr>Déclaration de chômage temporaire par suite de fermeture de l'entreprise pour cause de vacances en vertu d'une CCT rendue obligatoire</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>008</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens inhaalrust in het kader van arbeidsduur-vermindering</nl>
+      <fr>Déclaration de chômage temporaire par suite de fermeture de l'entreprise pour cause de repos compensatoire dans le cadre d'une réduction de la durée du travail</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>009</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid ingevolge staking of lock-out</nl>
+      <fr>Déclaration de chômage temporaire par suite de grève ou de lock-out</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>010</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van tijdelijke werkloosheid in geval van ontslag van een beschermde werknemer</nl>
+      <fr>Déclaration de chômage temporaire en cas de licenciement d'un travailleur protégé</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH002</main>
+      <sub>011</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte van schorsing bedienden wegens werkgebrek</nl>
+      <fr>Déclaration de suspension employés pour manque de travail</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 2 - Aangifte vaststellen recht tijdelijke werkloosheid of schorsing bedienden</nl>
+      <fr>Scénario 2 - Déclaration constat du droit au chômage temporaire ou à la suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH003</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte aanvang deeltijdse arbeid</nl>
+      <fr>Déclaration de début de travail à temps partiel</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 3 - Aangifte aanvang deeltijdse arbeid</nl>
+      <fr>Scénario 3 - Déclaration de début de travail à temps partiel</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH003</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte aanvang deeltijdse arbeid - Onderwijs</nl>
+      <fr>Déclaration de début de travail à temps partiel - Enseignement</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 3 - Aangifte aanvang deeltijdse arbeid</nl>
+      <fr>Scénario 3 - Déclaration de début de travail à temps partiel</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>2016</year>
+      <quarter>3</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH004</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte halvering arbeidsprestaties in het kader van het halftijds brugpensioen</nl>
+      <fr>Déclaration réduction des prestations de travail à moitié dans le cadre de la prépension à mi-temps</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 4 - Aangifte halftijds brugpensioen</nl>
+      <fr>Scénario 4 - Déclaration de prépension à mi-temps</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>2012</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge gebrek aan werk wegens economische redenen</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire par suite à un manque de travail résultant de causes économiques</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge slecht weer</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire par suite d'intempéries</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>003</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge technische stoornis</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire par suite d'un accident technique</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>004</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge overmacht</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire par suite de force majeure</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>005</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge overmacht om medische redenen</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire par suite de force majeure à caractère médical</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>006</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens jaarlijkse vakantie</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire par suite de fermeture de l'entreprise pour cause de vacances annuelles</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>007</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens vakantie krachtens een algemeen bindend verklaarde CAO</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire par suite de fermeture de l'entreprise pour cause de vacances en vertu d'une CCT rendue obligatoire</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>008</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge collectieve sluiting van de onderneming wegens inhaalrust in het kader van arbeidsduurvermindering</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire par suite de fermeture de l'entreprise pour cause de repos compensatoire dans le cadre d'une réduction de la durée du travail</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>009</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid ingevolge staking of lock-out</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire par suite de grève ou de lock-out</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>010</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren tijdelijke werkloosheid in geval van ontslag van een beschermde werknemer</nl>
+      <fr>Déclaration mensuelle des heures de chômage temporaire en cas de licenciement d'un travailleur protégé</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH005</main>
+      <sub>011</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte uren schorsing bedienden wegens werkgebrek</nl>
+      <fr>Déclaration mensuelle des heures de suspension employés pour manque de travail</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 5 - Maandelijkse aangifte uren tijdelijke werkloosheid of uren schorsing bedienden</nl>
+      <fr>Scénario 5 - Déclaration mensuelle d'heures de chômage temporaire ou de suspension employés</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH006</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte van deeltijdse arbeid voor de berekening van de inkomensgarantie-uitkering</nl>
+      <fr>Déclaration mensuelle de travail à temps partiel pour le calcul de l'allocation de garantie de revenus</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 6 - Maandelijkse aangifte van deeltijdse arbeid voor de berekening van de inkomensgarantie-uitkering</nl>
+      <fr>Scénario 6 - Déclaration mensuelle de travail à temps partiel pour le calcul de l'allocation de garantie de revenus</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH006</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte van deeltijdse arbeid voor de berekening van de inkomensgarantie-uitkering - Onderwijs</nl>
+      <fr>Déclaration mensuelle de travail à temps partiel pour le calcul de l'allocation de garantie de revenus - Enseignement</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 6 - Maandelijkse aangifte van deeltijdse arbeid voor de berekening van de inkomensgarantie-uitkering</nl>
+      <fr>Scénario 6 - Déclaration mensuelle de travail à temps partiel pour le calcul de l'allocation de garantie de revenus</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>2016</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH007</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijke aangifte van arbeid als werknemer tewerkgesteld in een beschermde werkplaats</nl>
+      <fr>Déclaration mensuelle de travail en tant que travailleur occupé dans un atelier protégé</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 7 - Maandelijkse aangifte van arbeid als werknemer tewerkgesteld in een beschermde werkplaats</nl>
+      <fr>Scénario 7 - Déclaration mensuelle de travail en tant que travailleur occupé dans un atelier protégé</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de integratie-uitkering toegekend aan werknemers tewerkgesteld in een doorstromingsprogramma.</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation d'intégration octroyée aux travailleurs occupés dans le cadre d'un programme de transition professionnelle.</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de herinschakelingsuitkering toegekend aan werknemers tewerkgesteld in een dienstenbaan.</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de réinsertion octroyée aux travailleurs occupés dans le cadre d'un emploi-services.</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>2010</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>003</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Activa</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>004</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de SINE-uitkering toegekend aan werknemers tewerkgesteld in een sociale inschakelingstewerkstelling</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation SINE octroyée aux travailleurs occupés dans une occupation d'insertion sociale</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>005</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa-uitzendkracht</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Activa- intérimaire</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>2010</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>006</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa-korte duur</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Activa- courte durée</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>2010</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>007</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa-veiligheids- en preventiepersoneel</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Activa- personnel de sécurité et de prévention</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>008</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Activa-START</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Activa-START</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>010</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Wallonië - Langdurig werkzoekenden</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Wallonie - Demandeurs d'emploi de longue durée</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>011</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Wallonië - Jonge werkzoekenden</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Wallonie - Jeunes demandeurs d'emploi</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>012</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Wallonië - Inschakelingscontract</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Wallonie - Contrat d'insertion</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>020</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Brussel - Langdurig werkzoekenden</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Bruxelles - Demandeurs d'emploi de longue durée</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH008</main>
+      <sub>021</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte voor de berekening van de werkuitkering - Brussel - Verminderd arbeidsgeschikten</nl>
+      <fr>Déclaration mensuelle pour le calcul de l'allocation de travail - Bruxelles - Aptitude réduite</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 8 - Maandelijkse aangifte van arbeid in het kader van een activeringsprogramma</nl>
+      <fr>Scénario 8 - Déclaration mensuelle de travail dans le cadre d'un programme d'activation</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH009</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte voor het vaststellen van het recht op jeugdvakantie</nl>
+      <fr>Déclaration pour l'octroi du droit aux vacances jeunes</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 9 - Aangifte voor het vaststellen van het recht op jeugd- of seniorvakantie</nl>
+      <fr>Scénario 9 - Déclaration pour l'octroi du droit aux vacances jeunes ou seniors</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH009</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Aangifte voor het vaststellen van het recht op seniorvakantie</nl>
+      <fr>Déclaration pour l'octroi du droit aux vacances seniors</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 9 - Aangifte voor het vaststellen van het recht op jeugd- of seniorvakantie</nl>
+      <fr>Scénario 9 - Déclaration pour l'octroi du droit aux vacances jeunes ou seniors</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH010</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte van de uren jeugdvakantie</nl>
+      <fr>Déclaration mensuelle d'heures de vacances jeunes</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 10 - Maandelijkse aangifte van de uren jeugd- of seniorvakantie</nl>
+      <fr>Scénario 10 - Déclaration mensuelle d'heures de vacances jeunes ou seniors</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH010</main>
+      <sub>002</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte van de uren seniorvakantie</nl>
+      <fr>Déclaration mensuelle d'heures de vacances seniors</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 10 - Maandelijkse aangifte van de uren jeugd- of seniorvakantie</nl>
+      <fr>Scénario 10 - Déclaration mensuelle d'heures de vacances jeunes ou seniors</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+  <risk-identification>
+    <id>
+      <main>WECH011</main>
+      <sub>001</sub>
+    </id>
+    <title>
+      <nl>WERKLOOSHEID</nl>
+      <fr>CHOMAGE</fr>
+    </title>
+    <description>
+      <nl>Maandelijkse aangifte van havenarbeid</nl>
+      <fr>Déclaration mensuelle travail portuaire</fr>
+    </description>
+    <scenario>
+      <nl>Scenario 11 - Maandelijkse aangifte van havenarbeid</nl>
+      <fr>Scénario 11 - Déclaration mensuelle travail portuaire</fr>
+    </scenario>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </risk-identification>
+</risk-identifications>

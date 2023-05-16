@@ -1,0 +1,2683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<error-codes-digital-signature>
+  <error-code>
+    <code>0</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>
+        Alles is OK. De lezing van de ContentInfo is correct verlopen, de boodschap werd gevonden als dit moest
+        , het certificaat dat gebruikt werd voor de handtekening werd gevonden, de handtekening is correct.
+      </nl>
+      <fr>Erreur générique, ou pas d'erreur (si code principal = 0)</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>
+        Syntactische fout bij de lezing van de ContentInfo. code moet een verklarende code bevatten zoals gegeven in de 
+        tabel "Codes van de syntactische fouten".
+      </nl>
+      <fr>Pas un ContentInfo</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>
+        De gestructureerde boodschap werd niet gevonden in de ContentInfo
+        , hoewel het type preciseert dat het gaat om het schema met één enkel bestand.
+      </nl>
+      <fr>Erreur dans ContentInfo.contentType</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>3</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>
+        Er werd een verboden algoritme gebruikt. In dat geval moet code een verklarende code bevatten zoals gegeven in de tabel
+        "Code van de fouten in de algoritmes".
+      </nl>
+      <fr>Erreur dans ContentInfo.signedData</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>4</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in een opgelegde waarde. Zie de tabel "Codes versiefouten".</nl>
+      <fr>Erreur dans ContentInfo.signedData.version</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>5</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen enkel geleverd certificaat komt overeen met serienummer ondertekenaar</nl>
+      <fr>Erreur dans ContentInfo.signedData.DigestAlgorithmIdentifiers</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>6</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in de extensie van een certificaat (X.509 v2 of v3)</nl>
+      <fr>Erreur dans la recherche d'un ContentInfo.signedData.digestAlgorithmIdentifiers.digestAlgorithmIdentifier</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>9</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Lengtefout</nl>
+      <fr>Erreur dans ContentInfo.signedData.certificates</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>10</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in het certificaat</nl>
+      <fr>Erreur dans la recherche d'un ContentInfo.signedData.certificates.certificate</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>11</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in de handtekening van de boodschap</nl>
+      <fr>Erreur dans ContentInfo.signedData.signerInfos</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>99</code>
+    <code-type>
+      <nl>Foutcodes</nl>
+      <fr>Codes principaux</fr>
+    </code-type>
+    <description>
+      <nl>Niet-geïdentificeerde fout</nl>
+      <fr>Erreur non identifiée</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>0</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Algemene fout, of geen fout (als foutcode = 00)</nl>
+      <fr>Erreur générique, ou pas d'erreur (si code principal = 0)</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen ContentInfo</nl>
+      <fr>Pas un ContentInfo</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.contentType</nl>
+      <fr>Erreur dans ContentInfo.contentType</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>3</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData</nl>
+      <fr>Erreur dans ContentInfo.signedData</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>4</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.version</nl>
+      <fr>Erreur dans ContentInfo.signedData.version</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>5</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.DigestAlgorithmIdentifiers</nl>
+      <fr>Erreur dans ContentInfo.signedData.DigestAlgorithmIdentifiers</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>6</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in het opzoeken van ContentInfo.signedData.digestAlgorithmIdentifiers.digestAlgorithmIdentifier</nl>
+      <fr>Erreur dans la recherche d'un ContentInfo.signedData.digestAlgorithmIdentifiers.digestAlgorithmIdentifier</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>7</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.contentInfo</nl>
+      <fr>Erreur dans ContentInfo.signedData.contentInfo</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>8</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.contentInfo.data</nl>
+      <fr>Erreur dans ContentInfo.signedData.contentInfo.data</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>9</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.certificates</nl>
+      <fr>Erreur dans ContentInfo.signedData.certificates</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>10</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in het opzoeken van ContentInfo.signedData.certificates.certificate</nl>
+      <fr>Erreur dans la recherche d'un ContentInfo.signedData.certificates.certificate</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>11</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.signerInfos</nl>
+      <fr>Erreur dans ContentInfo.signedData.signerInfos</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>12</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in het opzoeken van ContentInfo.signedData.signerInfos.signerInfo</nl>
+      <fr>Erreur dans la recherche d'un ContentInfo.signedData.signerInfos.signerInfo</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>13</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.signerInfos.signerInfo.version</nl>
+      <fr>Erreur dans ContentInfo.signedData.signerInfos.signerInfo.version</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>14</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.signerInfos.signerInfo. issuerAndSerialNumber</nl>
+      <fr>Erreur dans ContentInfo.signedData.signerInfos.signerInfo.issuerAndSerialNumber</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>15</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.signerInfos.signerInfo. issuerAndSerialNumber.issuer</nl>
+      <fr>Erreur dans ContentInfo.signedData.signerInfos.signerInfo.issuerAndSerialNumber.issuer</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>16</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in contentInfo.signedData.signerInfos.signerInfo. issuerAndSerialNumber.serialNumber</nl>
+      <fr>Erreur dans contentInfo.signedData.signerInfos.signerInfo. issuerAndSerialNumber.serialNumber</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>17</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.signerInfos.signerInfo. digestAlgorithm</nl>
+      <fr>Erreur dans ContentInfo.signedData.signerInfos.signerInfo.digestAlgorithm</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>18</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in de lezing van ContentInfo.signedData.signerInfos.signerInfo .authenticatedAttributes</nl>
+      <fr>Erreur dans la lecture des ContentInfo.signedData.signerInfos.signerInfo.authenticatedAttributes</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>19</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.signerInfos.signerInfo. digestEncryptionAlgorithm</nl>
+      <fr>Erreur dans ContentInfo.signedData.signerInfos.signerInfo. digestEncryptionAlgorithm</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>20</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in ContentInfo.signedData.signerInfos.signerInfo. encryptedDigest</nl>
+      <fr>Erreur dans ContentInfo.signedData.signerInfos.signerInfo.encryptedDigest</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>21</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo bevat gegevens na ContentInfo.signedData</nl>
+      <fr>Le ContentInfo contient des données après ContentInfo.signedData</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>22</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.signedData.crls gevonden</nl>
+      <fr>ContentInfo.signedData.crls trouvé</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>23</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.signedData.signerInfos.signerInfo.unauthenticatedAttributes gevonden</nl>
+      <fr>ContentInfo.signedData.signerInfos.signerInfo.unauthenticatedAttributes trouvé</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>900</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Globale lengte verkeerd</nl>
+      <fr>Longueur globale erronée</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>901</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan ContentInfo</nl>
+      <fr>Pas de fin au ContentInfo</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>903</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan ContentInfo.signedData</nl>
+      <fr>Pas de fin au ContentInfo.signedData</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>907</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan ContentInfo.signedData.contentInfo</nl>
+      <fr>Pas de fin au ContentInfo.signedData.contentInfo</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>908</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan ContentInfo.signedData.contentInfo.data</nl>
+      <fr>Pas de fin au ContentInfo.signedData.contentInfo.data</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>909</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan ContentInfo.signedData.certificates</nl>
+      <fr>Pas de fin au ContentInfo.signedData.certificates</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>910</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de ContentInfo.signedData.certificates.certificate</nl>
+      <fr>Pas de fin à l'un des ContentInfo.signedData.certificates.certificate</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>911</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan ContentInfo.signedData.signerInfos</nl>
+      <fr>Pas de fin au ContentInfo.signedData.signerInfos</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>912</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de ContentInfo.signedData.signerInfos.signerInfo</nl>
+      <fr>Pas de fin à l'un des ContentInfo.signedData.signerInfos.signerInfo</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>914</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de ContentInfo.signedData.signerInfos.signerInfo.issuerAndSerialNumber</nl>
+      <fr>Pas de fin à l'un des ContentInfo.signedData.signerInfos.signerInfo.issuerAndSerialNumber</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>915</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de (...).signerInfo.issuerAndSerialNumber.issuer (AttributeValueAssertion ou RDNSequence).</nl>
+      <fr>Pas de fin à l'un des (...).signerInfo.issuerAndSerialNumber.issuer (AttributeValueAssertion ou RDNSequence).</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>917</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de (...).signerInfo.digestAlgorithm</nl>
+      <fr>Pas de fin à l'un des (...).signerInfo.digestAlgorithm</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>918</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de (...).signerInfo.authenticatedAttributes of aan een van zijn leden</nl>
+      <fr>Pas de fin à l'un des (...).signerInfo.authenticatedAttributes ou à l'un de ses membres</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>919</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de (...).signerInfo.digestEncryptionAlgorithm</nl>
+      <fr>Pas de fin à l'un des (...).signerInfo.digestEncryptionAlgorithm</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1001</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo</nl>
+      <fr>Erreur dans certificateInfo</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1002</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.Version</nl>
+      <fr>Erreur dans certificateInfo.Version</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1003</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.serialNumber</nl>
+      <fr>Erreur dans certificateInfo.serialNumber</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1004</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.signature  (SEQUENCE of OBJID)</nl>
+      <fr>Erreur dans certificateInfo.signature  (SEQUENCE ou OBJID)</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1005</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.issuer</nl>
+      <fr>Erreur dans certificateInfo.issuer</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1006</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in de lezing van certificateInfo.issuer</nl>
+      <fr>Erreur dans la lecture de certificateInfo.issuer</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1007</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.validity</nl>
+      <fr>Erreur dans certificateInfo.validity</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1008</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.validity.notBefore</nl>
+      <fr>Erreur dans certificateInfo.validity.notBefore</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1009</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.validity.notAfter</nl>
+      <fr>Erreur dans certificateInfo.validity.notAfter</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1010</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.subject</nl>
+      <fr>Erreur dans certificateInfo.subject</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1011</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in de lezing van certificateInfo.subject</nl>
+      <fr>Erreur dans la lecture de certificateInfo.subject</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1012</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.subjectPublicKeyInfo</nl>
+      <fr>Erreur dans certificateInfo.subjectPublicKeyInfo</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1013</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.subjectPublicKeyInfo.algorithm</nl>
+      <fr>Erreur dans certificateInfo.subjectPublicKeyInfo.algorithm</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1014</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.subjectPublicKeyInfo.algorithm</nl>
+      <fr>Erreur dans certificateInfo.subjectPublicKeyInfo.algorithm</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1015</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in certificateInfo.subjectPublicKeyInfo.subjectPublicKey</nl>
+      <fr>Erreur dans certificateInfo.subjectPublicKeyInfo.subjectPublicKey</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1016</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in signatureAlgorithm</nl>
+      <fr>Erreur dans signatureAlgorithm</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1017</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in signatureAlgorithm</nl>
+      <fr>Erreur dans signatureAlgorithm</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1018</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in signature</nl>
+      <fr>Erreur dans signature</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1019</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in een extensie (X.509 v2 of v3)</nl>
+      <fr>Erreur dans une extension (X.509 v2 ou v3)</fr>
+    </description>
+    <category>
+      <nl/>
+      <fr/>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1101</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Openbare sleutel van ongekend type</nl>
+      <fr>Clé publique de type inconnu</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van een certificaat</nl>
+      <fr>Erreurs lors de la vérification d'un certificat</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1102</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Niet-erkend handtekeningsalgoritme</nl>
+      <fr>Algorithme de signature non reconnu</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van een certificaat</nl>
+      <fr>Erreurs lors de la vérification d'un certificat</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1103</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Foutieve handtekening</nl>
+      <fr>Signature incorrecte</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van een certificaat</nl>
+      <fr>Erreurs lors de la vérification d'un certificat</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1104</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Niet-erkend CA</nl>
+      <fr>CA  non agréé</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van een certificaat</nl>
+      <fr>Erreurs lors de la vérification d'un certificat</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1202</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Foutief algoritme</nl>
+      <fr>Algorithme incorrect</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van de handtekening</nl>
+      <fr>Erreur lors de la vérification de la signature</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1203</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Foutieve handtekening</nl>
+      <fr>Signature incorrecte</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van de handtekening</nl>
+      <fr>Erreur lors de la vérification de la signature</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1204</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Foutieve authenticatedAttributes</nl>
+      <fr>authenticatedAttributes incorrects</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van de handtekening</nl>
+      <fr>Erreur lors de la vérification de la signature</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1205</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Hashing foutief in de authenticatedAttributes</nl>
+      <fr>Hashing incorrect dans les authenticatedAttributes</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van de handtekening</nl>
+      <fr>Erreur lors de la vérification de la signature</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1206</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Foutief algoritme in de authenticatedAttributes</nl>
+      <fr>Algorithme incorrect dans les authenticatedAttributes</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van de handtekening</nl>
+      <fr>Erreur lors de la vérification de la signature</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1207</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Buiten de geldigheidszone van het certificaat</nl>
+      <fr>Hors de la zone de validité du certificat</fr>
+    </description>
+    <category>
+      <nl>Fouten ten gevolge van de verificatie van de handtekening</nl>
+      <fr>Erreur lors de la vérification de la signature</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1900</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates</nl>
+      <fr>Pas de fin à l'un des certificates</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1901</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates.certificateInfo</nl>
+      <fr>Pas de fin à l'un des certificates.certificateInfo</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1904</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates.certificateInfo.signature</nl>
+      <fr>Pas de fin à l'un des certificates.certificateInfo.signature</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1905</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates.certificateInfo.issuer</nl>
+      <fr>Pas de fin à l'un des certificates.certificateInfo.issuer</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1906</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de leden van een van de certificates.certificateInfo.issuer</nl>
+      <fr>Pas de fin à l'un des membres d'un des certificates.certificateInfo.issuer</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1907</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates.certificateInfo.validity</nl>
+      <fr>Pas de fin à l'un des certificates.certificateInfo.validity</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1910</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates.certificateInfo.subject</nl>
+      <fr>Pas de fin à l'un des certificates.certificateInfo.subject</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1911</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de leden van een van de certificates.certificateInfo.subject</nl>
+      <fr>Pas de fin à l'un des membres d'un des certificates.certificateInfo.subject</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1912</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates.certificateInfo.subjectPublicKeyInfo</nl>
+      <fr>Pas de fin à l'un des certificates.certificateInfo.subjectPublicKeyInfo</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1913</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates.certificateInfo.subjectPublicKeyInfo.algorithm</nl>
+      <fr>Pas de fin à l'un des certificates.certificateInfo.subjectPublicKeyInfo.algorithm</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1915</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates.certificateInfo.subjectPublicKeyInfo.subjectPublicKey</nl>
+      <fr>Pas de fin à l'un des certificates.certificateInfo.subjectPublicKeyInfo.subjectPublicKey</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>1916</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de certificates.signatureAlgorithm</nl>
+      <fr>Pas de fin à l'un des certificates.signatureAlgorithm</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2001</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>extendedCertificateInfo niet gevonden</nl>
+      <fr>extendedCertificateInfo pas trouvé</fr>
+    </description>
+    <category>
+      <nl>Fouten in een ExtendedCertificate</nl>
+      <fr>Erreurs dans un ExtendedCertificate</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2002</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>extendedCertificateInfo.version niet gevonden</nl>
+      <fr>extendedCertificateInfo.version pas trouvé</fr>
+    </description>
+    <category>
+      <nl>Fouten in een ExtendedCertificate</nl>
+      <fr>Erreurs dans un ExtendedCertificate</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2003</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>extendedCertificateInfo.certificate niet gevonden</nl>
+      <fr>extendedCertificateInfo.certificate pas trouvé</fr>
+    </description>
+    <category>
+      <nl>Fouten in een ExtendedCertificate</nl>
+      <fr>Erreurs dans un ExtendedCertificate</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2004</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>extendedCertificateInfo.attributes niet gevonden</nl>
+      <fr>extendedCertificateInfo.attributes pas trouvé</fr>
+    </description>
+    <category>
+      <nl>Fouten in een ExtendedCertificate</nl>
+      <fr>Les erreurs dans un extendedCertificateInfo.certificate sont des erreurs de Certificates.</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2005</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in een extendedCertificateInfo.attributes</nl>
+      <fr>Erreur dans un extendedCertificateInfo.attributes</fr>
+    </description>
+    <category>
+      <nl>Fouten in een ExtendedCertificate</nl>
+      <fr>Les erreurs dans un extendedCertificateInfo.certificate sont des erreurs de Certificates.</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2006</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>signatureAlgorithm niet gevonden</nl>
+      <fr>signatureAlgorithm pas trouvé</fr>
+    </description>
+    <category>
+      <nl>Fouten in een ExtendedCertificate</nl>
+      <fr>Les erreurs dans un extendedCertificateInfo.certificate sont des erreurs de Certificates.</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2007</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Fout in signatureAlgorithm</nl>
+      <fr>Erreur dans signatureAlgorithm</fr>
+    </description>
+    <category>
+      <nl>Fouten in een ExtendedCertificate</nl>
+      <fr>Les erreurs dans un extendedCertificateInfo.certificate sont des erreurs de Certificates.</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2008</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Handtekening niet gevonden</nl>
+      <fr>signature pas trouvé</fr>
+    </description>
+    <category>
+      <nl>Fouten in een ExtendedCertificate</nl>
+      <fr>Les erreurs dans un extendedCertificateInfo.certificate sont des erreurs de Certificates.</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2900</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de extendedCertificate</nl>
+      <fr>Pas de fin à l'un des extendedCertificate</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2901</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de extendedCertificateInfo</nl>
+      <fr>Pas de fin à l'un des extendedCertificateInfo</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2904</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de extendedCertificateInfo.attributes</nl>
+      <fr>Pas de fin à l'un des extendedCertificateInfo.attributes</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2905</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de leden van een van de extendedCertificateInfo.attributes</nl>
+      <fr>Pas de fin à l'un des membres d'un des extendedCertificateInfo.attributes</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>2906</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>Geen einde aan een van de extendedCertificates.signatureAlgorithm</nl>
+      <fr>Pas de fin à l'un des extendedCertificates.signatureAlgorithm</fr>
+    </description>
+    <category>
+      <nl>Eindefouten van een type met niet-gedefinieerde lengte</nl>
+      <fr>Erreurs de fin de type de longueur indéfinie</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>3001</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.DigestAlgorithmIdentifiers bevat een niet-toegelaten algoritme.</nl>
+      <fr>ContentInfo.DigestAlgorithmIdentifiers contient un algorithme non-admis.</fr>
+    </description>
+    <category>
+      <nl>Fouten in de algoritmes</nl>
+      <fr>Erreurs dans les algorithmes</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>3002</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.signerInfos.signerInfo.digestAlgorithm bevat een niet-toegelaten algoritme</nl>
+      <fr>ContentInfo.signerInfos.signerInfo.digestAlgorithm contient un algorithme non-admis</fr>
+    </description>
+    <category>
+      <nl>Fouten in de algoritmes</nl>
+      <fr>Erreurs dans les algorithmes</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>3003</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.signerInfos.signerInfo.digestEncryptionAlgorithm bevat een niet-toegelaten algoritme</nl>
+      <fr>ContentInfo.signerInfos.signerInfo.digestEncryptionAlgorithm contient un algorithme non-admis</fr>
+    </description>
+    <category>
+      <nl>Fouten in de algoritmes</nl>
+      <fr>Erreurs dans les algorithmes</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>3004</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.certificates.certificate.certificateInfo.signature bevat een niet-toegelaten algoritme</nl>
+      <fr>ContentInfo.certificates.certificate.certificateInfo.signature contient un algorithme non-admis</fr>
+    </description>
+    <category>
+      <nl>Fouten in de algoritmes</nl>
+      <fr>Erreurs dans les algorithmes</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>3005</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.certificates.certificate.certificateInfo.subjectPublicKeyInfo.algorithm bevat een niet-toegelaten algoritme</nl>
+      <fr>ContentInfo.certificates.certificate.certificateInfo.subjectPublicKeyInfo.algorithm contient un algorithme non-admis</fr>
+    </description>
+    <category>
+      <nl>Fouten in de algoritmes</nl>
+      <fr>Erreurs dans les algorithmes</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>3006</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>(...).subjectPublicKeyInfo.subjectPublicKey.signatureAlgorithm bevat een niet-toegelaten algoritme</nl>
+      <fr>(...).subjectPublicKeyInfo.subjectPublicKey.signatureAlgorithm contient un algorithme non-admis</fr>
+    </description>
+    <category>
+      <nl>Fouten in de algoritmes</nl>
+      <fr>Erreurs dans les algorithmes</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>3007</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.certificates.extendedCertificate.extendedCertificateInfo. SignatureAlgorithm bevat een niet-toegelaten algoritme</nl>
+      <fr>ContentInfo.certificates.extendedCertificate.extendedCertificateInfo. signatureAlgorithm contient un algorithm non-admis</fr>
+    </description>
+    <category>
+      <nl>Fouten in de algoritmes</nl>
+      <fr>Erreurs dans les algorithmes</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>4001</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.contentType moet signedData zijn</nl>
+      <fr>ContentInfo.contentType doit être signedData</fr>
+    </description>
+    <category>
+      <nl>Versiefouten</nl>
+      <fr>Erreurs de version</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>4002</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.signedData.version moet 1 zijn</nl>
+      <fr>ContentInfo.signedData.version doit être 1</fr>
+    </description>
+    <category>
+      <nl>Versiefouten</nl>
+      <fr>Erreurs de version</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>4003</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.signedData.contentInfo.contentType moet data zijn</nl>
+      <fr>ContentInfo.signedData.contentInfo.contentType doit être data</fr>
+    </description>
+    <category>
+      <nl>Versiefouten</nl>
+      <fr>Erreurs de version</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>4004</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>ContentInfo.signedData.signerInfos.signerInfo moet 1 zijn</nl>
+      <fr>ContentInfo.signedData.signerInfos.signerInfo doit être 1</fr>
+    </description>
+    <category>
+      <nl>Versiefouten</nl>
+      <fr>Erreurs de version</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>4005</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>certificate.certificateInfo.version moet 0, 1 of 2 zijn</nl>
+      <fr>certificate.certificateInfo.version doit être 0, 1 ou 2</fr>
+    </description>
+    <category>
+      <nl>Versiefouten</nl>
+      <fr>Erreurs de version</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+  <error-code>
+    <code>4006</code>
+    <code-type>
+      <nl>Verklarende codes</nl>
+      <fr>Codes explicatifs</fr>
+    </code-type>
+    <description>
+      <nl>extendedCertificate.extendedCertificateInfo.version moet 0 zijn</nl>
+      <fr>extendedCertificate.extendedCertificateInfo.version doit être 0</fr>
+    </description>
+    <category>
+      <nl>Versiefouten</nl>
+      <fr>Erreurs de version</fr>
+    </category>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>4</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>4</quarter>
+    </end-validity>
+  </error-code>
+</error-codes-digital-signature>

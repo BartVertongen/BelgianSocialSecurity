@@ -1,0 +1,2898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<affected-objects>
+  <affected-object>
+    <code>00.00</code>
+    <description>
+      <nl>Geen betrokken voorwerp of geen informatie</nl>
+      <fr>Pas d'agent matèriel ou pas d'information</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>00.01</code>
+    <description>
+      <nl>Geen betrokken voorwerp</nl>
+      <fr>Pas d'agent matèriel</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>00.02</code>
+    <description>
+      <nl>Geen informatie</nl>
+      <fr>Pas d'information</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>00.99</code>
+    <description>
+      <nl>Overige situaties, behorend tot groep 00, hierboven niet vermeld</nl>
+      <fr>Autre situation connue du groupe 00 mais non listé ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>01.00</code>
+    <description>
+      <nl>Gebouwen, oppervlakken - gelijkvloers (binnen of buiten, vast of verplaatsbaar, tijdelijk of permanent) - niet gespecificeerd</nl>
+      <fr>Bâtiments, constructions, surfaces - 1e niveau (intérieur ou extérieur, fixes ou mobiles, temporaires ou non) - Non prècisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>01.01</code>
+    <description>
+      <nl>Elementen van gebouwen, constructies - deuren, muren, wanden enz. en obstakels die als zodanig bedoeld zijn</nl>
+      <fr>éléments de bâtiments, de constructions - portes, murs, cloisons,... et obstacles par destination (fenêtres, baies vitrées,...)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>01.02</code>
+    <description>
+      <nl>Oppervlakken of loopruimten - harde vloeren (binnen of buiten, landbouwgrond, sportterreinen, incl. gladde vloeren)</nl>
+      <fr>Surfaces ou circulation 1e niveau - sols (intérieur ou extérieur, terrains agricoles, terrains de sport, sols glissants, sols encombrés, planche à clous,...)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>01.03</code>
+    <description>
+      <nl>Oppervlakken of loopruimten gelijkvloers - drijvend</nl>
+      <fr>Surfaces ou circulation 1e niveau - flottantes</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>01.99</code>
+    <description>
+      <nl>Overige constructies, oppervlakken - gelijkvloers, behorend tot groep 01, maar hierboven niet vermeld</nl>
+      <fr>Autres batiments, constructions, surfaces 1e niveau connus du groupe 01 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>02.00</code>
+    <description>
+      <nl>Gebouwen, constructies, oppervlakken - bovengronds (binnen of buiten) - niet gespecificeerd</nl>
+      <fr>Bâtiments, constructions, surfaces - en hauteur (intérieur ou extérieur) - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>02.01</code>
+    <description>
+      <nl>Bovengrondse delen van gebouwen (dakconstructies, terrassen, openingen, trappen, laadbordessen)</nl>
+      <fr>Parties de bâtiment en hauteur - fixes (toitures, terrasses, ouvertures, escaliers, quais)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>02.02</code>
+    <description>
+      <nl>Bovengrondse delen van gebouwen (incl. loopplatform, vaste ladders, lichtmasten)</nl>
+      <fr>Constructions, surfaces en hauteur - fixes (comprend les passerelles, échelles fixes, pylônes)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>02.03</code>
+    <description>
+      <nl>Bovengrondse delen van gebouwen (incl. steigers, beweegbare ladders, gondel, hefplatform)</nl>
+      <fr>Constructions, surfaces en hauteur - mobiles (comprend échafaudages, échelles mobiles, nacelle, plate-forme élèvatrice)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>02.04</code>
+    <description>
+      <nl>Bovengrondse delen van gebouwen (incl. tijdelijke steigers, harnas, bootsmansstoeltje)</nl>
+      <fr>Constructions, surfaces en hauteur - temporaires (comprend les échafaudages temporaires, harnais, balanéoires)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>02.05</code>
+    <description>
+      <nl>Bovengrondse delen van gebouwen (incl. boorplatform, steigers op lichters)</nl>
+      <fr>Constructions, surfaces en hauteur - flottantes (comprend les plate-formes de forage, les échafaudages sur barges)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>02.99</code>
+    <description>
+      <nl>Gebouwen, constructies, oppervlakken - bovengronds, overige, behorend tot groep 02, maar hierboven niet vermeld</nl>
+      <fr>Autres bâtiments, constructions, surfaces en hauteur connus du groupe 02 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>03.00</code>
+    <description>
+      <nl>Gebouwen, constructies, oppervlakken - ondergronds (binnen of buiten) - niet gespecificeerd</nl>
+      <fr>Bâtiments, constructions, surfaces - en profondeur (intérieur ou extérieur) - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>03.01</code>
+    <description>
+      <nl>Graafwerkzaamheden, sleuven, putten, taluds, werkkuilen</nl>
+      <fr>Fouilles, tranchées, puits, fosses, escarpements, fosses de garage</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>03.02</code>
+    <description>
+      <nl>Onderaardse gangen, tunnels</nl>
+      <fr>Souterrains, galeries</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>03.03</code>
+    <description>
+      <nl>Onderwateromgeving</nl>
+      <fr>Milieux sous-marins</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>03.99</code>
+    <description>
+      <nl>Gebouwen, constructies, oppervlakken - ondergronds, overige, behorend tot groep 03, maar hierboven niet vermeld</nl>
+      <fr>Autres bâtiments, constructions, surfaces en profondeur connus du groupe 03 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>04.00</code>
+    <description>
+      <nl>Distributiesystemen voor materialen, aanvoer, leidingen - niet gespecificeerd</nl>
+      <fr>Dispositifs de distribution de matière, d'alimentation, canalisations - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>04.01</code>
+    <description>
+      <nl>Distributiesystemen voor materialen, aanvoer, leidingen - vast - voor gassen, vloeistoffen, vaste stoffen, incl. voorraadcontainers</nl>
+      <fr>Dispositifs de distribution de matière, d'alimentation, canalisations - fixes - pour gaz, air, liquides, solides - y compris les trémies</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>04.02</code>
+    <description>
+      <nl>Distributiesystemen voor materialen, aanvoer, leidingen - verplaatsbaar</nl>
+      <fr>Dispositifs de distribution de matière, d'alimentation, canalisations - mobiles</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>04.03</code>
+    <description>
+      <nl>Aanvoer, drainage, rioleringen</nl>
+      <fr>Egouts, drainages</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>04.99</code>
+    <description>
+      <nl>Distributiesystemen voor materialen, toevoer, leidingen, overige, behorend tot groep 04, maar hierboven niet vermeld</nl>
+      <fr>Autres dispositifs de distribution de matières, d'alimentation, canalisations connus du groupe 04 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>05.00</code>
+    <description>
+      <nl>Motoren, systemen voor transmissie en opslag van energie - niet gespecificeerd</nl>
+      <fr>Moteurs, dispositifs de transmission et de stockage d'énergie - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>05.01</code>
+    <description>
+      <nl>Motoren, generatoren (thermische, elektrische of stralingsenergie)</nl>
+      <fr>Moteurs, générateurs d'énergie (thermique, électrique, rayonnement) y compris les compresseurs, les pompes</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>05.02</code>
+    <description>
+      <nl>Systemen voor transmissie en opslag van energie (mechanisch, pneumatisch, hydraulisch, elektrisch, incl. batterijen en accu's)</nl>
+      <fr>Dispositifs de transmission et stockage d'énergie (mécanique, pneumatique, hydraulique, électrique y compris batteries et accumulateurs)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>05.99</code>
+    <description>
+      <nl>Systemen voor transmissie en opslag van energie, overige, behorend tot groep 05, maar hierboven niet vermeld</nl>
+      <fr>Autres moteurs, dispositifs de transmission et de stockage d'énergie connus du groupe 05 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.00</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - niet gespecificeerd</nl>
+      <fr>Outils à main, non motorisés - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.01</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor zagen</nl>
+      <fr>Outils à main non motorisés - pour scier</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.02</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor snijden, afsnijden (incl. scharen, kniptangen, snoeischaren)</nl>
+      <fr>Outils à main non motorisés - pour couper, séparer (comprend ciseaux, cisailles, sécateurs)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.03</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor slijpen, steken, doorknippen, afsnijden, maaien</nl>
+      <fr>Outils à main non motorisés - pour tailler, mortaiser, ciseler, rogner, tondre</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.04</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor krabben, polijsten, schuren</nl>
+      <fr>Outils à main non motorisés - pour gratter, polir, poncer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.05</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor boren, draaien, schroeven</nl>
+      <fr>Outils à main non motorisé - pour percer, tourner, visser</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.06</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor spijkeren, klinken, nieten</nl>
+      <fr>Outils à main non motorisés - pour clouer, riveter, agrafer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.07</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor naaien, breien</nl>
+      <fr>Outils à main non motorisés - pour coudre, tricoter</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.08</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor lassen, lijmen</nl>
+      <fr>Outils à main non motorisés - pour souder, coller</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.09</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor extractie van materialen en grondbewerking (incl. landbouwwerktuigen)</nl>
+      <fr>Outils à main non motorisés - pour extraction de matériaux et travail du sol (comprend les outils agricoles)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.10</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor poetsen, smeren, wassen, schoonmaken</nl>
+      <fr>Outils à main non motorisés - pour cirer, lubrifier, laver, nettoyer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.11</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor schilderen</nl>
+      <fr>Outils à main non motorisés - pour peindre</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.12</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor vasthouden, grijpen</nl>
+      <fr>Outils à main non motorisés - pour maintenir, saisir</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.13</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor keukenwerkzaamheden (m.u.v. messen)</nl>
+      <fr>Outils à main non motorisés - pour travaux de cuisine (sauf couteaux)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.14</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor medische en chirurgische doeleinden - prikken, snijden</nl>
+      <fr>Outils à main non motorisés - pour travaux médicaux et chirurgicaux - piquants, coupants</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.15</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - niet snijden, voor medische en chirurgische doeleinden - overig</nl>
+      <fr>Outils à main non motorisés - pour travaux médicaux et chirurgicaux - non coupants, autres</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>06.99</code>
+    <description>
+      <nl>Handgereedschap - niet gemotoriseerd - voor overige werkzaamheden, behorend tot groep 06, maar hierboven niet vermeld</nl>
+      <fr>Autres outils à main non mototrisés connus du groupe 06 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.00</code>
+    <description>
+      <nl>Mechanisch gereedschap met de hand bediend - niet gespecificeerd</nl>
+      <fr>Outils tenus ou guidés à la main, mécaniques - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.01</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor zagen</nl>
+      <fr>Outils mécaniques à main - pour scier</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.02</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor snijden, afsnijden (incl. scharen, kniptangen, snoeischaren)</nl>
+      <fr>Outils mécaniques à main - pour couper, séparer (comprend ciseaux, cisailles, sécateurs)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.03</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor slijpen, steken, doorknippen (heggenschaar, zie 09.02), afsnijden, maaien</nl>
+      <fr>Outils mécaniques à main - pour tailler, mortaiser, ciseler (taille haies voir 09.02), rogner, tondre</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.04</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor krabben, polijsten, schuren (incl. doorslijpmachine)</nl>
+      <fr>Outils mécaniques à main - pour gratter, polir, poncer (comprend tronçonneuse à disque)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.05</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor boren, draaien, schroeven</nl>
+      <fr>Outils mécaniques à main - pour percer, tourner, visser</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.06</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor spijkeren, klinken, nieten</nl>
+      <fr>Outils mécaniques à main - pour clouer, riveter, agrafer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.07</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor naaien, breien</nl>
+      <fr>Outils mécaniques à main - pour coudre, tricoter</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.08</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor lassen, lijmen</nl>
+      <fr>Outils mécaniques à main - pour souder, coller</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.09</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor extractie van materialen en grondbewerking (incl. landbouwmachines, betonbrekers)</nl>
+      <fr>Outils mécaniques à main - pour extraction de matériaux et travail du sol (comprend les outils agricoles, les brise-béton)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.10</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor poetsen, smeren, wassen, schoonmaken (incl. stofzuiger, hogedrukreiniger)</nl>
+      <fr>Outils mécaniques à main - pour cirer, lubrifier, laver, nettoyer (comprend aspirateur, nettoyeur haute pression)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.11</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor schilderen</nl>
+      <fr>Outils mécaniques à main - pour peindre</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.12</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor vasthouden, grijpen</nl>
+      <fr>Outils mécaniques à main - pour maintenir, saisir</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.13</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor keukenwerkzaamheden (m.u.v. messen)</nl>
+      <fr>Outils mécaniques à main - pour travaux de cuisine (sauf couteaux)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.14</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor verwarmen (incl. Droger, verfafbrander, strijkijzer)</nl>
+      <fr>Outils mécaniques à main - pour chauffer (comprend séchoir, décapeur thermique, fer à repasser)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.15</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor medische en chirurgische doeleinden - prikken, snijden</nl>
+      <fr>Outils mécaniques à main - pour travaux médicaux et chirurgicaux - piquants, coupants</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.16</code>
+    <description>
+      <nl>Mechanisch handgereedschap - voor medische en chirurgische doeleinden - niet snijden, overige</nl>
+      <fr>Outils mécaniques à main - pour travaux médicaux et chirurgicaux - non coupants, autres</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.17</code>
+    <description>
+      <nl>Pneumatische spuitwerktuigen (zonder werktuigaanduiding)</nl>
+      <fr>Pistolets pneumatiques (sans précision de l'outil)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>07.99</code>
+    <description>
+      <nl>Met de hand bediend mechanisch gereedschap, voor overige werkzaamheden, bekend, behorend tot groep 07, maar hierboven niet vermeld</nl>
+      <fr>Autres outils mécaniques tenus ou guidés à main connus du groupe 07 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.00</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - niet gespecificeerd</nl>
+      <fr>Outils à main - sans précision sur la motorisation - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.01</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor zagen</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour scier</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.02</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor snijden, afsnijden (incl. scharen, kniptangen, snoeischaren)</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour couper, séparer (comprend ciseaux, cisailles, sécateurs)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.03</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor slijpen, steken, doorknippen, afsnijden, maaien</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour tailler, mortaiser, ciseler, rogner, tondre</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.04</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor krabben, polijsten, schuren</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour gratter, polir, poncer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.05</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor boren, draaien, schroeven</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour percer, tourner, visser</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.06</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor spijkeren, klinken, nieten</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour clouer, riveter, agrafer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.07</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor naaien, breien</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour coudre, tricoter</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.08</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor lassen, lijmen</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour souder, coller</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.09</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor extractie van materialen en grondbewerking (incl. landbouwmachines)</nl>
+      <fr>Outils ï¿½ main sans prï¿½cision sur la motorisation - pour extraction de matï¿½riaux et travail du sol (comprend les outils agricoles)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.10</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor poetsen, smeren, wassen, schoonmaken</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour cirer, lubrifier, laver, nettoyer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.11</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor schilderen</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour peindre</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.12</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor vasthouden, grijpen</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour maintenir, saisir</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.13</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor keukenwerkzaamheden (m.u.v. messen)</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour travaux de cuisine (sauf couteaux)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.14</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor medische en chirurgische doeleinden - prikken, snijden</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour travaux médicaux et chirurgicaux - piquants, coupants</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.15</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving - voor medische en chirurgische doeleinden - overige</nl>
+      <fr>Outils à main sans précision sur la motorisation - pour travaux médicaux et chirurgicaux - non coupants - autres</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>08.99</code>
+    <description>
+      <nl>Handgereedschap - zonder aanduiding over aandrijving, voor overige werkzaamheden, bekend, behorend tot groep 08, maar hierboven niet vermeld</nl>
+      <fr>Autres outils à main sans précision sur la motorisation connus du groupe 08 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>09.00</code>
+    <description>
+      <nl>Machines en uitrusting - draagbaar of verplaatsbaar - niet gespecificeerd</nl>
+      <fr>Machines et équipements - portables ou mobiles - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>09.01</code>
+    <description>
+      <nl>Draagbare of verplaatsbare machines - voor ontgraven en grondbewerking, mijnbouw, steen/zandgroeven en machines voor de bouw</nl>
+      <fr>Machines portables ou mobiles d'extraction et de travail du sol - mines, carrièes et engins de bâtiment, travaux publics</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>09.02</code>
+    <description>
+      <nl>Draagbare of verplaatsbare machines - grondbewerking, landbouw</nl>
+      <fr>Machines portables ou mobiles - de travail de sol, agriculture</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>09.03</code>
+    <description>
+      <nl>Draagbare of verplaatsbare machines (niet voor grondbewerking) - voor bouwplaatsen</nl>
+      <fr>Machines portables ou mobiles (hors travail du sol) - de chantier de construction</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>09.04</code>
+    <description>
+      <nl>Verplaatsbare vloerreinigingsmachines</nl>
+      <fr>Machines mobiles de nettoyage des sols</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>09.99</code>
+    <description>
+      <nl>Draagbare of verplaatsbare machines, overige, bekend, behorend tot groep 09, maar hierboven niet vermeld</nl>
+      <fr>Autres machines et équipements portables ou mobiles connus du groupe 09 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.00</code>
+    <description>
+      <nl>Machines en uitrusting - vast gemonteerd - niet gespecificeerd</nl>
+      <fr>Machines et équipements - fixes - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.01</code>
+    <description>
+      <nl>Vast gemonteerde machines voor uitgraven en grondwerkzaamheden</nl>
+      <fr>Machines fixes d'extraction et de travail du sol</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.02</code>
+    <description>
+      <nl>Machines voor het voorbewerken van materialen, breken, vermalen, filteren, scheiden, mengen</nl>
+      <fr>Machines pour la préparation des matériaux, concasser, pulvériser, filtrer, séarer, mélanger, malaxer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.03</code>
+    <description>
+      <nl>Machines voor het verwerken van materialen - chemische procédés (reactoren)</nl>
+      <fr>Machines pour la transformation des matériaux - procéés chimiques (réacteurs, fermenteurs)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.04</code>
+    <description>
+      <nl>Machines voor het verwerken van materialen - warmteprocédés (oven, drooginstallaties, autoclaven)</nl>
+      <fr>Machines pour la transformation des matériaux - procédés à chaud (four, séchoirs, étuves)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.05</code>
+    <description>
+      <nl>Machines voor het verwerken van materialen - koudeprocédés (koudeopwekking)</nl>
+      <fr>Machines pour la transformation des matériaux - procédés à froid (production de froid)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.06</code>
+    <description>
+      <nl>Machines voor het verwerken van materialen - andere procédés</nl>
+      <fr>Machines pour la transformation des matériaux - autres procédés</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.07</code>
+    <description>
+      <nl>Machines voor vormen - persen, pletten</nl>
+      <fr>Machines à former - par pressage, écrasement</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.08</code>
+    <description>
+      <nl>Machines voor vormen - kalanderen, lamineren, machines met rollen (incl. voor papierfabricage)</nl>
+      <fr>Machines à former - par calandrage, laminage, machines à cylindres (y compris machine de papeterie)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.09</code>
+    <description>
+      <nl>Machines voor vormen - door injectie, extrusie, inblazing, draadtrekken, gieten, smelten enz.</nl>
+      <fr>Machines à former - par injection, extrusion, soufflage, filage, moulage, fusion, coulée</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.10</code>
+    <description>
+      <nl>Bewerkingsmachines - voor schaven, frezen, vlakslijpen, slijpen, polijsten, draaien, boren</nl>
+      <fr>Machines d'usinage - pour raboter, fraiser, surfacer, meuler, polir, tourner, percer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.11</code>
+    <description>
+      <nl>Bewerkingsmachines - voor zagen</nl>
+      <fr>Machines d'usinage - pour scier</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.12</code>
+    <description>
+      <nl>Bewerkingsmachines - voor snijden, splijten, knabbelen (incl. decoupeerpers, schaar, afsnijden)</nl>
+      <fr>Machines d'usinage - pour couper, fendre, rogner (comprend presse à découper, cisaille, massicot, oxycoupage)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.13</code>
+    <description>
+      <nl>Machines voor oppervlakbewerking - schoonmaken, wassen, drogen, schilderen, drukken</nl>
+      <fr>Machines pour le traitement des surfaces - nettoyer, laver, sécher, peindre, imprimer</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.14</code>
+    <description>
+      <nl>Machines voor oppervlakbewerking - galvaniseren, elektrolytische oppervlakbehandeling</nl>
+      <fr>Machines pour le traitement des surfaces - galvanisation, traitement électrolytique des surfaces</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.15</code>
+    <description>
+      <nl>Machines voor assembleren (lassen, lijmen, spijkeren, schroeven, klinken, spinnen, kabeldraaien, naaien, nieten)</nl>
+      <fr>Machines à assembler (souder, coller, clouer, visser, riveter, filer, câbler, coudre, agrafer)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.16</code>
+    <description>
+      <nl>Machines voor conditioneren, verpakken (vullen, etiketteren, sluiten, enz.)</nl>
+      <fr>Machines à conditionner, emballer (remplir, étiqueter, fermer .)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.17</code>
+    <description>
+      <nl>Overige machines voor specifieke industriï¿½le doeleinden (diverse machines voor controle, testen)</nl>
+      <fr>Autres machines d'industries spécifiques (machines diverses de controle, d'essais)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.18</code>
+    <description>
+      <nl>Speciale machines voor landbouw, veeteelt, niet behorend tot de hierboven genoemde machines</nl>
+      <fr>Machines spécifiques utilisées en agriculture ne se rattachant pas aux machines ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>10.99</code>
+    <description>
+      <nl>Machines en uitrusting, vast gemonteerd, overige, behorend tot groep 10, maar hierboven niet vermeld</nl>
+      <fr>Autres machines et équipements fixes connus du groupe 10 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.00</code>
+    <description>
+      <nl>Systemen voor gesloten of opentransport en opslag - niet gespecificeerd</nl>
+      <fr>Dispositifs de convoyage, de transport et de stockage - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.01</code>
+    <description>
+      <nl>Vaste transportbanden, materialen en systemen voor continutransport</nl>
+      <fr>Convoyeurs fixes, matériels et systèmes de manutention continue - à tapis, escaliers roulants, téléphériques, transporteurs,...</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.02</code>
+    <description>
+      <nl>Vracht- en personenliften, hefinstallaties</nl>
+      <fr>élévateurs, ascenseurs, matériels de mise à niveau - monte-charge, élévateurs à godets, vérin, cric,...</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.03</code>
+    <description>
+      <nl>Vaste of mobiele kranen, op voertuigen gemonteerd, loopkranen, materieel voor hijsen van hangende lasten</nl>
+      <fr>Grues fixes, mobiles, embarquées sur véhicules, ponts roulants, matériels d' élévation à charge suspendue</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.04</code>
+    <description>
+      <nl>Verplaatsbare transportsystemen, transportwagentjes (al dan niet gemotoriseerd)</nl>
+      <fr>Dispositifs mobiles de manutention, chariots de manutention (chariots motorisés ou non) - brouette, transpalettes,...</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.05</code>
+    <description>
+      <nl>Installaties voor heffen, vastmaken, grijpen, en diverse transportmiddelen (incl. stroppen, haken, takels enz.)</nl>
+      <fr>Apparaux de levage, amarrage, préhension et matériels divers de manutention (comprend élingues, crochets, cordages .)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.06</code>
+    <description>
+      <nl>Systemen voor opslag, transport, containers, vast (silo's, reservoirs, tanks, bassins)</nl>
+      <fr>Dispositifs de stockage, emballage, conteneurs (silos, réservoirs) - fixes - citernes, bassins, réservoirs,...</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.07</code>
+    <description>
+      <nl>Systemen voor opslag, transport, containers - verplaatsbaar</nl>
+      <fr>Dispositifs de stockage, emballage, conteneurs - mobiles</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.08</code>
+    <description>
+      <nl>Hulpmiddelen voor opslag, stellingen, palletstellingen, pallets</nl>
+      <fr>Accessoires de stockage, rayonnages, paletiers, palettes</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.09</code>
+    <description>
+      <nl>Diverse verpakkingen, klein en middelgroot, verplaatsbaar (laadbakken, verschillende soorten bakken, flessen, kisten, brandblusser, enz.)</nl>
+      <fr>Emballages divers, petits et moyens, mobiles (bennes, réipients divers, bouteilles, caisses, extincteur .)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>11.99</code>
+    <description>
+      <nl>Systemen voor gesloten of open transport en opslag, overige, behorend tot groep 11, maar hierboven niet vermeld</nl>
+      <fr>Autres dispositifs de convoyage, de transport et de stockage connus du groupe 11 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>12.00</code>
+    <description>
+      <nl>Voertuigen voor transport over land - niet gespecificeerd</nl>
+      <fr>Véhicules terrestres - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>12.01</code>
+    <description>
+      <nl>Zware voertuigen - vrachtwagens, zwaar vervoer: bussen, touringcars (personenvervoer)</nl>
+      <fr>Véhicules - poids lourds : camions de charges, bus et autocars (transport de passagers)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>12.02</code>
+    <description>
+      <nl>Lichte voertuigen - vracht- of personenvervoer</nl>
+      <fr>Véhicules - légers : charges ou passagers</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>12.03</code>
+    <description>
+      <nl>Voertuigen - met twee of drie wielen, al dan niet gemotoriseerd</nl>
+      <fr>Véhicules - deux, trois roues, motorisés ou non</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>12.04</code>
+    <description>
+      <nl>Overige voertuigen voor transport over land</nl>
+      <fr>Autres véhicules terrestres : skis, patins à roulettes,...</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>12.99</code>
+    <description>
+      <nl>Voertuigen voor transport over land, overige, bekend, behorend tot groep 12, maar hierboven niet vermeld</nl>
+      <fr>Autres véhicules terrestres connus du groupe 12 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>13.00</code>
+    <description>
+      <nl>Overige transportvoertuigen - niet gespecificeerd</nl>
+      <fr>Autres véhicules de  transport - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>13.01</code>
+    <description>
+      <nl>Voertuigen - op rails, incl. hangende monorail : vrachtvervoer</nl>
+      <fr>Véhicules - sur rails y compris monorails suspendus : charges</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>13.02</code>
+    <description>
+      <nl>Voertuigen - op rails, incl. hangende monorail : personenvervoer</nl>
+      <fr>Véhicules - sur rails y compris monorails suspendus : passagers</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>13.03</code>
+    <description>
+      <nl>Vaartuigen : vrachtvervoer</nl>
+      <fr>Véhicules - nautiques : charges</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>13.04</code>
+    <description>
+      <nl>Vaartuigen : personenvervoer</nl>
+      <fr>Véhicules - nautiques : passagers</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>13.05</code>
+    <description>
+      <nl>Vaartuigen : vrachtvervoer</nl>
+      <fr>Véhicules - nautiques : pêche</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>13.06</code>
+    <description>
+      <nl>Luchtvoertuigen : vrachtvervoer</nl>
+      <fr>Véhicules - aériens : charges</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>13.07</code>
+    <description>
+      <nl>Luchtvoertuigen : personenvervoer</nl>
+      <fr>Véhicules - ériens : passagers</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>13.99</code>
+    <description>
+      <nl>Overige transportvoertuigen, behorend tot groep 13, maar hierboven niet vermeld</nl>
+      <fr>Autres véhicules de transport connus du groupe 13 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.00</code>
+    <description>
+      <nl>Materialen, objecten, producten, onderdelen van machines of voer- en vaartuigen, breukmateriaal, stof - niet gespecificeerd</nl>
+      <fr>Matériaux, objets, produits, éléments constitutifs de machines, bris, poussières - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.01</code>
+    <description>
+      <nl>Bouwmaterialen - groot en klein : geprefabriceerde elementen, bekistingen, liggers, balken, bouwstenen, dakpannen enz.</nl>
+      <fr>Matériaux de construction - gros et petits : agent préfabriqué, coffrage, poutrelle, brique, tuile,...</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.02</code>
+    <description>
+      <nl>Samenstellende delen en onderdelen van machines, voertuigen</nl>
+      <fr>éléments de construction ou éléments constitutifs de machine, de véhicule : châssis, carter, manivelle, roue,...</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.03</code>
+    <description>
+      <nl>Bewerkte stukken of elementen, machinewerktuigen (incl. deeltjes en splinters afkomstig van deze voorwerpen)</nl>
+      <fr>Piéces travaillées ou éléments, outils de machines (y compris les fragments et ï¿½clats en provenance de ces agents matériels)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.04</code>
+    <description>
+      <nl>Assemblage-elementen : schroeven, spijkers, bouten enz.</nl>
+      <fr>éléments d'assemblage : visserie, clou, boulon,...</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.05</code>
+    <description>
+      <nl>Deeltjes, stof, scherven, stukjes, spatten, splinters en andere breukdeeltjes</nl>
+      <fr>Particules, poussières, éclats, morceaux, projections, échardes et autres éléments brisés</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.06</code>
+    <description>
+      <nl>Landbouwproducten (incl. graankorrels, stro, overige landbouwproducten)</nl>
+      <fr>Produits - de l' agriculture (comprend grains, paille, autres productions agricoles)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.07</code>
+    <description>
+      <nl>Producten - voor de landbouw, veeteelt (incl. meststoffen, veevoeder)</nl>
+      <fr>Produits - pour l' agriculture, l' élevage (comprend engrais, aliments pour le bétail)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.08</code>
+    <description>
+      <nl>Opgeslagen producten - incl. voorwerpen en verpakkingen in opslag</nl>
+      <fr>Produits stockés - comprend les objets et emballages disposés dans un stockage</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.09</code>
+    <description>
+      <nl>Opgeslagen producten - op rollen of spoelen</nl>
+      <fr>Produits stockés - en rouleaux, bobines</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.10</code>
+    <description>
+      <nl>Lasten - d.m.v. mechanische transportmiddelen verplaatst</nl>
+      <fr>Charges - transportées sur dispositif de manutention mécanique, de transport</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.11</code>
+    <description>
+      <nl>Lasten - hangend aan hefinstallaties, kraan</nl>
+      <fr>Charges - suspendues à dispositif de mise à niveau, une grue</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.12</code>
+    <description>
+      <nl>Lasten - met de hand verplaatst</nl>
+      <fr>Charges - manutentionnées à la main</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>14.99</code>
+    <description>
+      <nl>Materialen, objecten, producten, onderdelen van machines, overige, behorend tot groep 14, maar hierboven niet vermeld</nl>
+      <fr>Autres matériaux, objets, produits, éléments de machines connus du groupe 14 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.00</code>
+    <description>
+      <nl>Chemische stoffen, explosieven, radioactieve stoffen, biologische stoffen - niet gespecificeerd</nl>
+      <fr>Substances chimiques, explosives, radioactives, biologiques - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.01</code>
+    <description>
+      <nl>Bijtende, corrosieve stoffen (vast, vloeibaar of gasvormig)</nl>
+      <fr>Matières - caustiques, corrosives (solides, liquides ou gazeuses)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.02</code>
+    <description>
+      <nl>Schadelijke, giftige stoffen (vast, vloeibaar of gasvormig)</nl>
+      <fr>Matières - nocives, toxiques (solides, liquides ou gazeuses)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.03</code>
+    <description>
+      <nl>Brandgevaarlijke stoffen (vast, vloeibaar of gasvormig)</nl>
+      <fr>Matières - inflammables (solides, liquides ou gazeuses)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.04</code>
+    <description>
+      <nl>Explosieven, reactieve stoffen (vast, vloeibaar of gasvormig)</nl>
+      <fr>Matières - explosives, réactives (solides, liquides ou gazeuses)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.05</code>
+    <description>
+      <nl>Gassen, dampen zonder specifieke uitwerking (biologisch inert, verstikkend)</nl>
+      <fr>Gaz, vapeurs sans effets spécifiques (inertes pour la vie, asphyxiants)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.06</code>
+    <description>
+      <nl>Radioactieve stoffen</nl>
+      <fr>Substances- radioactives</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.07</code>
+    <description>
+      <nl>Biologische stoffen</nl>
+      <fr>Substances- biologiques</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.08</code>
+    <description>
+      <nl>Stoffen, materialen zonder specifieke risico's (water, inerte materialen, enz.)</nl>
+      <fr>Substances, matières - sans danger spécifique (eau, matières inertes .)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>15.99</code>
+    <description>
+      <nl>Chemische stoffen, explosieven, radioactieve stoffen, biologische stoffen, overige, behorend tot groep 15, maar hierboven niet vermeld</nl>
+      <fr>Autres substances chimiques, explosives, radioactives, bilogiques connues du groupe 15 mais non listées ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>16.00</code>
+    <description>
+      <nl>Veiligheidssystemen en veiligheidsuitrusting - niet gespecificeerd</nl>
+      <fr>Dispositifs et équipements de sécurité - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>16.01</code>
+    <description>
+      <nl>Veiligheidssysteem - op machine</nl>
+      <fr>Dispositifs de sécurité - sur machine</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>16.02</code>
+    <description>
+      <nl>Persoonlijke beschermingsmiddelen</nl>
+      <fr>Dispositifs de protection - individuels</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>16.03</code>
+    <description>
+      <nl>Systemen en uitrusting voor hulpverlening</nl>
+      <fr>Dispositifs et appareils - de secours</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>16.99</code>
+    <description>
+      <nl>Veiligheidssystemen en veiligheidsuitrusting, overige, behorend tot groep 16, maar hierboven niet vermeld</nl>
+      <fr>Autres dispositifs et équipements de sécurité connus du groupe 16 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.00</code>
+    <description>
+      <nl>Kantooruitrusting en persoonlijke uitrusting, sportuitrusting, wapens, huishoudelijke apparaten - niet gespecificeerd</nl>
+      <fr>équipements de bureau et personnels, matériel de sport, armes, appareillage domestique - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.01</code>
+    <description>
+      <nl>Meubilair</nl>
+      <fr>Mobilier</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.02</code>
+    <description>
+      <nl>Apparatuur - informatica, bureautica, reprografie, communicatie</nl>
+      <fr>Equipements - informatiques, bureautique, reprograhie, communication</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.03</code>
+    <description>
+      <nl>Benodigdheden - voor onderwijs, schrijven, tekenen</nl>
+      <fr>équipements - pour enseignement, écriture, dessin - comprend : machine à écrire, timbrer, agrandisseur, horodateur,...</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.04</code>
+    <description>
+      <nl>Artikelen en uitrusting voor sport en spel</nl>
+      <fr>Objets et équipements pour le sport et les jeux</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.05</code>
+    <description>
+      <nl>Wapens</nl>
+      <fr>Armes</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.06</code>
+    <description>
+      <nl>Persoonlijke bezittingen, kleding</nl>
+      <fr>Objets personnels, vêtements</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.07</code>
+    <description>
+      <nl>Muziekinstrumenten</nl>
+      <fr>Instruments de musique</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.08</code>
+    <description>
+      <nl>Huishoudelijke apparaten, gebruiksartikelen, voorwerpen, linnengoed (voor professioneel gebruik)</nl>
+      <fr>Appareillage, ustensiles, objets, linge de type domestique (usage professionnel)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>17.99</code>
+    <description>
+      <nl>Kantooruitrusting en persoonlijke uitrusting, sportuitrusting, wapens, overige, behorend tot groep 17, maar hierboven niet vermeld</nl>
+      <fr>Autres équipements de bureau et personnels, matériel de sport, armes connus du groupe 17 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>18.00</code>
+    <description>
+      <nl>Levende organismen en mensen - niet gespecificeerd</nl>
+      <fr>Organismes vivants et êtres humains - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>18.01</code>
+    <description>
+      <nl>Bomen, planten, kweekproducten</nl>
+      <fr>Arbres, plantes et cultures</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>18.02</code>
+    <description>
+      <nl>Dieren - huisdieren, vee</nl>
+      <fr>Animaux - domestique et d'élevage</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>18.03</code>
+    <description>
+      <nl>Dieren - wilde dieren, insecten, slangen</nl>
+      <fr>Animaux - sauvages, insectes, serpents</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>18.04</code>
+    <description>
+      <nl>Micro-organismen</nl>
+      <fr>Micro-organismes</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>18.05</code>
+    <description>
+      <nl>Virussen</nl>
+      <fr>Agents infectieux viraux</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>18.06</code>
+    <description>
+      <nl>Mensen</nl>
+      <fr>Humains</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>18.99</code>
+    <description>
+      <nl>Levende organismen, overige, behorend tot groep 18, maar hierboven niet vermeld</nl>
+      <fr>Autres organismes vivants connus du groupe 18 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>19.00</code>
+    <description>
+      <nl>Bulkafval - niet gespecificeerd</nl>
+      <fr>Déchets en vrac - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>19.01</code>
+    <description>
+      <nl>Bulkafval - stoffen, producten, materialen, voorwerpen</nl>
+      <fr>Déhets en vrac - de matières, produits, matériaux, objets</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>19.02</code>
+    <description>
+      <nl>Bulkafval - chemische stoffen</nl>
+      <fr>Déchets en vrac - de substances chimiques</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>19.03</code>
+    <description>
+      <nl>Bulkafval - biologische, plantaardige, dierlijke stoffen</nl>
+      <fr>Déchets en vrac - de substances biologiques, végètaux, animaux</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>19.99</code>
+    <description>
+      <nl>Bulkafval, overig, behorend tot groep 19, maar hierboven niet vermeld</nl>
+      <fr>Autres déchets en vrac connus du groupe 19 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>20.00</code>
+    <description>
+      <nl>Fysische verschijnselen en natuurlijke elementen - niet gespecificeerd</nl>
+      <fr>Phénoménes physiques et éléments naturels - Non précisé</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>20.01</code>
+    <description>
+      <nl>Fysische verschijnselen - lawaai, natuurlijke straling, (licht, lichtboog, overdruk, onderdruk, druk enz.)</nl>
+      <fr>Phénomènes physiques - bruit, radiation naturelle, lumière, arc lumineux, pressurisation, dépressurisation, pression</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>20.02</code>
+    <description>
+      <nl>Natuurlijke en atmosferische elementen (incl. watervlaktes, modder, regen, hagel, sneeuw, ijzel, windstoot enz.)</nl>
+      <fr>éléments naturels et atmosphériques (comprend étendues d'eau, boue, pluie, grêle, neige, verglas, coup de vent, ...)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>20.03</code>
+    <description>
+      <nl>Natuurrampen (incl. overstroming, vulkanisme, aardbeving, vloedgolf, vuur, brand)</nl>
+      <fr>Catastrophes naturelles (comprend inondation, volcanisme, tremblement de terre, raz de marée, feu, incendie,...)</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>20.99</code>
+    <description>
+      <nl>Fysische verschijnselen en natuurlijke elementen, overige, behorend tot groep 20, maar hierboven niet vermeld</nl>
+      <fr>Autres phénomènes physiques et éléments connus du groupe 20 mais non listés ci-dessus</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+  <affected-object>
+    <code>99.00</code>
+    <description>
+      <nl>Overige betrokken voorwerpen, niet in deze lijst vermeld</nl>
+      <fr>Autres agents matériels non listés dans cette classification</fr>
+    </description>
+    <begin-validity>
+      <year>1900</year>
+      <quarter>1</quarter>
+    </begin-validity>
+    <end-validity>
+      <year>9999</year>
+      <quarter>1</quarter>
+    </end-validity>
+  </affected-object>
+</affected-objects>
