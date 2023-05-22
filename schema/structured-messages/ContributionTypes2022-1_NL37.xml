@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contribution-types>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>1xx (handarbeiders)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>951 - 952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+     <type>0</type>
+          <code>
+               <nl>1xx (handarbeiders)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>981 - 982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>2xx (hoofdarbeiders)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>951 - 952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>2xx (hoofdarbeiders)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>3xx (overheidspensioenbijdrage)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>971-974 / 976</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2014</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>3xx (overheidspensioenbijdrage)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>977-978</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>01/01/2015</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>6xx (vastbenoemden)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>953 - 957</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>01/01/1900</begin-validity>
+          <end-validity>31/12/2011</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>6xx (vastbenoemden)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>971-976</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2012</begin-validity>
+          <end-validity>31/12/2014</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>6xx (vastbenoemden)</code>
+          <employer-category>977-978</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2015</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>7xx (bijzondere categorieën) met uitzondering van de code 741 (kunstenaars)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>958</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>01/01/1900</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>01/01/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>872, 873 en 874 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2012</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>879, 880, 881, 882, 884 en 886 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>8xx (bijzondere bijdragen)</code>
+          <employer-category>953-957</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/1900</begin-validity>
+          <end-validity>31/12/2011</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>8xx (bijzondere bijdragen)</code>
+          <employer-category>971-976</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2012</begin-validity>
+          <end-validity>31/12/2014</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>8xx (bijzondere bijdragen)</code>
+          <employer-category>977-798</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2015</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>8xx (bijzondere bijdragen) met uitzondering van de codes 842 en 843</code>
+          <employer-category>951-952 / 958</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/1900</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>8xx (bijzondere bijdragen) met uitzondering van de codes 842 en 843</code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>741 (kunstenaars)</code>
+          <employer-category>958</employer-category>
+          <ordinary-contribution>Bijdrage lonen 108%</ordinary-contribution>
+          <begin-validity>01/01/1900</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>872, 873 en 874 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2012</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>879, 880, 881, 882, 884 en 886 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>2</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>2</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>2</type>
+          <code>872, 873 en 874 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2012</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>2</type>
+          <code>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>3</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>3</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>3</type>
+          <code>872, 873 en 874 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2012</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>3</type>
+          <code>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>4</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>4</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>4</type>
+          <code>872, 873 en 874 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2012</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>4</type>
+          <code>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/04/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>5</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>5</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>5</type>
+          <code>872, 873 en 874 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/01/2017</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>5</type>
+          <code>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>Bijdrage SWT</ordinary-contribution>
+          <begin-validity>01/01/2017</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>6</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>6</type>
+          <code>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>7</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>01/01/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>7</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>8</type>
+          <code>
+               <nl>842 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>Bijdrage lonen 100%</ordinary-contribution>
+          <begin-validity>01/01/2010</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>8</type>
+          <code>
+               <nl>842 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr></fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr></fr>
+          </ordinary-contribution>
+          <begin-validity>01/07/2013</begin-validity>
+          <end-validity>31/12/2021</end-validity>
+     </contribution-type>
+</contribution-types>

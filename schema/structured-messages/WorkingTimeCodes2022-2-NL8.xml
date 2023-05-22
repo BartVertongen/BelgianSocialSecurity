@@ -4,354 +4,721 @@
 <working-time-codes>
     <working-time-code>
         <code>1</code>
-        <description>alle arbeidstijdgegevens gedekt door loon met RSZ-bijdragen, met uitzondering van de wettelijke en bijkomende vakantie van arbeiders</description>
+        <description>
+            <nl>
+                alle arbeidstijdgegevens gedekt door loon met RSZ-bijdragen
+                , met uitzondering van de wettelijke en bijkomende vakantie van arbeiders
+            </nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>2</code>
-        <description>wettelijke vakantie voor arbeiders</description>
+        <description>
+            <nl>wettelijke vakantie voor arbeiders</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>3</code>
-        <description>bijkomende vakantie voor arbeiders</description>
+        <description>
+            <nl>bijkomende vakantie voor arbeiders</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>4</code>
-        <description>afwezigheid eerste dag wegens slecht weer bouwbedrijf (onvolledig loon)</description>
+        <description>
+            <nl>afwezigheid eerste dag wegens slecht weer bouwbedrijf (onvolledig loon)</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>5</code>
-        <description>betaald educatief verlof of Vlaams Opleidingsverlof</description>
+        <description>
+            <nl>betaald educatief verlof of Vlaams Opleidingsverlof</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
-        <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>10</code>
-        <description>gewaarborgd loon tweede week, feestdagen en vervangingsdagen tijdens periode van tijdelijke werkloosheid, functie van rechter sociale zaken</description>
+        <description>
+            <nl>
+                gewaarborgd loon tweede week, feestdagen en vervangingsdagen tijdens periode van tijdelijke werkloosheid
+                , functie van rechter sociale zaken
+            </nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>11</code>
-        <description>arbeidsongeschiktheid met aanvulling of voorschot overeenkomstig de CAO 12bis/13bis</description>
+        <description>
+            <nl>arbeidsongeschiktheid met aanvulling of voorschot overeenkomstig de CAO 12bis/13bis</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>12</code>
-        <description>vakantie krachtens algemeen verbindend verklaarde CAO of inhaalrust (bouwbedrijf, handel in brandstoffen, kleding- en confectiebedrijf, Diamantnijverheid en -handel, binnenscheepvaart, teelt en eerste verwerking van vlas en/of hennep)</description>
+        <description>
+            <nl>
+                vakantie krachtens algemeen verbindend verklaarde CAO of inhaalrust
+                (bouwbedrijf, handel in brandstoffen, kleding- en confectiebedrijf
+                , Diamantnijverheid en -handel, binnenscheepvaart, teelt en eerste verwerking van vlas en/of hennep)
+            </nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>13</code>
-        <description>sociale promotie</description>
+        <description>
+            <nl>sociale promotie</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>14</code>
-        <description>aanvullende vakantiedagen bij activiteitsaanvang of -hervatting</description>
+        <description>
+            <nl>aanvullende vakantiedagen bij activiteitsaanvang of -hervatting</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2012/2</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2012</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>15</code>
-        <description>vakantiedagen waarvan de betaling inbegrepen is in het flexiloon</description>
+        <description>
+            <nl>vakantiedagen waarvan de betaling inbegrepen is in het flexiloon</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2015/4</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>20</code>
-        <description>onbezoldigde dagen inhaalrust in het raam van maatregelen tot vermindering van de arbeidstijd met verhoogde uurloon</description>
+        <description>
+            <nl>onbezoldigde dagen inhaalrust in het raam van maatregelen tot vermindering van de arbeidstijd met verhoogde uurloon</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>21</code>
-        <description>de dagen staking/lock-out</description>
+        <description>
+            <nl>de dagen staking/lock-out</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>22</code>
         <description>syndicale opdracht</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>23</code>
-        <description>carensdag</description>
+        <description>
+            <nl>carensdag</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>2013/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>24</code>
-        <description>verlof om dwingende redenen zonder behoud van loon - voor de onthaalouders, onbezoldigde vakantiedagen (maximum 20) en wettelijke feestdagen wanneer er geen kinderopvang is</description>
+        <description>
+            <nl>
+                verlof om dwingende redenen zonder behoud van loon - voor de onthaalouders
+                , onbezoldigde vakantiedagen (maximum 20) en wettelijke feestdagen wanneer er geen kinderopvang is
+            </nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>25</code>
-        <description>burgerplichten zonder behoud van loon, openbaar mandaat</description>
+        <description>
+            <nl>burgerplichten zonder behoud van loon, openbaar mandaat</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>26</code>
         <description>militieverplichtingen</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>30</code>
         <description>alle arbeidstijdgegevens waarvoor de werkgever geen loon of vergoeding betaalt, met uitzondering van deze die onder een andere code vermeld worden</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>31</code>
         <description>dagen van onbezoldigde volledige afwezigheid, gelijkgesteld met dienstactiviteit, eventueel opsplitsbaar (vb. verlof wegens dwingende redenen van familiaal belang)</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2011/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>32</code>
         <description>dagen van onbezoldigde volledige afwezigheid in de stand non-activiteit , van terbeschikkingstelling zonder wachtwedde of van onbezoldigde non-activiteit voor militairen</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2011/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>33</code>
-        <description>dagen van volledige afwezigheid voor onbezoldigd politiek verlof gelijkgesteld met dienstactiviteit</description>
+        <description>
+            <nl>dagen van volledige afwezigheid voor onbezoldigd politiek verlof gelijkgesteld met dienstactiviteit</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2011/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>41</code>
-        <description>dagen van bezoldigde volledige afwezigheid in de stand non-activiteit</description>
+        <description>
+            <nl>dagen van bezoldigde volledige afwezigheid in de stand non-activiteit</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2011/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>42</code>
         <description>dagen van volledige terbeschikkingstelling met wachtwedde en met behoud van het recht op weddenverhoging</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2011/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>43</code>
-        <description>dagen van tijdelijke ontstentenis van betrekking wegens gezondheidsredenen (militairen)</description>
+        <description>
+            <nl>dagen van tijdelijke ontstentenis van betrekking wegens gezondheidsredenen (militairen)</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2011/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>50</code>
         <description>ziekte (ziekte of ongeval van gemeen recht)</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>51</code>
         <description>moederschapsbescherming (= maatregel van moederschapsbescherming, moederschapsrust of omgezet moederschapsverlof bij overlijden of hospitalisatie van de moeder) en borstvoedingspauzes (CAO nr. 80)</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>52</code>
-        <description>vaderschaps- of geboorteverlof, adoptieverlof en pleegouderverlof (alleen de dagen ten laste van de sector �uitkeringen")</description>
+        <description>vaderschaps- of geboorteverlof, adoptieverlof en pleegouderverlof (alleen de dagen ten laste van de sector uitkeringen")</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>53</code>
-        <description>ziekte (profylactisch verlof)</description>
+        <description>
+            <nl>ziekte (profylactisch verlof)</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2017/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2017</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>60</code>
         <description>arbeidsongeval</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>61</code>
         <description>beroepsziekte</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>70</code>
-        <description>tijdelijke werkloosheid andere dan de codes 71, 72 en 77</description>
+        <description>
+            <nl>tijdelijke werkloosheid andere dan de codes 71, 72 en 77</nl>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>71</code>
         <description>specifieke code economische werkloosheid</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>72</code>
         <description>specifieke code voor tijdelijke werkloosheid ingevolge slecht weer</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>73</code>
         <description>jeugdvakantie en seniorvakantie</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>74</code>
         <description>minderprestaties van de erkende onthaalouder, te wijten aan de afwezigheid van kinderen die normaal zouden worden opgevangen, maar die niet zijn komen opdagen door omstandigheden buiten de wil van de onthaalouder om</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/2</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>75</code>
         <description>dagen pleegzorgen</description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2008/4</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2008</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>76</code>
-        <description>schorsingsdagen bedienden wegens werkgebrek</description>
+        <description>
+            <nl>schorsingsdagen bedienden wegens werkgebrek</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2009/2</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2009</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>77</code>
-        <description>Tijdelijke werkloosheid wegens overmacht Corona of overstromingen of oorlog Oekraïne</description>
+        <description>
+            <nl>Tijdelijke werkloosheid wegens overmacht Corona of overstromingen of oorlog Oekraïne</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2020/2</Geldig_vanaf>
-        <Geldig_tot>2022/2</Geldig_tot>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2022</year>
+            <quarter>2</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>80</code>
-        <description>niet te recupereren overuren die vrijgesteld zijn van sociale zekerheidsbijdragen</description>
+        <description>
+            <nl>niet te recupereren overuren die vrijgesteld zijn van sociale zekerheidsbijdragen</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2015/4</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>101</code>
-        <description>Vaartdagen van zeevarenden in de koopvaardij-, bagger- of zeesleepvaartsector</description>
+        <description>
+            <nl>Vaartdagen van zeevarenden in de koopvaardij-, bagger- of zeesleepvaartsector</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2018/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>102</code>
-        <description>Vakantiedagen opgenomen door zeevarenden in de koopvaardij-, bagger- of zeesleepvaartsector</description>
+        <description>
+            <nl>Vakantiedagen opgenomen door zeevarenden in de koopvaardij-, bagger- of zeesleepvaartsector</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2018/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>110</code>
-        <description>Prestaties van een federaal of regionaal parlements- of regeringslid, of van een beschermde lokale mandataris; dagen gedekt door een uittredingsvergoeding van een lid van een parlement, een regering, een Bestendige Deputatie of provinciecollege</description>
+        <description>
+            <nl>
+                Prestaties van een federaal of regionaal parlements- of regeringslid
+                , of van een beschermde lokale mandataris; 
+                dagen gedekt door een uittredingsvergoeding van een lid van een parlement
+                , een regering, een Bestendige Deputatie of provinciecollege
+            </nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
-        <Geldig_vanaf>2019/1</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
     <working-time-code>
         <code>301</code>
-        <description>alle arbeidstijdgegevens gedekt door een vergoeding met vrijstelling van socialezekerheidsbijdragen, met uitzondering van deze die onder een andere code vermeld worden</description>
+        <description>
+            <nl>
+                alle arbeidstijdgegevens gedekt door een vergoeding met vrijstelling van socialezekerheidsbijdragen
+                , met uitzondering van deze die onder een andere code vermeld worden
+            </nl>
+            <fr></fr>
+        </description>
         <DMFA>No</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
-        <Geldig_vanaf>2003/1</Geldig_vanaf>
-        <Geldig_tot>2021/4</Geldig_tot>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </working-time-code>
-</List>
+</working-time-codes>

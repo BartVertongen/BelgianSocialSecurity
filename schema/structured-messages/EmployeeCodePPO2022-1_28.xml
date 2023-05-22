@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee-codes-ppo>
+    <employee-code-ppo>
+        <code>101</code>
+        <description>
+            <nl>Contractuele handarbeiders</nl>
+            <fr>Travailleurs manuels contractuels</fr>
+        </description>
+        <code-rsz>15</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>102</code>
+        <description>
+            <nl>Contractuele handarbeiders ter vervanging van een werknemer die heeft gekozen voor de (vrijwillige) vierdagenweek</nl>
+            <fr>Travailleurs manuels contractuels qui remplacent un travailleur qui a choisi la semaine (volontaire) de 4 jours</fr>
+        </description>
+        <code-rsz>15</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2013</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>102</code>
+        <description>
+            <nl>Contractuele handarbeiders ter vervanging van een werknemer die heeft gekozen voor de (vrijwillige) vierdagenweek</nl>
+            <fr>Travailleurs manuels contractuels qui remplacent un travailleur qui a choisi la semaine (volontaire) de 4 jours</fr>
+        </description>
+        <code-rsz>21</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>103</code>
+        <description>
+            <nl>Contractuele handarbeiders  - syndicaal gedetacheerden</nl>
+            <fr>Travailleurs manuels contractuels - détachés syndicaux</fr>
+        </description>
+        <code-rsz>15</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2016</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>104</code>
+        <description>
+            <nl>Contractuele handarbeiders - mindervaliden tewerkgesteld in een beschutte werkplaats</nl>
+            <fr>Travailleurs manuels contractuels - travailleurs handicapés occupés dans un atelier protégé</fr>
+        </description>
+        <code-rsz>12</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>109</code>
+        <description>
+            <nl>Stagiairs met het oog op een vaste benoeming - socialezekerheidsregeling contractuelen - handarbeiders</nl>
+            <fr>Stagiaires en vue d'une nomination à titre définitif - régime de sécurité sociale des contractuels - travailleurs manuels</fr>
+        </description>
+        <code-rsz>15</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>111</code>
+        <description>
+            <nl>Handarbeiders-geco's - CONTINGENT</nl>
+            <fr>Travailleurs manuels ACS - CONTINGENT</fr>
+        </description>
+        <code-rsz>24</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>112</code>
+        <description>
+            <nl>Handarbeiders-geco's - PROJECTEN</nl>
+            <fr>Travailleurs manuels ACS - PROJETS</fr>
+        </description>
+        <code-rsz>24</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>113</code>
+        <description>
+            <nl>Handarbeiders-geco's - openbare besturen</nl>
+            <fr>Travailleurs manuels ACS - administrations publiques</fr>
+        </description>
+        <code-rsz>24</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>114</code>
+        <description>
+            <nl>Handarbeiders - gesubsidieerde contractuelen</nl>
+            <fr>Travailleurs manuels contractuels subventionnés</fr>
+        </description>
+        <code-rsz>24</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>121</code>
+        <description>
+            <nl>
+                Handarbeiders aangeworven in het kader van art. 60, $ 7 van de wet van 8 juli 1976 betreffende de OCMW's
+                (vanaf 2019/2 enkel geldig in het Brussels Hoofdstedelijk Gewest, het Waals Gewest en de Duitstalige gemeenten)
+            </nl>
+            <fr>
+                Travailleurs manuels engagés dans le cadre de l'article 60 § 7 de la loi organique des CPAS du 8 juillet 1976 
+                (à partir de 2019/2 uniquement valable dans la Région Bruxelles-Capitale, la Région wallonne et les communes germanophones)
+            </fr>
+        </description>
+        <code-rsz>090</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>131</code>
+        <description>
+            <nl>Handarbeiders - jongeren tot en met het vierde kwartaal van het jaar waarin ze 18 jaar worden - art. 5bis van het KB van 28.11.1969</nl>
+            <fr>Travailleurs manuels - jeunes jusqu'au 4ème trimestre de l'année de leurs 18 ans - art. 5bis de l'AR du 28.11.1969</fr>
+        </description>
+        <code-rsz>27</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>132</code>
+        <description>
+            <nl>
+                Handarbeiders - jongeren tussen 18 en 25 jaar tewerkgesteld in het stelsel van alternerende tewerkstelling en opleiding
+                - KB nr. 495 van 31.12.1986
+            </nl>
+            <fr>
+                Travailleurs manuels - jeunes entre 18 et 25 ans occupés dans le cadre d'un système associant le travail et la formation 
+                - AR n° 495 du 31.12.1986
+            </fr>
+        </description>
+        <code-rsz>15</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2007</year>
+               <quarter>2</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>133</code>
+        <description>
+            <nl>
+                Handarbeiders - leerlingen tot het vierde kwartaal van het kalenderjaar dat ze 18 jaar worden
+                - artikel 4 van het KB van 28.11.1969
+            </nl>
+            <fr>
+                Travailleurs manuels - apprentis jusqu'au 4ème trimestre de l'année de leur 18 ans - article 4 de l'AR du 28.11.1969</fr>
+        </description>
+        <code-rsz>35</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>1</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>201</code>
+        <description>
+            <nl>Contractuele hoofdarbeiders</nl>
+            <fr>Travailleurs intellectuels contractuels</fr>
+        </description>
+        <code-rsz>495</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>202</code>
+        <description>
+            <nl>Contractuele hoofdarbeiders ter vervanging van een werknemer die heeft gekozen voor de (vrijwillige) vierdagenweek</nl>
+            <fr>Travailleurs intellectuels contractuels qui remplacent un travailleur qui a choisi la semaine (volontaire) de 4 jours</fr>
+        </description>
+        <code-rsz>495</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2013</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>202</code>
+        <description>
+            <nl>Contractuele hoofdarbeiders ter vervanging van een werknemer die heeft gekozen voor de (vrijwillige) vierdagenweek</nl>
+            <fr>Travailleurs intellectuels contractuels qui remplacent un travailleur qui a choisi la semaine (volontaire) de 4 jours</fr>
+        </description>
+        <code-rsz>481</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>203</code>
+        <description>
+            <nl>Contractuele hoofdarbeiders - syndicaal gedetacheerden</nl>
+            <fr>Travailleurs intellectuels contractuels - détachés syndicaux</fr>
+        </description>
+        <code-rsz>495</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2016</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>204</code>
+        <description>
+            <nl>Contractuele hoofdarbeiders - mindervaliden tewerkgesteld in een beschutte werkplaats</nl>
+            <fr>Travailleurs intellectuels contractuels - travailleurs handicapés occupés dans un atelier protégé</fr>
+        </description>
+        <code-rsz>492</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>209</code>
+        <description>
+            <nl>Stagiairs met het oog op een vaste benoeming - socialezekerheidsregeling contractuelen - hoofdarbeiders</nl>
+            <fr>
+                Stagiaires en vue d'une nomination à titre définitif - régime de sécurité sociale des contractuels 
+                - travailleurs intellectuels
+            </fr>
+        </description>
+        <code-rsz>495</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>211</code>
+        <description>
+            <nl>Hoofdarbeiders-geco's - CONTINGENT</nl>
+            <fr>Travailleurs intellectuels ACS - CONTINGENT</fr>
+        </description>
+        <code-rsz>484</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>212</code>
+        <description>
+            <nl>Hoofdarbeiders-geco's - PROJECTEN</nl>
+            <fr>Travailleurs intellectuels ACS - PROJETS</fr>
+        </description>
+        <code-rsz>484</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>213</code>
+        <description>
+            <nl>Hoofdarbeiders-geco's - openbare besturen</nl>
+            <fr>Travailleurs intellectuels ACS - administrations publiques</fr>
+        </description>
+        <code-rsz>484</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>214</code>
+        <description>
+            <nl>Hoofdarbeiders - gesubsidieerde contractuelen</nl>
+            <fr>Travailleurs intellectuels contractuels subventionnés</fr>
+        </description>
+        <code-rsz>484</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>221</code>
+        <description>
+            <nl>
+                Hoofdarbeiders aangeworven in het kader van art. 60, § 7 van de wet van 8 juli 1976 betreffende de OCMW's
+                (vanaf 2019/2 enkel geldig in het Brussels Hoofdstedelijk Gewest, het Waals Gewest en de Duitstalige gemeenten)
+            </nl>
+            <fr>
+                Travailleurs intellectuels engagés dans le cadre de l'article 60 § 7 de la loi organique des CPAS du 8 juillet 1976 
+                (à partir de 2019/2 uniquement valable dans la Région Bruxelles-Capitale, la Région wallonne et les communes germanophones)
+            </fr>
+        </description>
+        <code-rsz>400</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>231</code>
+        <description>
+            <nl>
+                Hoofdarbeiders - jongeren tot en met het vierde kwartaal van het jaar waarin ze 18 jaar worden
+                - art. 5bis van het KB van 28.11.1969
+            </nl>
+            <fr>
+                Travailleurs intellectuels - jeunes jusqu'au 4ème trimestre de l'année de leurs 18 ans 
+                - art. 5bis de l'AR du 28.11.1969
+            </fr>
+        </description>
+        <code-rsz>487</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>232</code>
+        <description>
+            <nl>
+                Hoofdarbeiders - jongeren tussen 18 en 25 jaar tewerkgesteld in het stelsel van alternerende tewerkstelling en opleiding
+                - KB nr. 495 van 31.12.1986
+            </nl>
+            <fr>
+                Travailleurs intellectuels - jeunes entre 18 et 25 ans occupé dans le cadre d'un système associant le travail et la formation 
+                - AR n° 495 du 31.12.1986
+            </fr>
+        </description>
+        <code-rsz>495</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2007</year>
+               <quarter>2</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>233</code>
+        <description>
+            <nl>
+                Hoofdarbeiders - leerlingen tot het vierde kwartaal van het kalenderjaar dat ze 18 jaar worden 
+                - artikel 4 van het KB van 28.11.1969
+            </nl>
+            <fr>
+                Travailleurs intellectuels - apprentis jusqu'au 4ème trimestre de l'année de leur 18 ans 
+                - article 4 de l'AR du 28.11.1969
+            </fr>
+        </description>
+        <code-rsz>439</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>251</code>
+        <description>
+            <nl>Geneesheren in opleiding - art. 15bis van het KB van 28.11.1969</nl>
+            <fr>Médecins en formation - art. 15bis de l'AR du 28.11.1969</fr>
+        </description>
+        <code-rsz>403</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>252</code>
+        <description>
+            <nl>Contractuele geneesheren vrijgesteld van bijdragen op basis van art. 1, § 3 van de wet van 27.06.1969</nl>
+            <fr>Médecins contractuels exonérés des cotisations de sécurité sociale en vertu de l'art. 1, § 3 de la loi du 27.06.1969</fr>
+        </description>
+        <code-rsz>402</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>2</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>301</code>
+        <description>
+            <nl>Basispensioenbijdrage - gesolidariseerd pensioenfonds - ex-gemeenschappelijk pensioenstelsel</nl>
+            <fr>Cotisations pension de base - fonds de pension solidarisé - ex-régime commun</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>302</code>
+        <description>
+            <nl>
+                Basispensioenbijdrage - gesolidariseerd pensioenfonds - ex-pensioenstelsel nieuwe bij de Rijksdienst aangeslotenen
+                + aangeslotenen na 31-12-2011 met hoge bijdragevoet
+            </nl>
+            <fr>
+                Cotisations pension de base - fonds de pension solidarisé - ex-régime des nouveaux affiliés 
+                + nouveaux adhérents au taux supérieur
+            </fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>303</code>
+        <description>
+            <nl>Basispensioenbijdrage - gesolidariseerd pensioenfonds - lokale politie</nl>
+            <fr>Cotisations pension de base - fonds de pension solidarisé - police locale</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>304</code>
+        <description>
+            <nl>Basispensioenbijdrage - gesolidariseerd pensioenfonds - aangeslotenen na 31-12-2011 met lage bijdragevoet</nl>
+            <fr>Cotisations pension de base - fonds de pension solidarisé - nouveaux adhérents au taux inférieur</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>306</code>
+        <description>
+            <nl>Basispensioenbijdrage - gesolidariseerd pensioenfonds - ex-voorzorgsinstelling met specifieke bijdragevoet</nl>
+            <fr>Cotisations pension de base - fonds de pension solidarisé - ex-institution de prévoyance au taux spécifique</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>307</code>
+        <description>
+            <nl>Pensioenbijdrage - pool der parastatalen (wet van 28-4-1958)</nl>
+            <fr>Cotisation de pension - pool des parastataux (loi du 28-4-1958)</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2015</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>308</code>
+        <description>
+            <nl>Pensioenbijdrage - pensioen ten laste van Schatkist</nl>
+            <fr>Cotisation de pension - pension à charge du trésor public</fr> 
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2015</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>601</code>
+        <description>
+            <nl>Vastbenoemden</nl>
+            <fr>Définitifs</fr>
+        </description>
+        <code-rsz>675</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>3</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>602</code>
+        <description>
+            <nl>Vastbenoemden - kinderbijslag niet DIBISS (enkel GER en GOM)</nl>
+            <fr>Définitifs - pas de cotisation allocations familiales à l'ORPSS (uniquement les CER et SDR)</fr>
+        </description>
+        <code-rsz>675</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>3</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2006</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>603</code>
+        <description>
+            <nl>Vastbenoemden - syndicaal gedetacheerden</nl>
+            <fr>Définitifs - détachés syndicaux</fr>
+        </description>
+        <code-rsz>675</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>3</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2016</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>604</code>
+        <description>
+            <nl>Vastbenoemden - mindervaliden tewerkgesteld in een beschutte werkplaats</nl>
+            <fr>Définitifs - travailleurs handicapés occupés dans un atelier protégé</fr>
+        </description>
+        <code-rsz>675</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>3</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>608</code>
+        <description>
+            <nl>Stagiairs met het oog op een vaste benoeming - vakantieregeling priv�sector</nl>
+            <fr>Stagiaires en vue d'une nomination à titre définitif - régime de vacances secteur privé</fr>
+        </description>
+        <code-rsz>675</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>3</worker-type>
+        <begin-validity>
+               <year>2014</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>609</code>
+        <description>
+            <nl>Stagiairs met het oog op een vaste benoeming - vakantieregeling openbare sector</nl>
+            <fr>Stagiaires en vue d'une nomination à titre définitif - régime de vacances secteur public</fr>
+        </description>
+        <code-rsz>675</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>3</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>642</code>
+        <description>
+            <nl> 
+                Vastbenoemde geneesheren onderworpen aan socialezekerheidsbijdragen en die op basis van art.
+                158 van de ziekenhuiswet van 10-7-2008 geen recht hebben op een overheidspensioen
+            </nl> 
+            <fr>
+                Médecins définitifs soumis aux cotisations de sécurité sociale et qui, sur base de l'art.
+                158 de la loi relative aux hôpitaux du 10-07-2008, n'ont pas de droit à une pension publique
+            </fr> 
+        </description>
+        <code-rsz>675</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>3</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>651</code>
+        <description>
+            <nl>
+                Vastbenoemde geneesheren vrijgesteld van socialezekerheidsbijdragen op basis van art. 1, � 3 van de wet van 27.06.1969 en die
+                op basis van art. 158 van de ziekenhuiswet van 10-7-2008 recht hebben op een overheidspensioen
+            </nl>     
+            <fr>
+                Médecins définitifs exonérés des cotisations de sécurité sociale sur base de l'art. 1er, § 3 de la loi du 27.6.1969 et qui
+                , sur base de l'art. 158 de la loi relative aux hôpitaux du 10-07-2008, ont droit à une pension publique
+            </fr> 
+        </description>
+        <code-rsz>690</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>3</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>652</code>
+        <description>
+            <nl>
+                Vastbenoemde geneesheren vrijgesteld van socialezekerheidsbijdragen op basis van art. 1, � 3 van de wet van 27.06.1969 en die
+                 op basis van art. 158 van de ziekenhuiswet van 10-7-2008 geen recht hebben op een overheidspensioen
+            </nl>
+            <fr>
+                Médecins définitifs exonérés des cotisations de sécurité sociale sur base de l'art. 1, § 3 de la loi de 27.06.1969 et qui
+                , sur base de l'art. 158 de la loi relative aux hôpitaux du 10-7-2008, n'ont pas de droit à une pension publique
+            </fr>
+        </description>
+        <code-rsz>691</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>3</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>671</code>
+        <description>
+            <nl>Bijdrage voor ontslagen statutair personeel - Stelsel van de ZIV-uitkering</nl>
+            <fr>Cotisation pour le personnel statutaire - Régime assurance maladie invalidité</fr>
+        </description>
+        <code-rsz>876</code-rsz>
+        <presence-code>1</presence-code>
+        <worker-type>8</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>672</code>
+        <description>
+            <nl>Bijdrage voor ontslagen statutair personeel - Werkloosheidsstelsel</nl>
+            <fr>Cotisation pour le personnel statutaire licencié - régime chômage</fr>
+        </description>
+        <code-rsz>877</code-rsz>
+        <presence-code>1</presence-code>
+        <worker-type>8</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>701</code>
+        <description>
+            <nl>Studenten tewerkgesteld in het kader van een overeenkomst voor studenten en voor wie de solidariteitsbijdrage verschuldigd is</nl>
+            <fr>Etudiants occupés dans le cadre d'un contrat d'occupation d'étudiants et pour lesquels la cotisation de solidarité est due</fr>
+        </description>
+        <code-rsz>840</code-rsz>
+        <presence-code>1</presence-code>
+        <worker-type>7</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>702</code>
+        <description>
+            <nl>Monitoren en socio-culturele animatoren vrijgesteld op grond van art. 17 van het KB van 28.11.1969</nl>
+            <fr>Moniteurs et animateurs d'activités socio-culturelles exonérés sur base de l'article 17 de l'AR du 28.11.1969</fr>
+        </description>
+        <code-rsz>699</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>6</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+    <code>711</code>
+        <description>
+            <nl>Bedienaars eredienst en afgevaardigden Vrijzinnige Raad - art. 13 van het KB van 28.11.1969</nl>
+            <fr>Ministres des cultes et conseillers laïcs - art. 13 de l'AR du 28.11.1969</fr>
+        </description>
+        <code-rsz>675</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>6</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>721</code>
+        <description>
+            <nl>Niet beschermde lokale mandatarissen - artikel 37quater van de wet van 29.6.1981</nl>
+            <fr>Mandataires locaux non protégés - article 37quater de la loi du 29.6.1981</fr>
+        </description>
+        <code-rsz>404</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>6</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>722</code>
+        <description>
+            <nl>Beschermde lokale mandatarissen</nl>
+            <fr>Mandataires locaux protégés</fr>
+        </description>
+        <code-rsz>405</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>6</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>731</code>
+        <description>
+            <nl>Vrijwillige brandweerlieden en vrijwillige ambulanciers - handarbeiders</nl>
+            <fr>Pompiers volontaires et ambulanciers volontaires - travailleurs manuels</fr>
+        </description>
+        <code-rsz>091</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>6</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>732</code>
+        <description>
+            <nl>Vrijwillige brandweerlieden en vrijwillige ambulanciers - hoofdarbeiders</nl>
+            <fr>Pompiers volontaires et ambulanciers volontaires - travailleurs intellectuels</fr>
+        </description>
+        <code-rsz>401</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>6</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>741</code>
+        <description>
+            <nl>Kunstenaars</nl>
+            <fr>Artistes</fr>
+        </description>
+        <code-rsz>46</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>4</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>761</code>
+        <description>
+            <nl>Erkende onthaalouders</nl>
+            <fr>Gardiens ou gardiennes d'enfants reconnus</fr>
+        </description>
+        <code-rsz>497</code-rsz>
+        <presence-code>3</presence-code>
+        <worker-type>5</worker-type>
+        <begin-validity>
+               <year>2003</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>771</code>
+        <description>
+            <nl>Werklozen met bedrijfstoeslag (SWT)</nl>
+            <fr>Chômeurs avec complément d'entreprise (RCC)</fr>
+        </description>
+        <code-rsz>879</code-rsz>
+        <presence-code>1</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>801</code>
+        <description>
+            <nl>Bijzondere bijdrage verschuldigd op Coronapremie</nl>
+            <fr>Cotisation spéciale due sur la prime Corona</fr>
+        </description>
+        <code-rsz>801</code-rsz>
+        <presence-code>5</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2021</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+    <code>842</code>
+        <description>
+            <nl>Bijdrage aanvullend pensioenstelsel contractanten</nl>
+            <fr>Cotisation régime de pension complémentaire contractuels</fr>
+        </description>
+        <code-rsz>835</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>843</code>
+        <description>
+            <nl>Bijdrage aanvullend pensioenstelsel - contractanten - Antwerpen en Brugge (vanaf 2020/1 enkel Antwerpen)</nl>
+            <fr>Cotisation régime de pension complémentaire - contractuels - Anvers et Bruges (à partir de 2020/1 uniquement Anvers)</fr>
+        </description>
+        <code-rsz>835</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>844</code>
+        <description>
+            <nl>Bijdrage aanvullend pensioenstelsel contractanten - bonus</nl>
+            <fr>Cotisation régime de pension complémentaire contractuels - bonus</fr>
+        </description>
+        <code-rsz>835</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>2014</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>845</code>
+        <description>
+            <nl>Bijdrage voor de Gemeenschappelijke Sociale Dienst van de FPD</nl>
+            <fr>Cotisation pour le Service Social Collectif du SFP</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>12</worker-type>
+        <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>846</code>
+        <description>
+            <nl>Bijdrage voor de Gemeenschappelijke Sociale Dienst van de politie</nl>
+            <fr>Cotisation pour le Service Social Collectif de la police</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>12</worker-type>
+        <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>847</code>
+        <description>
+            <nl>Bijdrage voor de Gemeenschappelijke Sociale Dienst - Vlaanderen</nl>
+            <fr>Cotisation pour le Service Social Collectif - Flandre</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>12</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2020</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>847</code>
+        <description>
+            <nl>Bijdrage voor de Gemeenschappelijke Sociale Dienst - Vlaanderen</nl>
+            <fr>Cotisation pour le Service Social Collectif - Flandre</fr>
+        </description>
+        <code-rsz>847</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>12</worker-type>
+        <begin-validity>
+               <year>2021</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>851</code>
+        <description>
+            <nl>Bijzondere bijdrage op stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen</nl>
+            <fr>Cotisation spéciale due sur les réserves constituées par les employeurs en vue de la formation d'une pension extra-légale</fr>
+        </description>
+        <code-rsz>851</code-rsz>
+        <presence-code>5</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2011</year>
+               <quarter>3</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>855</code>
+        <description>
+            <nl>Werkloosheidsbijdrage van 1,69 % (KB 401)</nl>
+            <fr>Cotisation du chômage de 1,69 % (AR 401)</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>856</code>
+        <description>
+            <nl>
+                Bijzondere bijdrage bestemd voor de financiering van de sociale zekerheid
+                (wet van 30 maart 1994 houdende financiering van de sociale zekerheid)
+            </nl>
+            <fr>
+                Cotisation spéciale destinée au financement de la sécurité sociale 
+                (loi du 30.03.1994 portant financement de la sécurité sociale)
+            </fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>857</code>
+        <description>
+            <nl>Werkloosheidsbijdrage van 1,60 % (KB 401)</nl>
+            <fr>Cotisation de chômage de 1,60 % (AR 401)</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>860</code>
+        <description>
+            <nl>Solidariteitsbijdrage op het bedrag van de mobiliteitsvergoeding</nl>
+            <fr>Cotisation de solidarité sur le montant de l'allocation de mobilité</fr>
+        </description>
+        <code-rsz>860</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2018</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2020</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>861</code>
+        <description>
+            <nl>Solidariteitsbijdrage op de winstparticipaties</nl>
+            <fr>Cotisation de solidarité sur les participations aux bénéfices</fr>
+        </description>
+        <code-rsz>861</code-rsz>
+        <presence-code>5</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>862</code>
+        <description>
+            <nl>Solidariteitsbijdrage op het gebruik van een bedrijfsvoertuig voor persoonlijke doeleinden of voor woon-werkverkeer</nl>
+            <fr>
+                Cotisation de solidarité pour l'usage d'un véhicule de société à des fins privées ou pour le déplacement 
+                domicile-lieu de travail
+            </fr>
+        </description>
+        <code-rsz>862</code-rsz>
+        <presence-code>4</presence-code>
+        <worker-type>14</worker-type>
+        <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>864</code>
+        <description>
+            <nl>
+                Bijzondere bijdrage op stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen
+                ; rechtstreekse stortingen aan ex-werknemers
+            </nl>
+            <fr>
+                Cotisation spéciale due sur les versements effectués par les employeurs pour la constitution d'une pension extra-légale 
+                ; versements directs aux ex-travailleurs
+            </fr>
+        </description>
+        <code-rsz>864</code-rsz>
+        <presence-code>5</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2011</year>
+               <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>865</code>
+        <description>
+            <nl>
+                Bijzondere bijdrage op stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen
+                ; stortingen in het kader van een ondernemingsplan
+            </nl>
+            <fr>
+                Cotisation spéciale due sur les versements effectués par les employeurs pour la constitution d'une pension extra-légale 
+                ; versements dans le cadre d'un plan d'entreprise
+            </fr>
+        </description>
+        <code-rsz>865</code-rsz>
+        <presence-code>5</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>867</code>
+        <description>
+            <nl>
+                Bijzondere aanvullende bijdrage op stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen
+                die een vastgesteld bedrag overschrijden
+            </nl>
+            <fr>
+                Cotisation spéciale supplémentaire due sur les versements effectués par les employeurs pour la constitution 
+                d'une pension extra-légale qui dépassent un montant déterminé
+            </fr>
+        </description>
+        <code-rsz>867</code-rsz>
+        <presence-code>4</presence-code>
+        <worker-type>14</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>868</code>
+        <description>
+            <nl>Solidariteitsbijdrage op de milieuvriendelijke bedrijfswagen ter beschikking gesteld in het kader van het mobiliteitsbudget</nl>
+            <fr>Cotisation de solidarité sur un véhicule de société respectueux de l'environnement dans le cadre du budget mobilité</fr>
+        </description>
+        <code-rsz>868</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2019</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>869</code>
+        <description>
+            <nl>Bijzondere bijdrage op het saldo van het mobiliteitsbudget uitbetaald in geld en dat overeenstemt met de 3de  pijler</nl>
+            <fr>Cotisation spéciale sur le solde du budget mobilité versé en espèces et qui correspond au 3ème pilier</fr>
+        </description>
+        <code-rsz>869</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2019</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>870</code>
+        <description>
+            <nl>Bijdrage verschuldigd op het (dubbel) vakantiegeld met uitzondering van de mandatarissen en het contractueel politiepersoneel</nl>
+            <fr>Cotisation due sur le (double) pécule de vacances à l'exception des mandataires et du personnel de police contractuel</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>5</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>871</code>
+        <description>
+            <nl>
+                Bijdrage verschuldigd op het (dubbel) vakantiegeld van de mandatarissen
+                , het contractueel politiepersoneel en de stagiairs met het oog op een van vaste benoeming - vakantieregeling priv�sector
+            </nl>
+            <fr>
+                Cotisation due sur le (double) pécule de vacances des mandataires, du personnel de police contractuel et des stagiaires
+                en vue d'une nomination à titre définitif - régime de vacances secteur privé
+             </fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>5</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>872</code>
+        <description>
+            <nl>
+                Verminderde bijzondere werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT) 
+                - non-profitsector - aanvang SWT vanaf 01/04/2012 (uitz.: gevallen gelijkgesteld aan kgt 880)
+            </nl>
+            <fr>
+                Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) 
+                - secteur non marchand - RCC ayant débuté à partir du 1/04/2012 (à l'exception des cas assimilés au CT 880)
+            </fr>
+        </description>
+        <code-rsz>277</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>873</code>
+        <description>
+            <nl>    
+                Bijzondere werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT) 
+                - aanvang van het SWT vanaf 01/04/2012 (uitz.: gevallen gelijkgesteld aan kgt 879 of 881)
+            </nl>
+            <fr>
+                Cotisation patronale spéciale pour un travailleur bénéficiant du régime de chômage avec complément d'entreprise (RCC) 
+                - RCC ayant débuté à partir du 01/04/2012 (à l'exception des cas assimilés aux CT 879 ou 881)
+            </fr>
+        </description>
+        <code-rsz>276</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>874</code>
+        <description>
+            <nl> 
+                Verminderde bijzondere werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag 
+                (SWT) tijdens een periode van erkenning als onderneming in herstructurering - aanvang SWT vanaf 01/04/2012 
+                (uitz.: gevallen gelijkgesteld aan kgt 884)
+            </nl>
+            <fr>
+                Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise 
+                (RCC) durant une période de reconnaissance comme entreprise en restructuration - RCC ayant débuté à partir du 01/04/2012 
+                (à l'exception des cas assimilés au CT 884)
+            </fr>    
+        </description>
+        <code-rsz>278</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>2012</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>878</code>
+        <description>
+            <nl>Bijdrage verschuldigd voor erkende beroepsjournalist</nl>
+            <fr>Cotisation due pour les journalistes professionnels reconnus</fr>
+        </description>
+        <code-rsz>878</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2021</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>879</code>
+        <description>
+            <nl>
+                Bijzondere werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT)
+                - aanvang SWT vòòr 01/04/2010 of gelijkgesteld
+            </nl>
+            <fr>
+                Cotisation patronale spéciale pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) 
+                - RCC ayant débuté avant le 01/04/2010 ou assimilé
+            </fr>
+        </description>
+        <code-rsz>270</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>880</code>
+        <description>
+            <nl>
+                Verminderde bijzondere werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT)
+                - non profitsector - aanvang SWT vòòr 01/04/2012 of gelijkgesteld
+            </nl>
+            <fr>
+                Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) 
+                - secteur non marchand - RCC ayant débuté avant le 01/04/2012 ou assimilé
+            </fr>
+        </description>
+        <code-rsz>271</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>881</code>
+        <description>
+            <nl>
+                Bijzondere werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT)
+                - aanvang SWT tussen 01/04/2010 en 31/03/2012 of gelijkgesteld
+            </nl>
+            <fr>
+                Cotisation patronale spéciale pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) 
+                - RCC ayant débuté entre le 01/04/2010 et le 31/03/2012 ou assimilé
+            </fr>
+        </description>
+        <code-rsz>273</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>882</code>
+        <description>
+            <nl>
+                Verminderde bijzondere werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT)
+                - tijdens een periode van erkenning als onderneming in moeilijkheden
+            </nl>
+            <fr>
+                Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) 
+                - durant une période de reconnaissance comme entreprise en difficulté
+            </fr>
+        </description>
+        <code-rsz>274</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>/2010</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>884</code>
+        <description>
+            <nl>
+                Verminderde bijzondere werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT)
+                - periode van erkenning als onderneming in herstructurering - aanvang SWT tussen 01/04/2010 en 31/03/2012 of gelijkgesteld
+            </nl>
+            <fr>
+                Cotisation patronale spéciale réduite pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC) 
+                - période de reconnaissance comme entreprise en restructuration - RCC ayant débuté entre le 01/04/2010 et le 31/03/2012 ou assimilé
+            </fr>
+        </description>
+        <code-rsz>275</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>886</code>
+        <description>
+            <nl>Persoonlijke inhouding voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT)</nl>
+            <fr>Retenue personnelle pour un travailleur bénéficiant du chômage avec complément d'entreprise (RCC)</fr>
+        </description>
+        <code-rsz>295</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>15</worker-type>
+        <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>889</code>
+        <description>
+            <nl>Solidariteitsbijdrage op door de werkgever terugbetaalde verkeersboetes</nl>
+            <fr>Cotisation de solidarité sur les amendes de circulation remboursées par l'employeur</fr>
+        </description>
+        <code-rsz>889</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>9</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>891</code>
+        <description>
+            <nl>Pensioenbijdragen vastbenoemden gemeenschappelijk pensioenstelsel</nl>
+            <fr>Cotisation pension personnel nommé régime commun des pensions</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2011</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>892</code>
+        <description>
+            <nl>Pensioenbijdragen vastbenoemden stelsel van de Nieuwe bij de Rijksdienst aangeslotenen</nl>
+            <fr>Cotisation pension personnel nommé régime des nouveaux affiliés</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2011</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>893</code>
+        <description>
+            <nl>Pensioenbijdragen vastbenoemden van de ge�ntegreerde lokale politie</nl>
+            <fr>Cotisation pension personnel nommé de la police locale intégrée</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>10</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2011</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>894</code>
+        <description>
+            <nl>Pensioenbijdragen - vastbenoemden - syndicaal gedetacheerden</nl>
+            <fr>Cotisation pension - personnel nommé - détachés syndicaux</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>11</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2016</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>896</code>
+        <description>
+            <nl>Werkloosheidsbijdrage van 1,69 % (KB 401) - syndicaal gedetacheerden</nl>
+            <fr>Cotisation du chômage de 1,69 % (AR 401) - détachés syndicaux</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>11</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2016</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>897</code>
+        <description>
+            <nl>Socialezekerheidsbijdragen - syndicaal gedetacheerden</nl>
+            <fr>Cotisations de sécurité sociale - détachés syndicaux</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>11</worker-type>
+        <begin-validity>
+               <year>2009</year>
+               <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2016</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>898</code>
+        <description>
+            <nl>Bijdrage op vergoeding voor periode van tijdelijke arbeidsongeschiktheid wegens (erkende) beroepsziekte</nl>
+            <fr>Cotisations sur indemnité pour période d'incapacité temporaire en raison d'une maladie professionnelle reconnue</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>13</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2019</year>
+               <quarter>2</quarter>
+        </end-validity>
+    </employee-code-ppo>
+    <employee-code-ppo>
+        <code>899</code>
+        <description>
+            <nl>Volledige vrijstelling van bijdragen</nl>
+            <fr>Exonération complète des cotisations</fr>
+        </description>
+        <code-rsz>/</code-rsz>
+        <presence-code>2</presence-code>
+        <worker-type>11</worker-type>
+        <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+        </end-validity>
+    </employee-code-ppo>
+</employee-codes-ppo>
+

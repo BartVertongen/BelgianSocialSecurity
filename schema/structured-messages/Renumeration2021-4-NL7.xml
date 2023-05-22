@@ -123,7 +123,7 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2007</begin_geldigheid>
+        <begin-validity>01/01/2007</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -141,15 +141,15 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/07/2007</begin_geldigheid>
-        <einde_geldigheid>30/09/2013</einde_geldigheid>
+        <begin-validity>01/07/2007</begin-validity>
+        <end-validity>30/09/2013</end-validity>
     </remuneration>
     <remuneration>
         <code>9</code>
         <description>Vergoedingen betaald aan de statutaire ambtenaar in geval van be�indiging van de arbeidsrelatie, die worden uitgedrukt in arbeidstijd.</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2004</begin_geldigheid>
+        <begin-validity>01/01/2004</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -174,7 +174,7 @@
         <description>Enkel vertrekvakantiegeld, uitbetaald aan bedienden, niet onderhevig aan bijdragen.</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2007</begin_geldigheid>
+        <begin-validity>01/01/2007</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -185,7 +185,7 @@
         <description>Gedeelte van het enkel vakantiegeld dat overeenstemt met het normale loon voor de vakantiedagen en dat vervroegd werd uitbetaald door de vorige werkgever en dat niet onderhevig is aan bijdragen.</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2007</begin_geldigheid>
+        <begin-validity>01/01/2007</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -196,7 +196,7 @@
         <description>Vergoedingen voor niet te recupereren overuren die vrijgesteld zijn van socialezekerheidsbijdragen</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/10/2015</begin_geldigheid>
+        <begin-validity>01/10/2015</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -218,21 +218,27 @@
     </remuneration>
     <remuneration>
         <code>21</code>
-        <description>Voordelen niet onderworpen aan de gewone RSZ-bijdragen.</description>
+        <description>
+            <nl>Voordelen niet onderworpen aan de gewone RSZ-bijdragen.</nl>
+            <fr></fr>
+        </description>
         <DMFA>No</DMFA>
         <ADRS>Yes</ADRS>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <einde_geldigheid>31/12/2021</einde_geldigheid>
+        <end-validity>31/12/2021</end-validity>
     </remuneration>
     <remuneration>
         <code>21</code>
-        <description>Voordelen niet onderworpen aan de gewone RSZ-bijdragen.	</description>
+        <description>
+            <nl>Voordelen niet onderworpen aan de gewone RSZ-bijdragen.</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -243,7 +249,7 @@
         <description>Flexiloon</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/10/2015</begin_geldigheid>
+        <begin-validity>01/10/2015</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -251,10 +257,13 @@
     </remuneration>
     <remuneration>
         <code>23</code>
-        <description>Premies betaald aan een flexijob-werknemer</description>
+        <description>
+            <nl>Premies betaald aan een flexijob-werknemer</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/10/2015</begin_geldigheid>
+        <begin-validity>01/10/2015</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -262,10 +271,13 @@
     </remuneration>
     <remuneration>
         <code>24</code>
-        <description>Voordelen niet onderworpen aan de gewone RSZ-bijdragen die in aanmerking komen voor subsidies</description>
+        <description>
+            <nl>Voordelen niet onderworpen aan de gewone RSZ-bijdragen die in aanmerking komen voor subsidies</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/10/2018</begin_geldigheid>
+        <begin-validity>01/10/2018</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -273,10 +285,13 @@
     </remuneration>
     <remuneration>
         <code>25</code>
-        <description>Tussenkomst voor verplaatsingen in opdracht</description>
+        <description>
+            <nl>Tussenkomst voor verplaatsingen in opdracht</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/10/2018</begin_geldigheid>
+        <begin-validity>01/10/2018</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -287,7 +302,7 @@
         <description>Door werkgever ontvangen premies en/of subsidies andere dan sociale Maribel</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/10/2018</begin_geldigheid>
+        <begin-validity>01/10/2018</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -298,7 +313,7 @@
         <description>Vergoeding voor een federaal of regionaal parlements- of regeringslid of van een beschermde lokale mandataris</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2019</begin_geldigheid>
+        <begin-validity>01/01/2019</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -309,7 +324,7 @@
         <description>Uittredingvergoeding van een lid van een parlement, een regering, een Bestendige Deputatie of provinciecollege</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2019</begin_geldigheid>
+        <begin-validity>01/01/2019</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -317,10 +332,16 @@
     </remuneration>
     <remuneration>
         <code>29</code>
-        <description>Saldo van het mobiliteitsbudget uitbetaald in geld en dat overeenstemt met de 3de pijler</description>
+        <description>
+            <nl>Saldo van het mobiliteitsbudget uitbetaald in geld en dat overeenstemt met de 3de pijler</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2019</begin_geldigheid>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>14</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -328,7 +349,10 @@
     </remuneration>
     <remuneration>
         <code>30</code>
-        <description>Gewaarborgd loon tweede week.</description>
+        <description>
+            <nl>Gewaarborgd loon tweede week.</nl>
+            <fr></fr>
+        </description>
         <DMFA>No</DMFA>
         <ADRS>Yes</ADRS>
         <begin-validity>
@@ -387,7 +411,7 @@
         <description>Vergoeding voor aanvullende verantwoordelijkheden van een federaal of regionaal parlements- of regeringslid</description>
         <DMFA>Yes</DMFA>
         <ADRS>No</ADRS>
-        <begin_geldigheid>01/01/2019</begin_geldigheid>
+        <begin-validity>01/01/2019</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -398,7 +422,7 @@
         <description>Deel van het loon (10%) van de in het kader van een startbaanovereenkomst tewerkgestelde werknemer dat door de werkgever wordt besteed aan zijn opleiding</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -409,7 +433,7 @@
         <description>Premies, toelagen en vergoedingen betaald aan een contractueel of statutair personeelslid van de lokale politie die in aanmerking komen voor sociale toelage II, m.u.v. de eindejaarspremie - onderworpen aan overheidspensioenbijdrage</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -420,7 +444,7 @@
         <description>Premies, toelagen en vergoedingen betaald aan een statutair personeelslid van de lokale politie die in aanmerking komen voor sociale toelage II, m.u.v. de eindejaarspremie - vrijgesteld van overheidspensioenbijdrage</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -431,7 +455,7 @@
         <description>Onderworpen eindejaarspremie van lokale politie</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -442,7 +466,7 @@
         <description>Voordelen niet onderworpen aan de gewone RSZ-bijdragen die in aanmerking komen voor subsidies uitbetaald door het Fonds Sociale Maribel voor de Overheidssector, met uitzondering van de elementen aangegeven onder een andere code.</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -453,7 +477,7 @@
         <description>Vergoeding betaald aan een vastbenoemd personeelslid dat volledig afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2011</begin_geldigheid>
+        <begin-validity>01/01/2011</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -464,7 +488,7 @@
         <description>Alle bedragen betaald aan een statutair personeelslid die steeds als loon worden beschouwd, met uitzondering van de vergoedingen die onder een andere code worden vermeld - vrijgesteld van overheidspensioenbijdrage</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -475,7 +499,7 @@
         <description>Premies en gelijkaardige voordelen betaald aan een statutair personeelslid die worden toegekend onafhankelijk van het aantal effectief gewerkte dagen in het aangiftekwartaal - vrijgesteld van overheidspensioenbijdrage</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -486,7 +510,7 @@
         <description>Premies die een statutair personeelslid ontvangt omdat hij, in het raam van maatregelen tot herverdeling van de arbeid, zijn arbeidsprestaties heeft beperkt - vrijgesteld van overheidspensioenbijdrage</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -497,7 +521,7 @@
         <description>Vergoeding betaald aan een vastbenoemd personeelslid dat volledig afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd - vrijgesteld van overheidspensioenbijdrage</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -508,7 +532,7 @@
         <description>Alle bedragen betaald aan een statutair personeelslid vrijgesteld van socialezekerheidsbijdrage en onderworpen aan overheidspensioenbijdrage, die niet onder een andere code vermeld worden</description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin_geldigheid>01/01/2022</begin_geldigheid>
+        <begin-validity>01/01/2022</begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
