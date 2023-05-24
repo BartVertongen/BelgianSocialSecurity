@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<injury-natures>
+    <injury-nature>
+        <code>000</code>
+        <description>
+            <nl>Onbekend letsel : Informatie ontbreekt</nl>
+            <fr>Blessure inconnue : Informations manquantes</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>010</code>
+        <description>
+            <nl>Wonden en oppervlakkige letsels</nl>
+            <fr>Plaies et blessures superficielles</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>011</code>
+        <description>
+            <nl>
+                Oppervlakkige letsels. Omvat de kneuzingen, builen, hematomen, schaafwonden, schrammen
+                , blaren, beten van niet-giftige insecten, oppervlakkige wonden.
+                Omvat ook de hoofdhuidwonden en oppervlakkige letsels en vreemde voorwerpen
+                die het oog, oor enz.binnendringen.  Omvat niet de beten van giftige dieren (code 071)
+            </nl>
+            <fr>
+                Blessures superficielles.  Comprend les contusions, meurtrissures, hématomes, écorchures
+                , égratignures, ampoules, morsures d'insectes non venimeux, blessures superficielles.
+                Comprend également les blessures du cuir chevelu et les  lésions superficielles provoquées 
+                par un corps étranger pénétrant dans l'oeil, l'oreille, etc.
+                Ne comprend pas les morsures d'animaux venimeux (code 071)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>012</code>
+        <description>
+            <nl>
+                Open wonden. Omvat de scheurwonden, open wonden, snijwonden, kneuzingen met wonden, verlies van nagels
+                ; wonden met letsel aan spieren, pezen en zenuwen.
+                Omvat niet de traumatische amputaties, verwijdering van de oogbol
+                ; avulsie van het oog (code 040); gecompliceerde botbreuken (code 022)
+                ; verbrandingen met open wonden (code 061); oppervlakkige letsels (code 011)
+            </nl>
+            <fr>
+                Plaies ouvertes.
+                Comprend les déchirures, plaies ouvertes, coupures, plaies contuses, plaies du cuir chevelu
+                , arrachement d'un ongle; plaies accompagnées de lésions aux muscles, aux tendons et aux nerfs.
+                Ne comprend pas les amputations traumatiques, énucléations;arrachement de l'oeil (code 040)
+                ; fractures ouvertes (code 022);brûlures avec plaies ouvertes (code 061)
+                ; blessures superficielles (code 011)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>013</code>
+        <description>
+            <nl>Vleeswonden met verlies van weefsel</nl>
+            <fr>Plaies avec pertes de substance</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>019</code>
+        <description>
+            <nl>Andere soorten wonden en oppervlakkige letsels</nl>
+            <fr>Autres types de plaies et de blessures superficielles</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>020</code>
+        <description>
+            <nl>Botbreuken</nl>
+            <fr>Fractures osseuses</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>021</code>
+        <description>
+            <nl>
+                Gesloten botbreuken. Omvat de enkelvoudige botbreuken
+                ; botbreuken met letsels aan gewrichten (ontwrichtingen, enz.)
+                ; botbreuken met inwendige letsels of zenuwletsels
+            </nl>
+            <fr>
+                Fractures fermées. Comprend les fractures simples
+                ; fractures accompagnées de lésions des articulations (luxations, etc.)
+                ; fractures accompagnées de lésions internes ou nerveuses
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>022</code>
+        <description>
+            <nl>Open botbreuken. Omvat de botbreuken met letsels aan weke delen van het lichaam (gecompliceerde botbreuken)</nl>
+            <fr>Fractures ouvertes. Comprend les fractures accompagnées de lésions des parties molles (fractures ouvertes)</fr>
+        </description>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>01/01/9999</end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>029</code>
+        <description>
+            <nl>Andere soorten botbreuken</nl>
+            <fr>Autres types de fractures osseuses</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>030</code>
+        <description>
+            <nl>
+                Ontwrichtingen, verstuikingen en verrekkingen.
+                Omvat alle acute problemen met de skeletmusculatuur als gevolg van overbelasting van spieren
+                , pezen, banden en gewrichten
+            </nl>
+            <fr>
+                Luxations, entorses et foulures. 
+                omprend tout problème musculo-squelettique aigu dû à une sollicitation excessive des muscles
+                , tendons, ligaments et articulations.
+            </fr>
+        </description>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>01/01/9999</end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>031</code>
+        <description>
+            <nl>
+                Ontwrichtingen. Omvat de subluxaties en verschuiving van beendereinden bij de gewrichten
+                Omvat niet de verschoven botbreuk (code 021)
+            </nl>
+            <fr>
+                Luxations. Comprend les sub-luxations et déplacements des os au niveau des articulations
+                Ne comprend pas les luxations avec fracture (code 021)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>032</code>
+        <description>
+            <nl>
+                Verstuikingen en verrekkingen. Omvat de overbelastingen die leiden tot breuken en scheuren van spieren
+                , pezen, banden (en gewrichten), alsmede hernia's als gevolg van overbelasting.
+                Omvat niet de verschuivingen van beendereinden die bij de gewrichten moeten worden gecodeerd onder 031
+                ; indien deze gepaard gaan met een open wond, moeten ze onder 012 worden gecodeerd
+            </nl>
+            <fr>
+                Entorses et foulures. Comprend les efforts entraînant des ruptures
+                , déchirures et lacérations de muscles, de tendons, de ligaments (et d'articulations)
+                , de même que les hernies d'efforts.
+                Ne comprend pas tout déplacement des os au niveau des articulations qui doit être classé sous 031
+                ; toutefois, s'il est associé à une plaie ouverte, il est alors codé dans le groupe 012
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>039</code>
+        <description>
+            <nl>Andere soorten ontwrichtingen, verstuikingen en verrekkingen</nl>
+            <fr>Autres types de luxations, d'entorses et de foulures</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>040</code>
+        <description>
+            <nl>
+                Traumatische amputaties (verlies van ledematen)
+                Omvat de amputaties en kneuzingen, verwijdering van de oogbol
+                , inclusief traumatische avulsie van het oog en verlies van oor/oren
+            </nl>
+            <fr>
+                Amputations traumatiques (perte de parties du corps)
+                Comprend les amputations et écrasements, énucléations
+                , y compris l'arrachement traumatique de l'oeil et la perte d'oreille(s)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>041</code>
+        <description>
+            <nl>Afzettingen</nl>
+            <fr>Amputations</fr>
+        </description>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>01/01/9999</end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>050</code>
+        <description>
+            <nl>
+                Schuddingen en inwendige letsels.
+                Omvat alle inwendige letsels zonder botbreuken, m.a.w. alle inwendige kneuzingen, bloedingen
+                , scheurwonden, hersenletsels en scheuring van inwendige organen.
+                Omvat niet de open wonden (code 012) en letsels die gepaard gaan met botbreuk (codes in groep 020)
+            </nl>
+            <fr>
+                Commotions et traumatismes internes.
+                Comprend toutes les contusions internes sans fracture, hémorragies internes
+                , déchirures internes, lésions cérébrales et ruptures internes.
+                Ne comprend pas les plaies ouvertes (code 012) et les blessures accompagnées d'une fracture (codes du groupe 020)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>051</code>
+        <description>
+            <nl>Schuddingen. Omvat de intracraniale letsels</nl>
+            <fr>Commotions. Comprend les blessures intra-crâniennes</fr>
+        </description>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>10/01/9999</end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>052</code>
+        <description>
+            <nl>Inwendige letsels. Omvat de letsels van organen in borstkas en buik en van bekkenorgane</nl>
+            <fr>Traumatismes internes. Comprend les lésions d'organes intra-thoraciques, intra-abdominaux et pelviens</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>053</code>
+        <description>
+            <nl>Schuddingen en inwendige letsels die in afwezigheid van behandeling levensbedreigend kunnen zijn.</nl>
+            <fr>Commotions et traumatismes internes qui, en l'absence de traitement, peuvent mettre la survie en cause</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>054</code>
+        <description>
+            <nl>Schadelijke effecten van elektriciteit</nl>
+            <fr>Effets nocifs de l'électricité</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>059</code>
+        <description>
+            <nl>Andere soorten schuddingen en inwendige letsels</nl>
+            <fr>Autres types de commotions et de traumatismes internes</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>060</code>
+        <description>
+            <nl>Verbrandingen, brandplekken (door kokende vloeistof) en bevriezing</nl>
+            <fr>Brûlures, brûlures par exposition à un liquide bouillant et gelures</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>061</code>
+        <description>
+            <nl>
+                Brandplekken (thermische - door kokende vloeistof) en verbrandingen.
+                Omvat de verbrandingen door hete voorwerpen of open vuur
+                ;brandplekken door kokende vloeistof; wrijvingsschroeiplekken
+                ;stralingsverbrandingen (infrarood); zonnebrand; effecten van bliksem;
+                verbrandingen ten gevolge van elektrische stroom, verbrandingen met open wond.
+                Omvat niet de stralingseffecten behalve verbrandingen (code 102)
+            </nl>
+            <fr>
+                Brûlures et brûlures par exposition à un liquide bouillant (thermiques).
+                Comprend les brûlures par objet brûlant, par le feu, par liquide bouillant
+                , brûlures par friction; brûlures dues à des rayons infrarouges
+                ; brûlures dues au soleil; effets de la foudre, brûlures causées par le courant électrique
+                , brûlures avec plaies ouvertes.
+                Ne comprend pas les effets des radiations autres que les brûlures (code 102)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>062</code>
+        <description>
+            <nl>
+                Chemische verbrandingen (corrosie). Omvat de Chemische verbrandingen (alleen uitwendige verbrandingen).
+                Omvat niet de verbrandingen als gevolg van het inslikken van een corrosieve of bijtende stof (code 071)
+            </nl>
+            <fr>
+                Brûlures chimiques (corrosions). Comprend les brûlures chimiques (brûlures externes seulement).
+                Ne comprend pas les brûlures dues à l'absorption d'une substance corrosive ou caustique (code 071)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>063</code>
+        <description>
+            <nl>
+                Bevriezing. Omvat de effecten van temperatuurdaling (bevriezing)
+                ; gedeeltelijke diktehuidverlies, bevriezing met afgestorven weefsel (necrose).
+                Omvat niet de abnormaal lage lichaamstemperatuur (hypothermie) en andere effecten van overmatige koude (code 103)
+            </nl>
+            <fr>
+                Gelures. Comprend les effets du froid (gelure); perte partielle d'épaisseur cutanée
+                , gelure accompagnée de tissus morts (nécrose).
+                Ne comprend pas la température anormalement basse du corps (hypothermie)
+                et autres effets liés à un froid excessif (code 103)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>069</code>
+        <description>
+            <nl>Andere soorten verbrandingen, brandplekken door kokende vloeistof en bevriezing</nl>
+            <fr>Autres types de brûlures, de brûlures par exposition à un liquide bouillant et de gelures</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>070</code>
+        <description>
+            <nl>Vergiftigingen en infecties</nl>
+            <fr>Empoisonnements et infections</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>071</code>
+        <description>
+            <nl>
+                Acute vergiftigingen.  Omvat de acute effecten van injectie
+                , ingestie en absorptie of inhalatie van toxische, corrosieve of bijtende stoffen; beten van giftige dieren
+                ; verstikking door koolmonoxide of andere toxische gassen.
+                Omvat niet de uitwendige chemische verbrandingen (code 062); anafylactische shock (code 119)
+            </nl>
+            <fr>
+                Empoisonnements aigus. Comprend les effets aigus de l'injection, de l'ingestion
+                , de l'absorption ou de l'inhalation de substances toxiques, corrosives ou caustiques
+                ; morsures d'animaux venimeux; asphyxies par l'oxyde de carbone ou d'autres gaz toxiques.
+                Ne comprend pas les brûlures externes par substances chimiques (code 062); choc anaphylactique (code 119)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+    <code>072</code>
+        <description>
+            <nl>Acute infecties.  Omvat de infecties door virus, bacterie en andere infectueuze stoffen</nl>
+            <fr>Infections aiguës. Comprend les infections dues à un virus, une bactérie et d'autres agents infectieux</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>073</code>
+        <description>
+            <nl>Covid-19</nl>
+            <fr>Covid-19</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>074</code>
+        <description>
+            <nl></nl>
+            <fr>Covid Long</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>079</code>
+        <description>
+            <nl>Andere soorten vergiftigingen en infecties</nl>
+            <fr>Autres types d'empoisonnement et d'infections</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>080</code>
+        <description>
+            <nl>Verdrinking en verstikking</nl>
+            <fr>Noyades et asphyxies</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>081</code>
+        <description>
+            <nl>
+                Verstikking. Omvat de verstikking door samendrukking, afsnoering of wurging;
+                omvat ook verstikking door het ontbreken of reduceren van zuurstof in de omgevingslucht
+                en verstikking door vreemde voorwerpen in de luchtwegen.
+                Omvat niet de verstikking door koolmonoxide of andere toxische gassen (code 071)
+            </nl>
+            <fr>
+                Asphyxies. Comprend l'asphyxie ou suffocation par compression, par constriction ou par strangulation
+                ; comprend également l'asphyxie par suppression ou réduction de l'oxygène de l'atmosphère ambiante 
+                et l'asphyxie par pénétration de corps étrangers dans les voies respiratoires.
+                Ne comprend pas les asphyxies par l'oxyde de carbone ou d'autres gaz toxiques (code 071)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>082</code>
+        <description>
+            <nl>
+                Verdrinking en niet dodelijke onderdompeling.
+                Omvat niet de verstikking zoals gedefinieerd in 081
+                ; bedolven onder materialen of andere niet-vloeibare massa's (bv. sneeuw, aarde enz.)
+            </nl>
+            <fr>
+                Noyades et submersions non mortelles. Ne comprend pas les asphyxies relevant du code 081
+                ; ensevelissement sous des matériaux et autres masses non liquides, (neige, terre,etc.).
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>089</code>
+        <description>
+            <nl>Andere soorten verdrinking en verstikking</nl>
+            <fr>Autres types de noyades et d'asphyxies</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>090</code>
+        <description>
+            <nl>Effecten van lawaai, trillingen en druk</nl>
+            <fr>Effets du bruit, des vibrations et de la pression</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>091</code>
+        <description>
+            <nl>Acuut gehoorverlies. Omvat het partieel of totaal gehoorverlies</nl>
+            <fr>Perte auditive aiguë. Comprend la perte ou une diminution de l'ouie</fr>
+        </description>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>01/01/9999</end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>092</code>
+        <description>
+            <nl>Effecten van druk. Omvat de effecten van lucht- en waterdruk (barotrauma)</nl>
+            <fr>Effets de la pression. Comprend les effets de la pression et de la pression de l'eau (barotrauma)</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>099</code>
+        <description>
+            <nl>Andere effecten van lawaai, trillingen en druk.  Omvat de geluidstrauma's, vibratiesyndroom enz</nl>
+            <fr>Autres effets aigus du bruit, des vibrations et de la pression. Comprend les traumatismes sonores, syndrome du marteau piqueur, etc</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>100</code>
+        <description>
+            <nl>Effecten van extreme temperaturen, licht en straling</nl>
+            <fr>Effets des extrêmes de température, de la lumière et des radiations</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>101</code>
+        <description>
+            <nl>
+                Hitte en zonnesteken.
+                Omvat de effecten van overmatige natuurlijke hitte en zonnestraling (hitteslagen, zonnesteken)
+                of door de mens veroorzaakte hitte.
+                Omvat niet de shock veroorzaakt door bliksem (code 112); zonnebrand (code 061)
+            </nl>
+            <fr>
+                Chaleur et coups de soleil. Comprend les effets d'une chaleur naturelle excessive et de l'insolation
+                (coups de chaleur, coups de soleil) ou de la chaleur produite par l'homme.
+                Ne comprend pas les chocs causés par la foudre (code 112); brûlures dues au soleil (code 061)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>102</code>
+        <description>
+            <nl>
+                Effecten van straling (niet-thermische).
+                Omvat de effecten van röntgenstralen, radioactieve stoffen, ultraviolette stralen, ioniserende straling, lassersogen
+            </nl>
+            <fr>
+                Effets des radiations (non thermiques). Comprend les effets dus aux rayons X, aux substances radioactives
+                , aux rayons ultraviolets, aux radiations ionisantes, ophtalmie électrique
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>103</code>
+        <description>
+            <nl>
+                Effecten van temperatuurdaling.
+                Omvat de accidentele hypothermie en andere effecten van temperatuurdaling.
+                Omvat niet de bevriezing (code 063)
+            </nl>
+            <fr>
+                Effets du froid. Comprend l'hypothermie accidentelle et autres effets du froid.
+                Ne comprend pas les gelures (code 063)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>109</code>
+        <description>
+            <nl>Andere effecten van extreme temperaturen, licht en straling</nl>
+            <fr>Autres effets des extrêmes de température, de la lumière et des radiations</fr>
+        </description>
+        <begin-validity>01/01/1900</begin-validity>
+        <end-validity>01/01/9999</end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>110</code>
+        <description>
+            <nl>Shock</nl>
+            <fr>Chocs</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>111</code>
+        <description>
+            <nl>
+                Shocks na agressie en bedreigingen.
+                Omvat de shocks na agressie en bedreigingen door personen
+                , shock na bankoverval, agressie door klanten; sociale conflicten.
+                Omvat niet de anafylactische shock (code 119); shock na traumatische letsels (code 112)
+            </nl>
+            <fr>
+                Chocs consécutifs à des agressions et menaces.
+                Comprend les chocs consécutifs aux agressions et menaces de personnes
+                , par exemple, suite à une attaque à main armée dans une banque, agression de clients, "conflits sociaux". Ne comprend pas le choc anaphylactique (code 119); choc consécutif à un traumatisme (code 112)
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>112</code>
+        <description>
+            <nl>
+                Traumatische shocks. Omvat de elektroshock, shock veroorzaakt door bliksem
+                , onmiddellijke of latere shock ten gevolge van letsel.
+                Omvat niet anafylactische shock (code 119); agressie en bedreigingen door personen (code 111)
+                ; gevallen zonder directe lichamelijke letsels
+            </nl>
+            <fr>
+                Chocs traumatiques. Comprend le choc électrique, choc du à la foudre, choc instantané ou retardé
+                Ne comprend pas le choc anaphylactique (code 119); agressions et menaces dues à des personnes (code 111)
+                ; cas n'impliquant aucune blessure physique directe.
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>119</code>
+        <description>
+            <nl>
+                Andere soorten shocks. Omvat de agressies door dieren zonder direct lichamelijk letsel;
+                natuurrampen en andere gebeurtenissen die niet direct door mensen zijn veroorzaakt 
+                en het slachtoffer geen direct lichamelijk letsel berokkenen; anafylactische shock.
+            </nl>
+            <fr>
+                Autres types de chocs. Comprend les agressions dues à des animaux sans blessure physique directe de la victime
+                ; catastrophes naturelles et autres.
+                Evènements qui ne sont pas directement provoqués par des personnes et ne causent aucune
+                blessure physique directe à la victime; chocs anaphylactique.
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>120</code>
+        <description>
+            <nl>
+                Multipele letsels.
+                Deze groep is beperkt tot gevallen waar het slachtoffer twee 
+                of meer even ernstige soorten letsels heeft opgelopen
+            </nl>
+            <fr>
+                Lésions multiples. Ce groupe se limite aux cas ou la victime est atteinte de plusieurs lésions de gravité comparable.
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+    <injury-nature>
+        <code>999</code>
+        <description>
+            <nl>
+                Andere, niet onder andere punten opgenomen gespecificeerde letsels.
+                Deze groep dient alleen voor de indeling van letsels die niet onder andere punten zijn opgenomen
+                : zenuwen ruggenmergletsel; letsel aan bloedvaten; vreemde voorwerpen die via een natuurlijke opening binnendringen enz.
+            </nl>
+            <fr>
+                Autres lésions déterminées non classées sous d'autres rubriques.
+                Ce groupe devrait uniquement comprendre les lésions qui ne sont pas classées sous d'autres rubriques
+                : lésions nerveuses et médullaires ; lésions des vaisseaux sanguins
+                ; corps étrangers entrant par un orifice naturel ; etc.
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </injury-nature>
+</injury-natures>
+

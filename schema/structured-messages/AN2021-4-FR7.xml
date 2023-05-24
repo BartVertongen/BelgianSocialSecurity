@@ -1,18 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE List [
-     <!ELEMENT ann7 (Code?, Description?, DMFA?, ADRS?, begin_geldigheid?, einde_geldigheid?)>
-     <!ELEMENT List (ann7+)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT Description (#PCDATA)>
-     <!ELEMENT DMFA (#PCDATA)>
-     <!ELEMENT ADRS (#PCDATA)>
-     <!ELEMENT begin_geldigheid (#PCDATA)>
-     <!ELEMENT einde_geldigheid (#PCDATA)>
-]>
-<List>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <ann7>
 <Code>1</Code>
-<Description>Tous les montants qui sont toujours considérés comme rémunération, à l'exception des indemnités mentionnées sous un autre code.</Description>
+<Description>Tous les montants qui sont toujours considï¿½rï¿½s comme rï¿½munï¿½ration, ï¿½ l'exception des indemnitï¿½s mentionnï¿½es sous un autre code.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -20,7 +9,7 @@
 </ann7>
 <ann7>
 <Code>2</Code>
-<Description>Les primes et les avantages similaires accordés indépendamment du nombre de journées de travail prestées effectivement durant le trimestre de la déclaration.</Description>
+<Description>Les primes et les avantages similaires accordï¿½s indï¿½pendamment du nombre de journï¿½es de travail prestï¿½es effectivement durant le trimestre de la dï¿½claration.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -28,7 +17,7 @@
 </ann7>
 <ann7>
 <Code>3</Code>
-<Description>Les indemnités qui sont payées au travailleur lorsqu'il est mis fin au contrat de travail et qui sont exprimées en temps de travail.</Description>
+<Description>Les indemnitï¿½s qui sont payï¿½es au travailleur lorsqu'il est mis fin au contrat de travail et qui sont exprimï¿½es en temps de travail.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -36,7 +25,7 @@
 </ann7>
 <ann7>
 <Code>4</Code>
-<Description>Indemnités qui sont payées au travailleur lorsqu'il est mis fin au contrat de travail et qui ne sont pas exprimées en temps de travail.</Description>
+<Description>Indemnitï¿½s qui sont payï¿½es au travailleur lorsqu'il est mis fin au contrat de travail et qui ne sont pas exprimï¿½es en temps de travail.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -44,7 +33,7 @@
 </ann7>
 <ann7>
 <Code>5</Code>
-<Description>Primes reçues par le travailleur qui limite ses prestations de travail dans le cadre des mesures de redistribution du travail.</Description>
+<Description>Primes reï¿½ues par le travailleur qui limite ses prestations de travail dans le cadre des mesures de redistribution du travail.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -52,7 +41,7 @@
 </ann7>
 <ann7>
 <Code>6</Code>
-<Description>Indemnités pour les heures qui ne constituent pas un temps de travail au sens de la loi du 16 mars 1971 sur le travail, accordées en vertu d'une convention collective de travail conclue au sein d'un organe paritaire avant le 1er janvier 1994 et rendue obligatoire par arrêté royal.</Description>
+<Description>Indemnitï¿½s pour les heures qui ne constituent pas un temps de travail au sens de la loi du 16 mars 1971 sur le travail, accordï¿½es en vertu d'une convention collective de travail conclue au sein d'un organe paritaire avant le 1er janvier 1994 et rendue obligatoire par arrï¿½tï¿½ royal.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -60,7 +49,7 @@
 </ann7>
 <ann7>
 <Code>7</Code>
-<Description>Pécule simple de vacances de sortie payé aux employés et soumis aux cotisations.</Description>
+<Description>Pï¿½cule simple de vacances de sortie payï¿½ aux employï¿½s et soumis aux cotisations.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2007</begin_geldigheid>
@@ -68,7 +57,7 @@
 </ann7>
 <ann7>
 <Code>8</Code>
-<Description>Supplément pour occupation d'un travailleur occasionnel de l'Horeca un samedi, une veille de jour férié, un dimanche ou un jour férié.</Description>
+<Description>Supplï¿½ment pour occupation d'un travailleur occasionnel de l'Horeca un samedi, une veille de jour fï¿½riï¿½, un dimanche ou un jour fï¿½riï¿½.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/07/2007</begin_geldigheid>
@@ -76,7 +65,7 @@
 </ann7>
 <ann7>
 <Code>9</Code>
-<Description>Les indemnités qui sont payées au fonctionnaire statutaire lorsqu'il est mis fin à la relation de travail et qui sont exprimées en temps de travail.</Description>
+<Description>Les indemnitï¿½s qui sont payï¿½es au fonctionnaire statutaire lorsqu'il est mis fin ï¿½ la relation de travail et qui sont exprimï¿½es en temps de travail.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2004</begin_geldigheid>
@@ -84,7 +73,7 @@
 </ann7>
 <ann7>
 <Code>10</Code>
-<Description>Avantage de toute nature sur l'utilisation personnelle d'un véhicule de société ou, jusqu'au 31/12/2020, sur l'allocation de mobilité contre restitution d'un véhicule de société ou sur le véhicule de société respectueux de l'environnement dans le cadre du budget de mobilité.</Description>
+<Description>Avantage de toute nature sur l'utilisation personnelle d'un vï¿½hicule de sociï¿½tï¿½ ou, jusqu'au 31/12/2020, sur l'allocation de mobilitï¿½ contre restitution d'un vï¿½hicule de sociï¿½tï¿½ ou sur le vï¿½hicule de sociï¿½tï¿½ respectueux de l'environnement dans le cadre du budget de mobilitï¿½.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -92,7 +81,7 @@
 </ann7>
 <ann7>
 <Code>11</Code>
-<Description>Pécule simple de vacances de sortie payé aux employés et non soumis aux cotisations.</Description>
+<Description>Pï¿½cule simple de vacances de sortie payï¿½ aux employï¿½s et non soumis aux cotisations.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2007</begin_geldigheid>
@@ -100,7 +89,7 @@
 </ann7>
 <ann7>
 <Code>12</Code>
-<Description>Partie du pécule simple de vacances qui correspond au salaire normal des jours de vacances et qui a été payé anticipativement par l'employeur précédent et non soumis aux cotisations.</Description>
+<Description>Partie du pï¿½cule simple de vacances qui correspond au salaire normal des jours de vacances et qui a ï¿½tï¿½ payï¿½ anticipativement par l'employeur prï¿½cï¿½dent et non soumis aux cotisations.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2007</begin_geldigheid>
@@ -108,7 +97,7 @@
 </ann7>
 <ann7>
 <Code>13</Code>
-<Description>Indemnités pour les heures supplémentaires à ne pas récupérer et non soumises aux cotisations de sécurité sociale</Description>
+<Description>Indemnitï¿½s pour les heures supplï¿½mentaires ï¿½ ne pas rï¿½cupï¿½rer et non soumises aux cotisations de sï¿½curitï¿½ sociale</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/10/2015</begin_geldigheid>
@@ -116,7 +105,7 @@
 </ann7>
 <ann7>
 <Code>20</Code>
-<Description>Eléments constitutifs spécifiques de la rémunération qui sont considérés comme rémunération dans le cas des pensionnés pour l'application des règles en matière de cumul d'une pension de retraite et de survie et un revenu résultant d'une activité professionnelle.</Description>
+<Description>Elï¿½ments constitutifs spï¿½cifiques de la rï¿½munï¿½ration qui sont considï¿½rï¿½s comme rï¿½munï¿½ration dans le cas des pensionnï¿½s pour l'application des rï¿½gles en matiï¿½re de cumul d'une pension de retraite et de survie et un revenu rï¿½sultant d'une activitï¿½ professionnelle.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -140,7 +129,7 @@
 </ann7>
 <ann7>
 <Code>22</Code>
-<Description>Rémunération Flexi</Description>
+<Description>Rï¿½munï¿½ration Flexi</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/10/2015</begin_geldigheid>
@@ -148,7 +137,7 @@
 </ann7>
 <ann7>
 <Code>23</Code>
-<Description>Primes payées à un travailleur flexijob</Description>
+<Description>Primes payï¿½es ï¿½ un travailleur flexijob</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/10/2015</begin_geldigheid>
@@ -164,7 +153,7 @@
 </ann7>
 <ann7>
 <Code>25</Code>
-<Description>Intervention pour les déplacements en mission</Description>
+<Description>Intervention pour les dï¿½placements en mission</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/10/2018</begin_geldigheid>
@@ -172,7 +161,7 @@
 </ann7>
 <ann7>
 <Code>26</Code>
-<Description>Primes et/ou subsides autres que Maribel social perçus par l'employeur</Description>
+<Description>Primes et/ou subsides autres que Maribel social perï¿½us par l'employeur</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/10/2018</begin_geldigheid>
@@ -180,7 +169,7 @@
 </ann7>
 <ann7>
 <Code>27</Code>
-<Description>Indemnité pour un membre d'un parlement ou d'un gouvernement fédéral ou régional ou d'un mandataire local protégé</Description>
+<Description>Indemnitï¿½ pour un membre d'un parlement ou d'un gouvernement fï¿½dï¿½ral ou rï¿½gional ou d'un mandataire local protï¿½gï¿½</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2019</begin_geldigheid>
@@ -188,7 +177,7 @@
 </ann7>
 <ann7>
 <Code>28</Code>
-<Description>Indemnité de sortie d'un membre d'un parlement, d'un gouvernement, d'une Députation permanente ou d'un collège provincial</Description>
+<Description>Indemnitï¿½ de sortie d'un membre d'un parlement, d'un gouvernement, d'une Dï¿½putation permanente ou d'un collï¿½ge provincial</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2019</begin_geldigheid>
@@ -196,7 +185,7 @@
 </ann7>
 <ann7>
 <Code>29</Code>
-<Description>Solde du budget mobilité versé en espèces et qui correspond au 3ème pilier</Description>
+<Description>Solde du budget mobilitï¿½ versï¿½ en espï¿½ces et qui correspond au 3ï¿½me pilier</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2019</begin_geldigheid>
@@ -204,7 +193,7 @@
 </ann7>
 <ann7>
 <Code>30</Code>
-<Description>Salaire garanti deuxième semaine.</Description>
+<Description>Salaire garanti deuxiï¿½me semaine.</Description>
 <DMFA>No</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -212,7 +201,7 @@
 </ann7>
 <ann7>
 <Code>31</Code>
-<Description>Indemnité CCT 12bis/13bis.</Description>
+<Description>Indemnitï¿½ CCT 12bis/13bis.</Description>
 <DMFA>No</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -220,7 +209,7 @@
 </ann7>
 <ann7>
 <Code>32</Code>
-<Description>Rémunération nette programmes d'activation.</Description>
+<Description>Rï¿½munï¿½ration nette programmes d'activation.</Description>
 <DMFA>No</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -228,7 +217,7 @@
 </ann7>
 <ann7>
 <Code>33</Code>
-<Description>Rémunération brute pour un travailleur à temps partiel bénéficiant d'une allocation de garantie de revenus.</Description>
+<Description>Rï¿½munï¿½ration brute pour un travailleur ï¿½ temps partiel bï¿½nï¿½ficiant d'une allocation de garantie de revenus.</Description>
 <DMFA>No</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -236,7 +225,7 @@
 </ann7>
 <ann7>
 <Code>41</Code>
-<Description>Indemnité pour responsabilités supplémentaires d'un membre du parlement/gouvernement fédéral ou régional</Description>
+<Description>Indemnitï¿½ pour responsabilitï¿½s supplï¿½mentaires d'un membre du parlement/gouvernement fï¿½dï¿½ral ou rï¿½gional</Description>
 <DMFA>Yes</DMFA>
 <ADRS>No</ADRS>
 <begin_geldigheid>01/01/2019</begin_geldigheid>
@@ -244,7 +233,7 @@
 </ann7>
 <ann7>
 <Code>42</Code>
-<Description>Partie de la rémunération (10%) réservée à la formation des travailleurs engagés dans le cadre des conventions de 1er emploi</Description>
+<Description>Partie de la rï¿½munï¿½ration (10%) rï¿½servï¿½e ï¿½ la formation des travailleurs engagï¿½s dans le cadre des conventions de 1er emploi</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
@@ -252,7 +241,7 @@
 </ann7>
 <ann7>
 <Code>43</Code>
-<Description>Primes, allocations et indemnités payées à un travailleur contractuel ou statutaire de la police locale qui sont prises en compte pour la dotation sociale II, à l'exception de la prime de fin d'année - soumis à la cotisation pension public</Description>
+<Description>Primes, allocations et indemnitï¿½s payï¿½es ï¿½ un travailleur contractuel ou statutaire de la police locale qui sont prises en compte pour la dotation sociale II, ï¿½ l'exception de la prime de fin d'annï¿½e - soumis ï¿½ la cotisation pension public</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
@@ -260,7 +249,7 @@
 </ann7>
 <ann7>
 <Code>44</Code>
-<Description>Primes, allocations et indemnités payées à un travailleur statutaire de la police locale qui sont prises en compte pour la dotation sociale II, à l'exception de la prime de fin d'année - exonéré de la cotisation pension public</Description>
+<Description>Primes, allocations et indemnitï¿½s payï¿½es ï¿½ un travailleur statutaire de la police locale qui sont prises en compte pour la dotation sociale II, ï¿½ l'exception de la prime de fin d'annï¿½e - exonï¿½rï¿½ de la cotisation pension public</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
@@ -268,7 +257,7 @@
 </ann7>
 <ann7>
 <Code>45</Code>
-<Description>Prime de fin d'année soumise de la police locale</Description>
+<Description>Prime de fin d'annï¿½e soumise de la police locale</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
@@ -276,7 +265,7 @@
 </ann7>
 <ann7>
 <Code>46</Code>
-<Description>Avantages non soumis aux cotisations ONSS ordinaires, qui entrent en ligne de compte pour des subsides versés par le Fonds Maribel Social pour le secteur public, à l'exception des éléments déclarés sous un autre code.</Description>
+<Description>Avantages non soumis aux cotisations ONSS ordinaires, qui entrent en ligne de compte pour des subsides versï¿½s par le Fonds Maribel Social pour le secteur public, ï¿½ l'exception des ï¿½lï¿½ments dï¿½clarï¿½s sous un autre code.</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
@@ -284,7 +273,7 @@
 </ann7>
 <ann7>
 <Code>51</Code>
-<Description>Indemnité payée à un membre du personnel nommé à titre définitif qui est totalement absent dans le cadre d'une mesure de réorganisation du temps de travail</Description>
+<Description>Indemnitï¿½ payï¿½e ï¿½ un membre du personnel nommï¿½ ï¿½ titre dï¿½finitif qui est totalement absent dans le cadre d'une mesure de rï¿½organisation du temps de travail</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2011</begin_geldigheid>
@@ -292,7 +281,7 @@
 </ann7>
 <ann7>
 <Code>61</Code>
-<Description>Tous les montants payés à un travailleur statutaire qui sont toujours considérés comme rémunération, à l'exception des indemnités mentionnées sous un autre code - exonéré de la cotisation de pension secteur public</Description>
+<Description>Tous les montants payï¿½s ï¿½ un travailleur statutaire qui sont toujours considï¿½rï¿½s comme rï¿½munï¿½ration, ï¿½ l'exception des indemnitï¿½s mentionnï¿½es sous un autre code - exonï¿½rï¿½ de la cotisation de pension secteur public</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
@@ -300,7 +289,7 @@
 </ann7>
 <ann7>
 <Code>62</Code>
-<Description>Les primes et les avantages similaires payés à un travailleur statutaire accordés indépendamment du nombre de journées de travail prestées effectivement durant le trimestre de la déclaration - exonéré de la cotisation de pension secteur public</Description>
+<Description>Les primes et les avantages similaires payï¿½s ï¿½ un travailleur statutaire accordï¿½s indï¿½pendamment du nombre de journï¿½es de travail prestï¿½es effectivement durant le trimestre de la dï¿½claration - exonï¿½rï¿½ de la cotisation de pension secteur public</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
@@ -308,7 +297,7 @@
 </ann7>
 <ann7>
 <Code>65</Code>
-<Description>Primes reçues par le travailleur statutaire qui limite ses prestations de travail dans le cadre des mesures de redistribution du travail - exonéré de la cotisation de pension secteur public</Description>
+<Description>Primes reï¿½ues par le travailleur statutaire qui limite ses prestations de travail dans le cadre des mesures de redistribution du travail - exonï¿½rï¿½ de la cotisation de pension secteur public</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
@@ -316,7 +305,7 @@
 </ann7>
 <ann7>
 <Code>66</Code>
-<Description>Indemnité payée à un membre du personnel nommé à titre définitif qui est totalement absent dans le cadre d'une mesure de réorganisation du temps de travail - exonéré de la cotisation de pension secteur public</Description>
+<Description>Indemnitï¿½ payï¿½e ï¿½ un membre du personnel nommï¿½ ï¿½ titre dï¿½finitif qui est totalement absent dans le cadre d'une mesure de rï¿½organisation du temps de travail - exonï¿½rï¿½ de la cotisation de pension secteur public</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
@@ -324,10 +313,11 @@
 </ann7>
 <ann7>
 <Code>67</Code>
-<Description>Tous les montants payés à un travailleur statutaire exonérés de la cotisation sécurité sociale et soumis à la cotisation de pension secteur public</Description>
+<Description>Tous les montants payï¿½s ï¿½ un travailleur statutaire exonï¿½rï¿½s de la cotisation sï¿½curitï¿½ sociale et soumis ï¿½ la cotisation de pension secteur public</Description>
 <DMFA>Yes</DMFA>
 <ADRS>Yes</ADRS>
 <begin_geldigheid>01/01/2022</begin_geldigheid>
 <einde_geldigheid>01/01/9999</einde_geldigheid>
 </ann7>
-</List>
+</List>
+

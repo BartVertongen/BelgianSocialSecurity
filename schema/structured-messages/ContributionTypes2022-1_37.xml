@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contribution-types>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>1xx (handarbeiders)</nl>
+               <fr>1xx (travailleurs ouvriers)</fr>
+          </code>
+          <employer-category>951 - 952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+     <type>0</type>
+          <code>
+               <nl>1xx (handarbeiders)</nl>
+               <fr>1xx (travailleurs ouvriers)</fr>
+          </code>
+          <employer-category>981 - 982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>2xx (hoofdarbeiders)</nl>
+               <fr>2xx (travailleurs intellectuels)</fr>
+          </code>
+          <employer-category>951 - 952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>2xx (hoofdarbeiders)</nl>
+               <fr>2xx (travailleurs intellectuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>3xx (overheidspensioenbijdrage)</nl>
+               <fr>3xx (cotisation de pension public)</fr>
+          </code>
+          <employer-category>971-974 / 976</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2014</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>3xx (overheidspensioenbijdrage)</nl>
+               <fr>3xx (cotisation de pension public)</fr>
+          </code>
+          <employer-category>977-978</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2015</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>6xx (vastbenoemden)</nl>
+               <fr>6xx (définitifs)</fr>
+          </code>
+          <employer-category>953 - 957</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2011</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>6xx (vastbenoemden)</nl>
+               <fr>6xx (définitifs)</fr>
+          </code>
+          <employer-category>971-976</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2014</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>6xx (vastbenoemden)</nl>
+               <fr>6xx (définitifs)</fr>
+          </code>
+          <employer-category>977-978</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2015</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>7xx (bijzondere categorieën) met uitzondering van de code 741 (kunstenaars)</nl>
+               <fr>7xx (catégories spécifiques) à l'exception du code 741 (artistes)</fr>
+          </code>
+          <employer-category>958</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>872, 873 en 874 (werklozen met bedrijfstoeslag)</nl>
+               <fr>872, 873 et 874 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>879, 880, 881, 882, 884 en 886 (werklozen met bedrijfstoeslag)</nl>
+               <fr>879, 880, 881, 882, 884 et 886 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>8xx (bijzondere bijdragen)</nl>
+               <fr>8xx (cotisations spéciales)</fr>
+          </code>
+          <employer-category>953-957</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2011</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>8xx (bijzondere bijdragen)</nl>
+               <fr>8xx (cotisations spéciales)</fr>
+          </code>
+          <employer-category>971-976</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2014</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>8xx (bijzondere bijdragen)</nl>
+               <fr>8xx (cotisations spéciales)</fr>
+          </code>
+          <employer-category>977-798</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2015</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>8xx (bijzondere bijdragen) met uitzondering van de codes 842 en 843</nl>
+               <fr>8xx (cotisations spéciales) à l'exception des codes 842 et 843</fr>
+          </code>
+          <employer-category>951-952 / 958</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>0</type>
+          <code>
+               <nl>8xx (bijzondere bijdragen) met uitzondering van de codes 842 en 843</nl>
+               <fr>8xx (cotisations spéciales) à l'exception des codes 842 et 843</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>
+               <nl>741 (kunstenaars)</nl>
+               <fr>741 (artistes)</fr>
+          </code>
+          <employer-category>958</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 108%</nl>
+               <fr>Cotisation rémunérations 108%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>1900</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>
+               <nl>872, 873 en 874 (werklozen met bedrijfstoeslag)</nl>
+               <fr>872, 873 et 874 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>1</type>
+          <code>
+               <nl>879, 880, 881, 882, 884 en 886 (werklozen met bedrijfstoeslag)</nl>
+               <fr>879, 880, 881, 882, 884 et 886 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>2</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>2</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>2</type>
+          <code>
+               <nl>872, 873 en 874 (werklozen met bedrijfstoeslag)</nl>
+               <fr>872, 873 et 874 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>2</type>
+          <code>
+               <nl>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</nl>
+               <fr>879, 880, 881, 882 et 884 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>3</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>3</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>3</type>
+          <code>
+               <nl>872, 873 en 874 (werklozen met bedrijfstoeslag)</nl>
+               <fr>872, 873 et 874 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>3</type>
+          <code>
+               <nl>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</nl>
+               <fr>879, 880, 881, 882 et 884 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>4</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>4</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>4</type>
+          <code>
+               <nl>872, 873 en 874 (werklozen met bedrijfstoeslag)</nl>
+               <fr>872, 873 et 874 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>4</type>
+          <code>
+               <nl>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</nl>
+               <fr>879, 880, 881, 882 et 884 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>5</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>879, 880, 881, 882 et 884 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>5</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>5</type>
+          <code>
+               <nl>872, 873 en 874 (werklozen met bedrijfstoeslag)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2017</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>5</type>
+          <code>
+               <nl>879, 880, 881, 882 en 884 (werklozen met bedrijfstoeslag)</nl>
+               <fr>872, 873 et 874 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>959</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage SWT</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2017</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>6</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>879, 880, 881, 882 et 884 (chômeurs avec complément d'entreprise)</fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation RCC</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>6</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>7</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>7</type>
+          <code>
+               <nl>842-843 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842-843 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>8</type>
+          <code>
+               <nl>842 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>951-952</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+     <contribution-type>
+          <type>8</type>
+          <code>
+               <nl>842 (bijdragen aanvullend pensioenstelsel - contractanten)</nl>
+               <fr>842 (cotisations régime de pension complémentaire - contractuels)</fr>
+          </code>
+          <employer-category>981-982</employer-category>
+          <ordinary-contribution>
+               <nl>Bijdrage lonen 100%</nl>
+               <fr>Cotisation rémunérations 100%</fr>
+          </ordinary-contribution>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </contribution-type>
+</contribution-types>

@@ -9,7 +9,9 @@
                 alle arbeidstijdgegevens gedekt door loon met RSZ-bijdragen
                 , met uitzondering van de wettelijke en bijkomende vakantie van arbeiders
             </nl>
-            <fr></fr>
+            <fr>
+                toutes les données relatives au temps de travail couvertes par une rémunération avec cotisations ONSS,
+                à l'exception des vacances légales et complémentaires des ouvriers</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -26,7 +28,7 @@
         <code>2</code>
         <description>
             <nl>wettelijke vakantie voor arbeiders</nl>
-            <fr></fr>
+            <fr>vacances légales pour ouvriers</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -43,7 +45,7 @@
         <code>3</code>
         <description>
             <nl>bijkomende vakantie voor arbeiders</nl>
-            <fr></fr>
+            <fr>vacances complémentaires pour ouvriers</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -60,7 +62,7 @@
         <code>4</code>
         <description>
             <nl>afwezigheid eerste dag wegens slecht weer bouwbedrijf (onvolledig loon)</nl>
-            <fr></fr>
+            <fr>absence premier jour par suite d'intempéries secteur de la construction (rémunération incomplète)</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -77,7 +79,7 @@
         <code>5</code>
         <description>
             <nl>betaald educatief verlof of Vlaams Opleidingsverlof</nl>
-            <fr></fr>
+            <fr>congé-éducation payé ou congé formation flamand</fr>
         </description>
         <DMFA>Yes</DMFA>
         <begin-validity>
@@ -96,7 +98,10 @@
                 gewaarborgd loon tweede week, feestdagen en vervangingsdagen tijdens periode van tijdelijke werkloosheid
                 , functie van rechter sociale zaken
             </nl>
-            <fr></fr>
+            <fr>
+                rémunération garantie deuxième semaine, jours fériés et jours de remplacement pendant 
+                la période de chômage temporaire, fonction de juge social
+            </fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -113,7 +118,7 @@
         <code>11</code>
         <description>
             <nl>arbeidsongeschiktheid met aanvulling of voorschot overeenkomstig de CAO 12bis/13bis</nl>
-            <fr></fr>
+            <fr>incapacité de travail avec complément ou avance conformément à la CCT 12bis/13bis</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -134,7 +139,11 @@
                 (bouwbedrijf, handel in brandstoffen, kleding- en confectiebedrijf
                 , Diamantnijverheid en -handel, binnenscheepvaart, teelt en eerste verwerking van vlas en/of hennep)
             </nl>
-            <fr></fr>
+            <fr>
+                vacances en vertu d'une CCT rendue obligatoire ou repos compensatoire (construction, commerce de combustibles
+                , industrie de l'habillement et de la confection, industrie et commerce du diamant, batellerie
+                , culture et transformation primaire du lin et/ou du chanvre)
+            </fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -151,7 +160,7 @@
         <code>13</code>
         <description>
             <nl>sociale promotie</nl>
-            <fr></fr>
+            <fr>promotion sociale</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -168,7 +177,7 @@
         <code>14</code>
         <description>
             <nl>aanvullende vakantiedagen bij activiteitsaanvang of -hervatting</nl>
-            <fr></fr>
+            <fr>jours de vacances supplémentaires en cas de début ou de reprise d'activité</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -185,7 +194,7 @@
         <code>15</code>
         <description>
             <nl>vakantiedagen waarvan de betaling inbegrepen is in het flexiloon</nl>
-            <fr></fr>
+            <fr>jours de vacances dont le paiement est inclus dans la rémunération flexi</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -202,7 +211,7 @@
         <code>20</code>
         <description>
             <nl>onbezoldigde dagen inhaalrust in het raam van maatregelen tot vermindering van de arbeidstijd met verhoogde uurloon</nl>
-            <fr></fr>
+            <fr>jours de repos compensatoire non rémunérés dans le cadre d'une diminution du temps de travail avec rémunération horaire majorée</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -219,7 +228,7 @@
         <code>21</code>
         <description>
             <nl>de dagen staking/lock-out</nl>
-            <fr></fr>
+            <fr>les jours de grève/lock-out</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -234,7 +243,10 @@
     </working-time-code>
     <working-time-code>
         <code>22</code>
-        <description>syndicale opdracht</description>
+        <description>
+            <nl>syndicale opdracht</nl>
+            <fr>mission syndicale</fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -250,7 +262,7 @@
         <code>23</code>
         <description>
             <nl>carensdag</nl>
-            <fr></fr>
+            <fr>jour de carence</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -270,7 +282,10 @@
                 verlof om dwingende redenen zonder behoud van loon - voor de onthaalouders
                 , onbezoldigde vakantiedagen (maximum 20) en wettelijke feestdagen wanneer er geen kinderopvang is
             </nl>
-            <fr></fr>
+            <fr>
+                congé pour raisons impérieuses sans maintien de la rémunération - pour les gardien(ne)s d'enfants
+                , jours de vacances non rémunérés (maximum 20) et jours fériés légaux lorsqu'il n'y a pas accueil d'enfants
+            </fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -287,7 +302,7 @@
         <code>25</code>
         <description>
             <nl>burgerplichten zonder behoud van loon, openbaar mandaat</nl>
-            <fr></fr>
+            <fr>devoirs civiques sans maintien de la rémunération, mandat public</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -302,7 +317,10 @@
     </working-time-code>
     <working-time-code>
         <code>26</code>
-        <description>militieverplichtingen</description>
+        <description>
+            <nl>militieverplichtingen</nl>
+            <fr>obligations de milice</fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -316,7 +334,16 @@
     </working-time-code>
     <working-time-code>
         <code>30</code>
-        <description>alle arbeidstijdgegevens waarvoor de werkgever geen loon of vergoeding betaalt, met uitzondering van deze die onder een andere code vermeld worden</description>
+        <description>
+            <nl>
+                alle arbeidstijdgegevens waarvoor de werkgever geen loon of vergoeding betaalt
+                , met uitzondering van deze die onder een andere code vermeld worden
+            </nl>
+            <fr>
+                toutes les données relatives au temps de travail pour lesquelles l'employeur ne paye pas 
+                de rémunération ni d'indemnité, à l'exception de celles reprises sous un autre code
+            </fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -330,7 +357,16 @@
     </working-time-code>
     <working-time-code>
         <code>31</code>
-        <description>dagen van onbezoldigde volledige afwezigheid, gelijkgesteld met dienstactiviteit, eventueel opsplitsbaar (vb. verlof wegens dwingende redenen van familiaal belang)</description>
+        <description>
+            <nl>
+                dagen van onbezoldigde volledige afwezigheid, gelijkgesteld met dienstactiviteit
+                , eventueel opsplitsbaar (vb. verlof wegens dwingende redenen van familiaal belang)
+            </nl>
+            <fr>
+                jours d'absence totale non rémunérée, assimilée à de l'activité de service
+                , éventuellement fractionnables (ex.: congé pour des motifs impérieux d'ordre familial)
+            </fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -344,7 +380,13 @@
     </working-time-code>
     <working-time-code>
         <code>32</code>
-        <description>dagen van onbezoldigde volledige afwezigheid in de stand non-activiteit , van terbeschikkingstelling zonder wachtwedde of van onbezoldigde non-activiteit voor militairen</description>
+        <description>
+            <nl>
+                dagen van onbezoldigde volledige afwezigheid in de stand non-activiteit
+                , van terbeschikkingstelling zonder wachtwedde of van onbezoldigde non-activiteit voor militairen
+            </nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -582,7 +624,10 @@
     </working-time-code>
     <working-time-code>
         <code>75</code>
-        <description>dagen pleegzorgen</description>
+        <description>
+            <nl>dagen pleegzorgen</nl>
+            <fr></fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>

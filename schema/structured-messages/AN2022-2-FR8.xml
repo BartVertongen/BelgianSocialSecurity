@@ -1,30 +1,17 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE List [
-     <!ELEMENT ann8 (Code?, Description?, DMFA?, DMFAPPL?, Geldig_vanaf?, Geldig_tot?, begin_geldigheid?, einde_geldigheid?)>
-     <!ELEMENT List (ann8+)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT Description (#PCDATA)>
-     <!ELEMENT DMFA (#PCDATA)>
-     <!ELEMENT DMFAPPL (#PCDATA)>
-     <!ELEMENT Geldig_vanaf (#PCDATA)>
-     <!ELEMENT Geldig_tot (#PCDATA)>
-     <!ELEMENT begin_geldigheid (#PCDATA)>
-     <!ELEMENT einde_geldigheid (#PCDATA)>
-]>
-<List>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<List>
+
 <ann8>
 <Code>1</Code>
-<Description>toutes les données relatives au temps de travail couvertes par une rémunération avec cotisations ONSS, à l'exception des vacances légales et complémentaires des ouvriers</Description>
+<Description>toutes les donnï¿½es relatives au temps de travail couvertes par une rï¿½munï¿½ration avec cotisations ONSS, ï¿½ l'exception des vacances lï¿½gales et complï¿½mentaires des ouvriers</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
 <Geldig_tot>9999/4</Geldig_tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>01/01/9999</einde_geldigheid>
 </ann8>
 <ann8>
 <Code>2</Code>
-<Description>vacances légales pour ouvriers</Description>
+<Description>vacances lï¿½gales pour ouvriers</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -34,7 +21,7 @@
 </ann8>
 <ann8>
 <Code>3</Code>
-<Description>vacances complémentaires pour ouvriers</Description>
+<Description>vacances complï¿½mentaires pour ouvriers</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -44,7 +31,7 @@
 </ann8>
 <ann8>
 <Code>4</Code>
-<Description>absence premier jour par suite d'intempéries secteur de la construction (rémunération incomplète)</Description>
+<Description>absence premier jour par suite d'intempï¿½ries secteur de la construction (rï¿½munï¿½ration incomplï¿½te)</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -54,7 +41,7 @@
 </ann8>
 <ann8>
 <Code>5</Code>
-<Description>congé-éducation payé ou congé formation flamand</Description>
+<Description>congï¿½-ï¿½ducation payï¿½ ou congï¿½ formation flamand</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -64,7 +51,7 @@
 </ann8>
 <ann8>
 <Code>10</Code>
-<Description>rémunération garantie deuxième semaine, jours fériés et jours de remplacement pendant la période de chômage temporaire, fonction de juge social</Description>
+<Description>rï¿½munï¿½ration garantie deuxiï¿½me semaine, jours fï¿½riï¿½s et jours de remplacement pendant la pï¿½riode de chï¿½mage temporaire, fonction de juge social</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -74,7 +61,7 @@
 </ann8>
 <ann8>
 <Code>11</Code>
-<Description>incapacité de travail avec complément ou avance conformément à la CCT 12bis/13bis</Description>
+<Description>incapacitï¿½ de travail avec complï¿½ment ou avance conformï¿½ment ï¿½ la CCT 12bis/13bis</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -104,7 +91,7 @@
 </ann8>
 <ann8>
 <Code>14</Code>
-<Description>jours de vacances supplémentaires en cas de début ou de reprise d'activité</Description>
+<Description>jours de vacances supplï¿½mentaires en cas de dï¿½but ou de reprise d'activitï¿½</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2012/2</Geldig_vanaf>
@@ -114,7 +101,7 @@
 </ann8>
 <ann8>
 <Code>15</Code>
-<Description>jours de vacances dont le paiement est inclus dans la rémunération flexi</Description>
+<Description>jours de vacances dont le paiement est inclus dans la rï¿½munï¿½ration flexi</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2015/4</Geldig_vanaf>
@@ -124,7 +111,7 @@
 </ann8>
 <ann8>
 <Code>20</Code>
-<Description>jours de repos compensatoire non rémunérés dans le cadre d'une diminution du temps de travail avec rémunération horaire majorée</Description>
+<Description>jours de repos compensatoire non rï¿½munï¿½rï¿½s dans le cadre d'une diminution du temps de travail avec rï¿½munï¿½ration horaire majorï¿½e</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -134,7 +121,7 @@
 </ann8>
 <ann8>
 <Code>21</Code>
-<Description>les jours de grève/lock-out</Description>
+<Description>les jours de grï¿½ve/lock-out</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -164,7 +151,7 @@
 </ann8>
 <ann8>
 <Code>24</Code>
-<Description>congé pour raisons impérieuses sans maintien de la rémunération - pour les gardien(ne)s d'enfants, jours de vacances non rémunérés (maximum 20) et jours fériés légaux lorsqu'il n'y a pas accueil d'enfants</Description>
+<Description>congï¿½ pour raisons impï¿½rieuses sans maintien de la rï¿½munï¿½ration - pour les gardien(ne)s d'enfants, jours de vacances non rï¿½munï¿½rï¿½s (maximum 20) et jours fï¿½riï¿½s lï¿½gaux lorsqu'il n'y a pas accueil d'enfants</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -174,7 +161,7 @@
 </ann8>
 <ann8>
 <Code>25</Code>
-<Description>devoirs civiques sans maintien de la rémunération, mandat public</Description>
+<Description>devoirs civiques sans maintien de la rï¿½munï¿½ration, mandat public</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -194,7 +181,7 @@
 </ann8>
 <ann8>
 <Code>30</Code>
-<Description>toutes les données relatives au temps de travail pour lesquelles l'employeur ne paye pas de rémunération ni d'indemnité, à l'exception de celles reprises sous un autre code</Description>
+<Description>toutes les donnï¿½es relatives au temps de travail pour lesquelles l'employeur ne paye pas de rï¿½munï¿½ration ni d'indemnitï¿½, ï¿½ l'exception de celles reprises sous un autre code</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -204,7 +191,7 @@
 </ann8>
 <ann8>
 <Code>31</Code>
-<Description>jours d'absence totale non rémunérée, assimilée à de l'activité de service, éventuellement fractionnables (ex.: congé pour des motifs impérieux d'ordre familial)</Description>
+<Description>jours d'absence totale non rï¿½munï¿½rï¿½e, assimilï¿½e ï¿½ de l'activitï¿½ de service, ï¿½ventuellement fractionnables (ex.: congï¿½ pour des motifs impï¿½rieux d'ordre familial)</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2011/1</Geldig_vanaf>
@@ -214,7 +201,7 @@
 </ann8>
 <ann8>
 <Code>32</Code>
-<Description>jours d'absence totale non rémunérée avec position de non-activité, de disponibilité sans traitement d'attente ou de non-activité non rémunérée pour les militaires</Description>
+<Description>jours d'absence totale non rï¿½munï¿½rï¿½e avec position de non-activitï¿½, de disponibilitï¿½ sans traitement d'attente ou de non-activitï¿½ non rï¿½munï¿½rï¿½e pour les militaires</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2011/1</Geldig_vanaf>
@@ -224,7 +211,7 @@
 </ann8>
 <ann8>
 <Code>33</Code>
-<Description>jours d'absence totale pour congé politique non rémunéré et assimilé à de l'activité de service</Description>
+<Description>jours d'absence totale pour congï¿½ politique non rï¿½munï¿½rï¿½ et assimilï¿½ ï¿½ de l'activitï¿½ de service</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2011/1</Geldig_vanaf>
@@ -234,7 +221,7 @@
 </ann8>
 <ann8>
 <Code>41</Code>
-<Description>jours d'absence totale rémunérée avec position de non-activité</Description>
+<Description>jours d'absence totale rï¿½munï¿½rï¿½e avec position de non-activitï¿½</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2011/1</Geldig_vanaf>
@@ -244,7 +231,7 @@
 </ann8>
 <ann8>
 <Code>42</Code>
-<Description>jours de disponibilité totale avec traitement d'attente et maintien du droit à l'avancement</Description>
+<Description>jours de disponibilitï¿½ totale avec traitement d'attente et maintien du droit ï¿½ l'avancement</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2011/1</Geldig_vanaf>
@@ -254,7 +241,7 @@
 </ann8>
 <ann8>
 <Code>43</Code>
-<Description>jours de retrait temporaire d'emploi pour motif de santé (militaires)</Description>
+<Description>jours de retrait temporaire d'emploi pour motif de santï¿½ (militaires)</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2011/1</Geldig_vanaf>
@@ -274,7 +261,7 @@
 </ann8>
 <ann8>
 <Code>51</Code>
-<Description>protection de la maternité (= mesure de protection de la maternité, repos de maternité ou congé de maternité converti en cas de décès ou d'hospitalisation de la mère) et pauses d'allaitement (CCT n° 80)</Description>
+<Description>protection de la maternitï¿½ (= mesure de protection de la maternitï¿½, repos de maternitï¿½ ou congï¿½ de maternitï¿½ converti en cas de dï¿½cï¿½s ou d'hospitalisation de la mï¿½re) et pauses d'allaitement (CCT nï¿½ 80)</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -284,7 +271,7 @@
 </ann8>
 <ann8>
 <Code>52</Code>
-<Description>congé de paternité ou de naissance, congé d'adoption et congé parental d'accueil (seulement les jours à charge du secteur “indemnités")</Description>
+<Description>congï¿½ de paternitï¿½ ou de naissance, congï¿½ d'adoption et congï¿½ parental d'accueil (seulement les jours ï¿½ charge du secteur ï¿½indemnitï¿½s")</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -294,7 +281,7 @@
 </ann8>
 <ann8>
 <Code>53</Code>
-<Description>maladie (congé prophylactique)</Description>
+<Description>maladie (congï¿½ prophylactique)</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2017/1</Geldig_vanaf>
@@ -324,7 +311,7 @@
 </ann8>
 <ann8>
 <Code>70</Code>
-<Description>chômage temporaire autre que les codes 71, 72 et 77</Description>
+<Description>chï¿½mage temporaire autre que les codes 71, 72 et 77</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -334,7 +321,7 @@
 </ann8>
 <ann8>
 <Code>71</Code>
-<Description>code spécifique chômage économique</Description>
+<Description>code spï¿½cifique chï¿½mage ï¿½conomique</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -344,7 +331,7 @@
 </ann8>
 <ann8>
 <Code>72</Code>
-<Description>code spécifique chômage temporaire pour cause d'intempérie</Description>
+<Description>code spï¿½cifique chï¿½mage temporaire pour cause d'intempï¿½rie</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -364,7 +351,7 @@
 </ann8>
 <ann8>
 <Code>74</Code>
-<Description>manque de prestations d'un gardien ou d'une gardienne d'enfants reconnu, dû à l'absence d'enfants normalement présents, mais qui sont absents pour des raisons indépendantes de la volonté du gardien ou de la gardienne d'enfants</Description>
+<Description>manque de prestations d'un gardien ou d'une gardienne d'enfants reconnu, dï¿½ ï¿½ l'absence d'enfants normalement prï¿½sents, mais qui sont absents pour des raisons indï¿½pendantes de la volontï¿½ du gardien ou de la gardienne d'enfants</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/2</Geldig_vanaf>
@@ -384,7 +371,7 @@
 </ann8>
 <ann8>
 <Code>76</Code>
-<Description>jours de suspension employés pour manque de travail</Description>
+<Description>jours de suspension employï¿½s pour manque de travail</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2009/2</Geldig_vanaf>
@@ -394,7 +381,7 @@
 </ann8>
 <ann8>
 <Code>77</Code>
-<Description>Chômage temporaire pour force majeure Corona ou inondations ou guerre Ukraine</Description>
+<Description>Chï¿½mage temporaire pour force majeure Corona ou inondations ou guerre Ukraine</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2020/2</Geldig_vanaf>
@@ -404,7 +391,7 @@
 </ann8>
 <ann8>
 <Code>80</Code>
-<Description>heures supplémentaires à ne pas récupérer et non soumises aux cotisations de sécurité sociale</Description>
+<Description>heures supplï¿½mentaires ï¿½ ne pas rï¿½cupï¿½rer et non soumises aux cotisations de sï¿½curitï¿½ sociale</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2015/4</Geldig_vanaf>
@@ -424,7 +411,7 @@
 </ann8>
 <ann8>
 <Code>102</Code>
-<Description>Jours de congé des marins dans le secteur de la marine marchande, des travaux de dragage ou du remorquage maritime</Description>
+<Description>Jours de congï¿½ des marins dans le secteur de la marine marchande, des travaux de dragage ou du remorquage maritime</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2018/1</Geldig_vanaf>
@@ -434,7 +421,7 @@
 </ann8>
 <ann8>
 <Code>110</Code>
-<Description>Prestations d'un membre d'un parlement ou d'un gouvernement fédéral ou régional ou d'un mandataire local protégé ; jours couverts par une indemnité de sortie d'un membre d'un parlement, d'un gouvernement, d'une Députation permanente ou d'un collège provincial</Description>
+<Description>Prestations d'un membre d'un parlement ou d'un gouvernement fï¿½dï¿½ral ou rï¿½gional ou d'un mandataire local protï¿½gï¿½ ; jours couverts par une indemnitï¿½ de sortie d'un membre d'un parlement, d'un gouvernement, d'une Dï¿½putation permanente ou d'un collï¿½ge provincial</Description>
 <DMFA>Yes</DMFA>
 <DMFAPPL>No</DMFAPPL>
 <Geldig_vanaf>2019/1</Geldig_vanaf>
@@ -444,7 +431,7 @@
 </ann8>
 <ann8>
 <Code>301</Code>
-<Description>toutes les données relatives au temps de travail couvertes par une indemnité exonérée de cotisations de sécurité sociale, à l'exception de celles reprises sous un autre code</Description>
+<Description>toutes les donnï¿½es relatives au temps de travail couvertes par une indemnitï¿½ exonï¿½rï¿½e de cotisations de sï¿½curitï¿½ sociale, ï¿½ l'exception de celles reprises sous un autre code</Description>
 <DMFA>No</DMFA>
 <DMFAPPL>Yes</DMFAPPL>
 <Geldig_vanaf>2003/1</Geldig_vanaf>
@@ -452,4 +439,5 @@
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann8>
-</List>
+</List>
+
