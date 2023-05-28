@@ -139,7 +139,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -159,8 +162,14 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/07/2007</begin-validity>
-        <end-validity>30/09/2013</end-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>4</quater>
+        </end-validity>
     </remuneration>
     <remuneration>
         <code>9</code>
@@ -176,7 +185,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2004</begin-validity>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>1</quater>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -215,7 +227,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -235,7 +250,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -249,7 +267,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/10/2015</begin-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -293,7 +314,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/12/2021</end-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </remuneration>
     <remuneration>
         <code>21</code>
@@ -303,7 +327,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -317,7 +344,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/10/2015</begin-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -331,7 +361,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/10/2015</begin-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -345,7 +378,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/10/2018</begin-validity>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>4</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -359,7 +395,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/10/2018</begin-validity>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>4</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -373,7 +412,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/10/2018</begin-validity>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>4</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -387,7 +429,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2019</begin-validity>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -401,7 +446,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2019</begin-validity>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -417,7 +465,7 @@
         <ADRS>Yes</ADRS>
         <begin-validity>
             <year>2019</year>
-            <quarter>14</quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -500,7 +548,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>No</ADRS>
-        <begin-validity>01/01/2019</begin-validity>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -520,7 +571,10 @@
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -535,11 +589,17 @@
                 - onderworpen aan overheidspensioenbijdrage
             </nl>
             <fr>
+                Primes, allocations et indemnités payées àun travailleur contractuel ou statutaire de la police locale
+                qui sont prises en compte pour la dotation sociale II, à l'exception de la prime de fin d'année
+                - soumis à la cotisation pension public
             </fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -554,11 +614,17 @@
                 - vrijgesteld van overheidspensioenbijdrage
             </nl>
             <fr>
+                Primes, allocations et indemnités payées à un travailleur statutaire de la police locale
+                qui sont prises en compte pour la dotation sociale II, à l'exception de la prime de fin d'année
+                - exonéré de la cotisation pension public
             </fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -568,11 +634,14 @@
         <code>45</code>
         <description>
             <nl>Onderworpen eindejaarspremie van lokale politie</nl>
-            <fr></fr>
+            <fr>Prime de fin d'année soumise de la police locale</fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -587,12 +656,33 @@
                 , met uitzondering van de elementen aangegeven onder een andere code.
             </nl>
             <fr>
-
+                Avantages non soumis aux cotisations ONSS ordinaires, qui entrent en ligne de compte pour des subsides
+                versés par le Fonds Maribel Social pour le secteur public, à l'exception des éléments déclarés sous un autre code.
             </fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>47</code>
+        <description>
+            <nl>Vergoeding voor overdracht van auteursrechten en naburige rechten</nl>
+            <fr>Indemnité pour la cession des droits d’auteur et de droits voisins</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -606,12 +696,16 @@
                 in het kader van een maatregel tot reorganisatie van de arbeidstijd
             </nl>
             <fr>
-
+                Indemnité payée à un membre du personnel nommé à titre définitif qui est totalement absent
+                dans le cadre d'une mesure de réorganisation du temps de travail
             </fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2011</begin-validity>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -625,11 +719,18 @@
                 , met uitzondering van de vergoedingen die onder een andere code worden vermeld
                 - vrijgesteld van overheidspensioenbijdrage
             </nl>
-            <fr></fr>
+            <fr>
+                Tous les montants payés à un travailleur statutaire qui sont toujours considérés comme rémunération
+                , à l'exception des indemnités mentionnées sous un autre code
+                - exonéré de la cotisation de pension secteur public
+            </fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -644,11 +745,17 @@
                 - vrijgesteld van overheidspensioenbijdrage
             </nl>
             <fr>
+                Les primes et les avantages similaires payés à un travailleur statutaire accordés indépendamment
+                du nombre de journées de travail prestées effectivement durant le trimestre de la déclaration
+                - exonéré de la cotisation de pension secteur public
             </fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -663,11 +770,16 @@
                 , zijn arbeidsprestaties heeft beperkt - vrijgesteld van overheidspensioenbijdrage
             </nl>
             <fr>
+                Primes reçues par le travailleur statutaire qui limite ses prestations de travail dans le cadre
+                des mesures de redistribution du travail - exonéré de la cotisation de pension secteur public
             </fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -682,11 +794,17 @@
                 - vrijgesteld van overheidspensioenbijdrage
             </nl>
             <fr>
+                Indemnité payée à un membre du personnel nommé à titre définitif qui est totalement absent dans 
+                le cadre d'une mesure de réorganisation du temps de travail
+                - exonéré de la cotisation de pension secteur public
             </fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -700,11 +818,16 @@
                 en onderworpen aan overheidspensioenbijdrage, die niet onder een andere code vermeld worden
             </nl>
             <fr>
+                Tous les montants payés à un travailleur statutaire exonérés de la cotisation sécurité sociale
+                et soumis à la cotisation de pension secteur public
             </fr>
         </description>
         <DMFA>Yes</DMFA>
         <ADRS>Yes</ADRS>
-        <begin-validity>01/01/2022</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>

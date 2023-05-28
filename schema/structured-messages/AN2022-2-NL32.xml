@@ -1,187 +1,167 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE List [
-     <!ELEMENT ann32 (categorynl?, CodePPL?, Code?, Omschrijving?, Vanaf?, Tot?, begin_geldigheid?, einde_geldigheid?)>
-     <!ELEMENT List (ann32+)>
-     <!ELEMENT categorynl (#PCDATA)>
-     <!ELEMENT CodePPL (#PCDATA)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT Omschrijving (#PCDATA)>
-     <!ELEMENT Vanaf (#PCDATA)>
-     <!ELEMENT Tot (#PCDATA)>
-     <!ELEMENT begin_geldigheid (#PCDATA)>
-     <!ELEMENT einde_geldigheid (#PCDATA)>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE List [
+
+     <!ELEMENT ann32 (categorynl?, CodePPL?, Code?, Omschrijving?, Vanaf?, Tot?, begin_geldigheid?, einde_geldigheid?)>
+
+     <!ELEMENT List (ann32+)>
+
+     <!ELEMENT categorynl (#PCDATA)>
+
+     <!ELEMENT CodePPL (#PCDATA)>
+
+     <!ELEMENT Code (#PCDATA)>
+
+     <!ELEMENT Omschrijving (#PCDATA)>
+
+     <!ELEMENT Vanaf (#PCDATA)>
+
+     <!ELEMENT Tot (#PCDATA)>
+
+     <!ELEMENT begin_geldigheid (#PCDATA)>
+
+     <!ELEMENT einde_geldigheid (#PCDATA)>
+
 ]>
-<List>
-<ann32>
-<categorynl>Aangepast loon bij ziekte of ongeval</categorynl>
-<CodePPL>212</CodePPL>
-<Code>20</Code>
-<Omschrijving>Ziekte of ongeval :  de vergoeding overeenstemmend met 60 % van het gedeelte van het normale loon dat de loongrens die in aanmerking komt voor de berekening van de uitkering van ziekte- en invaliditeitsverzekering niet overschrijdt, voor de periode van 7 dagen volgend op het gewaarborgde weekloon - enkel voor contractuele handarbeiders en contractuele hoofdarbeiders die ten minste een maand anciënniteit hebben en die zich ofwel bevinden in een proeftijd, ofwel werden aangeworven voor een bepaalde tijd van minder dan drie maanden, ofwel werden aangeworven voor een duidelijk omschreven werk dat niet langer duurt dan drie maanden</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Aangepast loon bij ziekte of ongeval</categorynl>
-<CodePPL>213</CodePPL>
-<Code>20</Code>
-<Omschrijving>Ziekte of ongeval : aanvulling voor de 2e, 3e en 4e week arbeidsongeschiktheid - enkel voor contractuele handarbeiders en voor contractuele hoofdarbeiders aangeworven op proef of voor minder dan drie maanden</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Aangepast loon bij ziekte of ongeval</categorynl>
-<CodePPL>215</CodePPL>
-<Code>20</Code>
-<Omschrijving>Ziekte of ongeval : andere aanvulling in verband met ongeval of ziekte</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
-<CodePPL>21</CodePPL>
-<Code>21</Code>
-<Omschrijving>Voordelen niet onderworpen aan de gewone RSZ-bijdragen</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
-<CodePPL>30</CodePPL>
-<Code>30</Code>
-<Omschrijving>Gewaarborgd loon tweede week</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
-<CodePPL>31</CodePPL>
-<Code>31</Code>
-<Omschrijving>Vergoeding CAO 12bis/13bis</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
-<CodePPL>32</CodePPL>
-<Code>32</Code>
-<Omschrijving>Nettoloon activeringsprogramma</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
-<CodePPL>33</CodePPL>
-<Code>33</Code>
-<Omschrijving>Brutto bezoldiging voor een deeltijdse werknemer met inkomensgarantie-uitkering</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Basisloon</categorynl>
-<CodePPL>101</CodePPL>
-<Code>1</Code>
-<Omschrijving>Geïndexeerd basisloon (zonder wettelijke of buitenwettelijke premies en vergoedingen)</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Basisloon</categorynl>
-<CodePPL>110</CodePPL>
-<Code>20</Code>
-<Omschrijving>Geïndexeerd basisloon dat toegekend wordt aan een naar het buitenland gedetacheerd vastbenoemd personeelslid en dat in aanmerking komt voor het overheidspensioen</Omschrijving>
-<Vanaf>2005/1</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Basisloon</categorynl>
-<CodePPL>120</CodePPL>
-<Code>1</Code>
-<Omschrijving>Loon betaald aan een vastbenoemd personeelslid dat afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd - onderworpen aan socialezekerheidsbijdragen - geen pensioenbijdragen</Omschrijving>
-<Vanaf>2005/1</Vanaf>
-<Tot>2010/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2010</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Basisloon</categorynl>
-<CodePPL>120</CodePPL>
-<Code>51</Code>
-<Omschrijving>Loon betaald aan een vastbenoemd personeelslid dat afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd - onderworpen aan socialezekerheidsbijdragen - geen pensioenbijdragen</Omschrijving>
-<Vanaf>2011/1</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/2011</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Basisloon</categorynl>
-<CodePPL>150</CodePPL>
-<Code>1</Code>
-<Omschrijving>Activeringsuitkering die de RVA of het OCMW toekent aan een werknemer, aangeworven in het kader van een tewerkstellingsmaatregel</Omschrijving>
-<Vanaf>2010/1</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/2010</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Basisloon</categorynl>
-<CodePPL>160</CodePPL>
-<Code>1</Code>
-<Omschrijving>Deel van het loon (10%) van de in een startbaanovereenkomst tewerkgestelde werknemer dat door de werkgever wordt besteed aan zijn opleiding - art. 33, § 2 van de wet van 24-12-1999</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Basisloon</categorynl>
-<CodePPL>170</CodePPL>
-<Code>51</Code>
-<Omschrijving>Loon betaald aan een vastbenoemd personeelslid dat volledig afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd - onderworpen aan socialezekerheidsbijdragen - pensioenbijdragen</Omschrijving>
-<Vanaf>2011/1</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/01/2011</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Beroepsziekten - publieke sector</categorynl>
-<CodePPL>140</CodePPL>
-<Code>1</Code>
-<Omschrijving>Vergoeding voor periode van tijdelijke arbeidsongeschiktheid wegens erkende beroepsziekte (artikel 21 van KB van 21-01-1993)</Omschrijving>
-<Vanaf>2004/3</Vanaf>
-<Tot>2019/2</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>30/06/2019</einde_geldigheid>
-</ann32>
-<ann32>
-<categorynl>Bijkomende vergoedingen van algemene aard</categorynl>
-<CodePPL>26</CodePPL>
-<Code>26</Code>
-<Omschrijving>Door werkgever ontvangen premies en/of subsidies andere dan sociale Maribel</Omschrijving>
-<Vanaf>2018/4</Vanaf>
-<Tot>2021/4</Tot>
-<begin_geldigheid>01/10/2018</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
-</ann32>
+<List>
+     <ann32>
+          <categorynl>Aangepast loon bij ziekte of ongeval</categorynl>
+          <CodePPL>212</CodePPL>
+          <Code>20</Code>
+          <Omschrijving>Ziekte of ongeval :  de vergoeding overeenstemmend met 60 % van het gedeelte van het normale loon dat de loongrens die in aanmerking komt voor de berekening van de uitkering van ziekte- en invaliditeitsverzekering niet overschrijdt, voor de periode van 7 dagen volgend op het gewaarborgde weekloon - enkel voor contractuele handarbeiders en contractuele hoofdarbeiders die ten minste een maand anciï¿½nniteit hebben en die zich ofwel bevinden in een proeftijd, ofwel werden aangeworven voor een bepaalde tijd van minder dan drie maanden, ofwel werden aangeworven voor een duidelijk omschreven werk dat niet langer duurt dan drie maanden</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Aangepast loon bij ziekte of ongeval</categorynl>
+          <CodePPL>213</CodePPL>
+          <Code>20</Code>
+          <Omschrijving>Ziekte of ongeval : aanvulling voor de 2e, 3e en 4e week arbeidsongeschiktheid - enkel voor contractuele handarbeiders en voor contractuele hoofdarbeiders aangeworven op proef of voor minder dan drie maanden</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Aangepast loon bij ziekte of ongeval</categorynl>
+          <CodePPL>215</CodePPL>
+          <Code>20</Code>
+          <Omschrijving>Ziekte of ongeval : andere aanvulling in verband met ongeval of ziekte</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
+          <CodePPL>21</CodePPL>
+          <Code>21</Code>
+          <Omschrijving>Voordelen niet onderworpen aan de gewone RSZ-bijdragen</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
+          <CodePPL>30</CodePPL>
+          <Code>30</Code>
+          <Omschrijving>Gewaarborgd loon tweede week</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
+          <CodePPL>31</CodePPL>
+          <Code>31</Code>
+          <Omschrijving>Vergoeding CAO 12bis/13bis</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
+          <CodePPL>32</CodePPL>
+          <Code>32</Code>
+          <Omschrijving>Nettoloon activeringsprogramma</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Aangifte Sociaal Risico - exact loon</categorynl>
+          <CodePPL>33</CodePPL>
+          <Code>33</Code>
+          <Omschrijving>Brutto bezoldiging voor een deeltijdse werknemer met inkomensgarantie-uitkering</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Basisloon</categorynl>
+          <CodePPL>101</CodePPL>
+          <Code>1</Code>
+          <Omschrijving>Geï¿½ndexeerd basisloon (zonder wettelijke of buitenwettelijke premies en vergoedingen)</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Basisloon</categorynl>
+          <CodePPL>110</CodePPL>
+          <Code>20</Code>
+          <Omschrijving>Geï¿½ndexeerd basisloon dat toegekend wordt aan een naar het buitenland gedetacheerd vastbenoemd personeelslid en dat in aanmerking komt voor het overheidspensioen</Omschrijving>
+          <Vanaf>2005/1</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Basisloon</categorynl>
+          <CodePPL>120</CodePPL>
+          <Code>1</Code>
+          <Omschrijving>Loon betaald aan een vastbenoemd personeelslid dat afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd - onderworpen aan socialezekerheidsbijdragen - geen pensioenbijdragen</Omschrijving>
+          <Vanaf>2005/1</Vanaf>
+          <Tot>2010/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Basisloon</categorynl>
+          <CodePPL>120</CodePPL>
+          <Code>51</Code>
+          <Omschrijving>Loon betaald aan een vastbenoemd personeelslid dat afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd - onderworpen aan socialezekerheidsbijdragen - geen pensioenbijdragen</Omschrijving>
+          <Vanaf>2011/1</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Basisloon</categorynl>
+          <CodePPL>150</CodePPL>
+          <Code>1</Code>
+          <Omschrijving>Activeringsuitkering die de RVA of het OCMW toekent aan een werknemer, aangeworven in het kader van een tewerkstellingsmaatregel</Omschrijving>
+          <Vanaf>2010/1</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Basisloon</categorynl>
+          <CodePPL>160</CodePPL>
+          <Code>1</Code>
+          <Omschrijving>Deel van het loon (10%) van de in een startbaanovereenkomst tewerkgestelde werknemer dat door de werkgever wordt besteed aan zijn opleiding - art. 33, ï¿½ 2 van de wet van 24-12-1999</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Basisloon</categorynl>
+          <CodePPL>170</CodePPL>
+          <Code>51</Code>
+          <Omschrijving>Loon betaald aan een vastbenoemd personeelslid dat volledig afwezig is in het kader van een maatregel tot reorganisatie van de arbeidstijd - onderworpen aan socialezekerheidsbijdragen - pensioenbijdragen</Omschrijving>
+          <Vanaf>2011/1</Vanaf>
+          <Tot>2021/4</Tot>
+     </ann32>
+     <ann32>
+          <categorynl>Beroepsziekten - publieke sector</categorynl>
+          <CodePPL>140</CodePPL>
+          <Code>1</Code>
+          <Omschrijving>Vergoeding voor periode van tijdelijke arbeidsongeschiktheid wegens erkende beroepsziekte (artikel 21 van KB van 21-01-1993)</Omschrijving>
+          <Vanaf>2004/3</Vanaf>
+          <Tot>2019/2</Tot>
+     </ann32>
+     <ann32>
+     <categorynl>Bijkomende vergoedingen van algemene aard</categorynl>
+     <CodePPL>26</CodePPL>
+     <Code>26</Code>
+     <Omschrijving>Door werkgever ontvangen premies en/of subsidies andere dan sociale Maribel</Omschrijving>
+     <Vanaf>2018/4</Vanaf>
+     <Tot>2021/4</Tot>
+     <begin_geldigheid>01/10/2018</begin_geldigheid>
+     <einde_geldigheid>31/12/2021</einde_geldigheid>
+     </ann32>
 <ann32>
 <categorynl>Bijkomende vergoedingen van algemene aard</categorynl>
 <CodePPL>401</CodePPL>
@@ -189,18 +169,14 @@
 <Omschrijving>Loon voor niet-recupereerbare overuren - vrijgesteld</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
 <categorynl>Bijkomende vergoedingen van algemene aard</categorynl>
 <CodePPL>403</CodePPL>
 <Code>20</Code>
-<Omschrijving>Geschenken in natura, in speciën of in de vorm van cheques binnen de voorwaarden van artikel 19, § 2, 14° van het KB van 28-11-1969, en prijsverminderingen op eigen producten of diensten binnen de voorwaarden van artikel 19, § 2, 19° van het KB van 28-11-1969</Omschrijving>
+<Omschrijving>Geschenken in natura, in speciï¿½n of in de vorm van cheques binnen de voorwaarden van artikel 19, ï¿½ 2, 14ï¿½ van het KB van 28-11-1969, en prijsverminderingen op eigen producten of diensten binnen de voorwaarden van artikel 19, ï¿½ 2, 19ï¿½ van het KB van 28-11-1969</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
 <categorynl>Bijkomende vergoedingen van algemene aard</categorynl>
@@ -209,8 +185,6 @@
 <Omschrijving>Voordelen in natura of in de vorm van cheques - verband met prestaties van het kwartaal - vrijgesteld</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
 <categorynl>Bijkomende vergoedingen van algemene aard</categorynl>
@@ -219,14 +193,12 @@
 <Omschrijving>Voordelen in natura of in de vorm van cheques - geen verband met prestaties van het kwartaal - vrijgesteld</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
-<begin_geldigheid>01/01/1900</begin_geldigheid>
-<einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
 <categorynl>Bijkomende vergoedingen van algemene aard</categorynl>
 <CodePPL>408</CodePPL>
 <Code>20</Code>
-<Omschrijving>Bedrag werkgeversaandeel in de maaltijdcheques toegekend binnen de voorwaarden van artikel 19bis, § 2 van het KB van 28-11-1969</Omschrijving>
+<Omschrijving>Bedrag werkgeversaandeel in de maaltijdcheques toegekend binnen de voorwaarden van artikel 19bis, ï¿½ 2 van het KB van 28-11-1969</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2018/3</Tot>
 <begin_geldigheid>01/07/2004</begin_geldigheid>
@@ -236,7 +208,7 @@
 <categorynl>Bijkomende vergoedingen van algemene aard</categorynl>
 <CodePPL>408</CodePPL>
 <Code>24</Code>
-<Omschrijving>Bedrag werkgeversaandeel in de maaltijdcheques toegekend binnen de voorwaarden van artikel 19bis, § 2 van het KB van 28-11-1969</Omschrijving>
+<Omschrijving>Bedrag werkgeversaandeel in de maaltijdcheques toegekend binnen de voorwaarden van artikel 19bis, ï¿½ 2 van het KB van 28-11-1969</Omschrijving>
 <Vanaf>2018/4</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/10/2018</begin_geldigheid>
@@ -246,7 +218,7 @@
 <categorynl>Bijkomende vergoedingen van algemene aard</categorynl>
 <CodePPL>409</CodePPL>
 <Code>20</Code>
-<Omschrijving>Bedrag werknemersaandeel in de maaltijdcheques toegekend binnen de voorwaarden van artikel 19bis, § 2 van het KB van 28-11-1969</Omschrijving>
+<Omschrijving>Bedrag werknemersaandeel in de maaltijdcheques toegekend binnen de voorwaarden van artikel 19bis, ï¿½ 2 van het KB van 28-11-1969</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
@@ -643,7 +615,7 @@
 <einde_geldigheid>31/12/2017</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - beroepspersoneel van de hulpverleningszones</categorynl>
 <CodePPL>553</CodePPL>
 <Code>20</Code>
 <Omschrijving>Premie voor operationaliteit en onregelmatige prestaties van de brandweerlieden (artikelen 25-26 van het KB van 19-4-2014 - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30)</Omschrijving>
@@ -653,17 +625,17 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - beroepspersoneel van de hulpverleningszones</categorynl>
 <CodePPL>557</CodePPL>
 <Code>20</Code>
-<Omschrijving>Jaarlijks weddensupplement voor chef van de brandweerdienst (Ministeriële Omzendbrief van 21-01-1973, Ministeriële Omzendbrief van 23-01-1975 en KB van 20-06-1994) - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
+<Omschrijving>Jaarlijks weddensupplement voor chef van de brandweerdienst (Ministeriï¿½le Omzendbrief van 21-01-1973, Ministeriï¿½le Omzendbrief van 23-01-1975 en KB van 20-06-1994) - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - beroepspersoneel van de hulpverleningszones</categorynl>
 <CodePPL>951</CodePPL>
 <Code>2</Code>
 <Omschrijving>Weddensupplement toegekend aan officieren van de brandweer die deelnemen aan de permanentie van brandweerkorps (omzendbrief van 03-03-1995)</Omschrijving>
@@ -673,27 +645,27 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - beroepspersoneel van de hulpverleningszones</categorynl>
 <CodePPL>954</CodePPL>
 <Code>1</Code>
-<Omschrijving>Aanvullende vergoeding uren opt-out (artikel 7, §2 van de wet van 19-4-2014)</Omschrijving>
+<Omschrijving>Aanvullende vergoeding uren opt-out (artikel 7, ï¿½2 van de wet van 19-4-2014)</Omschrijving>
 <Vanaf>2015/1</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - beroepspersoneel van de hulpverleningszones</categorynl>
 <CodePPL>957</CodePPL>
 <Code>2</Code>
-<Omschrijving>Jaarlijks weddensupplement voor chef van de brandweerdienst (Ministeriële Omzendbrief van 21-01-1973, Ministeriële Omzendbrief van 23-01-1975 en KB van 20-06-1994) - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
+<Omschrijving>Jaarlijks weddensupplement voor chef van de brandweerdienst (Ministeriï¿½le Omzendbrief van 21-01-1973, Ministeriï¿½le Omzendbrief van 23-01-1975 en KB van 20-06-1994) - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - geneesheren</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - geneesheren</categorynl>
 <CodePPL>524</CodePPL>
 <Code>20</Code>
 <Omschrijving>Variabel deel in de verdeling van de pool - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
@@ -703,7 +675,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - geneesheren</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - geneesheren</categorynl>
 <CodePPL>921</CodePPL>
 <Code>1</Code>
 <Omschrijving>Barema, gewaarborgde wedde, gewaarborgd aandeel in de pool of uitsluitend honoraria</Omschrijving>
@@ -713,7 +685,7 @@
 <einde_geldigheid>31/12/2010</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - geneesheren</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - geneesheren</categorynl>
 <CodePPL>924</CodePPL>
 <Code>1</Code>
 <Omschrijving>Variabel deel in de verdeling van de pool - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
@@ -723,17 +695,17 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - personeel van de onderwijsinstellingen</categorynl>
 <CodePPL>501</CodePPL>
 <Code>20</Code>
-<Omschrijving>Vergoeding voor bijkomende prestaties vrijgesteld op basis van artikel 19, § 2, 9° van het KB van 28-11-1969 (bijv. toezicht in het kleuter- en lager onderwijs, busbegeleiding)</Omschrijving>
+<Omschrijving>Vergoeding voor bijkomende prestaties vrijgesteld op basis van artikel 19, ï¿½ 2, 9ï¿½ van het KB van 28-11-1969 (bijv. toezicht in het kleuter- en lager onderwijs, busbegeleiding)</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - personeel van de onderwijsinstellingen</categorynl>
 <CodePPL>502</CodePPL>
 <Code>20</Code>
 <Omschrijving>Vergoeding voor bijkomende prestaties bedoeld bij KB nr. 418 van 16-07-1986 (bijv. toezicht ander dan in het kleuter- en lager onderwijs...) - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
@@ -743,7 +715,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - personeel van de onderwijsinstellingen</categorynl>
 <CodePPL>503</CodePPL>
 <Code>20</Code>
 <Omschrijving>Vergoeding voor bijkomende prestaties andere dan bedoeld bij KB nr. 418 van 16-07-1986 - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
@@ -753,17 +725,17 @@
 <einde_geldigheid>31/03/2009</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - personeel van de onderwijsinstellingen</categorynl>
 <CodePPL>506</CodePPL>
 <Code>20</Code>
-<Omschrijving>Aanvullingen die geen verband houden met bijkomende prestaties (bijv. anciënniteitstoeslag) - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
+<Omschrijving>Aanvullingen die geen verband houden met bijkomende prestaties (bijv. anciï¿½nniteitstoeslag) - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - personeel van de onderwijsinstellingen</categorynl>
 <CodePPL>902</CodePPL>
 <Code>1</Code>
 <Omschrijving>Vergoeding voor bijkomende prestaties bedoeld bij KB nr. 418 van 16-07-1986 (bijv. toezicht ander dan in het kleuter en lager onderwijs...) - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
@@ -773,7 +745,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - personeel van de onderwijsinstellingen</categorynl>
 <CodePPL>903</CodePPL>
 <Code>1</Code>
 <Omschrijving>Vergoeding voor bijkomende prestaties andere dan bedoeld bij KB 418 van 16-07-1986 - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
@@ -783,17 +755,17 @@
 <einde_geldigheid>31/12/2010</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - personeel van de onderwijsinstellingen</categorynl>
 <CodePPL>906</CodePPL>
 <Code>2</Code>
-<Omschrijving>Aanvullingen die geen verband houden met bijkomende prestaties (bijv. anciënniteitstoeslag) - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
+<Omschrijving>Aanvullingen die geen verband houden met bijkomende prestaties (bijv. anciï¿½nniteitstoeslag) - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut)</categorynl>
 <CodePPL>570</CodePPL>
 <Code>20</Code>
 <Omschrijving>Nieuw statuut - diverse toelagen en vergoedingen - vrijgesteld</Omschrijving>
@@ -803,7 +775,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut)</categorynl>
 <CodePPL>961</CodePPL>
 <Code>1</Code>
 <Omschrijving>Weddenbijslag voor de uitoefening van een mandaat (art. XI.II.17 van KB van 30-03-2001)</Omschrijving>
@@ -813,7 +785,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut)</categorynl>
 <CodePPL>962</CodePPL>
 <Code>1</Code>
 <Omschrijving>Toelage voor dienstprestaties uitgevoerd op een zaterdag, een zondag, een feestdag of tijdens de nacht (art. XI.III.6 van KB van 30-03-2001)</Omschrijving>
@@ -823,7 +795,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut)</categorynl>
 <CodePPL>970</CodePPL>
 <Code>1</Code>
 <Omschrijving>Diverse toelagen en vergoedingen zoals bepaald in KB van 30-3-2001 - onderworpen</Omschrijving>
@@ -833,7 +805,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut)</categorynl>
 <CodePPL>971</CodePPL>
 <Code>1</Code>
 <Omschrijving>Diverse toelagen en vergoedingen andere dan deze bepaald in KB van 30-3-2001 - onderworpen</Omschrijving>
@@ -843,7 +815,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut)</categorynl>
 <CodePPL>976</CodePPL>
 <Code>2</Code>
 <Omschrijving>Competentieontwikkelingstoelage (art. XI.II.22bis van het KB van 30-03-2001)</Omschrijving>
@@ -853,7 +825,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut)</categorynl>
 <CodePPL>992</CodePPL>
 <Code>1</Code>
 <Omschrijving>Overgangstoelagen (art. XII.XI van KB van 30-03-2001)</Omschrijving>
@@ -863,7 +835,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut)</categorynl>
 <CodePPL>993</CodePPL>
 <Code>1</Code>
 <Omschrijving>Vormings- en meesterschapstoelage (artikelen 32 en 34 van het KB van 18-3-2003)</Omschrijving>
@@ -873,7 +845,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut) en personeel van de hulpverleningszones</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut) en personeel van de hulpverleningszones</categorynl>
 <CodePPL>974</CodePPL>
 <Code>1</Code>
 <Omschrijving>Toelage voor de bijzondere rekenplichtige van de politiezone (art. 30 en 32 van de wet van 07-12-1998 en KB van 29-11-2001) en toelage voor de bijzondere rekenplichtige van de hulpverleningszone (KB van 29-06-2014)</Omschrijving>
@@ -883,7 +855,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut) en personeel van de hulpverleningszones</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (nieuw statuut) en personeel van de hulpverleningszones</categorynl>
 <CodePPL>975</CodePPL>
 <Code>1</Code>
 <Omschrijving>Toelage voor de secretaris van de politiezone (artikel 29 en 32bis van de wet van 07-12-1998) en mandaattoelage voor de commandant van de hulpverleningszone (KB van 10-06-2014)</Omschrijving>
@@ -893,7 +865,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (oud statuut)</categorynl>
 <CodePPL>556</CodePPL>
 <Code>20</Code>
 <Omschrijving>Vergoeding voor kosten gemaakt bij de uitoefening van opdrachten van de gerechtelijke politie (bijv.: KB van 22-12-1997)</Omschrijving>
@@ -903,17 +875,17 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (oud statuut)</categorynl>
 <CodePPL>558</CodePPL>
 <Code>20</Code>
-<Omschrijving>Weddensupplement toegekend aan adjunct-politiecommissarissen die een wachtdienst verrichten in het kader van een permanentie van 22 uur tot 6 uur, op zondagen en op feestdagen (Ministeriële omzendbrief van 30-12-1971) -  vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
+<Omschrijving>Weddensupplement toegekend aan adjunct-politiecommissarissen die een wachtdienst verrichten in het kader van een permanentie van 22 uur tot 6 uur, op zondagen en op feestdagen (Ministeriï¿½le omzendbrief van 30-12-1971) -  vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2008/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2008</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (oud statuut)</categorynl>
 <CodePPL>591</CodePPL>
 <Code>20</Code>
 <Omschrijving>Specifieke toelagen en vergoedingen - vrijgesteld - voor ex-rijkswachters, ex-leden van de gerechtelijke politie en ex-militairen die kiezen voor het oude statuut</Omschrijving>
@@ -923,7 +895,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (oud statuut)</categorynl>
 <CodePPL>952</CodePPL>
 <Code>1</Code>
 <Omschrijving>Weddensupplement toegekend aan (hoofd)inspecteurs  van de gemeentelijke politie bekleed met de hoedanigheid van officier van gerechtelijke politie, hulpofficier van de procureur des Konings (POL 45 van 21-05-1993 en KB van 20-06-1994)</Omschrijving>
@@ -933,17 +905,17 @@
 <einde_geldigheid>31/12/2008</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (oud statuut)</categorynl>
 <CodePPL>958</CodePPL>
 <Code>1</Code>
-<Omschrijving>Weddensupplement toegekend aan adjunct-politiecommissarissen die een wachtdienst verrichten in het kader van een permanentie van 22 uur tot 6 uur, op zondagen en op feestdagen (Ministeriële omzendbrief van 30-12-1971) - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
+<Omschrijving>Weddensupplement toegekend aan adjunct-politiecommissarissen die een wachtdienst verrichten in het kader van een permanentie van 22 uur tot 6 uur, op zondagen en op feestdagen (Ministeriï¿½le omzendbrief van 30-12-1971) - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2008/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2008</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - politiepersoneel (oud statuut)</categorynl>
 <CodePPL>991</CodePPL>
 <Code>1</Code>
 <Omschrijving>Specifieke toelagen en vergoedingen - onderworpen - voor ex-rijkswachters, ex-leden van de gerechtelijke politie en ex-militairen die kiezen voor het oude statuut</Omschrijving>
@@ -953,7 +925,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - verplegend en verzorgend personeel</categorynl>
 <CodePPL>510</CodePPL>
 <Code>20</Code>
 <Omschrijving>Weddensupplement voor buitengewone prestaties zoals bepaald in de omzendbrief van het Ministerie van Volksgezondheid en van het Gezin van 03-11-1972 - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
@@ -963,17 +935,17 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - verplegend en verzorgend personeel</categorynl>
 <CodePPL>512</CodePPL>
 <Code>20</Code>
-<Omschrijving>Weddensupplement voor nachtprestaties (bijvoorbeeld 2,05 EUR/uur op basis van de ministeriële omzendbrief van 17-04-1989) - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
+<Omschrijving>Weddensupplement voor nachtprestaties (bijvoorbeeld 2,05 EUR/uur op basis van de ministeriï¿½le omzendbrief van 17-04-1989) - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - verplegend en verzorgend personeel</categorynl>
 <CodePPL>910</CodePPL>
 <Code>1</Code>
 <Omschrijving>Weddensupplement voor buitengewone prestaties zoals bepaald in de omzendbrief van het Ministerie van Volksgezondheid en van het Gezin van 03-11-1972 - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
@@ -983,17 +955,17 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - verplegend en verzorgend personeel</categorynl>
 <CodePPL>912</CodePPL>
 <Code>1</Code>
-<Omschrijving>Weddensupplement voor nachtprestaties (bijvoorbeeld 2,05 EUR/uur op basis van de ministeriële omzendbrief van 17-04-1989) - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
+<Omschrijving>Weddensupplement voor nachtprestaties (bijvoorbeeld 2,05 EUR/uur op basis van de ministeriï¿½le omzendbrief van 17-04-1989) - onderworpen aan socialezekerheidsbijdragen</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - verplegend en verzorgend personeel</categorynl>
 <CodePPL>914</CodePPL>
 <Code>1</Code>
 <Omschrijving>4, 8 of 12 % hoofdverplegers</Omschrijving>
@@ -1003,7 +975,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - verplegend en verzorgend personeel</categorynl>
 <CodePPL>916</CodePPL>
 <Code>1</Code>
 <Omschrijving>Weddensupplement voor prestaties tijdens weekend of feestdagen (bijvoorbeeld 1,02 EUR/uur op basis van de omzendbrief RIZIV van 17-07-1992)</Omschrijving>
@@ -1013,7 +985,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - verplegend en verzorgend personeel</categorynl>
 <CodePPL>917</CodePPL>
 <Code>2</Code>
 <Omschrijving>Attractiviteitspremie - KB van 12-05-2006 en federaal gezondheidsakkoord van de publieke sector van 23-06-2005</Omschrijving>
@@ -1023,27 +995,27 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - verplegend en verzorgend personeel</categorynl>
 <CodePPL>918</CodePPL>
 <Code>2</Code>
-<Omschrijving>Jaarpremie van 12,67 EUR van toepassing op de instellingen die onder het paritair subcomité voor de privé-ziekenhuizen ressorteren (CAO van 22-10-1991)</Omschrijving>
+<Omschrijving>Jaarpremie van 12,67 EUR van toepassing op de instellingen die onder het paritair subcomitï¿½ voor de privï¿½-ziekenhuizen ressorteren (CAO van 22-10-1991)</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2006/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2006</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - verplegend en verzorgend personeel</categorynl>
 <CodePPL>919</CodePPL>
 <Code>2</Code>
-<Omschrijving>Jaarpremie van 148,74 EUR van toepassing op de instellingen die onder het paritair subcomité voor de privé-ziekenhuizen ressorteren (CAO van 22-10-1991)</Omschrijving>
+<Omschrijving>Jaarpremie van 148,74 EUR van toepassing op de instellingen die onder het paritair subcomitï¿½ voor de privï¿½-ziekenhuizen ressorteren (CAO van 22-10-1991)</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2006/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2006</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - vrijwillige brandweerlieden en vrijwillige ambulanciers</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - vrijwillige brandweerlieden en vrijwillige ambulanciers</categorynl>
 <CodePPL>541</CodePPL>
 <Code>20</Code>
 <Omschrijving>Vergoedingen voor uitzonderlijke prestaties die niet in aanmerking komen om te bepalen of de grens van 785,95 EUR werd bereikt (artikel 17quater van het KB van 28-11-1969)</Omschrijving>
@@ -1053,7 +1025,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - vrijwillige brandweerlieden en vrijwillige ambulanciers</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - vrijwillige brandweerlieden en vrijwillige ambulanciers</categorynl>
 <CodePPL>542</CodePPL>
 <Code>20</Code>
 <Omschrijving>Vergoedingen voor niet-uitzonderlijke prestaties die in aanmerking komen om te bepalen of de grens van 785,95 EUR werd bereikt (artikel 17quater van het KB van 28-11-1969) - vrijgesteld</Omschrijving>
@@ -1063,7 +1035,7 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieën - vrijwillige brandweerlieden en vrijwillige ambulanciers</categorynl>
+<categorynl>Bijkomende vergoedingen voor specifieke personeelscategorieï¿½n - vrijwillige brandweerlieden en vrijwillige ambulanciers</categorynl>
 <CodePPL>942</CodePPL>
 <Code>1</Code>
 <Omschrijving>Vergoedingen voor niet-uitzonderlijke prestaties die in aanmerking komen om te bepalen of de grens van 785,95 EUR werd bereikt (artikel 17quater van het KB van 28-11-1969) - onderworpen</Omschrijving>
@@ -1253,30 +1225,30 @@
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Vergoedingen bij éénzijdige beëindiging van de dienstbetrekking</categorynl>
+<categorynl>Vergoedingen bij ï¿½ï¿½nzijdige beï¿½indiging van de dienstbetrekking</categorynl>
 <CodePPL>130</CodePPL>
 <Code>3</Code>
-<Omschrijving>Vergoeding bij éénzijdige beëindiging van de dienstbetrekking - uitgedrukt in arbeidstijd (enkel voor contractuele personeelsleden)</Omschrijving>
+<Omschrijving>Vergoeding bij ï¿½ï¿½nzijdige beï¿½indiging van de dienstbetrekking - uitgedrukt in arbeidstijd (enkel voor contractuele personeelsleden)</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Vergoedingen bij éénzijdige beëindiging van de dienstbetrekking</categorynl>
+<categorynl>Vergoedingen bij ï¿½ï¿½nzijdige beï¿½indiging van de dienstbetrekking</categorynl>
 <CodePPL>131</CodePPL>
 <Code>4</Code>
-<Omschrijving>Vergoeding bij éénzijdige beëindiging van de dienstbetrekking - niet uitgedrukt in arbeidstijd</Omschrijving>
+<Omschrijving>Vergoeding bij ï¿½ï¿½nzijdige beï¿½indiging van de dienstbetrekking - niet uitgedrukt in arbeidstijd</Omschrijving>
 <Vanaf>2004/3</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/1900</begin_geldigheid>
 <einde_geldigheid>31/12/2021</einde_geldigheid>
 </ann32>
 <ann32>
-<categorynl>Vergoedingen bij éénzijdige beëindiging van de dienstbetrekking</categorynl>
+<categorynl>Vergoedingen bij ï¿½ï¿½nzijdige beï¿½indiging van de dienstbetrekking</categorynl>
 <CodePPL>132</CodePPL>
 <Code>9</Code>
-<Omschrijving>Vergoeding bij éénzijdige beëindiging van de dienstbetrekking - uitgedrukt in arbeidstijd (enkel voor vastbenoemde personeelsleden)</Omschrijving>
+<Omschrijving>Vergoeding bij ï¿½ï¿½nzijdige beï¿½indiging van de dienstbetrekking - uitgedrukt in arbeidstijd (enkel voor vastbenoemde personeelsleden)</Omschrijving>
 <Vanaf>2005/1</Vanaf>
 <Tot>2021/4</Tot>
 <begin_geldigheid>01/01/2005</begin_geldigheid>
@@ -1376,7 +1348,7 @@
 <categorynl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</categorynl>
 <CodePPL>796</CodePPL>
 <Code>20</Code>
-<Omschrijving>Loon voor stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen - 0 t.e.m. 9 jaar anciënniteit - Brugge</Omschrijving>
+<Omschrijving>Loon voor stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen - 0 t.e.m. 9 jaar anciï¿½nniteit - Brugge</Omschrijving>
 <Vanaf>2013/1</Vanaf>
 <Tot>2019/4</Tot>
 <begin_geldigheid>01/01/2013</begin_geldigheid>
@@ -1386,7 +1358,7 @@
 <categorynl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</categorynl>
 <CodePPL>797</CodePPL>
 <Code>20</Code>
-<Omschrijving>Loon voor stortingen van werkgevers voor de vorming van buitenwettelijk pensioen - 10 t.e.m. 19 jaar anciënniteit - Brugge</Omschrijving>
+<Omschrijving>Loon voor stortingen van werkgevers voor de vorming van buitenwettelijk pensioen - 10 t.e.m. 19 jaar anciï¿½nniteit - Brugge</Omschrijving>
 <Vanaf>2013/1</Vanaf>
 <Tot>2019/4</Tot>
 <begin_geldigheid>01/01/2013</begin_geldigheid>
@@ -1396,7 +1368,7 @@
 <categorynl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</categorynl>
 <CodePPL>798</CodePPL>
 <Code>20</Code>
-<Omschrijving>Loon voor stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen - 20 t.e.m. 29 jaar anciënniteit - Brugge</Omschrijving>
+<Omschrijving>Loon voor stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen - 20 t.e.m. 29 jaar anciï¿½nniteit - Brugge</Omschrijving>
 <Vanaf>2013/1</Vanaf>
 <Tot>2019/4</Tot>
 <begin_geldigheid>01/01/2013</begin_geldigheid>
@@ -1406,10 +1378,11 @@
 <categorynl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</categorynl>
 <CodePPL>799</CodePPL>
 <Code>20</Code>
-<Omschrijving>Loon voor stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen - 30 of meer jaar anciënniteit -  Brugge</Omschrijving>
+<Omschrijving>Loon voor stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen - 30 of meer jaar anciï¿½nniteit -  Brugge</Omschrijving>
 <Vanaf>2013/1</Vanaf>
 <Tot>2019/4</Tot>
 <begin_geldigheid>01/01/2013</begin_geldigheid>
 <einde_geldigheid>31/12/2019</einde_geldigheid>
 </ann32>
-</List>
+</List>
+

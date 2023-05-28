@@ -9,7 +9,7 @@
         <full>
             <nl>Andere PrivaatRechtelijke Vorm met RechtsPersoonlijkheid</nl>
             <fr>Autre Forme de Droit Privé avec Personnalité Juridique</fr>
-            <de>Andere PrivatRechtliche RechtsForm mit RechtsPers�nlichkeit</de>
+            <de>Andere PrivatRechtliche RechtsForm mit RechtsPersönlichkeit</de>
         </full>
         <begin-validity>
             <year>1900</year>
@@ -49,7 +49,7 @@
         <full>
             <nl>BUitenlandse ENTiteit</nl>
             <fr>ENTité Etrangère</fr>
-            <de>AUSl�ndische EINHeit</de>
+            <de>AUSländische EINHeit</de>
         </full>
         <begin-validity>
             <year>1900</year>
@@ -69,7 +69,7 @@
         <full>
             <nl>Besloten Vennootschap</nl>
             <fr>Société à Responsabilité Limitée</fr>
-            <de>Gesellschaft Mit Beschr�nkter Haftung</de>
+            <de>Gesellschaft Mit Beschränkter Haftung</de>
         </full>
         <begin-validity>01/05/2019</begin-validity>
         <end-validity>
@@ -86,7 +86,7 @@
         <full>
             <nl>Burgerlijke Vennootschap onder de vorm van Besloten Vennootschap met Beperkte Aansprakelijkheid</nl>
             <fr>Société Civile sous forme de Société Privée à Responsabilité Limitée</fr>
-            <de>Gesellschaft des b�rgerlichen Rechts in Form einer PrivatGesellschaft mit Beschr�nkter Haftung</de>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer PrivatGesellschaft mit Beschränkter Haftung</de>
         </full>
         <begin-validity>
             <year>1900</year>
@@ -103,7 +103,7 @@
         <full>
             <nl>Burgerlijke Vennootschap onder de vorm van Commanditaire Vennootschap op Aandelen</nl>
             <fr>Société Civile sous forme de Société en Commandite par Actions</fr>
-            <de>Gesellschaft des b�rgerlichen Rechts in Form einer KommanditGesellschaft Auf Aktien</de>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer KommanditGesellschaft Auf Aktien</de>
         </full>
         <begin-validity>
             <year>1900</year>
@@ -120,7 +120,7 @@
         <full>
             <nl>Burgerlijke Vennootschap onder de vorm van CV met Beperkte Aansprakelijkheid</nl>
             <fr>Société Civile sous forme de SC à Responsabilité Limitée</fr>
-            <de>Gesellschaft des B�rgerlichen Rechts in Form einer Genossenschaft mit Beschr�nkter Haftpflicht</de>
+            <de>Gesellschaft des Bürgerlichen Rechts in Form einer Genossenschaft mit Beschränkter Haftpflicht</de>
         </full>
         <begin-validity>
             <year>1900</year>
@@ -129,12 +129,16 @@
         <end-validity>31/10/2018</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>BV CVOA</Afkortingnl>
-        <VormNl>Burgerlijke Vennootschap onder vorm van CV met Onbeperkte Aansprakelijkheid</VormNl>
-        <AfkortingFr>SC SCRI</AfkortingFr>
-        <VormFr>Soci�t� Civile sous forme de Soci�t� Coop�rative � Responsabilit� Illimit�e</VormFr>
-        <AfkortingD>ZVGGUGCH</AfkortingD>
-        <VormD>Zivilrechtliche Gesellschaft in der Rechtsform einer Gen. mit unbeschr�nkter Haftung</VormD>
+        <short>
+            <nl>BV CVOA</nl>
+            <fr>SC SCRI</fr>
+            <de>ZVGGUGCH</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder vorm van CV met Onbeperkte Aansprakelijkheid</nl>
+            <fr>Société Civile sous forme de Société Coopérative à Responsabilité Illimitée</fr>
+            <de>Zivilrechtliche Gesellschaft in der Rechtsform einer Gen. mit unbeschr�nkter Haftung</de>
+        </full>
         <begin-validity>
             <year>1900</year>
             <quarter>1<quarter>
@@ -142,22 +146,30 @@
         <end-validity>31/10/2018</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>BV CVOHA</Afkortingnl>
-        <VormNl>Burgerlijke Vennootschap onder de vorm van CV met Onbeperkte Hoofdelijke Aansprakelijkheid</VormNl>
-        <AfkortingFr>SCIV SCRIS</AfkortingFr>
-        <VormFr>Soci�t� CIVile sous forme de SC � Responsabilit� Illimit�e et Solidaire</VormFr>
-        <AfkortingD>GBR GENMUGH</AfkortingD>
-        <VormD>Gesellschaft des B�rgerlichen Rechts in Form einer GEN. Mit Unbeschr�nkter Gesamtschuldnerischen Haftpflicht</VormD>
+        <short>
+            <nl>BV CVOHA</nl>
+            <fr>SCIV SCRIS</fr>
+            <de>GBR GENMUGH</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van CV met Onbeperkte Hoofdelijke Aansprakelijkheid</nl>
+            <fr>Société CIVile sous forme de SC à Responsabilité Illimitée et Solidaire</fr>
+            <de>Gesellschaft des Bürgerlichen Rechts in Form einer GEN. Mit Unbeschrünkter Gesamtschuldnerischen Haftpflicht</de>
+        </full>
         <begin-validity>01/01/2000</begin-validity>
         <end-validity>31/10/2018</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>BV GCV</Afkortingnl>
-        <VormNl>Burgerlijke Vennootschap onder de vorm van Gewone Commanditaire Vennootschap</VormNl>
-        <AfkortingFr>SC SCS</AfkortingFr>
-        <VormFr>Soci�t� Civile sous forme de Soci�t� en Commandite Simple</VormFr>
-        <AfkortingD>ZRG EKG</AfkortingD>
-        <VormD>Gesellschaft des b�rgerlichen Rechts in Form Einer KommanditGesellschaft</VormD>
+        <short>
+            <nl>BV GCV</nl>
+            <fr>SC SCS</fr>
+            <de>ZRG EKG</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Gewone Commanditaire Vennootschap</nl>
+            <fr>Société Civile sous forme de Société en Commandite Simple</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form Einer KommanditGesellschaft</de>
+        </full>
         <begin-validity>
             <year>1900</year>
             <quarter>1<quarter>
@@ -165,12 +177,16 @@
         <end-validity>31/10/2018</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>BV LV</Afkortingnl>
-        <VormNl>Burgerlijke Vennootschap onder de vorm van Landbouwvennootschap</VormNl>
-        <AfkortingFr>SC SAGR</AfkortingFr>
-        <VormFr>Soci�t� Civile sous forme de Soci�t� AGRicole</VormFr>
-        <AfkortingD>ZRG LG</AfkortingD>
-        <VormD>Gesellschaft des b�rgerlichen Rechts in Form einer Landwirtschaftlichen Gesellschaft</VormD>
+        <short>
+            <nl>BV LV</nl>
+            <fr>SC SAGR</fr>
+            <de>ZRG LG</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Landbouwvennootschap</nl>
+            <fr>Société Civile sous forme de Société AGRicole</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer Landwirtschaftlichen Gesellschaft</de>
+        </full>
         <begin-validity>
             <year>1900</year>
             <quarter>1<quarter>
@@ -178,12 +194,16 @@
         <end-validity>01/01/2000</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>BV NV</Afkortingnl>
-        <VormNl>Burgerlijke Vennootschap onder de vorm van Naamloze Vennootschap</VormNl>
-        <AfkortingFr>SC SA</AfkortingFr>
-        <VormFr>Soci�t� Civile sous forme de Soci�t� Anonyme</VormFr>
-        <AfkortingD>ZRG AG</AfkortingD>
-        <VormD>Gesellschaft des b�rgerlichen Rechts in Form einer AktienGesellschaft</VormD>
+        <short>
+            <nl>BV NV</nl>
+            <fr>SC SA</fr>
+            <de>ZRG AG</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Naamloze Vennootschap</nl>
+            <fr>Société Civile sous forme de Société Anonyme</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer AktienGesellschaft</de>
+        </full>
         <begin-validity>
             <year>1900</year>
             <quarter>1<quarter>
@@ -191,12 +211,16 @@
         <end-validity>31/10/2018</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>BV VOF</Afkortingnl>
-        <VormNl>Burgerlijke Vennootschap onder de vorm van Vennootschap Onder Firma</VormNl>
-        <AfkortingFr>SC SNC</AfkortingFr>
-        <VormFr>Soci�t� Civile sous forme de Soci�t� en Nom Collectif</VormFr>
-        <AfkortingD>ZRG OHG</AfkortingD>
-        <VormD>Gesellschaft des b�rgerlichen Rechts in Form einer Offenen HandelsGesellschaft</VormD>
+        <short>
+            <nl>BV VOF</nl>
+            <fr>SC SNC</fr>
+            <de>ZRG OHG</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Vennootschap Onder Firma</nl>
+            <fr>Société Civile sous forme de Société en Nom Collectif</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer Offenen HandelsGesellschaft</de>
+        </full>
         <begin-validity>
             <year>1900</year>
             <quarter>1<quarter>
@@ -204,12 +228,16 @@
         <end-validity>31/10/2018</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>BVBA</Afkortingnl>
-        <VormNl>Besloten Vennootschap met Beperkte Aansprakelijkheid</VormNl>
-        <AfkortingFr>SPRL</AfkortingFr>
-        <VormFr>Soci�t� Priv�e � Responsabilit� Limit�e</VormFr>
-        <AfkortingD>PGMBH</AfkortingD>
-        <VormD>PrivatGesellschaft Mit Beschr�nkter Haftung</VormD>
+        <short>
+            <nl>BVBA</nl>
+            <fr>SPRL</fr>
+            <de>PGMBH</de>
+        </short>
+        <full>
+            <nl>Besloten Vennootschap met Beperkte Aansprakelijkheid</nl>
+            <fr>Société Privée à Responsabilité Limitée</fr>
+            <de>PrivatGesellschaft Mit Beschrünkter Haftung</de>
+        </full>
         <begin-validity>
             <year>1900</year>
             <quarter>1<quarter>
@@ -217,22 +245,30 @@
         <end-validity>30/04/2019</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>BVBA SO</Afkortingnl>
-        <VormNl>Besloten Vennootschap met Beperkte Aansprakelijkheid met een Sociaal Oogmerk</VormNl>
-        <AfkortingFr>SPRL FS</AfkortingFr>
-        <VormFr>Soci�t� Priv�e � Responsabilit� Limit�e � Finalit� Sociale</VormFr>
-        <AfkortingD>PMBHSZ</AfkortingD>
-        <VormD>Privatgesellschaft Mit Beschr�nkter Haftung mit Sozialer Zielsetzung</VormD>
+        <short>
+            <nl>BVBA SO</nl>
+            <fr>SPRL FS</fr>
+            <de>PMBHSZ</de>
+        </short>
+        <full>
+            <nl>Besloten Vennootschap met Beperkte Aansprakelijkheid met een Sociaal Oogmerk</nl>
+            <fr>Société Privée à Responsabilité Limitée à Finalité Sociale</fr>
+            <de>Privatgesellschaft Mit Beschrünkter Haftung mit Sozialer Zielsetzung</de>
+        </full>
         <begin-validity>01/01/1900</begin-validity>
         <end-validity>30/04/2019</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>B. VER.</Afkortingnl>
-        <VormNl>BeroepsVEReniging</VormNl>
-        <AfkortingFr>UP</AfkortingFr>
-        <VormFr>Union Professionelle</VormFr>
-        <AfkortingD>BV</AfkortingD>
-        <VormD>BerufsVereinigung</VormD>
+        <short>
+            <nl>B. VER.</nl>
+            <fr>UP</fr>
+            <de>BV</de>
+        </short>
+        <full>
+            <nl>BeroepsVEReniging</nl>
+            <fr>Union Professionelle</fr>
+            <de>BerufsVereinigung</de>
+        </full>
         <begin-validity>
             <year>1900</year>
             <quarter>1<quarter>
@@ -240,30 +276,44 @@
         <end-validity>30/04/2019</end-validity>
     </abbreviation>
     <abbreviation>
-    <Afkortingnl>COM M</Afkortingnl>
-    <VormNl>COMmerciele Maatschap</VormNl>
-    <AfkortingFr>ASS COM</AfkortingFr>
-    <VormFr>ASSociation COMmerciale</VormFr>
-    <begin-validity>01/01/2000</begin-validity>
-    <end-validity>31/12/9999</end-validity>
+        <short>
+            <nl>COM M</nl>
+            <fr>ASS COM</fr>
+            <de></de>
+        </short>
+        <full>
+            <nl>COMmerciele Maatschap</nl>
+            <fr>ASSociation COMmerciale</fr>
+            <de></de>
+        </full>
+        <begin-validity>01/01/2000</begin-validity>
+        <end-validity>31/12/9999</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>COMMV</Afkortingnl>
-        <VormNl>COMManditaire Vennootschap</VormNl>
-        <AfkortingFr>SCOMM</AfkortingFr>
-        <VormFr>Soci�t� en COMMandite</VormFr>
-        <AfkortingD>KOMMG</AfkortingD>
-        <VormD>KOMManditGesellschaft</VormD>
+        <short>
+            <nl>COMMV</nl>
+            <fr>SCOMM</fr>
+            <de>KOMMG</de>
+        </short>
+        <full>
+            <nl>COMManditaire Vennootschap</nl>
+            <fr>Société en COMMandite</fr>
+            <de>KOMManditGesellschaft</de>
+        </full>
         <begin-validity>01/05/2019</begin-validity>
         <end-validity>31/12/9999</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>COMM.V</Afkortingnl>
-        <VormNl>Gewone COMManditaire Vennootschap</VormNl>
-        <AfkortingFr>SCS</AfkortingFr>
-        <VormFr>Soci�t� en Commandite Simple</VormFr>
-        <AfkortingD>EKG</AfkortingD>
-        <VormD>Einfache KommanditGesellschaft</VormD>
+        <short>
+            <nl>COMM.V</nl>
+            <fr>SCS</fr>
+            <de>EKG</de>
+        </short>
+        <full>
+            <nl>Gewone COMManditaire Vennootschap</nl>
+            <fr>Société en Commandite Simple</fr>
+            <de>Einfache KommanditGesellschaft</de>
+        </full>
         <begin-validity>
             <year>1900</year>
             <quarter>1<quarter>
@@ -271,12 +321,16 @@
         <end-validity>30/04/2019</end-validity>
     </abbreviation>
     <abbreviation>
-        <Afkortingnl>COMM.VA</Afkortingnl>
-        <VormNl>COMManditaire Vennootschap op Aandelen</VormNl>
-        <AfkortingFr>SCA</AfkortingFr>
-        <VormFr>Soci�t� en Commandite par Actions</VormFr>
-        <AfkortingD>KGAA</AfkortingD>
-        <VormD>KommanditGesellschaft Auf Aktien</VormD>
+        <short>
+            <nl>COMM.VA</nl>
+            <fr>SCA</fr>
+            <de>KGAA</de>
+        </short>
+        <full>
+            <nl>COMManditaire Vennootschap op Aandelen</nl>
+            <fr>Société en Commandite par Actions</fr>
+            <de>KommanditGesellschaft Auf Aktien</de>
+        </full>
         <begin-validity>
             <year>1900</year>
             <quarter>1<quarter>
@@ -287,7 +341,7 @@
         <Afkortingnl>CV</Afkortingnl>
         <VormNl>Cooperatieve Vennootschap</VormNl>
         <AfkortingFr>SC</AfkortingFr>
-        <VormFr>Soci�t� Coop�rative</VormFr>
+        <VormFr>Société Coopérative</VormFr>
         <AfkortingD>GEN.</AfkortingD>
         <VormD>GENossenschaft</VormD>
         <begin-validity>01/05/2019</begin-validity>
@@ -297,7 +351,7 @@
         <Afkortingnl>CV (OS)</Afkortingnl>
         <VormNl>Cooperatieve Vennootschap (oud statuut)</VormNl>
         <AfkortingFr>SC (AS)</AfkortingFr>
-        <VormFr>Soci�t� Coop�rative (ancien statut)</VormFr>
+        <VormFr>Société Coopérative (ancien statut)</VormFr>
         <AfkortingD>GEN. (FS)</AfkortingD>
         <VormD>GENossenschaft (fr�heres Statut)</VormD>
         <begin-validity>01/01/1900</begin-validity>

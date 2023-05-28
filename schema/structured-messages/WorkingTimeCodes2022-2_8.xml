@@ -140,9 +140,9 @@
                 , Diamantnijverheid en -handel, binnenscheepvaart, teelt en eerste verwerking van vlas en/of hennep)
             </nl>
             <fr>
-                vacances en vertu d'une CCT rendue obligatoire ou repos compensatoire (construction, commerce de combustibles
-                , industrie de l'habillement et de la confection, industrie et commerce du diamant, batellerie
-                , culture et transformation primaire du lin et/ou du chanvre)
+                vacances en vertu d'une CCT rendue obligatoire ou repos compensatoire
+                (construction, commerce de combustibles, industrie de l'habillement et de la confection
+                , industrie et commerce du diamant, batellerie, culture et transformation primaire du lin et/ou du chanvre)
             </fr>
         </description>
         <DMFA>Yes</DMFA>
@@ -385,7 +385,10 @@
                 dagen van onbezoldigde volledige afwezigheid in de stand non-activiteit
                 , van terbeschikkingstelling zonder wachtwedde of van onbezoldigde non-activiteit voor militairen
             </nl>
-            <fr></fr>
+            <fr>
+                jours d'absence totale non rémunérée avec position de non-activité
+                , de disponibilité sans traitement d'attente ou de non-activité non rémunérée pour les militaires
+            </fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -402,7 +405,7 @@
         <code>33</code>
         <description>
             <nl>dagen van volledige afwezigheid voor onbezoldigd politiek verlof gelijkgesteld met dienstactiviteit</nl>
-            <fr></fr>
+            <fr>jours d'absence totale pour congé politique non rémunéré et assimilé à de l'activité de service</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -419,7 +422,7 @@
         <code>41</code>
         <description>
             <nl>dagen van bezoldigde volledige afwezigheid in de stand non-activiteit</nl>
-            <fr></fr>
+            <fr>jours d'absence totale rémunérée avec position de non-activité</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -434,7 +437,10 @@
     </working-time-code>
     <working-time-code>
         <code>42</code>
-        <description>dagen van volledige terbeschikkingstelling met wachtwedde en met behoud van het recht op weddenverhoging</description>
+        <description>
+            <nl>dagen van volledige terbeschikkingstelling met wachtwedde en met behoud van het recht op weddenverhoging</nl>
+            <fr>jours de disponibilité totale avec traitement d'attente et maintien du droit à l'avancement</fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -450,7 +456,7 @@
         <code>43</code>
         <description>
             <nl>dagen van tijdelijke ontstentenis van betrekking wegens gezondheidsredenen (militairen)</nl>
-            <fr></fr>
+            <fr>jours de retrait temporaire d'emploi pour motif de santé (militaires)</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -465,7 +471,10 @@
     </working-time-code>
     <working-time-code>
         <code>50</code>
-        <description>ziekte (ziekte of ongeval van gemeen recht)</description>
+        <description>
+            <nl>ziekte (ziekte of ongeval van gemeen recht)</nl>
+            <fr>maladie (maladie ou accident de droit commun)</fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -479,7 +488,18 @@
     </working-time-code>
     <working-time-code>
         <code>51</code>
-        <description>moederschapsbescherming (= maatregel van moederschapsbescherming, moederschapsrust of omgezet moederschapsverlof bij overlijden of hospitalisatie van de moeder) en borstvoedingspauzes (CAO nr. 80)</description>
+        <description>
+            <nl>
+                moederschapsbescherming (= maatregel van moederschapsbescherming
+               , moederschapsrust of omgezet moederschapsverlof bij overlijden of hospitalisatie van de moeder)
+               en borstvoedingspauzes (CAO nr. 80)
+            </nl>
+            <fr>
+                protection de la maternité (= mesure de protection de la maternité
+                , repos de maternité ou congé de maternité converti en cas de décès ou d'hospitalisation de la mère)
+                 et pauses d'allaitement (CCT n° 80)
+            </fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -493,7 +513,13 @@
     </working-time-code>
     <working-time-code>
         <code>52</code>
-        <description>vaderschaps- of geboorteverlof, adoptieverlof en pleegouderverlof (alleen de dagen ten laste van de sector uitkeringen")</description>
+        <description>
+            <nl>vaderschaps- of geboorteverlof, adoptieverlof en pleegouderverlof (alleen de dagen ten laste van de sector uitkeringen")</nl>
+            <fr>
+                congé de paternité ou de naissance, congé d'adoption et congé parental d'accueil 
+                (seulement les jours à charge du secteur “indemnités")
+            </fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -509,7 +535,7 @@
         <code>53</code>
         <description>
             <nl>ziekte (profylactisch verlof)</nl>
-            <fr></fr>
+            <fr>maladie (congé prophylactique)</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -524,7 +550,10 @@
     </working-time-code>
     <working-time-code>
         <code>60</code>
-        <description>arbeidsongeval</description>
+        <description>
+            <nl>arbeidsongeval</nl>
+            <fr>accident du travail</fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -538,7 +567,10 @@
     </working-time-code>
     <working-time-code>
         <code>61</code>
-        <description>beroepsziekte</description>
+        <description>
+            <nl>beroepsziekte</nl>
+            <fr>maladie professionnelle</fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -554,6 +586,7 @@
         <code>70</code>
         <description>
             <nl>tijdelijke werkloosheid andere dan de codes 71, 72 en 77</nl>
+            <fr>chômage temporaire autre que les codes 71, 72 et 77</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -568,7 +601,10 @@
     </working-time-code>
     <working-time-code>
         <code>71</code>
-        <description>specifieke code economische werkloosheid</description>
+        <description>
+            <nl>specifieke code economische werkloosheid</nl>
+            <fr>code spécifique chômage économique</fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -582,7 +618,10 @@
     </working-time-code>
     <working-time-code>
         <code>72</code>
-        <description>specifieke code voor tijdelijke werkloosheid ingevolge slecht weer</description>
+        <description>
+            <nl>specifieke code voor tijdelijke werkloosheid ingevolge slecht weer</nl>
+            <fr>code spécifique chômage temporaire pour cause d'intempérie</fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -596,7 +635,10 @@
     </working-time-code>
     <working-time-code>
         <code>73</code>
-        <description>jeugdvakantie en seniorvakantie</description>
+        <description>
+            <nl>jeugdvakantie en seniorvakantie</nl>
+            <fr>vacances jeunes et vacances seniors</fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -610,7 +652,16 @@
     </working-time-code>
     <working-time-code>
         <code>74</code>
-        <description>minderprestaties van de erkende onthaalouder, te wijten aan de afwezigheid van kinderen die normaal zouden worden opgevangen, maar die niet zijn komen opdagen door omstandigheden buiten de wil van de onthaalouder om</description>
+        <description>
+            <nl>
+                minderprestaties van de erkende onthaalouder, te wijten aan de afwezigheid van kinderen die normaal zouden worden opgevangen
+                , maar die niet zijn komen opdagen door omstandigheden buiten de wil van de onthaalouder om
+            </nl>
+            <fr>
+                manque de prestations d'un gardien ou d'une gardienne d'enfants reconnu, dû à l'absence d'enfants normalement présents
+                , mais qui sont absents pour des raisons indépendantes de la volonté du gardien ou de la gardienne d'enfants
+            </fr>
+        </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
         <begin-validity>
@@ -626,7 +677,7 @@
         <code>75</code>
         <description>
             <nl>dagen pleegzorgen</nl>
-            <fr></fr>
+            <fr>jours de soins d'accueil</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -643,7 +694,7 @@
         <code>76</code>
         <description>
             <nl>schorsingsdagen bedienden wegens werkgebrek</nl>
-            <fr></fr>
+            <fr>jours de suspension employés pour manque de travail</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -660,7 +711,7 @@
         <code>77</code>
         <description>
             <nl>Tijdelijke werkloosheid wegens overmacht Corona of overstromingen of oorlog Oekraïne</nl>
-            <fr></fr>
+            <fr>Chômage temporaire pour force majeure Corona ou inondations ou guerre Ukraine</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
@@ -677,7 +728,7 @@
         <code>80</code>
         <description>
             <nl>niet te recupereren overuren die vrijgesteld zijn van sociale zekerheidsbijdragen</nl>
-            <fr></fr>
+            <fr>heures supplémentaires à ne pas récupérer et non soumises aux cotisations de sécurité sociale</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -694,7 +745,7 @@
         <code>101</code>
         <description>
             <nl>Vaartdagen van zeevarenden in de koopvaardij-, bagger- of zeesleepvaartsector</nl>
-            <fr></fr>
+            <fr>Jours de navigation des marins dans le secteur de la marine marchande, des travaux de dragage ou du remorquage maritime</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -711,7 +762,7 @@
         <code>102</code>
         <description>
             <nl>Vakantiedagen opgenomen door zeevarenden in de koopvaardij-, bagger- of zeesleepvaartsector</nl>
-            <fr></fr>
+            <fr>Jours de congé des marins dans le secteur de la marine marchande, des travaux de dragage ou du remorquage maritime</fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -733,7 +784,11 @@
                 dagen gedekt door een uittredingsvergoeding van een lid van een parlement
                 , een regering, een Bestendige Deputatie of provinciecollege
             </nl>
-            <fr></fr>
+            <fr>
+                Prestations d'un membre d'un parlement ou d'un gouvernement fédéral ou régional ou d'un mandataire local protégé 
+                ; jours couverts par une indemnité de sortie d'un membre d'un parlement, d'un gouvernement
+                , d'une Députation permanente ou d'un collège provincial
+            </fr>
         </description>
         <DMFA>Yes</DMFA>
         <DMFAPPL>No</DMFAPPL>
@@ -753,7 +808,10 @@
                 alle arbeidstijdgegevens gedekt door een vergoeding met vrijstelling van socialezekerheidsbijdragen
                 , met uitzondering van deze die onder een andere code vermeld worden
             </nl>
-            <fr></fr>
+            <fr>
+                toutes les données relatives au temps de travail couvertes par une indemnité exonérée de cotisations de sécurité sociale
+                , à l'exception de celles reprises sous un autre code
+            </fr>
         </description>
         <DMFA>No</DMFA>
         <DMFAPPL>Yes</DMFAPPL>
