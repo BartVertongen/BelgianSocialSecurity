@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abbreviations>
+    <abbreviation>
+        <short>
+            <nl>APRV RP</nl>
+            <fr>AFDP PJ</fr>
+            <de>PRRFMRP</de>
+        </short>
+        <full>
+            <nl>Andere PrivaatRechtelijke Vorm met RechtsPersoonlijkheid</nl>
+            <fr>Autre Forme de Droit Privé avec Personnalité Juridique</fr>
+            <de>Andere PrivatRechtliche RechtsForm mit RechtsPersönlichkeit</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>AV</nl>
+            <fr>AFJ</fr>
+            <de>ARF</de>
+        </short>
+        <full>
+            <nl>Andere rechtsVorm</nl>
+            <fr>Autre Forme Juridique</fr>
+            <de>Andere RechtsForm</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BU ENT</nl>
+            <fr>ENT E</fr>
+            <de>AUS EINH</de>
+        </short>
+        <full>
+            <nl>BUitenlandse ENTiteit</nl>
+            <fr>ENTité Etrangère</fr>
+            <de>AUSländische EINHeit</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV</nl>
+            <fr>SRL</fr>
+            <de>GMBH</de>
+        </short>
+        <full>
+            <nl>Besloten Vennootschap</nl>
+            <fr>Société à Responsabilité Limitée</fr>
+            <de>Gesellschaft Mit Beschränkter Haftung</de>
+        </full>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV BVBA</nl>
+            <fr>SC SPRL</fr>
+            <de>ZVGPGBH</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Besloten Vennootschap met Beperkte Aansprakelijkheid</nl>
+            <fr>Société Civile sous forme de Société Privée à Responsabilité Limitée</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer PrivatGesellschaft mit Beschränkter Haftung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>31/10/2018
+            <year>2018</year>
+            <quarter>4<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV CVA</nl>
+            <fr>SC SCA</fr>
+            <de>ZRG KGAA</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Commanditaire Vennootschap op Aandelen</nl>
+            <fr>Société Civile sous forme de Société en Commandite par Actions</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer KommanditGesellschaft Auf Aktien</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2018</year>
+            <quarter>4<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV CVBA</nl>
+            <fr>SC SCRL</fr>
+            <de>ZVGGBH</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van CV met Beperkte Aansprakelijkheid</nl>
+            <fr>Société Civile sous forme de SC à Responsabilité Limitée</fr>
+            <de>Gesellschaft des Bürgerlichen Rechts in Form einer Genossenschaft mit Beschränkter Haftpflicht</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2018</year>
+            <quarter>4<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV CVOA</nl>
+            <fr>SC SCRI</fr>
+            <de>ZVGGUGCH</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder vorm van CV met Onbeperkte Aansprakelijkheid</nl>
+            <fr>Société Civile sous forme de Société Coopérative à Responsabilité Illimitée</fr>
+            <de>Zivilrechtliche Gesellschaft in der Rechtsform einer Gen. mit unbeschränkter Haftung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2018</year>
+            <quarter>4<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV CVOHA</nl>
+            <fr>SCIV SCRIS</fr>
+            <de>GBR GENMUGH</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van CV met Onbeperkte Hoofdelijke Aansprakelijkheid</nl>
+            <fr>Société CIVile sous forme de SC à Responsabilité Illimitée et Solidaire</fr>
+            <de>Gesellschaft des Bürgerlichen Rechts in Form einer GEN. Mit Unbeschränkter Gesamtschuldnerischen Haftpflicht</de>
+        </full>
+        <begin-validity>
+            <year>2000</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2018</year>
+            <quarter>4<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV GCV</nl>
+            <fr>SC SCS</fr>
+            <de>ZRG EKG</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Gewone Commanditaire Vennootschap</nl>
+            <fr>Société Civile sous forme de Société en Commandite Simple</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form Einer KommanditGesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2018</year>
+            <quarter>4<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV LV</nl>
+            <fr>SC SAGR</fr>
+            <de>ZRG LG</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Landbouwvennootschap</nl>
+            <fr>Société Civile sous forme de Société AGRicole</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer Landwirtschaftlichen Gesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2000</year>
+            <quarter>1<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV NV</nl>
+            <fr>SC SA</fr>
+            <de>ZRG AG</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Naamloze Vennootschap</nl>
+            <fr>Société Civile sous forme de Société Anonyme</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer AktienGesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2018</year>
+            <quarter>4<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BV VOF</nl>
+            <fr>SC SNC</fr>
+            <de>ZRG OHG</de>
+        </short>
+        <full>
+            <nl>Burgerlijke Vennootschap onder de vorm van Vennootschap Onder Firma</nl>
+            <fr>Société Civile sous forme de Société en Nom Collectif</fr>
+            <de>Gesellschaft des bürgerlichen Rechts in Form einer Offenen HandelsGesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2018</year>
+            <quarter>4<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BVBA</nl>
+            <fr>SPRL</fr>
+            <de>PGMBH</de>
+        </short>
+        <full>
+            <nl>Besloten Vennootschap met Beperkte Aansprakelijkheid</nl>
+            <fr>Société Privée à Responsabilité Limitée</fr>
+            <de>PrivatGesellschaft Mit Beschränkter Haftung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>BVBA SO</nl>
+            <fr>SPRL FS</fr>
+            <de>PMBHSZ</de>
+        </short>
+        <full>
+            <nl>Besloten Vennootschap met Beperkte Aansprakelijkheid met een Sociaal Oogmerk</nl>
+            <fr>Société Privée à Responsabilité Limitée à Finalité Sociale</fr>
+            <de>Privatgesellschaft Mit Beschrünkter Haftung mit Sozialer Zielsetzung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>B. VER.</nl>
+            <fr>UP</fr>
+            <de>BV</de>
+        </short>
+        <full>
+            <nl>BeroepsVEReniging</nl>
+            <fr>Union Professionelle</fr>
+            <de>BerufsVereinigung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>30/04/2019</end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>COM M</nl>
+            <fr>ASS COM</fr>
+            <de></de>
+        </short>
+        <full>
+            <nl>COMmerciele Maatschap</nl>
+            <fr>ASSociation COMmerciale</fr>
+            <de></de>
+        </full>
+        <begin-validity>
+            <year>2000</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>COMMV</nl>
+            <fr>SCOMM</fr>
+            <de>KOMMG</de>
+        </short>
+        <full>
+            <nl>COMManditaire Vennootschap</nl>
+            <fr>Société en COMMandite</fr>
+            <de>KOMManditGesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>COMM.V</nl>
+            <fr>SCS</fr>
+            <de>EKG</de>
+        </short>
+        <full>
+            <nl>Gewone COMManditaire Vennootschap</nl>
+            <fr>Société en Commandite Simple</fr>
+            <de>Einfache KommanditGesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>COMM.VA</nl>
+            <fr>SCA</fr>
+            <de>KGAA</de>
+        </short>
+        <full>
+            <nl>COMManditaire Vennootschap op Aandelen</nl>
+            <fr>Société en Commandite par Actions</fr>
+            <de>KommanditGesellschaft Auf Aktien</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CV</nl>
+            <fr>SC</fr>
+            <de>GEN.</de>
+        </short>
+        <full>
+            <nl>Cooperatieve Vennootschap</nl>
+            <fr>Société Coopérative</fr>
+            <de>GENossenschaft</de>
+        </full>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CV (OS)</nl>
+            <fr>SC (AS)</fr>
+            <de>GEN. (FS)</de>
+        </short>
+        <full>
+            <nl>Cooperatieve Vennootschap (oud statuut)</nl>
+            <fr>Société Coopérative (ancien statut)</fr>
+            <de>GENossenschaft (früheres Statut)</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1993</year>
+            <quarter>4<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CVA SO</nl>
+            <fr>SCA FS</fr>
+            <de>KGAAMSZ</de>
+        </short>
+        <full>
+            <nl>Commanditaire Vennootschap op Aandelen met een Sociaal Oogmerk</nl>
+            <fr>Société en Commandite par Actions à Finalité Sociale</fr>
+            <de>KommanditGesellschaft Auf Aktien Mit Sozialer Zielsetzung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CVBA</nl>
+            <fr>SCRL</fr>
+            <de>GEN.MBH</de>
+        </short>
+        <full>
+            <nl>CV met Beperkte Aansprakelijkheid</nl>
+            <fr>SC à Responsabilité Limitée</fr>
+            <de>GENossenschaft Mit Beschränkter Haftpflicht</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CVBA CD</nl>
+            <fr>SCRL CP</fr>
+            <de>GBHGB</de>
+        </short>
+        <full>
+            <nl>CVBA, Cooperatieve vennootschap bij wijze van Deelneming</nl>
+            <fr>SCRL, Coopérative de Participation</fr>
+            <de>GenmBH, Genossenschaft auf Beteiligung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1996</year>
+            <quarter>3<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CVBA SO</nl>
+            <fr>SCRL FS</fr>
+            <de>GBHSZ</de>
+        </short>
+        <full>
+            <nl>Coöperatieve Vennootschap met Beperkte Aansprakelijkheid met een Sociaal Oogmerk</nl>
+            <fr>Société Coopérative à Responsabilité Limitée à Finalité Sociale</fr>
+            <de>Genossenschaft mit Beschränkter Haftung mit Sozialer Zielsetzung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CVOA</nl>
+            <fr>SCRI</fr>
+            <de>GEN.MUBH</de>
+        </short>
+        <full>
+            <nl>Coöperatieve Vennootschap met Onbeperkte Aansprakelijkheid</nl>
+            <fr>Société Coopérative à Responsabilité Illimitée</fr>
+            <de>GENossenschaft Mit Unbeschränkter Haftung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CVOA SO</nl>
+            <fr>SCRI FS</fr>
+            <de>GUHSZ</de>
+        </short>
+        <full>
+            <nl>Cooperatieve Vennootschap met Onbeperkte Aansprakelijkheid met Sociaal Oogmerk</nl>
+            <fr>Société Coopérative à Responsabilité Illimitée et à Finalité Sociale</fr>
+            <de>Genossenschaft mit Unbeschränkter Haftung mit Sozialer Zielsetzung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CVOHA</nl>
+            <fr>SCRIS</fr>
+            <de>GENMUGH</de>
+        </short>
+        <full>
+            <nl>CV met Onbeperkte Hoofdelijke Aansprakelijkheid</nl>
+            <fr>SC à Responsabilité Illimitée et Solidaire</fr>
+            <de>GEN. Mit Unbeschränkter Gesamtschuldnerischer Haftpflicht</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1996</year>
+            <quarter>3<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CVOHA CD</nl>
+            <fr>SCRIS CP</fr>
+            <de>GENMUGH GENAB</de>
+        </short>
+        <full>
+            <nl>CVOHA, Cooperatieve vennootschap bij wijze van Deelneming</nl>
+            <fr>SCRIS, Coopérative de Participation</fr>
+            <de>GENMUGH, Genossenschaft Auf Beteiligung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1996</year>
+            <quarter>3<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>CVOHA SO</nl>
+            <fr>SCRIS FS</fr>
+            <de>GENMUGH SZ</de>
+        </short>
+        <full>
+            <nl>Cooperatieve Vennootschap met Onbeperkte Hoofdelijke Aansprakelijkheid met Sociaal Oogmerk</nl>
+            <fr>Société Coopérative à Responsabilité Illimitée et Solidaire à Finalité Sociale</fr>
+            <de>GENossenschaft Mit Unbeschrünkter Gesamtschuldnerischer Haftpflicht mit SoZialer Zweckbestimmung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>EBVBA</nl>
+            <fr>SPRLU</fr>
+            <de>PGMBHMA</de>
+        </short>
+        <full>
+            <nl>Eenmans Besloten Vennootschap met Beperkte Aansprakelijkheid</nl>
+            <fr>Société Privée à Responsabilité Limitée Unipersonnelle</fr>
+            <de>PrivatGesellschaft Mit Beschrünkter Haftung Mit einem Alleingesellschafter</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2003</year>
+            <quarter>3<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>EBVBA SO</nl>
+            <fr>SPRLU FS</fr>
+            <de>PGBHSZ</de>
+        </short>
+        <full>
+            <nl>Eenpersoons Besloten Vennootschap met Beperkte Aansprakelijkheid met een Sociaal Oogmerk</nl>
+            <fr>Société Privée à Responsabilité Limitee Unipersonnelle à Finalite Sociale</fr>
+            <de>PrivatGesellschaft mit Beschränkter Haftung mit Sozialer Zielsetzung mit einem Alleingesellschafter</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2004</year>
+            <quarter>1<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>EESV</nl>
+            <fr>GEIE</fr>
+            <de>EWIV</de>
+        </short>
+        <full>
+            <nl>Europees Economisch SamenwerkingsVerband</nl>
+            <fr>Groupement Européen d'Intérêt Economique</fr>
+            <de>Europäische Wirtschaftliche InteressenVereinigung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>ESV</nl>
+            <fr>GIE</fr>
+            <de>WIV</de>
+        </short>
+        <full>
+            <nl>Economisch SamenwerkingsVerband</nl>
+            <fr>Groupement d'Intérêt Economique</fr>
+            <de>Wirtschaftliche InteressenVereinigung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>ESV SO</nl>
+            <fr>GIE FS</fr>
+            <de>WIVMSZ</de>
+        </short>
+        <full>
+            <nl>Economisch SamenwerkingsVerband met een Sociaal Oogmerk</nl>
+            <fr>Groupement d'Intérêt Economique à Finalité Sociale</fr>
+            <de>Wirtschaftliche InteressenVereinigung Mit Sozialer Zielsetzung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>FBZ</nl>
+            <fr>FSE</fr>
+            <de></de>
+        </short>
+        <full>
+            <nl>Fonds voor BestaansZekerheid</nl>
+            <fr>Fonds de Sécurité d'Existence</fr>
+            <de></de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>FV</nl>
+            <fr>ADF</fr>
+            <de>NFV</de>
+        </short>
+        <full>
+            <nl>Feitelijke Vereniging</nl>
+            <fr>Assocation De Fait</fr>
+            <de>NichtrechtsFähiger Verein</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>GCW SO</nl>
+            <fr>SCS FS</fr>
+            <de>EKGMSZ</de>
+        </short>
+        <full>
+            <nl>Gewone Commanditaire vennootschap met een Sociaal Oogmerk</nl>
+            <fr>Société en Commandite Simple à Finalité Sociale</fr>
+            <de>Einfache KommanditGesellschaft Mit Sozialer Zielsetzung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>INST OPN</nl>
+            <fr>ETUTPUB</fr>
+            <de>GEMEINRI</de>
+        </short>
+        <full>
+            <nl>INSTelling van OPenbaar Nut</nl>
+            <fr>Etablissement d'Utilité Publique</fr>
+            <de>GEMeinnützige EINRIchtung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2003</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>INT VER</nl>
+            <fr>ASS INT</fr>
+            <de></de>
+        </short>
+        <full>
+            <nl>INTernationale VEReniging</nl>
+            <fr>ASSociation INTernationale</fr>
+            <de></de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>IVZW</nl>
+            <fr>AISBL</fr>
+            <de>IVOG</de>
+        </short>
+        <full>
+            <nl>Internationale Vereniging Zonder Winstoogmerk</nl>
+            <fr>Association Internationale Sans But Lucratif</fr>
+            <de>Internationale Vereinigung Ohne Gewinnerzielungsabsicht</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>IZW</nl>
+            <fr>ISBL</fr>
+            <de>EOG</de>
+        </short>
+        <full>
+            <nl>Internationale Vereniging Zonder Winstoogmerk</nl>
+            <fr>Institution Sans But Lucratif</fr>
+            <de>Einrichtung Ohne Gewinnerzielungsabsicht</de>
+        </full>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>KV</nl>
+            <fr>AFRAIS</fr>
+            <de>KV</de>
+        </short>
+        <full>
+            <nl>Kostendelende Vereniging</nl>
+            <fr>Association de FRAIS</fr>
+            <de>Kostenteilende Vereinigung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2003</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>LV</nl>
+            <fr>S. AGR.</fr>
+            <de>LG</de>
+        </short>
+        <full>
+            <nl>LandbouwVennootschap</nl>
+            <fr>Société AGRicole</fr>
+            <de>Landwirtschaftliche Gesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>MS</nl>
+            <fr>SDC</fr>
+            <de>GAR</de>
+        </short>
+        <full>
+            <nl>MaatSchap</nl>
+            <fr>Société de Droit Commun</fr>
+            <de>Gesellschaft des Allgemeinen Rechts</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2018</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>NV</nl>
+            <fr>SA</fr>
+            <de>AG</de>
+        </short>
+        <full>
+            <nl>Naamloze Vennootschap</nl>
+            <fr>Société Anonyme</fr>
+            <de>AktienGesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>NV SO</nl>
+            <fr>SA FS</fr>
+            <de>AGMSZ</de>
+        </short>
+        <full>
+            <nl>Naamloze Vennootschap met een Sociaal Oogmerk</nl>
+            <fr>Société Anonyme à Finalité Sociale</fr>
+            <de>AktienGesellschaft Mit Sozialer Zielsetzung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>OFP</nl>
+            <fr>OFP</fr>
+            <de>OFP</de>
+        </short>
+        <full>
+            <nl>Organisme van de Financiering van Pensioenen</nl>
+            <fr>Organisme de Financement de Pensions</fr>
+            <de>Organismus für die Finanzierung von Pensionen</de>
+        </full>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>OVV</nl>
+            <fr>AAM</fr>
+            <de>PRVGAG</de>
+        </short>
+        <full>
+            <nl>Onderlinge VerzekeringsVereniging / Gemeenschappelijke verzekeringskas van privaat recht</nl>
+            <fr>Association d'assurances mutuelles / Caisse commune d'assurances de droit privé</fr>
+            <de>Versicherungsvereinigung Auf Gegenseitigkeit / PrivatRechtliche VersicherungsGesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>PS</nl>
+            <fr>FP</fr>
+            <de>PRST</de>
+        </short>
+        <full>
+            <nl>Private Stichting</nl>
+            <fr>Fondation Privée</fr>
+            <de>PRivatSTiftung</de>
+        </full>
+        <begin-validity>
+            <year>2002</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>SCE</nl>
+            <fr>SCE</fr>
+            <de>SCE</de>
+        </short>
+        <full>
+            <nl>Europese Coöperatieve Vennootschap</nl>
+            <fr>Société Coopérative Européenne</fr>
+            <de>Europäische Genossenschaft</de>
+        </full>
+        <begin-validity>
+            <year>2006</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>SE</nl>
+            <fr>SE</fr>
+            <de>SE</de>
+        </short>
+        <full>
+            <nl>Europese Vennootschap (Societas Europaea)</nl>
+            <fr>Société Européenne (Societas Europaea)</fr>
+            <de>Europäische Gesellschaft (Societas Europaea)</de>
+        </full>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>SH</nl>
+            <fr>SI</fr>
+            <de>SG</de>
+        </short>
+        <full>
+            <nl>Stille Handelsvennootschap</nl>
+            <fr>Société Interne</fr>
+            <de>Stille Gesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>2000</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2003</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>SON</nl>
+            <fr>FUP</fr>
+            <de>GNS</de>
+        </short>
+        <full>
+            <nl>Stichting van Openbaar Nut</nl>
+            <fr>Fondation d'Utilité Publique</fr>
+            <de>GemeinNützige Stiftung</de>
+        </full>
+
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>STICH</nl>
+            <fr>FOND</fr>
+            <de>STIF</de>
+        </short>
+        <full>
+            <nl>STICHting</nl>
+            <fr>FONDation</fr>
+            <de>STIFtung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>TH</nl>
+            <fr>SM</fr>
+            <de>GG</de>
+        </short>
+        <full>
+            <nl>Tijdelijke Handelsvennootschap</nl>
+            <fr>Société Momentanée</fr>
+            <de>GelegenheitsGesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2003</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>TV</nl>
+            <fr>AM</fr>
+            <de>ARBEITG</de>
+        </short>
+        <full>
+            <nl>Tijdelijke Vereniging</nl>
+            <fr>Association Momentanée</fr>
+            <de>ARBEITsGemeinschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2001</year>
+            <quarter>1<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>VAKBOND</nl>
+            <fr>SYNDIC</fr>
+            <de>GEWERKSC</de>
+        </short>
+        <full>
+            <nl>VAKBOND</nl>
+            <fr>SYNDICat</fr>
+            <de>GEWERKSChaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2003</year>
+            <quarter>1<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>VME</nl>
+            <fr>ACP</fr>
+            <de>MEV</de>
+        </short>
+        <full>
+            <nl>Vereniging van Mede-Eigenaars</nl>
+            <fr>Association des CoPropriétaires</fr>
+            <de>MitEigentümerVereinigung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>VOF</nl>
+            <fr>SNC</fr>
+            <de>OHG</de>
+        </short>
+        <full>
+            <nl>Vennootschap Onder Firma</nl>
+            <fr>Société en Nom Collectif</fr>
+            <de>Offene HandelsGesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>VOF SO</nl>
+            <fr>SNC FS</fr>
+            <de>OHGMSZ</de>
+        </short>
+        <full>
+            <nl>Vennootschap Onder Firma met een Sociaal Oogmerk</nl>
+            <fr>Société en Nom Collectif à Finalité Sociale</fr>
+            <de>Offene HandelsGesellschaft Mit Sozialer Zielsetzung</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2<quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>VV</nl>
+            <fr>SF</fr>
+            <de>GBG</de>
+        </short>
+        <full>
+            <nl>Vennootschap in oprichting</nl>
+            <fr>Société en Formation</fr>
+            <de>In Gründung Befindliche Gesellschaft</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>VVZRL</nl>
+            <fr>SASPJ</fr>
+            <de>GVORP</de>
+        </short>
+        <full>
+            <nl>Vennootschap of Vereniging Zonder RechtspersoonLijkheid</nl>
+            <fr>Société ou Association Sans Personnalité Juridique</fr>
+            <de>Gesellschaften oder Vereinigungen Ohne RechtsPersönlichkeit</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>VZW</nl>
+            <fr>ASBL</fr>
+            <de>VOG</de>
+        </short>
+        <full>
+            <nl>Vereniging Zonder Winstoogmerk</nl>
+            <fr>Association Sans But Lucratif</fr>
+            <de>Vereinigung Ohne Gewinnerzielungsabsicht</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+    <abbreviation>
+        <short>
+            <nl>ZIEK F</nl>
+            <fr>MUTU</fr>
+            <de>KANKENKA</de>
+        </short>
+        <full>
+            <nl>ZIEKenFonds / Maatschappij van onderlinge bijstand / Landsbond van ziekenfondsen</nl>
+            <fr>Mutualité / Société Mutualiste / Union nationale de mutualités</fr>
+            <de>KrANKENKAsse / Gesellschaft auf Gegenseitigkeit / Krankenkassenlandesverband</de>
+        </full>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1<quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </abbreviation>
+</abbreviations>

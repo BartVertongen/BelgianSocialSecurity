@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- Verminderingscodes -->
-<!-- Codes déductions -->
-<!DOCTYPE List [
-     <!ELEMENT ann4 (CodeDMFA?, Description?, Vanaf?, Tot?, Ded_FedRegFR?
-            , Ded_FlemishRegFR?, Ded_BxlRegFR?, Ded_WallNoGermanRegFR?
-            , Ded_WallGermanRegFR?, CalcBaseFr?, AmountFr?, StartRightFr?
-            , MnthCostFr?, InssNbrReplFr?, InssNbrAuthFr?, OrigAttFr?
-            , LinkBlocFr?, PresBlcDetFr?)>
-     <!ELEMENT List (ann4+)>
-     <!ELEMENT CodeDMFA (#PCDATA)>
-     <!ELEMENT Description (#PCDATA)>
-     <!ELEMENT Vanaf (#PCDATA)>
-     <!ELEMENT Tot (#PCDATA)>
-     <!ELEMENT Ded_FedRegFR (#PCDATA)>
-     <!ELEMENT Ded_FlemishRegFR (#PCDATA)>
-     <!ELEMENT Ded_BxlRegFR (#PCDATA)>
-     <!ELEMENT Ded_WallNoGermanRegFR (#PCDATA)>
-     <!ELEMENT Ded_WallGermanRegFR (#PCDATA)>
-     <!ELEMENT CalcBaseFr (#PCDATA)>
-     <!ELEMENT AmountFr (#PCDATA)>
-     <!ELEMENT StartRightFr (#PCDATA)>
-     <!ELEMENT MnthCostFr (#PCDATA)>
-     <!ELEMENT InssNbrReplFr (#PCDATA)>
-     <!ELEMENT InssNbrAuthFr (#PCDATA)>
-     <!ELEMENT OrigAttFr (#PCDATA)>
-     <!ELEMENT LinkBlocFr (#PCDATA)>
-     <!ELEMENT PresBlcDetFr (#PCDATA)>
-]>
+<!-- Codes dï¿½ductions -->
 <List>
     <ann4>
         <CodeDMFA>0001</CodeDMFA>
-        <Description>Réduction des cotisations personnelles pour les travailleurs ayant un bonus à l'emploi</Description>
+        <Description>Rï¿½duction des cotisations personnelles pour les travailleurs ayant un bonus ï¿½ l'emploi</Description>
         <Vanaf>2000/1</Vanaf>
         <Tot>9999/4</Tot>
-        <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+        <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
         <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
         <Ded_BxlRegFR>-</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -50,10 +24,10 @@
     </ann4>
     <ann4>
         <CodeDMFA>0501</CodeDMFA>
-        <Description>Réduction des cotisations personnelles pour le secteur du dragage</Description>
+        <Description>Rï¿½duction des cotisations personnelles pour le secteur du dragage</Description>
         <Vanaf>2000/1</Vanaf>
         <Tot>2014/2</Tot>
-        <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+        <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
         <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
         <Ded_BxlRegFR>-</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -70,10 +44,10 @@
     </ann4>
     <ann4>
         <CodeDMFA>0600</CodeDMFA>
-        <Description>Réduction des cotisations personnelles pour les travailleurs licenciés dans le cadre d'une restructuration - contrat de travail conclu avant le 1/1/2007</Description>
+        <Description>Rï¿½duction des cotisations personnelles pour les travailleurs licenciï¿½s dans le cadre d'une restructuration - contrat de travail conclu avant le 1/1/2007</Description>
         <Vanaf>2004/3</Vanaf>
         <Tot>2007/2</Tot>
-        <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+        <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
         <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
         <Ded_BxlRegFR>-</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -90,10 +64,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>0601</CodeDMFA>
-    <Description>Réduction des cotisations personnelles pour les travailleurs licenciés dans le cadre d'une restructuration</Description>
+    <Description>Rï¿½duction des cotisations personnelles pour les travailleurs licenciï¿½s dans le cadre d'une restructuration</Description>
     <Vanaf>2007/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -113,7 +87,7 @@
     <Description>Bonus sport</Description>
     <Vanaf>2022/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -130,10 +104,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>0611</CodeDMFA>
-    <Description>Réduction des cotisations personnelles pour les pensionnés qui travaillent dans le secteur de la santé</Description>
+    <Description>Rï¿½duction des cotisations personnelles pour les pensionnï¿½s qui travaillent dans le secteur de la santï¿½</Description>
     <Vanaf>2022/3</Vanaf>
     <Tot>2022/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -150,10 +124,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1001</CodeDMFA>
-    <Description>Réduction structurelle</Description>
+    <Description>Rï¿½duction structurelle</Description>
     <Vanaf>1999/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -170,10 +144,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1101</CodeDMFA>
-    <Description>Plan d'embauche pour demandeurs d'emploi répondant à la condition des 12 mois</Description>
+    <Description>Plan d'embauche pour demandeurs d'emploi rï¿½pondant ï¿½ la condition des 12 mois</Description>
     <Vanaf>1995/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -190,10 +164,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1101</CodeDMFA>
-    <Description>Période transitoire.  Plan d'embauche pour demandeurs d'emploi répondant à la condition des 12 mois</Description>
+    <Description>Pï¿½riode transitoire.  Plan d'embauche pour demandeurs d'emploi rï¿½pondant ï¿½ la condition des 12 mois</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2004/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -210,10 +184,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1102</CodeDMFA>
-    <Description>Plan d'embauche pour demandeurs d'emploi répondant à la condition des 24 mois</Description>
+    <Description>Plan d'embauche pour demandeurs d'emploi rï¿½pondant ï¿½ la condition des 24 mois</Description>
     <Vanaf>1995/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -230,10 +204,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1102</CodeDMFA>
-    <Description>Période transitoire.  Plan d'embauche pour demandeurs d'emploi répondant à la condition des 24 mois</Description>
+    <Description>Pï¿½riode transitoire.  Plan d'embauche pour demandeurs d'emploi rï¿½pondant ï¿½ la condition des 24 mois</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2004/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -253,7 +227,7 @@
     <Description>Plan d'embauche pour demandeurs d'emploi dans les entreprises d'insertion</Description>
     <Vanaf>1996/3</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -270,10 +244,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1103</CodeDMFA>
-    <Description>Période transitoire.  Plan d'embauche pour demandeurs d'emploi dans les entreprises d'insertion</Description>
+    <Description>Pï¿½riode transitoire.  Plan d'embauche pour demandeurs d'emploi dans les entreprises d'insertion</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2007/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -293,7 +267,7 @@
     <Description>Plan d'embauche pour demandeurs d'emploi de plus de 50 ans</Description>
     <Vanaf>1996/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -310,10 +284,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1105</CodeDMFA>
-    <Description>Plan d'embauche pour demandeurs d'emploi répondant à la condition des 12 mois (&gt; 45 ans)</Description>
+    <Description>Plan d'embauche pour demandeurs d'emploi rï¿½pondant ï¿½ la condition des 12 mois (&gt; 45 ans)</Description>
     <Vanaf>2000/3</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -330,10 +304,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1105</CodeDMFA>
-    <Description>Période transitoire.  Plan d'embauche pour demandeurs d'emploi répondant à la condition des 12 mois (&gt; 45 ans)</Description>
+    <Description>Pï¿½riode transitoire.  Plan d'embauche pour demandeurs d'emploi rï¿½pondant ï¿½ la condition des 12 mois (&gt; 45 ans)</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2008/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -350,10 +324,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1106</CodeDMFA>
-    <Description>Plan d'embauche pour demandeurs d'emploi répondant à la condition des 24 mois (&gt; 45 ans)</Description>
+    <Description>Plan d'embauche pour demandeurs d'emploi rï¿½pondant ï¿½ la condition des 24 mois (&gt; 45 ans)</Description>
     <Vanaf>2000/3</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -370,10 +344,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1106</CodeDMFA>
-    <Description>Période transitoire.  Plan d'embauche pour demandeurs d'emploi répondant à la condition des 24 mois (&gt; 45 ans)</Description>
+    <Description>Pï¿½riode transitoire.  Plan d'embauche pour demandeurs d'emploi rï¿½pondant ï¿½ la condition des 24 mois (&gt; 45 ans)</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2008/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -390,10 +364,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1111</CodeDMFA>
-    <Description>Plan Activa - promotion de mise à l'emploi des demandeurs d'emploi de longue durée - 75%</Description>
+    <Description>Plan Activa - promotion de mise ï¿½ l'emploi des demandeurs d'emploi de longue durï¿½e - 75%</Description>
     <Vanaf>2002/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -410,10 +384,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1111</CodeDMFA>
-    <Description>Période transitoire. Plan Activa conclu avant le 1.1.2004 - promotion de mise à l'emploi des demandeurs d'emploi de longue durée - 75%</Description>
+    <Description>Pï¿½riode transitoire. Plan Activa conclu avant le 1.1.2004 - promotion de mise ï¿½ l'emploi des demandeurs d'emploi de longue durï¿½e - 75%</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2008/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -430,10 +404,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1112</CodeDMFA>
-    <Description>Plan Activa - promotion de mise à l'emploi des demandeurs d'emploi de longue durée - 100%</Description>
+    <Description>Plan Activa - promotion de mise ï¿½ l'emploi des demandeurs d'emploi de longue durï¿½e - 100%</Description>
     <Vanaf>2002/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -450,10 +424,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1112</CodeDMFA>
-    <Description>Période transitoire.  Plan Activa conclu avant le 1.1.2004 - promotion de mise à l'emploi des demandeurs d'emploi de longue durée - 100%</Description>
+    <Description>Pï¿½riode transitoire.  Plan Activa conclu avant le 1.1.2004 - promotion de mise ï¿½ l'emploi des demandeurs d'emploi de longue durï¿½e - 100%</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2008/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -473,7 +447,7 @@
     <Description>Plan plus un</Description>
     <Vanaf>1994/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -490,10 +464,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1121</CodeDMFA>
-    <Description>Période transitoire.  Plan plus un</Description>
+    <Description>Pï¿½riode transitoire.  Plan plus un</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2006/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -513,7 +487,7 @@
     <Description>Plan plus deux</Description>
     <Vanaf>1997/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -530,10 +504,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1122</CodeDMFA>
-    <Description>Période transitoire.  Plan plus deux</Description>
+    <Description>Pï¿½riode transitoire.  Plan plus deux</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2006/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -553,7 +527,7 @@
     <Description>Plan plus trois</Description>
     <Vanaf>1997/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -570,10 +544,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1123</CodeDMFA>
-    <Description>Période transitoire.  Plan plus trois</Description>
+    <Description>Pï¿½riode transitoire.  Plan plus trois</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2005/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -590,10 +564,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1124</CodeDMFA>
-    <Description>Plan plus un - ancien intérimaire</Description>
+    <Description>Plan plus un - ancien intï¿½rimaire</Description>
     <Vanaf>1998/4</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -610,10 +584,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1124</CodeDMFA>
-    <Description>Période transitoire.  Plan plus un - ancien intérimaire</Description>
+    <Description>Pï¿½riode transitoire.  Plan plus un - ancien intï¿½rimaire</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2006/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -630,10 +604,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1125</CodeDMFA>
-    <Description>Plan plus deux - ancien intérimaire</Description>
+    <Description>Plan plus deux - ancien intï¿½rimaire</Description>
     <Vanaf>1998/4</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -650,10 +624,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1125</CodeDMFA>
-    <Description>Période transitoire.  Plan plus deux - ancien intérimaire</Description>
+    <Description>Pï¿½riode transitoire.  Plan plus deux - ancien intï¿½rimaire</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2006/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -670,10 +644,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1126</CodeDMFA>
-    <Description>Plan plus trois - ancien intérimaire</Description>
+    <Description>Plan plus trois - ancien intï¿½rimaire</Description>
     <Vanaf>1998/4</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -690,10 +664,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1126</CodeDMFA>
-    <Description>Période transitoire.  Plan plus trois - ancien intérimaire</Description>
+    <Description>Pï¿½riode transitoire.  Plan plus trois - ancien intï¿½rimaire</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2005/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -710,10 +684,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1131</CodeDMFA>
-    <Description>Réduction AR n°483 - Réduction pour l'engagement d'un premier travailleur en qualité de personnel de maison (gens de maison (ouvriers et employés); domestiques)</Description>
+    <Description>Rï¿½duction AR nï¿½483 - Rï¿½duction pour l'engagement d'un premier travailleur en qualitï¿½ de personnel de maison (gens de maison (ouvriers et employï¿½s); domestiques)</Description>
     <Vanaf>1987/1</Vanaf>
     <Tot>2013/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -730,10 +704,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1141</CodeDMFA>
-    <Description>Activation des allocations de chômage</Description>
+    <Description>Activation des allocations de chï¿½mage</Description>
     <Vanaf>1998/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -750,10 +724,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1141</CodeDMFA>
-    <Description>Période transitoire.  Activation des allocations de chômage</Description>
+    <Description>Pï¿½riode transitoire.  Activation des allocations de chï¿½mage</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2004/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -770,10 +744,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1142</CodeDMFA>
-    <Description>Économie de réinsertion sociale conclue avant le 1.1.2004</Description>
+    <Description>ï¿½conomie de rï¿½insertion sociale conclue avant le 1.1.2004</Description>
     <Vanaf>1999/3</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -790,10 +764,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1142</CodeDMFA>
-    <Description>Période transitoire : économie de réinsertion sociale conclue avant le 1.1.2004</Description>
+    <Description>Pï¿½riode transitoire : ï¿½conomie de rï¿½insertion sociale conclue avant le 1.1.2004</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2020/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -810,10 +784,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1142</CodeDMFA>
-    <Description>Période transitoire : économie de réinsertion sociale conclue avant le 1.1.2004</Description>
+    <Description>Pï¿½riode transitoire : ï¿½conomie de rï¿½insertion sociale conclue avant le 1.1.2004</Description>
     <Vanaf>2021/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -833,7 +807,7 @@
     <Description>Convention de premier emploi des jeunes, emploi -formation, 495,79 EUR</Description>
     <Vanaf>2000/2</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -850,10 +824,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1201</CodeDMFA>
-    <Description>Période transitoire. Convention de premier emploi des jeunes conclue avant le 1/1/2004</Description>
+    <Description>Pï¿½riode transitoire. Convention de premier emploi des jeunes conclue avant le 1/1/2004</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2014/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -873,7 +847,7 @@
     <Description>Convention de premier emploi des jeunes, emploi -formation, 1115,52 EUR</Description>
     <Vanaf>2000/2</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -893,7 +867,7 @@
     <Description>Convention de premier emploi des jeunes, 495,79 EUR</Description>
     <Vanaf>2000/2</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -913,7 +887,7 @@
     <Description>Convention de premier emploi des jeunes, 1115,52 EUR</Description>
     <Vanaf>2000/2</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -933,7 +907,7 @@
     <Description>Travailleurs qui restent en service au terme de la convention de premier emploi des jeunes</Description>
     <Vanaf>2000/2</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -950,10 +924,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1205</CodeDMFA>
-    <Description>Période transitoire.  Travailleurs qui restent en service au terme de la convention de premier emploi des jeunes</Description>
+    <Description>Pï¿½riode transitoire.  Travailleurs qui restent en service au terme de la convention de premier emploi des jeunes</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2004/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -970,10 +944,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1211</CodeDMFA>
-    <Description>Jeunes occupés en exécution d'une convention emploi - formation (A.R. 495) conclue avant le 1.1.2004</Description>
+    <Description>Jeunes occupï¿½s en exï¿½cution d'une convention emploi - formation (A.R. 495) conclue avant le 1.1.2004</Description>
     <Vanaf>1991/3</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -990,10 +964,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1211</CodeDMFA>
-    <Description>Période transitoire.  Jeunes occupés en exécution d'une convention emploi - formation (A.R. 495) conclue avant 1.1.2004</Description>
+    <Description>Pï¿½riode transitoire.  Jeunes occupï¿½s en exï¿½cution d'une convention emploi - formation (A.R. 495) conclue avant 1.1.2004</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2006/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1010,10 +984,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1212</CodeDMFA>
-    <Description>Jeunes sous contrat de travail ou de stage dans le cadre de l'obligation scolaire à temps partiel (A.R. 495)</Description>
+    <Description>Jeunes sous contrat de travail ou de stage dans le cadre de l'obligation scolaire ï¿½ temps partiel (A.R. 495)</Description>
     <Vanaf>1991/3</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1033,7 +1007,7 @@
     <Description>Apprentis reconnus (A.R. 495)</Description>
     <Vanaf>1987/3</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1050,10 +1024,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1213</CodeDMFA>
-    <Description>Période transitoire.  Apprentis reconnus (A.R. 495)</Description>
+    <Description>Pï¿½riode transitoire.  Apprentis reconnus (A.R. 495)</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2006/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1070,10 +1044,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1311</CodeDMFA>
-    <Description>Remplaçant à temps partiel d'un travailleur en interruption de carrière</Description>
+    <Description>Remplaï¿½ant ï¿½ temps partiel d'un travailleur en interruption de carriï¿½re</Description>
     <Vanaf>1996/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1090,10 +1064,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1312</CodeDMFA>
-    <Description>Remplaçant à temps plein d'un travailleur en interruption de carrière</Description>
+    <Description>Remplaï¿½ant ï¿½ temps plein d'un travailleur en interruption de carriï¿½re</Description>
     <Vanaf>1996/1</Vanaf>
     <Tot>2002/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1110,10 +1084,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1321</CodeDMFA>
-    <Description>Remplaçant à temps partiel d'un travailleur en prépension à mi-temps</Description>
+    <Description>Remplaï¿½ant ï¿½ temps partiel d'un travailleur en prï¿½pension ï¿½ mi-temps</Description>
     <Vanaf>1996/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1130,10 +1104,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1322</CodeDMFA>
-    <Description>Remplaçant à temps plein d'un travailleur en prépension à mi-temps</Description>
+    <Description>Remplaï¿½ant ï¿½ temps plein d'un travailleur en prï¿½pension ï¿½ mi-temps</Description>
     <Vanaf>1996/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1153,7 +1127,7 @@
     <Description>Plan Vande Lanotte 1</Description>
     <Vanaf>1997/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1170,10 +1144,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1331</CodeDMFA>
-    <Description>Période transitoire.  Plan Vande Lanotte 1</Description>
+    <Description>Pï¿½riode transitoire.  Plan Vande Lanotte 1</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2005/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1193,7 +1167,7 @@
     <Description>Plan Vande Lanotte 2</Description>
     <Vanaf>1998/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1213,7 +1187,7 @@
     <Description>Plan Vande Lanotte 3</Description>
     <Vanaf>1998/4</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1230,10 +1204,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1333</CodeDMFA>
-    <Description>Période transitoire.  Plan Vande Lanotte 3</Description>
+    <Description>Pï¿½riode transitoire.  Plan Vande Lanotte 3</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2005/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1253,7 +1227,7 @@
     <Description>Semaine des quatre jours  (loi du 26 mars 1999)</Description>
     <Vanaf>1998/4</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1270,10 +1244,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1341</CodeDMFA>
-    <Description>Période transitoire. Semaine des quatre jours (loi du 26 mars 1999)</Description>
+    <Description>Pï¿½riode transitoire. Semaine des quatre jours (loi du 26 mars 1999)</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2005/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1290,10 +1264,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1345</CodeDMFA>
-    <Description>La semaine de quatre jours - réduction unique calculée en une fois</Description>
+    <Description>La semaine de quatre jours - rï¿½duction unique calculï¿½e en une fois</Description>
     <Vanaf>2002/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1310,10 +1284,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1346</CodeDMFA>
-    <Description>La semaine de quatre jours - réduction unique calculée en quatre tranches</Description>
+    <Description>La semaine de quatre jours - rï¿½duction unique calculï¿½e en quatre tranches</Description>
     <Vanaf>2002/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1330,10 +1304,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1350</CodeDMFA>
-    <Description>Réduction du temps de travail à 38 heures par semaine</Description>
+    <Description>Rï¿½duction du temps de travail ï¿½ 38 heures par semaine</Description>
     <Vanaf>2001/4</Vanaf>
     <Tot>2003/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1350,10 +1324,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1351</CodeDMFA>
-    <Description>Réduction du temps de travail en deçà de 38 heures par semaine - réduction unique calculée en une fois</Description>
+    <Description>Rï¿½duction du temps de travail en deï¿½ï¿½ de 38 heures par semaine - rï¿½duction unique calculï¿½e en une fois</Description>
     <Vanaf>2002/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1370,10 +1344,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1352</CodeDMFA>
-    <Description>Réduction du temps de travail en deçà de 38 heures par semaine - réduction unique calculée en quatre tranches</Description>
+    <Description>Rï¿½duction du temps de travail en deï¿½ï¿½ de 38 heures par semaine - rï¿½duction unique calculï¿½e en quatre tranches</Description>
     <Vanaf>2002/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1390,10 +1364,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1353</CodeDMFA>
-    <Description>Réduction du temps de travail en deçà de 38 heures par semaine - réduction de maintien</Description>
+    <Description>Rï¿½duction du temps de travail en deï¿½ï¿½ de 38 heures par semaine - rï¿½duction de maintien</Description>
     <Vanaf>2002/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1410,10 +1384,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1353</CodeDMFA>
-    <Description>Période transitoire.  Réduction du temps de travail en deçà de 38 heures par semaine - réduction de maintien</Description>
+    <Description>Pï¿½riode transitoire.  Rï¿½duction du temps de travail en deï¿½ï¿½ de 38 heures par semaine - rï¿½duction de maintien</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2007/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1430,10 +1404,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1501</CodeDMFA>
-    <Description>Réduction des cotisations patronales pour le secteur du dragage</Description>
+    <Description>Rï¿½duction des cotisations patronales pour le secteur du dragage</Description>
     <Vanaf>1997/1</Vanaf>
     <Tot>2014/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1453,7 +1427,7 @@
     <Description>Recherche scientifique</Description>
     <Vanaf>1996/4</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1470,10 +1444,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1521</CodeDMFA>
-    <Description>Réduction des cotisations patronales pour les parents d'accueil reconnus</Description>
+    <Description>Rï¿½duction des cotisations patronales pour les parents d'accueil reconnus</Description>
     <Vanaf>2003/2</Vanaf>
     <Tot>2013/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1490,10 +1464,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>1531</CodeDMFA>
-    <Description>Réduction des cotisations patronales pour les artistes</Description>
+    <Description>Rï¿½duction des cotisations patronales pour les artistes</Description>
     <Vanaf>2003/3</Vanaf>
     <Tot>2013/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1513,7 +1487,7 @@
     <Description>Remboursement des frais de gestion S.S.A. - premier travailleur</Description>
     <Vanaf>1994/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1533,7 +1507,7 @@
     <Description>Remboursement des frais de gestion S.S.A. - premier travailleur</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1550,10 +1524,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>2002</CodeDMFA>
-    <Description>Remboursement des frais de gestion S.S.A. - deuxième travailleur</Description>
+    <Description>Remboursement des frais de gestion S.S.A. - deuxiï¿½me travailleur</Description>
     <Vanaf>1994/1</Vanaf>
     <Tot>2003/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1570,10 +1544,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3000</CodeDMFA>
-    <Description>Réduction structurelle</Description>
+    <Description>Rï¿½duction structurelle</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1590,10 +1564,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3100</CodeDMFA>
-    <Description>Travailleurs âgés d'au moins 57 ans</Description>
+    <Description>Travailleurs ï¿½gï¿½s d'au moins 57 ans</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1610,10 +1584,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3101</CodeDMFA>
-    <Description>Travailleurs âgés de 50 à 56 ans</Description>
+    <Description>Travailleurs ï¿½gï¿½s de 50 ï¿½ 56 ans</Description>
     <Vanaf>2007/2</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -1630,10 +1604,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3102</CodeDMFA>
-    <Description>Travailleurs âgés</Description>
+    <Description>Travailleurs ï¿½gï¿½s</Description>
     <Vanaf>2013/1</Vanaf>
     <Tot>2016/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1650,10 +1624,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3102</CodeDMFA>
-    <Description>Travailleurs âgés</Description>
+    <Description>Travailleurs ï¿½gï¿½s</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2016/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1670,10 +1644,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3102</CodeDMFA>
-    <Description>Travailleurs âgés</Description>
+    <Description>Travailleurs ï¿½gï¿½s</Description>
     <Vanaf>2016/4</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1690,10 +1664,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3102</CodeDMFA>
-    <Description>Travailleurs âgés</Description>
+    <Description>Travailleurs ï¿½gï¿½s</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -1710,10 +1684,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3200</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée de moins de 25 ans pendant 312 jours dans une période de 18 mois ou de moins de 45 ans pendant 312 jours dans une période de 18 mois ou pendant 156 jours dans une période de 9 mois pour les demandeurs d'emploi suite à une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e de moins de 25 ans pendant 312 jours dans une pï¿½riode de 18 mois ou de moins de 45 ans pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 156 jours dans une pï¿½riode de 9 mois pour les demandeurs d'emploi suite ï¿½ une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2016/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1730,10 +1704,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3200</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée de moins de 25 ans pendant 312 jours dans une période de 18 mois ou de moins de 45 ans pendant 312 jours dans une période de 18 mois ou pendant 156 jours dans une période de 9 mois pour les demandeurs d'emploi suite à une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e de moins de 25 ans pendant 312 jours dans une pï¿½riode de 18 mois ou de moins de 45 ans pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 156 jours dans une pï¿½riode de 9 mois pour les demandeurs d'emploi suite ï¿½ une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1750,10 +1724,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3200</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée de moins de 25 ans pendant 312 jours dans une période de 18 mois ou de moins de 45 ans pendant 312 jours dans une période de 18 mois ou pendant 156 jours dans une période de 9 mois pour les demandeurs d'emploi suite à une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e de moins de 25 ans pendant 312 jours dans une pï¿½riode de 18 mois ou de moins de 45 ans pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 156 jours dans une pï¿½riode de 9 mois pour les demandeurs d'emploi suite ï¿½ une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -1770,10 +1744,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3200</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée de moins de 25 ans pendant 312 jours dans une période de 18 mois ou de  moins de 45 ans pendant 312 jours dans une période de 18 mois ou pendant 156 jours dans une période de 9 mois pour les demandeurs d'emploi suite à une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e de moins de 25 ans pendant 312 jours dans une pï¿½riode de 18 mois ou de  moins de 45 ans pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 156 jours dans une pï¿½riode de 9 mois pour les demandeurs d'emploi suite ï¿½ une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -1790,10 +1764,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3200</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée de moins de 25 ans pendant 312 jours dans une période de 18 mois ou de  moins de 45 ans pendant 312 jours dans une période de 18 mois ou pendant 156 jours dans une période de 9 mois pour les demandeurs d'emploi suite à une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e de moins de 25 ans pendant 312 jours dans une pï¿½riode de 18 mois ou de  moins de 45 ans pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 156 jours dans une pï¿½riode de 9 mois pour les demandeurs d'emploi suite ï¿½ une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2019/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -1810,10 +1784,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3201</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans pendant 624 jours dans une période de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2016/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1830,10 +1804,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3201</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans pendant 624 jours dans une période de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1850,10 +1824,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3201</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans pendant 624 jours dans une période de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -1870,10 +1844,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3201</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans pendant 624 jours dans une période de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -1890,10 +1864,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3201</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans pendant 624 jours dans une période de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2020/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -1910,10 +1884,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3202</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 936 jours dans une période de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 936 jours dans une pï¿½riode de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2016/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1930,10 +1904,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3202</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 936 jours dans une période de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 936 jours dans une pï¿½riode de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -1950,10 +1924,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3202</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 936 jours dans une période de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 936 jours dans une pï¿½riode de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -1970,10 +1944,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3202</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 936 jours dans une période de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 936 jours dans une pï¿½riode de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -1990,10 +1964,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3202</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 936 jours dans une période de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 936 jours dans une pï¿½riode de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2021/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2010,10 +1984,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3203</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 1560 jours dans une période de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 1560 jours dans une pï¿½riode de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2016/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2030,10 +2004,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3203</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 1560 jours dans une période de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 1560 jours dans une pï¿½riode de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2050,10 +2024,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3203</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 1560 jours dans une période de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 1560 jours dans une pï¿½riode de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2070,10 +2044,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3203</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 1560 jours dans une période de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 1560 jours dans une pï¿½riode de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2090,10 +2064,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3203</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 1560 jours dans une période de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 1560 jours dans une pï¿½riode de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2023/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2110,10 +2084,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3204</CodeDMFA>
-    <Description>Plan Activa - Agents de prévention et de sécurité Demandeurs d'emploi de longue durée moins de 25 ans pendant 312 jours dans une période de 18  mois ou au moins 25 ans et moins de 45 ans pendant 624 jours dans une période de 36 mois  Codes ONEM : C9, C10, C21 ou C22</Description>
+    <Description>Plan Activa - Agents de prï¿½vention et de sï¿½curitï¿½ Demandeurs d'emploi de longue durï¿½e moins de 25 ans pendant 312 jours dans une pï¿½riode de 18  mois ou au moins 25 ans et moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois  Codes ONEM : C9, C10, C21 ou C22</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2130,10 +2104,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3204</CodeDMFA>
-    <Description>Plan Activa - Agents de prévention et de sécurité Demandeurs d'emploi de longue durée moins de 25 ans pendant 312 jours dans une période de 18  mois ou au moins 25 ans et moins de 45 ans pendant 624 jours dans une période de 36 mois  Codes ONEM : C9, C10, C21 ou C22</Description>
+    <Description>Plan Activa - Agents de prï¿½vention et de sï¿½curitï¿½ Demandeurs d'emploi de longue durï¿½e moins de 25 ans pendant 312 jours dans une pï¿½riode de 18  mois ou au moins 25 ans et moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois  Codes ONEM : C9, C10, C21 ou C22</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2150,10 +2124,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3204</CodeDMFA>
-    <Description>Plan Activa - Agents de prévention et de sécurité Demandeurs d'emploi de longue durée moins de 25 ans pendant 312 jours dans une période de 18  mois ou au moins 25 ans et moins de 45 ans pendant 624 jours dans une période de 36 mois  Codes ONEM : C9, C10, C21 ou C22</Description>
+    <Description>Plan Activa - Agents de prï¿½vention et de sï¿½curitï¿½ Demandeurs d'emploi de longue durï¿½e moins de 25 ans pendant 312 jours dans une pï¿½riode de 18  mois ou au moins 25 ans et moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois  Codes ONEM : C9, C10, C21 ou C22</Description>
     <Vanaf>2018/1</Vanaf>
     <Tot>2019/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2170,10 +2144,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3205</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée moins de 27 ans, pendant 312 jours dans une période de 18 mois et moins qualifiés Codes ONEM : C40 ou C41, ou à partir du 2014/1 demandeurs d'emploi de longue durée moins de 30 ans, pendant 156 jours dans une période de 9 mois et moins qualifiés Codes ONEM : C42 ou C43</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 27 ans, pendant 312 jours dans une pï¿½riode de 18 mois et moins qualifiï¿½s Codes ONEM : C40 ou C41, ou ï¿½ partir du 2014/1 demandeurs d'emploi de longue durï¿½e moins de 30 ans, pendant 156 jours dans une pï¿½riode de 9 mois et moins qualifiï¿½s Codes ONEM : C42 ou C43</Description>
     <Vanaf>2013/3</Vanaf>
     <Tot>2016/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2190,10 +2164,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3205</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée moins de 27 ans, pendant 312 jours dans une période de 18 mois et moins qualifiés Codes ONEM : C40 ou C41, ou à partir du 2014/1 demandeurs d'emploi de longue durée moins de 30 ans, pendant 156 jours dans une période de 9 mois et moins qualifiés Codes ONEM : C42 ou C43</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 27 ans, pendant 312 jours dans une pï¿½riode de 18 mois et moins qualifiï¿½s Codes ONEM : C40 ou C41, ou ï¿½ partir du 2014/1 demandeurs d'emploi de longue durï¿½e moins de 30 ans, pendant 156 jours dans une pï¿½riode de 9 mois et moins qualifiï¿½s Codes ONEM : C42 ou C43</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2210,10 +2184,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3205</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée moins de 27 ans, pendant 312 jours dans une période de 18 mois et moins qualifiés Codes ONEM : C40 ou C41, ou à partir du 2014/1 demandeurs d'emploi de longue durée moins de 30 ans, pendant 156 jours dans une période de 9 mois et moins qualifiés Codes ONEM : C42 ou C43</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 27 ans, pendant 312 jours dans une pï¿½riode de 18 mois et moins qualifiï¿½s Codes ONEM : C40 ou C41, ou ï¿½ partir du 2014/1 demandeurs d'emploi de longue durï¿½e moins de 30 ans, pendant 156 jours dans une pï¿½riode de 9 mois et moins qualifiï¿½s Codes ONEM : C42 ou C43</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2230,10 +2204,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3205</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée moins de 27 ans, pendant 312 jours dans une période de 18 mois et moins qualifiés Codes ONEM : C40 ou C41, ou à partir du 2014/1 demandeurs d'emploi de longue durée moins de 30 ans, pendant 156 jours dans une période de 9 mois et moins qualifiés Codes ONEM : C42 ou C43</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 27 ans, pendant 312 jours dans une pï¿½riode de 18 mois et moins qualifiï¿½s Codes ONEM : C40 ou C41, ou ï¿½ partir du 2014/1 demandeurs d'emploi de longue durï¿½e moins de 30 ans, pendant 156 jours dans une pï¿½riode de 9 mois et moins qualifiï¿½s Codes ONEM : C42 ou C43</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2250,10 +2224,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3205</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée moins de 27 ans, pendant 312 jours dans une période de 18 mois et moins qualifiés Codes ONEM : C40 ou C41, ou à partir du 2014/1 demandeurs d'emploi de longue durée moins de 30 ans, pendant 156 jours dans une période de 9 mois et moins qualifiés Codes ONEM : C42 ou C43</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 27 ans, pendant 312 jours dans une pï¿½riode de 18 mois et moins qualifiï¿½s Codes ONEM : C40 ou C41, ou ï¿½ partir du 2014/1 demandeurs d'emploi de longue durï¿½e moins de 30 ans, pendant 156 jours dans une pï¿½riode de 9 mois et moins qualifiï¿½s Codes ONEM : C42 ou C43</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2021/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2270,10 +2244,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3210</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2016/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2290,10 +2264,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3210</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2310,10 +2284,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3210</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2330,10 +2304,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3210</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2350,10 +2324,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3210</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2023/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2370,10 +2344,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3211</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 312 jours dans une période de 18 mois  ou pendant 468 jours dans une période de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 312 jours dans une pï¿½riode de 18 mois  ou pendant 468 jours dans une pï¿½riode de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2016/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2390,10 +2364,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3211</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 312 jours dans une période de 18 mois  ou pendant 468 jours dans une période de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 312 jours dans une pï¿½riode de 18 mois  ou pendant 468 jours dans une pï¿½riode de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2410,10 +2384,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3211</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 312 jours dans une période de 18 mois  ou pendant 468 jours dans une période de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 312 jours dans une pï¿½riode de 18 mois  ou pendant 468 jours dans une pï¿½riode de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2430,10 +2404,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3211</CodeDMFA>
-    <Description>Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 312 jours dans une période de 18 mois  ou pendant 468 jours dans une période de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
+    <Description>Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 312 jours dans une pï¿½riode de 18 mois  ou pendant 468 jours dans une pï¿½riode de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2450,10 +2424,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3211</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 312 jours dans une période de 18 mois  ou pendant 468 jours dans une période de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 312 jours dans une pï¿½riode de 18 mois  ou pendant 468 jours dans une pï¿½riode de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2023/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2470,10 +2444,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3212</CodeDMFA>
-    <Description>Plan Activa - Agents de prévention et de sécurité  Demandeurs d'emploi de longue durée  au moins 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D7 ou D8</Description>
+    <Description>Plan Activa - Agents de prï¿½vention et de sï¿½curitï¿½  Demandeurs d'emploi de longue durï¿½e  au moins 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D7 ou D8</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2490,10 +2464,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3212</CodeDMFA>
-    <Description>Plan Activa - Agents de prévention et de sécurité  Demandeurs d'emploi de longue durée  au moins 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D7 ou D8</Description>
+    <Description>Plan Activa - Agents de prï¿½vention et de sï¿½curitï¿½  Demandeurs d'emploi de longue durï¿½e  au moins 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D7 ou D8</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2510,10 +2484,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3212</CodeDMFA>
-    <Description>Plan Activa - Agents de prévention et de sécurité  Demandeurs d'emploi de longue durée  au moins 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D7 ou D8</Description>
+    <Description>Plan Activa - Agents de prï¿½vention et de sï¿½curitï¿½  Demandeurs d'emploi de longue durï¿½e  au moins 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D7 ou D8</Description>
     <Vanaf>2018/1</Vanaf>
     <Tot>2019/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2530,10 +2504,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3220</CodeDMFA>
-    <Description>Programme de transition professionnelle moins de 25 ans moins qualifiés au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocations</Description>
+    <Description>Programme de transition professionnelle moins de 25 ans moins qualifiï¿½s au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocations</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2015/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2550,10 +2524,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3220</CodeDMFA>
-    <Description>Programme de transition professionnelle moins de 25 ans moins qualifiés au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocations</Description>
+    <Description>Programme de transition professionnelle moins de 25 ans moins qualifiï¿½s au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocations</Description>
     <Vanaf>2015/4</Vanaf>
     <Tot>2016/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2570,10 +2544,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3220</CodeDMFA>
-    <Description>Programme de transition professionnelle moins de 25 ans moins qualifiés au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocation</Description>
+    <Description>Programme de transition professionnelle moins de 25 ans moins qualifiï¿½s au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocation</Description>
     <Vanaf>2016/4</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2590,10 +2564,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3220</CodeDMFA>
-    <Description>Programme de transition professionnelle moins de 25 ans moins qualifiés au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocation</Description>
+    <Description>Programme de transition professionnelle moins de 25 ans moins qualifiï¿½s au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocation</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2613,7 +2587,7 @@
     <Description>Programme de transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2015/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2633,7 +2607,7 @@
     <Description>Programme de transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</Description>
     <Vanaf>2015/4</Vanaf>
     <Tot>2016/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2653,7 +2627,7 @@
     <Description>Programme de transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</Description>
     <Vanaf>2016/4</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2673,7 +2647,7 @@
     <Description>Programme de transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2693,7 +2667,7 @@
     <Description>Programme de transition professionnelle au moins 45 ans, au moins 12 mois d'allocations</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2015/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2713,7 +2687,7 @@
     <Description>Programme de transition professionnelle au moins 45 ans, au moins 12 mois d'allocations</Description>
     <Vanaf>2015/4</Vanaf>
     <Tot>2016/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2733,7 +2707,7 @@
     <Description>Programme de transition professionnelle au moins 45 ans, au moins 12 mois d'allocations</Description>
     <Vanaf>2016/4</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2753,7 +2727,7 @@
     <Description>Programme de transition professionnelle au moins 45 ans, au moins 12 mois d'allocations</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2773,7 +2747,7 @@
     <Description>Programme de transition professionnelle au moins 45 ans, au moins 24 mois d'allocations</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2015/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2793,7 +2767,7 @@
     <Description>Programme de transition professionnelle au moins 45 ans, au moins 24 mois d'allocations</Description>
     <Vanaf>2015/4</Vanaf>
     <Tot>2016/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2813,7 +2787,7 @@
     <Description>Programme de transition professionnelle au moins 45 ans, au moins 24 mois d'allocations</Description>
     <Vanaf>2016/4</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2833,7 +2807,7 @@
     <Description>Programme de transition professionnelle au moins 45 ans, au moins 24 mois d'allocations</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -2853,7 +2827,7 @@
     <Description>Economie d'insertion sociale  moins de 45 ans, 312j/18m ou 156j/9m</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2873,7 +2847,7 @@
     <Description>Economie d'insertion sociale  moins de 45 ans, 312j/18m ou 156j/9m</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2020/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2893,7 +2867,7 @@
     <Description>Economie d'insertion sociale  moins de 45 ans, 312j/18m ou 156j/9m</Description>
     <Vanaf>2021/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2913,7 +2887,7 @@
     <Description>Economie d'insertion sociale  moins de 45 ans, 624j/36m ou 312j/18m</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2933,7 +2907,7 @@
     <Description>Economie d'insertion sociale  moins de 45 ans, 624j/36m ou 312j/18m</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2020/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2953,7 +2927,7 @@
     <Description>Economie d'insertion sociale  moins de 45 ans, 624j/36m ou 312j/18m</Description>
     <Vanaf>2021/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2973,7 +2947,7 @@
     <Description>Economie d'insertion sociale  au moins 45 ans, 156j/9m</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -2993,7 +2967,7 @@
     <Description>Economie d'insertion sociale  au moins 45 ans, 156j/9m</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2020/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -3013,7 +2987,7 @@
     <Description>Economie d'insertion sociale  au moins 45 ans, 156j/9m</Description>
     <Vanaf>2021/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -3033,7 +3007,7 @@
     <Description>Premiers engagements : premier travailleur avec forfait 1000</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3053,7 +3027,7 @@
     <Description>Premiers engagements : premier travailleur avec forfait 400</Description>
     <Vanaf>2005/2</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3070,10 +3044,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3312</CodeDMFA>
-    <Description>Premiers engagements - premier travailleur - plan de relance - première période et mesure transitoire taxshift - périodes restantes</Description>
+    <Description>Premiers engagements - premier travailleur - plan de relance - premiï¿½re pï¿½riode et mesure transitoire taxshift - pï¿½riodes restantes</Description>
     <Vanaf>2012/4</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3090,10 +3064,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3313</CodeDMFA>
-    <Description>Premiers engagements - premier travailleur - plan de relance et  mesure transitoire taxshift  - deuxième période</Description>
+    <Description>Premiers engagements - premier travailleur - plan de relance et  mesure transitoire taxshift  - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2013/1</Vanaf>
     <Tot>2019/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3110,10 +3084,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3314</CodeDMFA>
-    <Description>Premiers engagements - premier travailleur - plan de relance et mesure transitoire taxshift - troisième période</Description>
+    <Description>Premiers engagements - premier travailleur - plan de relance et mesure transitoire taxshift - troisiï¿½me pï¿½riode</Description>
     <Vanaf>2013/1</Vanaf>
     <Tot>2019/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3133,7 +3107,7 @@
     <Description>Premiers engagements - premier travailleur - taxshift</Description>
     <Vanaf>2016/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3150,10 +3124,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3320</CodeDMFA>
-    <Description>Premiers engagements :  deuxième travailleur</Description>
+    <Description>Premiers engagements :  deuxiï¿½me travailleur</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3170,10 +3144,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3321</CodeDMFA>
-    <Description>Premiers engagements - deuxième travailleur - plan de relance et mesure transitoire taxshift - première période</Description>
+    <Description>Premiers engagements - deuxiï¿½me travailleur - plan de relance et mesure transitoire taxshift - premiï¿½re pï¿½riode</Description>
     <Vanaf>2012/4</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3190,10 +3164,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3322</CodeDMFA>
-    <Description>Premiers engagements - deuxième travailleur - plan de relance et mesure transitoire taxshift - deuxième période</Description>
+    <Description>Premiers engagements - deuxiï¿½me travailleur - plan de relance et mesure transitoire taxshift - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2013/1</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3210,10 +3184,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3323</CodeDMFA>
-    <Description>Premiers engagements - deuxième travailleur - mesure transitoire taxshift - troisième période</Description>
+    <Description>Premiers engagements - deuxiï¿½me travailleur - mesure transitoire taxshift - troisiï¿½me pï¿½riode</Description>
     <Vanaf>2017/2</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3230,10 +3204,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3324</CodeDMFA>
-    <Description>Premiers engagements - deuxième travailleur - taxshift - première période</Description>
+    <Description>Premiers engagements - deuxiï¿½me travailleur - taxshift - premiï¿½re pï¿½riode</Description>
     <Vanaf>2016/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3250,10 +3224,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3325</CodeDMFA>
-    <Description>Premiers engagements - deuxième travailleur - taxshift - deuxième période</Description>
+    <Description>Premiers engagements - deuxiï¿½me travailleur - taxshift - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2017/2</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3270,10 +3244,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3326</CodeDMFA>
-    <Description>Premiers engagements - deuxième travailleur - taxshift - troisième période</Description>
+    <Description>Premiers engagements - deuxiï¿½me travailleur - taxshift - troisiï¿½me pï¿½riode</Description>
     <Vanaf>2018/2</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3290,10 +3264,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3330</CodeDMFA>
-    <Description>Premiers engagements :  troisième travailleur</Description>
+    <Description>Premiers engagements :  troisiï¿½me travailleur</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3310,10 +3284,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3331</CodeDMFA>
-    <Description>Premiers engagements - troisième travailleur - plan de relance et mesure transitoire taxshift - première période</Description>
+    <Description>Premiers engagements - troisiï¿½me travailleur - plan de relance et mesure transitoire taxshift - premiï¿½re pï¿½riode</Description>
     <Vanaf>2012/4</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3330,10 +3304,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3332</CodeDMFA>
-    <Description>Premiers engagements - troisième travailleur - plan de relance et mesure transitoire taxshift - deuxième période</Description>
+    <Description>Premiers engagements - troisiï¿½me travailleur - plan de relance et mesure transitoire taxshift - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2013/1</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3350,10 +3324,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3333</CodeDMFA>
-    <Description>Premiers engagements - troisième travailleur - taxshift - première période</Description>
+    <Description>Premiers engagements - troisiï¿½me travailleur - taxshift - premiï¿½re pï¿½riode</Description>
     <Vanaf>2016/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3370,10 +3344,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3334</CodeDMFA>
-    <Description>Premiers engagements - troisième travailleur - taxshift - deuxième période</Description>
+    <Description>Premiers engagements - troisiï¿½me travailleur - taxshift - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2017/2</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3390,10 +3364,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3340</CodeDMFA>
-    <Description>Premiers engagements - quatrième travailleur - plan de relance et mesure transitoire taxshift - première période</Description>
+    <Description>Premiers engagements - quatriï¿½me travailleur - plan de relance et mesure transitoire taxshift - premiï¿½re pï¿½riode</Description>
     <Vanaf>2014/1</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3410,10 +3384,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3341</CodeDMFA>
-    <Description>Premiers engagements - quatrième travailleur - plan de relance et mesure transitoire taxshift - deuxième période</Description>
+    <Description>Premiers engagements - quatriï¿½me travailleur - plan de relance et mesure transitoire taxshift - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2015/2</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3430,10 +3404,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3342</CodeDMFA>
-    <Description>Premiers engagements - quatrième travailleur - taxshift - première période</Description>
+    <Description>Premiers engagements - quatriï¿½me travailleur - taxshift - premiï¿½re pï¿½riode</Description>
     <Vanaf>2016/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3450,10 +3424,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3343</CodeDMFA>
-    <Description>Premiers engagements - quatrième travailleur - taxshift - deuxième période</Description>
+    <Description>Premiers engagements - quatriï¿½me travailleur - taxshift - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2017/2</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3470,10 +3444,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3350</CodeDMFA>
-    <Description>Premiers engagements - cinquième travailleur - plan de relance et mesure transitoire taxshift - première période</Description>
+    <Description>Premiers engagements - cinquiï¿½me travailleur - plan de relance et mesure transitoire taxshift - premiï¿½re pï¿½riode</Description>
     <Vanaf>2014/1</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3490,10 +3464,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3351</CodeDMFA>
-    <Description>Premiers engagements - cinquième travailleur - plan de relance et mesure transitoire taxshift  - deuxième période</Description>
+    <Description>Premiers engagements - cinquiï¿½me travailleur - plan de relance et mesure transitoire taxshift  - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2015/2</Vanaf>
     <Tot>2020/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3510,10 +3484,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3352</CodeDMFA>
-    <Description>Premiers engagements - cinquième travailleur - taxshift - première période</Description>
+    <Description>Premiers engagements - cinquiï¿½me travailleur - taxshift - premiï¿½re pï¿½riode</Description>
     <Vanaf>2016/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3530,10 +3504,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3353</CodeDMFA>
-    <Description>Premiers engagements - cinquième travailleur - taxshift - deuxième période</Description>
+    <Description>Premiers engagements - cinquiï¿½me travailleur - taxshift - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2017/2</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3550,10 +3524,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3360</CodeDMFA>
-    <Description>Premiers engagements - sixième travailleur - taxshift - première période</Description>
+    <Description>Premiers engagements - sixiï¿½me travailleur - taxshift - premiï¿½re pï¿½riode</Description>
     <Vanaf>2016/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3570,10 +3544,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3361</CodeDMFA>
-    <Description>Premiers engagements - sixième travailleur - taxshift - deuxième période</Description>
+    <Description>Premiers engagements - sixiï¿½me travailleur - taxshift - deuxiï¿½me pï¿½riode</Description>
     <Vanaf>2017/2</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3590,10 +3564,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3410</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et moins qualifiés</Description>
+    <Description>Jeunes travailleurs CPE et moins qualifiï¿½s</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2016/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -3610,10 +3584,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3410</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et moins qualifiés</Description>
+    <Description>Jeunes travailleurs CPE et moins qualifiï¿½s</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -3630,10 +3604,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3410</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et moins qualifiés</Description>
+    <Description>Jeunes travailleurs CPE et moins qualifiï¿½s</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -3650,10 +3624,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3410</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et moins qualifiés</Description>
+    <Description>Jeunes travailleurs CPE et moins qualifiï¿½s</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -3670,10 +3644,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3410</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs CPE et moins qualifiés</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs CPE et moins qualifiï¿½s</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2021/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -3690,10 +3664,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3411</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et très peu qualifiés Ou CPE et moins qualifiés handicapés Ou CPE et moins qualifiés d'origine étrangère</Description>
+    <Description>Jeunes travailleurs CPE et trï¿½s peu qualifiï¿½s Ou CPE et moins qualifiï¿½s handicapï¿½s Ou CPE et moins qualifiï¿½s d'origine ï¿½trangï¿½re</Description>
     <Vanaf>2006/2</Vanaf>
     <Tot>2016/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -3710,10 +3684,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3411</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et très peu qualifiés Ou CPE et moins qualifiés handicapés Ou CPE et moins qualifiés d'origine étrangère</Description>
+    <Description>Jeunes travailleurs CPE et trï¿½s peu qualifiï¿½s Ou CPE et moins qualifiï¿½s handicapï¿½s Ou CPE et moins qualifiï¿½s d'origine ï¿½trangï¿½re</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -3730,10 +3704,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3411</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et très peu qualifiés Ou CPE et moins qualifiés handicapés Ou CPE et moins qualifiés d'origine étrangère</Description>
+    <Description>Jeunes travailleurs CPE et trï¿½s peu qualifiï¿½s Ou CPE et moins qualifiï¿½s handicapï¿½s Ou CPE et moins qualifiï¿½s d'origine ï¿½trangï¿½re</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -3750,10 +3724,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3411</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et très peu qualifiés Ou CPE et moins qualifiés handicapés Ou CPE et moins qualifiés d'origine étrangère</Description>
+    <Description>Jeunes travailleurs CPE et trï¿½s peu qualifiï¿½s Ou CPE et moins qualifiï¿½s handicapï¿½s Ou CPE et moins qualifiï¿½s d'origine ï¿½trangï¿½re</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -3770,10 +3744,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3411</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs CPE et très peu qualifiés Ou CPE et moins qualifiés handicapés Ou CPE et moins qualifiés d'origine étrangère</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs CPE et trï¿½s peu qualifiï¿½s Ou CPE et moins qualifiï¿½s handicapï¿½s Ou CPE et moins qualifiï¿½s d'origine ï¿½trangï¿½re</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2022/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -3790,10 +3764,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3412</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et moyennement qualifiés</Description>
+    <Description>Jeunes travailleurs CPE et moyennement qualifiï¿½s</Description>
     <Vanaf>2013/1</Vanaf>
     <Tot>2016/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -3810,10 +3784,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3412</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et moyennement qualifiés</Description>
+    <Description>Jeunes travailleurs CPE et moyennement qualifiï¿½s</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -3830,10 +3804,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3412</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et moyennement qualifiés</Description>
+    <Description>Jeunes travailleurs CPE et moyennement qualifiï¿½s</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -3850,10 +3824,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3412</CodeDMFA>
-    <Description>Jeunes travailleurs CPE et moyennement qualifiés</Description>
+    <Description>Jeunes travailleurs CPE et moyennement qualifiï¿½s</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -3870,10 +3844,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3412</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs CPE et moyennement qualifiés</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs CPE et moyennement qualifiï¿½s</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2021/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -3890,10 +3864,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3413</CodeDMFA>
-    <Description>Jeunes travailleurs : du 1/1 de l'année de leurs 19 ans jusqu'au trimestre précédant leurs 30 ans</Description>
+    <Description>Jeunes travailleurs : du 1/1 de l'annï¿½e de leurs 19 ans jusqu'au trimestre prï¿½cï¿½dant leurs 30 ans</Description>
     <Vanaf>2006/3</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3910,10 +3884,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3414</CodeDMFA>
-    <Description>Jeunes travailleurs : du 1/1 de l'année de leurs 19 ans jusqu'au trimestre précédant leurs 30 ans             également   en CPE et moins qualifiés</Description>
+    <Description>Jeunes travailleurs : du 1/1 de l'annï¿½e de leurs 19 ans jusqu'au trimestre prï¿½cï¿½dant leurs 30 ans             ï¿½galement   en CPE et moins qualifiï¿½s</Description>
     <Vanaf>2006/3</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3930,10 +3904,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3415</CodeDMFA>
-    <Description>Jeunes travailleurs : du 1/1 de l'année de leurs 19 ans jusqu'au trimestre précédant leurs 30 ans              également   en CPE et très peu qualifiés   Ou en CPE et moins qualifiés handicapés   Ou en CPE et moins qualifiés d'origine étrangère</Description>
+    <Description>Jeunes travailleurs : du 1/1 de l'annï¿½e de leurs 19 ans jusqu'au trimestre prï¿½cï¿½dant leurs 30 ans              ï¿½galement   en CPE et trï¿½s peu qualifiï¿½s   Ou en CPE et moins qualifiï¿½s handicapï¿½s   Ou en CPE et moins qualifiï¿½s d'origine ï¿½trangï¿½re</Description>
     <Vanaf>2006/3</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3950,10 +3924,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3416</CodeDMFA>
-    <Description>Jeunes travailleurs du 1/1 de l'année de leurs 19 ans jusqu'au trimestre précédant leurs 30 ans                                 également   en CPE et moins qualifiés (période transitoire)</Description>
+    <Description>Jeunes travailleurs du 1/1 de l'annï¿½e de leurs 19 ans jusqu'au trimestre prï¿½cï¿½dant leurs 30 ans                                 ï¿½galement   en CPE et moins qualifiï¿½s (pï¿½riode transitoire)</Description>
     <Vanaf>2006/3</Vanaf>
     <Tot>2012/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -3970,10 +3944,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3430</CodeDMFA>
-    <Description>Jeunes travailleurs : jusqu'au 31/12 de l'année dans laquelle les jeunes auront 18 ans</Description>
+    <Description>Jeunes travailleurs : jusqu'au 31/12 de l'annï¿½e dans laquelle les jeunes auront 18 ans</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>2016/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -3990,10 +3964,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3430</CodeDMFA>
-    <Description>Jeunes travailleurs : jusqu'au 31/12 de l'année dans laquelle les jeunes auront 18 ans</Description>
+    <Description>Jeunes travailleurs : jusqu'au 31/12 de l'annï¿½e dans laquelle les jeunes auront 18 ans</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4010,10 +3984,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3430</CodeDMFA>
-    <Description>Jeunes travailleurs : jusqu'au 31/12 de l'année dans laquelle les jeunes auront 18 ans</Description>
+    <Description>Jeunes travailleurs : jusqu'au 31/12 de l'annï¿½e dans laquelle les jeunes auront 18 ans</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4030,10 +4004,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3430</CodeDMFA>
-    <Description>Jeunes travailleurs : jusqu'au 31/12 de l'année dans laquelle les jeunes auront 18 ans</Description>
+    <Description>Jeunes travailleurs : jusqu'au 31/12 de l'annï¿½e dans laquelle les jeunes auront 18 ans</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4050,10 +4024,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3430</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs : jusqu'au 31/12 de l'année dans laquelle les jeunes auront 18 ans</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs : jusqu'au 31/12 de l'annï¿½e dans laquelle les jeunes auront 18 ans</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2021/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4070,10 +4044,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3500</CodeDMFA>
-    <Description>Réduction du temps de travail</Description>
+    <Description>Rï¿½duction du temps de travail</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4093,7 +4067,7 @@
     <Description>Semaine de quatre jours</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4110,10 +4084,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3520</CodeDMFA>
-    <Description>Réduction du temps de travail et semaine de quatre jours</Description>
+    <Description>Rï¿½duction du temps de travail et semaine de quatre jours</Description>
     <Vanaf>2004/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4130,10 +4104,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3600</CodeDMFA>
-    <Description>Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - contrat de travail conclu avant le 1/1/2007</Description>
+    <Description>Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - contrat de travail conclu avant le 1/1/2007</Description>
     <Vanaf>2004/3</Vanaf>
     <Tot>2007/2</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4150,10 +4124,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3601</CodeDMFA>
-    <Description>Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - moins de 45 ans</Description>
+    <Description>Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - moins de 45 ans</Description>
     <Vanaf>2007/1</Vanaf>
     <Tot>2016/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4170,10 +4144,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3601</CodeDMFA>
-    <Description>Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - moins de 45 ans</Description>
+    <Description>Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - moins de 45 ans</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4190,10 +4164,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3601</CodeDMFA>
-    <Description>Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - moins de 45 ans</Description>
+    <Description>Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - moins de 45 ans</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4210,10 +4184,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3601</CodeDMFA>
-    <Description>Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - moins de 45 ans</Description>
+    <Description>Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - moins de 45 ans</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4230,10 +4204,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3601</CodeDMFA>
-    <Description>Mesure transitoire - Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - moins de 45 ans</Description>
+    <Description>Mesure transitoire - Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - moins de 45 ans</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2019/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4250,10 +4224,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3611</CodeDMFA>
-    <Description>Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - au moins 45 ans</Description>
+    <Description>Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - au moins 45 ans</Description>
     <Vanaf>2007/1</Vanaf>
     <Tot>2016/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4270,10 +4244,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3611</CodeDMFA>
-    <Description>Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - au moins 45 ans</Description>
+    <Description>Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - au moins 45 ans</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4290,10 +4264,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3611</CodeDMFA>
-    <Description>Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - au moins 45 ans</Description>
+    <Description>Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - au moins 45 ans</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4310,10 +4284,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3611</CodeDMFA>
-    <Description>Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - au moins 45 ans</Description>
+    <Description>Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - au moins 45 ans</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4330,10 +4304,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3611</CodeDMFA>
-    <Description>Mesure transitoire - Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - au moins 45 ans</Description>
+    <Description>Mesure transitoire - Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - au moins 45 ans</Description>
     <Vanaf>2019/1</Vanaf>
     <Tot>2023/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4353,7 +4327,7 @@
     <Description>Formateurs avec carte de restructuration</Description>
     <Vanaf>2010/1</Vanaf>
     <Tot>2013/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4370,10 +4344,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3700</CodeDMFA>
-    <Description>Réduction temporaire du temps de travail suite à la crise</Description>
+    <Description>Rï¿½duction temporaire du temps de travail suite ï¿½ la crise</Description>
     <Vanaf>2009/2</Vanaf>
     <Tot>2011/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4390,10 +4364,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3700</CodeDMFA>
-    <Description>Réduction temporaire du temps de travail suite à la crise</Description>
+    <Description>Rï¿½duction temporaire du temps de travail suite ï¿½ la crise</Description>
     <Vanaf>2020/3</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4410,10 +4384,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3701</CodeDMFA>
-    <Description>Réduction temporaire du temps de travail suite au Brexit</Description>
+    <Description>Rï¿½duction temporaire du temps de travail suite au Brexit</Description>
     <Vanaf>2021/1</Vanaf>
     <Tot>2022/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4430,10 +4404,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3702</CodeDMFA>
-    <Description>Réduction pour le secteur du voyage - mesure de soutien Covid</Description>
+    <Description>Rï¿½duction pour le secteur du voyage - mesure de soutien Covid</Description>
     <Vanaf>2021/2</Vanaf>
     <Tot>2021/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4450,10 +4424,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3703</CodeDMFA>
-    <Description>Réduction pour le secteur évènementiel - mesure de soutien Covid</Description>
+    <Description>Rï¿½duction pour le secteur ï¿½vï¿½nementiel - mesure de soutien Covid</Description>
     <Vanaf>2021/2</Vanaf>
     <Tot>2021/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4470,10 +4444,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3704</CodeDMFA>
-    <Description>Réduction pour le secteur hôtelier - mesure de soutien Covid</Description>
+    <Description>Rï¿½duction pour le secteur hï¿½telier - mesure de soutien Covid</Description>
     <Vanaf>2021/2</Vanaf>
     <Tot>2021/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4490,10 +4464,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3705</CodeDMFA>
-    <Description>Réduction dans le cadre de la relance</Description>
+    <Description>Rï¿½duction dans le cadre de la relance</Description>
     <Vanaf>2021/3</Vanaf>
     <Tot>2021/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4510,10 +4484,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3706</CodeDMFA>
-    <Description>Réduction dans le cadre de la relance pour les employeurs lourdement impactés</Description>
+    <Description>Rï¿½duction dans le cadre de la relance pour les employeurs lourdement impactï¿½s</Description>
     <Vanaf>2021/3</Vanaf>
     <Tot>2021/3</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4530,10 +4504,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3720</CodeDMFA>
-    <Description>Réduction temporaire du temps de travail combinée avec la semaine de quatre jours suite à la crise</Description>
+    <Description>Rï¿½duction temporaire du temps de travail combinï¿½e avec la semaine de quatre jours suite ï¿½ la crise</Description>
     <Vanaf>2009/2</Vanaf>
     <Tot>2011/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4550,10 +4524,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3720</CodeDMFA>
-    <Description>Réduction temporaire du temps de travail combinée avec la semaine de quatre jours suite à la crise</Description>
+    <Description>Rï¿½duction temporaire du temps de travail combinï¿½e avec la semaine de quatre jours suite ï¿½ la crise</Description>
     <Vanaf>2020/3</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4570,10 +4544,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>3721</CodeDMFA>
-    <Description>Réduction temporaire du temps de travail combinée avec la semaine de quatre jours suite au Brexit</Description>
+    <Description>Rï¿½duction temporaire du temps de travail combinï¿½e avec la semaine de quatre jours suite au Brexit</Description>
     <Vanaf>2021/1</Vanaf>
     <Tot>2022/1</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4593,7 +4567,7 @@
     <Description>Tuteurs</Description>
     <Vanaf>2010/1</Vanaf>
     <Tot>2016/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4613,7 +4587,7 @@
     <Description>Tuteurs</Description>
     <Vanaf>2016/4</Vanaf>
     <Tot>2018/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4633,7 +4607,7 @@
     <Description>Tuteurs</Description>
     <Vanaf>2018/3</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4653,7 +4627,7 @@
     <Description>Travailleurs permanents dans l'horeca</Description>
     <Vanaf>2014/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4670,10 +4644,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>4000</CodeDMFA>
-    <Description>Contractuels subventionnés</Description>
+    <Description>Contractuels subventionnï¿½s</Description>
     <Vanaf>2014/1</Vanaf>
     <Tot>2017/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4690,10 +4664,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>4000</CodeDMFA>
-    <Description>Contractuels subventionnés</Description>
+    <Description>Contractuels subventionnï¿½s</Description>
     <Vanaf>2018/1</Vanaf>
     <Tot>2021/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4710,10 +4684,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>4000</CodeDMFA>
-    <Description>Contractuels subventionnés</Description>
+    <Description>Contractuels subventionnï¿½s</Description>
     <Vanaf>2022/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4730,10 +4704,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>4001</CodeDMFA>
-    <Description>Contractuels subventionnés des administrations provinciales et locales</Description>
+    <Description>Contractuels subventionnï¿½s des administrations provinciales et locales</Description>
     <Vanaf>2022/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4750,10 +4724,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>4100</CodeDMFA>
-    <Description>Remplaçants de contractuels et de statutaires dans le secteur public</Description>
+    <Description>Remplaï¿½ants de contractuels et de statutaires dans le secteur public</Description>
     <Vanaf>2014/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4770,10 +4744,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>4110</CodeDMFA>
-    <Description>Sportifs rémunérés</Description>
+    <Description>Sportifs rï¿½munï¿½rï¿½s</Description>
     <Vanaf>2022/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Fédérale</Ded_FedRegFR>
+    <Ded_FedRegFR>Fï¿½dï¿½rale</Ded_FedRegFR>
     <Ded_FlemishRegFR>-</Ded_FlemishRegFR>
     <Ded_BxlRegFR>-</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>-</Ded_WallNoGermanRegFR>
@@ -4793,7 +4767,7 @@
     <Description>Personnel de maison</Description>
     <Vanaf>2014/1</Vanaf>
     <Tot>2017/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4813,7 +4787,7 @@
     <Description>Personnel de maison</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4833,7 +4807,7 @@
     <Description>Artistes</Description>
     <Vanaf>2014/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4853,7 +4827,7 @@
     <Description>Gardiens et gardiennes d'enfants reconnus</Description>
     <Vanaf>2014/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4870,10 +4844,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>4500</CodeDMFA>
-    <Description>Travailleurs engagés dans le cadre de l'article 60 § 7 de la loi organique des CPAS du 08.07.1976</Description>
+    <Description>Travailleurs engagï¿½s dans le cadre de l'article 60 ï¿½ 7 de la loi organique des CPAS du 08.07.1976</Description>
     <Vanaf>2022/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -4890,10 +4864,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6000</CodeDMFA>
-    <Description>Période transitoire - plan Activa - Demandeurs d'emploi de longue durée de moins de 25 ans pendant 312 jours dans une période de 18 mois ou de moins de 45 ans pendant 312 jours dans une période de 18 mois ou pendant 156 jours dans une période de 9 mois pour les demandeurs d'emploi suite à une fermeture d'entreprise   Codes ONEM: C1, C20, C25, C30, C34 ou C36</Description>
+    <Description>Pï¿½riode transitoire - plan Activa - Demandeurs d'emploi de longue durï¿½e de moins de 25 ans pendant 312 jours dans une pï¿½riode de 18 mois ou de moins de 45 ans pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 156 jours dans une pï¿½riode de 9 mois pour les demandeurs d'emploi suite ï¿½ une fermeture d'entreprise   Codes ONEM: C1, C20, C25, C30, C34 ou C36</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4910,10 +4884,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6001</CodeDMFA>
-    <Description>Période transitoire - plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans, pendant 624 jours dans une période de 36 mois  Codes ONEM : C3, C4, C26, C31 ou C37</Description>
+    <Description>Pï¿½riode transitoire - plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans, pendant 624 jours dans une pï¿½riode de 36 mois  Codes ONEM : C3, C4, C26, C31 ou C37</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4930,10 +4904,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6002</CodeDMFA>
-    <Description>Période transitoire - plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans, pendant 936 jours dans une période de 54 mois  Codes ONEM : C5,C6, C27, C32 ou C38</Description>
+    <Description>Pï¿½riode transitoire - plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans, pendant 936 jours dans une pï¿½riode de 54 mois  Codes ONEM : C5,C6, C27, C32 ou C38</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4950,10 +4924,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6003</CodeDMFA>
-    <Description>Période transitoire - plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans, pendant 1560 jours dans une période de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
+    <Description>Pï¿½riode transitoire - plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans, pendant 1560 jours dans une pï¿½riode de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4970,10 +4944,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6004</CodeDMFA>
-    <Description>Période transitoire - plan Activa - Demandeurs d'emploi de longue durée moins de 27 ans, pendant 312 jours dans une période de 18 mois et moins qualifiés Codes ONEM : C40 ou C41 ou, à partir du 2014/1, demandeurs d'emploi de longue durée moins de 30 ans, pendant 156 jours dans une période de 9 mois et moins qualifiés Codes ONEM C42 ou C43</Description>
+    <Description>Pï¿½riode transitoire - plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 27 ans, pendant 312 jours dans une pï¿½riode de 18 mois et moins qualifiï¿½s Codes ONEM : C40 ou C41 ou, ï¿½ partir du 2014/1, demandeurs d'emploi de longue durï¿½e moins de 30 ans, pendant 156 jours dans une pï¿½riode de 9 mois et moins qualifiï¿½s Codes ONEM C42 ou C43</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -4990,10 +4964,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6005</CodeDMFA>
-    <Description>Période transitoire - plan Activa - Demandeurs d'emploi de longue durée au moins 45 ans, pendant 156 jours dans une période de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
+    <Description>Pï¿½riode transitoire - plan Activa - Demandeurs d'emploi de longue durï¿½e au moins 45 ans, pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5010,10 +4984,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6006</CodeDMFA>
-    <Description>Période transitoire - Plan Activa - Demandeurs d'emploi de longue durée au moins 45 ans, pendant 312 jours dans une période de 18 mois ou pendant 468 jours dans une période de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
+    <Description>Pï¿½riode transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e au moins 45 ans, pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 468 jours dans une pï¿½riode de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5030,10 +5004,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6030</CodeDMFA>
-    <Description>Période transitoire - Jeunes travailleurs CPE et moins qualifiés</Description>
+    <Description>Pï¿½riode transitoire - Jeunes travailleurs CPE et moins qualifiï¿½s</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5050,10 +5024,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6031</CodeDMFA>
-    <Description>Période transitoire - Jeunes travailleurs CPE et très peu qualifiés Ou CPE et moins qualifiés handicapés Ou CPE et moins qualifiés d'origine étrangère</Description>
+    <Description>Pï¿½riode transitoire - Jeunes travailleurs CPE et trï¿½s peu qualifiï¿½s Ou CPE et moins qualifiï¿½s handicapï¿½s Ou CPE et moins qualifiï¿½s d'origine ï¿½trangï¿½re</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5070,10 +5044,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6032</CodeDMFA>
-    <Description>Période transitoire - Jeunes travailleurs CPE et moyennement qualifiés</Description>
+    <Description>Pï¿½riode transitoire - Jeunes travailleurs CPE et moyennement qualifiï¿½s</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5090,10 +5064,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6033</CodeDMFA>
-    <Description>Période transitoire - Jeunes travailleurs : jusqu'au 31/12 de l'année dans laquelle les jeunes auront 18 ans</Description>
+    <Description>Pï¿½riode transitoire - Jeunes travailleurs : jusqu'au 31/12 de l'annï¿½e dans laquelle les jeunes auront 18 ans</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5110,10 +5084,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6040</CodeDMFA>
-    <Description>Période transitoire - travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - moins de 45 ans</Description>
+    <Description>Pï¿½riode transitoire - travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - moins de 45 ans</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2017/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5130,10 +5104,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6041</CodeDMFA>
-    <Description>Période transitoire - travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - au moins de 45 ans</Description>
+    <Description>Pï¿½riode transitoire - travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - au moins de 45 ans</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5150,10 +5124,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6300</CodeDMFA>
-    <Description>Jeunes travailleurs peu qualifiés</Description>
+    <Description>Jeunes travailleurs peu qualifiï¿½s</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5170,10 +5144,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6301</CodeDMFA>
-    <Description>Jeunes travailleurs moyennement qualifiés</Description>
+    <Description>Jeunes travailleurs moyennement qualifiï¿½s</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>2021/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5193,7 +5167,7 @@
     <Description>Jeunes travailleurs apprentis</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5213,7 +5187,7 @@
     <Description>Jeunes travailleurs  - en formation en alternance</Description>
     <Vanaf>2017/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5230,10 +5204,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6320</CodeDMFA>
-    <Description>Travailleurs âgés - en activité</Description>
+    <Description>Travailleurs ï¿½gï¿½s - en activitï¿½</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5250,10 +5224,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6321</CodeDMFA>
-    <Description>Travailleurs âgés - nouvel engagé</Description>
+    <Description>Travailleurs ï¿½gï¿½s - nouvel engagï¿½</Description>
     <Vanaf>2016/3</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5270,10 +5244,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>6330</CodeDMFA>
-    <Description>Réduction des cotisations patronales pour la marine marchande, le secteur du dragage et du remorquage</Description>
+    <Description>Rï¿½duction des cotisations patronales pour la marine marchande, le secteur du dragage et du remorquage</Description>
     <Vanaf>2018/1</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Oui</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5290,10 +5264,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7000</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée de moins de 25 ans pendant 312 jours dans une période de 18 mois ou de moins de 45 ans pendant 312 jours dans une période de 18 mois ou pendant 156 jours dans une période de 9 mois pour les demandeurs d'emploi suite à une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e de moins de 25 ans pendant 312 jours dans une pï¿½riode de 18 mois ou de moins de 45 ans pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 156 jours dans une pï¿½riode de 9 mois pour les demandeurs d'emploi suite ï¿½ une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5310,10 +5284,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7001</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans pendant 624 jours dans une période de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5330,10 +5304,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7002</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans pendant 936 jours dans une période de 54 mois Codes ONEM : C5, C6, C27, C32 ou C38</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans pendant 936 jours dans une pï¿½riode de 54 mois Codes ONEM : C5, C6, C27, C32 ou C38</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5350,10 +5324,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7003</CodeDMFA>
-    <Description>Mesure transitoire -Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 1560 jours dans une période de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
+    <Description>Mesure transitoire -Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 1560 jours dans une pï¿½riode de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5370,10 +5344,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7004</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée moins de 27 ans, pendant 312 jours dans une période de 18 mois et moins qualifiés Codes ONEM : C40 ou C41, ou à partir du 2014/1 demandeurs d'emploi de longue durée moins de 30 ans, pendant156 jours dans une période de 9 mois et moins qualifiés Codes ONEM : C42 ou C43</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 27 ans, pendant 312 jours dans une pï¿½riode de 18 mois et moins qualifiï¿½s Codes ONEM : C40 ou C41, ou ï¿½ partir du 2014/1 demandeurs d'emploi de longue durï¿½e moins de 30 ans, pendant156 jours dans une pï¿½riode de 9 mois et moins qualifiï¿½s Codes ONEM : C42 ou C43</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5390,10 +5364,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7005</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée au moins de 45 ans pendant 156 jours dans une période de 9 mois Codes ONEM : D1, D13 ou D19</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e au moins de 45 ans pendant 156 jours dans une pï¿½riode de 9 mois Codes ONEM : D1, D13 ou D19</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5410,10 +5384,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7006</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée au moins de 45 ans pendant 312 jours dans une période de 18 mois ou pendant 468 jours dans une période de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e au moins de 45 ans pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 468 jours dans une pï¿½riode de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5430,10 +5404,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7030</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs CPE et moins qualifiés</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs CPE et moins qualifiï¿½s</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5450,10 +5424,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7031</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs CPE et très peu qualifiés Ou CPE et moins qualifiés handicapés Ou CPE et moins qualifiés d'origine étrangère</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs CPE et trï¿½s peu qualifiï¿½s Ou CPE et moins qualifiï¿½s handicapï¿½s Ou CPE et moins qualifiï¿½s d'origine ï¿½trangï¿½re</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5470,10 +5444,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7032</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs CPE et moyennement qualifiés</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs CPE et moyennement qualifiï¿½s</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5490,10 +5464,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7033</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs : jusqu'au 31/12 de l'année dans laquelle les jeunes auront 18 ans</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs : jusqu'au 31/12 de l'annï¿½e dans laquelle les jeunes auront 18 ans</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5510,10 +5484,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7040</CodeDMFA>
-    <Description>Mesure transitoire - Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - moins de 45 ans</Description>
+    <Description>Mesure transitoire - Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - moins de 45 ans</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/3</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5530,10 +5504,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7041</CodeDMFA>
-    <Description>Mesure transitoire - Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - au moins 45 ans</Description>
+    <Description>Mesure transitoire - Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - au moins 45 ans</Description>
     <Vanaf>2017/4</Vanaf>
     <Tot>2018/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5550,10 +5524,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>7320</CodeDMFA>
-    <Description>Travailleurs âgés</Description>
+    <Description>Travailleurs ï¿½gï¿½s</Description>
     <Vanaf>2016/4</Vanaf>
     <Tot>9999/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Oui</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -5570,10 +5544,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8000</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée de moins de 25 ans pendant 312 jours dans une période de 18 mois ou de  moins de 45 ans pendant 312 jours dans une période de 18 mois ou pendant 156 jours dans une période de 9 mois pour les demandeurs d'emploi suite à une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e de moins de 25 ans pendant 312 jours dans une pï¿½riode de 18 mois ou de  moins de 45 ans pendant 312 jours dans une pï¿½riode de 18 mois ou pendant 156 jours dans une pï¿½riode de 9 mois pour les demandeurs d'emploi suite ï¿½ une fermeture d'entreprise Codes ONEM : C1, C20, C25, C30, C34 ou C36</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2018/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5590,10 +5564,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8001</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans pendant 624 jours dans une période de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois Codes ONEM : C3, C4, C26, C31 ou C37</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2019/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5610,10 +5584,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8002</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 936 jours dans une période de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 936 jours dans une pï¿½riode de 54 mois  Codes ONEM : C5, C6, C27, C32 ou C38</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5630,10 +5604,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8003</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée  moins de 45 ans  pendant 1560 jours dans une période de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e  moins de 45 ans  pendant 1560 jours dans une pï¿½riode de 90 mois  Codes ONEM : C7, C8, C28, C33 ou C39</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5650,10 +5624,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8004</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée moins de 27 ans, pendant 312 jours dans une période de 18 mois et moins qualifiés Codes ONEM : C40 ou C41, ou à partir du 2014/1 demandeurs d'emploi de longue durée moins de 30 ans, pendant 156 jours dans une période de 9 mois et moins qualifiés Codes ONEM : C42 ou C43</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e moins de 27 ans, pendant 312 jours dans une pï¿½riode de 18 mois et moins qualifiï¿½s Codes ONEM : C40 ou C41, ou ï¿½ partir du 2014/1 demandeurs d'emploi de longue durï¿½e moins de 30 ans, pendant 156 jours dans une pï¿½riode de 9 mois et moins qualifiï¿½s Codes ONEM : C42 ou C43</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/1</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5670,10 +5644,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8005</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D1, D13 ou D19</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5690,10 +5664,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8006</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée  au moins de 45 ans  pendant 312 jours dans une période de 18 mois  ou pendant 468 jours dans une période de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
+    <Description>Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durï¿½e  au moins de 45 ans  pendant 312 jours dans une pï¿½riode de 18 mois  ou pendant 468 jours dans une pï¿½riode de 27 mois  Codes ONEM : D3, D4, D5, D6, D14, D15, D16, D17, D20 ou D21</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5710,10 +5684,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8007</CodeDMFA>
-    <Description>Mesure transitoire - Plan Activa - Agents de prévention et de sécurité Demandeurs d'emploi de longue durée moins de 25 ans pendant 312 jours dans une période de 18  mois ou au moins 25 ans et moins de 45 ans pendant 624 jours dans une période de 36 mois  Codes ONEM : C9, C10, C21 ou C22</Description>
+    <Description>Mesure transitoire - Plan Activa - Agents de prï¿½vention et de sï¿½curitï¿½ Demandeurs d'emploi de longue durï¿½e moins de 25 ans pendant 312 jours dans une pï¿½riode de 18  mois ou au moins 25 ans et moins de 45 ans pendant 624 jours dans une pï¿½riode de 36 mois  Codes ONEM : C9, C10, C21 ou C22</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5730,10 +5704,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8008</CodeDMFA>
-    <Description>Plan Activa - Agents de prévention et de sécurité  Demandeurs d'emploi de longue durée  au moins 45 ans  pendant 156 jours dans une période de 9 mois  Codes ONEM : D7 ou D8</Description>
+    <Description>Plan Activa - Agents de prï¿½vention et de sï¿½curitï¿½  Demandeurs d'emploi de longue durï¿½e  au moins 45 ans  pendant 156 jours dans une pï¿½riode de 9 mois  Codes ONEM : D7 ou D8</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2017/4</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5750,10 +5724,10 @@
     </ann4>
     <ann4>
         <CodeDMFA>8009</CodeDMFA>
-        <Description>Mesure transitoire - Programme de transition professionnelle moins de 25 ans moins qualifiés au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocation</Description>
+        <Description>Mesure transitoire - Programme de transition professionnelle moins de 25 ans moins qualifiï¿½s au moins 9 mois d'allocations ou moins de 45 ans au moins 12 mois d'allocation</Description>
         <Vanaf>2017/3</Vanaf>
         <Tot>2021/1</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5773,7 +5747,7 @@
         <Description>Mesure transitoire - Programme de transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</Description>
         <Vanaf>2017/3</Vanaf>
         <Tot>2021/1</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5793,7 +5767,7 @@
         <Description>Mesure transitoire - Programme de transition professionnelle au moins 45 ans, au moins 12 mois d'allocations</Description>
         <Vanaf>2017/3</Vanaf>
         <Tot>2021/1</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5813,7 +5787,7 @@
         <Description>Mesure transitoire - Programme de transition professionnelle au moins 45 ans, au moins 24 mois d'allocations</Description>
         <Vanaf>2017/3</Vanaf>
         <Tot>2021/1</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5833,7 +5807,7 @@
         <Description>Mesure transitoire - Personnel de maison</Description>
         <Vanaf>2017/3</Vanaf>
         <Tot>2020/2</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5850,10 +5824,10 @@
     </ann4>
     <ann4>
         <CodeDMFA>8030</CodeDMFA>
-        <Description>Mesure transitoire - Jeunes travailleurs CPE et moins qualifiés</Description>
+        <Description>Mesure transitoire - Jeunes travailleurs CPE et moins qualifiï¿½s</Description>
         <Vanaf>2017/3</Vanaf>
         <Tot>2020/1</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5870,10 +5844,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8031</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs CPE et très peu qualifiés Ou CPE et moins qualifiés handicapés Ou CPE et moins qualifiés d'origine étrangère</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs CPE et trï¿½s peu qualifiï¿½s Ou CPE et moins qualifiï¿½s handicapï¿½s Ou CPE et moins qualifiï¿½s d'origine ï¿½trangï¿½re</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5890,10 +5864,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8032</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs CPE et moyennement qualifiés</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs CPE et moyennement qualifiï¿½s</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/1</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5910,10 +5884,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8033</CodeDMFA>
-    <Description>Mesure transitoire - Jeunes travailleurs : jusqu'au 31/12 de l'année dans laquelle les jeunes auront 18 ans</Description>
+    <Description>Mesure transitoire - Jeunes travailleurs : jusqu'au 31/12 de l'annï¿½e dans laquelle les jeunes auront 18 ans</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5930,10 +5904,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8040</CodeDMFA>
-    <Description>Mesure transitoire - Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - moins de 45 ans</Description>
+    <Description>Mesure transitoire - Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - moins de 45 ans</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2018/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5950,10 +5924,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8041</CodeDMFA>
-    <Description>Mesure transitoire - Travailleurs licenciés dans le cadre d'une restructuration - réduction des cotisations patronales - au moins 45 ans</Description>
+    <Description>Mesure transitoire - Travailleurs licenciï¿½s dans le cadre d'une restructuration - rï¿½duction des cotisations patronales - au moins 45 ans</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2020/2</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5970,10 +5944,10 @@
     </ann4>
     <ann4>
     <CodeDMFA>8050</CodeDMFA>
-    <Description>Mesure transitoire - Travailleurs âgés</Description>
+    <Description>Mesure transitoire - Travailleurs ï¿½gï¿½s</Description>
     <Vanaf>2017/3</Vanaf>
     <Tot>2018/1</Tot>
-    <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+    <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
     <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
     <Ded_BxlRegFR>Non</Ded_BxlRegFR>
     <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -5990,10 +5964,10 @@
     </ann4>
     <ann4>
         <CodeDMFA>8320</CodeDMFA>
-        <Description>Travailleurs âgés</Description>
+        <Description>Travailleurs ï¿½gï¿½s</Description>
         <Vanaf>2017/3</Vanaf>
         <Tot>9999/4</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Oui</Ded_WallNoGermanRegFR>
@@ -6013,7 +5987,7 @@
         <Description>Mesure transitoire - Economie d'insertion sociale  moins de 45 ans, 312j/18m ou 156j/9m</Description>
         <Vanaf>2019/1</Vanaf>
         <Tot>2021/2</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -6033,7 +6007,7 @@
         <Description>Mesure transitoire - Economie d'insertion sociale  moins de 45 ans, 624j/36m ou 312j/18m</Description>
         <Vanaf>2019/1</Vanaf>
         <Tot>2023/4</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -6053,7 +6027,7 @@
         <Description>Mesure transitoire - Economie d'insertion sociale  au moins 45 ans, 156j/9m</Description>
         <Vanaf>2019/1</Vanaf>
         <Tot>9999/4</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -6070,10 +6044,10 @@
     </ann4>
     <ann4>
         <CodeDMFA>9003</CodeDMFA>
-        <Description>Mesure transitoire - Travailleurs âgés</Description>
+        <Description>Mesure transitoire - Travailleurs ï¿½gï¿½s</Description>
         <Vanaf>2019/1</Vanaf>
         <Tot>2019/3</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
@@ -6090,10 +6064,10 @@
     </ann4>
     <ann4>
         <CodeDMFA>9300</CodeDMFA>
-        <Description>Travailleurs âgés</Description>
+        <Description>Travailleurs ï¿½gï¿½s</Description>
         <Vanaf>2019/1</Vanaf>
         <Tot>9999/4</Tot>
-        <Ded_FedRegFR>Régionale</Ded_FedRegFR>
+        <Ded_FedRegFR>Rï¿½gionale</Ded_FedRegFR>
         <Ded_FlemishRegFR>Non</Ded_FlemishRegFR>
         <Ded_BxlRegFR>Non</Ded_BxlRegFR>
         <Ded_WallNoGermanRegFR>Non</Ded_WallNoGermanRegFR>
