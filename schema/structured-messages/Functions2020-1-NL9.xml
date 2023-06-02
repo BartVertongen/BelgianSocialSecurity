@@ -4,200 +4,319 @@
         <category>16</category>
         <code>27</code>
         <age>-</age>
-        <description>Kruier</description>
+        <description>
+            <nl>Kruier</nl>
+            <fr>Porteurs de bagages</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>32</code>
         <age>15</age>
-        <description>Loopjongen</description>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>33</code>
         <age>16</age>
-        <description>Loopjongen</description>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>34</code>
         <age>17</age>
-        <description>Adjunct chef loopjongen</description>
+        <description>
+            <nl>Adjunct chef loopjongen</nl>
+            <fr>Adjoint chef chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>35</code>
         <age>18</age>
-        <description>Chef loopjongen</description>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>36</code>
         <age>19</age>
-        <description>Chef loopjongen</description>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>37</code>
         <age>20</age>
-        <description>Chef loopjongen</description>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>38</code>
         <age>-,21,-,18,18,-,-</age>
-        <description>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, toiletvrouw, Aangestelde kleedkamer, Andere werknemers</description>
+        <description>
+            <nl>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, toiletvrouw, Aangestelde kleedkamer, Andere werknemers</nl>
+            <fr>Voiturier, Portier, Bagagiste, Valet de chambre, Femme de chambre, Pr�posée à la toilette, Pr�posée au vestiaire, Autres travailleurs</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>39</code>
         <age>21</age>
-        <description>Conciërge</description>
+        <description>
+            <nl>Conciërge</nl>
+            <fr>Concierge</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>40</code>
         <age>23</age>
-        <description>Chef conciërge</description>
+        <description>
+            <nl>Chef conciërge</nl>
+            <fr>Chef concierge</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>41</code>
         <age>19</age>
-        <description>Kamerknecht, kamermeisje</description>
+        <description>
+            <nl>Kamerknecht, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>43</code>
         <age>15</age>
-        <description>Leerjongen zaal</description>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>44</code>
         <age>16</age>
-        <description>Leerjongen zaal</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
-    </function>
-    <function>
-        <ventilation>descriptionnummers geldig tot 2007/1</ventilation>
-        <category>16</category>
-        <code>45</code>
-        <age>17</age>
-        <description>Hulpkelner-afruimer</description>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>45</code>
+        <age>17</age>
+        <description>
+            <nl>Hulpkelner-afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>46</code>
         <age>18</age>
-        <description>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp �tage-kelner</description>
+        <description>
+            <nl>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</nl>
+            <fr></fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>47</code>
         <age>19</age>
-        <description>Hulpkelner-rijleider, Banketkelner</description>
+        <description>
+            <nl>Hulpkelner-rijleider, Banketkelner</nl>
+            <fr>Commis de rang, Garçon de banquet</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>48</code>
         <age>20</age>
-        <description>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</description>
+        <description>
+            <nl>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</nl>
+            <fr>1/2 chef de rang restaurant, 1/2 chef de rang banquet, Commis barman</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>49</code>
         <age>21,21,21,21,21,21,22,-</age>
-        <description>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro,Kelner caf�, Barman, Etage-kelner</description>
+        <description>
+            <nl>
+                Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie
+                , taverne, bistro,Kelner café, Barman, Etage-kelner
+            </nl>
+            <fr>
+                Garçon de restaurant, Chef de rang restaurant, Garçon de banquet, Chef de rang banquet, Garçon de brasserie
+                , taverne, bistro,  Garçon de café, Barman, Garçon d'étage
+            </fr>
+        </description>
         <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
         <code>50</code>
         <age>22,22,22,-</age>
-        <description>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</description>
+        <description>
+            <nl>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</nl>
+            <fr>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</fr>
+        </description>
         <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
@@ -208,9 +327,18 @@
         <category>16</category>
         <code>51</code>
         <age>23</age>
-        <description>Ma�tre d'h�tel restaurant, Ma�tre d'h�tel banket, Oberkelner roomservice</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <description>
+            <nl>Ma�tre d'h�tel restaurant, Ma�tre d'h�tel banket, Oberkelner roomservice</nl>
+            <fr>Ma�tre d'h�tel restaurant, Ma�tre d'h�tel banquet, Ma�tre d'h�tel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
@@ -221,7 +349,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>16</category>
@@ -236,15 +367,24 @@
         <code>27</code>
         <age>-</age>
         <description>Kruier</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>32</code>
         <age>15</age>
         <description>Loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -252,7 +392,10 @@
         <code>33</code>
         <age>16</age>
         <description>Loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -260,8 +403,14 @@
         <code>34</code>
         <age>17</age>
         <description>Adjunct chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
@@ -276,7 +425,10 @@
         <code>36</code>
         <age>19</age>
         <description>Chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -284,8 +436,14 @@
         <code>37</code>
         <age>20</age>
         <description>Chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
@@ -293,30 +451,48 @@
         <age>-,21,-,18,18,-,-</age>
         <description>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</description>
         <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>39</code>
         <age>21</age>
         <description>Conci�rge</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>40</code>
         <age>23</age>
         <description>Chef concièrge</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>41</code>
         <age>19</age>
         <description>Kamerknecht, kamermeisje</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -324,15 +500,24 @@
         <code>43</code>
         <age>15</age>
         <description>Leerjongen zaal</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>44</code>
         <age>16</age>
         <description>Leerjongen zaal</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -340,64 +525,112 @@
         <code>45</code>
         <age>17</age>
         <description>Hulpkelner-afruimer</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>46</code>
         <age>18</age>
         <description>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>47</code>
         <age>19</age>
         <description>Hulpkelner-rijleider, Banketkelner</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>48</code>
         <age>20</age>
         <description>1/2 rijleider restaurant,1/2 rijleider banket, Hulpknecht barman</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>49</code>
         <age>21,21,21,21,21,21,22,-</age>
         <description>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner caf�, Barman, Etage-kelner</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>50</code>
         <age>22</age>
         <description>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>51</code>
         <age>23</age>
         <description>Maître d'hôtel restaurant, Maître d'hôtel banket, Oberkelner roomservice</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
         <code>52</code>
         <age>-</age>
         <description>Assistent maître d'hôtel restaurant, Assistent maître d'hôtel banket, Assistent oberkelner roomservice</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
     </function>
     <function>
         <category>17</category>
@@ -412,23 +645,38 @@
         <code>81</code>
         <age>-</age>
         <description>Zeevissers : bemanning van de vissersvaartuigen uitgezonderd scheepsleerjongens</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1900</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>19</category>
         <code>82</code>
         <age>-</age>
         <description>Zeevissers : scheepsleerjongens</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1900</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>20</category>
         <code>20</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -436,7 +684,10 @@
         <code>25</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren per week</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -444,7 +695,10 @@
         <code>26</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -460,7 +714,10 @@
         <code>20</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -468,7 +725,10 @@
         <code>25</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren per week</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -484,7 +744,10 @@
         <code>29</code>
         <age>-</age>
         <description>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -492,7 +755,10 @@
         <code>28</code>
         <age>-</age>
         <description>Chauffeurs van taxibestelwagens : andere chauffeurs</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -500,7 +766,10 @@
         <code>30</code>
         <age>-</age>
         <description>Chauffeurs van taxibestelwagens : chauffeurs tewerkgesteld gedurende maximum 6 uren per dag en 30 uren per week</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -508,31 +777,51 @@
         <code>91</code>
         <age>-</age>
         <description>Gelegenheidsarbeider in de landbouw</description>
-        <begin-validity>01/01/2007</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1900</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>97</category>
         <code>98</code>
         <age>-</age>
         <description>Gelegenheidswerknemer in de Horeca</description>
-        <begin-validity>01/01/2004</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>30/06/2007</end-validity>
     </function>
     <function>
         <category>97</category>
         <code>99</code>
         <age>-</age>
-        <description>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006, de landbouw</description>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006, de landbouw</nl>
+            <fr></fr>
+        </description>
         <begin-validity>01/07/2004</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>1900</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>146</category>
         <code>27</code>
         <age>-</age>
-        <description>Kruier</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <description>
+            <nl>Kruier</nl>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -540,7 +829,10 @@
         <code>32</code>
         <age>15</age>
         <description>Loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -548,7 +840,10 @@
         <code>33</code>
         <age>16</age>
         <description>Loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -556,7 +851,10 @@
         <code>34</code>
         <age>17</age>
         <description>Adjunct chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -572,7 +870,10 @@
         <code>36</code>
         <age>19</age>
         <description>Chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -580,7 +881,10 @@
         <code>37</code>
         <age>20</age>
         <description>Chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -588,7 +892,10 @@
         <code>38</code>
         <age>-,21,-,18,18,-,-</age>
         <description>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje,Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -596,7 +903,10 @@
         <code>39</code>
         <age>21</age>
         <description>Concièrge</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -604,7 +914,10 @@
         <code>40</code>
         <age>23</age>
         <description>Chef concièrge</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -612,7 +925,10 @@
         <code>41</code>
         <age>19</age>
         <description>Kamerknecht, kamermeisje</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -620,7 +936,10 @@
         <code>43</code>
         <age>15</age>
         <description>Leerjongen zaal</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -628,7 +947,10 @@
         <code>44</code>
         <age>16</age>
         <description>Leerjongen zaal</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -636,7 +958,10 @@
         <code>45</code>
         <age>17</age>
         <description>Hulpkelner-afruimer</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -644,7 +969,10 @@
         <code>46</code>
         <age>18</age>
         <description>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp �tage-kelner</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -652,7 +980,10 @@
         <code>47</code>
         <age>19</age>
         <description>Hulpkelner-rijleider, Banketkelner</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -661,7 +992,10 @@
         <code>48</code>
         <age>20</age>
         <description>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -670,7 +1004,10 @@
         <code>49</code>
         <age>21,21,21,21,21,21,22,-</age>
         <description>Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner caf�, Barman, Etage-kelner</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -679,7 +1016,10 @@
         <code>50</code>
         <age>22,22,22,-</age>
         <description>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -688,7 +1028,10 @@
         <code>51</code>
         <age>23</age>
         <description>Ma�tre d'h�tel restaurant, Ma�tre d'h�tel banket, Oberkelner roomservice</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -697,7 +1040,10 @@
         <code>52</code>
         <age>-</age>
         <description>Assistent ma�tre d'h�tel restaurant, Assistent ma�tre d'h�tel banket, Assistent oberkelner roomservice</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -706,7 +1052,10 @@
         <code>27</code>
         <age>-</age>
         <description>Kruier</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -715,7 +1064,10 @@
         <code>32</code>
         <age>15</age>
         <description>Loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -724,7 +1076,10 @@
         <code>33</code>
         <age>16</age>
         <description>Loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -733,7 +1088,10 @@
         <code>34</code>
         <age>17</age>
         <description>Adjunct chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -742,7 +1100,10 @@
         <code>35</code>
         <age>18</age>
         <description>Chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -751,7 +1112,10 @@
         <code>36</code>
         <age>19</age>
         <description>Chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -760,7 +1124,10 @@
         <code>37</code>
         <age>20</age>
         <description>Chef loopjongen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -769,7 +1136,10 @@
         <code>38</code>
         <age>-,21,-,18,18,-,-</age>
         <description>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -777,8 +1147,11 @@
         <category>158</category>
         <code>39</code>
         <age>21</age>
-        <description>Conci�rge</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <description>Concièrge</description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -786,8 +1159,11 @@
         <category>158</category>
         <code>40</code>
         <age>23</age>
-        <description>Chef conci�rge</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <description>Chef concièrge</description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -805,7 +1181,10 @@
         <code>43</code>
         <age>15</age>
         <description>Leerjongen zaal</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -823,7 +1202,10 @@
         <code>45</code>
         <age>17</age>
         <description>Hulpkelner-afruimer</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -832,7 +1214,10 @@
         <code>46</code>
         <age>18</age>
         <description>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp �tage-kelner</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -850,7 +1235,10 @@
         <code>48</code>
         <age>20</age>
         <description>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -868,7 +1256,10 @@
         <code>50</code>
         <age>22,22,22,-</age>
         <description>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -877,7 +1268,10 @@
         <code>51</code>
         <age>23</age>
         <description>Ma�tre d'h�tel restaurant, Ma�tre d'h�tel banket, Oberkelner roomservice</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -895,25 +1289,32 @@
         <code>21</code>
         <age>-</age>
         <description>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : cabine- of badjongen of badmeisje</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig tot 2007/1</ventilation>
         <category>166</category>
         <code>23</code>
         <age>-</age>
         <description>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : pedicure</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig tot 2007/1</ventilation>
         <category>166</category>
         <code>24</code>
         <age>-</age>
         <description>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : masseu(r)(se)</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
         <function>
@@ -922,7 +1323,10 @@
         <code>26</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -940,7 +1344,10 @@
         <code>99</code>
         <age>-</age>
         <description>Gelegenheidsarbeider in de landbouw</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/12/2006</end-validity>
     </function>
     <function>
@@ -949,7 +1356,10 @@
         <code>99</code>
         <age>-</age>
         <description>Gelegenheidsarbeider in de tuinbouw</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
@@ -958,7 +1368,10 @@
         <code>20</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -967,7 +1380,10 @@
         <code>25</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minimum 40 uren per week</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -976,7 +1392,10 @@
         <code>26</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -985,7 +1404,10 @@
         <code>29</code>
         <age>-</age>
         <description>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -994,7 +1416,10 @@
         <code>99</code>
         <age>-</age>
         <description>Gelegenheidsarbeider in de tuinbouw</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
@@ -1030,7 +1455,10 @@
         <code>20</code>
         <age>-</age>
         <description>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -1046,7 +1474,10 @@
         <code>29</code>
         <age>-</age>
         <description>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</description>
-        <begin-validity>01/01/1900</begin-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>31/03/2007</end-validity>
     </function>
     <function>
@@ -1199,7 +1630,9 @@
         <category>16</category>
         <code>28</code>
         <age>-</age>
-        <description>Oberkelner(in) banket</description>
+        <description>
+            <nl>Oberkelner(in) banket</nl>
+        </description>
         <begin-validity>01/04/2007</begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
@@ -1207,7 +1640,9 @@
         <category>16</category>
         <code>53</code>
         <age>-</age>
-        <description>Kelner(in) brasserie, taverne, bistro</description>
+        <description>
+            <nl>Kelner(in) brasserie, taverne, bistro</nl>
+        </description>
         <begin-validity>01/04/2007</begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
@@ -1215,7 +1650,9 @@
         <category>16</category>
         <code>55</code>
         <age>-</age>
-        <description>Kelner café</description>
+        <description>
+            <nl>Kelner café</nl>
+        </description>
         <begin-validity>01/04/2007</begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
@@ -1231,7 +1668,9 @@
         <category>16</category>
         <code>58</code>
         <age>-</age>
-        <description>Barman</description>
+        <description>
+            <nl>Barman</nl>
+        </description>
         <begin-validity>01/04/2007</begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
@@ -1247,7 +1686,9 @@
         <category>16</category>
         <code>61</code>
         <age>-</age>
-        <description>Loopjongen, loopmeisje</description>
+        <description>
+            <nl>Loopjongen, loopmeisje</nl>
+        </description>
         <begin-validity>01/04/2007</begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
@@ -1260,7 +1701,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>16</category>
         <code>63</code>
         <age>-</age>
@@ -1269,7 +1709,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>16</category>
         <code>64</code>
         <age>-</age>
@@ -1278,7 +1717,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>16</category>
         <code>65</code>
         <age>-</age>
@@ -1287,7 +1725,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>16</category>
         <code>66</code>
         <age>-</age>
@@ -1320,7 +1757,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>16</category>
         <code>72</code>
         <age>-</age>
@@ -1329,7 +1765,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>16</category>
         <code>73</code>
         <age>-</age>
@@ -1338,7 +1773,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>16</category>
         <code>75</code>
         <age>-</age>
@@ -1347,7 +1781,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>16</category>
         <code>77</code>
         <age>-</age>
@@ -1356,7 +1789,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>16</category>
         <code>98</code>
         <age>-</age>
@@ -1365,7 +1797,6 @@
         <end-validity>30/06/2007</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>10</code>
         <age>-</age>
@@ -1374,7 +1805,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>11</code>
         <age>-</age>
@@ -1383,7 +1813,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>12</code>
         <age>-</age>
@@ -1392,7 +1821,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>13</code>
         <age>-</age>
@@ -1401,7 +1829,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>14</code>
         <age>-</age>
@@ -1410,7 +1837,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>15</code>
         <age>-</age>
@@ -1419,7 +1845,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>16</code>
         <age>-</age>
@@ -1428,7 +1853,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>17</code>
         <age>-</age>
@@ -1437,7 +1861,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>18</code>
         <age>-</age>
@@ -1446,7 +1869,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>19</code>
         <age>-</age>
@@ -1455,7 +1877,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>22</code>
         <age>-</age>
@@ -1464,7 +1885,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>23</code>
         <age>-</age>
@@ -1473,7 +1893,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>24</code>
         <age>-</age>
@@ -1482,7 +1901,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>25</code>
         <age>-</age>
@@ -1491,7 +1909,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>26</code>
         <age>-</age>
@@ -1500,7 +1917,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>27</code>
         <age>-</age>
@@ -1509,7 +1925,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>28</code>
         <age>-</age>
@@ -1518,7 +1933,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>53</code>
         <age>-</age>
@@ -1527,16 +1941,14 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>55</code>
         <age>-</age>
-        <description>Kelner caf�</description>
+        <description>Kelner café</description>
         <begin-validity>01/04/2007</begin-validity>
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>57</code>
         <age>-</age>
@@ -1545,7 +1957,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>58</code>
         <age>-</age>
@@ -1554,7 +1965,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>59</code>
         <age>-</age>
@@ -1563,7 +1973,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>61</code>
         <age>-</age>
@@ -1572,7 +1981,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>62</code>
         <age>-</age>
@@ -1581,7 +1989,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>63</code>
         <age>-</age>
@@ -1590,7 +1997,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>64</code>
         <age>-</age>
@@ -1599,7 +2005,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>65</code>
         <age>-</age>
@@ -1608,7 +2013,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>66</code>
         <age>-</age>
@@ -1617,7 +2021,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>67</code>
         <age>-</age>
@@ -1626,16 +2029,14 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>70</code>
         <age>-</age>
-        <description>Hulp �tage-kelner(in)</description>
+        <description>Hulp étage-kelner(in)</description>
         <begin-validity>01/04/2007</begin-validity>
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>71</code>
         <age>-</age>
@@ -1644,7 +2045,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>72</code>
         <age>-</age>
@@ -1653,7 +2053,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>73</code>
         <age>-</age>
@@ -1662,7 +2061,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>75</code>
         <age>-</age>
@@ -1671,7 +2069,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>77</code>
         <age>-</age>
@@ -1680,7 +2077,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>17</category>
         <code>98</code>
         <age>-</age>
@@ -1689,7 +2085,6 @@
         <end-validity>30/06/2007</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>19</category>
         <code>81</code>
         <age>-</age>
@@ -1698,7 +2093,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>19</category>
         <code>82</code>
         <age>-</age>
@@ -1707,7 +2101,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>66</category>
         <code>85</code>
         <age>-</age>
@@ -1716,7 +2109,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>95</category>
         <code>85</code>
         <age>-</age>
@@ -1736,7 +2128,9 @@
         <category>97</category>
         <code>94</code>
         <age>-</age>
-        <description>Gelegenheidswerknemers uit de horeca met dagforfait</description>
+        <description>
+            <nl>Gelegenheidswerknemers uit de horeca met dagforfait</nl>
+        </description>
         <begin-validity>01/10/2013</begin-validity>
         <end-validity>01/01/9999</end-validity>
     </function>
@@ -1744,12 +2138,13 @@
         <category>97</category>
         <code>95</code>
         <age>-</age>
-        <description>Gelegenheidswerknemers uit de horeca met uurforfait</description>
+        <description>
+            <nl>Gelegenheidswerknemers uit de horeca met uurforfait</nl>
+        </description>
         <begin-validity>01/10/2013</begin-validity>
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>97</category>
         <code>98</code>
         <age>-</age>
@@ -1758,7 +2153,6 @@
         <end-validity>30/06/2007</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>97</category>
         <code>99</code>
         <age>-</age>
@@ -1767,7 +2161,6 @@
         <end-validity>01/01/9999</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>10</code>
         <age>-</age>
@@ -1776,7 +2169,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>11</code>
         <age>-</age>
@@ -1809,7 +2201,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>15</code>
         <age>-</age>
@@ -1818,7 +2209,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>16</code>
         <age>-</age>
@@ -1827,7 +2217,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>17</code>
         <age>-</age>
@@ -1836,7 +2225,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>18</code>
         <age>-</age>
@@ -1845,7 +2233,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>19</code>
         <age>-</age>
@@ -1854,7 +2241,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>22</code>
         <age>-</age>
@@ -1863,7 +2249,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>23</code>
         <age>-</age>
@@ -1872,7 +2257,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>24</code>
         <age>-</age>
@@ -1881,7 +2265,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>25</code>
         <age>-</age>
@@ -1890,7 +2273,6 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>26</code>
         <age>-</age>
@@ -1899,196 +2281,237 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>27</code>
         <age>-</age>
         <description>Assistent(e) oberkelner(in) banket</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>28</code>
         <age>-</age>
         <description>Oberkelner(in) banket</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>53</code>
         <age>-</age>
         <description>Kelner(in) brasserie, taverne, bistro</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>55</code>
         <age>-</age>
         <description>Kelner café</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>57</code>
         <age>-</age>
         <description>Hulpknecht barman</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>58</code>
         <age>-</age>
         <description>Barman</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>59</code>
         <age>-</age>
         <description>Verantwoordelijke barman, verantwoordelijke barmeid</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>61</code>
         <age>-</age>
         <description>Loopjongen, loopmeisje</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>62</code>
         <age>-</age>
         <description>Voiturier</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>63</code>
         <age>-</age>
         <description>Portier</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>64</code>
         <age>-</age>
         <description>Kruier</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>65</code>
         <age>-</age>
         <description>Kamerjongen, kamermeisje</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>66</code>
         <age>-</age>
-        <description>Conci�rge</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <description>Concièrge</description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>67</code>
         <age>-</age>
-        <description>Chef conci�rge</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <description>Chef concièrge</description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>70</code>
         <age>-</age>
-        <description>Hulp �tage-kelner(in)</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <description>Hulp étage-kelner(in)</description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>71</code>
         <age>-</age>
         <description>Etage-kelner(in)</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>72</code>
         <age>-</age>
         <description>Assistent(e) oberkelner(in) roomservice</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>73</code>
         <age>-</age>
         <description>Oberkelner(in) roomservice</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>75</code>
         <age>-</age>
         <description>Aangestelden toiletten</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>116</category>
         <code>77</code>
         <age>-</age>
         <description>Aangestelde kleedkamer</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>10</code>
         <age>-</age>
         <description>Hulpkelner(in)-afruimer</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>11</code>
         <age>-</age>
@@ -2097,52 +2520,61 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>12</code>
         <age>-</age>
         <description>Hulpkelner(in)-rijleider</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>13</code>
         <age>-</age>
         <description>1/2 rijleid(st)er restaurant</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>14</code>
         <age>-</age>
         <description>Kelner(in) restaurant</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>15</code>
         <age>-</age>
         <description>Rangkelner(in) restaurant</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>16</code>
         <age>-</age>
         <description>Eerste rangkelner(in) restaurant</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>17</code>
         <age>-</age>
@@ -2151,124 +2583,149 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>18</code>
         <age>-</age>
         <description>Assistent(e) oberkelner(in) restaurant</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>19</code>
         <age>-</age>
         <description>Oberkelner(in) restaurant</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>22</code>
         <age>-</age>
         <description>Hulpkelner(in), Commis</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>23</code>
         <age>-</age>
         <description>Banketkelner(in)</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>24</code>
         <age>-</age>
         <description>1/2 rijleid(st)er banket</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>25</code>
         <age>-</age>
         <description>Rijleid(st)er banket</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>26</code>
         <age>-</age>
         <description>Eerste rangkelner(in) banket</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>27</code>
         <age>-</age>
         <description>Assistent(e) oberkelner(in) banket</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>28</code>
         <age>-</age>
         <description>Oberkelner(in) banket</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>53</code>
         <age>-</age>
         <description>Kelner(in) brasserie, taverne, bistro</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>55</code>
         <age>-</age>
-        <description>Kelner caf�</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <description>Kelner café</description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>57</code>
         <age>-</age>
         <description>Hulpknecht barman</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>58</code>
         <age>-</age>
         <description>Barman</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>59</code>
         <age>-</age>
@@ -2277,39 +2734,47 @@
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>61</code>
         <age>-</age>
         <description>Loopjongen, loopmeisje</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>62</code>
         <age>-</age>
         <description>Voiturier</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>63</code>
         <age>-</age>
         <description>Portier</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
-        <ventilation>descriptionnummers geldig vanaf 2007/2</ventilation>
         <category>117</category>
         <code>64</code>
         <age>-</age>
         <description>Kruier</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2317,7 +2782,10 @@
         <code>65</code>
         <age>-</age>
         <description>Kamerjongen, kamermeisje</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2325,7 +2793,10 @@
         <code>66</code>
         <age>-</age>
         <description>Concièrge</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2333,7 +2804,10 @@
         <code>67</code>
         <age>-</age>
         <description>Chef concièrge</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2341,7 +2815,10 @@
         <code>70</code>
         <age>-</age>
         <description>Hulp étage-kelner(in)</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2350,7 +2827,10 @@
         <code>71</code>
         <age>-</age>
         <description>Etage-kelner(in)</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2358,7 +2838,10 @@
         <code>72</code>
         <age>-</age>
         <description>Assistent(e) oberkelner(in) roomservice</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2366,7 +2849,10 @@
         <code>73</code>
         <age>-</age>
         <description>Oberkelner(in) roomservice</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2374,7 +2860,10 @@
         <code>75</code>
         <age>-</age>
         <description>Aangestelden toiletten</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2382,7 +2871,10 @@
         <code>77</code>
         <age>-</age>
         <description>Aangestelde kleedkamer</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2390,8 +2882,14 @@
         <code>91</code>
         <age>-</age>
         <description>Gelegenheidsarbeider in de landbouw</description>
-        <begin-validity>01/01/2007</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>194</category>
@@ -2407,14 +2905,20 @@
         <age>-</age>
         <description>Gelegenheidsarbeider in de tuinbouw</description>
         <begin-validity>01/01/1900</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>216</category>
         <code>96</code>
         <age>-</age>
         <description>Gelegenheidswerknemer in de horeca met tijdsblok 5 uur</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2422,7 +2926,10 @@
         <code>97</code>
         <age>-</age>
         <description>Gelegenheidswerknemer in de horeca met tijdsblok 11 uur</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2430,7 +2937,10 @@
         <code>96</code>
         <age>-</age>
         <description>Gelegenheidswerknemer in de horeca met tijdsblok 5 uur</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2438,7 +2948,10 @@
         <code>97</code>
         <age>-</age>
         <description>Gelegenheidswerknemer in de horeca met tijdsblok 11 uur</description>
-        <begin-validity>01/07/2007</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>30/09/2013</end-validity>
     </function>
     <function>
@@ -2448,7 +2961,10 @@
         <age>-</age>
         <description>Gelegenheidsarbeider in de landbouw</description>
         <begin-validity>01/01/2020</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>317</category>
@@ -2456,7 +2972,10 @@
         <age>-</age>
         <description>Gelegenheidswerknemers uit de horeca met dagforfait</description>
         <begin-validity>01/10/2013</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>317</category>
@@ -2464,7 +2983,10 @@
         <age>-</age>
         <description>Gelegenheidswerknemers uit de horeca met uurforfait</description>
         <begin-validity>01/10/2013</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>323</category>
@@ -2472,15 +2994,24 @@
         <age>-</age>
         <description>Aangestelden toiletten</description>
         <begin-validity>01/01/2010</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>494</category>
         <code>99</code>
         <age>-</age>
         <description>Gelegenheidsarbeider in de tuinbouw</description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>497</category>
@@ -2488,23 +3019,40 @@
         <age>-</age>
         <description>Gelegenheidsarbeider in de landbouw</description>
         <begin-validity>01/01/2007</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>497</category>
         <code>94</code>
         <age>-</age>
         <description>Gelegenheidswerknemers uit de horeca met dagforfait</description>
-        <begin-validity>01/10/2013</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>497</category>
         <code>95</code>
         <age>-</age>
-        <description>Gelegenheidswerknemers uit de horeca met uurforfait</description>
-        <begin-validity>01/10/2013</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <description>
+            <nl>Gelegenheidswerknemers uit de horeca met uurforfait</nl>
+        </description>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>497</category>
@@ -2520,7 +3068,10 @@
         <age>-</age>
         <description>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006 de landbouw</description>
         <begin-validity>01/07/2004</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>562</category>
@@ -2528,7 +3079,10 @@
         <age>-</age>
         <description>Aangestelden toiletten</description>
         <begin-validity>01/01/2010</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>594</category>
@@ -2536,7 +3090,10 @@
         <age>-</age>
         <description>Gelegenheidsarbeider in de witloofsector voor de dagen waarop gelegenheidswerk verricht wordt bovenop de 65 dagen</description>
         <begin-validity>01/01/2007</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>594</category>
@@ -2544,7 +3101,10 @@
         <age>-</age>
         <description>Gelegenheidsarbeider in de champignonsector</description>
         <begin-validity>01/01/2013</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>594</category>
@@ -2552,7 +3112,10 @@
         <age>-</age>
         <description>Gelegenheidsarbeider in de fruitteelt</description>
         <begin-validity>01/01/2020</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>594</category>
@@ -2560,7 +3123,10 @@
         <age>-</age>
         <description>Gelegenheidsarbeider in de tuinbouw</description>
         <begin-validity>01/01/2007</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
     <function>
         <category>662</category>
@@ -2568,7 +3134,10 @@
         <age>-</age>
         <description>Aangestelden toiletten</description>
         <begin-validity>01/01/2010</begin-validity>
-        <end-validity>01/01/9999</end-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </function>
 </functions>
 
