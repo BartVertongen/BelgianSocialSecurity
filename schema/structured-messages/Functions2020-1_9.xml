@@ -1,0 +1,5113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functions>
+    <function>
+        <category>16</category>
+        <code>27</code>
+        <age>-</age>
+        <description>
+            <nl>Kruier</nl>
+            <fr>Porteurs de bagages</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>32</code>
+        <age>15</age>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>33</code>
+        <age>16</age>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>34</code>
+        <age>17</age>
+        <description>
+            <nl>Adjunct chef loopjongen</nl>
+            <fr>Adjoint chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>35</code>
+        <age>18</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>36</code>
+        <age>19</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>37</code>
+        <age>20</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>38</code>
+        <age>-,21,-,18,18,-,-</age>
+        <description>
+            <nl>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, toiletvrouw, Aangestelde kleedkamer, Andere werknemers</nl>
+            <fr>
+                Voiturier, Portier, Bagagiste, Valet de chambre, Femme de chambre, Préposée à la toilette, Préposée au vestiaire
+                , Autres travailleurs
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>39</code>
+        <age>21</age>
+        <description>
+            <nl>Conciërge</nl>
+            <fr>Concierge</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>40</code>
+        <age>23</age>
+        <description>
+            <nl>Chef conciërge</nl>
+            <fr>Chef concierge</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>41</code>
+        <age>19</age>
+        <description>
+            <nl>Kamerknecht, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>43</code>
+        <age>15</age>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>44</code>
+        <age>16</age>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>45</code>
+        <age>17</age>
+        <description>
+            <nl>Hulpkelner-afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>46</code>
+        <age>18</age>
+        <description>
+            <nl>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</nl>
+            <fr>Commis de suite, Commis de suite/ banquet, Commis barman, Commis d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>47</code>
+        <age>19</age>
+        <description>
+            <nl>Hulpkelner-rijleider, Banketkelner</nl>
+            <fr>Commis de rang, Garçon de banquet</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>48</code>
+        <age>20</age>
+        <description>
+            <nl>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</nl>
+            <fr>1/2 chef de rang restaurant, 1/2 chef de rang banquet, Commis barman</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>49</code>
+        <age>21,21,21,21,21,21,22,-</age>
+        <description>
+            <nl>
+                Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie
+                , taverne, bistro,Kelner café, Barman, Etage-kelner
+            </nl>
+            <fr>
+                Garçon de restaurant, Chef de rang restaurant, Garçon de banquet, Chef de rang banquet, Garçon de brasserie
+                , taverne, bistro,  Garçon de café, Barman, Garçon d'étage
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>50</code>
+        <age>22,22,22,-</age>
+        <description>
+            <nl>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</nl>
+            <fr>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>51</code>
+        <age>23</age>
+        <description>
+            <nl>Maître d'hôtel restaurant, Maître d'hôtel banket, Oberkelner roomservice</nl>
+            <fr>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>52</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent maître d'hôtel restaurant, Assistent maître d'hôtel banket, Assistent oberkelner roomservice</nl>
+            <fr>Assistant maître d'hôtel restaurant, Assistant maître d'hôtel banquet, Assistant maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>98</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de Horeca</nl>
+            <fr>Travailleur occasionnel dans l'Horeca</fr>
+        </description>  
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>27</code>
+        <age>-</age>
+        <description>
+            <nl>Kruier</nl>
+            <fr>Porteurs de bagages</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>32</code>
+        <age>15</age>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>33</code>
+        <age>16</age>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>34</code>
+        <age>17</age>
+        <description>
+            <nl>Adjunct chef loopjongen</nl>
+            <fr>Adjoint chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>35</code>
+        <age>18</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+         <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    <function>
+        <category>17</category>
+        <code>36</code>
+        <age>19</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>37</code>
+        <age>20</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>38</code>
+        <age>-,21,-,18,18,-,-</age>
+        <description>
+            <nl>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</nl>
+            <fr>
+                Voiturier, Portier, Bagagiste, Valet de chambre, Femme de chambre, Préposée à la toilette, Préposée au vestiaire
+                , Autres travailleurs
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>39</code>
+        <age>21</age>
+        <description>
+            <nl>Conciërge</nl>
+            <fr>Concierge</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>40</code>
+        <age>23</age>
+        <description>
+            <nl>Chef concièrge</nl>
+            <fr>Chef concierge</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>41</code>
+        <age>19</age>
+        <description>
+            <nl>Kamerknecht, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>43</code>
+        <age>15</age>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>44</code>
+        <age>16</age>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>45</code>
+        <age>17</age>
+        <description>
+            <nl>Hulpkelner-afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>46</code>
+        <age>18</age>
+        <description>
+            <nl>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</nl>
+            <fr>Commis de suite, Commis de suite/ banquet, Commis barman, Commis d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>47</code>
+        <age>19</age>
+        <description>
+            <nl>Hulpkelner-rijleider, Banketkelner</nl>
+            <fr>Commis de rang, Garçon de banquet</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>48</code>
+        <age>20</age>
+        <description>
+            <nl>1/2 rijleider restaurant,1/2 rijleider banket, Hulpknecht barman</nl>
+            <fr>1/2 chef de rang restaurant, 1/2 chef de rang banquet, Commis barman</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>49</code>
+        <age>21,21,21,21,21,21,22,-</age>
+        <description>
+            <nl>
+                Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner café
+                , Barman, Etage-kelner
+            </nl>
+            <fr>
+                Garçon de restaurant, Chef de rang restaurant, Garçon de banquet, Chef de rang banquet, Garçon de brasserie, taverne
+                , bistro, Garçon de café, Barman, Garçon d'étage
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>50</code>
+        <age>22</age>
+        <description>
+            <nl>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</nl>
+            <fr>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>51</code>
+        <age>23</age>
+        <description>
+            <nl>Maître d'hôtel restaurant, Maître d'hôtel banket, Oberkelner roomservice</nl>
+            <fr>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>52</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent maître d'hôtel restaurant, Assistent maître d'hôtel banket, Assistent oberkelner roomservice</nl>
+            <fr>Assistant maître d'hôtel restaurant, Assistant maître d'hôtel banquet, Assistant maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>98</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de Horeca</nl>
+            <fr>Travailleur occasionnel dans l'Horeca</fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>19</category>
+        <code>81</code>
+        <age>-</age>
+        <description>
+            <nl>Zeevissers : bemanning van de vissersvaartuigen uitgezonderd scheepsleerjongens</nl>
+            <fr>Marins pêcheurs : équipage des bâtiments de pêche à l'exception des apprentis mousses</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1900</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>19</category>
+        <code>82</code>
+        <age>-</age>
+        <description>
+            <nl>Zeevissers : scheepsleerjongens</nl>
+            <fr>Marins pêcheurs : apprentis mousses</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1900</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>20</category>
+        <code>20</code>
+        <age>-</age>
+        <description>
+            <nl>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</nl>
+            <fr>Ouvreuses et préposées au vestiaire occupées dans les théâtres</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>20</category>
+        <code>25</code>
+        <age>-</age>
+        <description>
+            <nl>
+                Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende
+                minimum 40 uren per week
+            </nl>
+            <fr>
+                Ouvreuses et préposées au vestiaire occupées dans les salles de spectacles cinématographiques pendant au
+                moins 40 heures/semaine
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>20</category>
+        <code>26</code>
+        <age>-</age>
+        <description>
+            <nl>
+                Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder 
+                dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen
+            </nl>
+            <fr>
+                Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins 
+                de 40 heures/semaine ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>20</category>
+        <code>29</code>
+        <age>-</age>
+        <description>
+            <nl>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</nl>
+            <fr>Tous les autres travailleurs rémunérés totalement ou partiellement au pourboire</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>23</category>
+        <code>20</code>
+        <age>-</age>
+        <description>
+            <nl>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</nl>
+            <fr>Ouvreuses et préposées au vestiaire occupées dans les théâtres</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>23</category>
+        <code>25</code>
+        <age>-</age>
+        <description>
+            <nl>
+                Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende 
+                minimum 40 uren per week
+            </nl>
+            <fr>
+                Ouvreuses et préposées au vestiaire occupées dans les salles de spectacles cinématographiques pendant au 
+                moins 40 heures/semaine
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>23</category>
+        <code>26</code>
+        <age>-</age>
+        <description>
+            <nl>
+                Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder
+                dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen
+            </nl>
+            <fr>
+                Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins
+                de 40 heures/semaine ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>23</category>
+        <code>29</code>
+        <age>-</age>
+        <description>
+            <nl>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</nl>
+            <fr>Tous les autres travailleurs rémunérés totalement ou partiellement au pourboire</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>68</category>
+        <code>28</code>
+        <age>-</age>
+        <description>
+            <nl>Chauffeurs van taxibestelwagens : andere chauffeurs</nl>
+            <fr>Autres chauffeurs de taxis-camionnettes</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>68</category>
+        <code>30</code>
+        <age>-</age>
+        <description>
+            <nl>Chauffeurs van taxibestelwagens : chauffeurs tewerkgesteld gedurende maximum 6 uren per dag en 30 uren per week</nl>
+            <fr>Chauffeurs de taxis-camionnettes : chauffeurs occupés à raison au maximum de 6 heures/jour et 30 heures/semaine</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>97</category>
+        <code>91</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1900</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>97</category>
+        <code>98</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de Horeca</nl>
+            <fr>Travailleur occasionnel dans l'Horeca</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>97</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006, de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture (jusqu'au 4/2006) et l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>1900</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>27</code>
+        <age>-</age>
+        <description>
+            <nl>Kruier</nl>
+            <fr>Porteurs de bagages</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>32</code>
+        <age>15</age>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>33</code>
+        <age>16</age>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>34</code>
+        <age>17</age>
+        <description>
+            <nl>Adjunct chef loopjongen</nl>
+            <fr>Adjoint chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>35</code>
+        <age>18</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>36</code>
+        <age>19</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>37</code>
+        <age>20</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>38</code>
+        <age>-,21,-,18,18,-,-</age>
+        <description>
+            <nl>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje,Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</nl>
+            <fr>
+                Voiturier, Portier,Bagagiste, Valet de chambre, Femme de chambre, Préposée à la toilette, Préposée au vestiaire
+                , Autres travailleurs
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>39</code>
+        <age>21</age>
+        <description>
+            <nl>Concièrge</nl>
+            <fr>Concierge</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>40</code>
+        <age>23</age>
+        <description>
+            <nl>Chef concièrge</nl>
+            <fr>Chef concierge</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>41</code>
+        <age>19</age>
+        <description>
+            <nl>Kamerknecht, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>43</code>
+        <age>15</age>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>44</code>
+        <age>16</age>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>45</code>
+        <age>17</age>
+        <description>
+            <nl>Hulpkelner-afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>46</code>
+        <age>18</age>
+        <description>
+            <nl>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</nl>
+            <fr>Commis de suite, Commis de suite banquet, Commis barman, Commis d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>47</code>
+        <age>19</age>
+        <description>
+            <nl>Hulpkelner-rijleider, Banketkelner</nl>
+            <fr>Commis de rang, Garçon de banquet</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>48</code>
+        <age>20</age>
+        <description>
+            <nl>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</nl>
+            <fr>1/2 chef de rang, 1/2 chef de rang banquet, Commis barman</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>49</code>
+        <age>21,21,21,21,21,21,22,-</age>
+        <description>
+            <nl>
+                Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro
+                , Kelner café, Barman, Etage-kelner
+            </nl>
+            <fr>
+                Garçon de restaurant, Chef de rang restaurant, Garçon de banquet, Chef de rang banquet, Garçon de brasserie
+                , taverne, bistro, Garçon de café, Barman, Garçon d'étage
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>50</code>
+        <age>22,22,22,-</age>
+        <description>
+            <nl>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</nl>
+            <fr>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>51</code>
+        <age>23</age>
+        <description>
+            <nl>Maître d'hôtel restaurant, Maître d'hôtel banket, Oberkelner roomservice</nl>
+            <fr>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>146</category>
+        <code>52</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent maître d'hôtel restaurant, Assistent maître d'hôtel banket, Assistent oberkelner roomservice</nl>
+            <fr>Assistant maître d'hôtel restaurant, Assistant maître d'hôtel banquet, Assistant maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>27</code>
+        <age>-</age>
+        <description>
+            <nl>Kruier</nl>
+            <fr>Porteurs de bagages</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>32</code>
+        <age>15</age>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>33</code>
+        <age>16</age>
+        <description>
+            <nl>Loopjongen</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>34</code>
+        <age>17</age>
+        <description>
+            <nl>Adjunct chef loopjongen</nl>
+            <fr>Adjoint chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>35</code>
+        <age>18</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>36</code>
+        <age>19</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>37</code>
+        <age>20</age>
+        <description>
+            <nl>Chef loopjongen</nl>
+            <fr>Chef chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>38</code>
+        <age>-,21,-,18,18,-,-</age>
+        <description>
+            <nl>Voiturier, Portier, Kruier, Kamerknecht, Kamermeisje, Toiletvrouw, Aangestelde kleedkamer, Andere werknemers</nl>
+            <fr>
+                Voiturier, Portier, Bagagiste, Valet de chambre, Femme de chambre, Préposée à la toilette, Préposée au vestiaire
+                , Autres travailleurs
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>39</code>
+        <age>21</age>
+        <description>
+            <nl>Concièrge</nl>
+            <fr>Concierge</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>40</code>
+        <age>23</age>
+        <description>
+            <nl>Chef concièrge</nl>
+            <fr>Chef concierge</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>41</code>
+        <age>19</age>
+        <description>
+            <nl>Kamerknecht, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>43</code>
+        <age>15</age>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>44</code>
+        <age>16</age>
+        <description>
+            <nl>Leerjongen zaal</nl>
+            <fr>Apprenti de salle</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>45</code>
+        <age>17</age>
+        <description>
+            <nl>Hulpkelner-afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>46</code>
+        <age>18</age>
+        <description>
+            <nl>Hulpkelner-suite, Hulpkelner-suite/banket, Hulpknecht barman, Hulp étage-kelner</nl>
+            <fr>Commis de suite, Commis de suite banquet, Commis barman, Commis d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>47</code>
+        <age>19</age>
+        <description>
+            <nl>Hulpkelner-rijleider, Banketkelner</nl>
+            <fr>Commis de rang, Garçon de banquet</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>48</code>
+        <age>20</age>
+        <description>
+            <nl>1/2 rijleider restaurant, 1/2 rijleider banket, Hulpknecht barman</nl>
+            <fr>1/2 chef de rang, 1/2 chef de rang banquet, Commis barman</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>49</code>
+        <age>21,21,21,21,21,21,22,-</age>
+        <description>
+            <nl>
+                Kelner restaurant, Rangkelner restaurant, Rijleider banket, Kelner banket, Kelner brasserie, taverne, bistro, Kelner café
+                , Barman, Etage-kelner
+            </nl>
+            <fr>
+                Garçon de restaurant, Chef de rang restaurant, Garçon de banquet, Chef de rang banquet, Garçon de brasserie, taverne
+                , bistro, Garçon de café, Barman, Garçon d'étage
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>50</code>
+        <age>22,22,22,-</age>
+        <description>
+            <nl>Eerste rangkelner restaurant, Wijnkelner, Eerste rangkelner banket, Verantwoordelijke barman</nl>
+            <fr>Premier chef de rang, Sommelier, Premier chef de rang banquet, Responsable barman</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>51</code>
+        <age>23</age>
+        <description>
+            <nl>Maître d'hôtel restaurant, Maître d'hôtel banket, Oberkelner roomservice</nl>
+            <fr>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>158</category>
+        <code>52</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent maître d'hôtel restaurant, Assistent maître d'hôtel banket, Assistent oberkelner roomservice</nl>
+            <fr>Assistant maître d'hôtel restaurant, Assistant maître d'hôtel banquet, Assistant maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>166</category>
+        <code>21</code>
+        <age>-</age>
+        <description>
+            <nl>
+                Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren
+                : cabine- of badjongen of badmeisje
+            </nl>
+            <fr>
+                Travailleurs occupés dans les établissements de bain et dans les entreprises exploitant des établissements de bain
+                : garçon ou fille de cabine ou de bain
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>166</category>
+        <code>23</code>
+        <age>-</age>
+        <description>
+            <nl>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : pedicure</nl>
+            <fr>
+                Travailleurs occupés dans les établissements de bain et dans les entreprises exploitant des établissements de bain 
+               : pédicure
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>166</category>
+        <code>24</code>
+        <age>-</age>
+        <description>
+            <nl>Werknemers tewerkgesteld in badinrichtingen en in ondernemingen welke badinrichtingen exploiteren : masseu(r)(se)</nl>
+            <fr>
+                Travailleurs occupés dans les établissements de bain et dans les entreprises exploitant des établissements de bain 
+                : masseur - masseuse
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+       <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>166</category>
+        <code>26</code>
+        <age>-</age>
+        <description>
+            <nl>
+                Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder
+                 dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen
+            </nl>
+            <fr>
+                Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins 
+                de 40 heures/semaine ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>193</category>
+        <code>91</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>193</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2006</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>194</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw</nl>
+            <fr>Travailleurs occasionnels dans l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>323</category>
+        <code>20</code>
+        <age>-</age>
+        <description>
+            <nl>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</nl>
+            <fr>Ouvreuses et préposées au vestiaire occupées dans les théâtres</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <functionn>
+        <category>323</category>
+        <code>25</code>
+        <age>-</age>
+        <description>
+            <nl>
+                Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende
+                minimum 40 uren per week
+            </nl>
+            <fr>
+                Ouvreuses et préposées au vestiaire occupées dans les salles de spectacles cinématographiques pendant au
+                 moins 40 heures/semaine
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>323</category>
+        <code>26</code>
+        <age>-</age>
+        <description>
+            <nl>
+                Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder
+                dan 40 uren per week of in andere schouwpelondernemingen of toiletvrouwen
+            </nl>
+            <fr>
+                Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins de 40 heures/semaine
+                ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>323</category>
+        <code>29</code>
+        <age>-</age>
+        <description>
+            <nl>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</nl>
+            <fr>Tous les autres travailleurs rémunérés totalement ou partiellement au pourboire</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>494</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw</nl>
+            <fr>Travailleurs occasionnels dans l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>497</category>
+        <code>91</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>497</category>
+        <code>98</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de Horeca</nl>
+            <fr>Travailleur occasionnel dans l'Horeca</fr>
+        </description>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>497</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006 de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture (jusqu'au 4/2006) et l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>562</category>
+        <code>20</code>
+        <age>-</age>
+        <description>
+            <nl>Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de schouwburgen</nl>
+            <fr>Ouvreuses et préposées au vestiaire occupées dans les théâtres</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>562</category>
+        <code>26</code>
+        <age>-</age>
+        <description>
+            <nl>
+                Programmaverkoopsters en aangestelden in de vestiaire tewerkgesteld in de zalen voor filmvertoningen gedurende minder
+                dan 40 uren per week of in andere schouwspelondernemingen of toiletvrouwen
+            </nl>
+            <fr>
+                Ouvreuses et préposées au vestiaire occupées dans les autres entreprises de spectacle pendant moins de 40 heures/semaine
+                ou occupées dans les autres entreprises que des théâtres ou préposés à la toilette
+            </fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>562</category>
+        <code>29</code>
+        <age>-</age>
+        <description>
+            <nl>Andere met geheel of gedeeltelijk met fooien of bedieningsgeld bezoldigde werknemers</nl>
+            <fr>Tous les autres travailleurs rémunérés totalement ou partiellement au pourboire</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>594</category>
+        <code>90</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de witloofsector voor de dagen waarop gelegenheidswerk verricht wordt bovenop de 65 dagen</nl>
+            <fr>Travailleurs occasionnels dans le secteur du chicon pour les jours de travail occasionnel au-delà des 65 jours</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>594</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw</nl>
+            <fr>Travailleurs occasionnels dans l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>10</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>11</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-suite</nl>
+            <fr>Commis de suite</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>12</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-rijleider</nl>
+            <fr>Commis de rang</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>13</code>
+        <age>-</age>
+        <description>
+            <nl>1/2 rijleid(st)er restaurant</nl>
+            <fr>½ chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>14</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner(in) restaurant</nl>
+            <fr>Garçon de restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>15</code>
+        <age>-</age>
+        <description>
+            <nl>Rangkelner(in) restaurant</nl>
+            <fr>Chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>16</code>
+        <age>-</age>
+        <description>
+            <nl>Eerste rangkelner(in) restaurant</nl>
+            <fr>1er chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>17</code>
+        <age>-</age>
+        <description>
+            <nl>Wijnkelner(in)</nl>
+            <fr>Sommelier</fr>
+        </description>
+       <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>18</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) restaurant</nl>
+            <fr>Assistant maître d'hôtel restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>19</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) restaurant</nl>
+            <fr>Maître d'hôtel restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>22</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in), Commis</nl>
+            <fr>Aide serveur (se) / Commis</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>23</code>
+        <age>-</age>
+        <description>
+            <nl>Banketkelner(in)</nl>
+            <fr>Garçon de banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>24</code>
+        <age>-</age>
+        <description>
+            <nl>1/2 rijleid(st)er banket</nl>
+            <fr>½ chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>25</code>
+        <age>-</age>
+        <description>
+            <nl>Rijleid(st)er banket</nl>
+            <fr>Chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>26</code>
+        <age>-</age>
+        <description>
+            <nl>Eerste rangkelner(in) banket</nl>
+            <fr>1er chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>27</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) banket</nl>
+            <fr>Assistant maître d'hôtel banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>28</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) banket</nl>
+            <fr>Maître d'hôtel banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>53</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner(in) brasserie, taverne, bistro</nl>
+            <fr>Garçon de brasserie, taverne, bistro</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>55</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner café</nl>
+            <fr>Garçon de café</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>57</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpknecht barman</nl>
+            <fr>Commis barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>58</code>
+        <age>-</age>
+        <description>
+            <nl>Barman</nl>
+            <fr>Barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>59</code>
+        <age>-</age>
+        <description>
+            <nl>Verantwoordelijke barman, verantwoordelijke barmeid</nl>
+            <fr>Responsable barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>61</code>
+        <age>-</age>
+        <description>
+            <nl>Loopjongen, loopmeisje</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>62</code>
+        <age>-</age>
+        <description>
+            <nl>Voiturier</nl>
+            <fr>Voiturier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>63</code>
+        <age>-</age>
+        <description>
+            <nl>Portier</nl>
+            <fr>Portier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>64</code>
+        <age>-</age>
+        <description>
+            <nl>Kruier</nl>
+            <fr>Bagagiste</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>65</code>
+        <age>-</age>
+        <description>
+            <nl>Kamerjongen, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>66</code>
+        <age>-</age>
+        <description>
+            <nl>Concièrge</nl>
+            <fr>Concierge</fr>
+        </description>
+       <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>67</code>
+        <age>-</age>
+        <description>
+            <nl>Chef concièrge</nl>
+            <fr>Chef concierge</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>70</code>
+        <age>-</age>
+        <description>
+            <nl>Hulp étage-kelner(in)</nl>
+            <fr>Commis d'étage</fr>
+        </description>
+       <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>71</code>
+        <age>-</age>
+        <description>
+            <nl>Etage-kelner(in)</nl>
+            <fr>Garçon d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>72</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) roomservice</nl>
+            <fr>Assistant maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>73</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) roomservice</nl>
+            <fr>Maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>75</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelden toiletten</nl>
+            <fr>Préposés aux toilettes</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>77</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelde kleedkamer</nl>
+            <fr>Préposé au vestiaire</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>16</category>
+        <code>98</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de Horeca</nl>
+            <fr>Travailleur occasionnel dans l'Horeca</fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>10</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>11</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-suite</nl>
+            <fr>Commis de suite</fr>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>12</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-rijleider</nl>
+            <fr>Commis de rang</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>13</code>
+        <age>-</age>
+        <description>
+            <nl>1/2 rijleid(st)er restaurant</nl>
+            <fr>½ chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>14</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner(in) restaurant</nl>
+            <fr>Garçon de restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>15</code>
+        <age>-</age>
+        <description>
+            <nl>Rangkelner(in) restaurant</nl>
+            <fr>Chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>16</code>
+        <age>-</age>
+        <description>
+            <nl>Eerste rangkelner(in) restaurant</nl>
+            <fr>1er chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>17</code>
+        <age>-</age>
+        <description>
+            <nl>Wijnkelner(in)</nl>
+            <fr>Sommelier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>18</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) restaurant</nl>
+            <fr>Assistant maître d'hôtel restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>19</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) restaurant</nl>
+            <fr>Maître d'hôtel restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>22</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in), Commis</nl>
+            <fr>Aide serveur (se) / Commis</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>23</code>
+        <age>-</age>
+        <description>
+            <nl>Banketkelner(in)</nl>
+            <fr>Garçon de banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>24</code>
+        <age>-</age>
+        <description>
+            <nl>1/2 rijleid(st)er banket</nl>
+            <fr>½ chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>25</code>
+        <age>-</age>
+        <description>
+            <nl>Rijleid(st)er banket</nl>
+            <fr>Chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>26</code>
+        <age>-</age>
+        <description>
+            <nl>Eerste rangkelner(in) banket</nl>
+            <fr>1er chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>27</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) banket</nl>
+            <fr>Assistant maître d'hôtel banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>28</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) banket</nl>
+            <fr>Maître d'hôtel banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>53</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner(in) brasserie, taverne, bistro</nl>
+            <fr>Garçon de brasserie, taverne, bistro</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>55</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner café</nl>
+            <fr>Garçon de café</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>57</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpknecht barman</nl>
+            <fr>Commis barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>58</code>
+        <age>-</age>
+        <description>
+            <nl>Barman</nl>
+            <fr>Barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>59</code>
+        <age>-</age>
+        <description>
+            <nl>Verantwoordelijke barman, verantwoordelijke barmeid</nl>
+            <fr>Responsable barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>61</code>
+        <age>-</age>
+        <description>
+            <nl>Loopjongen, loopmeisje</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>62</code>
+        <age>-</age>
+        <description>
+            <nl>Voiturier</nl>
+            <fr>Voiturier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>63</code>
+        <age>-</age>
+        <description>
+            <nl>Portier</nl>
+            <fr>Portier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>64</code>
+        <age>-</age>
+        <description>
+            <nl>Kruier</nl>
+            <fr>Bagagiste</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>65</code>
+        <age>-</age>
+        <description>
+            <nl>Kamerjongen, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>66</code>
+        <age>-</age>
+        <description>
+            <nl>Concièrge</nl>
+            <fr>Concierge</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>67</code>
+        <age>-</age>
+        <description>
+            <nl>Chef concièrge</nl>
+            <fr>Chef concierge</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>70</code>
+        <age>-</age>
+        <description>
+            <nl>Hulp étage-kelner(in)</nl>
+            <fr>Commis d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>71</code>
+        <age>-</age>
+        <description>
+            <nl>Etage-kelner(in)</nl>
+            <fr>Garçon d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>72</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) roomservice</nl>
+            <fr>Assistant maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>73</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) roomservice</nl>
+            <fr>Maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>75</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelden toiletten</nl>
+            <fr>Préposés aux toilettes</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>77</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelde kleedkamer</nl>
+            <fr>Préposé au vestiaire</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>17</category>
+        <code>98</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de Horeca</nl>
+            <fr>Travailleur occasionnel dans l'Horeca</fr>
+        </description>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>19</category>
+        <code>81</code>
+        <age>-</age>
+        <description>
+            <nl>Zeevissers : bemanning van de vissersvaartuigen uitgezonderd scheepsleerjongens</nl>
+            <fr>Marins pêcheurs : équipage des bâtiments de pêche à l'exception des apprentis mousses</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>19</category>
+        <code>82</code>
+        <age>-</age>
+        <description>
+            <nl>Zeevissers : scheepsleerjongens</nl>
+            <fr>Marins pêcheurs : apprentis mousses</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>66</category>
+        <code>85</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelden toiletten</nl>
+            <fr>Préposés aux toilettes</fr>
+        </description>
+        <begin-validity>
+            <year>2010</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>95</category>
+        <code>85</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelden toiletten</nl>
+            <fr>Préposés aux toilettes</fr>
+        </description>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>97</category>
+        <code>91</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>97</category>
+        <code>94</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemers uit de horeca met dagforfait</nl>
+            <fr>Occasionnels de l'horeca avec forfait journalier</fr>
+        </description>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>97</category>
+        <code>95</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemers uit de horeca met uurforfait</nl>
+            <fr>Occasionnels de l'horeca avec forfait horaire</fr>
+        </description>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>97</category>
+        <code>98</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de Horeca</nl>
+            <fr>Travailleur occasionnel dans l'Horeca</fr>
+        </description>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>97</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006, de landbouw</nl>
+            <fr>Travailleurs occasionnels dans  l'agriculture (jusqu'au 4/2006) et l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>10</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>11</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-suite</nl>
+            <fr>Commis de suite</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>12</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-rijleider</nl>
+            <fr>Commis de rang</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>13</code>
+        <age>-</age>
+        <description>
+            <nl>1/2 rijleid(st)er restaurant</nl>
+            <fr>½ chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>14</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner(in) restaurant</nl>
+            <fr>Garçon de restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>15</code>
+        <age>-</age>
+        <description>
+            <nl>Rangkelner(in) restaurant</nl>
+            <fr>Chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>16</code>
+        <age>-</age>
+        <description>
+            <nl>Eerste rangkelner(in) restaurant</nl>
+            <fr>1er chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>17</code>
+        <age>-</age>
+        <description>
+            <nl>Wijnkelner(in)</nl>
+            <fr>Sommelier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>18</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) restaurant</nl>
+            <fr>Assistant maître d'hôtel restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>19</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) restaurant</nl>
+            <fr>Maître d'hôtel restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>22</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in), Commis</nl>
+            <fr>Aide serveur (se) / Commis</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>23</code>
+        <age>-</age>
+        <description>
+            <nl>Banketkelner(in)</nl>
+            <fr>Garçon de banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>24</code>
+        <age>-</age>
+        <description>
+            <nl>1/2 rijleid(st)er banket</nl>
+            <fr>½ chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>25</code>
+        <age>-</age>
+        <description>
+            <nl>Rijleid(st)er banket</nl>
+            <fr>Chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>26</code>
+        <age>-</age>
+        <description>
+            <nl>Eerste rangkelner(in) banket</nl>
+            <fr>1er chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>27</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) banket</nl>
+            <fr>Assistant maître d'hôtel banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>28</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) banket</nl>
+            <fr>Maître d'hôtel banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>53</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner(in) brasserie, taverne, bistro</nl>
+            <fr>Garçon de brasserie, taverne, bistro</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>55</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner café</nl>
+            <fr>Garçon de café</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>57</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpknecht barman</nl>
+            <fr>Commis barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>58</code>
+        <age>-</age>
+        <description>
+            <nl>Barman</nl>
+            <fr>Barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>59</code>
+        <age>-</age>
+        <description>
+            <nl>Verantwoordelijke barman, verantwoordelijke barmeid</nl>
+            <fr>Responsable barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>61</code>
+        <age>-</age>
+        <description>
+            <nl>Loopjongen, loopmeisje</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>62</code>
+        <age>-</age>
+        <description>
+            <nl>Voiturier</nl>
+            <fr>Voiturier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>63</code>
+        <age>-</age>
+        <description>
+            <nl>Portier</nl>
+            <fr>Portier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>64</code>
+        <age>-</age>
+        <description>
+            <nl>Kruier</nl>
+            <fr>Bagagiste</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>65</code>
+        <age>-</age>
+        <description>
+            <nl>Kamerjongen, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>66</code>
+        <age>-</age>
+        <description>
+            <nl>Concièrge</nl>
+            <fr>Concierge</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>67</code>
+        <age>-</age>
+        <description>
+            <nl>Chef concièrge</nl>
+            <fr>Chef concierge</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>70</code>
+        <age>-</age>
+        <description>
+            <nl>Hulp étage-kelner(in)</nl>
+            <fr>Commis d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>71</code>
+        <age>-</age>
+        <description>
+            <nl>Etage-kelner(in)</nl>
+            <fr>Garçon d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>72</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) roomservice</nl>
+            <fr>Assistant maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>73</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) roomservice</nl>
+            <fr>Maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>75</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelden toiletten</nl>
+            <fr>Préposés aux toilettes</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>116</category>
+        <code>77</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelde kleedkamer</nl>
+            <fr>Préposé au vestiaire</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>10</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-afruimer</nl>
+            <fr>Commis débarrasseur</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>11</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-suite</nl>
+            <fr>Commis de suite</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>12</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in)-rijleider</nl>
+            <fr>Commis de rang</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>13</code>
+        <age>-</age>
+        <description>
+            <nl>1/2 rijleid(st)er restaurant</nl>
+            <fr>½ chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>14</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner(in) restaurant</nl>
+            <fr>Garçon de restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>15</code>
+        <age>-</age>
+        <description>
+            <nl>Rangkelner(in) restaurant</nl>
+            <fr>Chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>16</code>
+        <age>-</age>
+        <description>
+            <nl>Eerste rangkelner(in) restaurant</nl>
+            <fr>1er chef de rang restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>17</code>
+        <age>-</age>
+        <description>
+            <nl>Wijnkelner(in)</nl>
+            <fr>Sommelier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>18</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) restaurant</nl>
+            <fr>Assistant maître d'hôtel restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>19</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) restaurant</nl>
+            <fr>Maître d'hôtel restaurant</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>22</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpkelner(in), Commis</nl>
+            <fr>Aide serveur (se) / Commis</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>23</code>
+        <age>-</age>
+        <description>
+            <nl>Banketkelner(in)</nl>
+            <fr>Garçon de banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>24</code>
+        <age>-</age>
+        <description>
+            <nl>1/2 rijleid(st)er banket</nl>
+            <fr>½ chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>25</code>
+        <age>-</age>
+        <description>
+            <nl>Rijleid(st)er banket</nl>
+            <fr>Chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>26</code>
+        <age>-</age>
+        <description>
+            <nl>Eerste rangkelner(in) banket</nl>
+            <fr>1er chef de rang banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>27</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) banket</nl>
+            <fr>Assistant maître d'hôtel banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>28</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) banket</nl>
+            <fr>Maître d'hôtel banquet</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>53</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner(in) brasserie, taverne, bistro</nl>
+            <fr>Garçon de brasserie, taverne, bistro</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>55</code>
+        <age>-</age>
+        <description>
+            <nl>Kelner café</nl>
+            <fr>Garçon de café</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>57</code>
+        <age>-</age>
+        <description>
+            <nl>Hulpknecht barman</nl>
+            <fr>Commis barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>58</code>
+        <age>-</age>
+        <description>
+            <nl>Barman</nl>
+            <fr>Commis barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>59</code>
+        <age>-</age>
+        <description>
+            <nl>Verantwoordelijke barman, verantwoordelijke barmeid</nl>
+            <fr>Responsable barman</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>61</code>
+        <age>-</age>
+        <description>
+            <nl>Loopjongen, loopmeisje</nl>
+            <fr>Chasseur</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>62</code>
+        <age>-</age>
+        <description>
+            <nl>Voiturier</nl>
+            <fr>Voiturier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>63</code>
+        <age>-</age>
+        <description>
+            <nl>Portier</nl>
+            <fr>Portier</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>64</code>
+        <age>-</age>
+        <description>
+            <nl>Kruier</nl>
+            <fr>Bagagiste</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>65</code>
+        <age>-</age>
+        <description>
+            <nl>Kamerjongen, kamermeisje</nl>
+            <fr>Valet de chambre, femme de chambre</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>66</code>
+        <age>-</age>
+        <description>
+            <nl>Concièrge</nl>
+            <fr>Concierge</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>67</code>
+        <age>-</age>
+        <description>
+            <nl>Chef concièrge</nl>
+            <fr>Chef concierge</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>70</code>
+        <age>-</age>
+        <description>
+            <nl>Hulp étage-kelner(in)</nl>
+            <fr>Commis d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>71</code>
+        <age>-</age>
+        <description>
+            <nl>Etage-kelner(in)</nl>
+            <fr>Garçon d'étage</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>72</code>
+        <age>-</age>
+        <description>
+            <nl>Assistent(e) oberkelner(in) roomservice</nl>
+            <fr>Assistant maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>73</code>
+        <age>-</age>
+        <description>
+            <nl>Oberkelner(in) roomservice</nl>
+            <fr>Maître d'hôtel roomservice</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>75</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelden toiletten</nl>
+            <fr>Préposés aux toilettes</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>117</category>
+        <code>77</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelde kleedkamer</nl>
+            <fr>Préposé au vestiaire</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>193</category>
+        <code>91</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>194</category>
+        <code>93</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de fruitteelt</nl>
+            <fr>Travailleurs occasionnels dans le secteur de la culture de fruits</fr>
+        </description>
+         <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>194</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw</nl>
+            <fr>Travailleurs occasionnels dans l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>216</category>
+        <code>96</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de horeca met tijdsblok 5 uur</nl>
+            <fr>Occasionnels de l'horeca avec bloc temps 5 heures</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>216</category>
+        <code>97</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de horeca met tijdsblok 11 uur</nl>
+            <fr>Occasionnels de l'horeca avec bloc temps 11 heures</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>217</category>
+        <code>96</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de horeca met tijdsblok 5 uur</nl>
+            <fr>Occasionnels de l'horeca avec bloc temps 5 heures</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>217</category>
+        <code>97</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de horeca met tijdsblok 11 uur</nl>
+            <fr>Occasionnels de l'horeca avec bloc temps 11 heures</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>293</category>
+        <code>91</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture</fr>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>317</category>
+        <code>94</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemers uit de horeca met dagforfait</nl>
+            <fr>Occasionnels de l'horeca avec forfait journalier</fr>
+        </description>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>317</category>
+        <code>95</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemers uit de horeca met uurforfait</nl>
+            <fr>Occasionnels de l'horeca avec forfait horaire</fr>
+        </description>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>323</category>
+        <code>85</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelden toiletten</nl>
+            <fr>Préposés aux toilettes</fr>
+        </description>
+        <begin-validity>
+            <year>2010</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>494</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw</nl>
+            <fr>Travailleurs occasionnels dans l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>497</category>
+        <code>91</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>497</category>
+        <code>94</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemers uit de horeca met dagforfait</nl>
+            <fr>Occasionnels de l'horeca avec forfait journalier</fr>
+        </description>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>497</category>
+        <code>95</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemers uit de horeca met uurforfait</nl>
+            <fr>Occasionnels de l'horeca avec forfait horaire</fr>
+        </description>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>497</category>
+        <code>98</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidswerknemer in de Horeca</nl>
+            <fr>Travailleur occasionnel dans l'Horeca</fr>
+        </description>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>497</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw en, tem 4/2006 de landbouw</nl>
+            <fr>Travailleurs occasionnels dans l'agriculture (jusqu'au 4/2006) et l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>562</category>
+        <code>85</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelden toiletten</nl>
+            <fr>Préposés aux toilettes</fr>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>594</category>
+        <code>90</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de witloofsector voor de dagen waarop gelegenheidswerk verricht wordt bovenop de 65 dagen</nl>
+            <fr>Travailleurs occasionnels dans le secteur du chicon pour les jours de travail occasionnel au-del� des 65 jours</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>594</category>
+        <code>92</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de champignonsector</nl>
+            <fr>Travailleurs occasionnels dans le secteur du champignon</fr>
+        </description>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>594</category>
+        <code>93</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de fruitteelt</nl>
+            <fr>Travailleurs occasionnels dans le secteur de la culture de fruits</fr>
+        </description>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>594</category>
+        <code>99</code>
+        <age>-</age>
+        <description>
+            <nl>Gelegenheidsarbeider in de tuinbouw</nl>
+            <fr>Travailleurs occasionnels dans l'horticulture</fr>
+        </description>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+    <function>
+        <category>662</category>
+        <code>85</code>
+        <age>-</age>
+        <description>
+            <nl>Aangestelden toiletten</nl>
+            <fr>Préposés aux toilettes</fr>
+        </description>
+        <begin-validity>
+            <year>2010</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </function>
+</functions>
+

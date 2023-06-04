@@ -101,6 +101,7 @@
      <renumeration-PPO>
           <category>
                <nl>Aangifte Sociaal Risico - exact loon</nl>
+               <fr></fr>
           </category>
           <code-PPL>31</code-PPL>
           <code>31</code>
@@ -121,7 +122,10 @@
           </category>
           <code-PPL>32</code-PPL>
           <code>32</code>
-          <description>Nettoloon activeringsprogramma</description>
+          <description>
+               <nl>Nettoloon activeringsprogramma</nl>
+               <fr></fr>
+          </description>
           <begin-validity>
                <year>2004</year>
                <quarter>3</quarter>
@@ -152,7 +156,10 @@
           </category>
           <code-PPL>101</code-PPL>
           <code>1</code>
-          <description>Geïndexeerd basisloon (zonder wettelijke of buitenwettelijke premies en vergoedingen)</description>
+          <description>
+               <nl>Geïndexeerd basisloon (zonder wettelijke of buitenwettelijke premies en vergoedingen)</nl>
+               <fr></fr>
+          </description>
           <begin-validity>
                <year>2004</year>
                <quarter>3</quarter>
@@ -160,10 +167,19 @@
           <end-validity>2021/4</end-validity>
      </renumeration-PPO>
      <renumeration-PPO>
-          <category>Basisloon</category>
+          <category>
+               <nl>Basisloon</nl>
+               <fr></fr>
+          </category>
           <code-PPL>110</code-PPL>
           <code>20</code>
-          <description>Geïndexeerd basisloon dat toegekend wordt aan een naar het buitenland gedetacheerd vastbenoemd personeelslid en dat in aanmerking komt voor het overheidspensioen</description>
+          <description>
+               <nl>
+                    Geïndexeerd basisloon dat toegekend wordt aan een naar het buitenland gedetacheerd vastbenoemd personeelslid
+                    en dat in aanmerking komt voor het overheidspensioen
+               </nl>
+               <fr></fr>
+          </description>
           <begin-validity>2005/1</begin-validity>
           <end-validity>2021/4</end-validity>
      </renumeration-PPO>
@@ -171,7 +187,13 @@
           <category>Basisloon</category>
           <code-PPL>120</code-PPL>
           <code>1</code>
-          <description>Loon betaald aan een vastbenoemd personeelslid dat afwezig is in het kader van een maatregel end-validity reorganisatie van de arbeidstijd - onderworpen aan socialezekerheidsbijdragen - geen pensioenbijdragen</description>
+          <description>
+               <nl>
+                    Loon betaald aan een vastbenoemd personeelslid dat afwezig is in het kader van een maatregel end-validity reorganisatie van de arbeidstijd
+                    - onderworpen aan socialezekerheidsbijdragen - geen pensioenbijdragen
+               </nl>
+               <fr></fr>
+          </description>
           <begin-validity>2005/1</begin-validity>
           <end-validity>2010/4</end-validity>
      </renumeration-PPO>

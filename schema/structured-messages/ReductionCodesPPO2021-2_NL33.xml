@@ -2,17 +2,25 @@
 <reduction-codes-PPO>
      <reduction-code-PPO>
           <code-DMFA>0001</code-DMFA>
-          <description>Vermindering van de persoonlijke bijdragen voor de werknemers met een werkbonus</description>
+          <description>
+               <nl>Vermindering van de persoonlijke bijdragen voor de werknemers met een werkbonus</nl>
+          </description>
           <begin-validity>2000/3</begin-validity>
           <end-validity>9999/4</end-validity>
-          <region>Federaal</region>
+        <region>
+            <nl>Federaal</nl>
+            <fr>Fédérale</fr>
+        </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Verplicht</amount>
-          <start-right>Verboden</start-right>
-          <link-block>Werknemerslijn</link-block>
+          <amount>obligatory</amount>
+          <start-right>forbidden</start-right>
+          <link-block>
+               <nl>Werknemerslijn</nl>
+               <fr>Ligne travailleur</fr>
+        </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>0600</code-DMFA>
@@ -25,17 +33,20 @@
           </description>
           <begin-validity>2004/3</begin-validity>
           <end-validity>2007/2</end-validity>
-          <region>Federaal</region>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
           <amount>
-               <nl>Verplicht</nl>
+               <nl>obligatory</nl>
                <fr></fr>
           </amount>
           <start-right>
-               <nl>Verboden</nl>
+               <nl>forbidden</nl>
                <fr></fr>
           </start-right>
           <link-block>
@@ -50,55 +61,69 @@
           </description>
           <begin-validity>2007/1</begin-validity>
           <end-validity>9999/4</end-validity>
-          <region>Federaal</region>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Verplicht</amount>
-          <start-right>Verplicht</start-right>
+          <amount>obligatory</amount>
+          <start-right>obligatory</start-right>
           <link-block>Werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>1105</code-DMFA>
-          <description>Overgangsperiode : banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden (&gt;45 jaar)</description>
+          <description>Overgangsperiode : banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 12 maanden (&gt;45 yesar)</description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2008/1</end-validity>
-          <region>Federaal</region>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>1106</code-DMFA>
-          <description>Overgangsperiode : banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden (&gt;45 jaar)</description>
+          <description>Overgangsperiode : banenplan voor werkzoekenden die beantwoorden aan de voorwaarde van 24 maanden (&gt;45 yesar)</description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2008/1</end-validity>
-          <region>Federaal</region>
+           <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>1111</code-DMFA>
           <description>Overgangsperiode: activaplan afgesloten voor 1.1.2004 - bevordering van de tewerkstelling van langdurig werkzoekenden - 75 %</description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2008/4</end-validity>
-          <region>Federaal</region>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -106,27 +131,36 @@
           <description>Overgangsperiode : activaplan afgesloten voor 1.1.2004 - bevordering van de tewerkstelling van langdurig werkzoekenden - 100 %</description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2008/4</end-validity>
-          <region>Federaal</region>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>1142</code-DMFA>
-          <description>Overgangsperiode sociale inschakelingseconomie afgesloten voor 1-1-2004</description>
+          <description>
+               <nl>Overgangsperiode sociale inschakelingseconomie afgesloten voor 1-1-2004</nl>
+               <fr></fr>
+          </description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2020/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Ja</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verboden</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -134,55 +168,75 @@
           <description>Overgangsperiode sociale inschakelingseconomie afgesloten voor 1-1-2004</description>
           <begin-validity>2021/1</begin-validity>
           <end-validity>9999/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Ja</flemish-region>
-          <brussels-region>Nee</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verboden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>1201</code-DMFA>
-          <description>Overgangsperiode: startbaanovereenkomst afgesloten voor 1.1.2004</description>
+          <description>
+               <nl>Overgangsperiode: startbaanovereenkomst afgesloten voor 1.1.2004</nl>
+          </description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2012/4</end-validity>
-          <region>Federaal</region>
+        <region>
+            <nl>Federaal</nl>
+            <fr>Fédérale</fr>
+        </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+          </link-block>
      </reduction-code-PPO>
-          <reduction-code-PPO>
+     <reduction-code-PPO>
           <code-DMFA>1211</code-DMFA>
           <description>Overgangsperiode: jongeren met een overeenkomst werk/opleiding (KB 495) afgesloten voor 1.1.2004.</description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2006/4</end-validity>
-          <region>Federaal</region>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>1521</code-DMFA>
           <description>Vermindering van de werkgeversbijdragen voor  erkende onthaalouders</description>
           <begin-validity>2003/2</begin-validity>
           <end-validity>2013/4</end-validity>
-          <region>Federaal</region>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verboden</start-right>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -190,62 +244,71 @@
           <description>Vermindering van de werkgeversbijdragen voor kunstenaars</description>
           <begin-validity>2003/3</begin-validity>
           <end-validity>2013/4</end-validity>
-          <region>Federaal</region>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verboden</start-right>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3200</code-DMFA>
-          <description>Activaplan - Langdurig werkzoekenden jonger dan 25 jaar 312 dagen in periode van 18 maanden of jonger dan 45 jaar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
+          <description>Activaplan - Langdurig werkzoekenden jonger dan 25 yesar 312 dagen in periode van 18 maanden of jonger dan 45 yesar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2016/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Ja</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3200</code-DMFA>
-          <description>Activaplan - Langdurig werkzoekenden jonger dan 25 jaar 312 dagen in periode van 18 maanden of jonger dan 45 jaar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
+          <description>Activaplan - Langdurig werkzoekenden jonger dan 25 yesar 312 dagen in periode van 18 maanden of jonger dan 45 yesar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
           <begin-validity>2017/1</begin-validity>
           <end-validity>2017/2</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
           <reduction-code-PPO>
           <code-DMFA>3200</code-DMFA>
-          <description>Activaplan - Langdurig werkzoekenden jonger dan 25 jaar 312 dagen in periode van 18 maanden of jonger dan 45 jaar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
+          <description>Activaplan - Langdurig werkzoekenden jonger dan 25 yesar 312 dagen in periode van 18 maanden of jonger dan 45 yesar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
           <begin-validity>2017/3</begin-validity>
           <end-validity>2017/3</end-validity>
           <region>
                <nl>Regionaal</nl>
-               <fr></fr>
+               <fr>Régionale</fr>
           </region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>
-               <nl>Optioneel</nl>
+               <nl>optional</nl>
                <fr></fr>
           </amount>
           <start-right>
-               <nl>Verplicht</nl>
+               <nl>obligatory</nl>
                <fr></fr>
           </start-right>
           <link-block>
@@ -255,30 +318,36 @@
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3200</code-DMFA>
-          <description>Activaplan - Langdurig werkzoekenden jonger dan 25 jaar 312 dagen in periode van 18 maanden of jonger dan 45 jaar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming RVA code : C1, C20, C25, C30, C34 of C36</description>
+          <description>Activaplan - Langdurig werkzoekenden jonger dan 25 yesar 312 dagen in periode van 18 maanden of jonger dan 45 yesar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming RVA code : C1, C20, C25, C30, C34 of C36</description>
           <begin-validity>2017/4</begin-validity>
           <end-validity>2018/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Nee</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3200</code-DMFA>
-          <description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden jonger dan 25 jaar 312 dagen in periode van 18 maanden of jonger dan 45 jaar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
+          <description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden jonger dan 25 yesar 312 dagen in periode van 18 maanden of jonger dan 45 yesar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
           <begin-validity>2019/1</begin-validity>
           <end-validity>2019/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Nee</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -286,13 +355,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 624 dagen in periode van 36 maanden  RVA-codes : C3, C4, C26, C31 of C37</description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2016/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Ja</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -300,13 +372,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 624 dagen in periode van 36 maanden  RVA-codes : C3, C4, C26, C31 of C37</description>
           <begin-validity>2017/1</begin-validity>
           <end-validity>2017/2</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -314,13 +389,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 624 dagen in periode van 36 maanden  RVA-codes : C3, C4, C26, C31 of C37</description>
           <begin-validity>2017/3</begin-validity>
           <end-validity>2017/3</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -328,13 +406,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 624 dagen in periode van 36 maanden RVA-codes : C3, C4, C26, C31 of C37</description>
           <begin-validity>2017/4</begin-validity>
           <end-validity>2018/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Nee</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -342,13 +423,16 @@
           <description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden jonger dan 45j 624 dagen in periode van 36 maanden RVA-codes : C3, C4, C26, C31 of C37</description>
           <begin-validity>2019/1</begin-validity>
           <end-validity>2020/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Nee</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -356,13 +440,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 936 dagen in periode van 54 maanden  RVA-codes : C5, C6, C27, C32 of C38</description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2016/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Ja</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -370,13 +457,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 936 dagen in periode van 54 maanden  RVA-codes : C5, C6, C27, C32 of C38</description>
           <begin-validity>2017/1</begin-validity>
           <end-validity>2017/2</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -384,13 +474,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 936 dagen in periode van 54 maanden  RVA-codes : C5, C6, C27, C32 of C38</description>
           <begin-validity>2017/3</begin-validity>
           <end-validity>2017/3</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -398,13 +491,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 936 dagen in periode van 54 maanden RVA-codes : C5, C6, C27, C32 of C38</description>
           <begin-validity>2017/4</begin-validity>
           <end-validity>2018/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Nee</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -412,13 +508,16 @@
           <description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden jonger dan 45j 936 dagen in periode van 54 maanden  RVA-codes : C5, C6, C27, C32 of C38</description>
           <begin-validity>2019/1</begin-validity>
           <end-validity>2021/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Nee</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
           <reduction-code-PPO>
@@ -426,13 +525,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 1560 dagen in periode van 90 maanden  RVA-codes : C7, C8, C28, C33 of C39</description>
           <begin-validity>2004/1</begin-validity>
           <end-validity>2016/4</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Ja</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -440,13 +542,16 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 1560 dagen in periode van 90 maanden  RVA-codes : C7, C8, C28, C33 of C39</description>
           <begin-validity>2017/1</begin-validity>
           <end-validity>2017/2</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -454,154 +559,157 @@
           <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 1560 dagen in periode van 90 maanden  RVA-codes : C7, C8, C28, C33 of C39</description>
           <begin-validity>2017/3</begin-validity>
           <end-validity>2017/3</end-validity>
-          <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
-     <code-DMFA>3203</code-DMFA>
-     <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 1560 dagen in periode van 90 maanden RVA-codes : C7, C8, C28, C33 of C39</description>
-     <begin-validity>2017/4</begin-validity>
-     <end-validity>2018/4</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Nee</flemish-region>
-     <brussels-region>Nee</brussels-region>
-     <walloon-region>Nee</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <code-DMFA>3203</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden jonger dan 45j 1560 dagen in periode van 90 maanden RVA-codes : C7, C8, C28, C33 of C39</description>
+          <begin-validity>2017/4</begin-validity>
+          <end-validity>2018/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
-     <code-DMFA>3203</code-DMFA>
-     <description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden jonger dan 45j 1560 dagen in periode van 90 maanden  RVA-codes : C7, C8, C28, C33 of C39</description>
-     <begin-validity>2019/1</begin-validity>
-     <end-validity>2023/4</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Nee</flemish-region>
-     <brussels-region>Nee</brussels-region>
-     <walloon-region>Nee</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <code-DMFA>3203</code-DMFA>
+          <description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden jonger dan 45j 1560 dagen in periode van 90 maanden  RVA-codes : C7, C8, C28, C33 of C39</description>
+          <begin-validity>2019/1</begin-validity>
+          <end-validity>2023/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3205</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden  jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
+          <begin-validity>2013/3</begin-validity>
+          <end-validity>2016/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3205</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden  jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
+          <begin-validity>2017/1</begin-validity>
+          <end-validity>2017/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3205</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden  jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2017/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3205</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
+          <begin-validity>2017/4</begin-validity>
+          <end-validity>2018/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
      <code-DMFA>3205</code-DMFA>
-     <description>Activaplan - Langdurig werkzoekenden  jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
-     <begin-validity>2013/3</begin-validity>
-     <end-validity>2016/4</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Ja</flemish-region>
-     <brussels-region>Ja</brussels-region>
-     <walloon-region>Ja</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden  jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
+          <begin-validity>2019/1</begin-validity>
+          <end-validity>2021/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
-     <code-DMFA>3205</code-DMFA>
-     <description>Activaplan - Langdurig werkzoekenden  jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
-     <begin-validity>2017/1</begin-validity>
-     <end-validity>2017/2</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Nee</flemish-region>
-     <brussels-region>Ja</brussels-region>
-     <walloon-region>Ja</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <code-DMFA>3210</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden van minstens 45j 156 dagen in periode van 9 maanden  RVA-codes : D1, D13 of D19</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2016/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
-     <code-DMFA>3205</code-DMFA>
-     <description>Activaplan - Langdurig werkzoekenden  jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
-     <begin-validity>2017/3</begin-validity>
-     <end-validity>2017/3</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Nee</flemish-region>
-     <brussels-region>Ja</brussels-region>
-     <walloon-region>Nee</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <code-DMFA>3210</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden van minstens 45j 156 dagen in periode van 9 maanden  RVA-codes : D1, D13 of D19</description>
+          <begin-validity>2017/1</begin-validity>
+          <end-validity>2017/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
-     <code-DMFA>3205</code-DMFA>
-     <description>Activaplan - Langdurig werkzoekenden jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
-     <begin-validity>2017/4</begin-validity>
-     <end-validity>2018/4</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Nee</flemish-region>
-     <brussels-region>Nee</brussels-region>
-     <walloon-region>Nee</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
-     </reduction-code-PPO>
-     <reduction-code-PPO>
-     <code-DMFA>3205</code-DMFA>
-     <description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden  jonger dan 27j 312 dagen in periode van 18 maanden en laaggeschoold RVA codes : C40, C41 of begin-validity 2014/1 langdurig werkzoekenden jonger dan 30j 156 dagen in periode van 9 maanden en laaggeschoold RVA codes C42 of C43</description>
-     <begin-validity>2019/1</begin-validity>
-     <end-validity>2021/3</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Nee</flemish-region>
-     <brussels-region>Nee</brussels-region>
-     <walloon-region>Nee</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
-     </reduction-code-PPO>
-     <reduction-code-PPO>
-     <code-DMFA>3210</code-DMFA>
-     <description>Activaplan - Langdurig werkzoekenden van minstens 45j 156 dagen in periode van 9 maanden  RVA-codes : D1, D13 of D19</description>
-     <begin-validity>2004/1</begin-validity>
-     <end-validity>2016/4</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Ja</flemish-region>
-     <brussels-region>Ja</brussels-region>
-     <walloon-region>Ja</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
-     </reduction-code-PPO>
-     <reduction-code-PPO>
-     <code-DMFA>3210</code-DMFA>
-     <description>Activaplan - Langdurig werkzoekenden van minstens 45j 156 dagen in periode van 9 maanden  RVA-codes : D1, D13 of D19</description>
-     <begin-validity>2017/1</begin-validity>
-     <end-validity>2017/2</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Nee</flemish-region>
-     <brussels-region>Ja</brussels-region>
-     <walloon-region>Ja</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
-     </reduction-code-PPO>
-     <reduction-code-PPO>
-     <code-DMFA>3210</code-DMFA>
-     <description>Activaplan - Langdurig werkzoekenden van minstens 45j 156 dagen in periode van 9 maanden  RVA-codes : D1, D13 of D19</description>
-     <begin-validity>2017/3</begin-validity>
-     <end-validity>2017/3</end-validity>
-     <region>Regionaal</region>
-     <flemish-region>Nee</flemish-region>
-     <brussels-region>Ja</brussels-region>
-     <walloon-region>Nee</walloon-region>
-     <walloon-and-german-region>Ja</walloon-and-german-region>
-     <amount>Optioneel</amount>
-     <start-right>Verplicht</start-right>
-     <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <code-DMFA>3210</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden van minstens 45j 156 dagen in periode van 9 maanden  RVA-codes : D1, D13 of D19</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2017/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3210</code-DMFA>
@@ -609,12 +717,12 @@
           <begin-validity>2017/4</begin-validity>
           <end-validity>2018/4</end-validity>
           <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Nee</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -623,12 +731,12 @@
           <begin-validity>2019/1</begin-validity>
           <end-validity>2023/4</end-validity>
           <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Nee</brussels-region>
-          <walloon-region>Nee</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -637,12 +745,12 @@
           <begin-validity>2004/1</begin-validity>
           <end-validity>2016/4</end-validity>
           <region>Regionaal</region>
-          <flemish-region>Ja</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -651,684 +759,684 @@
           <begin-validity>2017/1</begin-validity>
           <end-validity>2017/2</end-validity>
           <region>Regionaal</region>
-          <flemish-region>Nee</flemish-region>
-          <brussels-region>Ja</brussels-region>
-          <walloon-region>Ja</walloon-region>
-          <walloon-and-german-region>Ja</walloon-and-german-region>
-          <amount>Optioneel</amount>
-          <start-right>Verplicht</start-right>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3211</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden van minstens 45 j - 312 dagen in periode van 18 maanden of 468 dagen in periode van 27 maanden  RVA-codes : D3, D4, D5, D6, D14, D15, D16, D17, D20 of D21</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2017/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3211</code-DMFA>
+          <description>Activaplan - Langdurig werkzoekenden van minstens 45 j - 312 dagen in periode van 18 maanden of 468 dagen in periode van 27 maanden  RVA-codes : D3, D4, D5, D6, D14, D15, D16, D17, D20 of D21</description>
+          <begin-validity>2017/4</begin-validity>
+          <end-validity>2018/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3211</code-DMFA>
+          <description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden van minstens 45 j - 312 dagen in periode van 18 maanden of 468 dagen in periode van 27 maanden  RVA-codes : D3, D4, D5, D6, D14, D15, D16, D17, D20 of D21</description>
+          <begin-validity>2019/1</begin-validity>
+          <end-validity>2023/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3220</code-DMFA>
+          <description>Doorstromingsprogramma jonger dan 25 yesar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 yesar minstens 12 maanden uitkeringen</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2015/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3220</code-DMFA>
+          <description>Doorstromingsprogramma jonger dan 25 yesar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 yesar minstens 12 maanden uitkeringen</description>
+          <begin-validity>2015/4</begin-validity>
+          <end-validity>2016/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3220</code-DMFA>
+          <description>Doorstromingsprogramma jonger dan 25 yesar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 yesar minstens 12 maanden uitkeringen</description>
+          <begin-validity>2016/4</begin-validity>
+          <end-validity>2017/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3220</code-DMFA>
+          <description>Doorstromingsprogramma jonger dan 25 yesar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 yesar minstens 12 maanden uitkeringen</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2020/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3221</code-DMFA>
+          <description>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2015/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3221</code-DMFA>
+          <description>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</description>
+          <begin-validity>2015/4</begin-validity>
+          <end-validity>2016/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3221</code-DMFA>
+          <description>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</description>
+          <begin-validity>2016/4</begin-validity>
+          <end-validity>2017/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3221</code-DMFA>
+          <description>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2020/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3230</code-DMFA>
+          <description>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2015/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3230</code-DMFA>
+          <description>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</description>
+          <begin-validity>2015/4</begin-validity>
+          <end-validity>2016/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3230</code-DMFA>
+          <description>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</description>
+          <begin-validity>2016/4</begin-validity>
+          <end-validity>2017/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3230</code-DMFA>
+          <description>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2020/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3231</code-DMFA>
+          <description>Doorstromingsprogramma minstens 45j minstens 24 m uitkeringen</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2015/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3231</code-DMFA>
+          <description>Doorstromingsprogramma minstens 45j minstens 24 m uitkeringen</description>
+          <begin-validity>2015/4</begin-validity>
+          <end-validity>2016/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3231</code-DMFA>
+          <description>Doorstromingsprogramma minstens 45j minstens 24 m uitkeringen</description>
+          <begin-validity>2016/4</begin-validity>
+          <end-validity>2017/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3231</code-DMFA>
+          <description>Doorstromingsprogramma minstens 45j minstens 24 m uitkeringen</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2020/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3240</code-DMFA>
+          <description>Sociale Inschakelingseconomie jonger dan 45j 312d/18m of 156d/9m</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2018/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3240</code-DMFA>
+          <description>Sociale Inschakelingseconomie jonger dan 45j 312d/18m of 156d/9m</description>
+          <begin-validity>2019/1</begin-validity>
+          <end-validity>2020/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3240</code-DMFA>
+          <description>Sociale Inschakelingseconomie jonger dan 45j 312d/18m of 156d/9m</description>
+          <begin-validity>2021/1</begin-validity>
+          <end-validity>9999/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3241</code-DMFA>
+          <description>Sociale Inschakelingseconomie jonger dan 45j 624d/36m of 312d/18m</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2018/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3241</code-DMFA>
+          <description>Sociale Inschakelingseconomie jonger dan 45j 624d/36m of 312d/18m</description>
+          <begin-validity>2019/1</begin-validity>
+          <end-validity>2020/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3241</code-DMFA>
+          <description>Sociale Inschakelingseconomie jonger dan 45j 624d/36m of 312d/18m</description>
+          <begin-validity>2021/1</begin-validity>
+          <end-validity>9999/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3250</code-DMFA>
+          <description>Sociale Inschakelingseconomie minstens 45j 156d/9m</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2018/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3250</code-DMFA>
+          <description>Sociale Inschakelingseconomie minstens 45j 156d/9m</description>
+          <begin-validity>2019/1</begin-validity>
+          <end-validity>2020/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3250</code-DMFA>
+          <description>Sociale Inschakelingseconomie minstens 45j 156d/9m</description>
+          <begin-validity>2021/1</begin-validity>
+          <end-validity>9999/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3410</code-DMFA>
+          <description>Jonge werknemers SBO en laaggeschoold</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2016/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3410</code-DMFA>
+          <description>Jonge werknemers SBO en laaggeschoold</description>
+          <begin-validity>2016/3</begin-validity>
+          <end-validity>2017/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3410</code-DMFA>
+          <description>Jonge werknemers SBO en laaggeschoold</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2017/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3410</code-DMFA>
+          <description>Jonge werknemers SBO en laaggeschoold</description>
+          <begin-validity>2017/4</begin-validity>
+          <end-validity>2018/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3410</code-DMFA>
+          <description>Overgangsmaatregel - Jonge werknemers SBO en laaggeschoold</description>
+          <begin-validity>2019/1</begin-validity>
+          <end-validity>2021/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3411</code-DMFA>
+          <description>Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
+          <begin-validity>2006/2</begin-validity>
+          <end-validity>2016/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3411</code-DMFA>
+          <description>Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
+          <begin-validity>2016/3</begin-validity>
+          <end-validity>2017/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3411</code-DMFA>
+          <description>Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2017/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3411</code-DMFA>
+          <description>Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
+          <begin-validity>2017/4</begin-validity>
+          <end-validity>2018/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3411</code-DMFA>
+          <description>Overgangsmaatregel - Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
+          <begin-validity>2019/1</begin-validity>
+          <end-validity>2022/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3412</code-DMFA>
+          <description>Jonge werknemers SBO en middengeschoold</description>
+          <begin-validity>2013/1</begin-validity>
+          <end-validity>2016/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3412</code-DMFA>
+          <description>Jonge werknemers SBO en middengeschoold</description>
+          <begin-validity>2016/3</begin-validity>
+          <end-validity>2017/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3412</code-DMFA>
+          <description>Jonge werknemers SBO en middengeschoold</description>
+          <begin-validity>2017/3</begin-validity>
+          <end-validity>2017/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3412</code-DMFA>
+          <description>Jonge werknemers SBO en middengeschoold</description>
+          <begin-validity>2017/4</begin-validity>
+          <end-validity>2018/4</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3412</code-DMFA>
+          <description>Overgangsmaatregel - Jonge werknemers SBO en middengeschoold</description>
+          <begin-validity>2019/1</begin-validity>
+          <end-validity>2021/3</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>no</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>obligatory</start-right>
+          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3430</code-DMFA>
+          <description>Jonge werknemers : end-validity 31/12 van yesar waarin jongeren 18 worden</description>
+          <begin-validity>2004/1</begin-validity>
+          <end-validity>2016/2</end-validity>
+          <region>Regionaal</region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
           <link-block>Tewerkstelling van de werknemerslijn</link-block>
      </reduction-code-PPO>
 <reduction-code-PPO>
-<code-DMFA>3211</code-DMFA>
-<description>Activaplan - Langdurig werkzoekenden van minstens 45 j - 312 dagen in periode van 18 maanden of 468 dagen in periode van 27 maanden  RVA-codes : D3, D4, D5, D6, D14, D15, D16, D17, D20 of D21</description>
-<begin-validity>2017/3</begin-validity>
-<end-validity>2017/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3211</code-DMFA>
-<description>Activaplan - Langdurig werkzoekenden van minstens 45 j - 312 dagen in periode van 18 maanden of 468 dagen in periode van 27 maanden  RVA-codes : D3, D4, D5, D6, D14, D15, D16, D17, D20 of D21</description>
-<begin-validity>2017/4</begin-validity>
-<end-validity>2018/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3211</code-DMFA>
-<description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden van minstens 45 j - 312 dagen in periode van 18 maanden of 468 dagen in periode van 27 maanden  RVA-codes : D3, D4, D5, D6, D14, D15, D16, D17, D20 of D21</description>
-<begin-validity>2019/1</begin-validity>
-<end-validity>2023/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3220</code-DMFA>
-<description>Doorstromingsprogramma jonger dan 25 jaar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 jaar minstens 12 maanden uitkeringen</description>
-<begin-validity>2004/1</begin-validity>
-<end-validity>2015/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3220</code-DMFA>
-<description>Doorstromingsprogramma jonger dan 25 jaar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 jaar minstens 12 maanden uitkeringen</description>
-<begin-validity>2015/4</begin-validity>
-<end-validity>2016/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3220</code-DMFA>
-<description>Doorstromingsprogramma jonger dan 25 jaar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 jaar minstens 12 maanden uitkeringen</description>
-<begin-validity>2016/4</begin-validity>
-<end-validity>2017/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3220</code-DMFA>
-<description>Doorstromingsprogramma jonger dan 25 jaar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 jaar minstens 12 maanden uitkeringen</description>
-<begin-validity>2017/3</begin-validity>
-<end-validity>2020/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3221</code-DMFA>
-<description>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</description>
-<begin-validity>2004/1</begin-validity>
-<end-validity>2015/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3221</code-DMFA>
-<description>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</description>
-<begin-validity>2015/4</begin-validity>
-<end-validity>2016/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3221</code-DMFA>
-<description>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</description>
-<begin-validity>2016/4</begin-validity>
-<end-validity>2017/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3221</code-DMFA>
-<description>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</description>
-<begin-validity>2017/3</begin-validity>
-<end-validity>2020/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3230</code-DMFA>
-<description>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</description>
-<begin-validity>2004/1</begin-validity>
-<end-validity>2015/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3230</code-DMFA>
-<description>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</description>
-<begin-validity>2015/4</begin-validity>
-<end-validity>2016/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3230</code-DMFA>
-<description>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</description>
-<begin-validity>2016/4</begin-validity>
-<end-validity>2017/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3230</code-DMFA>
-<description>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</description>
-<begin-validity>2017/3</begin-validity>
-<end-validity>2020/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3231</code-DMFA>
-<description>Doorstromingsprogramma minstens 45j minstens 24 m uitkeringen</description>
-<begin-validity>2004/1</begin-validity>
-<end-validity>2015/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3231</code-DMFA>
-<description>Doorstromingsprogramma minstens 45j minstens 24 m uitkeringen</description>
-<begin-validity>2015/4</begin-validity>
-<end-validity>2016/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3231</code-DMFA>
-<description>Doorstromingsprogramma minstens 45j minstens 24 m uitkeringen</description>
-<begin-validity>2016/4</begin-validity>
-<end-validity>2017/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3231</code-DMFA>
-<description>Doorstromingsprogramma minstens 45j minstens 24 m uitkeringen</description>
-<begin-validity>2017/3</begin-validity>
-<end-validity>2020/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3240</code-DMFA>
-<description>Sociale Inschakelingseconomie jonger dan 45j 312d/18m of 156d/9m</description>
-<begin-validity>2004/1</begin-validity>
-<end-validity>2018/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3240</code-DMFA>
-<description>Sociale Inschakelingseconomie jonger dan 45j 312d/18m of 156d/9m</description>
-<begin-validity>2019/1</begin-validity>
-<end-validity>2020/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3240</code-DMFA>
-<description>Sociale Inschakelingseconomie jonger dan 45j 312d/18m of 156d/9m</description>
-<begin-validity>2021/1</begin-validity>
-<end-validity>9999/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3241</code-DMFA>
-<description>Sociale Inschakelingseconomie jonger dan 45j 624d/36m of 312d/18m</description>
-<begin-validity>2004/1</begin-validity>
-<end-validity>2018/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3241</code-DMFA>
-<description>Sociale Inschakelingseconomie jonger dan 45j 624d/36m of 312d/18m</description>
-<begin-validity>2019/1</begin-validity>
-<end-validity>2020/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3241</code-DMFA>
-<description>Sociale Inschakelingseconomie jonger dan 45j 624d/36m of 312d/18m</description>
-<begin-validity>2021/1</begin-validity>
-<end-validity>9999/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3250</code-DMFA>
-<description>Sociale Inschakelingseconomie minstens 45j 156d/9m</description>
-<begin-validity>2004/1</begin-validity>
-<end-validity>2018/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3250</code-DMFA>
-<description>Sociale Inschakelingseconomie minstens 45j 156d/9m</description>
-<begin-validity>2019/1</begin-validity>
-<end-validity>2020/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3250</code-DMFA>
-<description>Sociale Inschakelingseconomie minstens 45j 156d/9m</description>
-<begin-validity>2021/1</begin-validity>
-<end-validity>9999/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3410</code-DMFA>
-<description>Jonge werknemers SBO en laaggeschoold</description>
-<begin-validity>2004/1</begin-validity>
-<end-validity>2016/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3410</code-DMFA>
-<description>Jonge werknemers SBO en laaggeschoold</description>
+<code-DMFA>3430</code-DMFA>
+<description>Jonge werknemers: end-validity 31/12 van yesar waarin jongeren 18 worden</description>
 <begin-validity>2016/3</begin-validity>
 <end-validity>2017/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
-<code-DMFA>3410</code-DMFA>
-<description>Jonge werknemers SBO en laaggeschoold</description>
+<code-DMFA>3430</code-DMFA>
+<description>Jonge werknemers: end-validity 31/12 van yesar waarin jongeren 18 worden</description>
 <begin-validity>2017/3</begin-validity>
 <end-validity>2017/3</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
-<code-DMFA>3410</code-DMFA>
-<description>Jonge werknemers SBO en laaggeschoold</description>
+<code-DMFA>3430</code-DMFA>
+<description>Jonge werknemers: end-validity 31/12 van yesar waarin jongeren 18 worden</description>
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3410</code-DMFA>
-<description>Overgangsmaatregel - Jonge werknemers SBO en laaggeschoold</description>
-<begin-validity>2019/1</begin-validity>
-<end-validity>2021/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3411</code-DMFA>
-<description>Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
-<begin-validity>2006/2</begin-validity>
-<end-validity>2016/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3411</code-DMFA>
-<description>Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
-<begin-validity>2016/3</begin-validity>
-<end-validity>2017/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3411</code-DMFA>
-<description>Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
-<begin-validity>2017/3</begin-validity>
-<end-validity>2017/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3411</code-DMFA>
-<description>Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
-<begin-validity>2017/4</begin-validity>
-<end-validity>2018/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3411</code-DMFA>
-<description>Overgangsmaatregel - Jonge werknemers SBO en zeer laaggeschoold Of SBO en laaggeschoold en mindervalide Of SBO en laaggeschoold en van buitenlandse afkomst</description>
-<begin-validity>2019/1</begin-validity>
-<end-validity>2022/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3412</code-DMFA>
-<description>Jonge werknemers SBO en middengeschoold</description>
-<begin-validity>2013/1</begin-validity>
-<end-validity>2016/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3412</code-DMFA>
-<description>Jonge werknemers SBO en middengeschoold</description>
-<begin-validity>2016/3</begin-validity>
-<end-validity>2017/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3412</code-DMFA>
-<description>Jonge werknemers SBO en middengeschoold</description>
-<begin-validity>2017/3</begin-validity>
-<end-validity>2017/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3412</code-DMFA>
-<description>Jonge werknemers SBO en middengeschoold</description>
-<begin-validity>2017/4</begin-validity>
-<end-validity>2018/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3412</code-DMFA>
-<description>Overgangsmaatregel - Jonge werknemers SBO en middengeschoold</description>
-<begin-validity>2019/1</begin-validity>
-<end-validity>2021/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
 <code-DMFA>3430</code-DMFA>
-<description>Jonge werknemers : end-validity 31/12 van jaar waarin jongeren 18 worden</description>
-<begin-validity>2004/1</begin-validity>
-<end-validity>2016/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3430</code-DMFA>
-<description>Jonge werknemers: end-validity 31/12 van jaar waarin jongeren 18 worden</description>
-<begin-validity>2016/3</begin-validity>
-<end-validity>2017/2</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3430</code-DMFA>
-<description>Jonge werknemers: end-validity 31/12 van jaar waarin jongeren 18 worden</description>
-<begin-validity>2017/3</begin-validity>
-<end-validity>2017/3</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3430</code-DMFA>
-<description>Jonge werknemers: end-validity 31/12 van jaar waarin jongeren 18 worden</description>
-<begin-validity>2017/4</begin-validity>
-<end-validity>2018/4</end-validity>
-<region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
-<link-block>Tewerkstelling van de werknemerslijn</link-block>
-</reduction-code-PPO>
-<reduction-code-PPO>
-<code-DMFA>3430</code-DMFA>
-<description>Overgangsmaatregel - Jonge werknemers: end-validity 31/12 van jaar waarin jongeren 18 worden</description>
+<description>Overgangsmaatregel - Jonge werknemers: end-validity 31/12 van yesar waarin jongeren 18 worden</description>
 <begin-validity>2019/1</begin-validity>
 <end-validity>2021/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1341,8 +1449,8 @@
 <brussels-region>-</brussels-region>
 <walloon-region>-</walloon-region>
 <walloon-and-german-region>-</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1351,12 +1459,12 @@
 <begin-validity>2007/1</begin-validity>
 <end-validity>2016/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1365,12 +1473,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2017/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1379,12 +1487,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2017/3</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1393,12 +1501,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1407,12 +1515,12 @@
 <begin-validity>2019/1</begin-validity>
 <end-validity>2019/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1421,12 +1529,12 @@
 <begin-validity>2007/1</begin-validity>
 <end-validity>2016/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1435,12 +1543,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2017/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1449,12 +1557,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2017/3</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1463,12 +1571,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1477,12 +1585,12 @@
 <begin-validity>2019/1</begin-validity>
 <end-validity>2023/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1495,8 +1603,8 @@
 <brussels-region>-</brussels-region>
 <walloon-region>-</walloon-region>
 <walloon-and-german-region>-</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1505,12 +1613,12 @@
 <begin-validity>2010/1</begin-validity>
 <end-validity>2016/3</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1519,12 +1627,12 @@
 <begin-validity>2016/4</begin-validity>
 <end-validity>2018/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1533,12 +1641,12 @@
 <begin-validity>2018/3</begin-validity>
 <end-validity>9999/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1547,12 +1655,12 @@
 <begin-validity>2014/1</begin-validity>
 <end-validity>2016/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1561,12 +1669,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2017/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1575,12 +1683,12 @@
 <begin-validity>2018/1</begin-validity>
 <end-validity>9999/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1593,8 +1701,8 @@
 <brussels-region>-</brussels-region>
 <walloon-region>-</walloon-region>
 <walloon-and-german-region>-</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1603,12 +1711,12 @@
 <begin-validity>2014/1</begin-validity>
 <end-validity>9999/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1617,12 +1725,12 @@
 <begin-validity>2014/1</begin-validity>
 <end-validity>9999/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1631,12 +1739,12 @@
 <begin-validity>2014/1</begin-validity>
 <end-validity>2016/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1645,26 +1753,26 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>9999/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
 <code-DMFA>6000</code-DMFA>
-<description>Overgangsmaatregel - activaplan - langdurig werkzoekenden jonger dan 25 jaar 312 dagen in periode van 18 maanden of jonger dan 45 jaar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
+<description>Overgangsmaatregel - activaplan - langdurig werkzoekenden jonger dan 25 yesar 312 dagen in periode van 18 maanden of jonger dan 45 yesar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
 <begin-validity>2017/1</begin-validity>
 <end-validity>2017/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1673,12 +1781,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1687,12 +1795,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1701,12 +1809,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1715,12 +1823,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1729,12 +1837,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1743,12 +1851,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1757,12 +1865,12 @@
 <begin-validity>2016/3</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1771,12 +1879,12 @@
 <begin-validity>2016/3</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1785,26 +1893,26 @@
 <begin-validity>2016/3</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
 <code-DMFA>6033</code-DMFA>
-<description>Overgangsperiode - jonge werknemers : end-validity 31/12 van jaar waarin jongeren 18 worden</description>
+<description>Overgangsperiode - jonge werknemers : end-validity 31/12 van yesar waarin jongeren 18 worden</description>
 <begin-validity>2016/3</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1813,12 +1921,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2017/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1827,12 +1935,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1841,12 +1949,12 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1855,12 +1963,12 @@
 <begin-validity>2016/3</begin-validity>
 <end-validity>9999/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1869,12 +1977,12 @@
 <begin-validity>2016/3</begin-validity>
 <end-validity>2021/3</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1883,12 +1991,12 @@
 <begin-validity>2016/3</begin-validity>
 <end-validity>9999/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1897,26 +2005,26 @@
 <begin-validity>2017/1</begin-validity>
 <end-validity>9999/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
 <code-DMFA>7000</code-DMFA>
-<description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden jonger dan 25 jaar 312 dagen in periode van 18 maanden of jonger dan 45 jaar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming RVA code : C1, C20, C25, C30, C34 of C36</description>
+<description>Overgangsmaatregel - Activaplan - Langdurig werkzoekenden jonger dan 25 yesar 312 dagen in periode van 18 maanden of jonger dan 45 yesar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming RVA code : C1, C20, C25, C30, C34 of C36</description>
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/3</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1925,12 +2033,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1939,12 +2047,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1953,12 +2061,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1967,12 +2075,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1981,12 +2089,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -1995,12 +2103,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2009,12 +2117,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2023,12 +2131,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2037,26 +2145,26 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
 <code-DMFA>7033</code-DMFA>
-<description>Overgangsmaatregel - Jonge werknemers: end-validity 31/12 van jaar waarin jongeren 18 worden</description>
+<description>Overgangsmaatregel - Jonge werknemers: end-validity 31/12 van yesar waarin jongeren 18 worden</description>
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2065,12 +2173,12 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/3</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2079,26 +2187,26 @@
 <begin-validity>2017/4</begin-validity>
 <end-validity>2018/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
 <code-DMFA>8000</code-DMFA>
-<description>Overgangsmaatregel -Activaplan - Langdurig werkzoekenden jonger dan 25 jaar 312 dagen in periode van 18 maanden of jonger dan 45 jaar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
+<description>Overgangsmaatregel -Activaplan - Langdurig werkzoekenden jonger dan 25 yesar 312 dagen in periode van 18 maanden of jonger dan 45 yesar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36</description>
 <begin-validity>2017/3</begin-validity>
 <end-validity>2018/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2107,12 +2215,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2019/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2121,12 +2229,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2135,12 +2243,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2149,12 +2257,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/1</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2163,12 +2271,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2177,12 +2285,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2191,12 +2299,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2017/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2205,26 +2313,26 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2017/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
 <code-DMFA>8009</code-DMFA>
-<description>Overgangsmaatregel   - Doorstromingsprogramma jonger dan 25 jaar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 jaar minstens 12 maanden uitkeringen</description>
+<description>Overgangsmaatregel   - Doorstromingsprogramma jonger dan 25 yesar laaggeschoold minstens 9 maanden uitkeringen of jonger dan 45 yesar minstens 12 maanden uitkeringen</description>
 <begin-validity>2017/3</begin-validity>
 <end-validity>2021/1</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2233,12 +2341,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2021/1</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2247,12 +2355,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2021/1</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2261,12 +2369,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2021/1</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2275,12 +2383,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/1</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2289,12 +2397,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2303,26 +2411,26 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/1</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
 <code-DMFA>8033</code-DMFA>
-<description>Overgangsmaatregel - Jonge werknemers: end-validity 31/12 van jaar waarin jongeren 18 worden</description>
+<description>Overgangsmaatregel - Jonge werknemers: end-validity 31/12 van yesar waarin jongeren 18 worden</description>
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2331,12 +2439,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2018/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2345,12 +2453,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2020/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2359,12 +2467,12 @@
 <begin-validity>2003/1</begin-validity>
 <end-validity>2016/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2373,12 +2481,12 @@
 <begin-validity>2004/1</begin-validity>
 <end-validity>2017/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2387,12 +2495,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2017/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2401,12 +2509,12 @@
 <begin-validity>2018/1</begin-validity>
 <end-validity>2019/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2415,12 +2523,12 @@
 <begin-validity>2004/1</begin-validity>
 <end-validity>2017/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Ja</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>yes</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2429,12 +2537,12 @@
 <begin-validity>2017/3</begin-validity>
 <end-validity>2017/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Ja</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>yes</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2443,12 +2551,12 @@
 <begin-validity>2018/1</begin-validity>
 <end-validity>2019/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Ja</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Nee</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verplicht</start-right>
+<flemish-region>yes</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>no</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>obligatory</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2457,12 +2565,12 @@
 <begin-validity>2019/1</begin-validity>
 <end-validity>2021/2</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2471,12 +2579,12 @@
 <begin-validity>2019/1</begin-validity>
 <end-validity>2023/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 <reduction-code-PPO>
@@ -2485,12 +2593,12 @@
 <begin-validity>2019/1</begin-validity>
 <end-validity>9999/4</end-validity>
 <region>Regionaal</region>
-<flemish-region>Nee</flemish-region>
-<brussels-region>Nee</brussels-region>
-<walloon-region>Nee</walloon-region>
-<walloon-and-german-region>Ja</walloon-and-german-region>
-<amount>Optioneel</amount>
-<start-right>Verboden</start-right>
+<flemish-region>no</flemish-region>
+<brussels-region>no</brussels-region>
+<walloon-region>no</walloon-region>
+<walloon-and-german-region>yes</walloon-and-german-region>
+<amount>optional</amount>
+<start-right>forbidden</start-right>
 <link-block>Tewerkstelling van de werknemerslijn</link-block>
 </reduction-code-PPO>
 </reduction-codes-PPO>
