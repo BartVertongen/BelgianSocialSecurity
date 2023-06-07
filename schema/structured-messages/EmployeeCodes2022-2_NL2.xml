@@ -160,7 +160,7 @@
         <code>862</code>
         <description>
             <nl>Solidariteitsbijdrage op het gebruik van een bedrijfsvoertuig</nl>
-            <fr></fr>
+            <fr>Cotisation de solidarité sur l'usage d'un véhicule de société</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -188,7 +188,11 @@
                 vorming van een buitenwettelijk pensioen; rechtstreekse
                 stortingen aan ex-werknemers.
             </nl>
-            <fr></fr>
+            <fr>
+                Cotisation spéciale due sur les versements effectués par les employeurs
+                pour la constitution d'une pension extra-légale
+                ; versements directs aux ex-travailleurs.
+            </fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -217,6 +221,9 @@
                 stortingen in het kader van een ondernemingsplan
             </nl>
             <fr>
+                Cotisation spéciale due sur les versements effectués par les employeurs
+                pour la constitution d'une pension extra-légale
+                ; versements dans le cadre d'un plan d'entreprise
             </fr>
         </description>
         <employee-type>
@@ -246,6 +253,9 @@
                 stortingen in het kader van een sectorplan
             </nl>
             <fr>
+                Cotisation spéciale due sur les versements effectués par les employeurs
+                pour la constitution d'une pension extra-légale
+                ; versements dans le cadre d'un plan sectoriel
             </fr>
         </description>
         <employee-type>
@@ -275,6 +285,8 @@
                 vastgesteld bedrag overschrijden
             </nl>
             <fr>
+                Cotisation spéciale supplémentaire due sur les versements effectués par les employeurs
+                pour la constitution d'une pension extra-légale qui dépassent un montant déterminé
             </fr>
         </description>
         <employee-type>
@@ -307,6 +319,13 @@
                 op de herstructureringspremie van de contractuele militairen
             </nl>
             <fr>
+                Cotisation due sur le double pécule de vacances des employés et
+                , au sein des administrations provinciales et locales
+                , des contractuels et des stagiaires statutaires avec
+                le régime de vacances du secteur privé
+                , sur le pécule de vacances ou la prime Copernic des contractuels
+                du secteur public fédéral et de la police locale
+                et sur la prime de restructuration des militaires contractuels
             </fr>
         </description>
         <employee-type>
@@ -338,6 +357,10 @@
                 van de Staatskas en niet afhangt van de Pool der Parastatalen
             </nl>
             <fr>
+                Cotisation due sur le pécule de vacances octroyé par une administration provinciale
+                ou locale aux contractuels avec le régime de vacances du secteur public
+                et aux nommés dont la pension n'est pas à charge du Trésor public
+                et ne relève pas du pool des parastataux
             </fr>
         </description>
         <employee-type>
@@ -362,7 +385,7 @@
         <code>676</code>
         <description>
             <nl>Statutaire werknemers met standplaats in het buitenland</nl>
-            <fr></fr>
+            <fr>Travailleurs statutaires avec lieu d'affectation à l'étranger</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -425,6 +448,9 @@
                 - aanvang SWAV vóór 01/04/2010 of gelijkgesteld
             </nl>
             <fr>
+                Cotisation patronale spéciale pour un travailleur dans le régime de chômage
+                avec indemnités complémentaires pour travailleurs âgés (RCIC) après licenciement
+                - RCIC ayant débuté avant le 01/04/2010 ou assimilé
             </fr>
         </description>
         <employee-type>
@@ -455,6 +481,9 @@
                 aanvang SWAV tussen 01/04/2010 en 31/03/2012 of gelijkgesteld
             </nl>
             <fr>
+                Cotisation patronale spéciale pour un travailleur dans le régime de chômage
+                avec indemnités complémentaires pour travailleurs âgés (RCIC) après licenciement
+                - RCIC ayant débuté entre le 01/04/2010 et le 31/03/2012 ou assimilé
             </fr>
         </description>
         <employee-type>
@@ -485,6 +514,10 @@
                 - aanvang SWAV tussen 01/04/2010 en 31/03/2012 of gelijkgesteld
             </nl>
             <fr>
+                Cotisation patronale spéciale réduite pour un travailleur
+                dans le régime de chômage avec indemnités complémentaires
+                pour travailleurs âgés (RCIC) après licenciement dans le secteur non marchand
+                - RCIC ayant débuté entre le 01/04/2010 et le 31/03/2012 ou assimilé
             </fr>
         </description>
         <employee-type>
@@ -516,6 +549,9 @@
                 (uitz.: gevallen gelijkgesteld aan kgt 280 of 281)
             </nl>
             <fr>
+                Cotisation patronale spéciale pour un travailleur dans le régime de chômage
+                avec indemnités complémentaires pour travailleurs âgés (RCIC) après licenciement
+                - RCIC ayant débuté à partir du 01/04/2012 (à l'exception des cas assimilés aux CT 280 ou 281)
             </fr>
         </description>
         <employee-type>
@@ -546,6 +582,10 @@
                 - aanvang SWAV vanaf 01/04/2012 (uitz.: gevallen gelijkgesteld aan kgt 282)
             </nl>
             <fr>
+                Cotisation patronale spéciale réduite pour un travailleur
+                dans le régime de chômage avec indemnités complémentaires
+                pour travailleurs âgés (RCIC) après licenciement dans le secteur non marchand
+                - RCIC ayant débuté à partir du 01/04/2012 (à l'exception des cas assimilés au CT 282)
             </fr>
         </description>
         <employee-type>
@@ -575,6 +615,8 @@
                 (SWAV) in tijdskrediet
             </nl>
             <fr>
+                Cotisation patronale spéciale pour un travailleur dans le régime de chômage
+                avec indemnités complémentaires pour travailleurs âgés (RCIC) en crédit-temps
             </fr>
         </description>
         <employee-type>
@@ -602,6 +644,7 @@
                 Ontslagen werknemers waarvoor er een bijdrage verschuldigd is op de aanvullende vergoedingen
             </nl>
             <fr>
+                Travailleurs licenciés pour lesquels une cotisation sur des indemnités complémentaires est due
             </fr>
         </description>
         <employee-type>
@@ -630,6 +673,8 @@
                 is op de aanvullende vergoedingen
             </nl>
             <fr>
+                Travailleurs en interruption de carrière pour lesquels une cotisation
+                sur des indemnités complémentaires est due
             </fr>
         </description>
         <employee-type>
@@ -661,6 +706,10 @@
                 de categorie 134 - Stelsel van de Ziekte- en Invaliditeitsverzekering
             </nl>
             <fr>
+                Cotisation due pour le personnel statutaire licencié
+                du secteur public et assimilé, dont la relation de travail prend fin
+                et les militaires rendus à la vie civile à déclarer sous la catégorie 134
+                - Régime assurance maladie - invalidité
             </fr>
         </description>
         <employee-type>
@@ -690,7 +739,11 @@
                 wiens werkrelatie wordt beëindigd en militairen teruggekeerd
                 naar het burgerleven aan te geven met de categorie 134 - Werkloosheidsstelsel
             </nl>
-            <fr></fr>
+            <fr>
+                Cotisation due pour le personnel statutaire licencié du secteur public et assimilé
+                , dont la relation de travail prend fin et les militaires rendus
+                à la vie civile à déclarer sous la catégorie 134 - Régime chômage
+            </fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -714,7 +767,10 @@
         <code>840</code>
         <description>
             <nl>Solidariteitsbijdrage verschuldigd voor studenten-arbeiders in het kader van een overeenkomst voor studenten</nl>
-            <fr></fr>
+            <fr>
+                Travailleurs étudiants-ouvriers pour lesquels la cotisation de solidarité pour les étudiants occupés
+                dans le cadre d'un contrat d'occupation d'étudiants est due
+            </fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -738,7 +794,10 @@
         <code>841</code>
         <description>
             <nl>Solidariteitsbijdrage verschuldigd voor studenten-bedienden in het kader van een overeenkomst voor studenten</nl>
-            <fr></fr>
+            <fr>
+                Travailleurs étudiants-employés pour lesquels la cotisation de solidarité
+                pour les étudiants occupés dans le cadre d'un contrat d'occupation d'étudiants est due
+            </fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -766,6 +825,8 @@
                 - aanvang SWT vóór 01/04/2010 of gelijkgesteld
             </nl>
             <fr>
+                Cotisation patronale spéciale pour un travailleur dans le régime de chômage avec complément d'entreprise (RCC)
+                - RCC ayant débuté avant le 01/04/2010 ou assimilé
             </fr>
         </description>
         <employee-type>
@@ -793,7 +854,9 @@
                 Verminderde bijzondere werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT) uit de non-profitsector
                 - aanvang SWT vóór 01/04/2012 of gelijkgesteld
             </nl>
-            <fr></fr>
+            <fr>
+
+            </fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -842,6 +905,7 @@
                 - aanvang SWT tussen 01/04/2010 en 31/03/2012 of gelijkgesteld
             </nl>
             <fr>
+
             </fr>
         </description>
         <employee-type>
@@ -869,6 +933,7 @@
                 in moeilijkheden of gelijkgesteld
             </nl>
             <fr>
+
             </fr>
         </description>
         <employee-type>
@@ -921,6 +986,7 @@
                 - aanvang SWT vanaf 01/04/2012 (uitz.: gevallen gelijkgesteld aan kgt 270 of 273)
             </nl>
             <fr>
+
             </fr>
         </description>
         <employee-type>
@@ -946,6 +1012,7 @@
                 - aanvang SWT vanaf 01/04/2012 (uitz.: gevallen gelijkgesteld aan kgt 271)
             </nl>
             <fr>
+
             </fr>
         </description>
         <employee-type>
@@ -1057,11 +1124,11 @@
         <code>013</code>
         <description>
             <nl>Kansarme jongeren</nl>
-            <fr></fr>
+            <fr>Jeunes défavorisés</fr>
         </description>
         <employee-type>
             <nl>Speciale handarbeiders</nl>
-            <fr></fr>
+            <fr>Manuels spéciaux</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1081,14 +1148,17 @@
         <code>014</code>
         <description>
             <nl>Zeevarenden in de koopvaardij-, bagger- of zeesleepvaartsector</nl>
-            <fr></fr>
+            <fr>Marins dans le secteur de la marine marchande, des travaux de dragage ou du remorquage maritime</fr>
         </description>
         <employee-type>
             <nl>Zeevarenden</nl>
-            <fr></fr>
+            <fr>Marins</fr>
         </employee-type>
         <presence>3</presence>
-        <begin-validity>2018/1</begin-validity>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -1102,11 +1172,11 @@
         <code>015</code>
         <description>
             <nl>Werklieden en gelijkgestelden, inbegrepen huispersoneel</nl>
-            <fr></fr>
+            <fr>Ouvriers et assimilés, y compris le personnel de maison</fr>
         </description>
         <employee-type>
             <nl>Gewone handarbeiders</nl>
-            <fr></fr>
+            <fr>Ouvriers ordinaires</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1126,11 +1196,11 @@
         <code>016</code>
         <description>
             <nl>Mijnwerkers</nl>
-            <fr></fr>
+            <fr>Mineurs</fr>
         </description>
         <employee-type>
             <nl>Mijnwerkers (handarbeiders)</nl>
-            <fr></fr>
+            <fr>Mineurs (manuels)</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1150,11 +1220,11 @@
         <code>027</code>
         <description>
             <nl>Leerplichtige werklieden en stagiairs</nl>
-            <fr></fr>
+            <fr>Elèves-ouvriers et stagiaires</fr>
         </description>
         <employee-type>
             <nl>Leerplichtige gewone handarbeiders</nl>
-            <fr></fr>
+            <fr>Elèves ouvriers ordinaires manuels</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1174,11 +1244,11 @@
         <code>041</code>
         <description>
             <nl>Dienstboden die het slachtoffer zijn van een arbeidsongeval, gebeurd vóór 01/04/1983</nl>
-            <fr></fr>
+            <fr>Domestiques victimes d'un accident du travail survenu avant le 01/04/1983</fr>
         </description>
         <employee-type>
             <nl>Dienstboden (handarbeiders)</nl>
-            <fr></fr>
+            <fr>Domestiques (manuels)</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1198,9 +1268,12 @@
         <code>045</code>
         <description>
             <nl>Dienstboden die het slachtoffer zijn van een arbeidsongeval, gebeurd sinds 01/04/1983 of die het slachtoffer zijn van een beroepsziekte</nl>
-            <fr></fr>
+            <fr>Domestiques victimes d'un accident du travail à partir du 01/04/1983 ou de maladie professionnelle</fr>
         </description>
-        <employee-type>Dienstboden (handarbeiders)</employee-type>
+        <employee-type>
+            <nl>Dienstboden (handarbeiders)</nl>
+            <fr>Domestiques (manuels)</fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2003</year>
@@ -1219,11 +1292,11 @@
         <code>487</code>
         <description>
             <nl>Leerplichtige hoofdarbeiders en stagiairs</nl>
-            <fr></fr>
+            <fr>Elèves-employés et stagiaires</fr>
         </description>
         <employee-type>
             <nl>Leerplichtige hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels élèves</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1243,11 +1316,11 @@
         <code>493</code>
         <description>
             <nl>Geneesheren in opleiding tot geneesheer-specialist. Kansarme jongeren. Bursalen van een land buiten de Europese Economische Ruimte.</nl>
-            <fr></fr>
+            <fr>Médecins en formation de médecin spécialiste. Jeunes défavorisés. Boursiers originaires d'un pays hors Espace Economique Européen.</fr>
         </description>
         <employee-type>
             <nl>Speciale hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels spéciaux</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1271,9 +1344,16 @@
                 (in het bezit van een licentie van de BWB)
                 die een arbeidsongeval opgelopen hebben sinds 01/01/1985
             </nl>
-            <fr></fr>
+            <fr>
+                Sportifs rémunérés, sauf les coureurs cyclistes professionnels
+                (détenteurs d'une licence de la ligue vélocipédique belge)
+                , victimes d'un accident du travail depuis le 01/01/1985
+            </fr>
         </description>
-        <employee-type>Speciale hoofdarbeiders</employee-type>
+        <employee-type>
+            <nl>Speciale hoofdarbeiders</nl>
+            <fr>Intellectuels spéciaux</fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2003</year>
@@ -1293,12 +1373,19 @@
         <description>
             <nl>
                 Hoofdarbeiders en gelijkgestelden, huisbedienden, alsook beroepswielrenners (in het bezit van een licentie van de BWB)
-                die een arbeidsongeval opgelopen hebben sinds 01/01/1985, erkende onthaalouders, kunstenaars, gelegenheidswerknemers in de horeca.
+                die een arbeidsongeval opgelopen hebben sinds 01/01/1985
+                , erkende onthaalouders, kunstenaars, gelegenheidswerknemers in de horeca.
             </nl>
-            <fr></fr>
+            <fr>
+                Travailleurs intellectuels et assimilés, employés de maison, ainsi que les coureurs cyclistes professionnels
+                (détenteurs d'une licence de la ligue vélocipédique belge)
+                victimes d'un accident du travail survenu depuis le 01/01/1985
+                , parents d'accueil reconnus, artistes, travailleurs occasionnels de l'Horeca.
+            </fr>
         </description>
         <employee-type>
             <nl>Gewone hoofdarbeiders</nl>
+            <fr>Intellectuels ordinaires</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1318,9 +1405,12 @@
         <code>675</code>
         <description>
             <nl>Statutaire werknemers</nl>
-            <fr></fr>
+            <fr>Travailleurs statutaires</fr>
         </description>
-        <employee-type>Andere (type werknemers)</employee-type>
+        <employee-type>
+            <nl>Andere (type werknemers)</nl>
+            <fr>Autres (type travailleurs)</fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2003</year>
@@ -1344,9 +1434,16 @@
                 - gelegenheidswerknemer in de horeca (werkgevers met werkgeverscategorieën 016, 017, 097 en 497).
             </nl>
             <fr>
+                Ouvriers temporaires dans l'horticulture et l'agriculture
+                (employeurs immatriculés sous les catégories 194, 494, 594, 193, 293, 097 et 497)
+                et jusqu'au deuxième trimestre 2007 inclus, ouvriers occasionnels dans l'Horeca
+                (employeurs immatriculés sous les catégories 016, 017, 097 et 497).
             </fr>
         </description>
-        <employee-type>Seizoenhandarbeiders</employee-type>
+        <employee-type>
+            <nl>Seizoenhandarbeiders</nl>
+            <fr>Manuels saisonniers</fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2003</year>
@@ -1374,11 +1471,18 @@
                 met werkgeverscategorieën 317, 097 en 497.
             </nl>
             <fr>
+                Ouvriers de catégorie spéciale à déclarer sur base des rémunérations forfaitaires par des employeurs
+                immatriculés sous les catégories 016, 017, 019, 116, 117, 216, 217 et
+                , depuis le 1er trimestre 2010, 066, 323, 562 et 662 et
+                , jusqu'au 1er trimestre 2007 inclus, 020, 023, 068, 146, 158, 166, 323 ou 562 
+                (cotisation de modération salariale non due) et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans.
+                A partir du quatrième trimestre 2013 aussi ouvriers de catégorie spéciale à déclarer sur base des rémunérations forfaitaires
+                par des employeurs immatriculés sous les catégories 317, 097 et 497.
             </fr>
         </description>
         <employee-type>
             <nl>Handarbeiders tegen forfait</nl>
-            <fr></fr>
+            <fr>Manuels au forfait</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1403,11 +1507,15 @@
                 b. tot en met het derde kwartaal 2008 aan te geven door werkgevers met werkgeverscategorie 811(loonmatigingsbijdrage verschuldigd).
             </nl>
             <fr>
+                Travailleur manuel sans modération salariale et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans :
+                a. Occupés dans un atelier protégé agréé ou dans un ‘maatwerkbedrijf’ immatriculé sous la catégorie 073, 173, 273 ou 473 
+                    ou à partir du premier trimestre 2023 dans un ‘maatwerkbedrijf’ immatriculé sous la catégorie 373 ou 673.
+                b. Jusqu'au 3ème trimestre 2008 inclus, à déclarer par les employeurs immatriculés sous la catégorie 811 (cotisation de modération salariale due).
             </fr>
         </description>
         <employee-type>
             <nl>Mindervalide handarbeiders</nl>
-            <fr></fr>
+            <fr>Manuels handicapés</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1434,9 +1542,17 @@
                     van de werknemers vallen tewerkgesteld door een werkgever met werkgeverscategorie 040
             </nl>
             <fr>
+                a. Chauffeurs de taxi affectés au transport de personnes occupés par 
+                    des employeurs immatriculés sous la catégorie 068 (cotisation de modération salariale non due)
+                    et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans.
+                b. Ouvriers contractuels ne relevant pas du régime des vacances annuelles des salariés occupés
+                    par un employeur de la catégorie 040
             </fr>
         </description>
-        <employee-type>Speciale handarbeiders</employee-type>
+        <employee-type>
+            <nl>Speciale handarbeiders</nl>
+            <fr>Manuels spéciaux</fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2003</year>
@@ -1459,18 +1575,23 @@
                 met de werkgeverscategorie 029 en leerlingen van deze categorie vanaf het jaar waarin ze 19 jaar worden.
             </nl>
             <fr>
+                Ouvriers de catégorie ordinaire pour qui la cotisation au Fonds Forestier est due par des employeurs
+                immatriculés sous la catégorie 029 et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans.
             </fr>
         </description>
         <employee-type>
             <nl>Gewone handarbeiders andere dan de arbeiders</nl>
-            <fr></fr>
+            <fr>Manuels ordinaires autre que les ouvriers</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2003</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>2019/1</end-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </end-validity>
     </employee-code>
     <employee-code>
         <type>
@@ -1478,10 +1599,27 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>015</code>
-        <description>Werklieden van de gewone categorie en leerlingen van deze categorie vanaf het jaar waarin ze 19 jaar worden: a) aan te geven met werkelijke lonen door de werkgevers met werkgeverscategorieën 016, 017, 019, 020, 023, 068, 158,166 en 562 (loonmatigingsbijdrage verschuldigd); b) gelegenheidsarbeiders aan te geven met reële lonen door de werkgevers met werkgeverscategorieën 116 en 117; c) niet-officieren aan te geven door werkgevers met werkgeverscategorieën 105, 205, 305, 405 en 505; d) alle andere werklieden die elders niet worden vermeld.</description>
+        <description>
+            <nl>
+                Werklieden van de gewone categorie en leerlingen van deze categorie vanaf het jaar waarin ze 19 jaar worden:
+                a. aan te geven met werkelijke lonen door de werkgevers met werkgeverscategorieën 016, 017, 019, 020, 023, 068, 158,166 en 562
+                    (loonmatigingsbijdrage verschuldigd);
+                b. gelegenheidsarbeiders aan te geven met reële lonen door de werkgevers met werkgeverscategorieën 116 en 117;
+                c. niet-officieren aan te geven door werkgevers met werkgeverscategorieën 105, 205, 305, 405 en 505;
+                d. alle andere werklieden die elders niet worden vermeld.
+            </nl>
+            <fr>
+                Ouvriers de catégorie ordinaire et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans:
+                a. à déclarer sur base des rémunérations proméritées par des employeurs
+                immatriculés sous les catégories 016, 017, 019, 020, 023, 068, 158, 166 ou 562 (cotisation de modération salariale due);
+                b. occasionnels déclarés sur base des rémunérations réelles par des employeurs immatriculés sous les catégories 116 et 117;
+                c. non officiers déclarés par des employeurs immatriculés sous les catégories 105, 205, 305, 405 et 505;
+                d. tous les autres ouvriers non mentionnés ailleurs.
+            </fr>
+        </description>
         <employee-type>
             <nl>Gewone handarbeiders</nl>
-            <fr></fr>
+            <fr>Ouvriers ordinaires</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1501,10 +1639,11 @@
         <code>016</code>
         <description>
             <nl>Mijnwerker, bovengronds tewerkgesteld en leerlingen van deze categorie vanaf het jaar waarin ze 19 jaar worden.</nl>
-            <fr></fr>
+            <fr>Mineur travaillant en surface et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans.</fr>
         </description>
         <employee-type>
             <nl>Mijnwerkers (handarbeiders)</nl>
+            <fr>Mineurs (manuels)</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1524,9 +1663,12 @@
         <code>017</code>
         <description>
             <nl>Mijnwerker, ondergronds tewerkgesteld en leerlingen van deze categorie vanaf het jaar waarin ze 19 jaar worden.</nl>
-            <fr></fr>
+            <fr>Mineur travaillant en sous-sol et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans.</fr>
         </description>
-        <employee-type>Mijnwerkers (handarbeiders)</employee-type>
+        <employee-type>
+            <nl>Mijnwerkers (handarbeiders)</nl>
+            <fr>Mineurs (manuels)</fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2003</year>
@@ -1550,11 +1692,14 @@
                 001, 046, 050, 096, 296, 347, 351, 396, 441 en 496 (Fedris bijdragen verschuldigd)
             </nl>
             <fr>
+                Apprentis et assimilés travailleurs manuels à partir de l'année où ils atteignent 19 ans
+                déclarés par des employeurs du secteur public immatriculés sous les catégories
+                001, 046, 050, 096, 296, 347, 351, 396, 441 et 496 (cotisations Fedris dues)
             </fr>
         </description>
         <employee-type>
             <nl>Leerling-handarbeiders</nl>
-            <fr></fr>
+            <fr>Manuels apprentis</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1574,13 +1719,17 @@
                 Leerplichtigen - werklieden van de speciale categorie (zie werknemerskengetal 010 onder de werknemerscategorieën 016, 017, 097 en 497)
                 tot 31 december van het jaar waarin ze 18 jaar worden.
             </nl>
+            <fr>
+                Elèves ouvriers de catégorie spéciale (voir code 010 dans catégories 016, 017, 097 et 497)
+                jusqu'au 31 décembre de l'année où ils atteignent 18 ans.
+            </fr>
         </description>
         <employee-type>
             <nl>Handarbeiders horeca, andere dan seizoenarbeiders</nl>
-            <fr></fr>
+            <fr>Manuels Horeca autres que les saisonniers</fr>
         </employee-type>
         <presence>3</presence>
-        <begin-validity>2003/3
+        <begin-validity>
             <year>2003</year>
             <quarter>3</quarter>
         </begin-validity>
@@ -1602,11 +1751,14 @@
                 tot 31 december van het jaar waarin ze 18 jaar worden.
             </nl>
             <fr>
+                Elèves ouvriers occasionnels de catégorie spéciale
+                (voir code 011 dans catégories 317, 097 et 497)
+                jusqu'au 31 décembre de l'année où ils atteignent 18 ans.
             </fr>
         </description>
         <employee-type>
             <nl>Handarbeiders gelegenheidswerknemers Horeca</nl>
-            <fr></fr>
+            <fr>Manuels occasionnels Horeca</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1632,11 +1784,15 @@
                 in het kader van de herverdeling van de arbeid in de openbare sector.
             </nl>
             <fr>
+                Travailleurs contractuels - ouvriers engagés dans le secteur public en remplacement de travailleurs contractuels
+                ou statutaires en interruption de carrière selon les dispositions de la loi de redressement du 22 janvier 1985
+                ou en remplacement de travailleurs qui réduisent leurs prestations de 1/5e avec prime compensatoire
+                dans le cadre de la redistribution du travail dans le secteur public.
             </fr>
         </description>
         <employee-type>
             <nl>Contractuele handarbeiders - Vervangers</nl>
-            <fr></fr>
+            <fr>Manuels contractuels remplaçants</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1660,11 +1816,15 @@
                 (zie werknemerskengetal 011 en 010 tot en met 2/2007 met uitzondering van de gelegenheidswerknemers Horeca - superextra's)
                 tot 31 december van het jaar waarin ze 18 jaar worden.
             </nl>
-            <fr></fr>
+            <fr>
+                Elèves-ouvriers stagiaires de catégorie spéciale
+                (voir code 011 et code 010 jusqu'au 2ème trimestre 2007 inclus à l'exception des occasionnels ("super extras") de l'Horeca)
+                jusqu'au 31 décembre de l'année où ils atteignent 18 ans.
+            </fr>
         </description>
         <employee-type>
             <nl>Andere leerplichtige handarbeiders</nl>
-            <fr></fr>
+            <fr>Autres élèves manuels</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1683,12 +1843,12 @@
         </type>
         <code>024</code>
         <description>
-            <nl>Gesubsidieerde contractuelen, handarbeiders die met reëel loon worden aangegeven (zie werknemerskengetal 015 b), en c))</nl>
-            <fr></fr>
+            <nl>Gesubsidieerde contractuelen, handarbeiders die met reëel loon worden aangegeven (zie werknemerskengetal 015 b, en c)</nl>
+            <fr>Contractuels subventionnés, travailleurs manuels déclarés sur base d'une rémunération réelle (voir code 015 points b et c)</fr>
         </description>
         <employee-type>
             <nl>Gesubsidieerde contractuele handarbeiders</nl>
-            <fr></fr>
+            <fr>Manuels contractuels subventionnés</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1707,12 +1867,18 @@
         </type>
         <code>025</code>
         <description>
-            <nl>Gesubsidieerde contractuelen, minder-valide handarbeiders die met reëel loon worden aangegeven, tewerkgesteld in een beschutte werkplaats</nl>
-            <fr></fr>
+            <nl>
+
+            </nl>
+            <fr>
+                Contractuels subventionnés, travailleurs manuels sans modération salariale occupés dans un atelier protégé
+                ou un ‘maatwerkbedrijf’ immatriculé sous la catégorie 073, 173, 273 ou 473
+                ou à partir du premier trimestre 2023 dans un ‘maatwerkbedrijf’ immatriculé sous la catégorie 373 ou 673.
+            </fr>
         </description>
         <employee-type>
             <nl>Gesubsidieerde contractuele handarbeiders</nl>
-            <fr></fr>
+            <fr>Manuels contractuels subventionnés</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1735,11 +1901,14 @@
                 Leerplichtigen - werklieden en stagiairs van de gewone categorie (zie werknemerskengetal 014)
                 tot 31 december van het jaar waarin ze 18 jaar worden.
             </nl>
-            <fr></fr>
+            <fr>
+                Elèves ouvriers et stagiaires de catégorie ordinaire (voir code 014)
+                jusqu'au 31 décembre de l'année où ils atteignent 18 ans.
+            </fr>
         </description>
         <employee-type>
             <nl>Andere leerplichtige handarbeiders</nl>
-            <fr></fr>
+            <fr>Autres élèves manuels</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1758,12 +1927,18 @@
         </type>
         <code>027</code>
         <description>
-            <nl>Leerplichtigen - werklieden en stagiairs van de gewone categorie (zie werknemerskengetal 015) tot 31 december van het jaar waarin ze 18 jaar worden.</nl>
-            <fr></fr>
+            <nl>
+                Leerplichtigen - werklieden en stagiairs van de gewone categorie (zie werknemerskengetal 015)
+                tot 31 december van het jaar waarin ze 18 jaar worden.
+            </nl>
+            <fr>
+                Elèves ouvriers et stagiaires de catégorie ordinaire (voir code 015)
+                jusqu'au 31 décembre de l'année où ils atteignent 18 ans.
+            </fr>
         </description>
         <employee-type>
             <nl>Leerplichtige gewone handarbeiders</nl>
-            <fr></fr>
+            <fr>Elèves ouvriers ordinaires manuels</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1786,7 +1961,9 @@
                 Gesubsidieerde contractuelen, handarbeiders die met forfaitair loon worden aangegeven
                 , tewerkgesteld bij openbare besturen en ermee gelijkgestelde instellingen, verenigingen en maatschappijen
             </nl>
-            <fr></fr>
+            <fr>
+                
+            </fr>
         </description>
         <employee-type>
             <nl>Gesubsidieerde contractuele handarbeiders</nl>
@@ -1952,7 +2129,10 @@
             <fr></fr>
         </employee-type>
         <presence>3</presence>
-        <begin-validity>2015/4</begin-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2065,7 +2245,10 @@
             <fr></fr>
         </employee-type>
         <presence>1</presence>
-        <begin-validity>2019/1</begin-validity>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2146,8 +2329,14 @@
     <employee-code>
         <type>Gewone bijdrage</type>
         <code>454</code>
-        <description>Vanaf het jaar waarin ze 19 jaar worden:  Betaalde sportbeoefenaars die ressorteren onder het Paritair Comité nr. 329.</description>
-        <employee-type>Speciale hoofdarbeiders</employee-type>
+        <description>
+            <nl>Vanaf het jaar waarin ze 19 jaar worden:  Betaalde sportbeoefenaars die ressorteren onder het Paritair Comité nr. 329.</nl>
+            <fr></fr>
+        </description>
+        <employee-type>
+            <nl>Speciale hoofdarbeiders</nl>
+            <fr></fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2022</year>
@@ -2170,6 +2359,7 @@
                 tot 31 december van het jaar waarin ze 18 jaar worden.
             </nl>
             <fr>
+                
             </fr>
         </description>
         <employee-type>
@@ -2177,8 +2367,14 @@
             <fr></fr>
         </employee-type>
         <presence>3</presence>
-        <begin-validity>2003/3</begin-validity>
-        <end-validity>2007/2</end-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>2</quarter>
+        </end-validity>
     </employee-code>
     <employee-code>
         <type>
@@ -2186,10 +2382,25 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>481</code>
-        <description>Contractuele werknemers - bedienden aangeworven in de publieke sector ter vervanging van contractuele of statutaire werknemers in loopbaanonderbreking volgens de herstelwet van 22 januari 1985 of ter vervanging van werknemers die hun prestaties met 1/5de verminderen met compenserende premie in het kader van de herverdeling van de arbeid in de openbare sector.</description>
-        <employee-type>Contractuele hoofdarbeiders - Vervangers</employee-type>
+        <description>
+            <nl>
+                Contractuele werknemers
+                - bedienden aangeworven in de publieke sector ter vervanging van contractuele of statutaire werknemers in loopbaanonderbreking
+                volgens de herstelwet van 22 januari 1985 of ter vervanging van werknemers
+                die hun prestaties met 1/5de verminderen met compenserende premie
+                in het kader van de herverdeling van de arbeid in de openbare sector.
+            </nl>
+            <fr></fr>
+        </description>
+        <employee-type>
+            <nl>Contractuele hoofdarbeiders - Vervangers</nl>
+            <fr></fr>
+        </employee-type>
         <presence>3</presence>
-        <begin-validity>2014/1</begin-validity>
+        <begin-validity>
+            <year>2014</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2260,12 +2471,19 @@
                 - gelegenheidswerknemers bedienden aan te geven met forfaitaire lonen voor werkgevers met de werkgeverscategorieën 216 en 217
                 en vanaf het vierde kwartaal 2013 met de werkgeverscategorieën 317, 097 en 497.
             </nl>
+            <fr>
+                
+            </fr>
         </description>
         <employee-type>
             <nl>Hoofdarbeiders gelegenheidswerknemers Horeca</nl>
+            <fr></fr>
         </employee-type>
         <presence>3</presence>
-        <begin-validity>2007/3</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2286,6 +2504,7 @@
                         aan te geven door werkgevers met werkgeverscategorie 212
             </nl>
             <fr>
+
             </fr>
         </description>
         <employee-type>
@@ -2389,7 +2608,9 @@
                 a. tewerkgesteld in een erkende beschutte werkplaats met werkgeverscategorieën 073, 173, 273 of 473 (loonmatigingsbijdrage niet verschuldigd).
                 b. tot en met het derde kwartaal 2008 aan te geven door werkgevers met werkgeverscategorie 811 (loonmatigingsbijdrage verschuldigd)
             </nl>
-            <fr></fr>
+            <fr>
+
+            </fr>
         </description>
         <employee-type>
             <nl>Mindervalide hoofdarbeiders</nl>
@@ -2417,7 +2638,9 @@
                 en, vanaf het eerste kwartaal 2015, 075.
                 Contractuelen die niet vallen onder het jaarlijkse vakantiesstelsel van de werknemers in de categorieën 040 en 075.
             </nl>
-            <fr></fr>
+            <fr>
+
+            </fr>
         </description>
         <employee-type>
             <nl>Speciale hoofdarbeiders</nl>
@@ -2439,10 +2662,26 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>494</code>
-        <description>Vanaf het jaar waarin ze 19 jaar worden: Tot en met het vierde kwartaal 2021, betaalde sportbeoefenaars (loonmatigingsbijdrage niet verschuldigd). Vanaf eerste kwartaal 2022, betaalde sportbeoefenaars die ressorteren onder het Paritair Comité nr. 223 of 200 of van de publieke sector.</description>
-        <employee-type>Speciale hoofdarbeiders</employee-type>
+        <description>
+            <nl>
+                Vanaf het jaar waarin ze 19 jaar worden: Tot en met het vierde kwartaal 2021, betaalde sportbeoefenaars
+                (loonmatigingsbijdrage niet verschuldigd).
+                Vanaf eerste kwartaal 2022, betaalde sportbeoefenaars die ressorteren onder het Paritair Comité nr. 223
+                of 200 of van de publieke sector.
+            </nl>
+            <fr>
+
+            </fr>
+        </description>
+        <employee-type>
+            <nl>Speciale hoofdarbeiders</nl>
+            <fr></fr>
+        </employee-type>
         <presence>3</presence>
-        <begin-validity>2008/1</begin-validity>
+        <begin-validity>
+            <year>2008</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2454,8 +2693,23 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>495</code>
-        <description>Bedienden en leerlingen van deze categorie vanaf het jaar waarin ze 19 jaar worden :  a) Bedienden met een gewone categorie  b) Betaalde sportbeoefenaars, vanaf het eerste kwartaal 2008 beperkt tot voetbaltrainers en voetbalscheidsrechters aangegeven door werkgevers met werkgeverscategorieën 070 of 076. c) Gelegenheidswerknemers bedienden aan te geven met reële lonen door de werkgevers met de werkgeverscategorieën 116 en 117; d) officieren aan te geven door werkgevers met werkgeverscategorieën 105, 205, 305, 405 en 505. e) Werknemers, ongeacht hun activiteit, die niet onder de Belgische arbeidswetgeving vallen, aan te geven door werkgevers met werkgeverscategorie 212</description>
-        <employee-type>Gewone hoofdarbeiders</employee-type>
+        <description>
+            <nl>
+                Bedienden en leerlingen van deze categorie vanaf het jaar waarin ze 19 jaar worden :
+                a. Bedienden met een gewone categorie
+                b. Betaalde sportbeoefenaars, vanaf het eerste kwartaal 2008 beperkt tot voetbaltrainers 
+                    en voetbalscheidsrechters aangegeven door werkgevers met werkgeverscategorieën 070 of 076.
+                c. Gelegenheidswerknemers bedienden aan te geven met reële lonen door de werkgevers met de werkgeverscategorieën 116 en 117;
+                d. officieren aan te geven door werkgevers met werkgeverscategorieën 105, 205, 305, 405 en 505.
+                e. Werknemers, ongeacht hun activiteit, die niet onder de Belgische arbeidswetgeving vallen
+                    , aan te geven door werkgevers met werkgeverscategorie 212
+            </nl>
+            <fr></fr>
+        </description>
+        <employee-type>
+            <nl>Gewone hoofdarbeiders</nl>
+            <fr></fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2003</year>
@@ -2477,14 +2731,19 @@
                 Gelegenheidswerknemers bedienden aan te geven met forfaitaire lonen voor werkgevers met de werkgeverscategorieën 216 en 217
                 en vanaf het vierde kwartaal 2013 met de werkgeverscategorieën 317, 097 en 497.
             </nl>
-            <fr></fr>
+            <fr>
+
+            </fr>
         </description>
         <employee-type>
             <nl>Hoofdarbeiders gelegenheidswerknemers Horeca</nl>
             <fr></fr>
         </employee-type>
         <presence>3</presence>
-        <begin-validity>2007/3</begin-validity>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2496,10 +2755,19 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>497</code>
-        <description>Erkende onthaalouders</description>
-        <employee-type>Erkende onthaalouders</employee-type>
+        <description>
+            <nl>Erkende onthaalouders</nl>
+            <fr></fr>
+        </description>
+        <employee-type>
+            <nl>Erkende onthaalouders</nl>
+            <fr></fr>
+        </employee-type>
         <presence>3</presence>
-        <begin-validity>2003/2</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>2</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2511,11 +2779,27 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>498</code>
-        <description>Gerechtigden op een (post)doctoraatsbeurs, afkomstig van een land buiten de Europese Economische Ruimte dat geen overeenkomst heeft met België</description>
-        <employee-type>Hoofdarbeiders beursstudenten</employee-type>
+        <description>
+            <nl>
+                Gerechtigden op een (post)doctoraatsbeurs
+                , afkomstig van een land buiten de Europese Economische Ruimte dat geen overeenkomst heeft met België
+            </nl>
+            <fr>
+            </fr>
+        </description>
+        <employee-type>
+            <nl>Hoofdarbeiders beursstudenten</nl>
+            <fr></fr>
+        </employee-type>
         <presence>3</presence>
-        <begin-validity>2003/3</begin-validity>
-        <end-validity>9999/4</end-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employee-code>
     <employee-code>
         <type>
@@ -2530,10 +2814,19 @@
                 met werkgeverscategorieën 001, 046, 050, 096, 296, 347,
                 351, 396, 441 en 496 (Fedris bijdragen verschuldigd)
             </nl>
+            <fr>
+
+            </fr>
         </description>
-        <employee-type>Leerling-hoofdarbeiders</employee-type>
+        <employee-type>
+            <nl>Leerling-hoofdarbeiders</nl>
+            <fr></fr>
+        </employee-type>
         <presence>3</presence>
-        <begin-validity>2005/3</begin-validity>
+        <begin-validity>
+            <year>2005</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2551,6 +2844,9 @@
                 onderworpen aan de verzekering voor geneeskundige verzorging
                 en aan kinderbijslag
             </nl>
+            <fr>
+                
+            </fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -2561,7 +2857,10 @@
             <year>2003</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>2014/4</end-validity>
+        <end-validity>
+            <year>2014</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employee-code>
     <employee-code>
         <type>
@@ -2569,7 +2868,10 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>673</code>
-        <description>Mandatarissen of houders van een staffunctie in de openbare diensten</description>
+        <description>
+            <nl>Mandatarissen of houders van een staffunctie in de openbare diensten</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
@@ -2590,7 +2892,10 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>675</code>
-        <description>Werknemers uitsluitend onderworpen aan de verzekering voor geneeskundige verzorging</description>
+        <description>
+            <nl>Werknemers uitsluitend onderworpen aan de verzekering voor geneeskundige verzorging</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
@@ -2611,13 +2916,19 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>677</code>
-        <description>Stagiairs met het oog op een vaste benoeming met de vakantieregeling privésector bij een provinciaal of plaatselijk bestuur</description>
+        <description>
+            <nl>Stagiairs met het oog op een vaste benoeming met de vakantieregeling privésector bij een provinciaal of plaatselijk bestuur</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>3</presence>
-        <begin-validity>2022/1</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2638,7 +2949,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>1</presence>
-        <begin-validity>2020/1</begin-validity>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2665,7 +2979,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>1</presence>
-        <begin-validity>2020/1</begin-validity>
+        <begin-validity>
+            <year>2020</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2677,13 +2994,19 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>260</code>
-        <description>Activeringsbijdrage</description>
+        <description>
+            <nl>Activeringsbijdrage</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2018/1</begin-validity>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2695,13 +3018,19 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>261</code>
-        <description>Verlaagde activeringsbijdrage</description>
+        <description>
+            <nl>Verlaagde activeringsbijdrage</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2018/1</begin-validity>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2713,13 +3042,19 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>800</code>
-        <description>Bijdrage economische werkloosheid</description>
+        <description>
+            <nl>Bijdrage economische werkloosheid</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2017/1</begin-validity>
+        <begin-validity>
+            <year>2017</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2731,14 +3066,23 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>801</code>
-        <description>Bijzondere bijdrage verschuldigd op Coronapremie</description>
+        <description>
+            <nl>Bijzondere bijdrage verschuldigd op Coronapremie</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>5</presence>
-        <begin-validity>2021/3</begin-validity>
-        <end-validity>2021/4</end-validity>
+        <begin-validity>
+            <year>2021</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employee-code>
     <employee-code>
         <type>
@@ -2746,13 +3090,19 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>803</code>
-        <description>Bijdrage in het kader van aanvullende pensioenplan Prolocus</description>
+        <description>
+            <nl>Bijdrage in het kader van aanvullende pensioenplan Prolocus</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2022/1</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2764,13 +3114,23 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>807</code>
-        <description>Arbeidsongevallenpremie bestemd voor Fedris verschuldigd door zeevarenden in de koopvaardij-, bagger- of zeesleepvaartsector (werkgeverscategorieën 105, 205 en 305)</description>
+        <description>
+            <nl>
+                Arbeidsongevallenpremie bestemd voor Fedris verschuldigd door zeevarenden in de koopvaardij-
+                , bagger- of zeesleepvaartsector (werkgeverscategorieën 105, 205 en 305)
+            </nl>
+            <fr>
+            </fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2018/1</begin-validity>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2782,25 +3142,52 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>808</code>
-        <description>Bijkomende arbeidsongevallenpremie bestemd voor Fedris verschuldigd door zeevarenden in de koopvaardij-, bagger- of zeesleepvaartsector (werkgeverscategorieën 105, 205 en 305) bij vaart in oorlogs- en/of piraterijzones</description>
-        <employee-type>Andere (type werknemers)</employee-type>
+        <description>
+            <nl>
+                Bijkomende arbeidsongevallenpremie bestemd voor Fedris verschuldigd door zeevarenden in de koopvaardij-
+                , bagger- of zeesleepvaartsector (werkgeverscategorieën 105, 205 en 305) bij vaart in oorlogs- en/of piraterijzones
+            </nl>
+            <fr>
+
+            </fr>
+        </description>
+        <employee-type>
+            <nl>Andere (type werknemers)</nl>
+            <fr>Autres (type travailleurs)</fr>
+        </employee-type>
         <presence>2</presence>
-        <begin-validity>2018/1</begin-validity>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
     </employee-code>
     <employee-code>
-        <type>Supplementaire bijdrage</type>
+        <type>
+            <nl>Supplementaire bijdrage</nl>
+            <fr>Cotisation supplémentaire</fr>
+        </type>
         <code>809</code>
-        <description>Bijdrage ten behoeve van het Fonds tot vergoeding van de in geval van sluiting van ondernemingen ontslagen werknemers (F.S.O.), gestort door commerciële werkgevers</description>
+        <description>
+            <nl>
+                Bijdrage ten behoeve van het Fonds tot vergoeding van de in geval van sluiting van ondernemingen ontslagen werknemers (F.S.O.)
+                , gestort door commerciële werkgevers
+            </nl>
+            <fr>
+            </fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2812,13 +3199,19 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>810</code>
-        <description>Bijzondere bijdrage ten behoeve van het Fonds tot vergoeding van de in geval van sluiting van ondernemingen ontslagen werknemers (F.S.O.)</description>
+        <description>
+            <nl>Bijzondere bijdrage ten behoeve van het Fonds tot vergoeding van de in geval van sluiting van ondernemingen ontslagen werknemers (F.S.O.)</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2830,13 +3223,24 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>811</code>
-        <description>Bijdrage ten behoeve van het Fonds tot vergoeding van de in geval van sluiting van ondernemingen ontslagen werknemers (F.S.O.), gestort door niet-commerciële werkgevers</description>
+        <description>
+            <nl>
+                Bijdrage ten behoeve van het Fonds tot vergoeding van de in geval van sluiting van ondernemingen ontslagen werknemers (F.S.O.)
+                , gestort door niet-commerciële werkgevers
+            </nl>
+            <fr>
+
+            </fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2008/2</begin-validity>
+        <begin-validity>
+            <year>2008</year>
+            <quarter>2</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2848,13 +3252,19 @@
             <fr>Cotisation supplémentaire</fr>
         </type>
         <code>812</code>
-        <description>Bijzondere bijdrage verbrekingsvergoedingen voor het Sluitingsfonds</description>
+        <description>
+            <nl>Bijzondere bijdrage verbrekingsvergoedingen voor het Sluitingsfonds</nl>
+            <fr></fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2014/1</begin-validity>
+        <begin-validity>
+            <year>2014</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2868,13 +3278,17 @@
         <code>815</code>
         <description>
             <nl>Bijdrage overheidspensioen voor statutaire werknemers</nl>
+            <fr></fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2015/1</begin-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2895,7 +3309,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2015/1</begin-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2919,7 +3336,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2016/1</begin-validity>
+        <begin-validity>
+            <year>2016</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2940,6 +3360,7 @@
                 en voor het Fonds voor Bestaanszekerheid van de bouwsector
             </nl>
             <fr>
+
             </fr>
         </description>
         <employee-type>
@@ -2947,7 +3368,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2968,7 +3392,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2004/2</begin-validity>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>2</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -2989,7 +3416,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2004/3</begin-validity>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3010,7 +3440,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2010/3</begin-validity>
+        <begin-validity>
+            <year>2010</year>
+            <quarter>3</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3040,7 +3473,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3067,7 +3503,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3092,7 +3531,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3120,7 +3562,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3141,7 +3586,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2006/1</begin-validity>
+        <begin-validity>
+            <year>2006</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3162,8 +3610,14 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2009/3</begin-validity>
-        <end-validity>2010/2</end-validity>
+        <begin-validity>
+            <year>2009</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2010</year>
+            <quarter>2</quarter>
+        </end-validity>
     </employee-code>
     <employee-code>
         <type>
@@ -3180,7 +3634,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2012/1</begin-validity>
+        <begin-validity>
+            <year>2012</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3225,7 +3682,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2022/1</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3246,7 +3706,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2022/1</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3267,7 +3730,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2021/1</begin-validity>
+        <begin-validity>
+            <year>2021</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3288,7 +3754,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2022/1</begin-validity>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3309,7 +3778,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3330,8 +3802,14 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
-        <end-validity>2014/4</end-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2014</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employee-code>
     <employee-code>
         <type>
@@ -3348,7 +3826,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3369,7 +3850,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3392,7 +3876,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3413,7 +3900,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3434,7 +3924,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2003/1</begin-validity>
+        <begin-validity>
+            <year>2003</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>2020/4</end-validity>
     </employee-code>
     <employee-code>
@@ -3452,7 +3945,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2009/1</begin-validity>
+        <begin-validity>
+            <year>2009</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3473,7 +3969,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2019/1</begin-validity>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3494,7 +3993,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2019/1</begin-validity>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3509,7 +4011,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2021/2</begin-validity>
+        <begin-validity>
+            <year>2021</year>
+            <quarter>2</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3530,7 +4035,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2008/1</begin-validity>
+        <begin-validity>
+            <year>2008</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -3551,7 +4059,10 @@
             <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>2</presence>
-        <begin-validity>2009/1</begin-validity>
+        <begin-validity>
+            <year>2009</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
