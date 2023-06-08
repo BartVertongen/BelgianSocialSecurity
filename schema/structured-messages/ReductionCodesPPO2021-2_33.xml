@@ -14,10 +14,10 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-        <region>
+          <region>
             <nl>Federaal</nl>
             <fr>Fédérale</fr>
-        </region>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
@@ -27,7 +27,7 @@
           <link-block>
                <nl>Werknemerslijn</nl>
                <fr>Ligne travailleur</fr>
-        </link-block>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>0600</code-DMFA>
@@ -42,12 +42,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>3</quarter>
+               <year>2004</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2007</year>
-            <quarter>2</quarter>
+               <year>2007</year>
+               <quarter>2</quarter>
           </end-validity>
           <region>
                <nl>Federaal</nl>
@@ -58,10 +58,13 @@
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
           <amount>obligatory</amount>
-          <start-right>forbidden</start-right>
+          <start-right>
+               <nl>forbidden</nl>
+               <fr></fr>
+          </start-right>
           <link-block>
                <nl>Werknemerslijn</nl>
-               <fr></fr>
+               <fr>Ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -71,12 +74,12 @@
                <fr>Réduction des cotisations personnelles pour les travailleurs licenciés dans le cadre d'une restructuration</fr>
           </description>
           <begin-validity>
-            <year>2007</year>
-            <quarter>1</quarter>
+               <year>2007</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
+               <year>9999</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Federaal</nl>
@@ -90,7 +93,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Werknemerslijn</nl>
-               <fr></fr>
+               <fr> Ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -100,8 +103,8 @@
                <fr>Période transitoire : plan d'embauche pour demandeurs d'emploi qui répondent à la condition des 12 mois (&gt;45 ans)</fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
             <year>2008</year>
@@ -119,7 +122,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -129,12 +132,12 @@
                <fr>Période transitoire : plan d'embauche pour demandeurs d'emploi qui répondent à la condition des 24 mois (&gt;45 ans)</fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2008</year>
-            <quarter>1</quarter>
+               <year>2008</year>
+               <quarter>1</quarter>
           </end-validity>
            <region>
                <nl>Federaal</nl>
@@ -148,7 +151,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -164,12 +167,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2008</year>
-            <quarter>4</quarter>
+               <year>2008</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Federaal</nl>
@@ -183,7 +186,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -199,12 +202,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2008</year>
-            <quarter>4</quarter>
+                <year>2008</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Federaal</nl>
@@ -218,7 +221,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -228,12 +231,12 @@
                <fr>Période transitoire : économie de réinsertion sociale conclue avant le 1.1.2004</fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2020</year>
-            <quarter>4</quarter>
+               <year>2020</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -247,7 +250,7 @@
           <start-right>forbidden</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -257,12 +260,12 @@
                <fr>Période transitoire : économie de réinsertion sociale conclue avant le 1.1.2004</fr>
           </description>
           <begin-validity>
-            <year>2021</year>
-            <quarter>1</quarter>
+               <year>2021</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
+               <year>9999</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -276,7 +279,7 @@
           <start-right>forbidden</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr> Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -286,17 +289,17 @@
                <fr>Période transitoire : convention de premier emploi des jeunes conclue avant 1.1.2004</fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2012</year>
-            <quarter>4</quarter>
+               <year>2012</year>
+               <quarter>4</quarter>
           </end-validity>
-        <region>
-            <nl>Federaal</nl>
-            <fr>Fédérale</fr>
-        </region>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
@@ -305,7 +308,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr> Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -318,12 +321,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2006</year>
-            <quarter>4</quarter>
+               <year>2006</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Federaal</nl>
@@ -337,7 +340,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -347,38 +350,12 @@
                <fr>Réduction des cotisations patronales pour les parents d'accueil reconnus</fr>
           </description>
           <begin-validity>
-            <year>2003</year>
-            <quarter>2</quarter>
+               <year>2003</year>
+               <quarter>2</quarter>
           </begin-validity>
           <end-validity>
-            <year>2013</year>
-            <quarter>4</quarter>
-          </end-validity>
-          <region>
-               <nl>Federaal</nl>
-               <fr>Fédérale</fr>
-          </region>
-          <flemish-region>-</flemish-region>
-          <brussels-region>-</brussels-region>
-          <walloon-region>-</walloon-region>
-          <walloon-and-german-region>-</walloon-and-german-region>
-          <amount>optional</amount>
-          <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
-     </reduction-code-PPO>
-     <reduction-code-PPO>
-          <code-DMFA>1531</code-DMFA>
-          <description>
-               <nl>Vermindering van de werkgeversbijdragen voor kunstenaars</nl>
-               <fr>Réduction des cotisations patronales pour les artistes</fr>
-          </description>
-          <begin-validity>
-            <year>2003</year>
-            <quarter>3</quarter>
-          </begin-validity>
-          <end-validity>
-            <year>2013</year>
-            <quarter>4</quarter>
+               <year>2013</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Federaal</nl>
@@ -392,7 +369,36 @@
           <start-right>forbidden</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>1531</code-DMFA>
+          <description>
+               <nl>Vermindering van de werkgeversbijdragen voor kunstenaars</nl>
+               <fr>Réduction des cotisations patronales pour les artistes</fr>
+          </description>
+          <begin-validity>
+               <year>2003</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2013</year>
+               <quarter>4</quarter>
+          </end-validity>
+          <region>
+               <nl>Federaal</nl>
+               <fr>Fédérale</fr>
+          </region>
+          <flemish-region>-</flemish-region>
+          <brussels-region>-</brussels-region>
+          <walloon-region>-</walloon-region>
+          <walloon-and-german-region>-</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -410,12 +416,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2016</year>
-            <quarter>4</quarter>
+               <year>2016</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -429,6 +435,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -446,12 +453,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>1</quarter>
+               <year>2017</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
+               <year>2017</year>
+               <quarter>2</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -465,6 +472,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
           <reduction-code-PPO>
@@ -482,12 +490,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -507,7 +515,7 @@
           </start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -526,12 +534,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </begin-validity>
           <end-validity>
-            <year>2018</year>
-            <quarter>4</quarter>
+               <year>2018</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -545,7 +553,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -565,12 +573,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2019</year>
-            <quarter>1</quarter>
+               <year>2019</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2019</year>
-            <quarter>4</quarter>
+               <year>2019</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -584,7 +592,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
-               <fr></fr>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -600,12 +608,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2016</year>
-            <quarter>4</quarter>
+               <year>2016</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -617,7 +625,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3201</code-DMFA>
@@ -632,12 +643,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>1</quarter>
+               <year>2017</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
+               <year>2017</year>
+               <quarter>2</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -649,7 +660,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3201</code-DMFA>
@@ -664,12 +678,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -683,6 +697,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -698,12 +713,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </begin-validity>
           <end-validity>
-            <year>2018</year>
-            <quarter>4</quarter>
+               <year>2018</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -715,7 +730,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3201</code-DMFA>
@@ -730,12 +748,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2019</year>
-            <quarter>1</quarter>
+               <year>2019</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2010</year>
-            <quarter>4</quarter>
+               <year>2010</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -747,7 +765,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3202</code-DMFA>
@@ -762,12 +783,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2016</year>
-            <quarter>4</quarter>
+               <year>2016</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -779,7 +800,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3202</code-DMFA>
@@ -794,12 +818,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>1</quarter>
+               <year>2017</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
+               <year>2017</year>
+               <quarter>2</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -811,7 +835,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3202</code-DMFA>
@@ -826,12 +853,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -843,7 +870,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3202</code-DMFA>
@@ -858,12 +888,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </begin-validity>
           <end-validity>
-            <year>2018</year>
-            <quarter>4</quarter>
+               <year>2018</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -875,7 +905,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3202</code-DMFA>
@@ -890,12 +923,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2019</year>
-            <quarter>1</quarter>
+               <year>2019</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2021</year>
-            <quarter>4</quarter>
+               <year>2021</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -907,7 +940,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
           <reduction-code-PPO>
           <code-DMFA>3203</code-DMFA>
@@ -922,12 +958,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2016</year>
-            <quarter>4</quarter>
+               <year>2016</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -939,7 +975,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3203</code-DMFA>
@@ -954,12 +993,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>1</quarter>
+               <year>2017</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
+               <year>2017</year>
+               <quarter>2</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -971,7 +1010,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3203</code-DMFA>
@@ -986,12 +1028,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -1003,7 +1045,10 @@
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3203</code-DMFA>
@@ -1018,21 +1063,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </begin-validity>
           <end-validity>
-            <year>2018</year>
-            <quarter>4</quarter>
+               <year>2018</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3203</code-DMFA>
@@ -1047,21 +1098,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2019</year>
-            <quarter>1</quarter>
+               <year>2019</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2023</year>
-            <quarter>4</quarter>
+               <year>2023</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3205</code-DMFA>
@@ -1079,21 +1136,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2013</year>
-            <quarter>3</quarter>
+               <year>2013</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2016</year>
-            <quarter>4</quarter>
+               <year>2016</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3205</code-DMFA>
@@ -1111,21 +1174,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>1</quarter>
+               <year>2017</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
+               <year>2017</year>
+               <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3205</code-DMFA>
@@ -1143,21 +1212,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>20177</year>
-            <quarter>3</quarter>
+               <year>20177</year>
+               <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3205</code-DMFA>
@@ -1175,21 +1250,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </begin-validity>
           <end-validity>
-            <year>2018</year>
-            <quarter>4</quarter>
+               <year>2018</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
      <code-DMFA>3205</code-DMFA>
@@ -1207,21 +1288,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2019</year>
-            <quarter>1</quarter>
+               <year>2019</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2021</year>
-            <quarter>3</quarter>
+               <year>2021</year>
+               <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3210</code-DMFA>
@@ -1236,21 +1323,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2016</year>
-            <quarter>4</quarter>
+               <year>2016</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3210</code-DMFA>
@@ -1265,21 +1358,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>1</quarter>
+               <year>2017</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
+               <year>2017</year>
+               <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3210</code-DMFA>
@@ -1294,21 +1393,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3210</code-DMFA>
@@ -1323,21 +1428,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </begin-validity>
           <end-validity>
-            <year>2018</year>
-            <quarter>4</quarter>
+               <year>2018</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3210</code-DMFA>
@@ -1352,21 +1463,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2019</year>
-            <quarter>1</quarter>
+               <year>2019</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2023</year>
-            <quarter>4</quarter>
+               <year>2023</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3211</code-DMFA>
@@ -1381,21 +1498,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2016</year>
-            <quarter>4</quarter>
+               <year>2016</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3211</code-DMFA>
@@ -1410,21 +1533,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>1</quarter>
+               <year>2017</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
+               <year>2017</year>
+               <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3211</code-DMFA>
@@ -1439,21 +1568,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3211</code-DMFA>
@@ -1468,21 +1603,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </begin-validity>
           <end-validity>
-            <year>2018</year>
-            <quarter>4</quarter>
+               <year>2018</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3211</code-DMFA>
@@ -1498,21 +1639,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2019</year>
-            <quarter>1</quarter>
+               <year>2019</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2023</year>
-            <quarter>4</quarter>
+               <year>2023</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3220</code-DMFA>
@@ -1527,21 +1674,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2015</year>
-            <quarter>3</quarter>
+               <year>2015</year>
+               <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3220</code-DMFA>
@@ -1556,21 +1709,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2015</year>
-            <quarter>4</quarter>
+               <year>2015</year>
+               <quarter>4</quarter>
           </begin-validity>
           <end-validity>
-            <year>2016</year>
-            <quarter>3</quarter>
+               <year>2016</year>
+               <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3220</code-DMFA>
@@ -1585,21 +1744,27 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2016</year>
-            <quarter>4</quarter>
+               <year>2016</year>
+               <quarter>4</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
+               <year>2017</year>
+               <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3220</code-DMFA>
@@ -1614,6 +1779,122 @@
                </fr>
           </description>
           <begin-validity>
+               <year>2017</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2020</year>
+               <quarter>4</quarter>
+          </end-validity>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>no</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3221</code-DMFA>
+          <description>
+               <nl>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
+               <fr>Programme transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2015</year>
+               <quarter>3</quarter>
+          </end-validity>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>yes</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3221</code-DMFA>
+          <description>
+               <nl>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
+               <fr>Programme transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</fr>
+          </description>
+          <begin-validity>
+               <year>2015</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2016</year>
+               <quarter>3</quarter>
+          </end-validity>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>yes</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3221</code-DMFA>
+          <description>
+               <nl>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
+               <fr>Programme transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</fr>
+          </description>
+          <begin-validity>
+               <year>2014</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2017</year>
+               <quarter>2</quarter>
+          </end-validity>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          <flemish-region>no</flemish-region>
+          <brussels-region>yes</brussels-region>
+          <walloon-region>yes</walloon-region>
+          <walloon-and-german-region>no</walloon-and-german-region>
+          <amount>optional</amount>
+          <start-right>forbidden</start-right>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
+     </reduction-code-PPO>
+     <reduction-code-PPO>
+          <code-DMFA>3221</code-DMFA>
+          <description>
+               <nl>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
+               <fr>Programme transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</fr>
+          </description>
+          <begin-validity>
             <year>2017</year>
             <quarter>3</quarter>
           </begin-validity>
@@ -1621,20 +1902,26 @@
             <year>2020</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
-          <code-DMFA>3221</code-DMFA>
+          <code-DMFA>3230</code-DMFA>
           <description>
-               <nl>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
-               <fr>Programme transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</fr>
+               <nl>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</nl>
+               <fr>Programme de transition professionnelle au moins 45 ans, au moins 12 mois d'allocations</fr>
           </description>
           <begin-validity>
             <year>2004</year>
@@ -1644,106 +1931,20 @@
             <year>2015</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
-     </reduction-code-PPO>
-     <reduction-code-PPO>
-          <code-DMFA>3221</code-DMFA>
-          <description>
-               <nl>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
-               <fr>Programme transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</fr>
-          </description>
-          <begin-validity>
-            <year>2015</year>
-            <quarter>4</quarter>
-          </begin-validity>
-          <end-validity>
-            <year>2016</year>
-            <quarter>3</quarter>
-          </end-validity>
-          <region>Regionaal</region>
-          <flemish-region>no</flemish-region>
-          <brussels-region>yes</brussels-region>
-          <walloon-region>yes</walloon-region>
-          <walloon-and-german-region>yes</walloon-and-german-region>
-          <amount>optional</amount>
-          <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
-     </reduction-code-PPO>
-     <reduction-code-PPO>
-          <code-DMFA>3221</code-DMFA>
-          <description>
-               <nl>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
-               <fr>Programme transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</fr>
-          </description>
-          <begin-validity>
-            <year>2014</year>
-            <quarter>4</quarter>
-          </begin-validity>
-          <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
-          </end-validity>
-          <region>Regionaal</region>
-          <flemish-region>no</flemish-region>
-          <brussels-region>yes</brussels-region>
-          <walloon-region>yes</walloon-region>
-          <walloon-and-german-region>no</walloon-and-german-region>
-          <amount>optional</amount>
-          <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
-     </reduction-code-PPO>
-     <reduction-code-PPO>
-          <code-DMFA>3221</code-DMFA>
-          <description>
-               <nl>Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
-               <fr>Programme transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</fr>
-          </description>
-          <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
-          </begin-validity>
-          <end-validity>
-            <year>2020</year>
-            <quarter>4</quarter>
-          </end-validity>
-          <region>Regionaal</region>
-          <flemish-region>no</flemish-region>
-          <brussels-region>yes</brussels-region>
-          <walloon-region>no</walloon-region>
-          <walloon-and-german-region>no</walloon-and-german-region>
-          <amount>optional</amount>
-          <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
-     </reduction-code-PPO>
-     <reduction-code-PPO>
-          <code-DMFA>3230</code-DMFA>
-          <description>
-               <nl>Doorstromingsprogramma minstens 45j minstens 12 m uitkeringen</nl>
-               <fr>Programme de transition professionnelle au moins 45 ans, au moins 12 mois d'allocations</fr>
-          </description>
-          <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
-          </begin-validity>
-          <end-validity>
-            <year>2015</year>
-            <quarter>3</quarter>
-          </end-validity>
-          <region>Regionaal</region>
-          <flemish-region>yes</flemish-region>
-          <brussels-region>yes</brussels-region>
-          <walloon-region>yes</walloon-region>
-          <walloon-and-german-region>yes</walloon-and-german-region>
-          <amount>optional</amount>
-          <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3230</code-DMFA>
@@ -1759,14 +1960,20 @@
             <year>2016</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3230</code-DMFA>
@@ -1782,14 +1989,20 @@
             <year>2017</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3230</code-DMFA>
@@ -1805,14 +2018,20 @@
             <year>2020</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3231</code-DMFA>
@@ -1828,14 +2047,20 @@
             <year>2015</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3231</code-DMFA>
@@ -1851,14 +2076,20 @@
             <year>2016</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3231</code-DMFA>
@@ -1874,14 +2105,20 @@
             <year>2017</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3231</code-DMFA>
@@ -1897,14 +2134,20 @@
             <year>2020</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3240</code-DMFA>
@@ -1920,14 +2163,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3240</code-DMFA>
@@ -1943,14 +2192,20 @@
             <year>2020</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3240</code-DMFA>
@@ -1966,14 +2221,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3241</code-DMFA>
@@ -1989,14 +2250,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3241</code-DMFA>
@@ -2012,14 +2279,20 @@
             <year>2020</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3241</code-DMFA>
@@ -2035,14 +2308,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3250</code-DMFA>
@@ -2058,14 +2337,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3250</code-DMFA>
@@ -2081,14 +2366,20 @@
             <year>2020</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3250</code-DMFA>
@@ -2104,14 +2395,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3410</code-DMFA>
@@ -2127,14 +2424,20 @@
             <year>2016</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3410</code-DMFA>
@@ -2150,14 +2453,20 @@
             <year>2017</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3410</code-DMFA>
@@ -2173,14 +2482,20 @@
             <year>2017</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3410</code-DMFA>
@@ -2196,14 +2511,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3410</code-DMFA>
@@ -2219,14 +2540,20 @@
             <year>2021</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3411</code-DMFA>
@@ -2248,14 +2575,20 @@
             <year>2016</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3411</code-DMFA>
@@ -2277,14 +2610,20 @@
             <year>2017</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3411</code-DMFA>
@@ -2306,14 +2645,20 @@
             <year>2017</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3411</code-DMFA>
@@ -2335,14 +2680,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3411</code-DMFA>
@@ -2364,14 +2715,20 @@
             <year>2022</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3412</code-DMFA>
@@ -2387,14 +2744,20 @@
             <year>2016</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3412</code-DMFA>
@@ -2410,14 +2773,20 @@
             <year>2017</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3412</code-DMFA>
@@ -2433,14 +2802,20 @@
             <year>2017</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3412</code-DMFA>
@@ -2456,14 +2831,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3412</code-DMFA>
@@ -2479,14 +2860,20 @@
             <year>2021</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3430</code-DMFA>
@@ -2502,14 +2889,20 @@
             <year>2016</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3430</code-DMFA>
@@ -2525,14 +2918,20 @@
             <year>2017</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3430</code-DMFA>
@@ -2548,14 +2947,21 @@
             <year>2017</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3430</code-DMFA>
@@ -2571,14 +2977,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3430</code-DMFA>
@@ -2594,14 +3006,20 @@
             <year>2021</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3600</code-DMFA>
@@ -2623,14 +3041,20 @@
             <year>2007</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Federaal</region>
+          <region>
+            <nl>Federaal</nl>
+            <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3601</code-DMFA>
@@ -2646,14 +3070,20 @@
             <year>2016</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3601</code-DMFA>
@@ -2669,14 +3099,20 @@
             <year>2017</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3601</code-DMFA>
@@ -2692,14 +3128,20 @@
             <year>2017</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3601</code-DMFA>
@@ -2715,14 +3157,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3601</code-DMFA>
@@ -2744,14 +3192,20 @@
             <year>2019</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3611</code-DMFA>
@@ -2767,14 +3221,20 @@
             <year>2016</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3611</code-DMFA>
@@ -2790,14 +3250,20 @@
             <year>2017</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3611</code-DMFA>
@@ -2813,14 +3279,20 @@
             <year>2017</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3611</code-DMFA>
@@ -2836,14 +3308,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3611</code-DMFA>
@@ -2865,14 +3343,20 @@
             <year>2023</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3612</code-DMFA>
@@ -2888,14 +3372,20 @@
             <year>2013</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Federaal</region>
+          <region>
+            <nl>Federaal</nl>
+            <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3800</code-DMFA>
@@ -2911,14 +3401,20 @@
             <year>2016</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3800</code-DMFA>
@@ -2934,14 +3430,20 @@
             <year>2018</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>3800</code-DMFA>
@@ -2957,14 +3459,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>4001</code-DMFA>
@@ -2980,14 +3488,20 @@
             <year>2016</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>4001</code-DMFA>
@@ -3003,14 +3517,20 @@
             <year>2017</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>4001</code-DMFA>
@@ -3026,14 +3546,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>4100</code-DMFA>
@@ -3049,14 +3575,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Federaal</region>
+          <region>
+            <nl>Federaal</nl>
+            <fr>Fédérale</fr>
+          </region>
           <flemish-region>-</flemish-region>
           <brussels-region>-</brussels-region>
           <walloon-region>-</walloon-region>
           <walloon-and-german-region>-</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>4300</code-DMFA>
@@ -3072,14 +3604,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>4400</code-DMFA>
@@ -3095,14 +3633,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>4500</code-DMFA>
@@ -3118,14 +3662,20 @@
             <year>2016</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>4500</code-DMFA>
@@ -3141,14 +3691,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6000</code-DMFA>
@@ -3173,14 +3729,20 @@
             <year>2017</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6001</code-DMFA>
@@ -3202,14 +3764,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6002</code-DMFA>
@@ -3231,14 +3799,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6003</code-DMFA>
@@ -3260,14 +3834,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6004</code-DMFA>
@@ -3292,14 +3872,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6005</code-DMFA>
@@ -3321,14 +3907,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6006</code-DMFA>
@@ -3351,14 +3943,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6030</code-DMFA>
@@ -3374,14 +3972,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6031</code-DMFA>
@@ -3403,14 +4007,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6032</code-DMFA>
@@ -3426,14 +4036,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6033</code-DMFA>
@@ -3449,14 +4065,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>   
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6040</code-DMFA>
@@ -3478,14 +4100,20 @@
             <year>2017</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6041</code-DMFA>
@@ -3507,14 +4135,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6050</code-DMFA>
@@ -3536,14 +4170,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6300</code-DMFA>
@@ -3559,14 +4199,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6301</code-DMFA>
@@ -3582,14 +4228,20 @@
             <year>2021</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6310</code-DMFA>
@@ -3605,14 +4257,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>6311</code-DMFA>
@@ -3628,14 +4286,20 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7000</code-DMFA>
@@ -3660,14 +4324,20 @@
             <year>2018</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7001</code-DMFA>
@@ -3689,14 +4359,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7002</code-DMFA>
@@ -3718,14 +4394,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7003</code-DMFA>
@@ -3747,14 +4429,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7004</code-DMFA>
@@ -3779,14 +4467,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7005</code-DMFA>
@@ -3808,14 +4502,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7006</code-DMFA>
@@ -3838,14 +4538,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7030</code-DMFA>
@@ -3861,14 +4567,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7031</code-DMFA>
@@ -3890,14 +4602,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7032</code-DMFA>
@@ -3913,14 +4631,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7033</code-DMFA>
@@ -3936,14 +4660,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7040</code-DMFA>
@@ -3965,14 +4695,20 @@
             <year>2018</year>
             <quarter>3</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>7041</code-DMFA>
@@ -3994,14 +4730,20 @@
             <year>2018</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>    
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>    
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8000</code-DMFA>
@@ -4026,14 +4768,20 @@
             <year>2018</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8001</code-DMFA>
@@ -4055,14 +4803,20 @@
             <year>2019</year>
             <quarter>22</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8002</code-DMFA>
@@ -4084,14 +4838,20 @@
             <year>2020</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8003</code-DMFA>
@@ -4113,14 +4873,20 @@
             <year>2020</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8004</code-DMFA>
@@ -4145,14 +4911,20 @@
             <year>2020</year>
             <quarter>1</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>    
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8005</code-DMFA>
@@ -4174,14 +4946,20 @@
             <year>2020</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8006</code-DMFA>
@@ -4204,14 +4982,20 @@
             <year>2020</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8007</code-DMFA>
@@ -4232,14 +5016,20 @@
             <year>2017</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8008</code-DMFA>
@@ -4261,14 +5051,20 @@
             <year>2017</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8009</code-DMFA>
@@ -4290,14 +5086,20 @@
             <year>2021</year>
             <quarter>1</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8010</code-DMFA>
@@ -4313,14 +5115,20 @@
             <year>2021</year>
             <quarter>1</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8011</code-DMFA>
@@ -4336,14 +5144,20 @@
             <year>2021</year>
             <quarter>1</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8012</code-DMFA>
@@ -4359,14 +5173,20 @@
             <year>2021</year>
             <quarter>1</quarter>
           </end-validity>
-          <region>Regionaal</region>
+         <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8030</code-DMFA>
@@ -4382,14 +5202,20 @@
             <year>2020</year>
             <quarter>1</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8031</code-DMFA>
@@ -4411,14 +5237,20 @@
             <year>2020</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8032</code-DMFA>
@@ -4434,14 +5266,20 @@
             <year>2020</year>
             <quarter>1</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8033</code-DMFA>
@@ -4457,14 +5295,20 @@
             <year>2020</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8040</code-DMFA>
@@ -4486,14 +5330,20 @@
             <year>2018</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8041</code-DMFA>
@@ -4515,14 +5365,20 @@
             <year>2020</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8100</code-DMFA>
@@ -4544,14 +5400,20 @@
             <year>2016</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8200</code-DMFA>
@@ -4573,14 +5435,20 @@
             <year>2017</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8200</code-DMFA>
@@ -4602,14 +5470,20 @@
             <year>2017</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8200</code-DMFA>
@@ -4631,14 +5505,20 @@
             <year>2019</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8210</code-DMFA>
@@ -4647,21 +5527,27 @@
                <fr>Plan Activa - Demandeurs d'emploi de longue durée au moins 45 ans, prévention et sécurité Codes ONEM : D7 ou D8</fr>
           </description>
           <begin-validity>
-            <year>2004</year>
-            <quarter>1</quarter>
+               <year>2004</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>2</quarter>
+               <year>2017</year>
+               <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>yes</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8210</code-DMFA>
@@ -4670,21 +5556,27 @@
                <fr>Plan Activa - Demandeurs d'emploi de longue durée au moins 45 ans, prévention et sécurité Codes ONEM : D7 ou D8</fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>8210</code-DMFA>
@@ -4693,21 +5585,27 @@
                <fr>Plan Activa - Demandeurs d'emploi de longue durée au moins 45 ans, prévention et sécurité Codes ONEM : D7 ou D8</fr>
           </description>
           <begin-validity>
-            <year>2018</year>
-            <quarter>1</quarter>
+               <year>2018</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
-            <year>2019</year>
-            <quarter>2</quarter>
+               <year>2019</year>
+               <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>yes</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>no</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>obligatory</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
           </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>9000</code-DMFA>
@@ -4716,21 +5614,27 @@
                <fr>Mesure transitoire - Economie d'insertion sociale moins de 45 ans 312j/18m ou 156j/9m</fr>
           </description>
           <begin-validity>
-            <year>2019</year>
-            <quarter>1</quarter>
+               <year>2019</year>
+               <quarter>1</quarter>
           </begin-validity>
           <end-validity>
             <year>2021</year>
             <quarter>2</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>9001</code-DMFA>
@@ -4746,14 +5650,20 @@
             <year>2023</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
           <code-DMFA>9002</code-DMFA>
@@ -4769,13 +5679,19 @@
             <year>9999</year>
             <quarter>4</quarter>
           </end-validity>
-          <region>Regionaal</region>
+          <region>
+               <nl>Regionaal</nl>
+               <fr>Régionale</fr>
+          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>no</brussels-region>
           <walloon-region>no</walloon-region>
           <walloon-and-german-region>yes</walloon-and-german-region>
           <amount>optional</amount>
           <start-right>forbidden</start-right>
-          <link-block>Tewerkstelling van de werknemerslijn</link-block>
+          <link-block>
+               <nl>Tewerkstelling van de werknemerslijn</nl>
+               <fr>Occupation de la ligne travailleur</fr>
+          </link-block>
      </reduction-code-PPO>
 </reduction-codes-PPO>
