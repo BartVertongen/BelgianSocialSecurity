@@ -373,7 +373,7 @@
         <description>
             <nl>Gelegenheidswerknemer in de Horeca</nl>
             <fr>Travailleur occasionnel dans l'Horeca</fr>
-        </description>  
+        </description>
         <begin-validity>
             <year>2003</year>
             <quarter>3</quarter>
@@ -459,7 +459,7 @@
             <nl>Chef loopjongen</nl>
             <fr>Chef chasseur</fr>
         </description>
-         <begin-validity>
+        <begin-validity>
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
@@ -467,6 +467,7 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
+    </function>
     <function>
         <category>17</category>
         <code>36</code>
@@ -1930,7 +1931,7 @@
             <quarter>1</quarter>
         </end-validity>
     </function>
-    <functionn>
+    <function>
         <category>323</category>
         <code>25</code>
         <age>-</age>
@@ -2788,6 +2789,7 @@
         <description>
             <nl>Hulpkelner(in)-suite</nl>
             <fr>Commis de suite</fr>
+        </description>
         <begin-validity>
             <year>2007</year>
             <quarter>2</quarter>
@@ -2820,7 +2822,7 @@
         <age>-</age>
         <description>
             <nl>1/2 rijleid(st)er restaurant</nl>
-            <fr>½ chef de rang restaurant</fr>
+            <fr>1/2 chef de rang restaurant</fr>
         </description>
         <begin-validity>
             <year>2007</year>
@@ -5030,7 +5032,7 @@
         <age>-</age>
         <description>
             <nl>Gelegenheidsarbeider in de witloofsector voor de dagen waarop gelegenheidswerk verricht wordt bovenop de 65 dagen</nl>
-            <fr>Travailleurs occasionnels dans le secteur du chicon pour les jours de travail occasionnel au-del� des 65 jours</fr>
+            <fr>Travailleurs occasionnels dans le secteur du chicon pour les jours de travail occasionnel en plus des 65 jours</fr>
         </description>
         <begin-validity>
             <year>2007</year>
@@ -5040,7 +5042,7 @@
             <year>9999</year>
             <quarter>4</quarter>
         </end-validity>
-    </function>
+    </function> -->
     <function>
         <category>594</category>
         <code>92</code>
@@ -5110,4 +5112,3 @@
         </end-validity>
     </function>
 </functions>
-

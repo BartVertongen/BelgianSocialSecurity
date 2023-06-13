@@ -93,7 +93,7 @@
           <start-right>obligatory</start-right>
           <link-block>
                <nl>Werknemerslijn</nl>
-               <fr> Ligne travailleur</fr>
+               <fr>Ligne travailleur</fr>
           </link-block>
      </reduction-code-PPO>
      <reduction-code-PPO>
@@ -2951,7 +2951,6 @@
                <nl>Regionaal</nl>
                <fr>Régionale</fr>
           </region>
-          </region>
           <flemish-region>no</flemish-region>
           <brussels-region>yes</brussels-region>
           <walloon-region>no</walloon-region>
@@ -5000,21 +4999,22 @@
      <reduction-code-PPO>
           <code-DMFA>8007</code-DMFA>
           <description>
-               <nl>     
-                    Overgangsmaatregel   - Activaplan - Langdurig werkzoekenden jonger dan 45j - preventie
+               <nl>
+                    Overgangsmaatregel - Activaplan - Langdurig werkzoekenden jonger dan 45j - preventie
                     - en veiligheidsbeleid   RVA-codes : C9, C10, C21 of C22
                </nl>
                <fr>
                     Mesure transitoire - Plan Activa - Demandeurs d'emploi de longue durée moins de 45 ans
                     , prévention et sécurité Codes ONEM : C9, C10, C21 ou C22
                </fr>
+          </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -5034,8 +5034,8 @@
      <reduction-code-PPO>
           <code-DMFA>8008</code-DMFA>
           <description>
-               <nl>     
-                    Overgangsmaatregel   - Activaplan - Langdurig werkzoekenden van minstens 45j 
+               <nl>
+                    Overgangsmaatregel - Activaplan - Langdurig werkzoekenden van minstens 45j 
                     - preventie- en veiligheidsbeleid  RVA-codes: D7 of D8
                </nl>
                <fr>
@@ -5044,12 +5044,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2017</year>
-            <quarter>4</quarter>
+               <year>2017</year>
+               <quarter>4</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -5069,7 +5069,7 @@
      <reduction-code-PPO>
           <code-DMFA>8009</code-DMFA>
           <description>
-               <nl>     
+               <nl>
                     Overgangsmaatregel   - Doorstromingsprogramma jonger dan 25 yesar laaggeschoold minstens 9 maanden uitkeringen 
                     of jonger dan 45 yesar minstens 12 maanden uitkeringen
                </nl>
@@ -5079,12 +5079,12 @@
                </fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
-            <year>2021</year>
-            <quarter>1</quarter>
+               <year>2021</year>
+               <quarter>1</quarter>
           </end-validity>
           <region>
                <nl>Regionaal</nl>
@@ -5104,7 +5104,7 @@
      <reduction-code-PPO>
           <code-DMFA>8010</code-DMFA>
           <description>
-               <nl>Overgangsmaatregel   - Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
+               <nl>Overgangsmaatregel - Doorstromingsprogramma jonger dan 45j minstens 24 m uitkeringen</nl>
                <fr>Mesure transitoire - Programme transition professionnelle moins de 45 ans, au moins 24 mois d'allocations</fr>
           </description>
           <begin-validity>
@@ -5137,8 +5137,8 @@
                <fr>Mesure transitoire - Programme de transition professionnelle au moins 45 ans, au moins 12 mois d'allocations</fr>
           </description>
           <begin-validity>
-            <year>2017</year>
-            <quarter>3</quarter>
+               <year>2017</year>
+               <quarter>3</quarter>
           </begin-validity>
           <end-validity>
             <year>2021</year>

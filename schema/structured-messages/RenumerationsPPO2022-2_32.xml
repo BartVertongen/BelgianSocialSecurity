@@ -1,0 +1,3295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<renumerations-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Aangepast loon bij ziekte of ongeval</nl>
+               <fr>Salaire garanti en cas de maladie ou d'accident</fr>
+          </category>
+          <code-PPL>212</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Ziekte of ongeval :  de vergoeding overeenstemmend met 60 % van het gedeelte van het normale loon
+                    dat de loongrens die in aanmerking komt voor de berekening van de uitkering
+                    van ziekte- en invaliditeitsverzekering niet overschrijdt
+                    , voor de periode van 7 dagen volgend op het gewaarborgde weekloon
+                    - enkel voor contractuele handarbeiders en contractuele hoofdarbeiders
+                    die ten minste een maand anciënniteit hebben en die zich ofwel bevinden in een proeftijd
+                    , ofwel werden aangeworven voor een bepaalde tijd van minder dan drie maanden
+                    , ofwel werden aangeworven voor een duidelijk omschreven werk dat niet langer duurt dan drie maanden
+               <nl>
+               <fr>
+                    Maladie ou accident : l'indemnité correspondant à 60% de la partie de la rémunération normale ne dépassant 
+                    pas le montant limite entrant en ligne de compte pour le calcul de l'indemnité d'assurance maladie 
+                    - invalidité pour la période de 7 jours faisant suite à la rémunération hebdomadaire garantie 
+                    - Concerne les travailleurs manuels non nommés et les travailleurs intellectuels non nommés qui ont 
+                    au moins 1 mois d'ancienneté et qui sont soit en période d'essai, soit engagés pour une période de moins de 3 mois
+                    , soit engagés pour un travail précis ne dépassant pas 3 mois
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Aangepast loon bij ziekte of ongeval</nl>
+               <fr>Salaire garanti en cas de maladie ou d'accident</fr>
+          </category>
+          <code-PPL>213</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Ziekte of ongeval : aanvulling voor de 2e, 3e en 4e week arbeidsongeschiktheid
+                    - enkel voor contractuele handarbeiders en voor contractuele hoofdarbeiders
+                    aangeworven op proef of voor minder dan drie maanden
+               </nl>
+               <fr>
+                    Maladie ou accident : supplément - 2e, 3e et 4e semaine de maladie - uniquement pour les ouvriers et employés 
+                    contractuels engagés à l'essai ou pour moins de 3 mois
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Aangepast loon bij ziekte of ongeval</nl>
+               <fr>Salaire garanti en cas de maladie ou d'accident</fr>
+          </category>
+          <code-PPL>215</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Ziekte of ongeval : andere aanvulling in verband met ongeval of ziekte</nl>
+               <fr>Maladie ou accident : supplément - autres compléments concernant accident ou maladie</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Aangifte Sociaal Risico - exact loon</nl>
+               <fr>Déclaration Risque Social - salaire exact</fr>
+          </category>
+          <code-PPL>21</code-PPL>
+          <code>21</code>
+          <description>
+               <nl>Voordelen niet onderworpen aan de gewone RSZ-bijdragen</nl>
+               <fr>Avantages non soumis aux cotisations ONSS ordinaires</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Aangifte Sociaal Risico - exact loon</nl>
+               <fr>Déclaration Risque Social - salaire exact</fr>
+          </category>
+          <code-PPL>30</code-PPL>
+          <code>30</code>
+          <description>
+               <nl>Gewaarborgd loon tweede week</nl>
+               <fr>Salaire garanti deuxième semaine</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Aangifte Sociaal Risico - exact loon</nl>
+               <fr>Déclaration Risque Social - salaire exact</fr>
+          </category>
+          <code-PPL>31</code-PPL>
+          <code>31</code>
+          <description>
+               <nl>Vergoeding CAO 12bis/13bis</nl>
+               <fr>Indemnité CCT 12bis/13bis</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Aangifte Sociaal Risico - exact loon</nl>
+               <fr>Déclaration Risque Social - salaire exact</fr>
+          </category>
+          <code-PPL>32</code-PPL>
+          <code>32</code>
+          <description>
+               <nl>Nettoloon activeringsprogramma</nl>
+               <fr>Rémunération nette programme d'activation</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Aangifte Sociaal Risico - exact loon</nl>
+               <fr>Déclaration Risque Social - salaire exact</fr>
+          </category>
+          <code-PPL>33</code-PPL>
+          <code>33</code>
+          <description>
+               <nl>Brutto bezoldiging voor een deeltijdse werknemer met inkomensgarantie-uitkering</nl>
+               <fr>Rémunération brute pour un travailleur à temps partiel bénéficiant d'une allocation de garantie de revenus</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Basisloon</nl>
+               <fr>Salaire de base</fr>
+          </category>
+          <code-PPL>101</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Geïndexeerd basisloon (zonder wettelijke of buitenwettelijke premies en vergoedingen)</nl>
+               <fr>Rémunération de base indexée (sans primes ni indemnités légales ou extra légales)</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Basisloon</nl>
+               <fr>Salaire de base</fr>
+          </category>
+          <code-PPL>110</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Geïndexeerd basisloon dat toegekend wordt aan een naar het buitenland gedetacheerd vastbenoemd personeelslid
+                    en dat in aanmerking komt voor het overheidspensioen
+               </nl>
+               <fr>
+                    Rémunération de base indexée accordée à un agent nommé détaché à l'étranger
+                    , qui entre en considération pour la pension publique
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Basisloon</nl>
+               <fr>Salaire de base</fr>
+          </category>
+          <code-PPL>120</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Loon betaald aan een vastbenoemd personeelslid dat afwezig is in het kader van een maatregel end-validity reorganisatie van de arbeidstijd
+                    - onderworpen aan socialezekerheidsbijdragen - geen pensioenbijdragen
+               </nl>
+               <fr>
+                    Rémunération payée à un membre du personnel nommé à titre définitif qui est absent dans le cadre d'une mesure 
+                    de réorganisation du temps de travail - soumis aux cotisations sociales - pas de cotisations de pension
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2010</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Basisloon</nl>
+               <fr>Salaire de base</fr>
+          </category>
+          <code-PPL>120</code-PPL>
+          <code>51</code>
+          <description>
+               <nl>
+                    Loon betaald aan een vastbenoemd personeelslid dat afwezig is in het kader van een maatregel end-validity 
+                    reorganisatie van de arbeidstijd - onderworpen aan socialezekerheidsbijdragen - geen pensioenbijdragen
+               </nl>
+               <fr>
+                    Rémunération payée à un membre du personnel nommé à titre définitif qui est absent dans le cadre d'une mesure 
+                    de réorganisation du temps de travail - soumis aux cotisations sociales - pas de cotisations de pension
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Basisloon</nl>
+               <fr>Salaire de base</fr>
+          </category>
+          <code-PPL>150</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Activeringsuitkering die de RVA of het OCMW toekent aan een werknemer, aangeworven in het kader van een 
+                    tewerkstellingsmaatregel
+               </nl>
+               <fr>
+                    Allocation d'activation accordée par l'ONEM ou le CPAS à un travailleur engagé dans 
+                    le cadre d'une mesure pour l'emploi
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Basisloon</nl>
+               <fr>Salaire de base</fr>
+          </category>
+          <code-PPL>160</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Deel van het loon (10%) van de in een startbaanovereenkomst tewerkgestelde werknemer dat door 
+                    de werkgever wordt besteed aan zijn opleiding - art. 33, § 2 van de wet van 24-12-1999
+               </nl>
+               <fr>
+                    Partie de la rémunération (10%) réservée à la formation des travailleurs engagés dans le cadre des conventions 
+                    de 1er emploi - art. 33, § 2 de la loi du 24-12-1999
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Basisloon</nl>
+               <fr>Salaire de base</fr>
+          </category>
+          <code-PPL>170</code-PPL>
+          <code>51</code>
+          <description>
+               <nl>
+                    Loon betaald aan een vastbenoemd personeelslid dat volledig afwezig is in het kader van een maatregel 
+                    end-validity reorganisatie van de arbeidstijd - onderworpen aan socialezekerheidsbijdragen - pensioenbijdragen
+               </nl>
+               <fr>
+                    Rémunération payée à un membre du personnel nommé à titre définitif qui est totalement absent dans 
+                    le cadre d'une mesure de réorganisation du temps de travail - soumis aux cotisations sociales - cotisations de pension
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Beroepsziekten - publieke sector</nl>
+               <fr>Maladies professionnelles - secteur public</fr>
+          </category>
+          <code-PPL>140</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Vergoeding voor periode van tijdelijke arbeidsongeschiktheid wegens erkende beroepsziekte 
+                    (artikel 21 van KB van 21-01-1993)
+               </nl>
+               <fr>
+                    Indemnité pour période d'incapacité temporaire en raison d'une maladie professionnelle reconnue 
+                    (art. 21 de l'AR du 21-01-1993)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2019</year>
+               <quarter>2</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>26</code-PPL>
+          <code>26</code>
+          <description>
+               <nl>Door werkgever ontvangen premies en/of subsidies andere dan sociale Maribel</nl>
+               <fr>Primes et/ou subsides autres que Maribel social perçus par l'employeur</fr>
+          </description>
+          <begin-validity>
+               <year>2018</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>401</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Loon voor niet-recupereerbare overuren - vrijgesteld</nl>
+               <fr>Allocation horaire pour des prestations de service supplémentaires non récupérable - exonérée</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>403</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Geschenken in natura, in speciën of in de vorm van cheques binnen de voorwaarden van artikel 19, § 2, 14° van het KB van 28-11-1969
+                    , en prijsverminderingen op eigen producten of diensten binnen de voorwaarden van artikel 19, § 2, 19° van het KB van 28-11-1969
+               </nl>
+               <fr>
+                    Cadeaux en nature, en espèces ou en chèques sous les conditions de l'art.19, §2, 14° AR 28-11-1969
+                    , et réduction du prix des produits ou services sous les conditions de l'art. 19, §2, 19° de l'AR du 28-11-1969
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>404</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Voordelen in natura of in de vorm van cheques - verband met prestaties van het kwartaal - vrijgesteld</nl>
+               <fr>Avantages en nature ou sous la forme de chèques - lien avec prestations fournies du trimestre - exonérés</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>406</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Voordelen in natura of in de vorm van cheques - geen verband met prestaties van het kwartaal - vrijgesteld</nl>
+               <fr>Avantages en nature ou sous la forme de chèques - sans lien avec les prestations du trimestre - exonérés</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>408</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Bedrag werkgeversaandeel in de maaltijdcheques toegekend binnen de voorwaarden van artikel 19bis
+                    , § 2 van het KB van 28-11-1969
+               </nl>
+               <fr>
+                    Montant de la part de l'employeur dans les chèques repas sous les conditions de l'article 19bis
+                    , §2 de l'AR du 28-11-1969
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2018</year>
+               <quarter>3</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>408</code-PPL>
+          <code>24</code>
+          <description>
+               <nl>
+                    Bedrag werkgeversaandeel in de maaltijdcheques toegekend binnen de voorwaarden van artikel 19bis
+                    , § 2 van het KB van 28-11-1969
+               </nl>
+               <fr>
+                    Montant de la part de l'employeur dans les chèques repas sous les conditions de l'article 19bis
+                    , §2 de l'AR du 28-11-1969
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2018</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>409</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Bedrag werknemersaandeel in de maaltijdcheques toegekend binnen de voorwaarden van artikel 19bis
+                    , § 2 van het KB van 28-11-1969
+               </nl>
+               <fr>
+                    Montant de la part du travailleur dans les chèques repas sous les conditions de l'article 19bis
+                    , §2 de l'AR du 28-11-1969
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>417</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Eindejaarspremie - vrijgesteld</nl>
+               <fr>Prime de fin d'année - exonérée</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>421</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Haard- en standplaatstoelage - vrijgesteld</nl>
+               <fr>Allocation de foyer / résidence - exonérée</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>422</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Diplomavergoeding - vrijgesteld</nl>
+               <fr>Allocation de diplôme - exonérée</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>423</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Vergoeding kennis 2e taal - vrijgesteld</nl>
+               <fr>Indemnité pour connaissance 2e langue - exonérée</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>424</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Toelage hogere functie - vrijgesteld</nl>
+               <fr>Allocation pour fonctions supérieures - exonérée</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>433</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Andere toelagen en premies - geen verband met prestaties in het kwartaal - vrijgesteld</nl>
+               <fr>Autres allocations et primes - Pas de lien avec les prestations du trimestre - exonérées</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>434</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Andere toelagen en premies - verband met prestaties in het kwartaal - vrijgesteld</nl>
+               <fr>Autres allocations et primes - liées aux prestations du trimestre - exonérées</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>435</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Vergoeding voor nachtprestaties - vrijgesteld van socialezekerheidsbijdragen - geen pensioenbijdragen</nl>
+               <fr>Allocation pour prestations de nuit - exonérée de cotisations de sécurité sociale - pas de cotisations de pension</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>436</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Vergoeding voor prestaties tijdens weekend en feestdagen - vrijgesteld van socialezekerheidsbijdragen 
+                    - geen pensioenbijdragen
+               </nl>
+               <fr>
+                    Allocation pour prestations de week-end et jours fériés - exonérée de cotisations de sécurité sociale 
+                    - pas de cotisations de pension
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>437</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Wachtvergoeding - vrijgesteld</nl>
+               <fr>Indemnité de garde - exonérée</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>440</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    De aan de werknemer verschuldigde vergoedingen wanneer de werkgever zijn wettelijke
+                    , contractuele of statutaire verplichtingen niet nakomt (bijvoorbeeld ontslagvergoeding voor beschermde werknemer)
+               </nl>
+               <fr>
+                    Indemnités pour le travailleur lorsque l'employeur ne respecte pas ses obligations légales
+                    , contractuelles ou statutaires (par exemple indemnité de licenciement pour travailleur protégé)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>441</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Vergoeding voor kledij, huisvesting, reis- en verblijfkosten (bijv. kosten eigen aan de werkgever 
+                    = terugbetaling van kosten of ter beschikking stellen van werkkledij, uitrusting of vervoer)
+               </nl>
+               <fr>
+                    Indemnité de vêtements, logement, frais de déplacement et de séjour (par exemple frais de l'employeur 
+                    = remboursement du prix ou mise à disposition de vêtements de travail, équipement ou transport)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2018</year>
+               <quarter>3</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>441</code-PPL>
+          <code>24</code>
+          <description>
+               <nl>
+                    Vergoeding voor kledij, huisvesting, reis- en verblijfkosten (bijv. kosten eigen aan de werkgever 
+                    = terugbetaling van kosten of ter beschikking stellen van werkkledij, uitrusting of vervoer)
+               </nl>
+               <fr>
+                    Indemnité de vêtements, logement, frais de déplacement et de séjour (par exemple frais de l'employeur 
+                    = remboursement du prix ou mise à disposition de vêtements de travail, équipement ou transport)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2018</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>442</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Terugbetaling verplaatsingsonkosten van en naar het werk</nl>
+               <fr>Frais de déplacement de et vers le lieu de travail</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2018</year>
+               <quarter>3</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>442</code-PPL>
+          <code>24</code>
+          <description>
+               <nl>Terugbetaling verplaatsingsonkosten van en naar het werk</nl>
+               <fr>Frais de déplacement de et vers le lieu de travail</fr>
+          </description>
+          <begin-validity>
+               <year>2018</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>443</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Bedrag toegekend wegens aansluiting bij een vakorganisatie</nl>
+               <fr>Montant octroyé en raison d'une affiliation à une organisation syndicale reconnue</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>444</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Supplement toegekend wegens een socialezekerheidsvoordeel voor een andere reden dan een uitkering ingevolge ziekte
+                    of ongeval (bijv. aanmoedigingspremie loopbaanonderbreking, premie hospitalisatieverzekering)
+               </nl>
+               <fr>
+                    Supplément à un avantage de sécurité sociale pour une autre raison qu'une indemnité suite à une maladie ou un accident 
+                    (ex: prime d'encouragement interruption de carrière, prime d'assurance hospitalisation)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>452</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Premie uitgekeerd aan een werknemer in het kader van ofwel halftijds werken begin-validity 55 of 50 jaar ofwel 
+                    een zachte landingsbaan
+               </nl>
+               <fr>
+                    Prime accordée au travailleur soit dans le cadre du travail à mi-temps à partir de l'âge de 55 ou 50 ans
+                    , soit dans le cadre de la fin de carrière en douceur
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>454</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Vergoeding voor ceremoniemeesters, wachters, conservators, grafdelvers, brigadier-grafdelvers
+                    , dragers bij de begrafenisdienst, beambten bij het lijkenhuis en het mortuarium 
+                    - vrijgesteld van socialezekerheidsbijdragen - pensioenbijdragen
+               </nl>
+               <fr>
+                    Indemnité accordée aux ordonnateurs, gardes, conservateurs, fossoyeurs, brigadiers-fossoyeurs
+                    , porteurs aux services des sépultures, préposés aux dépôts mortuaire et à la morgue 
+                    - exonérée de cotisations de sécurité sociale - cotisations de pension
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>490</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Rente (gehele of gedeeltelijke) blijvende arbeidsongeschiktheid wegens beroepsziekte of arbeidsongeval</nl>
+               <fr>
+                    Rente pour incapacité de travail permanente (totale ou partielle) suite à un accident de travail 
+                    ou une maladie professionnelle
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>801</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Loon voor niet-recupereerbare overuren - onderworpen</nl>
+               <fr>Allocation horaire pour des prestations de services supplémentaires non récupérables - soumise</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>804</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Voordelen in natura of in de vorm van cheques - verband met prestaties van het kwartaal - onderworpen</nl>
+               <fr>Avantages en nature ou sous la forme de chèques - lien avec prestations fournies du trimestre - soumis</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>806</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>Voordelen in natura of in de vorm van cheques - geen verband met prestaties van het kwartaal - onderworpen</nl>
+               <fr>Avantages en nature ou sous la forme de chèques - sans lien avec les prestations du trimestre - soumis</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>817</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>Eindejaarspremie - onderworpen</nl>
+               <fr>Prime de fin d'année - soumise</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>821</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Haard- en standplaatstoelage - onderworpen</nl>
+               <fr>Allocation de foyer / résidence - soumise</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>822</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Diplomavergoeding - onderworpen</nl>
+               <fr>Allocation de diplôme - soumise</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>823</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Vergoeding kennis 2e taal - onderworpen</nl>
+               <fr>Indemnité pour connaissance 2e langue - soumise</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>824</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Toelage hogere functie - onderworpen</nl>
+               <fr>Allocation pour fonctions supérieures - soumise</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>833</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>Andere toelagen en premies - geen verband met prestaties van het kwartaal -  onderworpen</nl>
+               <fr>Autres allocations et primes - pas de lien avec les prestations du trimestre - soumises</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>834</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Andere toelagen en premies - verband met prestaties van het kwartaal -   onderworpen</nl>
+               <fr>Autres allocations et primes - liées aux prestations du trimestre - soumises</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>835</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Vergoeding voor nachtprestaties - onderworpen aan socialezekerheidsbijdragen - geen pensioenbijdragen</nl>
+               <fr>Allocation pour prestations de nuit - soumise aux cotisations de sécurité sociale - pas de cotisations de pension</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>836</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Vergoeding voor prestaties tijdens weekend en feestdagen - onderworpen aan socialezekerheidsbijdragen 
+                    - geen pensioenbijdragen
+               </nl>
+               <fr>
+                    Allocation pour prestations de week-end et jours fériés - soumise aux cotisations de sécurité sociale 
+                    - pas de cotisations de pension
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>837</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Wachtvergoeding  - onderworpen</nl>
+               <fr>Indemnité de garde - soumise</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>851</code-PPL>
+          <code>5</code>
+          <description>
+               <nl>
+                    Weddesupplement uitgekeerd aan een personeelslid dat gekozen heeft voor de vrijwillige vierdagenweek 
+                    - overgangsmaatregel (wet van 10/04/1995)
+               </nl>
+               <fr>
+                    Supplément de traitement accordé au travailleur qui a choisi la semaine volontaire de 4 jours 
+                    - mesure transitoire (loi du 10/04/1995)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>852</code-PPL>
+          <code>5</code>
+          <description>
+               <nl>Weddesupplement uitgekeerd aan een personeelslid dat gekozen heeft voor de vierdagenweek (wet van 19/07/2012)</nl>
+               <fr>Supplément de traitement accordé au travailleur qui a choisi la semaine de 4 jours (loi du 19/07/2012)</fr>
+          </description>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>853</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Premie uitgekeerd aan het verplegend en verzorgend personeel of het personeel dat hiermee gelijkgesteld 
+                    is bij arbeidsduurvermindering in het kader van eindeloopbaan (KB van 23-09-2002)
+               </nl>
+               <fr>
+                    Prime accordée au personnel infirmier, soignant et assimilé dans le cadre de l'aménagement de fin de carrière 
+                    (AR du 23-09-2002)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>854</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Vergoeding voor ceremoniemeesters, wachters, conservators, grafdelvers, brigadier-grafdelvers
+                    , dragers bij de begrafenisdienst, beambten bij het lijkenhuis en het mortuarium 
+                    - onderworpen aan socialezekerheidsbijdragen - pensioenbijdragen
+               </nl>
+               <fr>
+                    Indemnité accordée aux ordonnateurs, gardes, conservateurs, fossoyeurs, brigadiers-fossoyeurs
+                    , porteurs aux services des sépultures, préposés aux dépôts mortuaire et à la morgue 
+                    - soumise aux cotisations de sécurité sociale - cotisations de pension
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>855</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Weddensupplementen toegekend met toepassing van de punten 6.2. en 6.3. van het Sociaal Handvest van 28-4-1994 
+                    in het Brussels Hoofdstedelijk Gewest - onderworpen aan socialezekerheidsbijdragen - pensioenbijdragen
+               </nl>
+               <fr>
+                    Suppléments de traitement accordés en application des points 6.2 et 6.3 de la Charte sociale du 28.04.1994 
+                    de la Région de Bruxelles-Capitale - soumis aux cotisations de sécurité sociale - cotisations de pension
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen van algemene aard</nl>
+               <fr>Indemnités supplémentaires de nature générale</fr>
+          </category>
+          <code-PPL>940</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Vergoedingen voor prestaties verricht als vrijwillige (ambulancier) niet-brandweerman in kader van de dienst 100</nl>
+               <fr>
+                    Indemnités pour prestations effectuées en tant que (ambulancier) volontaire n'ayant pas le statut de pompier dans 
+                    le cadre du service 100
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2017</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
+          </category>
+          <code-PPL>553</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Premie voor operationaliteit en onregelmatige prestaties van de brandweerlieden 
+                    (artikelen 25-26 van het KB van 19-4-2014 - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30)
+               </nl>
+               <fr>
+                    Prime d'opérationnalité et de prestations irrégulières pour les pompiers 
+                    (articles 25-26 de l'AR du 19-04-2014 exonérée de cotisations de sécurité sociale en vertu de l'article 30)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2015</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
+          </category>
+          <code-PPL>557</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Jaarlijks weddensupplement voor chef van de brandweerdienst 
+                    (Ministeriële Omzendbrief van 21-01-1973, Ministeriële Omzendbrief van 23-01-1975 en KB van 20-06-1994) 
+                    - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30
+               </nl>
+               <fr>
+                    Supplément de traitement annuel pour le chef des services d'incendie 
+                    (circulaire ministérielle du 21-01-1973, circulaire ministérielle du 23-01-1975 et AR du 20-06-1994) 
+                    - exonéré de cotisations sociales conformément à l'article 30
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
+          </category>
+          <code-PPL>951</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>
+                    Weddensupplement toegekend aan officieren van de brandweer die deelnemen aan de permanentie van brandweerkorps 
+                    (omzendbrief van 03-03-1995)
+               </nl>
+               <fr>
+                    Supplément de traitement alloué aux officiers du service d'incendie qui prennent part à la permanence 
+                    du corps des pompiers (circulaire du 03-03-1995)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
+          </category>
+          <code-PPL>954</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Aanvullende vergoeding uren opt-out (artikel 7, §2 van de wet van 19-4-2014)</nl>
+               <fr>Indemnité complémentaire pour les heures opt-out (article 7,§2 de la loi du 19-04-2014)</fr>
+          </description>
+          <begin-validity>
+               <year>2015</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
+          </category>
+          <code-PPL>957</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>
+                    Jaarlijks weddensupplement voor chef van de brandweerdienst 
+                    (Ministeriële Omzendbrief van 21-01-1973, Ministeriële Omzendbrief van 23-01-1975 en KB van 20-06-1994) 
+                    - onderworpen aan socialezekerheidsbijdragen
+               </nl>
+               <fr>
+                    Supplément de traitement annuel pour le chef des services d'incendie 
+                    (circulaire ministérielle du 21-01-1973, circulaire ministérielle du 23-01-1975 et AR du 20-06-1994) 
+                    - soumis aux cotisations sociales
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - geneesheren</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - médecins</fr>
+          </category>
+          <code-PPL>524</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Variabel deel in de verdeling van de pool - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30</nl>
+               <fr>Quote-part variable dans le pool - exonérée de cotisations sociales conformément à l'article 30</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - geneesheren</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - médecins</fr>
+          </category>
+          <code-PPL>921</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Barema, gewaarborgde wedde, gewaarborgd aandeel in de pool of uitsluitend honoraria</nl>
+               <fr>Barème, traitement garanti et quote-part garantie dans le pool ou honoraires</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2010</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - geneesheren</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - médecins</fr>
+          </category>
+          <code-PPL>924</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Variabel deel in de verdeling van de pool - onderworpen aan socialezekerheidsbijdragen</nl>
+               <fr>Quote-part variable dans le pool - soumise aux cotisations sociales</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
+          </category>
+          <code-PPL>501</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Vergoeding voor bijkomende prestaties vrijgesteld op basis van artikel 19, § 2, 9° van het KB van 28-11-1969 
+                    (bijv. toezicht in het kleuter- en lager onderwijs, busbegeleiding)
+               </nl>
+               <fr>
+                    Indemnités pour prestations complémentaires - exonérées sur base de l'article 19, §2 9° de l'AR du 28-11-1969 
+                    (par ex.: surveillance dans les écoles maternelles et primaires, accompagnement dans le bus)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
+          </category>
+          <code-PPL>502</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Vergoeding voor bijkomende prestaties bedoeld bij KB nr. 418 van 16-07-1986 
+                    (bijv. toezicht ander dan in het kleuter- en lager onderwijs...) 
+                    - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30
+               </nl>
+               <fr>
+                    Indemnité pour prestations complémentaires - AR 418 du 16-07-1986 
+                    (par ex.: surveillance autre que les surveillances dans les écoles maternelles et primaires) 
+                    - exonérée de cotisations sociales conformément à l'article 30
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
+          </category>
+          <code-PPL>503</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Vergoeding voor bijkomende prestaties andere dan bedoeld bij KB nr. 418 van 16-07-1986 
+                    - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30
+               </nl>
+               <fr>
+                    Indemnité pour prestations complémentaires - autres que AR 418 du 16-07-1986 
+                    - exonérée de cotisations sociales conformément à l'article 30
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2009</year>
+               <quarter>1</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
+          </category>
+          <code-PPL>506</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Aanvullingen die geen verband houden met bijkomende prestaties (bijv. anciënniteitstoeslag) 
+                    - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30
+               </nl>
+               <fr>
+                    Suppléments sans lien avec les prestations fournies - exonérés de cotisations sociales conformément à l'article 30 
+                    (par ex. : allocation d'ancienneté)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
+          </category>
+          <code-PPL>902</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Vergoeding voor bijkomende prestaties bedoeld bij KB nr. 418 van 16-07-1986 
+                    (bijv. toezicht ander dan in het kleuter en lager onderwijs...) - onderworpen aan socialezekerheidsbijdragen
+               </nl>
+               <fr>
+                    Indemnité pour prestations complémentaires - AR 418 du 16-07-1986 
+                    (par ex.: surveillance autre que les surveillances dans les écoles maternelles et primaires) 
+                    - soumise aux cotisations sociales
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
+          </category>
+          <code-PPL>903</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Vergoeding voor bijkomende prestaties andere dan bedoeld bij KB 418 van 16-07-1986 
+                    - onderworpen aan socialezekerheidsbijdragen
+               </nl>
+               <fr>
+                    Indemnité pour prestations complémentaires - autres que AR 418 du 16-07-1986 - soumise aux cotisations sociales
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2010</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
+          </category>
+          <code-PPL>906</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>
+                    Aanvullingen die geen verband houden met bijkomende prestaties (bijv. anciënniteitstoeslag) 
+                    - onderworpen aan socialezekerheidsbijdragen
+               </nl>
+               <fr>
+                    Suppléments - sans lien avec les prestations fournies - soumis aux cotisations sociales 
+                    (par ex. : allocation d'ancienneté)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
+          </category>
+          <code-PPL>570</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Nieuw statuut - diverse toelagen en vergoedingen - vrijgesteld</nl>
+               <fr>(nouveau statut) Diverses allocations et indemnités - exonérées</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
+          </category>
+          <code-PPL>961</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Weddenbijslag voor de uitoefening van een mandaat (art. XI.II.17 van KB van 30-03-2001)</nl>
+               <fr>Supplément de traitement pour l'exercice d'un mandat (art. XI.II.17 de l'AR du 30-03-2001)</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
+          </category>
+          <code-PPL>962</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Toelage voor dienstprestaties uitgevoerd op een zaterdag, een zondag, een feestdag of tijdens de nacht 
+                    (art. XI.III.6 van KB van 30-03-2001)
+               </nl>
+               <fr>Allocation prestations de samedi, dimanche, jour férié ou de nuit (art. XI.III.6 de l'AR du 30-03-2001)</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
+          </category>
+          <code-PPL>970</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Diverse toelagen en vergoedingen zoals bepaald in KB van 30-3-2001 - onderworpen</nl>
+               <fr>Diverses allocations et indemnités visées par l'AR du 30-3-2001 - soumises</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
+          </category>
+          <code-PPL>971</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Diverse toelagen en vergoedingen andere dan deze bepaald in KB van 30-3-2001 - onderworpen</nl>
+               <fr>Diverses allocations et indemnités autres que celles visées par l'AR du 30-3-2001 - soumises</fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
+          </category>
+          <code-PPL>976</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>Competentieontwikkelingstoelage (art. XI.II.22bis van het KB van 30-03-2001)</nl>
+               <fr>Allocation de développement des compétences (art. XI.II.22bis de l'AR du 30-03-2001)</fr>
+          </description>
+          <begin-validity>
+               <year>2007</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
+          </category>
+          <code-PPL>992</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Overgangstoelagen (art. XII.XI van KB van 30-03-2001)</nl>
+               <fr>Allocation de transition (art. XII.XI de l'AR du 30-03-2001)</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
+          </category>
+          <code-PPL>993</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>Vormings- en meesterschapstoelage (artikelen 32 en 34 van het KB van 18-3-2003)</nl>
+               <fr>Allocation de maîtrise et de formation (articles 32 et 34 de l'AR du 18-3-2003)</fr>
+          </description>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>
+                    Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)
+                     en personeel van de hulpverleningszones
+               </nl>
+               <fr>
+                    Indemnités supplémentaires pour catégories spécifiques de personnel 
+                    - personnel de police (nouveau statut) et personnel des zones de secours
+               </fr>
+          </category>
+          <code-PPL>974</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Toelage voor de bijzondere rekenplichtige van de politiezone 
+                    (art. 30 en 32 van de wet van 07-12-1998 en KB van 29-11-2001)
+                     en toelage voor de bijzondere rekenplichtige van de hulpverleningszone (KB van 29-06-2014)
+               </nl>
+               <fr>
+                    Indemnité du comptable spécial d'une zone de police (art.30 et 32 de la loi du 07-12-1998 en AR du 29-11-2001) 
+                    et indemnité du comptable spécial d'une zone de secours (AR du 29-06-2014)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>
+                    Bijkomende vergoedingen voor specifieke personeelscategorieën 
+                    - politiepersoneel (nieuw statuut) en personeel van de hulpverleningszones
+               </nl>
+               <fr>
+                    Indemnités supplémentaires pour catégories spécifiques de personnel 
+                    - personnel de police (nouveau statut) et personnel des zones de secours
+               </fr>
+          </category>
+          <code-PPL>975</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Toelage voor de secretaris van de politiezone (artikel 29 en 32bis van de wet van 07-12-1998)
+                    en mandaattoelage voor de commandant van de hulpverleningszone (KB van 10-06-2014)
+               </nl>
+               <fr>
+                    Allocation du secrétaire d'une zone de police (art. 29 et 32bis de la loi du 07-12-1998)
+                     et allocation de mandat du commandant d'une zone de secours (AR du 10-06-2014)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
+          </category>
+          <code-PPL>556</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Vergoeding voor kosten gemaakt bij de uitoefening van opdrachten van de gerechtelijke politie
+                    (bijv.: KB van 22-12-1997)
+               </nl>
+               <fr>
+                    Indemnités pour frais exposés lors d'exercice de missions de police judiciaire 
+                    (par ex.: AR du 22-12-1997)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
+          </category>
+          <code-PPL>558</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Weddensupplement toegekend aan adjunct-politiecommissarissen die een wachtdienst verrichten in het kader 
+                    van een permanentie van 22 uur tot 6 uur, op zondagen en op feestdagen (Ministeriële omzendbrief van 30-12-1971) 
+                    - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30
+               </nl>
+               <fr>
+                    Supplément de traitement accordé aux commissaires de police adjoint qui effectuent un service de garde dans 
+                    le cadre d'une permanence de 22h à 6h les dimanches et jours fériés (circulaire ministérielle du 30-12-1971) 
+                    - exonéré de cotisations sociales conformément à l'article 30
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
+          </category>
+          <code-PPL>591</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Specifieke toelagen en vergoedingen - vrijgesteld - voor ex-rijkswachters
+                    , ex-leden van de gerechtelijke politie en ex-militairen die kiezen voor het oude statuut
+               </nl>
+               <fr>
+                    Allocations et indemnités spécifiques - exonérées - ex-gendarmes
+                    , ex-membres de la police judiciaire et ex-militaires qui ont choisi l'ancien statut
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
+          </category>
+          <code-PPL>952</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Weddensupplement toegekend aan (hoofd)inspecteurs  van de gemeentelijke politie bekleed met de hoedanigheid 
+                    van officier van gerechtelijke politie, hulpofficier van de procureur des Konings 
+                    (POL 45 van 21-05-1993 en KB van 20-06-1994)
+               </nl>
+               <fr>
+                    Supplément de traitement accordé aux inspecteurs de la police locale investis de la qualité d'officier de police locale
+                    , substitut du procureur du roi (POL 45 du 21-05-1993 et AR du 20-06-1994)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2008</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
+          </category>
+          <code-PPL>958</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Weddensupplement toegekend aan adjunct-politiecommissarissen die een wachtdienst verrichten in het kader 
+                    van een permanentie van 22 uur tot 6 uur, op zondagen en op feestdagen (Ministeriële omzendbrief van 30-12-1971) 
+                    - onderworpen aan socialezekerheidsbijdragen
+               </nl>
+               <fr>
+                    Supplément de traitement accordé aux commissaires de police adjoint qui effectuent un service de garde dans 
+                    le cadre d'une permanence de 22h à 6h les dimanches et jours fériés (circulaire ministérielle du 30-12-1971) 
+                    - soumis aux cotisations sociales
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2008</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
+          </category>
+          <code-PPL>991</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Specifieke toelagen en vergoedingen - onderworpen - voor ex-rijkswachters, ex-leden van de gerechtelijke politie 
+                    en ex-militairen die kiezen voor het oude statuut
+               </nl>
+               <fr>
+                    Allocations et indemnités spécifiques - soumises - ex-gendarmes
+                    , ex-membres de la police judiciaire et ex-militaires qui ont choisi l'ancien statut
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
+          </category>
+          <code-PPL>510</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Weddensupplement voor buitengewone prestaties zoals bepaald in de omzendbrief van het Ministerie van Volksgezondheid 
+                    en van het Gezin van 03-11-1972 - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30
+               </nl>
+               <fr>
+                    Supplément de traitement pour prestations irrégulières telles que définies dans la circulaire de la Santé et 
+                    de la Famille du 03-11-1972 - exonéré de cotisations sociales conformément à l'article 30
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
+          </category>
+          <code-PPL>512</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Weddensupplement voor nachtprestaties (bijvoorbeeld 2,05 EUR/uur op basis van de ministeriële omzendbrief van 17-04-1989) 
+                    - vrijgesteld van socialezekerheidsbijdragen ingevolge artikel 30
+               </nl>
+               <fr>
+                    Supplément de traitement pour prestations de nuit (par exemple 2,05 EUR/heure sur base de la circulaire ministérielle 
+                    du 17-04-1989) - exonéré de cotisations sociales conformément à l'article 30
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
+          </category>
+          <code-PPL>910</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Weddensupplement voor buitengewone prestaties zoals bepaald in de omzendbrief van het Ministerie 
+                    van Volksgezondheid en van het Gezin van 03-11-1972 - onderworpen aan socialezekerheidsbijdragen
+               </nl>
+               <fr>
+                    Supplément de traitement pour prestations irrégulières telles que définies dans la circulaire du Ministère 
+                    de la Santé et de la Famille du 03-11-1972 - soumis aux cotisations sociales
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
+          </category>
+          <code-PPL>912</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Weddensupplement voor nachtprestaties (bijvoorbeeld 2,05 EUR/uur op basis van de ministeriële omzendbrief van 17-04-1989) 
+                    - onderworpen aan socialezekerheidsbijdragen
+               </nl>
+               <fr>
+                    Supplément de traitement pour prestations de nuit (par exemple 2,05 EUR/heure sur base de la circulaire ministérielle 
+                    du 17-04-1989) - soumis aux cotisations sociales
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
+          </category>
+          <code-PPL>914</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>4, 8 of 12 % hoofdverplegers</nl>
+               <fr>4, 8 ou 12 % personnel soignant chef de service</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
+          </category>
+          <code-PPL>916</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Weddensupplement voor prestaties tijdens weekend of feestdagen (bijvoorbeeld 1,02 EUR/uur op basis van 
+                    de omzendbrief RIZIV van 17-07-1992)
+               </nl>
+               <fr>
+                    Supplément de traitement pour prestations de week-end et jours fériés 
+                    (par exemple 1,02 EUR/heure sur base de la circulaire Inami du 17-07-1992)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
+          </category>
+          <code-PPL>917</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>Attractiviteitspremie - KB van 12-05-2006 en federaal gezondheidsakkoord van de publieke sector van 23-06-2005</nl>
+               <fr>Prime d'attractivité - AR du 12-05-2006 et accord fédéral de santé du secteur public de 23-06-2005</fr>
+          </description>
+          <begin-validity>
+               <year>2007</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
+          </category>
+          <code-PPL>918</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>
+                    Jaarpremie van 12,67 EUR van toepassing op de instellingen die onder het paritair subcomité voor de privé-ziekenhuizen 
+                    ressorteren (CAO van 22-10-1991)
+               </nl>
+               <fr>
+                    Prime annuelle de 12,67 EUR applicable aux institutions ressortant de la sous commission paritaire des hôpitaux privés 
+                    (CCT du 22-10-1991)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2006</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
+          </category>
+          <code-PPL>919</code-PPL>
+          <code>2</code>
+          <description>
+               <nl>
+                    Jaarpremie van 148,74 EUR van toepassing op de instellingen die onder het paritair subcomité voor de privé-ziekenhuizen 
+                    ressorteren (CAO van 22-10-1991)
+               </nl>
+               <fr>
+                    Prime annuelle de 148,74 EUR applicable aux institutions ressortant de la sous commission paritaire des hôpitaux privés 
+                    (CCT du 22-10-1991)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2006</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>
+                    Bijkomende vergoedingen voor specifieke personeelscategorieën 
+                    - vrijwillige brandweerlieden en vrijwillige ambulanciers
+               </nl>
+               <fr>
+                    Indemnités supplémentaires pour catégories spécifiques de personnel 
+                    - pompiers volontaires et ambulanciers volontaires
+               </fr>
+          </category>
+          <code-PPL>541</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Vergoedingen voor uitzonderlijke prestaties die niet in aanmerking komen om te bepalen 
+                    of de grens van 785,95 EUR werd bereikt (artikel 17quater van het KB van 28-11-1969)
+               </nl>
+               <fr>
+                    Indemnités pour prestations exceptionnelles qui n'entrent pas en ligne de compte pour le calcul du montant plancher 
+                    de 785,95 EUR (article 17 quater de l'AR du 28-11-1969)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>
+                    Bijkomende vergoedingen voor specifieke personeelscategorieën 
+                    - vrijwillige brandweerlieden en vrijwillige ambulanciers
+               </nl>
+               <fr>
+                    Indemnités supplémentaires pour catégories spécifiques de personnel 
+                    - pompiers volontaires et ambulanciers volontaires
+               </fr>
+          </category>
+          <code-PPL>542</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Vergoedingen voor niet-uitzonderlijke prestaties die in aanmerking komen om te bepalen 
+                    of de grens van 785,95 EUR werd bereikt (artikel 17quater van het KB van 28-11-1969) - vrijgesteld
+               </nl>
+               <fr>
+                    Indemnités pour prestations non exceptionnelles qui entrent en ligne de compte pour le calcul du montant plancher 
+                    de 785,95 EUR (article 17 quater de l'AR du 28-11-1969) - exonérées
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - vrijwillige brandweerlieden en vrijwillige ambulanciers</nl>
+               <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - pompiers volontaires et ambulanciers volontaires</fr>
+          </category>
+          <code-PPL>942</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Vergoedingen voor niet-uitzonderlijke prestaties die in aanmerking komen om te bepalen of de grens van 785,95 EUR 
+                    werd bereikt (artikel 17quater van het KB van 28-11-1969) - onderworpen
+               </nl>
+               <fr>
+                    Indemnités pour prestations non exceptionnelles qui entrent en ligne de compte pour le calcul du montant plancher 
+                    de 785,95 EUR (article 17 quater de l'AR du 28-11-1969) - soumises
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>310</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>(Dubbel) vakantiegeld - copernicuspremie</nl>
+               <fr>(Double) pécule de vacances - prime copernic</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2008</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>311</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Enkelvoudig vakantiegeld voor de vakantiedagen die op het einde van het vakantiejaar onmogelijk konden opgenomen worden 
+                    (art. 67 van KB van 30-3-1967)
+               </nl>
+               <fr>
+                    Simple pécule de vacances pour les jours de congé qui à la fin de l'année de vacances n'ont pas été pris suite à 
+                    une impossibilité de les prendre (art. 67 de l'AR du 30-3-1967)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>312</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>(Dubbel) vakantiegeld andere dan politiepersoneel</nl>
+               <fr>(Double) pécule de vacances autre que le personnel de police</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2018</year>
+               <quarter>3</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>312</code-PPL>
+          <code>24</code>
+          <description>
+               <nl>(Dubbel) vakantiegeld andere dan politiepersoneel</nl>
+               <fr>(Double) pécule de vacances autre que le personnel de police</fr>
+          </description>
+          <begin-validity>
+               <year>2018</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>313</code-PPL>
+          <code>11</code>
+          <description>
+               <nl>
+                    Enkelvoudig vakantiegeld uitdiensttreding - voor tijdelijken, gesubsidieerde contractuelen
+                    , artikel 60-ers en vervangers in de vierdagenweek
+               </nl>
+               <fr>
+                    Simple pécule de vacances sortie de service - pour les temporaires, les contractuels subventionnés
+                    , les travailleurs article 60 et les remplaçants dans le cadre de la semaine de 4 jours
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>314</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>(Dubbel) vakantiegeld uitdiensttreding</nl>
+               <fr>Double pécule de vacances sortie de service</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2018</year>
+               <quarter>3</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>314</code-PPL>
+          <code>24</code>
+          <description>
+               <nl>(Dubbel) vakantiegeld uitdiensttreding</nl>
+               <fr>Double pécule de vacances sortie de service</fr>
+          </description>
+          <begin-validity>
+               <year>2018</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>315</code-PPL>
+          <code>1</code>
+          <description>
+               <nl>
+                    Enkelvoudig vakantiegeld vorige tewerkstelling - voor tijdelijken, gesubsidieerde contractuelen
+                    , artikel 60-ers en vervangers in de vierdagenweek
+               </nl>
+               <fr>
+                    Simple pécule de vacances - occupation précédente - pour les temporaires, les contractuels subventionnés
+                    , les travailleurs article 60 et les remplaçants dans le cadre de la semaine de 4 jours
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>316</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Vakantiegeld - politiepersoneel</nl>
+               <fr>Pécule de vacances - personnel de police</fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>317</code-PPL>
+          <code>7</code>
+          <description>
+               <nl>
+                    Enkelvoudig vakantiegeld uitdiensttreding - voor contractuele personeelsleden, andere dan tijdelijken
+                    , gesubsidieerde contractuelen, artikel 60'ers en vervangers in de vierdagenweek
+               </nl>
+               <fr>
+                    Simple pécule de vacances sortie de service - pour les agents contractuels autres que les temporaires
+                    , les contractuels subventionnés, les travailleurs article 60 et les remplaçants dans le cadre de la semaine de 4 jours
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2007</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>318</code-PPL>
+          <code>12</code>
+          <description>
+               <nl>
+                    Enkelvoudig vakantiegeld vorige tewerkstelling - voor contractuele personeelsleden, andere dan tijdelijken
+                    , gesubsidieerde contractuelen, artikel 60'ers en vervangers in de vierdagenweek
+               </nl>
+               <fr>
+                    Simple pécule de vacances - occupation précédente - pour les agents contractuels autres que les temporaires
+                    , les contractuels subventionnés, les travailleurs article 60 et les remplaçants dans le cadre de la semaine de 4 jours
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2007</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>319</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Aanvullend vakantiegeld bij activiteitsaanvang of -hervatting (artikel 62bis end-validity 62quinquies
+                    van het KB van 30-3-1967)
+               </nl>
+               <fr>
+                    Pécule de vacances supplémentaires en cas de début ou de reprise d'activité (art. 62bis jusqu'au 62quinquies 
+                    de l'AR du 30-3-1967)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2012</year>
+               <quarter>2</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>348</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Vakantiegeld - vrijgesteld</nl>
+               <fr>Pécule de vacances - exonéré</fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2018</year>
+               <quarter>3</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>348</code-PPL>
+          <code>24</code>
+          <description>
+               <nl>Vakantiegeld - vrijgesteld</nl>
+               <fr>Pécule de vacances - exonéré</fr>
+          </description>
+          <begin-validity>
+               <year>2018</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>349</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Dubbel vakantiegeld uitdiensttreding voor de 3e end-validity 5e dag van de 4e vakantieweek - vrijgesteld</nl>
+               <fr>Double pécule de vacances sortie de service du 3ème au 5ème jour de la 4ème semaine de vacances - exonéré</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2018</year>
+               <quarter>3</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>349</code-PPL>
+          <code>24</code>
+          <description>
+               <nl>Dubbel vakantiegeld uitdiensttreding voor de 3e end-validity 5e dag van de 4e vakantieweek - vrijgesteld</nl>
+               <fr>Double pécule de vacances sortie de service du 3ème au 5ème jour de la 4ème semaine de vacances - exonéré</fr>
+          </description>
+          <begin-validity>
+               <year>2018</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>350</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Dubbel vakantiegeld voor de 3e end-validity de 5e dag van de vierde vakantieweek - vrijgesteld</nl>
+               <fr>Double pécule de vacances du 3ème au 5ème jour de la 4ème semaine de vacances - exonéré</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2018</year>
+               <quarter>3</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vakantiegeld</nl>
+               <fr>Pécule de vacances</fr>
+          </category>
+          <code-PPL>350</code-PPL>
+          <code>24</code>
+          <description>
+               <nl>Dubbel vakantiegeld voor de 3e end-validity de 5e dag van de vierde vakantieweek - vrijgesteld</nl>
+               <fr>Double pécule de vacances du 3ème au 5ème jour de la 4ème semaine de vacances - exonéré</fr>
+          </description>
+          <begin-validity>
+               <year>2018</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen bij éénzijdige beëindiging van de dienstbetrekking</nl>
+               <fr>Indemnités pour rupture unilatérale de la relation de travail</fr>
+          </category>
+          <code-PPL>130</code-PPL>
+          <code>3</code>
+          <description>
+               <nl>
+                    Vergoeding bij éénzijdige beëindiging van de dienstbetrekking - uitgedrukt in arbeidstijd 
+                    (enkel voor contractuele personeelsleden)
+               </nl>
+               <fr>
+                    Indemnité pour rupture unilatérale de la relation de travail - exprimé en temps de travail 
+                    (concerne le personnel non nommé)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen bij éénzijdige beëindiging van de dienstbetrekking</nl>
+               <fr>Indemnités pour rupture unilatérale de la relation de travail</fr>
+          </category>
+          <code-PPL>131</code-PPL>
+          <code>4</code>
+          <description>
+               <nl>Vergoeding bij éénzijdige beëindiging van de dienstbetrekking - niet uitgedrukt in arbeidstijd</nl>
+               <fr>Indemnité pour rupture unilatérale de la relation de travail - pas exprimé en temps de travail</fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen bij éénzijdige beëindiging van de dienstbetrekking</nl>
+               <fr>Indemnités pour rupture unilatérale de la relation de travail</fr>
+          </category>
+          <code-PPL>132</code-PPL>
+          <code>9</code>
+          <description>
+               <nl>
+                    Vergoeding bij éénzijdige beëindiging van de dienstbetrekking - uitgedrukt in arbeidstijd 
+                    (enkel voor vastbenoemde personeelsleden)
+               </nl>
+               <fr>
+                    Indemnité pour rupture unilatérale de la relation de travail - exprimé en temps de travail 
+                    (concerne le personnel nommé)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2005</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>29</code-PPL>
+          <code>29</code>
+          <description>
+               <nl>Saldo van het mobiliteitsbudget uitbetaald in geld en dat overeenstemt met de 3de pijler</nl>
+               <fr>Solde du budget mobilité versé en espèces et qui correspond au 3ème pilier</fr>
+          </description>
+          <begin-validity>
+               <year>2019</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>770</code-PPL>
+          <code>10</code>
+          <description>
+               <nl>
+                    Voordeel van alle aard op persoonlijk gebruik bedrijfswagen of, end-validity en met 31/12/2020
+                    , op de mobiliteitsvergoeding in ruil voor het inleveren van een bedrijfswagen of op 
+                    de milieuvriendelijke bedrijfswagen in het kader van het mobiliteitsbudget.
+               </nl>
+               <fr>
+                    Avantage de toute nature sur l'utilisation personnelle d'un véhicule de société ou, jusqu'au 31/12/2020
+                    , sur l'allocation de mobilité contre restitution d'un véhicule de société ou sur le véhicule de société respectueux 
+                    de l'environnement dans le cadre du budget de mobilité
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+          <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>780</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Winstparticipaties</nl>
+               <fr>Participations aux bénéfices</fr>
+          </description>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>790</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen ten bate van hun personeelsleden 
+                    of hun rechthebbenden
+               </nl>
+               <fr>
+                    Versements d'employeurs pour la constitution d'une pension extralégale au profit des membres de leur personnel 
+                    ou de leurs ayants-droit
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2004</year>
+               <quarter>3</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2011</year>
+               <quarter>3</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>791</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Door de werkgever terugbetaalde verkeersboetes</nl>
+               <fr>Amendes de circulation remboursées par l'employeur</fr>
+          </description>
+          <begin-validity>
+               <year>2009</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>792</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Rechtstreekse storting van een buitenwettelijk pensioen aan werknemers die uit dienst treden 
+                    (ingevolge oppensioenstelling)
+               </nl>
+               <fr>
+                    Versements directs d'une pension extra-légale au profit des travailleurs qui sortent de service 
+                    (en raison de mise à la retraite)
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>793</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>Stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen in het kader van een ondernemingsplan</nl>
+               <fr>
+                    Versements effectués par les employeurs pour la constitution d'une pension extra-légale dans 
+                    le cadre d'un plan d'entreprise
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2011</year>
+               <quarter>4</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>794</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Loonschijf onder of gelijk aan het drempelbedrag voor stortingen van werkgevers voor de vorming van 
+                    een buitenwettelijk pensioen - Antwerpen
+               </nl>
+               <fr>
+                    Tranche de rémunération inférieure ou égale au montant plafond pour versements des employeurs en vue 
+                    de la constitution d'une pension extra-légale - Anvers
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>795</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Loonschijf boven het drempelbedrag voor stortingen van werkgevers voor de vorming van een 
+                    buitenwettelijk pensioen - Antwerpen
+               </nl>
+               <fr>
+                    Tranche de rémunération supérieure au montant plafond pour versements des employeurs en vue 
+                    de la constitution d'une pension extra-légale - Anvers
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2010</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2021</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>796</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Loon voor stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen - 0 t.e.m. 9 jaar anciënniteit
+                    - Brugge
+               </nl>
+               <fr>
+                    Rémunération pour versements des employeurs en vue de la constitution d'une pension extra-légale
+                    - de 0 à 9 ans d'ancienneté - Bruges
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2019</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>797</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Loon voor stortingen van werkgevers voor de vorming van buitenwettelijk pensioen
+                    - 10 t.e.m. 19 jaar anciënniteit - Brugge
+               </nl>
+               <fr>
+                    Rémunération pour versements des employeurs en vue de la constitution d'une pension extra-légale
+                    - de 10 à 19 ans d'ancienneté - Bruges
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2019</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>798</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Loon voor stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen 
+                    - 20 t.e.m. 29 jaar anciënniteit - Brugge
+               </nl>
+               <fr>
+                    Rémunération pour versements des employeurs en vue de la constitution d'une pension extra-légale 
+                    - de 20 à 29 ans d'ancienneté - Bruges
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2019</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+     <renumeration-PPO>
+          <category>
+               <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
+               <fr>Indemnités assujetties à une cotisation spéciale</fr>
+          </category>
+          <code-PPL>799</code-PPL>
+          <code>20</code>
+          <description>
+               <nl>
+                    Loon voor stortingen van werkgevers voor de vorming van een buitenwettelijk pensioen
+                    - 30 of meer jaar anciënniteit -  Brugge
+               </nl>
+               <fr>
+                    Rémunération pour versements des employeurs en vue de la constitution d'une pension extra-légale 
+                    - de 30 ans d'ancienneté à plus - Bruges
+               </fr>
+          </description>
+          <begin-validity>
+               <year>2013</year>
+               <quarter>1</quarter>
+          </begin-validity>
+          <end-validity>
+               <year>2019</year>
+               <quarter>4</quarter>
+          </end-validity>
+     </renumeration-PPO>
+</renumerations-PPO>
+

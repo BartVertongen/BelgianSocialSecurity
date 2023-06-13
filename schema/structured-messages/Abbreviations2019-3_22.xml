@@ -13,7 +13,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -33,7 +33,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -53,7 +53,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -93,11 +93,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>31/10/2018
             <year>2018</year>
-            <quarter>4<quarter>
+            <quarter>4</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -113,11 +113,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2018</year>
-            <quarter>4<quarter>
+            <quarter>4</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -133,11 +133,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2018</year>
-            <quarter>4<quarter>
+            <quarter>4</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -153,11 +153,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2018</year>
-            <quarter>4<quarter>
+            <quarter>4</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -173,11 +173,11 @@
         </full>
         <begin-validity>
             <year>2000</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2018</year>
-            <quarter>4<quarter>
+            <quarter>4</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -193,11 +193,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2018</year>
-            <quarter>4<quarter>
+            <quarter>4</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -213,11 +213,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2000</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -233,11 +233,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2018</year>
-            <quarter>4<quarter>
+            <quarter>4</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -253,11 +253,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2018</year>
-            <quarter>4<quarter>
+            <quarter>4</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -273,11 +273,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -293,11 +293,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -313,9 +313,12 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
-        <end-validity>30/04/2019</end-validity>
+        <end-validity>
+            <year>2019</year>
+            <quarter>2</quarter>
+        </end-validity>
     </abbreviation>
     <abbreviation>
         <short>
@@ -350,7 +353,7 @@
         </full>
         <begin-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -370,11 +373,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -390,11 +393,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -410,7 +413,7 @@
         </full>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
         <end-validity>
             <year>9999</year>
@@ -430,11 +433,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>1993</year>
-            <quarter>4<quarter>
+            <quarter>4</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -450,11 +453,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -470,11 +473,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -490,11 +493,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>1996</year>
-            <quarter>3<quarter>
+            <quarter>3</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -510,11 +513,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -530,11 +533,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -550,11 +553,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -570,11 +573,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>1996</year>
-            <quarter>3<quarter>
+            <quarter>3</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -590,11 +593,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>1996</year>
-            <quarter>3<quarter>
+            <quarter>3</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -610,7 +613,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -630,11 +633,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2003</year>
-            <quarter>3<quarter>
+            <quarter>3</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -650,11 +653,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2004</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -670,7 +673,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -690,11 +693,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -710,11 +713,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -730,7 +733,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -750,7 +753,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -770,11 +773,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -790,11 +793,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2003</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -810,7 +813,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -830,7 +833,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -870,11 +873,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2003</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -950,7 +953,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
@@ -990,7 +993,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -1070,11 +1073,11 @@
         </full>
         <begin-validity>
             <year>2000</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2003</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -1103,7 +1106,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -1123,11 +1126,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2003</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -1143,11 +1146,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2001</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -1163,11 +1166,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2003</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -1183,7 +1186,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -1203,7 +1206,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -1223,11 +1226,11 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2019</year>
-            <quarter>2<quarter>
+            <quarter>2</quarter>
         </end-validity>
     </abbreviation>
     <abbreviation>
@@ -1243,7 +1246,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -1263,7 +1266,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -1283,7 +1286,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
@@ -1303,7 +1306,7 @@
         </full>
         <begin-validity>
             <year>1900</year>
-            <quarter>1<quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
