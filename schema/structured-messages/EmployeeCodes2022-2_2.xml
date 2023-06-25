@@ -855,7 +855,8 @@
                 - aanvang SWT vóór 01/04/2012 of gelijkgesteld
             </nl>
             <fr>
-
+                Cotisation patronale spéciale réduite pour un travailleur dans le régime de chômage avec complément d'entreprise (RCC) du secteur non marchand 
+                - RCC ayant débuté avant le 01/04/2012 ou assimilé
             </fr>
         </description>
         <employee-type>
@@ -880,7 +881,7 @@
         <code>272</code>
         <description>
             <nl>Compenserende werkgeversbijdrage voor een werknemer in het stelsel van werkloosheid met bedrijfstoeslag (SWT)</nl>
-            <fr></fr>
+            <fr>Cotisation patronale compensatoire pour un travailleur dans le régime de chômage avec complément d'entreprise (RCC)</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -897,7 +898,10 @@
         </end-validity>
     </employee-code>
     <employee-code>
-        <type>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</type>
+        <type>
+            <nl>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</nl>
+            <fr>Cotisation spéciale chômeur avec complément d'entreprise (RCC)</fr>
+        </type>
         <code>273</code>
         <description>
             <nl>
@@ -905,7 +909,8 @@
                 - aanvang SWT tussen 01/04/2010 en 31/03/2012 of gelijkgesteld
             </nl>
             <fr>
-
+                Cotisation patronale spéciale pour un travailleur dans le régime de chômage avec complément d'entreprise (RCC) 
+                - RCC ayant débuté entre le 01/04/2010 et le 31/03/2012 ou assimilé
             </fr>
         </description>
         <employee-type>
@@ -923,7 +928,10 @@
         </end-validity>
     </employee-code>
     <employee-code>
-        <type>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</type>
+        <type>
+            <nl>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</nl>
+            <fr>Cotisation spéciale chômeur avec complément d'entreprise (RCC)</fr>
+        </type>
         <code>274</code>
         <description>
             <nl>
@@ -933,7 +941,9 @@
                 in moeilijkheden of gelijkgesteld
             </nl>
             <fr>
-
+                Cotisation patronale spéciale réduite pour un travailleur dans 
+                le régime de chômage avec complément d'entreprise (RCC) 
+                durant une période de reconnaissance comme entreprise en difficulté ou assimilée
             </fr>
         </description>
         <employee-type>
@@ -951,7 +961,10 @@
         </end-validity>
     </employee-code>
     <employee-code>
-        <type>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</type>
+        <type>
+            <nl>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</nl>
+            <fr>Cotisation spéciale chômeur avec complément d'entreprise (RCC)</fr>
+        </type>
         <code>275</code>
         <description>
             <nl>
@@ -961,6 +974,10 @@
                 - aanvang SWT tussen 01/04/2010 en 31/03/2012 of gelijkgesteld
             </nl>
             <fr>
+                Cotisation patronale spéciale réduite pour un travailleur dans 
+                le régime de chômage avec complément d'entreprise (RCC) 
+                durant une période de reconnaissance comme entreprise en restructuration 
+                - RCC ayant débuté entre le 01/04/2010 et le 31/03/2012 ou assimilé
             </fr>
         </description>
         <employee-type>
@@ -978,7 +995,10 @@
         </end-validity>
     </employee-code>
     <employee-code>
-        <type>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</type>
+        <type>
+            <nl>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</nl>
+            <fr>Cotisation spéciale chômeur avec complément d'entreprise (RCC)</fr>
+        </type>
         <code>276</code>
         <description>
             <nl>
@@ -986,33 +1006,8 @@
                 - aanvang SWT vanaf 01/04/2012 (uitz.: gevallen gelijkgesteld aan kgt 270 of 273)
             </nl>
             <fr>
-
-            </fr>
-        </description>
-        <employee-type>
-            <nl>Andere (type werknemers)</nl>
-            <fr>Autres (type travailleurs)</fr>
-        </employee-type>
-        <presence>2</presence>
-        <begin-validity>
-            <year>2012</year>
-            <quarter>2</quarter>
-        </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
-    </employee-code>
-    <employee-code>
-        <type>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</type>
-        <code>277</code>
-        <description>
-            <nl>
-                Verminderde bijzondere werkgeversbijdrage voor werknemers in het stelsel van werkloosheid met bedrijfstoeslag (SWT) uit de non-profitsector 
-                - aanvang SWT vanaf 01/04/2012 (uitz.: gevallen gelijkgesteld aan kgt 271)
-            </nl>
-            <fr>
-
+                Cotisation patronale spéciale pour un travailleur dans le régime de chômage avec complément d'entreprise (RCC) 
+                - RCC ayant débuté à partir du 01/04/2012 (à l'exception des cas assimilés aux CT 270 ou 273)
             </fr>
         </description>
         <employee-type>
@@ -1032,7 +1027,37 @@
     <employee-code>
         <type>
             <nl>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</nl>
-            <fr></fr>
+            <fr>Cotisation spéciale chômeur avec complément d'entreprise (RCC)</fr>
+        </type>
+        <code>277</code>
+        <description>
+            <nl>
+                Verminderde bijzondere werkgeversbijdrage voor werknemers in het stelsel van werkloosheid met bedrijfstoeslag (SWT) uit de non-profitsector 
+                - aanvang SWT vanaf 01/04/2012 (uitz.: gevallen gelijkgesteld aan kgt 271)
+            </nl>
+            <fr>
+                Cotisation patronale spéciale réduite pour un travailleur dans le régime de chômage avec complément d'entreprise (RCC) du secteur non marchand 
+                - RCC ayant débuté à partir du 01/04/2012 (à l'exception des cas assimilés au CT 271)
+            </fr>
+        </description>
+        <employee-type>
+            <nl>Andere (type werknemers)</nl>
+            <fr>Autres (type travailleurs)</fr>
+        </employee-type>
+        <presence>2</presence>
+        <begin-validity>
+            <year>2012</year>
+            <quarter>2</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </employee-code>
+    <employee-code>
+        <type>
+            <nl>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</nl>
+            <fr>Cotisation spéciale chômeur avec complément d'entreprise (RCC)</fr>
         </type>
         <code>278</code>
         <description>
@@ -1042,6 +1067,9 @@
                 - aanvang SWT vanaf 01/04/2012 (uitz.: gevallen gelijkgesteld aan kgt 275)
             </nl>
             <fr>
+                Cotisation patronale spéciale réduite pour un travailleur dans le régime de chômage avec complément d'entreprise (RCC)
+                durant une période de reconnaissance comme entreprise en restructuration 
+                - RCC ayant débuté à partir du 01/04/2012 (à l'exception des cas assimilés au CT 275)
             </fr>
         </description>
         <employee-type>
@@ -1061,12 +1089,12 @@
     <employee-code>
         <type>
             <nl>Bijzondere bijdrage werkloze met bedrijfstoeslag (SWT)</nl>
-            <fr></fr>
+            <fr>Cotisation spéciale chômeur avec complément d'entreprise (RCC)</fr>
         </type>
         <code>879</code>
         <description>
             <nl>Werknemers in het stelsel van werkloosheid met bedrijfstoeslag (SWT) waarvoor een bijzondere bijdrage verschuldigd is</nl>
-            <fr></fr>
+            <fr>Travailleur dans le régime de chômage avec complément d'entreprise (RCC) pour lequel une cotisation spéciale est due</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -1868,7 +1896,9 @@
         <code>025</code>
         <description>
             <nl>
-
+                Gesubsidieerde contractuelen, handarbeiders zonder loonmatigingsbijdrage, tewerkgesteld in een beschutte 
+                werkplaats of maatwerkbedrijf met werkgeverscategorieën 073, 173, 273 of 473 of 
+                vanaf het eerste kwartaal 2023 in een maatwerkbedrijf met werkgeverscategorieën 373 of 673.
             </nl>
             <fr>
                 Contractuels subventionnés, travailleurs manuels sans modération salariale occupés dans un atelier protégé
@@ -1962,12 +1992,13 @@
                 , tewerkgesteld bij openbare besturen en ermee gelijkgestelde instellingen, verenigingen en maatschappijen
             </nl>
             <fr>
-                
+                Contractuels subventionnés, travailleurs manuels déclarés sur base d'une rémunération forfaitaire occupés par 
+                les pouvoirs publics et autres établissements, associations et sociétés assimilés
             </fr>
         </description>
         <employee-type>
             <nl>Gesubsidieerde contractuele handarbeiders</nl>
-            <fr></fr>
+            <fr>Manuels contractuels subventionnés</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -1987,9 +2018,12 @@
         <code>035</code>
         <description>
             <nl>Leerlingen en gelijkgestelden - handarbeiders tot 31 december van het jaar waarin ze 18 jaar worden.</nl>
-            <fr></fr>
+            <fr>Apprentis et assimilés travailleurs manuels jusqu'au 31 décembre de l'année où ils atteignent 18 ans.</fr>
         </description>
-        <employee-type>Leerling-handarbeiders</employee-type>
+        <employee-type>
+            <nl>Leerling-handarbeiders</nl>
+            <fr>Manuels apprentis</fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2003</year>
@@ -2008,11 +2042,11 @@
         <code>043</code>
         <description>
             <nl>Huispersoneel, handarbeiders, aangegeven door werkgevers ingeschreven onder de categorieën 039, 094, 193, 099 en 299.</nl>
-            <fr></fr>
+            <fr>Personnel de maison, travailleurs manuels, déclarés par des employeurs immatriculés sous les catégories 039, 094, 193, 099 et 299.</fr>
         </description>
         <employee-type>
             <nl>Speciale handarbeiders</nl>
-            <fr></fr>
+            <fr>Manuels spéciaux</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2030,8 +2064,14 @@
             <fr>Cotisation ordinaire</fr>
         </type>
         <code>044</code>
-        <description>Huispersoneel, leerplichtigen - werklieden (zie werknemerskengetal 043) tot 31december van het jaar waarin ze 18 jaar worden.</description>
-        <employee-type>Speciale leerplichtige handarbeiders</employee-type>
+        <description>
+            <nl>Huispersoneel, leerplichtigen - werklieden (zie werknemerskengetal 043) tot 31december van het jaar waarin ze 18 jaar worden.</nl>
+            <fr>Personnel de maison, élèves ouvriers (voir code 043) jusqu'au 31 décembre de l'année où ils atteignent 18 ans.</fr>
+        </description>
+        <employee-type>
+            <nl>Speciale leerplichtige handarbeiders</nl>
+            <fr>Élèves manuels spéciaux</fr>
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2010</year>
@@ -2050,11 +2090,11 @@
         <code>045</code>
         <description>
             <nl>Dienstboden aangegeven door werkgevers die ingeschreven zijn onder werkgeverscategorieën 037 of 437</nl>
-            <fr></fr>
+            <fr>Domestiques déclarés par des employeurs immatriculés sous la catégorie 037 ou 437</fr>
         </description>
         <employee-type>
             <nl>Dienstboden (handarbeiders)</nl>
-            <fr></fr>
+            <fr>Domestiques (manuels)</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2074,11 +2114,11 @@
         <code>046</code>
         <description>
             <nl>Kunstenaars en leerlingen van deze categorie vanaf het jaar waarin ze 19 jaar worden.</nl>
-            <fr></fr>
+            <fr>Artistes et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans.</fr>
         </description>
         <employee-type>
             <nl>Andere kunstenaars</nl>
-            <fr></fr>
+            <fr>Autres travailleurs artistes</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2098,11 +2138,11 @@
         <code>047</code>
         <description>
             <nl>Kunstenaars - Deeltijds leerplichtigen tot 31 december van het jaar waarin ze 18 jaar worden.</nl>
-            <fr></fr>
+            <fr>Artistes - Elèves à temps partiel jusqu'au 31 décembre de l'année où ils atteignent 18 ans.</fr>
         </description>
         <employee-type>
             <nl>Leerplichtige kunstenaars</nl>
-            <fr></fr>
+            <fr>Elèves artistes</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2122,11 +2162,11 @@
         <code>050</code>
         <description>
             <nl>Handarbeiders tewerkgesteld in het kader van een flexijob</nl>
-            <fr></fr>
+            <fr>Travailleurs manuels occupés dans le cadre d'un flexijob</fr>
         </description>
         <employee-type>
             <nl>Handarbeiders flexijob</nl>
-            <fr></fr>
+            <fr>Travailleurs manuels flexijob</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2146,10 +2186,11 @@
         <code>090</code>
         <description>
             <nl>Handarbeiders aangeworven in het kader van art. 60, § 7 van de wet van 8 juli 1976 betreffende de OCMW's</nl>
+            <fr>Travailleurs manuels engagés dans le cadre de l'art. 60 § 7 de la loi organique des CPAS du 8 juillet 1976</fr>
         </description>
         <employee-type>
             <nl>Speciale handarbeiders</nl>
-            <fr></fr>
+            <fr>Manuels spéciaux</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2169,11 +2210,11 @@
         <code>400</code>
         <description>
             <nl>Hoofdarbeiders aangeworven in het kader van art. 60, § 7 van de wet van 8 juli 1976 betreffende de OCMW's</nl>
-            <fr></fr>
+            <fr>Travailleurs intellectuels engagés dans le cadre de l'art. 60 § 7 de la loi organique des CPAS du 8 juillet 1976</fr>
         </description>
         <employee-type>
             <nl>Speciale hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels spéciaux</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2193,9 +2234,12 @@
         <code>404</code>
         <description>
             <nl>Niet-beschermde lokale mandatarissen</nl>
-            <fr></fr>
+            <fr>Mandataires locaux non protégés</fr>
         </description>
-        <employee-type>Andere (type werknemers)</employee-type>
+        <employee-type>
+            <nl>Andere (type werknemers)</nl>
+            <fr>Autres (type travailleurs)</fr> 
+        </employee-type>
         <presence>3</presence>
         <begin-validity>
             <year>2022</year>
@@ -2214,11 +2258,11 @@
         <code>405</code>
         <description>
             <nl>Beschermde lokale mandatarissen</nl>
-            <fr></fr>
+            <fr>Mandataires locaux protégés</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
-            <fr></fr>
+            <fr>Autres (type travailleurs)</fr>
         </employee-type>
         <presence>1</presence>
         <begin-validity>
@@ -2238,11 +2282,11 @@
         <code>406</code>
         <description>
             <nl>Federaal of regionaal parlementslid</nl>
-            <fr></fr>
+            <fr>Membre d'un parlement fédéral ou régional</fr>
         </description>
         <employee-type>
             <nl>Parlements- en regeringsleden</nl>
-            <fr></fr>
+            <fr>Membres du parlement et du gouvernement</fr>
         </employee-type>
         <presence>1</presence>
         <begin-validity>
@@ -2262,11 +2306,11 @@
         <code>407</code>
         <description>
             <nl>Federaal of regionaal regeringslid</nl>
-            <fr></fr>
+            <fr>Membre d'un gouvernement fédéral ou régional</fr>
         </description>
         <employee-type>
             <nl>Parlements- en regeringsleden</nl>
-            <fr></fr>
+            <fr>Membres du parlement et du gouvernement</fr>
         </employee-type>
         <presence>1</presence>
         <begin-validity>
@@ -2286,11 +2330,11 @@
         <code>439</code>
         <description>
             <nl>Leerlingen en gelijkgestelde hoofdarbeiders tot 31 december van het jaar waarin ze 18 jaar worden.</nl>
-            <fr></fr>
+            <fr>Apprentis et assimilés travailleurs intellectuels jusqu'au 31 décembre de l'année où ils atteignent 18 ans.</fr>
         </description>
         <employee-type>
             <nl>Leerling-hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels apprentis</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2310,11 +2354,11 @@
         <code>450</code>
         <description>
             <nl>Hoofdarbeiders tewerkgesteld in het kader van een flexijob</nl>
-            <fr></fr>
+            <fr>Travailleurs intellectuels occupés dans le cadre d'un flexijob</fr>
         </description>
         <employee-type>
             <nl>Hoofdarbeiders flexijob</nl>
-            <fr></fr>
+            <fr>Travailleurs intellectuels flexijob</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2327,15 +2371,18 @@
         </end-validity>
     </employee-code>
     <employee-code>
-        <type>Gewone bijdrage</type>
+        <type>
+            <nl>Gewone bijdrage</nl>
+            <fr>Cotisation ordinaire</fr>
+        </type>
         <code>454</code>
         <description>
             <nl>Vanaf het jaar waarin ze 19 jaar worden:  Betaalde sportbeoefenaars die ressorteren onder het Paritair Comité nr. 329.</nl>
-            <fr></fr>
+            <fr>A partir de l'année où ils atteignent 19 ans : Sportifs rémunérés relevant de la Commission paritaire 329.</fr>
         </description>
         <employee-type>
             <nl>Speciale hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels spéciaux</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2359,12 +2406,13 @@
                 tot 31 december van het jaar waarin ze 18 jaar worden.
             </nl>
             <fr>
-                
+                Elèves employés de catégorie spéciale (voir code 490 dans catégories 016, 017, 097 et 497) 
+                jusqu'au 31 décembre de l'année où ils atteignent 18 ans.
             </fr>
         </description>
         <employee-type>
             <nl>Hoofdarbeiders horeca</nl>
-            <fr></fr>
+            <fr>Intellectuels Horeca</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2390,11 +2438,16 @@
                 die hun prestaties met 1/5de verminderen met compenserende premie
                 in het kader van de herverdeling van de arbeid in de openbare sector.
             </nl>
-            <fr></fr>
+            <fr>
+                Travailleurs contractuels - employés engagés dans le secteur public en remplacement de travailleurs contractuels ou statutaires
+                 en interruption de carrière selon les dispositions de la loi de redressement 
+                 du 22 janvier 1985 ou en remplacement de travailleurs qui réduisent leurs prestations 
+                 de 1/5e avec prime compensatoire dans le cadre de la redistribution du travail dans le secteur public.
+            </fr>
         </description>
         <employee-type>
             <nl>Contractuele hoofdarbeiders - Vervangers</nl>
-            <fr></fr>
+            <fr>Intellectuels contractuels remplaçants</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2419,11 +2472,13 @@
                 , verenigingen en maatschappijen
             </nl>
             <fr>
+                Contractuels subventionnés travailleurs intellectuels occupés par les pouvoirs publics et autres établissements
+                , associations et sociétés assimilés
             </fr>
         </description>
         <employee-type>
             <nl>Gesubsidieerde contractuele hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels contractuels subventionnés</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2443,11 +2498,15 @@
         <code>485</code>
         <description>
             <nl>Gesubsidieerde contractuelen, mindervalide hoofdarbeiders tewerkgesteld in een erkende beschutte werkplaats</nl>
-            <fr></fr>
+            <fr>
+                Contractuels subventionnés, travailleurs intellectuels sans modération salariale occupés dans un atelier 
+                protégé agréé ou un ‘maatwerkbedrijf’ immatriculé sous la catégorie 073, 173, 273 ou 473 ou à partir 
+                du premier trimestre 2023 dans un ‘maatwerkbedrijf’ immatriculé sous la catégorie 373 ou 673.
+            </fr>
         </description>
         <employee-type>
             <nl>Gesubsidieerde contractuele hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels contractuels subventionnés</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2472,12 +2531,13 @@
                 en vanaf het vierde kwartaal 2013 met de werkgeverscategorieën 317, 097 en 497.
             </nl>
             <fr>
-                
+                Elèves-employés occasionnels à déclarer sur base de rémunérations forfaitaires par des employeurs immatriculés sous 
+                les catégories 216 et 217 et à partir du quatrième trimestre 2013 sous les catégories 317, 097 et 497.
             </fr>
         </description>
         <employee-type>
             <nl>Hoofdarbeiders gelegenheidswerknemers Horeca</nl>
-            <fr></fr>
+            <fr>Intellectuels occasionnels Horeca</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2504,12 +2564,16 @@
                         aan te geven door werkgevers met werkgeverscategorie 212
             </nl>
             <fr>
-
+                Elèves
+                a. Employés et stagiaires jusqu'au 31 décembre de l'année où ils atteignent 18 ans
+                b. Travailleurs, jusqu’au 31 décembre de l’année au cours de laquelle ils atteignent 18 ans,
+                         quelle que soit leur activité, qui ne sont pas couverts par la législation belge du travail,
+                         à déclarer par les employeurs avec la catégorie employeur 212
             </fr>
         </description>
         <employee-type>
             <nl>Leerplichtige hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels élèves</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2532,11 +2596,14 @@
                 Gerechtigden op een (post)doctoraatsbeurs toegekend door een werkgever genoemd in de art. 3bis of 15 van het KB van 28/11/1969
                 (Fedris bijdragen verschuldigd).
             </nl>
-            <fr></fr>
+            <fr>
+                Bénéficiaires d'une bourse de (post)doctorat octroyée par un employeur cité aux art.3bis ou 15 de l'AR du 28/11/1969 
+                (cotisations Fedris dues).
+            </fr>
         </description>
         <employee-type>
             <nl>Hoofdarbeiders beursstudenten</nl>
-            <fr></fr>
+            <fr>Intellectuels boursiers</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2556,11 +2623,11 @@
         <code>490</code>
         <description>
             <nl>Bediende - gelegenheidswerknemer in de horeca (werkgevers met werkgeverscategorieën 016, 017, 097 en 497).</nl>
-            <fr></fr>
+            <fr>Employés occasionnels dans l'Horeca (employeurs immatriculés sous les catégories 016, 017, 097 et 497).</fr>
         </description>
         <employee-type>
             <nl>Hoofdarbeiders horeca</nl>
-            <fr></fr>
+            <fr>Intellectuels Horeca</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2580,11 +2647,11 @@
         <code>491</code>
         <description>
             <nl>Het niet-administratief en technisch personeel van de vrije universiteiten onderworpen aan alle stelsels van de sociale zekerheid.</nl>
-            <fr></fr>
+            <fr>Personnel non administratif et technique des universités libres assujetti à tous les régimes de la sécurité sociale</fr>
         </description>
         <employee-type>
             <nl>Speciale hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels spéciaux</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2609,12 +2676,16 @@
                 b. tot en met het derde kwartaal 2008 aan te geven door werkgevers met werkgeverscategorie 811 (loonmatigingsbijdrage verschuldigd)
             </nl>
             <fr>
-
+                Employés sans modération salariale et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans :
+                a. Occupés dans un atelier protégé agréé ou un ‘maatwerkbedrijf’ immatriculé sous les catégories 073, 173, 273 ou 473 ou 
+                        à partir du premier trimestre 2023 dans un ‘maatwerkbedrijf’ immatriculé sous la catégorie 373 ou 673. 
+                b. Jusqu'au 3ème trimestre 2008 inclus, à déclarer par les employeurs immatriculés sous la catégorie 811 
+                        (cotisation de modération salariale due).
             </fr>
         </description>
         <employee-type>
             <nl>Mindervalide hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels handicapés</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2639,12 +2710,14 @@
                 Contractuelen die niet vallen onder het jaarlijkse vakantiesstelsel van de werknemers in de categorieën 040 en 075.
             </nl>
             <fr>
-
+                Le personnel académique et scientifique des universités immatriculées sous les catégories 175, 396 et,
+                 à partir du 1er trimestre 2015, 075. Contractuels ne relevant pas du régime des vacances annuelles 
+                 des salariés dans les catégories 040 et 075.
             </fr>
         </description>
         <employee-type>
             <nl>Speciale hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels spéciaux</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2670,12 +2743,13 @@
                 of 200 of van de publieke sector.
             </nl>
             <fr>
-
+                A partir de l'année où ils atteignent 19 ans : Jusqu'au 4ème trimestre 2021, sportifs rémunérés non redevables de la modération salariale
+                . A partir du 1er trimestre 2022, sportifs rémunérés relevant des Commissions paritaires 223 ou 200 ou du secteur public.
             </fr>
         </description>
         <employee-type>
             <nl>Speciale hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels spéciaux</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2704,11 +2778,21 @@
                 e. Werknemers, ongeacht hun activiteit, die niet onder de Belgische arbeidswetgeving vallen
                     , aan te geven door werkgevers met werkgeverscategorie 212
             </nl>
-            <fr></fr>
+            <fr>
+                Employés et apprentis de cette catégorie à partir de l'année où ils atteignent 19 ans:
+                a. Employés de catégorie ordinaire.
+                b. Sportifs rémunérés, limités à partir du 1er trimestre 2008 aux entraîneurs et arbitres de football
+                    , déclarés par des employeurs immatriculés sous les catégories 070 ou 076
+                c. Employés occasionnels déclarés sur base des rémunérations réelles par des employeurs immatriculés sous 
+                    les catégories 116 et 117;
+                d. Officiers déclarés par des employeurs immatriculés sous les catégories 105, 205, 305, 405 et 505.
+                e. Travailleurs, quelle que soit leur activité, qui ne sont pas couverts par la législation belge du travail
+                    , à déclarer par les employeurs avec la catégorie employeur 212.
+            </fr>
         </description>
         <employee-type>
             <nl>Gewone hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels ordinaires</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2732,12 +2816,13 @@
                 en vanaf het vierde kwartaal 2013 met de werkgeverscategorieën 317, 097 en 497.
             </nl>
             <fr>
-
+                Employés occasionnels déclarés sur base de rémunérations forfaitaires par des employeurs immatriculés sous les catégories 216 et 217 
+                et à partir du quatrième trimestre 2013 sous les catégories 317, 097 et 497.
             </fr>
         </description>
         <employee-type>
             <nl>Hoofdarbeiders gelegenheidswerknemers Horeca</nl>
-            <fr></fr>
+            <fr>Intellectuels occasionnels Horeca</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2757,11 +2842,11 @@
         <code>497</code>
         <description>
             <nl>Erkende onthaalouders</nl>
-            <fr></fr>
+            <fr>Gardiens ou gardiennes d'enfants reconnus</fr>
         </description>
         <employee-type>
             <nl>Erkende onthaalouders</nl>
-            <fr></fr>
+            <fr>Gardiens ou gardiennes d'enfants reconnus</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2785,11 +2870,13 @@
                 , afkomstig van een land buiten de Europese Economische Ruimte dat geen overeenkomst heeft met België
             </nl>
             <fr>
+                Bénéficiaires d'une bourse de (post) doctorat originaires d'un pays hors Espace Economique Européen n'ayant pas 
+                de conventions avec la Belgique
             </fr>
         </description>
         <employee-type>
             <nl>Hoofdarbeiders beursstudenten</nl>
-            <fr></fr>
+            <fr>Intellectuels boursiers</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2815,12 +2902,16 @@
                 351, 396, 441 en 496 (Fedris bijdragen verschuldigd)
             </nl>
             <fr>
-
+                Apprentis et assimilés travailleurs intellectuels à partir 
+                de l'année où ils atteignent 19 ans déclarés par des 
+                employeurs du secteur public immatriculés sous les 
+                catégories 001, 046, 050, 096, 296, 347, 351, 396,
+                 441 et 496 (cotisations Fedris dues).
             </fr>
         </description>
         <employee-type>
             <nl>Leerling-hoofdarbeiders</nl>
-            <fr></fr>
+            <fr>Intellectuels apprentis</fr>
         </employee-type>
         <presence>3</presence>
         <begin-validity>
@@ -2845,7 +2936,8 @@
                 en aan kinderbijslag
             </nl>
             <fr>
-                
+                Travailleurs engagés après le 31 décembre 1998 et soumis uniquement 
+                à l'assurance Soins de Santé et aux allocations familiales
             </fr>
         </description>
         <employee-type>
@@ -2870,7 +2962,7 @@
         <code>673</code>
         <description>
             <nl>Mandatarissen of houders van een staffunctie in de openbare diensten</nl>
-            <fr></fr>
+            <fr>Mandataires ou ayant une fonction de staff dans les services publics</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -2894,7 +2986,7 @@
         <code>675</code>
         <description>
             <nl>Werknemers uitsluitend onderworpen aan de verzekering voor geneeskundige verzorging</nl>
-            <fr></fr>
+            <fr>Travailleurs soumis uniquement à l'assurance Soins de Santé</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -2918,7 +3010,7 @@
         <code>677</code>
         <description>
             <nl>Stagiairs met het oog op een vaste benoeming met de vakantieregeling privésector bij een provinciaal of plaatselijk bestuur</nl>
-            <fr></fr>
+            <fr>Stagiaires en vue d'une nomination à titre définitif avec le régime de vacances du secteur privé auprès d'une administration provinciale ou locale</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -2942,7 +3034,7 @@
         <code>848</code>
         <description>
             <nl>Personen-arbeiders die arbeid verrichten in het kader van een opleiding tot betaalde arbeid maar niet aan de sociale zekerheid onderworpen zijn</nl>
-            <fr></fr>
+            <fr>Personnes-ouvriers qui effectuent un travail dans le cadre d'une formation pour un travail rémunéré mais ne sont pas assujetties à la sécurité sociale</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -2996,7 +3088,7 @@
         <code>260</code>
         <description>
             <nl>Activeringsbijdrage</nl>
-            <fr></fr>
+            <fr>Cotisation d'activation</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3020,7 +3112,7 @@
         <code>261</code>
         <description>
             <nl>Verlaagde activeringsbijdrage</nl>
-            <fr></fr>
+            <fr>Cotisation d'activation réduite</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3044,7 +3136,7 @@
         <code>800</code>
         <description>
             <nl>Bijdrage economische werkloosheid</nl>
-            <fr></fr>
+            <fr>Cotisation chômage économique</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3068,7 +3160,7 @@
         <code>801</code>
         <description>
             <nl>Bijzondere bijdrage verschuldigd op Coronapremie</nl>
-            <fr></fr>
+            <fr>Cotisation spéciale due sur la prime Corona</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3092,7 +3184,7 @@
         <code>803</code>
         <description>
             <nl>Bijdrage in het kader van aanvullende pensioenplan Prolocus</nl>
-            <fr></fr>
+            <fr>Cotisation dans le cadre du plan de pension complémentaire Prolocus</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3120,6 +3212,8 @@
                 , bagger- of zeesleepvaartsector (werkgeverscategorieën 105, 205 en 305)
             </nl>
             <fr>
+                Prime d'accident de travail destinée à Fedris due par les marins dans le secteur de la marine marchande
+                , des travaux de dragage ou du remorquage maritime (catégories employeurs 105, 205 et 305)
             </fr>
         </description>
         <employee-type>
@@ -3148,7 +3242,9 @@
                 , bagger- of zeesleepvaartsector (werkgeverscategorieën 105, 205 en 305) bij vaart in oorlogs- en/of piraterijzones
             </nl>
             <fr>
-
+                Prime d'accident de travail supplémentaire destinée à Fedris due par les marins dans le secteur de la marine marchande
+                , des travaux de dragage ou du remorquage maritime (catégories employeurs 105, 205 et 305) 
+                en cas de navigation dans une zone de guerre et/ou piratage
             </fr>
         </description>
         <employee-type>
@@ -3177,6 +3273,8 @@
                 , gestort door commerciële werkgevers
             </nl>
             <fr>
+                Cotisation destinée au Fonds d'indemnisation des travailleurs licenciés en cas de fermeture d'entreprises (F.F.E.)
+                , versée par les employeurs du secteur commercial
             </fr>
         </description>
         <employee-type>
@@ -3201,7 +3299,7 @@
         <code>810</code>
         <description>
             <nl>Bijzondere bijdrage ten behoeve van het Fonds tot vergoeding van de in geval van sluiting van ondernemingen ontslagen werknemers (F.S.O.)</nl>
-            <fr></fr>
+            <fr>Cotisation spéciale destinée au Fonds d'indemnisation des travailleurs licenciés en cas de fermeture d'entreprises (F.F.E.)</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3229,7 +3327,8 @@
                 , gestort door niet-commerciële werkgevers
             </nl>
             <fr>
-
+                Cotisation destinée au Fonds d'indemnisation des travailleurs licenciés en cas de fermeture d'entreprises (F.F.E.)
+                , versée par les employeurs du secteur non commercial
             </fr>
         </description>
         <employee-type>
@@ -3254,7 +3353,7 @@
         <code>812</code>
         <description>
             <nl>Bijzondere bijdrage verbrekingsvergoedingen voor het Sluitingsfonds</nl>
-            <fr></fr>
+            <fr>Cotisation spéciale sur les indemnités de rupture destinée au Fonds de fermeture des entreprises</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3278,7 +3377,7 @@
         <code>815</code>
         <description>
             <nl>Bijdrage overheidspensioen voor statutaire werknemers</nl>
-            <fr></fr>
+            <fr>Cotisation pension du secteur public pour travailleurs statutaires</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3302,7 +3401,7 @@
         <code>816</code>
         <description>
             <nl>Bijdrage overheidspensioen voor mandatarissen of houders van een staffunctie in de openbare diensten</nl>
-            <fr></fr>
+            <fr>Cotisation pension du secteur public pour des mandataires ou titulaires d'une fonction de staff dans les services publics</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3329,7 +3428,10 @@
                 Bijdrage overheidspensioen bestemd voor Gesolidariseerde Pensioenfonds
                 van de provinciale en plaatselijke besturen
             </nl>
-            <fr></fr>
+            <fr>
+                Cotisation pension du secteur public destinée au Fonds de Pension Solidarisé 
+                des administrations provinciales et locales.
+            </fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3360,7 +3462,10 @@
                 en voor het Fonds voor Bestaanszekerheid van de bouwsector
             </nl>
             <fr>
-
+                Cotisation destinée aux Fonds de sécurité d'existence due sur les rémunérations à 108 % des travailleurs manuels 
+                (inclus les élèves ouvriers stagiaires et les contractuels subventionnés).
+                Pour les employeurs de l'intérim construction (catégories 224, 226, 244, 254), il s'agit des cotisations destinées au 
+                Fonds social pour intérimaires et au Fonds de sécurité d'existence de la construction
             </fr>
         </description>
         <employee-type>
@@ -3385,7 +3490,7 @@
         <code>825</code>
         <description>
             <nl>Bijdrage sectoraal pensioenfonds voor arbeiders</nl>
-            <fr></fr>
+            <fr>Cotisation pour un fonds de pension sectoriel pour ouvriers</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3409,7 +3514,7 @@
         <code>826</code>
         <description>
             <nl>Forfaitaire bijdrage Fonds voor bestaanszekerheid voor arbeiders</nl>
-            <fr></fr>
+            <fr>Cotisation forfaitaire Fonds de sécurité d'existence pour ouvriers</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3433,7 +3538,7 @@
         <code>827</code>
         <description>
             <nl>Forfaitaire bijdrage sectoraal pensioenfonds voor arbeiders</nl>
-            <fr></fr>
+            <fr>Cotisation forfaitaire pour un fonds de pension sectoriel pour ouvriers</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3466,6 +3571,12 @@
                 en gesubsidieerde contractuelen).
             </nl>
             <fr>
+                Cotisation destinée aux Fonds de sécurité d'existence (autres que les Fonds Social C.P.N.A.E. 
+                (CP n° 218) jusqu'au 31/03/2015 - C.P.A.E. (CP n° 200) à partir du 01/04/2015 ou du commerce de détail indépendant 
+                (CP n° 201) et autre que le « Fonds social du secteur socio-culturel des Communautés française et germanophone » pour 
+                les employeurs de la catégorie 076 limités, à partir du 01/09/2013, à ceux qui relèvent de la CP n° 329.02)
+                , due sur les rémunérations des travailleurs intellectuels 
+                (inclus les élèves employés stagiaires et les contractuels subventionnés).
             </fr>
         </description>
         <employee-type>
@@ -3496,6 +3607,9 @@
                 (inclusief leerplichtigen-bedienden stagiairs en gesubsidieerde contractuelen)
             </nl>
             <fr>
+                Cotisation destinée au Fonds Social C.P.N.A.E. (CP n° 218) jusqu'au 31/03/2015 - C.P.A.E. 
+                (CP n° 200) à partir du 01/04/2015 due sur les rémunérations des travailleurs intellectuels 
+                (inclus les élèves employés stagiaires et les contractuels subventionnés)
             </fr>
         </description>
         <employee-type>
@@ -3524,6 +3638,8 @@
                 (inclusief leerplichtigen-bedienden stagiairs en gesubsidieerde contractuelen)
             </nl>
             <fr>
+                Cotisation destinée au Fonds Social du commerce de détail indépendant (CP n° 201) due sur les rémunérations
+                 des travailleurs intellectuels (inclus les élèves employés stagiaires et les contractuels subventionnés)
             </fr>
         </description>
         <employee-type>
@@ -3555,6 +3671,10 @@
                 en gesubsidieerde contractuelen)
             </nl>
             <fr>
+                Cotisation destinée au "Fonds social du secteur socio-culturel des Communautés française 
+                et germanophone" pour les employeurs de la catégorie 076 limités, à partir du 01/09/2013
+                , à ceux qui relèvent de la CP n° 329.02, due sur les rémunérations des travailleurs intellectuels 
+                (inclus les élèves employés stagiaires et contractuels subventionnés)
             </fr>
         </description>
         <employee-type>
@@ -3579,7 +3699,7 @@
         <code>835</code>
         <description>
             <nl>Bijdrage sectoraal pensioenfonds voor bedienden</nl>
-            <fr></fr>
+            <fr>Cotisation pour un Fonds de pension sectoriel pour employés</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3603,7 +3723,7 @@
         <code>836</code>
         <description>
             <nl>Forfaitaire bijdrage Fonds voor bestaanszekerheid voor bedienden</nl>
-            <fr></fr>
+            <fr>Cotisation forfaitaire Fonds de sécurité d'existence pour employés</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3627,7 +3747,7 @@
         <code>836</code>
         <description>
             <nl>Forfaitaire bijdrage Fonds voor bestaanszekerheid voor bedienden</nl>
-            <fr></fr>
+            <fr>Cotisation forfaitaire Fonds de sécurité d'existence pour employés</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3651,7 +3771,7 @@
         <code>837</code>
         <description>
             <nl>Forfaitaire bijdrage sectoraal pensioenfonds voor bedienden</nl>
-            <fr></fr>
+            <fr>Cotisation forfaitaire pour un fonds de pension sectoriel pour employés</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3675,7 +3795,7 @@
         <code>845</code>
         <description>
             <nl>Bijdrage voor de Gemeenschappelijke Sociale Dienst van de FPD</nl>
-            <fr></fr>
+            <fr>Cotisation pour le Service Social Collectif du SFP</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3699,7 +3819,7 @@
         <code>846</code>
         <description>
             <nl>Bijdrage voor de Sociale Dienst van de politie</nl>
-            <fr></fr>
+            <fr>Cotisation pour le Service Social de la police</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3723,7 +3843,7 @@
         <code>847</code>
         <description>
             <nl>Bijdrage voor de Gemeenschappelijke Sociale Dienst Vlaanderen</nl>
-            <fr></fr>
+            <fr>Cotisation pour le Service Social Collectif Flandre</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3747,7 +3867,7 @@
         <code>850</code>
         <description>
             <nl>Bijdrage voor de toekenning en betaling van de vakbondspremie</nl>
-            <fr></fr>
+            <fr>Cotisation en vue de l'octroi et du paiement de la prime syndicale</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3771,7 +3891,7 @@
         <code>852</code>
         <description>
             <nl>Bijdrage voor maatregelen ten voordele van de werkgelegenheid en de vorming</nl>
-            <fr></fr>
+            <fr>Cotisation destinée aux mesures en faveur de l'emploi et de la formation</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3795,7 +3915,7 @@
         <code>854</code>
         <description>
             <nl>Bijdrage bestemd voor de begeleiding van jongeren op wie een inschakelingsparcours van toepassing is</nl>
-            <fr></fr>
+            <fr>Cotisation destinée aux jeunes bénéficiant d'un parcours d'insertion</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3819,7 +3939,7 @@
         <code>855</code>
         <description>
             <nl>Speciale bijdrage ten laste van de werkgevers met belangrijkheidscode 3 tot 9, voor werknemers onderworpen aan de loonmatigingsbijdrage (K.B. 401)</nl>
-            <fr></fr>
+            <fr>Cotisation spéciale à charge des employeurs de code d'importance 3 à 9, pour les travailleurs soumis à la cotisation de modération salariale (A.R. 401)</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3843,7 +3963,7 @@
         <code>856</code>
         <description>
             <nl>Bijzondere bijdrage bestemd voor de financiering van de sociale zekerheid (Wet van 30 maart 1994 houdende sociale bepalingen)</nl>
-            <fr></fr>
+            <fr>Cotisation spéciale pour la sécurité sociale (Loi du 30 mars 1994 portant des dispositions sociales)</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3870,6 +3990,10 @@
                 Speciale bijdrage ten laste van de werkgevers met belangrijkheidscode 3 tot 9
                 , voor werknemers die niet onderworpen zijn aan de loonmatigingsbijdrage (K.B. 401)
             </nl>
+            <fr>
+                Cotisation spéciale à charge des employeurs de code d'importance 3 à 9
+                , pour les travailleurs non soumis à la cotisation de modération salariale (A.R. 401)
+            </fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3893,7 +4017,7 @@
         <code>859</code>
         <description>
             <nl>Bijzondere werkgeversbijdrage bestemd voor de financiering van tijdelijke werkloosheid en anciënniteitstoeslag voor oudere werklozen</nl>
-            <fr></fr>
+            <fr>Cotisation patronale particulière destinée au financement du chômage temporaire et du complément d'ancienneté pour chômeurs âgés</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3917,7 +4041,7 @@
         <code>860</code>
         <description>
             <nl>Solidariteitsbijdrage op het bedrag van de mobiliteitsvergoeding</nl>
-            <fr></fr>
+            <fr>Cotisation de solidarité sur le montant de l'allocation de mobilité</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3928,7 +4052,10 @@
             <year>2003</year>
             <quarter>1</quarter>
         </begin-validity>
-        <end-validity>2020/4</end-validity>
+        <end-validity>
+            <year>2004</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employee-code>
     <employee-code>
         <type>
@@ -3938,7 +4065,7 @@
         <code>863</code>
         <description>
             <nl>Solidariteitsbijdrage wegens ontbrekende Dimona</nl>
-            <fr></fr>
+            <fr>Cotisation de solidarité pour cause de Dimona manquante</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3962,7 +4089,7 @@
         <code>868</code>
         <description>
             <nl>Solidariteitsbijdrage op de milieuvriendelijke bedrijfswagen ter beschikking gesteld in het kader van het mobiliteitsbudget</nl>
-            <fr></fr>
+            <fr>Cotisation de solidarité sur un véhicule de société respectueux de l'environnement dans le cadre du budget mobilité</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -3986,7 +4113,7 @@
         <code>869</code>
         <description>
             <nl>Bijzondere bijdrage op het saldo van het mobiliteitsbudget uitbetaald in geld en dat overeenstemt met de 3de pijler</nl>
-            <fr></fr>
+            <fr>Cotisation spéciale sur le solde du budget mobilité versé en espèces et qui correspond au 3ème pilier</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -4003,9 +4130,15 @@
         </end-validity>
     </employee-code>
     <employee-code>
-        <type>Supplementaire bijdrage</type>
+        <type>
+            <nl>Supplementaire bijdrage</nl>
+            <fr>Cotisation supplémentaire</fr>
+        </type>
         <code>878</code>
-        <description>Bijdrage verschuldigd voor erkende beroepsjournalisten</description>
+        <description>
+            <nl>Bijdrage verschuldigd voor erkende beroepsjournalisten</nl>
+            <fr>Cotisation due pour les journalistes professionnels reconnus</fr>
+        </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
             <fr>Autres (type travailleurs)</fr>
@@ -4028,7 +4161,7 @@
         <code>888</code>
         <description>
             <nl>Bijzondere bijdrage verschuldigd op de niet-recurrente resultaatsgebonden voordelen</nl>
-            <fr></fr>
+            <fr>Cotisation spéciale due sur les avantages non récurrents liés aux résultats</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -4052,7 +4185,7 @@
         <code>889</code>
         <description>
             <nl>Solidariteitsbijdrage op door de werkgever terugbetaalde verkeersboetes</nl>
-            <fr></fr>
+            <fr>Cotisation de solidarité sur les amendes de circulation remboursées par l'employeur</fr>
         </description>
         <employee-type>
             <nl>Andere (type werknemers)</nl>
@@ -4080,6 +4213,8 @@
                 of aanvullende vergoedingen oudere (SWAV) na ontslag of in tijdskrediet
             </nl>
             <fr>
+                Cotisation personnelle pour un travailleur en régime de chômage avec complément d'entreprise (RCC)
+                ou avec indemnités complémentaires pour travailleurs âgés (RCIC) après licenciement ou en crédit-temps
             </fr>
         </description>
         <employee-type>

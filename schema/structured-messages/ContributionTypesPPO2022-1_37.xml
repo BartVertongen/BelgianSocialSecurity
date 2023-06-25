@@ -21,7 +21,7 @@
           </end-validity>
      </contribution-type>
      <contribution-type>
-     <type>0</type>
+          <type>0</type>
           <code>
                <nl>1xx (handarbeiders)</nl>
                <fr>1xx (travailleurs ouvriers)</fr>
@@ -688,7 +688,7 @@
           </code>
           <employer-category>959</employer-category>
           <ordinary-contribution>
-               <nl>Bijdrage SWT
+               <nl>Bijdrage SWT</nl>
                <fr>Cotisation RCC</fr>
           </ordinary-contribution>
           <begin-validity>

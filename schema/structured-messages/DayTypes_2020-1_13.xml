@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- These are days for the  workers not for the company-->
 <day-types>
     <day-type>
         <code>1</code>
@@ -550,7 +551,10 @@
             <year>1900</year>
             <quarter>1</quarter>
         </begin-validity>
-        <einde_geldigheid>01/01/9999</einde_geldigheid>
+        <end-validity>01/01/9999
+            <year></year>
+            <quarter></quarter>
+        </einde_geldigheid>
     </day-type>
     <day-type>
         <code>3.1</code>
