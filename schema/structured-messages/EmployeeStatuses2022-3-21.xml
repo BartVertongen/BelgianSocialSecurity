@@ -614,6 +614,7 @@
             <year>2021</year>
             <quarter>4</quarter>
         </end-validity>
+    </employee-status>
     <employee-status>
         <code>PJ</code>
         <rsz>Yes</rsz>
@@ -1017,4 +1018,4 @@
             <quarter>4</quarter>
         </end-validity>
     </employee-status>
-</List>
+</employee-statuses>

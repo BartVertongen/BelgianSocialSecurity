@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Worker Categories Government -->
-<worker-categories-government>
-     <worker-category-government>
+<!-- Employee Categories Government -->
+<employee-categories-government>
+     <employee-category-government>
           <code>1</code>
           <description>
                <nl>
@@ -40,8 +40,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>2</code>
           <description>
                <nl>
@@ -64,8 +64,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>3</code>
           <description>
                <nl>
@@ -112,8 +112,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>4</code>
           <description>
                <nl>
@@ -159,8 +159,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>5</code>
           <description>
                <nl>Lid van het rijdend personeel van de NMBS-Holding (= tantième 1/48)</nl>
@@ -177,8 +177,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>6</code>
           <description>
                <nl>
@@ -225,8 +225,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>7</code>
           <description>
                <nl>
@@ -249,8 +249,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>8</code>
           <description>
                <nl>Bedienaar van de rooms-katholieke eredienst (= meerdere tantièmes)</nl>
@@ -267,8 +267,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>9</code>
           <description>
                <nl>Bedienaars van de protestantse, anglicaanse, orthodoxe, israëlitische of islamitische eredienst (= meerdere tantièmes)</nl>
@@ -285,8 +285,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>10</code>
           <description>
                <nl>
@@ -307,7 +307,7 @@
                     ; médiateur de la Communauté germanophone 
                     ; médiateur du service de médiation commun aux Parlements de la Région Wallonne et de la Communauté française 
                     (= tantièmes multiples)
-               </f>
+               </fr>
           </description>
           <DMFA>Yes</DMFA>
           <DMFAAPL>Yes</DMFAAPL>
@@ -320,8 +320,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>11</code>
           <description>
                <nl>Provinciegouverneur of vice-provinciegouverneur; vice-gouverneur van het Brussels Hoofdstedelijk Gewest (= meerdere tantièmes)</nl>
@@ -338,8 +338,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>12</code>
           <description>
                <nl>
@@ -362,8 +362,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>13</code>
           <description>
                <nl>Lid van een personeelscategorie die een tanti�me geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/40)</nl>
@@ -380,8 +380,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>14</code>
           <description>
                <nl>Lid van een personeelscategorie die een tantième geniet dat in een bijzondere regeling wordt bepaald (= tantième 1/45)</nl>
@@ -398,8 +398,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>15</code>
           <description>
                <nl>Burgemeester</nl>
@@ -416,8 +416,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>16</code>
           <description>
                <nl>Schepen</nl>
@@ -434,8 +434,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>17</code>
           <description>
                <nl>Districtburgemeester</nl>
@@ -452,8 +452,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>18</code>
           <description>
                <nl>Districtschepen</nl>
@@ -470,8 +470,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>19</code>
           <description>
                <nl>Lid van de Bestendige Deputatie of de provincieraad</nl>
@@ -488,8 +488,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>20</code>
           <description>
                <nl>Voorzitter van het OCMW of voorzitter van het BCSD</nl>
@@ -506,8 +506,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>21</code>
           <description>
                <nl>Ondervoorzitter van het OCMW</nl>
@@ -524,8 +524,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>22</code>
           <description>
                <nl>Voorzitter of mandataris van de agglomeraties en federaties van gemeenten</nl>
@@ -542,8 +542,8 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-     <worker-category-government>
+     </employee-category-government>
+     <employee-category-government>
           <code>23</code>
           <description>
                <nl>Mandataris van de cultuurcommissies van de Brusselse agglomeratie</nl>
@@ -560,5 +560,5 @@
                <year>9999</year>
                <quarter>4</quarter>
           </end-validity>
-     </worker-category-government>
-</worker-categories-government>
+     </employee-category-government>
+</employee-categories-government>

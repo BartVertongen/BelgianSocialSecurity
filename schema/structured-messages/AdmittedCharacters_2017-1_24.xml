@@ -249,12 +249,12 @@
         <dec-value>37</dec-value>
         <translated></translated>
     </admitted-character>
-    <admitted-character>
+    <!--<admitted-character>
         <char>&</char>
         <hex-value>26</hex-value>
         <dec-value>38</dec-value>
         <translated></translated>
-    </admitted-character>
+    </admitted-character>-->
     <admitted-character>
         <char>(</char>
         <hex-value>28</hex-value>
@@ -303,24 +303,24 @@
         <dec-value>58</dec-value>
         <translated></translated>
     </admitted-character>
-    <admitted-character>
+    <!--<admitted-character>
         <char><</char>
         <hex-value>3C</hex-value>
         <dec-value>60</dec-value>
         <translated></translated>
-    </admitted-character>
+    </admitted-character>-->
     <admitted-character>
         <char>=</char>
         <hex-value>3D</hex-value>
         <dec-value>61</dec-value>
         <translated></translated>
     </admitted-character>
-    <admitted-character>
+    <!--<admitted-character>
         <char>></char>
         <hex-value>3E</hex-value>
         <dec-value>62</dec-value>
         <translated></translated>
-    </admitted-character>
+    </admitted-character>-->
     <admitted-character>
         <char>?</char>
         <hex-value>3F</hex-value>
@@ -520,7 +520,7 @@
         <translated>E</translated>
     </admitted-character>
     <admitted-character>
-        <char>f/char>
+        <char>f</char>
         <hex-value>66</hex-value>
         <dec-value>102</dec-value>
         <translated>F</translated>
