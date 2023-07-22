@@ -42,11 +42,11 @@
         </description>
         <begin-validity>
             <year>2003</year>
-            <quater>1</quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -63,11 +63,11 @@
         </description>
         <begin-validity>
             <year>2003</year>
-            <quater>1</quater>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>2013</year>
-            <quater>4</quater>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -82,7 +82,7 @@
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -93,11 +93,11 @@
         </description>
         <begin-validity>
             <year>2003</year>
-            <quater>1</quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -116,11 +116,11 @@
         </description>
         <begin-validity>
             <year>2003</year>
-            <quater>1</quarter>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -139,11 +139,11 @@
         </description>
         <begin-validity>
             <year>2003</year>
-            <quater>1</quater>
+            <quarter>1</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -164,13 +164,13 @@
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
         <code>13</code>
         <description>
-            <fr>
+            <fr>?????????
             </fr>
             <nl>
                 mindervalide werknemer aangeworven in het kader van een
@@ -180,11 +180,11 @@
         </description>
         <begin-validity>
             <year>2003</year>
-            <quater>3</quater>
+            <quarter>3</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -207,7 +207,7 @@
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -230,7 +230,7 @@
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -270,13 +270,13 @@
                 eerste lid, 2°, van de wet van 24 december 1999
             </nl>
         </description>
-        <Geldig_vanaf>2003/3</Geldig_vanaf>
-        <Geldig_tot>9999/4</Geldig_tot>
-        <begin-validity>01/07/2003
+        <begin-validity>
+            <year>2003</year>
+            <quarter>3</quarter>
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -299,7 +299,7 @@
         </begin-validity>
         <end-validity>
             <year>9999</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
     <employment-measure>
@@ -322,7 +322,7 @@
         </begin-validity>
         <end-validity>
             <year>2004</year>
-            <quater>4</quarter>
+            <quarter>4</quarter>
         </end-validity>
     </employment-measure>
 </employment-measures>

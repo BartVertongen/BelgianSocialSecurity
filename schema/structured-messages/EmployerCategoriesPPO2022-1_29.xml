@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <employer-categories-ppo>
     <employer-category>
         <code>951</code>
@@ -8,8 +7,14 @@
             <nl>Contractuelen - vakantieregeling privésector en arbeidsongevallenregeling openbare sector</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/12/2021</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>952</code>
@@ -18,8 +23,14 @@
             <nl>Contractuelen - vakantieregeling openbare sector en arbeidsongevallenregeling openbare sector</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/12/2021</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>953</code>
@@ -28,8 +39,14 @@
             <nl>Vastbenoemden - gemeenschappelijk pensioenstelsel</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/12/2011</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2011</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>954</code>
@@ -38,8 +55,14 @@
             <nl>Vastbenoemden - pensioenstelsel - nieuwe bij de Rijksdienst aangeslotenen</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/12/2011</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2011</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>955</code>
@@ -48,8 +71,14 @@
             <nl>Vastbenoemden - eigen pensioenstelsel</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/12/2011</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2011</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>956</code>
@@ -58,8 +87,14 @@
             <nl>Vastbenoemden - pensioenstelsel - voorzorgsinstelling</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/12/2011</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2011</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>957</code>
@@ -68,74 +103,116 @@
             <nl>Vastbenoemden - pensioenstelsel - politiepersoneel</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/12/2011</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2011</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
-    <code>958</code>
-    <description>
-        <fr>Catégories spéciales</fr>
-        <nl>Bijzondere categorieën</nl>
-    </description>
-    <presence-code>6</presence-code>
-    <begin-validity>01/01/1900</begin-validity>
-    <end-validity>31/12/2021</end-validity>
+        <code>958</code>
+        <description>
+            <fr>Catégories spéciales</fr>
+            <nl>Bijzondere categorieën</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
-    <code>959</code>
-    <description>
-        <fr>Travailleurs qui ne sont plus en service</fr>
-        <nl>Werknemers die niet meer in dienst zijn</nl>
-    </description>
-    <presence-code>6</presence-code>
-    <begin-validity>01/01/1900</begin-validity>
-    <end-validity>31/12/2021</end-validity>
+        <code>959</code>
+        <description>
+            <fr>Travailleurs qui ne sont plus en service</fr>
+            <nl>Werknemers die niet meer in dienst zijn</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
-    <code>971</code>
-    <description>
-        <fr>Nommés - fonds de pension solidarisé - ex-régime commun</fr>
-        <nl>Vastbenoemden - gesolidariseerd pensioenfonds - ex-gemeenschappelijk pensioenstelsel</nl>
-    </description>
-    <presence-code>6</presence-code>
-    <begin-validity>01/01/2012</begin-validity>
-    <end-validity>31/12/2021</end-validity>
+        <code>971</code>
+        <description>
+            <fr>Nommés - fonds de pension solidarisé - ex-régime commun</fr>
+            <nl>Vastbenoemden - gesolidariseerd pensioenfonds - ex-gemeenschappelijk pensioenstelsel</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>
+            <year>2012</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
-    <code>972</code>
-    <description>
-        <fr>
-            Nommés - fonds de pension solidarisé - ex-régime des nouveaux affiliés
-            + adhérents après le 31-12-2011 au taux supérieur
-        </fr>
-        <nl>Vastbenoemden - gesolidariseerde pensioenfonds -
-            ex-pensioenstelsel nieuwe bij de Rijksdienst aangeslotenen
-            + aangeslotenen na 31-12-2011 met hoge bijdragevoet
-        </nl>
-    </description>
-    <presence-code>6</presence-code>
-    <begin-validity>01/01/2012</begin-validity>
-    <end-validity>31/12/2021</end-validity>
+        <code>972</code>
+        <description>
+            <fr>
+                Nommés - fonds de pension solidarisé - ex-régime des nouveaux affiliés
+                + adhérents après le 31-12-2011 au taux supérieur
+            </fr>
+            <nl>Vastbenoemden - gesolidariseerde pensioenfonds -
+                ex-pensioenstelsel nieuwe bij de Rijksdienst aangeslotenen
+                + aangeslotenen na 31-12-2011 met hoge bijdragevoet
+            </nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>
+            <year>2012</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
-    <code>973</code>
-    <description>
-        <fr>Nommés - fonds de pension solidarisé - police locale</fr>
-        <nl>Vastbenoemden - gesolidariseerde pensioenfonds -  lokale politie</nl>
-    </description>
-    <presence-code>6</presence-code>
-    <begin-validity>01/01/2012</begin-validity>
-    <end-validity>31/12/2021</end-validity>
+        <code>973</code>
+        <description>
+            <fr>Nommés - fonds de pension solidarisé - police locale</fr>
+            <nl>Vastbenoemden - gesolidariseerde pensioenfonds -  lokale politie</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>
+            <year>2012</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
-    <code>974</code>
-    <description>
-        <fr>Nommés - fonds de pension solidarisé - adhérents après le 31-12-2011 au taux inférieur</fr>
-        <nl>Vastbenoemden - gesolidariseerde pensioenfonds - aangeslotenen na 31-12-2011 met lage bijdragevoet</nl>
-    </description>
-    <presence-code>6</presence-code>
-    <begin-validity>01/01/2012</begin-validity>
-    <end-validity>31/12/2021</end-validity>
+        <code>974</code>
+        <description>
+            <fr>Nommés - fonds de pension solidarisé - adhérents après le 31-12-2011 au taux inférieur</fr>
+            <nl>Vastbenoemden - gesolidariseerde pensioenfonds - aangeslotenen na 31-12-2011 met lage bijdragevoet</nl>
+        </description>
+        <presence-code>6</presence-code>
+        <begin-validity>
+            <year>2012</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>975</code>
@@ -144,8 +221,14 @@
             <nl>Vastbenoemden - eigen pensioenstelsel of pensioenstelsel voorzorgsinstelling</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/2012</begin-validity>
-        <end-validity>31/12/2021</end-validity>
+        <begin-validity>
+            <year>2012</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>976</code>
@@ -154,8 +237,14 @@
             <nl>Vastbenoemden - gesolidariseerd pensioenfonds -  ex-voorzorgsinstelling met specifieke bijdragevoet</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/2012</begin-validity>
-        <end-validity>31/12/2021</end-validity>
+        <begin-validity>
+            <year>2012</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>977</code>
@@ -164,8 +253,14 @@
             <nl>Vastbenoemden - pool der parastatalen (wet van 28-4-1958)</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/2015</begin-validity>
-        <end-validity>31/12/2021</end-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>978</code>
@@ -174,8 +269,14 @@
             <nl>Vastbenoemden - pensioen ten laste van Schatkist</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/01/2015</begin-validity>
-        <end-validity>31/12/2021</end-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>981</code>
@@ -184,8 +285,14 @@
             <nl>Contractuelen - vakantieregeling privésector en arbeidsongevallenregeling privésector</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/07/2013</begin-validity>
-        <end-validity>31/12/2021</end-validity>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
     <employer-category>
         <code>982</code>
@@ -194,7 +301,13 @@
             <nl>Contractuelen - vakantieregeling openbare sector en arbeidsongevallenregeling privésector</nl>
         </description>
         <presence-code>6</presence-code>
-        <begin-validity>01/07/2013</begin-validity>
-        <end-validity>31/12/2021</end-validity>
+        <begin-validity>
+            <year>2013</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
     </employer-category>
 </employer-categories-ppo>

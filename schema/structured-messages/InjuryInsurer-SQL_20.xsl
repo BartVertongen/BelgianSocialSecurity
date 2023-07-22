@@ -27,7 +27,7 @@
                 <xsl:value-of select="concat($endYear,'/',$endQuarter)" />
             </xsl:variable>
 
-INSERT INTO functions-ppo (Code, Age, DescriptionNL, DescriptionFR, BeginValidity, EndValidity)
+INSERT INTO injury_insurer (Code, NameNL, NameFR, BeginValidity, EndValidity)
 VALUES("<xsl:value-of select="code"/>"
         , "<xsl:value-of select="name/nl"/>"
         , "<xsl:value-of select="name/fr"/>"

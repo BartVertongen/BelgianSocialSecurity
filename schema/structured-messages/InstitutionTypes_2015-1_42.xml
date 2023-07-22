@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Types van instellingen -->
 <!-- Types d'institutions -->
 <institution-types>
@@ -128,7 +128,10 @@
             <fr>Fédéral - Zones de secours</fr>
             <nl>Federaal - Hulpverleningszones</nl>
         </description>
-        <begin-validity>2015/1</begin-validity>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -170,8 +173,14 @@
             <fr>Région flamande - CPAS</fr>
             <nl>Vlaams Gewest - OCMW</nl>
         </description>
-        <begin-validity>2011/1</begin-validity>
-        <end-validity>9999/4</end-validity>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </institution-type>
     <institution-type>
         <code>22</code>
@@ -359,7 +368,10 @@
             <fr>Région wallonne - Province</fr>
             <nl>Waals Gewest - Provincie</nl>
         </description>
-        <begin-validity>2011/1</begin-validity>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
         <end-validity>
             <year>9999</year>
             <quarter>4</quarter>
@@ -446,8 +458,14 @@
             <fr>Communauté française - Départements</fr>
             <nl>Franse Gemeenschap - Departementen</nl>
         </description>
-        <begin-validity>2011/1</begin-validity>
-        <end-validity>9999/4</end-validity>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </institution-type>
     <institution-type>
         <code>51</code>
@@ -545,8 +563,14 @@
             <fr>Communauté germanophone - Enseignement communautaire</fr>
             <nl>Duitstalige Gemeenschap - Gemeenschapsonderwijs</nl>
         </description>
-        <begin-validity>2011/1</begin-validity>
-        <end-validity>9999/4</end-validity>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </institution-type>
     <institution-type>
         <code>63</code>

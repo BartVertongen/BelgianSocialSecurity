@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Functie nummers voor PPO -->
 <!-- Numéros de fonction pour l'APL -->
-<functions-by-PPO>
-    <function>
+<functions-ppo>
+    <function-ppo>
         <code>20</code>
         <age></age>
         <description>
@@ -17,8 +17,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>21</code>
         <age></age>
         <description>
@@ -39,8 +39,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>23</code>
         <age></age>
         <description>
@@ -61,8 +61,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>24</code>
         <age>/</age>
         <description>
@@ -83,8 +83,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>25</code>
         <age>/</age>
         <description>
@@ -105,8 +105,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>26</code>
         <age>/</age>
         <description>
@@ -127,8 +127,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>27</code>
         <age>/</age>
         <description>
@@ -143,8 +143,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>29</code>
         <age>/</age>
         <description>
@@ -159,8 +159,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>32</code>
         <age>15</age>
         <description>
@@ -175,8 +175,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>33</code>
         <age>16</age>
         <description>
@@ -191,8 +191,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>34</code>
         <age>17</age>
         <description>
@@ -207,8 +207,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>35</code>
         <age>18</age>
         <description>
@@ -223,8 +223,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>36</code>
         <age>19</age>
         <description>
@@ -239,8 +239,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>37</code>
         <age>20</age>
         <description>
@@ -255,8 +255,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>38</code>
         <age>-,21,-,18,18,-,-</age>
         <description>
@@ -271,8 +271,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>39</code>
         <age>21</age>
         <description>
@@ -287,8 +287,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>40</code>
         <age>23</age>
         <description>
@@ -303,8 +303,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>41</code>
         <age>19</age>
         <description>
@@ -319,8 +319,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>43</code>
         <age>15</age>
         <description>
@@ -335,8 +335,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>44</code>
         <age>16</age>
         <description>
@@ -351,8 +351,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>45</code>
         <age>17</age>
         <description>
@@ -367,8 +367,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>46</code>
         <age></age>
         <description>
@@ -383,8 +383,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>47</code>
         <age>19</age>
         <description>
@@ -399,8 +399,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>48</code>
         <age>20</age>
         <description>
@@ -415,8 +415,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>49</code>
         <age>21</age>
         <description>
@@ -437,8 +437,8 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>50</code>
         <age>22</age>
         <description>
@@ -453,18 +453,24 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-    <function>
+    </function-ppo>
+    <function-ppo>
         <code>51</code>
         <age>23</age>
         <description>
             <nl>Maître d'hôtel restaurant, Maître d'hôtel banket, oberkelner roomservice</nl>
             <fr>Maître d'hôtel restaurant, Maître d'hôtel banquet, Maître d'hôtel roomservice</fr>
         </description>
-        <begin-validity>01/01/1900</begin-validity>
-        <end-validity>31/03/2007</end-validity>
-    </function>
-    <function>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </end-validity>
+    </function-ppo>
+    <function-ppo>
         <code>52</code>
         <age></age>
         <description>
@@ -479,6 +485,6 @@
             <year>2007</year>
             <quarter>1</quarter>
         </end-validity>
-    </function>
-</functions-by-PPO>
+    </function-ppo>
+</functions-ppo>
 

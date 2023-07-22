@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="text" indent="yes" encoding="utf-8"/>
     <xsl:template match="/">
-        <xsl:for-each select="employment-measures/employment-measure">
+        <xsl:for-each select="employment-measures-ppo/employment-measure-ppo">
             <xsl:variable name="beginYear">
                 <xsl:value-of select="begin-validity/year"/>
             </xsl:variable>
@@ -26,7 +26,7 @@
             <xsl:variable name="endValidity">
                 <xsl:value-of select="concat($endYear,'/',$endQuarter)" />
             </xsl:variable>
-INSERT INTO employment_measures (Code, DescriptionNL, DescriptionFR
+INSERT INTO employment_measures_ppo (Code, DescriptionNL, DescriptionFR
     , BeginValidity, EndValidity)
 VALUES("<xsl:value-of select="code"/>"
         , "<xsl:value-of select="description/nl"/>"
