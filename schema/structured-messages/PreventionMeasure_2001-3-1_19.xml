@@ -99,8 +99,14 @@
             <fr>Surveillance des méthodes de travail</fr>
             <nl>Toezicht op de arbeidsmethoden.</nl>
         </description>
-        <begin-validity>1/01/1900</begin-validity>
-        <end-validity>1/01/9999</end-validity>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
     </prevention-measure>
     <prevention-measure>
         <code>25</code>

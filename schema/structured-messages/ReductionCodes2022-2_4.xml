@@ -5703,6 +5703,7 @@
         <description>
             <nl>Eerste aanwervingen - eerste werknemer - relanceplan en overgangsmaatregel taxshift - derde periode</nl>
             <fr>Premiers engagements - premier travailleur - plan de relance et mesure transitoire taxshift - troisième période</fr>
+        </description>
         <begin-validity>
             <year>2013</year>
             <quarter>1</quarter>
@@ -6320,7 +6321,7 @@
         <monthly-costs>forbidden</monthly-costs>
         <inss-nbr-replaced>forbidden</inss-nbr-replaced>
         <inss-nbr-authorized>forbidden</inss-nbr-authorized>
-        <origins-certificate>optional</origins-certificate><link-block>
+        <origins-certificate>optional</origins-certificate>
         <link-block>
             <nl>Tewerkstelling van de werknemerslijn</nl>
             <fr>Occupation de la ligne travailleur</fr>
@@ -6805,6 +6806,7 @@
                 Jeunes travailleurs CPE et très peu qualifiés Ou CPE et moins qualifiés handicapés Ou CPE et moins qualifiés 
                 d'origine étrangère
             </fr>
+        </description>
         <begin-validity>
             <year>2017</year>
             <quarter>3</quarter>
@@ -7961,7 +7963,7 @@
         <monthly-costs>forbidden</monthly-costs>
         <inss-nbr-replaced>forbidden</inss-nbr-replaced>
         <inss-nbr-authorized>forbidden</inss-nbr-authorized>
-        <origins-certificate>optional</origins-certificate><link-block>
+        <origins-certificate>optional</origins-certificate>
         <link-block>
             <nl>Tewerkstelling van de werknemerslijn</nl>
             <fr>Occupation de la ligne travailleur</fr>
@@ -8778,6 +8780,7 @@
         <description>
             <nl>Kunstenaars</nl>
             <fr>Artistes</fr>
+        </description>
         <begin-validity>
             <year>2014</year>
             <quarter>1</quarter>
@@ -8845,7 +8848,7 @@
     <reduction-code>
         <code-DMFA>4500</code-DMFA>
         <description>
-            <nl>Werknemers, aangeworven in het kader van art. 60, �7 van de wet van 08.07.1976 betreffende de OCMW's</nl>
+            <nl>Werknemers, aangeworven in het kader van art. 60, §7 van de wet van 08.07.1976 betreffende de OCMW's</nl>
             <fr>Travailleurs engagés dans le cadre de l'article 60 § 7 de la loi organique des CPAS du 08.07.1976</fr>
         </description>
         <begin-validity>
@@ -8882,7 +8885,7 @@
         <description>
             <nl>
                 Overgangsmaatregel  - activaplan - langdurig werkzoekenden jonger dan 25 year 312 dagen in periode van 18 maanden 
-                of jonger dan 45 year 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden 
+                of jonger dan 45 jaar 312 dagen in periode van 18 maanden of 156 dagen in periode van 9 maanden voor de werkzoekenden 
                 na een sluiting van een onderneming  RVA code : C1, C20, C25, C30, C34 of C36
             </nl>
             <fr>

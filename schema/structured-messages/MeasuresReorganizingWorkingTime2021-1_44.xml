@@ -20,10 +20,10 @@
                <year>2003</year>
                <quarter>1</quarter>
           </begin-validity>
-        <end-validity>
-            <year>9999</year>
-            <quarter>4</quarter>
-        </end-validity>
+          <end-validity>
+               <year>9999</year>
+               <quarter>4</quarter>
+          </end-validity>
      </measure-reorganizing-working-time>
      <measure-reorganizing-working-time>
           <code>1</code>
@@ -32,7 +32,7 @@
                     Maatregel tot vermindering van de arbeidstijd in het kader van een plan voor de herverdeling van 
                     de arbeid goedgekeurd door de Minister van Tewerkstelling en Arbeid.
                </nl>
-               <fr>     
+               <fr>
                     Mesure de réduction du temps de travail dans le cadre d'un plan de redistribution du travail approuvé par 
                     le Ministre de l'emploi et du travail
                </fr>
@@ -44,10 +44,10 @@
                <year>2005</year>
                <quarter>1</quarter>
           </begin-validity>
-        <end-validity>
+          <end-validity>
                <year>2005</year>
                <quarter>3</quarter>
-        </end-validity>
+          </end-validity>
      </measure-reorganizing-working-time>
      <measure-reorganizing-working-time>
           <code>2</code>
@@ -92,10 +92,10 @@
                <year>2003</year>
                <quarter>1</quarter>
           </begin-validity>
-        <end-validity>
+          <end-validity>
                <year>9999</year>
                <quarter>4</quarter>
-        </end-validity>
+          </end-validity>
      </measure-reorganizing-working-time>
      <measure-reorganizing-working-time>
           <code>4</code>
@@ -116,10 +116,10 @@
                <year>2003</year>
                <quarter>1</quarter>
           </begin-validity>
-        <end-validity>
+          <end-validity>
                <year>9999</year>
                <quarter>4</quarter>
-        </end-validity>
+          </end-validity>
      </measure-reorganizing-working-time>
      <measure-reorganizing-working-time>
           <code>5</code>
