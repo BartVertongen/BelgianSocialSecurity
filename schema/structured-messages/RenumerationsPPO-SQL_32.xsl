@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="text" indent="yes" encoding="utf-8"/>
     <xsl:template match="/">
-        <xsl:for-each select="reduction-codes-ppo/reduction-code-ppo">
+        <xsl:for-each select="renumerations-ppo/renumeration-ppo">
             <xsl:variable name="beginYear">
                 <xsl:value-of select="begin-validity/year"/>
             </xsl:variable>
@@ -27,23 +27,14 @@
                 <xsl:value-of select="concat($endYear,'/',$endQuarter)" />
             </xsl:variable>
 
-INSERT INTO reduction_codes_ppo (CodeDMFA, DescriptionNL, DescriptionFR, RegionNL, RegionFR
-    , FlemishRegion, BrusselsRegion, WalloonRegion, WalloonAndGermanRegion
-    , Amount, StartRight, LinkBlockNL, LinkBlockFR
-    , BeginValidity, EndValidity)
-VALUES("<xsl:value-of select="code-DMFA"/>"
+INSERT INTO remunerations (Code, CodePPL, CategoryNL, CategoryFR
+    , DescriptionNL, DescriptionFR, BeginValidity, EndValidity)
+VALUES("<xsl:value-of select="code"/>"
+        , "<xsl:value-of select="code-PPL"/>"
+        , "<xsl:value-of select="category/nl"/>"
+        , "<xsl:value-of select="category/fr"/>"
         , "<xsl:value-of select="description/nl"/>"
         , "<xsl:value-of select="description/fr"/>"
-        , "<xsl:value-of select="region/nl"/>"
-        , "<xsl:value-of select="region/fr"/>"
-        , "<xsl:value-of select="flemish-region"/>"
-        , "<xsl:value-of select="brussels-region"/>"
-        , "<xsl:value-of select="walloon-region"/>"
-        , "<xsl:value-of select="walloon-and-german-region"/>"
-        , "<xsl:value-of select="amount"/>"
-        , "<xsl:value-of select="start-right"/>"
-        , "<xsl:value-of select="link-block/nl"/>"
-        , "<xsl:value-of select="link-block/fr"/>"
         , "<xsl:value-of select="$beginValidity"/>"
         , "<xsl:value-of select="$endValidity"/>");
         </xsl:for-each>

@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bezoldingingen -->
+<!-- rémunérations -->
+<!-- remunerations -->
+<remunerations>
+    <remuneration>
+        <code>1</code>
+        <description>
+            <nl>
+                Alle bedragen die steeds als loon worden beschouwd,
+                met uitzondering van de vergoedingen die onder een andere code worden vermeld.
+            </nl>
+            <fr>
+                Tous les montants qui sont toujours considérés comme rémunération
+                , à l'exception des indemnités mentionnées sous un autre code.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>2</code>
+        <description>
+            <nl>
+                Premies en gelijkaardige voordelen die worden toegekend onafhankelijk van het aantal effectief gewerkte dagen
+                in het aangiftekwartaal.
+            </nl>
+            <fr>
+                Les primes et les avantages similaires accordés indépendamment du nombre de journées
+                de travail prestées effectivement durant le trimestre de la déclaration.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>3</code>
+        <description>
+            <nl>
+                Vergoedingen betaald aan de werknemer in geval van beëindiging van de arbeidsovereenkomst
+                die worden uitgedrukt in arbeidstijd.
+            </nl>
+            <fr>
+                Les indemnités qui sont payées au travailleur lorsqu'il est mis fin au contrat de travail
+                et qui sont exprimées en temps de travail.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>4</code>
+        <description>
+            <nl>Vergoedingen betaald aan de werknemer in geval van beëindiging van de arbeidsovereenkomst die niet worden uitgedrukt in arbeidstijd.</nl>
+            <fr>Indemnités qui sont payées au travailleur lorsqu'il est mis fin au contrat de travail et qui ne sont pas exprimées en temps de travail.</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>5</code>
+        <description>
+            <nl>Premies die de werknemer ontvangt omdat hij, in het raam van maatregelen tot herverdeling van de arbeid, zijn arbeidsprestaties heeft beperkt.</nl>
+            <fr>Primes reçues par le travailleur qui limite ses prestations de travail dans le cadre des mesures de redistribution du travail.</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>6</code>
+        <description>
+            <nl>
+                Vergoedingen voor uren die geen arbeidstijd zijn in de zin van de arbeidswet van 16 maart 1971
+                , toegekend ingevolge een CAO gesloten in de schoot van een paritair orgaan vòòr 1 januari 1994
+                en algemeen verbindend verklaard bij koninklijk besluit.
+            </nl>
+            <fr>
+                Indemnités pour les heures qui ne constituent pas un temps de travail au sens de la loi du 16 mars 1971 sur le travail
+                , accordées en vertu d'une convention collective de travail conclue au sein d'un organe paritaire 
+                avant le 1er janvier 1994 et rendue obligatoire par arrêté royal.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>7</code>
+        <description>
+            <nl>Enkel vertrekvakantiegeld, uitbetaald aan bedienden, onderhevig aan bijdragen.</nl>
+            <fr>Pécule simple de vacances de sortie payé aux employés et soumis aux cotisations.</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>8</code>
+        <description>
+            <nl>
+                Supplement voor tewerkstelling van een gelegenheidswerknemer uit de Horeca op een zaterdag
+                , een dag voor een feestdag, een zondag of een feestdag.
+            </nl>
+            <fr>
+                Supplément pour occupation d'un travailleur occasionnel de l'Horeca un samedi
+                , une veille de jour férié, un dimanche ou un jour férié.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>3</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2013</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>9</code>
+        <description>
+            <nl>
+                Vergoedingen betaald aan de statutaire ambtenaar in geval van beëindiging van de arbeidsrelatie
+                , die worden uitgedrukt in arbeidstijd.
+            </nl>
+            <fr>
+                Les indemnités qui sont payées au fonctionnaire statutaire lorsqu'il est mis fin à la relation de travail
+                et qui sont exprimées en temps de travail.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2004</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>10</code>
+        <description>
+            <nl>
+                Voordeel van alle aard op persoonlijk gebruik bedrijfswagen of, tot en met 31/12/2020
+                , op de mobiliteitsvergoeding in ruil voor het inleveren van een bedrijfswagen
+                of op de milieuvriendelijke bedrijfswagen in het kader van het mobiliteitsbudget.
+            </nl>
+            <fr>
+                Avantage de toute nature sur l'utilisation personnelle d'un véhicule de société ou
+                , jusqu'au 31/12/2020, sur l'allocation de mobilité contre restitution d'un véhicule
+                de société ou sur le véhicule de société respectueux de l'environnement dans le cadre du budget de mobilité.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>11</code>
+        <description>
+            <nl>Enkel vertrekvakantiegeld, uitbetaald aan bedienden, niet onderhevig aan bijdragen.</nl>
+            <fr>Pécule simple de vacances de sortie payé aux employés et non soumis aux cotisations.</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>12</code>
+        <description>
+            <nl>
+                Gedeelte van het enkel vakantiegeld dat overeenstemt met het normale loon voor de vakantiedagen
+                en dat vervroegd werd uitbetaald door de vorige werkgever en dat niet onderhevig is aan bijdragen.
+            </nl>
+            <fr>
+                Partie du pécule simple de vacances qui correspond au salaire normal des jours de vacances
+                et qui a été payé anticipativement par l'employeur précédent et non soumis aux cotisations.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2007</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>13</code>
+        <description>
+            <nl>Vergoedingen voor niet te recupereren overuren die vrijgesteld zijn van socialezekerheidsbijdragen</nl>
+            <fr>Indemnités pour les heures supplémentaires à ne pas récupérer et non soumises aux cotisations de sécurité sociale</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>20</code>
+        <description>
+            <nl>
+                Specifieke looncomponenten die voor gepensioneerden als loon worden beschouwd 
+                voor de toepassing van de regels inzake de cumulatie van een rust- en overlevingspensioen 
+                met inkomen uit beroepsarbeid.
+            </nl>
+            <fr>
+                Eléments constitutifs spécifiques de la rémunération qui sont considérés
+                comme rémunération dans le cas des pensionnés pour l'application des règles 
+                en matière de cumul d'une pension de retraite et de survie 
+                et un revenu résultant d'une activité professionnelle.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>21</code>
+        <description>
+            <nl>Voordelen niet onderworpen aan de gewone RSZ-bijdragen.</nl>
+            <fr>Avantages non soumis aux cotisations ONSS ordinaires.</fr>
+        </description>
+        <DMFA>No</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>2021</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>21</code>
+        <description>
+            <nl>Voordelen niet onderworpen aan de gewone RSZ-bijdragen.</nl>
+            <fr>Avantages non soumis aux cotisations ONSS ordinaires.</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>22</code>
+        <description>
+            <nl>Flexiloon</nl>
+            <fr>Rémunération Flexi</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>23</code>
+        <description>
+            <nl>Premies betaald aan een flexijob-werknemer</nl>
+            <fr>Primes payées à un travailleur flexijob</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2015</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>24</code>
+        <description>
+            <nl>Voordelen niet onderworpen aan de gewone RSZ-bijdragen die in aanmerking komen voor subsidies</nl>
+            <fr>Avantages non soumis aux cotisations ONSS ordinaires pris en compte pour les subsides</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>25</code>
+        <description>
+            <nl>Tussenkomst voor verplaatsingen in opdracht</nl>
+            <fr>Intervention pour les déplacements en mission</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>26</code>
+        <description>
+            <nl>Door werkgever ontvangen premies en/of subsidies andere dan sociale Maribel</nl>
+            <fr>Primes et/ou subsides autres que Maribel social perçus par l'employeur</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>4</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>27</code>
+        <description>
+            <nl>Vergoeding voor een federaal of regionaal parlements- of regeringslid of van een beschermde lokale mandataris</nl>
+            <fr>Indemnité pour un membre d'un parlement ou d'un gouvernement fédéral ou régional ou d'un mandataire local protégé</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>28</code>
+        <description>
+            <nl>Uittredingvergoeding van een lid van een parlement, een regering, een Bestendige Deputatie of provinciecollege</nl>
+            <fr>Indemnité de sortie d'un membre d'un parlement, d'un gouvernement, d'une Députation permanente ou d'un collège provincial</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>29</code>
+        <description>
+            <nl>Saldo van het mobiliteitsbudget uitbetaald in geld en dat overeenstemt met de 3de pijler</nl>
+            <fr>Solde du budget mobilité versé en espèces et qui correspond au 3ème pilier</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>30</code>
+        <description>
+            <nl>Gewaarborgd loon tweede week.</nl>
+            <fr>Salaire garanti deuxième semaine.</fr>
+        </description>
+        <DMFA>No</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>31</code>
+        <description>
+            <nl>Vergoeding CAO 12bis/13bis.</nl>
+            <fr>Indemnité CCT 12bis/13bis.</fr>
+        </description>
+        <DMFA>No</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>32</code>
+        <description>
+            <nl>Nettoloon activeringsprogramma's.</nl>
+            <fr>Rémunération nette programmes d'activation.</fr>
+        </description>
+        <DMFA>No</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>33</code>
+        <description>
+            <nl>Bruto bezoldiging voor een deeltijdse werknemer met inkomensgarantie -uitkering.</nl>
+            <fr>Rémunération brute pour un travailleur à temps partiel bénéficiant d'une allocation de garantie de revenus.</fr>
+        </description>
+        <DMFA>No</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>1900</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>41</code>
+        <description>
+            <nl>Vergoeding voor aanvullende verantwoordelijkheden van een federaal of regionaal parlements- of regeringslid</nl>
+            <fr>Indemnité pour responsabilités supplémentaires d'un membre du parlement/gouvernement fédéral ou régional</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>No</ADRS>
+        <begin-validity>
+            <year>2019</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>42</code>
+        <description>
+            <nl>
+                Deel van het loon (10%) van de in het kader van een startbaanovereenkomst tewerkgestelde werknemer 
+                dat door de werkgever wordt besteed aan zijn opleiding
+            </nl>
+            <fr>
+                Partie de la rémunération (10%) réservée à la formation des travailleurs engagés
+                dans le cadre des conventions de 1er emploi
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>43</code>
+        <description>
+            <nl>
+                Premies, toelagen en vergoedingen betaald aan een contractueel of statutair personeelslid
+                van de lokale politie die in aanmerking komen voor sociale toelage II, m.u.v. de eindejaarspremie
+                - onderworpen aan overheidspensioenbijdrage
+            </nl>
+            <fr>
+                Primes, allocations et indemnités payées àun travailleur contractuel ou statutaire de la police locale
+                qui sont prises en compte pour la dotation sociale II, à l'exception de la prime de fin d'année
+                - soumis à la cotisation pension public
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>44</code>
+        <description>
+            <nl>
+                Premies, toelagen en vergoedingen betaald aan een statutair personeelslid van de lokale politie
+                die in aanmerking komen voor sociale toelage II, m.u.v. de eindejaarspremie
+                - vrijgesteld van overheidspensioenbijdrage
+            </nl>
+            <fr>
+                Primes, allocations et indemnités payées à un travailleur statutaire de la police locale
+                qui sont prises en compte pour la dotation sociale II, à l'exception de la prime de fin d'année
+                - exonéré de la cotisation pension public
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>45</code>
+        <description>
+            <nl>Onderworpen eindejaarspremie van lokale politie</nl>
+            <fr>Prime de fin d'année soumise de la police locale</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>46</code>
+        <description>
+            <nl>
+                Voordelen niet onderworpen aan de gewone RSZ-bijdragen die in aanmerking komen voor subsidies
+                uitbetaald door het Fonds Sociale Maribel voor de Overheidssector
+                , met uitzondering van de elementen aangegeven onder een andere code.
+            </nl>
+            <fr>
+                Avantages non soumis aux cotisations ONSS ordinaires, qui entrent en ligne de compte pour des subsides
+                versés par le Fonds Maribel Social pour le secteur public, à l'exception des éléments déclarés sous un autre code.
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>47</code>
+        <description>
+            <nl>Vergoeding voor overdracht van auteursrechten en naburige rechten</nl>
+            <fr>Indemnité pour la cession des droits d’auteur et de droits voisins</fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2018</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>51</code>
+        <description>
+            <nl>
+                Vergoeding betaald aan een vastbenoemd personeelslid dat volledig afwezig is
+                in het kader van een maatregel tot reorganisatie van de arbeidstijd
+            </nl>
+            <fr>
+                Indemnité payée à un membre du personnel nommé à titre définitif qui est totalement absent
+                dans le cadre d'une mesure de réorganisation du temps de travail
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2011</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>61</code>
+        <description>
+            <nl>
+                Alle bedragen betaald aan een statutair personeelslid die steeds als loon worden beschouwd
+                , met uitzondering van de vergoedingen die onder een andere code worden vermeld
+                - vrijgesteld van overheidspensioenbijdrage
+            </nl>
+            <fr>
+                Tous les montants payés à un travailleur statutaire qui sont toujours considérés comme rémunération
+                , à l'exception des indemnités mentionnées sous un autre code
+                - exonéré de la cotisation de pension secteur public
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>62</code>
+        <description>
+            <nl>
+                Premies en gelijkaardige voordelen betaald aan een statutair personeelslid 
+                die worden toegekend onafhankelijk van het aantal effectief gewerkte dagen in het aangiftekwartaal
+                - vrijgesteld van overheidspensioenbijdrage
+            </nl>
+            <fr>
+                Les primes et les avantages similaires payés à un travailleur statutaire accordés indépendamment
+                du nombre de journées de travail prestées effectivement durant le trimestre de la déclaration
+                - exonéré de la cotisation de pension secteur public
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>65</code>
+        <description>
+            <nl>
+                Premies die een statutair personeelslid ontvangt omdat hij
+                , in het raam van maatregelen tot herverdeling van de arbeid
+                , zijn arbeidsprestaties heeft beperkt - vrijgesteld van overheidspensioenbijdrage
+            </nl>
+            <fr>
+                Primes reçues par le travailleur statutaire qui limite ses prestations de travail dans le cadre
+                des mesures de redistribution du travail - exonéré de la cotisation de pension secteur public
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>66</code>
+        <description>
+            <nl>
+                Vergoeding betaald aan een vastbenoemd personeelslid dat volledig afwezig
+                is in het kader van een maatregel tot reorganisatie van de arbeidstijd
+                - vrijgesteld van overheidspensioenbijdrage
+            </nl>
+            <fr>
+                Indemnité payée à un membre du personnel nommé à titre définitif qui est totalement absent dans 
+                le cadre d'une mesure de réorganisation du temps de travail
+                - exonéré de la cotisation de pension secteur public
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+    <remuneration>
+        <code>67</code>
+        <description>
+            <nl>
+                Alle bedragen betaald aan een statutair personeelslid vrijgesteld van socialezekerheidsbijdrage
+                en onderworpen aan overheidspensioenbijdrage, die niet onder een andere code vermeld worden
+            </nl>
+            <fr>
+                Tous les montants payés à un travailleur statutaire exonérés de la cotisation sécurité sociale
+                et soumis à la cotisation de pension secteur public
+            </fr>
+        </description>
+        <DMFA>Yes</DMFA>
+        <ADRS>Yes</ADRS>
+        <begin-validity>
+            <year>2022</year>
+            <quarter>1</quarter>
+        </begin-validity>
+        <end-validity>
+            <year>9999</year>
+            <quarter>4</quarter>
+        </end-validity>
+    </remuneration>
+</remunerations>

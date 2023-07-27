@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<renumerations-PPO>
-     <renumeration-PPO>
+<renumerations-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Aangepast loon bij ziekte of ongeval</nl>
                <fr>Salaire garanti en cas de maladie ou d'accident</fr>
@@ -17,7 +17,7 @@
                     die ten minste een maand anciënniteit hebben en die zich ofwel bevinden in een proeftijd
                     , ofwel werden aangeworven voor een bepaalde tijd van minder dan drie maanden
                     , ofwel werden aangeworven voor een duidelijk omschreven werk dat niet langer duurt dan drie maanden
-               <nl>
+               </nl>
                <fr>
                     Maladie ou accident : l'indemnité correspondant à 60% de la partie de la rémunération normale ne dépassant 
                     pas le montant limite entrant en ligne de compte pour le calcul de l'indemnité d'assurance maladie 
@@ -35,8 +35,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Aangepast loon bij ziekte of ongeval</nl>
                <fr>Salaire garanti en cas de maladie ou d'accident</fr>
@@ -62,8 +62,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Aangepast loon bij ziekte of ongeval</nl>
                <fr>Salaire garanti en cas de maladie ou d'accident</fr>
@@ -82,8 +82,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Aangifte Sociaal Risico - exact loon</nl>
                <fr>Déclaration Risque Social - salaire exact</fr>
@@ -102,8 +102,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Aangifte Sociaal Risico - exact loon</nl>
                <fr>Déclaration Risque Social - salaire exact</fr>
@@ -122,8 +122,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Aangifte Sociaal Risico - exact loon</nl>
                <fr>Déclaration Risque Social - salaire exact</fr>
@@ -142,8 +142,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Aangifte Sociaal Risico - exact loon</nl>
                <fr>Déclaration Risque Social - salaire exact</fr>
@@ -162,8 +162,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Aangifte Sociaal Risico - exact loon</nl>
                <fr>Déclaration Risque Social - salaire exact</fr>
@@ -182,8 +182,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Basisloon</nl>
                <fr>Salaire de base</fr>
@@ -202,8 +202,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Basisloon</nl>
                <fr>Salaire de base</fr>
@@ -228,8 +228,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Basisloon</nl>
                <fr>Salaire de base</fr>
@@ -254,8 +254,8 @@
                <year>2010</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Basisloon</nl>
                <fr>Salaire de base</fr>
@@ -280,8 +280,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Basisloon</nl>
                <fr>Salaire de base</fr>
@@ -306,8 +306,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Basisloon</nl>
                <fr>Salaire de base</fr>
@@ -332,8 +332,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Basisloon</nl>
                <fr>Salaire de base</fr>
@@ -358,8 +358,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Beroepsziekten - publieke sector</nl>
                <fr>Maladies professionnelles - secteur public</fr>
@@ -384,8 +384,8 @@
                <year>2019</year>
                <quarter>2</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -404,8 +404,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -424,8 +424,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -450,8 +450,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -470,8 +470,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -490,8 +490,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -516,8 +516,8 @@
                <year>2018</year>
                <quarter>3</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -542,8 +542,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -568,8 +568,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -588,8 +588,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -608,8 +608,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -628,8 +628,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -648,8 +648,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -668,8 +668,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -688,8 +688,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -708,8 +708,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -728,8 +728,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -754,8 +754,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -774,8 +774,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -800,8 +800,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -826,8 +826,8 @@
                <year>2018</year>
                <quarter>3</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -852,8 +852,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -872,8 +872,8 @@
                <year>2018</year>
                <quarter>3</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -892,8 +892,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -912,8 +912,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -938,8 +938,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -964,8 +964,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -992,8 +992,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1015,8 +1015,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1035,8 +1035,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1055,8 +1055,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1075,8 +1075,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1095,8 +1095,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1115,8 +1115,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1135,8 +1135,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1155,8 +1155,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1175,8 +1175,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1195,8 +1195,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1215,8 +1215,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1235,8 +1235,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1261,8 +1261,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1281,8 +1281,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1307,8 +1307,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1327,8 +1327,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1353,8 +1353,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1381,8 +1381,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1407,8 +1407,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen van algemene aard</nl>
                <fr>Indemnités supplémentaires de nature générale</fr>
@@ -1430,8 +1430,8 @@
                <year>2017</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
@@ -1456,8 +1456,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
@@ -1484,8 +1484,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
@@ -1510,8 +1510,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
@@ -1530,8 +1530,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - beroepspersoneel van de hulpverleningszones</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel professionnel des zones de secours</fr>
@@ -1558,8 +1558,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - geneesheren</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - médecins</fr>
@@ -1578,8 +1578,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - geneesheren</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - médecins</fr>
@@ -1598,8 +1598,8 @@
                <year>2010</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - geneesheren</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - médecins</fr>
@@ -1618,8 +1618,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
@@ -1644,8 +1644,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
@@ -1672,8 +1672,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
@@ -1698,8 +1698,8 @@
                <year>2009</year>
                <quarter>1</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
@@ -1724,8 +1724,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
@@ -1751,8 +1751,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
@@ -1776,8 +1776,8 @@
                <year>2010</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - personeel van de onderwijsinstellingen</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel des établissements d'enseignement</fr>
@@ -1802,8 +1802,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
@@ -1822,8 +1822,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
@@ -1842,8 +1842,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
@@ -1865,8 +1865,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
@@ -1885,8 +1885,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
@@ -1905,8 +1905,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
@@ -1925,8 +1925,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
@@ -1945,8 +1945,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (nouveau statut)</fr>
@@ -1965,8 +1965,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>
                     Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (nieuw statuut)
@@ -1998,8 +1998,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>
                     Bijkomende vergoedingen voor specifieke personeelscategorieën 
@@ -2030,8 +2030,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
@@ -2056,8 +2056,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
@@ -2084,8 +2084,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
@@ -2110,8 +2110,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
@@ -2137,8 +2137,8 @@
                <year>2008</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
@@ -2165,8 +2165,8 @@
                <year>2008</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - politiepersoneel (oud statuut)</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel de police (ancien statut)</fr>
@@ -2191,8 +2191,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
@@ -2217,8 +2217,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
@@ -2243,8 +2243,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
@@ -2269,8 +2269,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
@@ -2295,8 +2295,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
@@ -2315,8 +2315,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
@@ -2341,8 +2341,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
@@ -2361,8 +2361,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
@@ -2387,8 +2387,8 @@
                <year>2006</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - verplegend en verzorgend personeel</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - personnel infirmier et soignant</fr>
@@ -2413,8 +2413,8 @@
                <year>2006</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>
                     Bijkomende vergoedingen voor specifieke personeelscategorieën 
@@ -2445,8 +2445,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>
                     Bijkomende vergoedingen voor specifieke personeelscategorieën 
@@ -2477,8 +2477,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Bijkomende vergoedingen voor specifieke personeelscategorieën - vrijwillige brandweerlieden en vrijwillige ambulanciers</nl>
                <fr>Indemnités supplémentaires pour catégories spécifiques de personnel - pompiers volontaires et ambulanciers volontaires</fr>
@@ -2503,8 +2503,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2523,8 +2523,8 @@
                <year>2008</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2549,8 +2549,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2569,8 +2569,8 @@
                <year>2018</year>
                <quarter>3</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2589,8 +2589,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2615,8 +2615,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2635,8 +2635,8 @@
                <year>2018</year>
                <quarter>3</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2655,8 +2655,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2681,8 +2681,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2701,8 +2701,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2727,8 +2727,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2753,8 +2753,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2779,8 +2779,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2799,8 +2799,8 @@
                <year>2018</year>
                <quarter>3</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2819,8 +2819,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2839,8 +2839,8 @@
                <year>2018</year>
                <quarter>3</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2859,8 +2859,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2879,8 +2879,8 @@
                <year>2018</year>
                <quarter>3</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vakantiegeld</nl>
                <fr>Pécule de vacances</fr>
@@ -2899,8 +2899,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen bij éénzijdige beëindiging van de dienstbetrekking</nl>
                <fr>Indemnités pour rupture unilatérale de la relation de travail</fr>
@@ -2925,8 +2925,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen bij éénzijdige beëindiging van de dienstbetrekking</nl>
                <fr>Indemnités pour rupture unilatérale de la relation de travail</fr>
@@ -2945,8 +2945,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen bij éénzijdige beëindiging van de dienstbetrekking</nl>
                <fr>Indemnités pour rupture unilatérale de la relation de travail</fr>
@@ -2971,8 +2971,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -2991,8 +2991,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3019,8 +3019,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-          <renumeration-PPO>
+     </renumeration-ppo>
+          <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3039,8 +3039,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3065,8 +3065,8 @@
                <year>2011</year>
                <quarter>3</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3085,8 +3085,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3111,8 +3111,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3134,8 +3134,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3160,8 +3160,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3186,8 +3186,8 @@
                <year>2021</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3212,8 +3212,8 @@
                <year>2019</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3238,8 +3238,8 @@
                <year>2019</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3264,8 +3264,8 @@
                <year>2019</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-     <renumeration-PPO>
+     </renumeration-ppo>
+     <renumeration-ppo>
           <category>
                <nl>Vergoedingen waarop een bijzondere bijdrage verschuldigd is</nl>
                <fr>Indemnités assujetties à une cotisation spéciale</fr>
@@ -3290,6 +3290,6 @@
                <year>2019</year>
                <quarter>4</quarter>
           </end-validity>
-     </renumeration-PPO>
-</renumerations-PPO>
+     </renumeration-ppo>
+</renumerations-ppo>
 
