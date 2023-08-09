@@ -17,7 +17,7 @@
      <!ELEMENT ExtraBeperkingen (#PCDATA)>
      <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
 ]>
-<List>
+<AMI1-20231>
      <FunctionalBlock>
           <Code>90074</Code>
           <Versie>2023/1</Versie>
@@ -183,65 +183,571 @@
      </FunctionalBlock>
      <FunctionalBlock>
           <Code>90552</Code>
-          <Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Berekeningsbasis Overuren - Horeca</Naam><Zones>00405 - TIJDSEENHEID LOON VOOR OVERUREN</Zones><Zones>01161 - DATUM BEGIN � PERIODE MET OVERUREN</Zones><Zones>01162 - DATUM EIND � PERIODE MET OVERUREN</Zones><Zones>00406 - BEDRAG VAN HET LOON VOOR OVERUREN</Zones><XmlLabel>HorecaSupplHoursCalculBase</XmlLabel><Omschrijving>Functioneel blok dat toelaat de overuren in de Horecasector aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit 1: 1 VERPLICHT INDIEN de werkne(e)ms(t)er tewerkgesteld is in de horecasector en overuren presteert volgens het artikel 3,5� van de wet van 16 november 2015 houdende diverse bepalingen inzake sociale zaken (niet recupereerbaar en niet onderworpen aan sociale zekerheidsbijdragen).
-     Enkel voor risico's die vanaf 30 december 2016 aanvangen.
-     Verboden voor de risico's die voor 30 december 2016 aanvangen.</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90552-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90552-211</AnomalieCode><AnomalieTitel>Onverenigbaar met het type werkgever</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90552-023</AnomalieCode><AnomalieTitel>Onverenigbaarheid met het risico</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90552-025</AnomalieCode><AnomalieTitel>Onverenigbaar met werkgeverscategorie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Berekeningsbasis Overuren - Horeca</Naam>
+          <Zones>00405 - TIJDSEENHEID LOON VOOR OVERUREN</Zones>
+          <Zones>01161 - DATUM BEGIN - PERIODE MET OVERUREN</Zones>
+          <Zones>01162 - DATUM EIND - PERIODE MET OVERUREN</Zones>
+          <Zones>00406 - BEDRAG VAN HET LOON VOOR OVERUREN</Zones>
+          <XmlLabel>HorecaSupplHoursCalculBase</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de overuren in de Horecasector aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>
+               Kardinaliteit 1: 1 VERPLICHT INDIEN de werkne(e)ms(t)er tewerkgesteld is in de horecasector
+                    en overuren presteert volgens het artikel 3,5§ van de wet van 16 november 2015 
+                    houdende diverse bepalingen inzake sociale zaken 
+                    (niet recupereerbaar en niet onderworpen aan sociale zekerheidsbijdragen).
+                    Enkel voor risico's die vanaf 30 december 2016 aanvangen.
+                    Verboden voor de risico's die voor 30 december 2016 aanvangen.
+          </Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90552-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90552-211</AnomalieCode>
+               <AnomalieTitel>Onverenigbaar met het type werkgever</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90552-023</AnomalieCode>
+               <AnomalieTitel>Onverenigbaarheid met het risico</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90552-025</AnomalieCode>
+               <AnomalieTitel>Onverenigbaar met werkgeverscategorie</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90553</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Berekeningsbasis Overuren - Niet-Horeca</Naam><Zones>00405 - TIJDSEENHEID LOON VOOR OVERUREN</Zones><Zones>01161 - DATUM BEGIN � PERIODE MET OVERUREN</Zones><Zones>01162 - DATUM EINDE � PERIODE MET OVERUREN</Zones><Zones>00406 - BEDRAG VAN HET LOON VOOR OVERUREN</Zones><XmlLabel>NonHorecaSupplHoursCalculBase</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven van de overuren, andere dan deze in de Horecasector, voor zover het loon van de overuren minstens 10% van het totale loon van de referteperiode bedraagt.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit 1: 1 VERPLICHT INDIEN het loon van de overuren minstens 10% van het totale loon van de referteperiode bedraagt en het bedrag ervan niet binnen het functioneel blok 90552 (Berekeningsbasis Overuren - Horeca) aangegeven mag worden.
-     Enkel voor risico's die vanaf 30 december 2016 aanvangen.
-     Verboden voor de risico's die voor 30 december 2016 aanvangen.</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90553-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90553-023</AnomalieCode><AnomalieTitel>Onverenigbaarheid met het risico</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90553</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Berekeningsbasis Overuren - Niet-Horeca</Naam>
+          <Zones>00405 - TIJDSEENHEID LOON VOOR OVERUREN</Zones>
+          <Zones>01161 - DATUM BEGIN - PERIODE MET OVERUREN</Zones>
+          <Zones>01162 - DATUM EINDE - PERIODE MET OVERUREN</Zones>
+          <Zones>00406 - BEDRAG VAN HET LOON VOOR OVERUREN</Zones>
+          <XmlLabel>NonHorecaSupplHoursCalculBase</XmlLabel>
+          <Omschrijving>
+               Functioneel blok dat toelaat de gegevens aan te geven van de overuren
+               , andere dan deze in de Horecasector
+               , voor zover het loon van de overuren minstens 10% van het totale loon van de referteperiode bedraagt.
+          </Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>
+               Kardinaliteit 1: 1 VERPLICHT INDIEN het loon van de overuren minstens 10% van het totale loon
+               van de referteperiode bedraagt en het bedrag ervan niet binnen het functioneel blok 90552
+               (Berekeningsbasis Overuren - Horeca) aangegeven mag worden.
+               Enkel voor risico's die vanaf 30 december 2016 aanvangen.
+               Verboden voor de risico's die voor 30 december 2016 aanvangen.
+          </Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90553-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90553-023</AnomalieCode>
+               <AnomalieTitel>Onverenigbaarheid met het risico</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90032</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Berekeningsbasis van de uitkeringen</Naam><Zones>00189 - TIJDSEENHEID VAN DE BEZOLDIGING</Zones><Zones>00190 - CYCLUS</Zones><Zones>00191 - BASISBEDRAG VAN DE BEZOLDIGING</Zones><Zones>00192 - BASISBEDRAG VAN DE BEZOLDIGING VOOR WERKNEMERS DIE PER UUR BETAALD WORDEN</Zones><Zones>01160 - AANDUIDING STABIELE TEWERKSTELLING</Zones><XmlLabel>CalculationBaseAllowance</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens van de berekeningsbasis van de uitkeringen aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90013</NrGelinktBlok><NrGelinktBlok>90014</NrGelinktBlok><NrGelinktBlok>90552</NrGelinktBlok><NrGelinktBlok>90553</NrGelinktBlok><NrGelinktBlok>90030</NrGelinktBlok><Gelinktblok>90013 - Berekeningsbasis deeltijds</Gelinktblok><Gelinktblok>90014 - Berekeningsbasis van overuren</Gelinktblok><Gelinktblok>90552 - Berekeningsbasis Overuren - Horeca</Gelinktblok><Gelinktblok>90553 - Berekeningsbasis Overuren � Niet-Horeca</Gelinktblok><Gelinktblok>90030 - Berekeningsbasis - bijzondere omstandigheden</Gelinktblok><Aanwezigheid>Kardinaliteit 1: 1 VERPLICHT INDIEN de bezoldiging wordt bepaald in functie van een tijdseenheid</Aanwezigheid><ExtraBeperkingen>Dit blok mag niet ingevuld worden voor de werknemer die een stuk- of taakloon ontvangt of die per taak (= prestatie) betaald wordt of die geheel of gedeeltelijk met een commissieloon betaald wordt , voor de vrijwillige brandweerman, de vrijwillige ambulancier, de vrijwilliger van de civiele bescherming, voor de onthaalouders en indien de begindatum van het risico gelegen is v��r 01/01/2012, ook niet voor de werknemer gebonden door een industri�le leerovereenkomst bedoeld in de wet van 19 juli 1983 op het leerlingwezen voor beroepen uitgeoefend door werknemers in loondienst die niet onderworpen is aan alle sectoren van de sociale zekerheid (tot 31 december van het jaar waarin hij de leeftijd van 18 bereikt - industri�le leerling met het werknemerskengetal 035 of 439).</ExtraBeperkingen><Anomalie><AnomalieCode>90032-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90032-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90032-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90032</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Berekeningsbasis van de uitkeringen</Naam>
+          <Zones>00189 - TIJDSEENHEID VAN DE BEZOLDIGING</Zones>
+          <Zones>00190 - CYCLUS</Zones>
+          <Zones>00191 - BASISBEDRAG VAN DE BEZOLDIGING</Zones>
+          <Zones>00192 - BASISBEDRAG VAN DE BEZOLDIGING VOOR WERKNEMERS DIE PER UUR BETAALD WORDEN</Zones>
+          <Zones>01160 - AANDUIDING STABIELE TEWERKSTELLING</Zones>
+          <XmlLabel>CalculationBaseAllowance</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de gegevens van de berekeningsbasis van de uitkeringen aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90013</NrGelinktBlok>
+          <NrGelinktBlok>90014</NrGelinktBlok>
+          <NrGelinktBlok>90552</NrGelinktBlok>
+          <NrGelinktBlok>90553</NrGelinktBlok>
+          <NrGelinktBlok>90030</NrGelinktBlok>
+          <Gelinktblok>90013 - Berekeningsbasis deeltijds</Gelinktblok>
+          <Gelinktblok>90014 - Berekeningsbasis van overuren</Gelinktblok>
+          <Gelinktblok>90552 - Berekeningsbasis Overuren - Horeca</Gelinktblok>
+          <Gelinktblok>90553 - Berekeningsbasis Overuren - Niet-Horeca</Gelinktblok>
+          <Gelinktblok>90030 - Berekeningsbasis - bijzondere omstandigheden</Gelinktblok>
+          <Aanwezigheid>Kardinaliteit 1: 1 VERPLICHT INDIEN de bezoldiging wordt bepaald in functie van een tijdseenheid</Aanwezigheid>
+          <ExtraBeperkingen>
+               Dit blok mag niet ingevuld worden voor de werknemer die een stuk- of taakloon ontvangt of die per taak
+               (= prestatie) betaald wordt of die geheel of gedeeltelijk met een commissieloon betaald wordt
+               , voor de vrijwillige brandweerman, de vrijwillige ambulancier, de vrijwilliger van de civiele bescherming
+               , voor de onthaalouders en indien de begindatum van het risico gelegen is vóór 01/01/2012
+               , ook niet voor de werknemer gebonden door een industriële leerovereenkomst bedoeld in de wet van 19 juli 1983
+               op het leerlingwezen voor beroepen uitgeoefend door werknemers in loondienst die niet onderworpen
+               is aan alle sectoren van de sociale zekerheid (tot 31 december van het jaar waarin hij de leeftijd van 18 bereikt
+               - industriële leerling met het werknemerskengetal 035 of 439).
+          </ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90032-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90032-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90032-005</AnomalieCode>
+               <AnomalieTitel>Verboden</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90406</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Berekeningsbasis van de uitkeringen � Bijzondere bezoldigingswijze</Naam><Zones>00945 - BASISBEDRAG VAN DE BEZOLDIGING - BIJZONDERE BEZOLDIGINGSWIJZE</Zones><Zones>00946 - AANTAL GELIJKGESTELDE DAGEN</Zones><XmlLabel>ExceptRemunMethodCalculBase</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens van de berekeningsbasis van de uitkeringen aan te geven van werknemers een stuk- of taakloon ontvangen of per taak (= prestatie) betaald worden of geheel of gedeeltelijk met een commissieloon worden betaald, van vrijwillige brandweerlieden, van vrijwillige ambulanciers of van vrijwilligers van de civiele bescherming.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>VERPLICHT INDIEN de bezoldigingswijze 1 of 2 bedraagt of indien het statuut van de werknemer 'B' of 'VA' is.</Aanwezigheid><ExtraBeperkingen>Dit blok mag niet ingevuld worden voor een onthaalouder.</ExtraBeperkingen><Anomalie><AnomalieCode>90406-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90406-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90406-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90406</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Berekeningsbasis van de uitkeringen - Bijzondere bezoldigingswijze</Naam>
+          <Zones>00945 - BASISBEDRAG VAN DE BEZOLDIGING - BIJZONDERE BEZOLDIGINGSWIJZE</Zones>
+          <Zones>00946 - AANTAL GELIJKGESTELDE DAGEN</Zones>
+          <XmlLabel>ExceptRemunMethodCalculBase</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de gegevens van de berekeningsbasis van de uitkeringen aan te geven van werknemers een stuk- of taakloon ontvangen of per taak (= prestatie) betaald worden of geheel of gedeeltelijk met een commissieloon worden betaald, van vrijwillige brandweerlieden, van vrijwillige ambulanciers of van vrijwilligers van de civiele bescherming.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>VERPLICHT INDIEN de bezoldigingswijze 1 of 2 bedraagt of indien het statuut van de werknemer 'B' of 'VA' is.</Aanwezigheid><ExtraBeperkingen>Dit blok mag niet ingevuld worden voor een onthaalouder.</ExtraBeperkingen><Anomalie><AnomalieCode>90406-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90406-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90406-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90407</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Berekeningsbasis van de uitkeringen � Onthaalouders</Naam><Zones>00947 - AANTAL ARBEIDSUREN EN GELIJKGESTELDE</Zones><XmlLabel>ChildsitterCalculBase</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens van de berekeningsbasis van de uitkeringen voor arbeidsongeschiktheid aan te geven van onthaalouders, zoals bedoeld in artikel 3, 9� van het KB van 28 november 1969 ter uitvoering van de wet van 27 juni 1969 (sociale zekerheid van werknemers)</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>VERPLICHT INDIEN het werknemerskengetal een onthaalouder betreft.</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90407-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90407-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90407-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90407</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Berekeningsbasis van de uitkeringen - Onthaalouders</Naam>
+          <Zones>00947 - AANTAL ARBEIDSUREN EN GELIJKGESTELDE</Zones>
+          <XmlLabel>ChildsitterCalculBase</XmlLabel>
+          <Omschrijving>
+               Functioneel blok dat toelaat de gegevens van de berekeningsbasis van de uitkeringen
+               voor arbeidsongeschiktheid aan te geven van onthaalouders, zoals bedoeld in artikel 3
+               , 9§ van het KB van 28 november 1969 ter uitvoering van de wet van 27 juni 1969 (sociale zekerheid van werknemers)
+          </Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>VERPLICHT INDIEN het werknemerskengetal een onthaalouder betreft.</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90407-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90407-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90407-005</AnomalieCode>
+               <AnomalieTitel>Verboden</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90014</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Berekeningsbasis van overuren</Naam><Zones>00405 - TIJDSEENHEID LOON VOOR OVERUREN</Zones><Zones>00406 - BEDRAG VAN HET LOON VOOR OVERUREN</Zones><XmlLabel>SupplHoursCalculBase</XmlLabel><Omschrijving>Functioneel blok dat toelaat het bedrag aan te geven van de bezoldiging van de op regelmatige basis gepresteerde overuren of van de overuren gepresteerd in de horecasector, alsook de periode waarop deze bezoldiging betrekking heeft. </Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit 1: 1 VERPLICHT INDIEN de werkne(e)m(st)er op regelmatige basis overuren presteert of overuren in de horecasector presteert (zie instructies).
-     Enkel voor de risico's die voor 30 december 2016 aanvangen.
-     Verboden voor de risico's die vanaf 30 december 2016 aanvangen.</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90014-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90014-023</AnomalieCode><AnomalieTitel>Onverenigbaarheid met het risico</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90014</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Berekeningsbasis van overuren</Naam>
+          <Zones>00405 - TIJDSEENHEID LOON VOOR OVERUREN</Zones>
+          <Zones>00406 - BEDRAG VAN HET LOON VOOR OVERUREN</Zones>
+          <XmlLabel>SupplHoursCalculBase</XmlLabel>
+          <Omschrijving>
+               Functioneel blok dat toelaat het bedrag aan te geven van de bezoldiging van de op regelmatige basis gepresteerde overuren of van de overuren gepresteerd in de horecasector
+               , alsook de periode waarop deze bezoldiging betrekking heeft.
+          </Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>
+               Kardinaliteit 1: 1 VERPLICHT INDIEN de werkne(e)m(st)er op regelmatige basis overuren presteert of overuren in de horecasector presteert (zie instructies).
+               Enkel voor de risico's die voor 30 december 2016 aanvangen.
+                Verboden voor de risico's die vanaf 30 december 2016 aanvangen.
+          </Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90014-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90014-023</AnomalieCode>
+               <AnomalieTitel>Onverenigbaarheid met het risico</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90019</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Bezoldiging van de tewerkstelling werknemerslijn</Naam><Zones>00066 - LIJNNUMMER BEZOLDIGING</Zones><Zones>00067 - BEZOLDIGINGSCODE</Zones><Zones>00068 - FREQUENTIE IN MAANDEN VAN DE BETALING VAN DE PREMIE</Zones><Zones>00069 - PERCENTAGE VAN DE BEZOLDIGING OP JAARBASIS</Zones><Zones>00070 - BEZOLDIGING</Zones><XmlLabel>Remun</XmlLabel><Omschrijving>Functioneel blok dat toelaat de bezoldigingen van een werknemer voor een tewerkstelling van de werknemerslijn aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>99</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit 1: 1..99 VERPLICHT INDIEN ten minste ��n bezoldiging aangegeven moet worden</Aanwezigheid><ExtraBeperkingen>Een gegeven bezoldiging (een combinatie bezoldigingscode / frequentie in maanden van de betaling van de premie / percentage van de bezoldiging op jaarbasis) mag slechts ��n keer voorkomen per tewerkstelling.
-     Indien de aangifte geen gegevens m.b.t. de MiniDmfA bevat, mogen de bezoldigingen niet opgegeven worden behalve bij een verbrekingsvergoeding.</ExtraBeperkingen><Anomalie><AnomalieCode>90019-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90019-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90019-006</AnomalieCode><AnomalieTitel>Te veel identieke gevallen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90019-030</AnomalieCode><AnomalieTitel>Onverenigbaar met het werknemerskengetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90019</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Bezoldiging van de tewerkstelling werknemerslijn</Naam>
+          <Zones>00066 - LIJNNUMMER BEZOLDIGING</Zones>
+          <Zones>00067 - BEZOLDIGINGSCODE</Zones>
+          <Zones>00068 - FREQUENTIE IN MAANDEN VAN DE BETALING VAN DE PREMIE</Zones>
+          <Zones>00069 - PERCENTAGE VAN DE BEZOLDIGING OP JAARBASIS</Zones>
+          <Zones>00070 - BEZOLDIGING</Zones>
+          <XmlLabel>Remun</XmlLabel>
+          <Omschrijving>
+               Functioneel blok dat toelaat de bezoldigingen van een werknemer voor een tewerkstelling van de werknemerslijn
+               aan te geven.
+          </Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>99</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>Kardinaliteit 1: 1..99 VERPLICHT INDIEN ten minste één bezoldiging aangegeven moet worden</Aanwezigheid>
+          <ExtraBeperkingen>
+               Een gegeven bezoldiging (een combinatie bezoldigingscode / frequentie in maanden van de betaling van de premie 
+               / percentage van de bezoldiging op jaarbasis) mag slechts één keer voorkomen per tewerkstelling.
+               Indien de aangifte geen gegevens m.b.t. de MiniDmfA bevat, mogen de bezoldigingen niet opgegeven worden behalve bij een verbrekingsvergoeding.
+          </ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90019-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90019-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90019-006</AnomalieCode>
+               <AnomalieTitel>Te veel identieke gevallen</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90019-030</AnomalieCode>
+               <AnomalieTitel>Onverenigbaar met het werknemerskengetal</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90005</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Bijdrage ontslagen statutaire werknemer</Naam><Zones>00071 - REFERTEBRUTOLOON</Zones><Zones>00072 - BIJDRAGE REFERTEBRUTOLOON</Zones><Zones>00073 - REFERTE-AANTAL DAGEN</Zones><Zones>00127 - DATUM WAAROP DE PERIODE VAN ONDERWERPING BEGINT</Zones><Zones>00129 - DATUM WAAROP DE PERIODE VAN ONDERWERPING EINDIGT</Zones><XmlLabel>DismissedStatutoryWorkerContribution</XmlLabel><Omschrijving>Functioneel blok dat toelaat de bijdragen verschuldigd voor een ontslagen statutaire werknemer aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit 1:  1 VERPLICHT INDIEN de werknemerslijn betrekking heeft op een ontslagen statutaire werknemer (zie bijlage 2).</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90005-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90005-030</AnomalieCode><AnomalieTitel>Onverenigbaar met het werknemerskengetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90005</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Bijdrage ontslagen statutaire werknemer</Naam>
+          <Zones>00071 - REFERTEBRUTOLOON</Zones>
+          <Zones>00072 - BIJDRAGE REFERTEBRUTOLOON</Zones>
+          <Zones>00073 - REFERTE-AANTAL DAGEN</Zones>
+          <Zones>00127 - DATUM WAAROP DE PERIODE VAN ONDERWERPING BEGINT</Zones>
+          <Zones>00129 - DATUM WAAROP DE PERIODE VAN ONDERWERPING EINDIGT</Zones>
+          <XmlLabel>DismissedStatutoryWorkerContribution</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de bijdragen verschuldigd voor een ontslagen statutaire werknemer aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>Kardinaliteit 1:  1 VERPLICHT INDIEN de werknemerslijn betrekking heeft op een ontslagen statutaire werknemer (zie bijlage 2).</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90005-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90005-030</AnomalieCode>
+               <AnomalieTitel>Onverenigbaar met het werknemerskengetal</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90036</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Commentaar bij de aangifte</Naam><Zones>00126 - ZONE VRIJE TEKST</Zones><XmlLabel>CommentDeclaration</XmlLabel><Omschrijving>Functioneel blok dat toelaat commentaar bij de aangifte op te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit 1: 0..1 FACULTATIEF</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90036-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90036</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Commentaar bij de aangifte</Naam>
+          <Zones>00126 - ZONE VRIJE TEKST</Zones>
+          <XmlLabel>CommentDeclaration</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat commentaar bij de aangifte op te geven.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>Kardinaliteit 1: 0..1 FACULTATIEF</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90036-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90258</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Communicatie</Naam><Zones>00677 - TELEFOONNUMMER</Zones><Zones>00636 - GSM-NUMMER</Zones><Zones>00678 - FAXNUMMER</Zones><Zones>00637 - E-MAILADRES</Zones><XmlLabel>Communication</XmlLabel><Omschrijving>Functioneel blok dat toelaat de informatie inzake communicatie aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit 1: Onmisbaar indien het blok de communicatiegegevens van het blok 90257 - Coordinaten van de contactpersoon voor de ASR onder het blok 90059 - Formulier betreft betreft.
-
-     Kardinaliteit 0..1: Facultatief indien het blok de communicatiegegevens van het blok 90257 - Coordinaten van de contactpersoon onder het blok 90564 - Preventiedienst betreft.</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90258-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90258-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90258</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Communicatie</Naam>
+          <Zones>00677 - TELEFOONNUMMER</Zones>
+          <Zones>00636 - GSM-NUMMER</Zones>
+          <Zones>00678 - FAXNUMMER</Zones>
+          <Zones>00637 - E-MAILADRES</Zones>
+          <XmlLabel>Communication</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de informatie inzake communicatie aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>
+               Kardinaliteit 1: Onmisbaar indien het blok de communicatiegegevens van het blok 90257 - Coordinaten van de contactpersoon voor de ASR onder het blok 90059 - Formulier betreft betreft.
+               Kardinaliteit 0..1: Facultatief indien het blok de communicatiegegevens van het blok 90257 - Coordinaten van de contactpersoon onder het blok 90564 - Preventiedienst betreft.
+          </Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90258-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90258-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst></Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90252</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Detail risico</Naam><Zones>00408 - DATUM - AANVANG VAN HET RISICO</Zones><XmlLabel>RiskDetail</XmlLabel><Omschrijving>Functioneel blok dat toelaat de begindatum van het risico aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>0..1 VERPLICHT INDIEN  deze aangifte de aangifte van een risico betreft.</Aanwezigheid><ExtraBeperkingen>Het blok mag niet aanwezig zijn bij een aangifte ZIMA001 - beperkt tot MiniDmfA, behalve indien het het onvolledige kwartaal voorafgaand aan het risico betreft.</ExtraBeperkingen><Anomalie><AnomalieCode>90252-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90252-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90252</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Detail risico</Naam>
+          <Zones>00408 - DATUM - AANVANG VAN HET RISICO</Zones>
+          <XmlLabel>RiskDetail</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de begindatum van het risico aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>0..1 VERPLICHT INDIEN  deze aangifte de aangifte van een risico betreft.</Aanwezigheid>
+          <ExtraBeperkingen>
+               Het blok mag niet aanwezig zijn bij een aangifte ZIMA001 - beperkt tot MiniDmfA
+               , behalve indien het het onvolledige kwartaal voorafgaand aan het risico betreft.
+          </ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90252-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90252-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90006</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Detail tewerkstelling v��r het risico</Naam><Zones>00410 - DATUM - LAATSTE ARBEIDSDAG OF GELIJKGESTELDE DAG</Zones><XmlLabel>RiskDetailOccupation</XmlLabel><Omschrijving>Functioneel blok dat toelaat de datum aan te geven van de laatste werkdag (of gelijkgestelde dag) die voorafgaat aan het begin van het risico.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90032</NrGelinktBlok><NrGelinktBlok>90405</NrGelinktBlok><NrGelinktBlok>90029</NrGelinktBlok><NrGelinktBlok>90077</NrGelinktBlok><Gelinktblok>90032 - Berekeningsbasis van de uitkeringen</Gelinktblok><Gelinktblok>90405 - Berekeningsbasis � Referteperiode</Gelinktblok><Gelinktblok>90029 - Voordelen in natura en vergoedingen voor de overdracht van auteursrechten</Gelinktblok><Gelinktblok>90077 - Referteperiode</Gelinktblok><Aanwezigheid>Kardinaliteit 0..1 VERPLICHT INDIEN het de lopende tewerkstelling op de datum - aanvang van het risico betreft en, als geen enkele tewerkstelling lopend is bij aanvang van het risico, indien het de laatste tewerkstelling betreft die be�indigd werd binnen een periode van 14 dagen (risico's voorafgaand aan 01/01/2012) of 30 dagen (risico's vanaf 01/01/2012) voorafgaand aan de datum - aanvang van het risico.</Aanwezigheid><ExtraBeperkingen>Het blok mag niet aanwezig zijn als deze aangifte alleen een mini-DmfA betreft.</ExtraBeperkingen><Anomalie><AnomalieCode>90006-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90006-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90006-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90006</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Detail tewerkstelling vóór het risico</Naam>
+          <Zones>00410 - DATUM - LAATSTE ARBEIDSDAG OF GELIJKGESTELDE DAG</Zones>
+          <XmlLabel>RiskDetailOccupation</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de datum aan te geven van de laatste werkdag (of gelijkgestelde dag) die voorafgaat aan het begin van het risico.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90032</NrGelinktBlok>
+          <NrGelinktBlok>90405</NrGelinktBlok>
+          <NrGelinktBlok>90029</NrGelinktBlok>
+          <NrGelinktBlok>90077</NrGelinktBlok>
+          <Gelinktblok>90032 - Berekeningsbasis van de uitkeringen</Gelinktblok>
+          <Gelinktblok>90405 - Berekeningsbasis - Referteperiode</Gelinktblok>
+          <Gelinktblok>90029 - Voordelen in natura en vergoedingen voor de overdracht van auteursrechten</Gelinktblok>
+          <Gelinktblok>90077 - Referteperiode</Gelinktblok>
+          <Aanwezigheid>
+               Kardinaliteit 0..1 VERPLICHT INDIEN het de lopende tewerkstelling op de datum - aanvang van het risico betreft en
+               , als geen enkele tewerkstelling lopend is bij aanvang van het risico
+               , indien het de laatste tewerkstelling betreft die beëindigd werd binnen een periode van 14 dagen (risico's voorafgaand aan 01/01/2012)
+               of 30 dagen (risico's vanaf 01/01/2012) voorafgaand aan de datum - aanvang van het risico.
+          </Aanwezigheid>
+          <ExtraBeperkingen>Het blok mag niet aanwezig zijn als deze aangifte alleen een mini-DmfA betreft.</ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90006-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90006-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90006-005</AnomalieCode>
+               <AnomalieTitel>Verboden</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90279</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Detail van de relatie werkgever-werknemer</Naam><Zones>01035 - STATUS VAN DE RELATIE WERKGEVER-WERKNEMER</Zones><Zones>00385 - DATUM WAAROP DE RELATIE WERKGEVER-WERKNEMER EINDIGT</Zones><XmlLabel>ServiceData</XmlLabel><Omschrijving>Functioneel blok dat toelaat informatie te geven over de relatie werkgever-werknemer.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Verboden in het geval van een annulatie (Status van het attest = 3). In de andere gevallen, verplicht indien de identificatie van het risico gelijk is aan "001" (arbeidsongeschiktheid) of "003" (volledige werkverwijdering - maatregel inzake moederschapsbescherming) of "007" (adoptieverlof) of "008" (pleegouderverlof) en indien het over het meest recente kwartaal gaat en indien de datum van uitdiensttreding groter of gelijk aan is dan de begindatum van het risico en niet meegedeeld werd bij de aangifte van indiensttreding (DIMONA IN). </Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90279-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90279-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90279</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Detail van de relatie werkgever-werknemer</Naam>
+          <Zones>01035 - STATUS VAN DE RELATIE WERKGEVER-WERKNEMER</Zones>
+          <Zones>00385 - DATUM WAAROP DE RELATIE WERKGEVER-WERKNEMER EINDIGT</Zones>
+          <XmlLabel>ServiceData</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat informatie te geven over de relatie werkgever-werknemer.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>
+               Verboden in het geval van een annulatie (Status van het attest = 3).
+               In de andere gevallen, verplicht indien de identificatie van het risico gelijk is aan "001" (arbeidsongeschiktheid)
+               of "003" (volledige werkverwijdering - maatregel inzake moederschapsbescherming) of "007" (adoptieverlof) 
+               of "008" (pleegouderverlof) en indien het over het meest recente kwartaal gaat en indien de datum van uitdiensttreding groter
+               of gelijk aan is dan de begindatum van het risico en niet meegedeeld werd bij de aangifte van indiensttreding (DIMONA IN).
+          </Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90279-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90279-005</AnomalieCode>
+               <AnomalieTitel>Verboden</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90059</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Formulier</Naam><Zones>00296 - IDENTIFICATIE VAN HET FORMULIER</Zones><Zones>00218 - DATUM VAN CREATIE VAN HET FORMULIER</Zones><Zones>00299 - PRECIES UUR VAN CREATIE VAN HET FORMULIER</Zones><Zones>00110 - STATUS VAN HET ATTEST</Zones><Zones>00297 - TYPE VAN HET FORMULIER</Zones><XmlLabel>Form</XmlLabel><Omschrijving>Functioneel blok dat toelaat een formulier aan te geven.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>*</MaximumKardinaliteit><NrGelinktBlok>90257</NrGelinktBlok><NrGelinktBlok>90171</NrGelinktBlok><NrGelinktBlok>90064</NrGelinktBlok><NrGelinktBlok>90082</NrGelinktBlok><NrGelinktBlok>90036</NrGelinktBlok><NrGelinktBlok>90252</NrGelinktBlok><NrGelinktBlok>90016</NrGelinktBlok><NrGelinktBlok>90564</NrGelinktBlok><NrGelinktBlok>90007</NrGelinktBlok><NrGelinktBlok>90187</NrGelinktBlok><Gelinktblok>90257 - Gegevens van de contactpersoon</Gelinktblok><Gelinktblok>90171 - Informatie van de aangifte</Gelinktblok><Gelinktblok>90064 - Identificatie risico</Gelinktblok><Gelinktblok>90082 - Referentie</Gelinktblok><Gelinktblok>90036 - Commentaar bij de aangifte</Gelinktblok><Gelinktblok>90252 - Detail risico</Gelinktblok><Gelinktblok>90016 - Werkhervatting</Gelinktblok><Gelinktblok>90564 - Preventiedienst</Gelinktblok><Gelinktblok>90007 - Werkgeversaangifte</Gelinktblok><Gelinktblok>90187 - Werkgeversaangifte PPL</Gelinktblok><Aanwezigheid>Kardinaliteit 1: 1..* ONMISBAAR</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90059-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90059-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90059-452</AnomalieCode><AnomalieTitel>Bepaling tijdsindicatie sociaal risico onmogelijk</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90059-233</AnomalieCode><AnomalieTitel>Onverenigbaar met de aanvraag</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90059-163</AnomalieCode><AnomalieTitel>Niet verwerkbaar formulier</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90059-273</AnomalieCode><AnomalieTitel>Bijdrage vereist volgens de geldende voorwaarden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90059</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Formulier</Naam>
+          <Zones>00296 - IDENTIFICATIE VAN HET FORMULIER</Zones>
+          <Zones>00218 - DATUM VAN CREATIE VAN HET FORMULIER</Zones>
+          <Zones>00299 - PRECIES UUR VAN CREATIE VAN HET FORMULIER</Zones>
+          <Zones>00110 - STATUS VAN HET ATTEST</Zones>
+          <Zones>00297 - TYPE VAN HET FORMULIER</Zones>
+          <XmlLabel>Form</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat een formulier aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>1</MinimumKardinaliteit>
+          <MaximumKardinaliteit>*</MaximumKardinaliteit>
+          <NrGelinktBlok>90257</NrGelinktBlok>
+          <NrGelinktBlok>90171</NrGelinktBlok>
+          <NrGelinktBlok>90064</NrGelinktBlok>
+          <NrGelinktBlok>90082</NrGelinktBlok>
+          <NrGelinktBlok>90036</NrGelinktBlok>
+          <NrGelinktBlok>90252</NrGelinktBlok>
+          <NrGelinktBlok>90016</NrGelinktBlok>
+          <NrGelinktBlok>90564</NrGelinktBlok>
+          <NrGelinktBlok>90007</NrGelinktBlok>
+          <NrGelinktBlok>90187</NrGelinktBlok>
+          <Gelinktblok>90257 - Gegevens van de contactpersoon</Gelinktblok>
+          <Gelinktblok>90171 - Informatie van de aangifte</Gelinktblok>
+          <Gelinktblok>90064 - Identificatie risico</Gelinktblok>
+          <Gelinktblok>90082 - Referentie</Gelinktblok>
+          <Gelinktblok>90036 - Commentaar bij de aangifte</Gelinktblok>
+          <Gelinktblok>90252 - Detail risico</Gelinktblok>
+          <Gelinktblok>90016 - Werkhervatting</Gelinktblok>
+          <Gelinktblok>90564 - Preventiedienst</Gelinktblok>
+          <Gelinktblok>90007 - Werkgeversaangifte</Gelinktblok>
+          <Gelinktblok>90187 - Werkgeversaangifte PPL</Gelinktblok>
+          <Aanwezigheid>Kardinaliteit 1: 1..* ONMISBAAR</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90059-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90059-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90059-452</AnomalieCode>
+               <AnomalieTitel>Bepaling tijdsindicatie sociaal risico onmogelijk</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90059-233</AnomalieCode>
+               <AnomalieTitel>Onverenigbaar met de aanvraag</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90059-163</AnomalieCode>
+               <AnomalieTitel>Niet verwerkbaar formulier</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90059-273</AnomalieCode>
+               <AnomalieTitel>Bijdrage vereist volgens de geldende voorwaarden</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90257</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Gegevens van de contactpersoon</Naam><Zones>00726 - NAAM</Zones><Zones>00727 - VOORNAAM</Zones><XmlLabel>CoordinatesContactPerson</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens van de contactpersoon aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90258</NrGelinktBlok><NrGelinktBlok>90022</NrGelinktBlok><Gelinktblok>90258 - Communicatie</Gelinktblok><Gelinktblok>90022 - Adres</Gelinktblok><Aanwezigheid>Kardinaliteit 1: Onmisbaar indien het blok de contactpersoon 
-     voor de ASR onder het blok 90059 - Formulier betreft.
-
-     Kardinaliteit 0..1: Facultatief indien het blok de contactpersoon onder het blok 90564 - Preventiedienst betreft.</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90257-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90257-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90257-134</AnomalieCode><AnomalieTitel>Geen gegevens</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90257</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Gegevens van de contactpersoon</Naam>
+          <Zones>00726 - NAAM</Zones>
+          <Zones>00727 - VOORNAAM</Zones>
+          <XmlLabel>CoordinatesContactPerson</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de gegevens van de contactpersoon aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90258</NrGelinktBlok>
+          <NrGelinktBlok>90022</NrGelinktBlok>
+          <Gelinktblok>90258 - Communicatie</Gelinktblok>
+          <Gelinktblok>90022 - Adres</Gelinktblok>
+          <Aanwezigheid>
+               Kardinaliteit 1: Onmisbaar indien het blok de contactpersoon voor de ASR onder het blok 90059 - Formulier betreft.
+               Kardinaliteit 0..1: Facultatief indien het blok de contactpersoon onder het blok 90564 - Preventiedienst betreft.
+          </Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90257-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90257-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90257-134</AnomalieCode>
+               <AnomalieTitel>Geen gegevens</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
-     <Code>90064</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Identificatie risico</Naam><Zones>00430 - IDENTIFICATIE VAN HET RISICO</Zones><XmlLabel>RiskIdentification</XmlLabel><Omschrijving>Functioneel blok dat toelaat het risico te identificeren.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit: 0..1 VERPLICHT INDIEN  deze aangifte de aangifte van een risico betreft.</Aanwezigheid><ExtraBeperkingen>Het blok mag niet aanwezig zijn als deze aangifte alleen een MiniDmfA betreft.
-     Een aangifte ZIMA001 - beperkt tot MiniDmfA is alleen toegelaten als antwoord op een aanvraag.</ExtraBeperkingen><Anomalie><AnomalieCode>90064-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90064-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Code>90064</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Identificatie risico</Naam>
+          <Zones>00430 - IDENTIFICATIE VAN HET RISICO</Zones>
+          <XmlLabel>RiskIdentification</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat het risico te identificeren.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>Kardinaliteit: 0..1 VERPLICHT INDIEN  deze aangifte de aangifte van een risico betreft.</Aanwezigheid>
+          <ExtraBeperkingen>
+               Het blok mag niet aanwezig zijn als deze aangifte alleen een MiniDmfA betreft.
+               Een aangifte ZIMA001 - beperkt tot MiniDmfA is alleen toegelaten als antwoord op een aanvraag.
+          </ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90064-091</AnomalieCode>
+               <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90064-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
      </FunctionalBlock>
      <FunctionalBlock>
           <Code>90171</Code>
@@ -925,4 +1431,4 @@
                <AnomalieErnst>B</AnomalieErnst>
           </Anomalie>
      </FunctionalBlock>
-</List>
+</AMI1-20231>

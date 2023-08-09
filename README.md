@@ -1,13 +1,7 @@
 # BelgianHR
 Files usefull for Belgian HR
 
-## Dimona
-Dimona In  
-Create new Dimona period wkg + wkn.
+This open source project is used as a starting point for a Web Api.
 
-Dimona Out  
-To close a Dimona Period.
-
-Dimona Update  
-Voor een wijziging kan men enkel bgindatum en de einddatum wijzigen.
-
+The current and temporary version of this Web Api can be found at
+[BESocialSecurityWebApis](http://www.vertongensoftware.be:8080/swagger/index.html)
