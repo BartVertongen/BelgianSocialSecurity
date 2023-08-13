@@ -1,71 +1,430 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE List [
-     <!ELEMENT FunctionalBlock (Code+, Versie+, Publicatiedatum+, Naam+, Zones+, XmlLabel+, Omschrijving+, MinimumKardinaliteit+, MaximumKardinaliteit+, NrGelinktBlok+, Gelinktblok+, Aanwezigheid+, ExtraBeperkingen+, Anomalie+)>
-     <!ELEMENT List (FunctionalBlock+)>
-     <!ELEMENT Code (#PCDATA)>
-     <!ELEMENT Versie (#PCDATA)>
-     <!ELEMENT Publicatiedatum (#PCDATA)>
-     <!ELEMENT Naam (#PCDATA)>
-     <!ELEMENT Zones (#PCDATA)>
-     <!ELEMENT XmlLabel (#PCDATA)>
-     <!ELEMENT Omschrijving (#PCDATA)>
-     <!ELEMENT MinimumKardinaliteit (#PCDATA)>
-     <!ELEMENT MaximumKardinaliteit (#PCDATA)>
-     <!ELEMENT NrGelinktBlok (#PCDATA)>
-     <!ELEMENT Gelinktblok (#PCDATA)>
-     <!ELEMENT Aanwezigheid (#PCDATA)>
-     <!ELEMENT ExtraBeperkingen (#PCDATA)>
-     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
-]>
+<?xml version="1.0" encoding="UTF-8"?>
 <List>
-<FunctionalBlock>
-<Code>90022</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Adres</Naam><Zones>00517 - STRAAT</Zones><Zones>00518 - NUMMER VAN HET ADRES</Zones><Zones>00519 - BRIEVENBUS</Zones><Zones>00520 - POSTCODE</Zones><Zones>00522 - GEMEENTE</Zones><Zones>00523 - LANDCODE</Zones><XmlLabel>Address</XmlLabel><Omschrijving>Functioneel blok dat toelaat een adres volledig te specifiëren.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90022-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90022-053</AnomalieCode><AnomalieTitel>Niet van toepassing</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90022-160</AnomalieCode><AnomalieTitel>Onverenigbaarheid postcode-gemeente</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90488</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Adres van de site</Naam><Zones>00517 - STRAAT</Zones><Zones>00518 - NUMMER VAN HET ADRES</Zones><Zones>00519 - BRIEVENBUS</Zones><Zones>00520 - POSTCODE</Zones><Zones>00522 - GEMEENTE</Zones><Zones>00523 - LANDCODE</Zones><XmlLabel>SiteAddress</XmlLabel><Omschrijving>Functioneel blok dat toelaat een adres van de site te specifiëren.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Verplicht indien de waarde van de actiecode van het FB 90400 (Project dat de werken omvat- Wijziging) gelijk is aan "2" (toevoeging).</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90488-160</AnomalieCode><AnomalieTitel>Onverenigbaarheid postcode-gemeente</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90478</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Andere actor - Wijziging</Naam><Zones>00014 - ONDERNEMINGSNUMMER</Zones><Zones>01081 - HOEDANIGHEID VAN DE ACTOR</Zones><Zones>00726 - NAAM</Zones><Zones>00411 - ACTIECODE</Zones><XmlLabel>OtherParticipantUpdate</XmlLabel><Omschrijving>Functioneel blok waarmee een actor die aangifte doet geïdentificeerd kan worden in het kader van een aangifte van wijziging.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>4</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90478-366</AnomalieCode><AnomalieTitel>Betrokkene onbestaande op de aangifte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90490</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>AVWDDT Update</Naam><Zones></Zones><XmlLabel>AVWDDTUpdate</XmlLabel><Omschrijving>Brongegeven van het XML-bericht dat toelaat wijzigingen uit te voeren op een Aangifte Van Werken (AVW).</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90059</NrGelinktBlok><Gelinktblok>90059 - Formulier</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90490-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90490-089</AnomalieCode><AnomalieTitel>Root niet gekend</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90258</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Communicatie</Naam><Zones>00677 - TELEFOONNUMMER</Zones><Zones>00636 - GSM-NUMMER</Zones><Zones>00678 - FAXNUMMER</Zones><Zones>00637 - E-MAILADRES</Zones><XmlLabel>Communication</XmlLabel><Omschrijving>Functioneel blok dat toelaat de informatie inzake communicatie aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Verplicht indien het FB Communicatie verbonden is met een FB Identificatie van de aangever van het contract met betrekking tot de werken - Wijziging (90398) of met een FB Identificatie van de tijdelijke handelsvennootschap - Wijziging (90399) waarin de waarde van de actiecode gelijk is aan "2" (toevoeging).
-Verplicht indien het FB Communicatie verbonden is met het FB Gegevens van de contactpersoon (90257 ), dat zelf verbonden is met een FB  Project dat de werken omvat - Wijziging (90400) of met een FB Luik contract met betrekking tot de werken - Wijziging (90401) waarin de waarde van de actiecode gelijk is aan "2" (toevoeging).
-Facultatief in de andere gevallen.</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90258-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90059</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Formulier</Naam><Zones>00296 - IDENTIFICATIE VAN HET FORMULIER</Zones><Zones>00218 - DATUM VAN CREATIE VAN HET FORMULIER</Zones><Zones>00299 - PRECIES UUR VAN CREATIE VAN HET FORMULIER</Zones><Zones>00110 - STATUS VAN HET ATTEST</Zones><Zones>00297 - TYPE VAN HET FORMULIER</Zones><XmlLabel>Form</XmlLabel><Omschrijving>Functioneel blok dat toelaat een formulier aan te geven.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>*</MaximumKardinaliteit><NrGelinktBlok>90082</NrGelinktBlok><NrGelinktBlok>90400</NrGelinktBlok><NrGelinktBlok>90398</NrGelinktBlok><NrGelinktBlok>90401</NrGelinktBlok><Gelinktblok>90082 - Referentie</Gelinktblok><Gelinktblok>90400 - Project dat de werken omvat - Wijziging</Gelinktblok><Gelinktblok>90398 - Identificatie van de aangever van het contract met betrekking tot de werken - Wijziging</Gelinktblok><Gelinktblok>90401 - Luik 'contract met betrekking tot de werken - Wijziging'</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90059-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90257</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Gegevens van de contactpersoon</Naam><Zones>00726 - NAAM</Zones><Zones>00727 - VOORNAAM</Zones><XmlLabel>CoordinatesContactPerson</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens van de contactpersoon aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90258</NrGelinktBlok><Gelinktblok>90258 - Communicatie</Gelinktblok><Aanwezigheid>Verplicht indien de waarde van de actiecode van het FB 90401 (Luik contract met betrekking tot de werken - Wijziging) verbonden met het FB (Gegevens van de contactpersoon) gelijk is aan "2" (toevoeging).</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90257-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90398</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Identificatie van de aangever van het contract met betrekking tot de werken - Wijziging</Naam><Zones>00014 - ONDERNEMINGSNUMMER</Zones><Zones>00411 - ACTIECODE</Zones><XmlLabel>WorksContractDeclarantIdUpdate</XmlLabel><Omschrijving>Functioneel blok waarin informatie gegeven kan worden over de aangever van het contract met betrekking tot de werken/ diensten in het kader van een wijzigende aangifte.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90258</NrGelinktBlok><NrGelinktBlok>90399</NrGelinktBlok><Gelinktblok>90258 - Communicatie</Gelinktblok><Gelinktblok>90399 - Identificatie van de tijdelijke handelsvennootschap - Wijziging</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen>In het geval dat de aannemer die aangenomen wordt voor de werken een tijdelijke handelsvennootschap is, dan moeten de blokken “Identificatie van de aangever van het contract met betrekking tot de werken” en “Identificatie van de tijdelijke handelsvennootschap” beide aanwezig zijn.  De aangever van het contract met betrekking tot de werken moet dan de vennoot vermelden die verantwoordelijk is voor de aangifte in opdracht van deze tijdelijke handelsvennootschap in het blok "Identificatie van de aangever van het contract met betrekking tot de werken" (90381).</ExtraBeperkingen><Anomalie><AnomalieCode>90398-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90398-366</AnomalieCode><AnomalieTitel>Betrokkene onbestaande op de aangifte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90402</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Identificatie van de onderaannemer - Wijziging</Naam><Zones>00014 - ONDERNEMINGSNUMMER</Zones><Zones>01185 - BTW-NUMMER</Zones><Zones>01186 - BUITENLANDS ONDERNEMINGSNUMMER</Zones><Zones>00545 - STAVING</Zones><Zones>00776 - BENAMING</Zones><Zones>00919 - TAALKEUZE</Zones><Zones>00411 - ACTIECODE</Zones><XmlLabel>SubcontractorIdUpdate</XmlLabel><Omschrijving>Functioneel blok waarin informatie gegeven kan worden over een onderaannemer in het kader van een wijzigende aangifte.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>*</MaximumKardinaliteit><NrGelinktBlok>90022</NrGelinktBlok><NrGelinktBlok>90389</NrGelinktBlok><Gelinktblok>90022 - Adres</Gelinktblok><Gelinktblok>90389 - Informatie over de activiteit van de onderaannemer</Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90402-366</AnomalieCode><AnomalieTitel>Betrokkene onbestaande op de aangifte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90399</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Identificatie van de tijdelijke handelsvennootschap - Wijziging</Naam><Zones>00014 - ONDERNEMINGSNUMMER</Zones><Zones>00776 - BENAMING</Zones><Zones>00919 - TAALKEUZE</Zones><Zones>00411 - ACTIECODE</Zones><XmlLabel>TempComCompanyIDUpdate</XmlLabel><Omschrijving>Functioneel blok waarin informatie gegeven kan worden over een tijdelijke handelsvennootschap in het kader van een wijzigende aangifte.
-De tijdelijke handelsvennootschap is een vennootschap die zonder een gemeenschappelijke naam te voeren, één of meer bepaalde handelsverrichtingen tot doel heef. De tijdelijke handelsvennootschappen worden gevormd onder vennoten die zelf het doel en de vorm ervan bepalen volgens de belangenverhouding en tegen de voorwaarden die zij onderling overeenkomen.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90022</NrGelinktBlok><Gelinktblok>90022 - Adres</Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90399-366</AnomalieCode><AnomalieTitel>Betrokkene onbestaande op de aangifte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90389</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Informatie over de activiteit van de onderaannemer</Naam><Zones>00932 - DATUM BEGIN VAN DE TUSSENKOMST</Zones><Zones>00933 - DATUM EINDE VAN DE TUSSENKOMST</Zones><Zones>01083 - AARD VAN DE GEVAARLIJKE WERKEN</Zones><Zones>00934 - ACTIVITEIT VAN DE ONDERAANNEMER</Zones><XmlLabel>SubcontractorActivityInfo</XmlLabel><Omschrijving>Functioneel blok waar bepaalde informatie over de activiteiten van de onderaannemer gepreciseerd kan worden.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90573</NrGelinktBlok><Gelinktblok>90573 - Werkgevende onderneming</Gelinktblok><Aanwezigheid>Verplicht indien de waarde van de actiecode van het FB 90402 (Identificatie van de onderaannemer – Wijziging) gelijk is aan "2" (toevoeging). Facultatief in de andere gevallen.</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90389-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90401</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Luik "contract met betrekking tot de werken - Wijziging"</Naam><Zones>00942 - IDENTIFICATIENUMMER VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones><Zones>00920 - AARD VAN HET PROJECT DAT DE WERKEN OMVAT</Zones><Zones>00930 - TOTAALBEDRAG VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones><Zones>00929 - BEGRIP 'CONTRACT IN REGIE'</Zones><Zones>00926 - DATUM VAN ONDERTEKENING VAN DE OVEREENKOMST</Zones><Zones>00927 - DATUM BEGIN VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones><Zones>00928 - DATUM EINDE VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones><Zones>00222 - REFERENTIENUMMER</Zones><Zones>00931 - REDEN VOOR LAATTIJDIGE AANGIFTE VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones><Zones>01083 - AARD VAN DE GEVAARLIJKE WERKEN</Zones><Zones>00887 - COMMENTAAR</Zones><Zones>00411 - ACTIECODE</Zones><XmlLabel>WorksContractUpdate</XmlLabel><Omschrijving>Functioneel blok waarin informatie gegeven kan worden over een contract met betrekking tot de werken/ diensten in het kader van een wijzigende aangifte.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90257</NrGelinktBlok><NrGelinktBlok>90402</NrGelinktBlok><Gelinktblok>90257 - Gegevens van de contactpersoon</Gelinktblok><Gelinktblok>90402 - Identificatie van de onderaannemer - Wijziging</Gelinktblok><Aanwezigheid>Verplicht indien de waarde van de actiecode in het FB 90398 "Identificatie van de aangever van het contract met betrekking tot de werken - Wijziging" gelijk is aan "2" (toevoeging). 
-Verplicht indien de waarde van de actiecode in het FB 90401 "Luik contract met betrekking tot de werken - Wijziging" gelijk is aan "0" (schrapping), "1" (wijziging) of "7" (wijziging van de subboom).
-Facultatief in de andere gevallen.</Aanwezigheid><ExtraBeperkingen>De waarde "9" (ACTIECODE - 00411) is niet toegelaten voor dit blok.</ExtraBeperkingen><Anomalie><AnomalieCode>90401-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90400</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Project dat de werken omvat - Wijziging</Naam><Zones>00941 - IDENTIFICATIENUMMER VAN DE AANGIFTE VAN WERKEN</Zones><Zones>01016 - BESTEMMING VAN HET BOUWWERK</Zones><Zones>00923 - BEGRIP 'MOBILITEIT' VAN HET PROJECT DAT DE WERKEN OMVAT</Zones><Zones>00925 - AANVULLENDE ADRESGEGEVENS</Zones><Zones>00411 - ACTIECODE</Zones><XmlLabel>WorksGlobalProjectUpdate</XmlLabel><Omschrijving>Functioneel blok waarin informatie gegeven kan worden over het project dat de werken/ diensten omvat in het kader van een wijzigende aangifte.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90488</NrGelinktBlok><NrGelinktBlok>90478</NrGelinktBlok><Gelinktblok>90488 - Adres van de site</Gelinktblok><Gelinktblok>90478 - Andere actor - Wijziging</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode>90400-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90082</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Referentie</Naam><Zones>00221 - TYPE VAN DE REFERENTIE</Zones><Zones>00298 - HERKOMST VAN DE REFERENTIE</Zones><Zones>00222 - REFERENTIENUMMER</Zones><XmlLabel>Reference</XmlLabel><Omschrijving>Functioneel blok dat toelaat referenties te preciseren in verband met één of meer formulieren; een formulier kan een originele DmfA-aangifte zijn, een wijzigende DmfA-aangifte, een ASR, een aanvraag van inlichtingen, een Dimona aangifte, enz.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>2</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
-</FunctionalBlock>
-<FunctionalBlock>
-<Code>90573</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Naam>Werkgevende onderneming</Naam><Zones>00014 - ONDERNEMINGSNUMMER</Zones><Zones>01185 - BTW-NUMMER</Zones><Zones>01186 - BUITENLANDS ONDERNEMINGSNUMMER</Zones><Zones>00776 - BENAMING</Zones><XmlLabel>SubcontractorEmployerId</XmlLabel><Omschrijving>Functioneel blok dat toelaat de rechtstreekse werkgever van de onderaannemer te identificeren.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90022</NrGelinktBlok><Gelinktblok>90022 - Adres</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen>De rechtstreekse werkgever van de onderaannemer is de aangever of de onderaannemer. In dit laatste geval moet deze onderaannemer aanwezig zijn in hetzelfde bericht, zelfs als het om een toevoeging gaat en de onderaannemer-werkgever al eerder werd aangegeven. In het bericht moet de onderaannemer-werkgever bovendien altijd voor de onderaannemer-werknemer staan.</ExtraBeperkingen><Anomalie><AnomalieCode>90573-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>90573-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
-</FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90022</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Adres</Naam>
+          <Zones>00517 - STRAAT</Zones>
+          <Zones>00518 - NUMMER VAN HET ADRES</Zones>
+          <Zones>00519 - BRIEVENBUS</Zones>
+          <Zones>00520 - POSTCODE</Zones>
+          <Zones>00522 - GEMEENTE</Zones>
+          <Zones>00523 - LANDCODE</Zones>
+          <XmlLabel>Address</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat een adres volledig te specifiÃ«ren.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>Facultatief</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90022-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90022-053</AnomalieCode>
+               <AnomalieTitel>Niet van toepassing</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90022-160</AnomalieCode>
+               <AnomalieTitel>Onverenigbaarheid postcode-gemeente</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90488</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Adres van de site</Naam>
+          <Zones>00517 - STRAAT</Zones>
+          <Zones>00518 - NUMMER VAN HET ADRES</Zones>
+          <Zones>00519 - BRIEVENBUS</Zones>
+          <Zones>00520 - POSTCODE</Zones>
+          <Zones>00522 - GEMEENTE</Zones>
+          <Zones>00523 - LANDCODE</Zones>
+          <XmlLabel>SiteAddress</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat een adres van de site te specifiÃ«ren.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>Verplicht indien de waarde van de actiecode van het FB 90400 (Project dat de werken omvat- Wijziging) gelijk is aan "2" (toevoeging).</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90488-160</AnomalieCode>
+               <AnomalieTitel>Onverenigbaarheid postcode-gemeente</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90478</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Andere actor - Wijziging</Naam>
+          <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+          <Zones>01081 - HOEDANIGHEID VAN DE ACTOR</Zones>
+          <Zones>00726 - NAAM</Zones>
+          <Zones>00411 - ACTIECODE</Zones>
+          <XmlLabel>OtherParticipantUpdate</XmlLabel>
+          <Omschrijving>Functioneel blok waarmee een actor die aangifte doet geÃ¯dentificeerd kan worden in het kader van een aangifte van wijziging.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>4</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>Facultatief</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90478-366</AnomalieCode>
+               <AnomalieTitel>Betrokkene onbestaande op de aangifte</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90490</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>AVWDDT Update</Naam>
+          <Zones></Zones>
+          <XmlLabel>AVWDDTUpdate</XmlLabel>
+          <Omschrijving>Brongegeven van het XML-bericht dat toelaat wijzigingen uit te voeren op een Aangifte Van Werken (AVW).</Omschrijving>
+          <MinimumKardinaliteit>1</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90059</NrGelinktBlok>
+          <Gelinktblok>90059 - Formulier</Gelinktblok>
+          <Aanwezigheid>Onmisbaar</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90490-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90490-089</AnomalieCode>
+               <AnomalieTitel>Root niet gekend</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90258</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Communicatie</Naam>
+          <Zones>00677 - TELEFOONNUMMER</Zones>
+          <Zones>00636 - GSM-NUMMER</Zones>
+          <Zones>00678 - FAXNUMMER</Zones>
+          <Zones>00637 - E-MAILADRES</Zones>
+          <XmlLabel>Communication</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de informatie inzake communicatie aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>
+               Verplicht indien het FB Communicatie verbonden is met een FB Identificatie van de aangever van het contract met betrekking tot de werken
+               - Wijziging (90398) of met een FB Identificatie van de tijdelijke handelsvennootschap
+               - Wijziging (90399) waarin de waarde van de actiecode gelijk is aan "2" (toevoeging).
+               Verplicht indien het FB Communicatie verbonden is met het FB Gegevens van de contactpersoon (90257 )
+               , dat zelf verbonden is met een FB  Project dat de werken omvat - Wijziging (90400)
+               of met een FB Luik contract met betrekking tot de werken 
+               - Wijziging (90401) waarin de waarde van de actiecode gelijk is aan "2" (toevoeging).
+               Facultatief in de andere gevallen.
+          </Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90258-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90059</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Formulier</Naam>
+          <Zones>00296 - IDENTIFICATIE VAN HET FORMULIER</Zones>
+          <Zones>00218 - DATUM VAN CREATIE VAN HET FORMULIER</Zones>
+          <Zones>00299 - PRECIES UUR VAN CREATIE VAN HET FORMULIER</Zones>
+          <Zones>00110 - STATUS VAN HET ATTEST</Zones>
+          <Zones>00297 - TYPE VAN HET FORMULIER</Zones>
+          <XmlLabel>Form</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat een formulier aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>1</MinimumKardinaliteit>
+          <MaximumKardinaliteit>*</MaximumKardinaliteit>
+          <NrGelinktBlok>90082</NrGelinktBlok>
+          <NrGelinktBlok>90400</NrGelinktBlok>
+          <NrGelinktBlok>90398</NrGelinktBlok>
+          <NrGelinktBlok>90401</NrGelinktBlok>
+          <Gelinktblok>90082 - Referentie</Gelinktblok>
+          <Gelinktblok>90400 - Project dat de werken omvat - Wijziging</Gelinktblok>
+          <Gelinktblok>90398 - Identificatie van de aangever van het contract met betrekking tot de werken - Wijziging</Gelinktblok>
+          <Gelinktblok>90401 - Luik 'contract met betrekking tot de werken - Wijziging'</Gelinktblok>
+          <Aanwezigheid>Onmisbaar</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90059-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90257</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Gegevens van de contactpersoon</Naam>
+          <Zones>00726 - NAAM</Zones>
+          <Zones>00727 - VOORNAAM</Zones>
+          <XmlLabel>CoordinatesContactPerson</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de gegevens van de contactpersoon aan te geven.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90258</NrGelinktBlok>
+          <Gelinktblok>90258 - Communicatie</Gelinktblok>
+          <Aanwezigheid>
+               Verplicht indien de waarde van de actiecode van het FB 90401 (Luik contract met betrekking tot de werken - Wijziging)
+               verbonden met het FB (Gegevens van de contactpersoon) gelijk is aan "2" (toevoeging).
+          </Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90257-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90398</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Identificatie van de aangever van het contract met betrekking tot de werken - Wijziging</Naam>
+          <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+          <Zones>00411 - ACTIECODE</Zones>
+          <XmlLabel>WorksContractDeclarantIdUpdate</XmlLabel>
+          <Omschrijving>
+               Functioneel blok waarin informatie gegeven kan worden over de aangever van het contract met betrekking tot de werken/ diensten
+               in het kader van een wijzigende aangifte.
+          </Omschrijving>
+          <MinimumKardinaliteit>1</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90258</NrGelinktBlok>
+          <NrGelinktBlok>90399</NrGelinktBlok>
+          <Gelinktblok>90258 - Communicatie</Gelinktblok>
+          <Gelinktblok>90399 - Identificatie van de tijdelijke handelsvennootschap - Wijziging</Gelinktblok>
+          <Aanwezigheid>Onmisbaar</Aanwezigheid>
+          <ExtraBeperkingen>
+               In het geval dat de aannemer die aangenomen wordt voor de werken een tijdelijke handelsvennootschap is
+               , dan moeten de blokken "Identificatie van de aangever van het contract met betrekking tot de werken" 
+               en "Identificatie van de tijdelijke handelsvennootschap" beide aanwezig zijn.
+               De aangever van het contract met betrekking tot de werken moet dan de vennoot vermelden
+               die verantwoordelijk is voor de aangifte in opdracht van deze tijdelijke handelsvennootschap 
+               in het blok "Identificatie van de aangever van het contract met betrekking tot de werken" (90381).
+          </ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90398-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90398-366</AnomalieCode>
+               <AnomalieTitel>Betrokkene onbestaande op de aangifte</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90402</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Identificatie van de onderaannemer - Wijziging</Naam>
+          <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+          <Zones>01185 - BTW-NUMMER</Zones>
+          <Zones>01186 - BUITENLANDS ONDERNEMINGSNUMMER</Zones>
+          <Zones>00545 - STAVING</Zones>
+          <Zones>00776 - BENAMING</Zones>
+          <Zones>00919 - TAALKEUZE</Zones>
+          <Zones>00411 - ACTIECODE</Zones>
+          <XmlLabel>SubcontractorIdUpdate</XmlLabel>
+          <Omschrijving>Functioneel blok waarin informatie gegeven kan worden over een onderaannemer in het kader van een wijzigende aangifte.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>*</MaximumKardinaliteit>
+          <NrGelinktBlok>90022</NrGelinktBlok>
+          <NrGelinktBlok>90389</NrGelinktBlok>
+          <Gelinktblok>90022 - Adres</Gelinktblok>
+          <Gelinktblok>90389 - Informatie over de activiteit van de onderaannemer</Gelinktblok>
+          <Aanwezigheid>Facultatief</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90402-366</AnomalieCode>
+               <AnomalieTitel>Betrokkene onbestaande op de aangifte</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90399</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Identificatie van de tijdelijke handelsvennootschap - Wijziging</Naam>
+          <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+          <Zones>00776 - BENAMING</Zones>
+          <Zones>00919 - TAALKEUZE</Zones>
+          <Zones>00411 - ACTIECODE</Zones>
+          <XmlLabel>TempComCompanyIDUpdate</XmlLabel>
+          <Omschrijving>
+               Functioneel blok waarin informatie gegeven kan worden over een tijdelijke handelsvennootschap in het kader van een wijzigende aangifte.
+               De tijdelijke handelsvennootschap is een vennootschap die zonder een gemeenschappelijke naam te voeren
+               , Ã©Ã©n of meer bepaalde handelsverrichtingen tot doel heef.
+               De tijdelijke handelsvennootschappen worden gevormd onder vennoten die zelf het doel 
+               en de vorm ervan bepalen volgens de belangenverhouding en tegen de voorwaarden die zij onderling overeenkomen
+          .</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90022</NrGelinktBlok>
+          <Gelinktblok>90022 - Adres</Gelinktblok>
+          <Aanwezigheid>Facultatief</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90399-366</AnomalieCode>
+               <AnomalieTitel>Betrokkene onbestaande op de aangifte</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90389</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Informatie over de activiteit van de onderaannemer</Naam>
+          <Zones>00932 - DATUM BEGIN VAN DE TUSSENKOMST</Zones>
+          <Zones>00933 - DATUM EINDE VAN DE TUSSENKOMST</Zones>
+          <Zones>01083 - AARD VAN DE GEVAARLIJKE WERKEN</Zones>
+          <Zones>00934 - ACTIVITEIT VAN DE ONDERAANNEMER</Zones>
+          <XmlLabel>SubcontractorActivityInfo</XmlLabel>
+          <Omschrijving>Functioneel blok waar bepaalde informatie over de activiteiten van de onderaannemer gepreciseerd kan worden.</Omschrijving>
+          <MinimumKardinaliteit>0</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90573</NrGelinktBlok>
+          <Gelinktblok>90573 - Werkgevende onderneming</Gelinktblok>
+          <Aanwezigheid>
+               Verplicht indien de waarde van de actiecode van het FB 90402 (Identificatie van de onderaannemer - Wijziging) gelijk is aan "2" (toevoeging).
+               Facultatief in de andere gevallen.
+          </Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90389-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90401</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Luik "contract met betrekking tot de werken - Wijziging"</Naam>
+          <Zones>00942 - IDENTIFICATIENUMMER VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones>
+          <Zones>00920 - AARD VAN HET PROJECT DAT DE WERKEN OMVAT</Zones>
+          <Zones>00930 - TOTAALBEDRAG VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones>
+          <Zones>00929 - BEGRIP 'CONTRACT IN REGIE'</Zones>
+          <Zones>00926 - DATUM VAN ONDERTEKENING VAN DE OVEREENKOMST</Zones>
+          <Zones>00927 - DATUM BEGIN VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones>
+          <Zones>00928 - DATUM EINDE VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones>
+          <Zones>00222 - REFERENTIENUMMER</Zones>
+          <Zones>00931 - REDEN VOOR LAATTIJDIGE AANGIFTE VAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones>
+          <Zones>01083 - AARD VAN DE GEVAARLIJKE WERKEN</Zones>
+          <Zones>00887 - COMMENTAAR</Zones>
+          <Zones>00411 - ACTIECODE</Zones>
+          <XmlLabel>WorksContractUpdate</XmlLabel>
+          <Omschrijving>
+               Functioneel blok waarin informatie gegeven kan worden over een contract met betrekking tot de werken/ diensten in het kader van een wijzigende aangifte.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90257</NrGelinktBlok><NrGelinktBlok>90402</NrGelinktBlok><Gelinktblok>90257 - Gegevens van de contactpersoon</Gelinktblok><Gelinktblok>90402 - Identificatie van de onderaannemer - Wijziging</Gelinktblok><Aanwezigheid>Verplicht indien de waarde van de actiecode in het FB 90398 "Identificatie van de aangever van het contract met betrekking tot de werken - Wijziging" gelijk is aan "2" (toevoeging). 
+               Verplicht indien de waarde van de actiecode in het FB 90401 "Luik contract met betrekking tot de werken - Wijziging" gelijk is aan "0" (schrapping)
+               , "1" (wijziging) of "7" (wijziging van de subboom). Facultatief in de andere gevallen.
+          </Aanwezigheid>
+          <ExtraBeperkingen>De waarde "9" (ACTIECODE - 00411) is niet toegelaten voor dit blok.</ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90401-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90400</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Project dat de werken omvat - Wijziging</Naam>
+          <Zones>00941 - IDENTIFICATIENUMMER VAN DE AANGIFTE VAN WERKEN</Zones>
+          <Zones>01016 - BESTEMMING VAN HET BOUWWERK</Zones>
+          <Zones>00923 - BEGRIP 'MOBILITEIT' VAN HET PROJECT DAT DE WERKEN OMVAT</Zones>
+          <Zones>00925 - AANVULLENDE ADRESGEGEVENS</Zones>
+          <Zones>00411 - ACTIECODE</Zones>
+          <XmlLabel>WorksGlobalProjectUpdate</XmlLabel>
+          <Omschrijving>
+               Functioneel blok waarin informatie gegeven kan worden over het project dat de werken/ diensten omvat in het kader van een wijzigende aangifte.
+          </Omschrijving>
+          <MinimumKardinaliteit>1</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90488</NrGelinktBlok>
+          <NrGelinktBlok>90478</NrGelinktBlok>
+          <Gelinktblok>90488 - Adres van de site</Gelinktblok>
+          <Gelinktblok>90478 - Andere actor - Wijziging</Gelinktblok>
+          <Aanwezigheid>Onmisbaar</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90400-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90082</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Referentie</Naam>
+          <Zones>00221 - TYPE VAN DE REFERENTIE</Zones>
+          <Zones>00298 - HERKOMST VAN DE REFERENTIE</Zones>
+          <Zones>00222 - REFERENTIENUMMER</Zones>
+          <XmlLabel>Reference</XmlLabel>
+          <Omschrijving>
+               Functioneel blok dat toelaat referenties te preciseren in verband met Ã©Ã©n of meer formulieren
+               ; een formulier kan een originele DmfA-aangifte zijn, een wijzigende DmfA-aangifte, een ASR
+               , een aanvraag van inlichtingen, een Dimona aangifte, enz.
+          </Omschrijving>
+          <MinimumKardinaliteit>1</MinimumKardinaliteit>
+          <MaximumKardinaliteit>2</MaximumKardinaliteit>
+          <NrGelinktBlok></NrGelinktBlok>
+          <Gelinktblok></Gelinktblok>
+          <Aanwezigheid>Onmisbaar</Aanwezigheid>
+          <ExtraBeperkingen></ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode></AnomalieCode>
+               <AnomalieTitel></AnomalieTitel>
+               <AnomalieErnst></AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
+     <FunctionalBlock>
+          <Code>90573</Code>
+          <Versie>2023/1</Versie>
+          <Publicatiedatum>28/02/2023</Publicatiedatum>
+          <Naam>Werkgevende onderneming</Naam>
+          <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+          <Zones>01185 - BTW-NUMMER</Zones>
+          <Zones>01186 - BUITENLANDS ONDERNEMINGSNUMMER</Zones>
+          <Zones>00776 - BENAMING</Zones>
+          <XmlLabel>SubcontractorEmployerId</XmlLabel>
+          <Omschrijving>Functioneel blok dat toelaat de rechtstreekse werkgever van de onderaannemer te identificeren.</Omschrijving>
+          <MinimumKardinaliteit>1</MinimumKardinaliteit>
+          <MaximumKardinaliteit>1</MaximumKardinaliteit>
+          <NrGelinktBlok>90022</NrGelinktBlok>
+          <Gelinktblok>90022 - Adres</Gelinktblok>
+          <Aanwezigheid>Onmisbaar</Aanwezigheid>
+          <ExtraBeperkingen>
+               De rechtstreekse werkgever van de onderaannemer is de aangever of de onderaannemer.
+               In dit laatste geval moet deze onderaannemer aanwezig zijn in hetzelfde bericht
+               , zelfs als het om een toevoeging gaat en de onderaannemer-werkgever al eerder werd aangegeven.
+               In het bericht moet de onderaannemer-werkgever bovendien altijd voor de onderaannemer-werknemer staan.
+          </ExtraBeperkingen>
+          <Anomalie>
+               <AnomalieCode>90573-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>90573-003</AnomalieCode>
+               <AnomalieTitel>Ongeldig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </FunctionalBlock>
 </List>

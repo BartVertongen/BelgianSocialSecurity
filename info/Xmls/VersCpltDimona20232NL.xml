@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+     <glossary>
+          <Code>01017</Code>
+          <Versie>2023/2</Versie>
+          <Publicatiedatum>25/05/2023</Publicatiedatum>
+          <Titel>AANTAL GEPLANDE DAGEN</Titel>
+          <XmlLabel>PlannedDaysNbr</XmlLabel>
+          <FunctioneelBlok>Dimona IN aangifte</FunctioneelBlok>
+          <Omschrijving>Aantal werkdagen die de werkgever heeft gepland in de aangegeven Dimona-periode.</Omschrijving>
+          <ToegelatenDomein>Geheel getal en element van [0,999]In dit bericht : Geheel getal en element van [1,999]</ToegelatenDomein>
+          <Referentie></Referentie>
+          <Type>Numeriek</Type>
+          <Lengte>3</Lengte>
+          <Aanwezigheid>
+               Verplicht indien de aangifte werd ingediend voor het type werknemer "STU" en een periode tot en met 31/12/2016.
+               Verboden voor de andere types werknemer of voor een periode na 31/12/2016 (exclusief).
+          </Aanwezigheid>
+          <Formaat></Formaat>
+          <Anomalie>
+               <AnomalieCode>01017-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>01017-003</AnomalieCode>
+               <AnomalieTitel>Ongeldig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>01017-005</AnomalieCode>
+               <AnomalieTitel>Verboden</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </glossary>
+     <glossary>
+          <Code>01017</Code>
+          <Versie>2023/2</Versie>
+          <Publicatiedatum>25/05/2023</Publicatiedatum>
+          <Titel>AANTAL GEPLANDE DAGEN</Titel>
+          <XmlLabel>PlannedDaysNbr</XmlLabel>
+          <FunctioneelBlok>Dimona wijziging aangifte</FunctioneelBlok>
+          <Omschrijving>Aantal werkdagen die de werkgever heeft gepland in de aangegeven Dimona-periode.</Omschrijving>
+          <ToegelatenDomein>Geheel getal en element van [0,999]In dit bericht : Geheel getal en element van [1,999]</ToegelatenDomein>
+          <Referentie></Referentie>
+          <Type>Numeriek</Type>
+          <Lengte>3</Lengte>
+          <Aanwezigheid>
+               Verplicht indien de aangifte werd ingediend voor het type werknemer "STU" en een periode tot en met 31/12/2016.
+               Verboden voor de andere types werknemer of voor een periode na 31/12/2016 (exclusief)
+          </Aanwezigheid>
+          <Formaat></Formaat>
+          <Anomalie>
+               <AnomalieCode>01017-001</AnomalieCode>
+               <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie><Anomalie><AnomalieCode>01017-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01017-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>01135</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANTAL GEPLANDE UREN</Titel><XmlLabel>PlannedHoursNbr</XmlLabel><FunctioneelBlok>Dimona IN aangifte</FunctioneelBlok><Omschrijving>Aantal werkuren die de werkgever heeft gepland in de aangegeven Dimona-periode.</Omschrijving><ToegelatenDomein>Geheel getal en element van [1,999]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Verplicht indien de aangifte uitgevoerd werd voor de types werknemer "STU", "O17" en "S17".
+     Verboden voor de andere types werknemer.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>01135-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01135-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01135-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>01135</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANTAL GEPLANDE UREN</Titel><XmlLabel>PlannedHoursNbr</XmlLabel><FunctioneelBlok>Dimona wijziging aangifte</FunctioneelBlok><Omschrijving>Aantal werkuren die de werkgever heeft gepland in de aangegeven Dimona-periode.</Omschrijving><ToegelatenDomein>Geheel getal en element van [1,999]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Verplicht indien de aangifte uitgevoerd werd voor de types werknemer "STU", "O17" en "S17".
+     Verboden voor de andere types werknemer.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>01135-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01135-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01135-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>01254</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANTAL OPEENVOLGENDE DAGCONTRACTEN</Titel><XmlLabel>DailyContractNbr</XmlLabel><FunctioneelBlok>Gebruikende onderneming</FunctioneelBlok><Omschrijving>Aantal opeenvolgende dagcontracten gepresteerd door een student uitzendkracht bij eenzelfde gebruikende onderneming.Deze zone wordt nooit gebruikt wanneer het een Dimona-aangifte is.</Omschrijving><ToegelatenDomein>[0;999]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00655</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AARD WERKNEMER</Titel><XmlLabel>WorkerType</XmlLabel><FunctioneelBlok>Dimona karakteristieken</FunctioneelBlok><Omschrijving>Deze zone laat toe het type werknemer te preciseren.</Omschrijving><ToegelatenDomein>A17 (Artikel 17) = specifieke werknemerscategorie (animator, monitor, sportmanifestatie...) (! Opgelet : vanaf het kwartaal 2022/1 is het niet langer mogelijk om aangiften voor dit type werknemer in te dienen)
+     ALT (alternerende opleiding) = leerling in alternerende opleiding (vanaf 1 september 2023)
+     BCW (Build &amp; Construction Worker) = werknemer in de bouwsector (met uitzondering van IVT, RTA, STU en DWD)
+     DWD (Dimona without DmfA) = werknemer niet onderworpen aan bijdragen
+     EXT (Extra worker) = gelegenheidswerknemer
+     FLX (Flexi-Job) = werknemer die geniet van een flexiloon
+     IVT (Individual Vocational Training) = individuele beroepsopleiding
+     O17 (Artikel 17) = specifieke categorie van werknemers van de socio-culturele sector en andere (vanaf 2022/1)
+     PMP (Parlementair mandaat) = Federaal / regionaal parlements- of regeringslid
+     QUA (Quarantaine) = gelegenheidswerknemer in quarantaine (! Opgelet, vanaf 1 januari 2023 is het niet meer mogelijk een aangifte in te voeren van dit type werknemer)
+     RTA (Registered Trainees or Assimilated) = erkende leerling of gelijkgestelde in de bouwsector
+     S17 (Artikel 17) = specifieke categorie van werknemers van de sportsector (vanaf 2022/1)
+     STG (Stagiair) = stagiair arbeidsongevallenregeling
+     STU (Student) = student
+     STX (Student extra) = gelegenheidswerknemer student (! Opgelet, vanaf het kwartaal 2014/1 is het niet meer mogelijk een aangifte in te voeren van dit type werknemer)
+     T17 (Artikel 17) = specifieke categorie van werknemers van de openbare TV (vanaf 2022/1)
+     TEA (Teacher) = personeel van de onderwijsinstellingen (code E in DmfAPPL). Code afgeschaft vanaf het kwartaal 1/2022).
+     TRI (Transition Internship) = instapstage
+     OTH = andereVoor aangiften met betrekking tot een provinciaal of plaatselijk bestuur voor de periode t.e.m. 31/12/2021 zijn enkel de volgende waarden toegelaten : A17, IVT, STU, TEA, TRI, DWD, STG en OTH. 
+     Zoniet zijn alle waarden toegelaten behalve TEA.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00655-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00655-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00655-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00655-350</AnomalieCode><AnomalieTitel>Type werknemer verboden voor deze werkgever</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00041</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>ACTIVITEIT TEN OPZICHTE VAN HET RISICO</Titel><XmlLabel>ActivityWithRisk</XmlLabel><FunctioneelBlok>Kleine statuten - Informatie</FunctioneelBlok><Omschrijving>Code die verwijst naar de nomenclatuur van de generieke risicoklassen gebruikt door de verzekeringsondernemingen om de premies inzake Arbeidsongevallen (AO) te bepalen. De precieze aangiftevoorwaarden worden vermeld in het document met de DMFA-onderrichtingen ten behoeve van de werkgevers.
+
+     Een activiteit wordt meegedeeld op het niveau van een werknemer als zij afwijkt van het hoofddoel van de onderneming en wanneer de facto een bijzondere tarifering voorzien is in de verzekeringspolis Arbeidsongevallen.
+
+     Als de risicoklasse van de werknemer waarop de aangifte betrekking heeft, verandert in de loop van het kwartaal, dan dient men de risicoklasse aan te geven geldig op de laatste dag van het kwartaal of op de laatste dag van tewerkstelling voor het aangegeven statuut. Zo zal de "arbeider zonder verplaatsingen" die "arbeider op de werf" wordt, gekend zijn als een "arbeider op de werf". Een "arbeider zonder verplaatsingen" die een "bediende zonder verplaatsingen" wordt, zal gekend zijn als "arbeider zonder verplaatsingen" voor de aangifte als arbeider en als "bediende zonder verplaatsingen" voor de aangifte als bediende.
+
+     Zij is eveneens nodig wanneer het een sportbeoefenaar betreft. Zij dient dan ook voor de berekening van het basisloon.
+     </Omschrijving><ToegelatenDomein>De lijst met de toegelaten waarden bevindt zich in bijlage 6 - Activiteit in verband met het risico.
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00041-521</AnomalieCode><AnomalieTitel>Onverenigbaar met het soort werk</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00776</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BENAMING</Titel><XmlLabel>Denomination</XmlLabel><FunctioneelBlok>Plaats van tewerkstelling van de student</FunctioneelBlok><Omschrijving>Naam van de onderneming of agentschap van de werkplaats van de student indien hij niet op de hoofdzetel werkt.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Verplicht indien het type werknemer "STU" is, en indien de werkplaats van de student niet de hoofdzetel van de onderneming is.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00776-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00776-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00153</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BENAMING VAN DE GEBRUIKENDE ONDERNEMING</Titel><XmlLabel>UsingEmployerName</XmlLabel><FunctioneelBlok>Gebruikende onderneming</FunctioneelBlok><Omschrijving>Naam en voornaam van de gebruiker indien het een natuurlijke persoon is. Benaming van de onderneming indien het een rechtspersoon is.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Verplicht indien de zone 00046 (Paritair comit�) van het FB 90374 (Dimona karakteristieken) gelijk is aan "322" en indien het ondernemingsnummer van de gebruikende onderneming (zone 00131) niet aanwezig is.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00153-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00153-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00519</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BRIEVENBUS</Titel><XmlLabel>PostBox</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Nummer van een brievenbus.
+     </Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00519-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00519-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00032</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BRIEVENBUS VAN DE WERKNEMER</Titel><XmlLabel>WorkerPostBox</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Nummer van een brievenbus.
+     Busnummer in het adres van de werknemer.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00032-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>01185</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BTW-NUMMER</Titel><XmlLabel>VATNbr</XmlLabel><FunctioneelBlok>Gebruikende onderneming</FunctioneelBlok><Omschrijving>BTW-nummer dat op eenduidige wijze een onderneming identificeert.Deze zone wordt nooit gebruikt wanneer het een Dimona-aangifte is.</Omschrijving><ToegelatenDomein>De posities 1 en 2 komen overeen met de prefix van het vestigingsland van de onderneming. 
+     De posities 3 tot 30 bestaan uit cijfers en/of letters.
+
+     Merk op dat de structuur van een intracommunautair BTW-nummer anders is voor elke EU-lidstaat.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>30</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00663</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>C3.2A- KAARTNUMMER VAN DE MAAND WAARIN DE DIMONAPERIODE BEGINT</Titel><XmlLabel>FirstMonthC32ANbr</XmlLabel><FunctioneelBlok>Controlekaarten voor de bouwsector</FunctioneelBlok><Omschrijving>Nummer van de controlekaart C3.2A die werd toegekend aan de werknemer voor de maand waarin zijn Dimonaperiode begint.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00663-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00663-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00663-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00664</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>C3.2A-KAARTNUMMER VAN DE MAAND DIE VOLGT OP DE MAAND WAARIN DE DIMONAPERIODE BEGINT</Titel><XmlLabel>NextMonthC32ANbr</XmlLabel><FunctioneelBlok>Controlekaarten voor de bouwsector</FunctioneelBlok><Omschrijving>Nummer van de controlekaart C3.2A die werd toegekend aan de werknemer voor de maand die volgt op de maand waarin zijn Dimonaperiode begint.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00664-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00664-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00664-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00664-353</AnomalieCode><AnomalieTitel>Zelfde kaartnummer C3.2a als de vorige maand</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00910</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM BEGIN</Titel><XmlLabel>StartingDate</XmlLabel><FunctioneelBlok>Aangifte dagelijkse registratie</FunctioneelBlok><Omschrijving>Begindatum van de Dimonaperiode of van de dagelijkse registratie.</Omschrijving><ToegelatenDomein>De begindatum van de Dimonaperiode moet vroeger vallen dan het lopende jaar + 10 jaar en later of gelijktijdig dan 1920-01-01.
+     Een aangifte voor een werknemer van het type FLX (Flexi-job) kan niet meer dan 31 dagen voor het begin van het kwartaal van indiensttreding gedaan worden.
+     In het geval van een aangifte voor een werknemer van type A17 (artikel 17) kan de aanvangsdatum niet na 2021 liggen.
+     In het geval van een aangifte voor een werknemer van het type O17, S17 of T17 (artikel 17) kan de datum van indiensttreding niet v��r 2022 liggen en mag de aangifte niet meer dan 15 dagen voor het begin van de indiensttreding worden ingediend.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona-aangifte IN of een aangifte creatie dagelijkse registratie.
+     Facultatief indien het een wijzigende Dimona-aangifte of een aangifte wijziging dagelijkse registratie is.
+     Verboden als het een wijzigende Dimona-aangifte voor het werknemerstype 'STU' is waarvan de begindatum strikt na 31/12/2016 valt.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>JJJJ-MM-DD
+     � JJJJ is het jaar
+     � MM is de maand
+     . DD is de dag</Formaat><Anomalie><AnomalieCode>00910-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-344</AnomalieCode><AnomalieTitel>Verboden uit te stellen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-459</AnomalieCode><AnomalieTitel>Verboden om periodes met gelegenheidswerknemers te hebben over meer dan twee opeenvolgende dagen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00910</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM BEGIN</Titel><XmlLabel>StartingDate</XmlLabel><FunctioneelBlok>Dimona IN aangifte</FunctioneelBlok><Omschrijving>Begindatum van de Dimonaperiode of van de dagelijkse registratie.</Omschrijving><ToegelatenDomein>De begindatum van de Dimonaperiode moet vroeger vallen dan het lopende jaar + 10 jaar en later of gelijktijdig dan 1920-01-01.
+     Een aangifte voor een werknemer van het type FLX (Flexi-job) kan niet meer dan 31 dagen voor het begin van het kwartaal van indiensttreding gedaan worden.
+     In het geval van een aangifte voor een werknemer van type A17 (artikel 17) kan de aanvangsdatum niet na 2021 liggen.
+     In het geval van een aangifte voor een werknemer van het type O17, S17 of T17 (artikel 17) kan de datum van indiensttreding niet v��r 2022 liggen en mag de aangifte niet meer dan 15 dagen voor het begin van de indiensttreding worden ingediend.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona-aangifte IN of een aangifte creatie dagelijkse registratie.
+     Facultatief indien het een wijzigende Dimona-aangifte of een aangifte wijziging dagelijkse registratie is.
+     Verboden als het een wijzigende Dimona-aangifte voor het werknemerstype 'STU' is waarvan de begindatum strikt na 31/12/2016 valt.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>JJJJ-MM-DD
+     � JJJJ is het jaar
+     � MM is de maand
+     . DD is de dag</Formaat><Anomalie><AnomalieCode>00910-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-344</AnomalieCode><AnomalieTitel>Verboden uit te stellen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-459</AnomalieCode><AnomalieTitel>Verboden om periodes met gelegenheidswerknemers te hebben over meer dan twee opeenvolgende dagen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00910</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM BEGIN</Titel><XmlLabel>StartingDate</XmlLabel><FunctioneelBlok>Dimona wijziging aangifte</FunctioneelBlok><Omschrijving>Begindatum van de Dimonaperiode of van de dagelijkse registratie.</Omschrijving><ToegelatenDomein>De begindatum van de Dimonaperiode moet vroeger vallen dan het lopende jaar + 10 jaar en later of gelijktijdig dan 1920-01-01.
+     Een aangifte voor een werknemer van het type FLX (Flexi-job) kan niet meer dan 31 dagen voor het begin van het kwartaal van indiensttreding gedaan worden.
+     In het geval van een aangifte voor een werknemer van type A17 (artikel 17) kan de aanvangsdatum niet na 2021 liggen.
+     In het geval van een aangifte voor een werknemer van het type O17, S17 of T17 (artikel 17) kan de datum van indiensttreding niet v��r 2022 liggen en mag de aangifte niet meer dan 15 dagen voor het begin van de indiensttreding worden ingediend.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona-aangifte IN of een aangifte creatie dagelijkse registratie.
+     Facultatief indien het een wijzigende Dimona-aangifte of een aangifte wijziging dagelijkse registratie is.
+     Verboden als het een wijzigende Dimona-aangifte voor het werknemerstype 'STU' is waarvan de begindatum strikt na 31/12/2016 valt.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>JJJJ-MM-DD
+     � JJJJ is het jaar
+     � MM is de maand
+     . DD is de dag</Formaat><Anomalie><AnomalieCode>00910-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-344</AnomalieCode><AnomalieTitel>Verboden uit te stellen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-459</AnomalieCode><AnomalieTitel>Verboden om periodes met gelegenheidswerknemers te hebben over meer dan twee opeenvolgende dagen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00910-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00911</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM EINDE</Titel><XmlLabel>EndingDate</XmlLabel><FunctioneelBlok>Aangifte dagelijkse registratie</FunctioneelBlok><Omschrijving>Einddatum van de Dimonaperiode of van de dagelijkse registratie. Om aan te geven dat de Dimonaperiode dat men wenst te wijzigen opnieuw geopend moet worden (zonder einddatum), moet de waarde 9999-12-31 gebruikt worden.</Omschrijving><ToegelatenDomein>De einddatum moet vroeger vallen dan het lopende jaar + 10 jaar en later of gelijktijdig dan 1999-01-01. De waarde 9999-12-31 wordt enkel toegestaan in een wijzigende Dimona-aangifte.
+
+     Voor een Dimona Horeca met dagforfait, een Dimona Artikel 17 (de type A17 of T17) of een Dimona gelegenheidswerknemer in quarantaine moet de einddatum gelijk zijn aan de begindatum. 
+
+     Voor een student (type werknemer = STU) of een Artikel 17 (type werknemer = O17 of S17) moet de einddatum in hetzelfde trimester vallen als de begindatum.
+
+     Om een Dimona voor een Flexi-Job te doen per periode moet de einddatum altijd na de begindatum liggen.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op:
+
+     - een Dimona-aangifte OUT
+     - of het een Dimona-aangifte IN is van een uitzendkracht (Paritair comit� = 322), van een gelegenheidswerknemer (Type werknemer = EXT), een student (Type werknemer = STU), een persoon in een beroepsopleiding (Type werknemer = IVT), een persoon in en instapstage (Type werknemer = TRI) of een stagiair (Type werknemer = STG) of een Artikel 17 (Type werknemer = A17, O17, S17 of T17).
+     - of een aangifte creatie dagelijkse registratie.
+
+     Verboden in het geval van een aangifte annulatie dagelijkse registratie.
+
+     Facultatief in de andere gevallen.</Aanwezigheid><Formaat>JJJJ-MM-DD
+     � JJJJ is het jaar
+     � MM is de maand
+     . DD is de dag</Formaat><Anomalie><AnomalieCode>00911-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-014</AnomalieCode><AnomalieTitel>Einddatum voorafgaand aan de begindatum</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-344</AnomalieCode><AnomalieTitel>Verboden uit te stellen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00911</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM EINDE</Titel><XmlLabel>EndingDate</XmlLabel><FunctioneelBlok>Dimona IN aangifte</FunctioneelBlok><Omschrijving>Einddatum van de Dimonaperiode of van de dagelijkse registratie. Om aan te geven dat de Dimonaperiode dat men wenst te wijzigen opnieuw geopend moet worden (zonder einddatum), moet de waarde 9999-12-31 gebruikt worden.</Omschrijving><ToegelatenDomein>De einddatum moet vroeger vallen dan het lopende jaar + 10 jaar en later of gelijktijdig dan 1999-01-01. De waarde 9999-12-31 wordt enkel toegestaan in een wijzigende Dimona-aangifte.
+
+     Voor een Dimona Horeca met dagforfait, een Dimona Artikel 17 (de type A17 of T17) of een Dimona gelegenheidswerknemer in quarantaine moet de einddatum gelijk zijn aan de begindatum. 
+
+     Voor een student (type werknemer = STU) of een Artikel 17 (type werknemer = O17 of S17) moet de einddatum in hetzelfde trimester vallen als de begindatum.
+
+     Om een Dimona voor een Flexi-Job te doen per periode moet de einddatum altijd na de begindatum liggen.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op:
+
+     - een Dimona-aangifte OUT
+     - of het een Dimona-aangifte IN is van een uitzendkracht (Paritair comit� = 322), van een gelegenheidswerknemer (Type werknemer = EXT), een student (Type werknemer = STU), een persoon in een beroepsopleiding (Type werknemer = IVT), een persoon in en instapstage (Type werknemer = TRI) of een stagiair (Type werknemer = STG) of een Artikel 17 (Type werknemer = A17, O17, S17 of T17).
+     - of een aangifte creatie dagelijkse registratie.
+
+     Verboden in het geval van een aangifte annulatie dagelijkse registratie.
+
+     Facultatief in de andere gevallen.</Aanwezigheid><Formaat>JJJJ-MM-DD
+     � JJJJ is het jaar
+     � MM is de maand
+     . DD is de dag</Formaat><Anomalie><AnomalieCode>00911-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-014</AnomalieCode><AnomalieTitel>Einddatum voorafgaand aan de begindatum</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-344</AnomalieCode><AnomalieTitel>Verboden uit te stellen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00911</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM EINDE</Titel><XmlLabel>EndingDate</XmlLabel><FunctioneelBlok>Dimona OUT aangifte</FunctioneelBlok><Omschrijving>Einddatum van de Dimonaperiode of van de dagelijkse registratie. Om aan te geven dat de Dimonaperiode dat men wenst te wijzigen opnieuw geopend moet worden (zonder einddatum), moet de waarde 9999-12-31 gebruikt worden.</Omschrijving><ToegelatenDomein>De einddatum moet vroeger vallen dan het lopende jaar + 10 jaar en later of gelijktijdig dan 1999-01-01. De waarde 9999-12-31 wordt enkel toegestaan in een wijzigende Dimona-aangifte.
+
+     Voor een Dimona Horeca met dagforfait, een Dimona Artikel 17 (de type A17 of T17) of een Dimona gelegenheidswerknemer in quarantaine moet de einddatum gelijk zijn aan de begindatum. 
+
+     Voor een student (type werknemer = STU) of een Artikel 17 (type werknemer = O17 of S17) moet de einddatum in hetzelfde trimester vallen als de begindatum.
+
+     Om een Dimona voor een Flexi-Job te doen per periode moet de einddatum altijd na de begindatum liggen.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op:
+
+     - een Dimona-aangifte OUT
+     - of het een Dimona-aangifte IN is van een uitzendkracht (Paritair comit� = 322), van een gelegenheidswerknemer (Type werknemer = EXT), een student (Type werknemer = STU), een persoon in een beroepsopleiding (Type werknemer = IVT), een persoon in en instapstage (Type werknemer = TRI) of een stagiair (Type werknemer = STG) of een Artikel 17 (Type werknemer = A17, O17, S17 of T17).
+     - of een aangifte creatie dagelijkse registratie.
+
+     Verboden in het geval van een aangifte annulatie dagelijkse registratie.
+
+     Facultatief in de andere gevallen.</Aanwezigheid><Formaat>JJJJ-MM-DD
+     � JJJJ is het jaar
+     � MM is de maand
+     . DD is de dag</Formaat><Anomalie><AnomalieCode>00911-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-014</AnomalieCode><AnomalieTitel>Einddatum voorafgaand aan de begindatum</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-344</AnomalieCode><AnomalieTitel>Verboden uit te stellen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00911</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM EINDE</Titel><XmlLabel>EndingDate</XmlLabel><FunctioneelBlok>Dimona wijziging aangifte</FunctioneelBlok><Omschrijving>Einddatum van de Dimonaperiode of van de dagelijkse registratie. Om aan te geven dat de Dimonaperiode dat men wenst te wijzigen opnieuw geopend moet worden (zonder einddatum), moet de waarde 9999-12-31 gebruikt worden.</Omschrijving><ToegelatenDomein>De einddatum moet vroeger vallen dan het lopende jaar + 10 jaar en later of gelijktijdig dan 1999-01-01. De waarde 9999-12-31 wordt enkel toegestaan in een wijzigende Dimona-aangifte.
+
+     Voor een Dimona Horeca met dagforfait, een Dimona Artikel 17 (de type A17 of T17) of een Dimona gelegenheidswerknemer in quarantaine moet de einddatum gelijk zijn aan de begindatum. 
+
+     Voor een student (type werknemer = STU) of een Artikel 17 (type werknemer = O17 of S17) moet de einddatum in hetzelfde trimester vallen als de begindatum.
+
+     Om een Dimona voor een Flexi-Job te doen per periode moet de einddatum altijd na de begindatum liggen.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op:
+
+     - een Dimona-aangifte OUT
+     - of het een Dimona-aangifte IN is van een uitzendkracht (Paritair comit� = 322), van een gelegenheidswerknemer (Type werknemer = EXT), een student (Type werknemer = STU), een persoon in een beroepsopleiding (Type werknemer = IVT), een persoon in en instapstage (Type werknemer = TRI) of een stagiair (Type werknemer = STG) of een Artikel 17 (Type werknemer = A17, O17, S17 of T17).
+     - of een aangifte creatie dagelijkse registratie.
+
+     Verboden in het geval van een aangifte annulatie dagelijkse registratie.
+
+     Facultatief in de andere gevallen.</Aanwezigheid><Formaat>JJJJ-MM-DD
+     � JJJJ is het jaar
+     � MM is de maand
+     . DD is de dag</Formaat><Anomalie><AnomalieCode>00911-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-014</AnomalieCode><AnomalieTitel>Einddatum voorafgaand aan de begindatum</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-344</AnomalieCode><AnomalieTitel>Verboden uit te stellen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00911-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00218</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationDate</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>
+     Datum waarop het formulier gecre�erd is.</Omschrijving><ToegelatenDomein>
+     JJJJ is een element van [lopend jaar -1 ; lopend jaar] ;
+     De datum mag zich niet in de toekomst bevinden.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+     � JJJJ is het jaar
+     � MM is de maand
+     . DD is de dag</Formaat><Anomalie><AnomalieCode>00218-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00218-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00028</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM WAAROP DE WERKNEMER GEBOREN IS</Titel><XmlLabel>WorkerBirthdate</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Geboortedatum van de natuurlijke persoon.</Omschrijving><ToegelatenDomein> JJJJ is een element van [jaar van de aangifte -120; jaar van de aangifte].</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat>JJJJ-MM-DD (geldige datum)
+     JJJJ-00-00</Formaat><Anomalie><AnomalieCode>00028-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00028-348</AnomalieCode><AnomalieTitel>Onverenigbaar met het INSZ</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00522</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GEMEENTE</Titel><XmlLabel>City</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+     </Omschrijving><ToegelatenDomein>Indien het een Belgische gemeente is moet de waarde verwijzen naar ��n van de namen die in de bijlage 23 overeenkomen met de postcode die aangeduid staat in de zone 00520 (postcode).</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00522-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00522-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00522-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00168</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GEMEENTE - GEBOORTEPLAATS VAN DE WERKNEMER</Titel><XmlLabel>WorkerBirthplace</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+     Naam van de gemeente waar de natuurlijke persoon geboren is.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00168-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00034</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GEMEENTE VAN DE WERKNEMER</Titel><XmlLabel>WorkerCity</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+     Naam van de gemeente waar de werknemer gedomicilieerd is.</Omschrijving><ToegelatenDomein>
+     Indien het gaat om een Belgische gemeente, moet de waarde verwijzen naar ��n van de namen die in bijlage 23 overeenstemmen met de in zone 00033 (postcode van de werknemer) opgegeven postcode.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00034-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00029</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GESLACHT VAN DE WERKNEMER</Titel><XmlLabel>WorkerSex</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Geslacht van een natuurlijk persoon.
+     </Omschrijving><ToegelatenDomein>1 = man
+     2 = vrouw
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00029-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00029-348</AnomalieCode><AnomalieTitel>Onverenigbaar met het INSZ</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00298</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>HERKOMST VAN DE REFERENTIE</Titel><XmlLabel>ReferenceOrigin</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Waarde die de authentieke bron van een referentienummer aanduidt.
+     </Omschrijving><ToegelatenDomein>1 = het referentienummer is toegekend door een aangever of aanvrager (een bedrijf, een sociaal secretariaat, een softwareontwikkelaar, ...)
+     2 = het ticketnummer toegekend door de sociale zekerheid, dat een aangifte, een aanvraag of een antwoord op eenduidige wijze identificeert
+     3 = het referentienummer is toegekend door een sector van de sociale zekerheid
+     4 = het referentienummer is toegekend door de dienst ePost
+     5 = het referentienummer is toegekend door de KSZ
+     6 = het referentienummer is toegekend door het archiveringssysteem (DOC-ID)
+     7 = het referentienummer is door de DSP aan een gearchiveerd document toegekend (DSP-ID)
+     "1" voor de Dimona-aangiften.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00298-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00296</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN HET FORMULIER</Titel><XmlLabel>Identification</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Zone die de inhoud van een formulier beschrijft.
+     </Omschrijving><ToegelatenDomein>Zie bijlage 11 - Identificatie van het formulier.
+     Deze zone moet als waarde "DIMONA" hebben.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00296-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00296-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00024</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Dimona annulatie aangifte</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+     </Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Verplicht indien het een Dimona-aangifte IN is en dat ze betrekking heeft op een gelegenheidswerknemer is (type werknemer "EXT"). Zoniet, facultatief.
+     Verboden in het blok "UsingEmployer" (90107) in Dimona.</Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+     � NNNNNNNNN is het nummer
+     � CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00024-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-347</AnomalieCode><AnomalieTitel>Onverenigbaar met het identificatienummer van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-348</AnomalieCode><AnomalieTitel>Onverenigbaar met het INSZ</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00024</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Dimona OUT aangifte</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+     </Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Verplicht indien het een Dimona-aangifte IN is en dat ze betrekking heeft op een gelegenheidswerknemer is (type werknemer "EXT"). Zoniet, facultatief.
+     Verboden in het blok "UsingEmployer" (90107) in Dimona.</Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+     � NNNNNNNNN is het nummer
+     � CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00024-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-347</AnomalieCode><AnomalieTitel>Onverenigbaar met het identificatienummer van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-348</AnomalieCode><AnomalieTitel>Onverenigbaar met het INSZ</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00024</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Dimona wijziging aangifte</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+     </Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Verplicht indien het een Dimona-aangifte IN is en dat ze betrekking heeft op een gelegenheidswerknemer is (type werknemer "EXT"). Zoniet, facultatief.
+     Verboden in het blok "UsingEmployer" (90107) in Dimona.</Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+     � NNNNNNNNN is het nummer
+     � CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00024-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-347</AnomalieCode><AnomalieTitel>Onverenigbaar met het identificatienummer van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-348</AnomalieCode><AnomalieTitel>Onverenigbaar met het INSZ</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00024</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Gebruikende onderneming</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+     </Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Verplicht indien het een Dimona-aangifte IN is en dat ze betrekking heeft op een gelegenheidswerknemer is (type werknemer "EXT"). Zoniet, facultatief.
+     Verboden in het blok "UsingEmployer" (90107) in Dimona.</Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+     � NNNNNNNNN is het nummer
+     � CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00024-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-347</AnomalieCode><AnomalieTitel>Onverenigbaar met het identificatienummer van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-348</AnomalieCode><AnomalieTitel>Onverenigbaar met het INSZ</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00024</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+     </Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Verplicht indien het een Dimona-aangifte IN is en dat ze betrekking heeft op een gelegenheidswerknemer is (type werknemer "EXT"). Zoniet, facultatief.
+     Verboden in het blok "UsingEmployer" (90107) in Dimona.</Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+     � NNNNNNNNN is het nummer
+     � CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00024-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-347</AnomalieCode><AnomalieTitel>Onverenigbaar met het identificatienummer van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-348</AnomalieCode><AnomalieTitel>Onverenigbaar met het INSZ</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>01085</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER VAN DE DAGELIJKSE REGISTRATIE</Titel><XmlLabel>DailyRegistrationId</XmlLabel><FunctioneelBlok>Aangifte dagelijkse registratie</FunctioneelBlok><Omschrijving>Nummer dat op eenduidige wijze een dagelijkse registratie identificeert. Dit nummer wordt automatisch toegekend aan de aangifte die deze dagelijkse registratie genereert.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>12</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een aangifte wijziging of annulatie dagelijkse registratie.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>01085-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01085-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01085-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01085-092</AnomalieCode><AnomalieTitel>Element niet gekend</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01085-354</AnomalieCode><AnomalieTitel>Identificatienummer van Dimonaperiode onbekend</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01085-355</AnomalieCode><AnomalieTitel>Reeds geannuleerde Dimonaperiode of dagelijkse registratie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01085-181</AnomalieCode><AnomalieTitel>Wijziging of annulatie niet toegelaten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00913</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER VAN DIMONAPERIODE</Titel><XmlLabel>DimonaPeriodId</XmlLabel><FunctioneelBlok>Aangifte dagelijkse registratie</FunctioneelBlok><Omschrijving>Nummer dat op een unieke wijze de Dimonaperiode identificeert. Dit nummer wordt automatisch toegekend aan een Dimona IN die deze periode genereert.</Omschrijving><ToegelatenDomein>Getal in 12 posities (waarbij de laatste twee posities overeenkomen met een controlegetal).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar indien het formulier betrekking heeft op een Dimona wijziging aangifte, een Dimona OUT aangifte, een Dimona annulatie aangifte of een aangifte creatie dagelijkse registratie.
+
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00913-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-181</AnomalieCode><AnomalieTitel>Wijziging of annulatie niet toegelaten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-354</AnomalieCode><AnomalieTitel>Identificatienummer van Dimonaperiode onbekend</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-355</AnomalieCode><AnomalieTitel>Reeds geannuleerde Dimonaperiode of dagelijkse registratie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-356</AnomalieCode><AnomalieTitel>Reeds afgesloten Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-359</AnomalieCode><AnomalieTitel>Verboden om een wijzigende aangifte te doen om een Dimonaperiode af te sluiten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-357</AnomalieCode><AnomalieTitel>Dimonaperiode met een blokkerende anomalie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-362</AnomalieCode><AnomalieTitel>Verboden Dimona-aangiften te doen op een vergrendelde periode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-368</AnomalieCode><AnomalieTitel>Verboden de einddatum te verwijderen voor deze periode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-461</AnomalieCode><AnomalieTitel>De werkgever heeft voor zijn dagelijkse registraties niet voor het Dimonasysteem gekozen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00913</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER VAN DIMONAPERIODE</Titel><XmlLabel>DimonaPeriodId</XmlLabel><FunctioneelBlok>Dimona annulatie aangifte</FunctioneelBlok><Omschrijving>Nummer dat op een unieke wijze de Dimonaperiode identificeert. Dit nummer wordt automatisch toegekend aan een Dimona IN die deze periode genereert.</Omschrijving><ToegelatenDomein>Getal in 12 posities (waarbij de laatste twee posities overeenkomen met een controlegetal).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar indien het formulier betrekking heeft op een Dimona wijziging aangifte, een Dimona OUT aangifte, een Dimona annulatie aangifte of een aangifte creatie dagelijkse registratie.
+
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00913-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-181</AnomalieCode><AnomalieTitel>Wijziging of annulatie niet toegelaten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-354</AnomalieCode><AnomalieTitel>Identificatienummer van Dimonaperiode onbekend</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-355</AnomalieCode><AnomalieTitel>Reeds geannuleerde Dimonaperiode of dagelijkse registratie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-356</AnomalieCode><AnomalieTitel>Reeds afgesloten Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-359</AnomalieCode><AnomalieTitel>Verboden om een wijzigende aangifte te doen om een Dimonaperiode af te sluiten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-357</AnomalieCode><AnomalieTitel>Dimonaperiode met een blokkerende anomalie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-362</AnomalieCode><AnomalieTitel>Verboden Dimona-aangiften te doen op een vergrendelde periode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-368</AnomalieCode><AnomalieTitel>Verboden de einddatum te verwijderen voor deze periode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-461</AnomalieCode><AnomalieTitel>De werkgever heeft voor zijn dagelijkse registraties niet voor het Dimonasysteem gekozen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00913</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER VAN DIMONAPERIODE</Titel><XmlLabel>DimonaPeriodId</XmlLabel><FunctioneelBlok>Dimona OUT aangifte</FunctioneelBlok><Omschrijving>Nummer dat op een unieke wijze de Dimonaperiode identificeert. Dit nummer wordt automatisch toegekend aan een Dimona IN die deze periode genereert.</Omschrijving><ToegelatenDomein>Getal in 12 posities (waarbij de laatste twee posities overeenkomen met een controlegetal).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar indien het formulier betrekking heeft op een Dimona wijziging aangifte, een Dimona OUT aangifte, een Dimona annulatie aangifte of een aangifte creatie dagelijkse registratie.
+
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00913-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-181</AnomalieCode><AnomalieTitel>Wijziging of annulatie niet toegelaten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-354</AnomalieCode><AnomalieTitel>Identificatienummer van Dimonaperiode onbekend</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-355</AnomalieCode><AnomalieTitel>Reeds geannuleerde Dimonaperiode of dagelijkse registratie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-356</AnomalieCode><AnomalieTitel>Reeds afgesloten Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-359</AnomalieCode><AnomalieTitel>Verboden om een wijzigende aangifte te doen om een Dimonaperiode af te sluiten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-357</AnomalieCode><AnomalieTitel>Dimonaperiode met een blokkerende anomalie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-362</AnomalieCode><AnomalieTitel>Verboden Dimona-aangiften te doen op een vergrendelde periode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-368</AnomalieCode><AnomalieTitel>Verboden de einddatum te verwijderen voor deze periode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-461</AnomalieCode><AnomalieTitel>De werkgever heeft voor zijn dagelijkse registraties niet voor het Dimonasysteem gekozen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00913</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER VAN DIMONAPERIODE</Titel><XmlLabel>DimonaPeriodId</XmlLabel><FunctioneelBlok>Dimona wijziging aangifte</FunctioneelBlok><Omschrijving>Nummer dat op een unieke wijze de Dimonaperiode identificeert. Dit nummer wordt automatisch toegekend aan een Dimona IN die deze periode genereert.</Omschrijving><ToegelatenDomein>Getal in 12 posities (waarbij de laatste twee posities overeenkomen met een controlegetal).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar indien het formulier betrekking heeft op een Dimona wijziging aangifte, een Dimona OUT aangifte, een Dimona annulatie aangifte of een aangifte creatie dagelijkse registratie.
+
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00913-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-181</AnomalieCode><AnomalieTitel>Wijziging of annulatie niet toegelaten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-354</AnomalieCode><AnomalieTitel>Identificatienummer van Dimonaperiode onbekend</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-355</AnomalieCode><AnomalieTitel>Reeds geannuleerde Dimonaperiode of dagelijkse registratie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-356</AnomalieCode><AnomalieTitel>Reeds afgesloten Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-359</AnomalieCode><AnomalieTitel>Verboden om een wijzigende aangifte te doen om een Dimonaperiode af te sluiten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-357</AnomalieCode><AnomalieTitel>Dimonaperiode met een blokkerende anomalie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-362</AnomalieCode><AnomalieTitel>Verboden Dimona-aangiften te doen op een vergrendelde periode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-368</AnomalieCode><AnomalieTitel>Verboden de einddatum te verwijderen voor deze periode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-461</AnomalieCode><AnomalieTitel>De werkgever heeft voor zijn dagelijkse registraties niet voor het Dimonasysteem gekozen</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00913-462</AnomalieCode><AnomalieTitel>Onverenigbaarheid tussen de dagelijkse registratie en de karakteristieken van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00027</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>INITIAAL VAN DE TWEEDE VOORNAAM VAN DE WERKNEMER</Titel><XmlLabel>WorkerInitial</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Initiaal van de tweede voornaam van een natuurlijk persoon.
+     </Omschrijving><ToegelatenDomein>Een letter uit het alfabet.
+     </ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00027-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00523</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>LANDCODE</Titel><XmlLabel>Country</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+     </Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00523-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00523-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00523-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00169</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>LANDCODE VAN DE GEBOORTEPLAATS VAN DE WERKNEMER</Titel><XmlLabel>WorkerBirthplaceCountry</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+     Code om het land van de geboorteplaats van de natuurlijke persoon op een unieke wijze te identificeren.</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00169-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00035</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>LANDCODE VAN DE WERKNEMER</Titel><XmlLabel>WorkerCountry</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+     Code waarmee men het land kan identificeren waar de werknemer gedomicilieerd is.</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00035-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00025</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NAAM VAN DE WERKNEMER</Titel><XmlLabel>WorkerName</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Familienaam van een natuurlijk persoon.
+     Men moet de naam vermelden die op het paspoort of de identiteitskaart staat.
+     Voor vrouwen van Belgische nationaliteit gaat het om de meisjesnaam.
+     </Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>48</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00025-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00025-348</AnomalieCode><AnomalieTitel>Onverenigbaar met het INSZ</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00119</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NATIONALITEIT VAN DE WERKNEMER</Titel><XmlLabel>Nationality</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Code die de nationaliteit van de werknemer aanduidt.</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00119-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00167</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN DE SOCIALE IDENTITEITSKAART</Titel><XmlLabel>SIS</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Nummer van de sociale identiteitskaart van een natuurlijk persoon (SIS).
+     Deze zone wordt nooit gebruikt wanneer het een Dimona-aangifte is.</Omschrijving><ToegelatenDomein>Getal van 10 cijfers.
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00652</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN DEELENTITEIT</Titel><XmlLabel>SubEntityNbr</XmlLabel><FunctioneelBlok>Dimona karakteristieken</FunctioneelBlok><Omschrijving>Nummer toegekend � na akkoord van de RSZ - aan de deelentiteit van een werkgever van de publieke sector.</Omschrijving><ToegelatenDomein>Moet behoren tot de lijst van de geldige deelentiteiten voor de betrokken werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien de werkgever betrokken is bij het systeem van deelentiteiten. Verboden in de andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00652-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00652-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00652-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00518</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN HET ADRES</Titel><XmlLabel>HouseNbr</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00518-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00518-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00518-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00031</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN HET ADRES VAN DE WERKNEMER</Titel><XmlLabel>WorkerHouseNbr</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>
+     Nummer van de woonplaats van de werknemer.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00031-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00046</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN PARITAIR COMIT�</Titel><XmlLabel>JointCommissionNbr</XmlLabel><FunctioneelBlok>Dimona karakteristieken</FunctioneelBlok><Omschrijving>Nummer van het paritair comit� waaronder de werknemer valt in het kader van de aangegeven tewerkstelling of op het moment waarop de aanvullende vergoeding voor het eerst werd toegekend.
+     Wanneer deze zone bij het FB 90374 (Dimona karakteristieken) staat, geeft ze het paritair comit� weer waaronder de werknemer valt.
+
+     Wanneer deze zone bij het FB 90107 (Gebruikende onderneming) staat, geeft ze het paritair comit� van de gebruiker van de uitzendkracht weer.
+
+     Een offici�le lijst met de paritaire comit�s wordt ieder jaar gepubliceerd in het Belgische Staatsblad. Enkel de in Dimona toegelaten nummers zijn van toepassing.</Omschrijving><ToegelatenDomein>- CCC : De paritaire comit�s ; reeks van 3 cijfers, links uitgelijnd. 
+     - CCC.CC : De paritaire subcomit�s ; reeks van 3 cijfers gevolgd door een punt en 2 cijfers, links uitgelijnd.
+     - CCC.CC.CC : De paritaire sub-subcomit�s ;  reeks van 3 cijfers gevolgd door een punt en 2 cijfers nogmaals gevolgd door een punt en 2 cijfers.
+     - Als de werknemer onder geen enkel paritair comit� of subcomit� of sub-subcomit� valt, dan is de in te vullen waarde 999.
+     De enige waarden die in dit bericht zijn toegelaten zijn:
+     124 = Paritair Comit� van het bouwbedrijf
+     140 = Paritair comit� van transport en logistiek
+     144 = Paritair comit� voor landbouw
+     145 = Paritair comit� voor tuinbouwbedrijven
+     149 = Paritair Comit� voor Elektriciens: installatie en distributie
+     302 = Paritair comit� voor hotelnijverheid
+     320 = Paritair Comit� voor de begrafenisondernemingen
+     322 = Paritair comit� voor uitzendarbeid en erkende ondernemingen die nabijheidswerken of diensten leveren
+     XXX = andere sectoren
+
+     Eerste opmerking: in dit bericht moeten enkel uitzendkrachten aangegeven worden met het Paritair comit� 322. Werknemers van erkende ondernemingen die nabijheidswerken of -diensten leveren moeten aangegeven worden met de waarde XXX (andere sectoren).
+
+     Tweede opmerking: de waarde 322 is niet toegelaten wanneer de zone bij het blok 90107 (Gebruikende onderneming) hoort.
+
+     Derde opmerking : De prestaties van toepassing voor het Paritair comit� 149 moeten verplicht aangegeven worden onder dit paritair comit� voor alle periodes vanaf 01/10/2017.
+
+     Vierde opmerking: gelegenheidsarbeid van toepassing voor paritair comit� 320 moet verplicht aangegeven worden onder dit paritair comit� voor alle periodes vanaf 01/04/2019.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verplicht indien de zone zich in het FB 90374 (Dimona karakteristieken) bevindt en het formulier betrekking heeft op een werkgever (uitgezonderd provinciale en plaatselijke besturen).
+     Verplicht indien de zone zich in het FB 90107 (Gebruikende onderneming) bevindt en het paritair comit� (BF 90374) 322 is.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>CCC of CCC.CC of CCC.CC.CC</Formaat><Anomalie><AnomalieCode>00046-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00046</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN PARITAIR COMIT�</Titel><XmlLabel>JointCommissionNbr</XmlLabel><FunctioneelBlok>Gebruikende onderneming</FunctioneelBlok><Omschrijving>Nummer van het paritair comit� waaronder de werknemer valt in het kader van de aangegeven tewerkstelling of op het moment waarop de aanvullende vergoeding voor het eerst werd toegekend.
+     Wanneer deze zone bij het FB 90374 (Dimona karakteristieken) staat, geeft ze het paritair comit� weer waaronder de werknemer valt.
+
+     Wanneer deze zone bij het FB 90107 (Gebruikende onderneming) staat, geeft ze het paritair comit� van de gebruiker van de uitzendkracht weer.
+
+     Een offici�le lijst met de paritaire comit�s wordt ieder jaar gepubliceerd in het Belgische Staatsblad. Enkel de in Dimona toegelaten nummers zijn van toepassing.</Omschrijving><ToegelatenDomein>- CCC : De paritaire comit�s ; reeks van 3 cijfers, links uitgelijnd. 
+     - CCC.CC : De paritaire subcomit�s ; reeks van 3 cijfers gevolgd door een punt en 2 cijfers, links uitgelijnd.
+     - CCC.CC.CC : De paritaire sub-subcomit�s ;  reeks van 3 cijfers gevolgd door een punt en 2 cijfers nogmaals gevolgd door een punt en 2 cijfers.
+     - Als de werknemer onder geen enkel paritair comit� of subcomit� of sub-subcomit� valt, dan is de in te vullen waarde 999.
+     De enige waarden die in dit bericht zijn toegelaten zijn:
+     124 = Paritair Comit� van het bouwbedrijf
+     140 = Paritair comit� van transport en logistiek
+     144 = Paritair comit� voor landbouw
+     145 = Paritair comit� voor tuinbouwbedrijven
+     149 = Paritair Comit� voor Elektriciens: installatie en distributie
+     302 = Paritair comit� voor hotelnijverheid
+     320 = Paritair Comit� voor de begrafenisondernemingen
+     322 = Paritair comit� voor uitzendarbeid en erkende ondernemingen die nabijheidswerken of diensten leveren
+     XXX = andere sectoren
+
+     Eerste opmerking: in dit bericht moeten enkel uitzendkrachten aangegeven worden met het Paritair comit� 322. Werknemers van erkende ondernemingen die nabijheidswerken of -diensten leveren moeten aangegeven worden met de waarde XXX (andere sectoren).
+
+     Tweede opmerking: de waarde 322 is niet toegelaten wanneer de zone bij het blok 90107 (Gebruikende onderneming) hoort.
+
+     Derde opmerking : De prestaties van toepassing voor het Paritair comit� 149 moeten verplicht aangegeven worden onder dit paritair comit� voor alle periodes vanaf 01/10/2017.
+
+     Vierde opmerking: gelegenheidsarbeid van toepassing voor paritair comit� 320 moet verplicht aangegeven worden onder dit paritair comit� voor alle periodes vanaf 01/04/2019.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verplicht indien de zone zich in het FB 90374 (Dimona karakteristieken) bevindt en het formulier betrekking heeft op een werkgever (uitgezonderd provinciale en plaatselijke besturen).
+     Verplicht indien de zone zich in het FB 90107 (Gebruikende onderneming) bevindt en het paritair comit� (BF 90374) 322 is.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>CCC of CCC.CC of CCC.CC.CC</Formaat><Anomalie><AnomalieCode>00046-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00014</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+     In het geval van een aangifte voor een provinciaal of plaatselijk bestuur, heeft het Ondernemingsnummer voorrang, zoniet heeft het RSZ-identificatienummer (zone 00011) of het voorlopig RSZ-nummer (zone 00948) voorrang op het ondernemingsnummer.</Omschrijving><ToegelatenDomein>
+     Getal van 10 cijfers waarvan :
+     de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+     de posities 9 en 10 overeenkomen met een controlegetal.
+     Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.De waarde 0 is nooit toegelaten wanneer het een Dimona-aangifte is.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het gaat om een provinciaal of plaatselijk bestuur of een andere werkgever die onder de RSZ valt en indien het "RSZ-nummer" (zone 00011) en het "voorlopig RSZ-nummer" (zone 00948) geen van beide aanwezig zijn.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00014-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-235</AnomalieCode><AnomalieTitel>Niet opgenomen in het repertorium</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-347</AnomalieCode><AnomalieTitel>Onverenigbaar met het identificatienummer van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-022</AnomalieCode><AnomalieTitel>Onverenigbaar met het repertorium</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00131</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER VAN DE GEBRUIKENDE ONDERNEMING</Titel><XmlLabel>UsingEmployerCompanyID</XmlLabel><FunctioneelBlok>Gebruikende onderneming</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+     Het ondernemingsnummer is onmisbaar, tenzij de onderneming die gebruik maakt van de uitzendkracht er geen heeft omdat ze in het buitenland gevestigd is.</Omschrijving><ToegelatenDomein>
+     Getal van 10 cijfers waarvan :
+     de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+     de posities 9 en 10 overeenkomen met een controlegetal.
+     Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien de zone 00046 (Paritair comit�) = 322 en indien de uitzendgebruiker een ondernemingsnummer heeft dat bekend is bij de Kruispuntbank van ondernemingen. Verboden in de andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00131-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00131-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00131-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00131-235</AnomalieCode><AnomalieTitel>Niet opgenomen in het repertorium</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00520</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>POSTCODE</Titel><XmlLabel>ZIPCode</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Postnummer van een gemeente.
+     </Omschrijving><ToegelatenDomein>Indien het een Belgische postcode is, moet de waarde betrekking hebben op ��n van de codes die in de bijlage 23 staan.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00520-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00520-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00520-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00033</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>POSTCODE VAN DE WERKNEMER</Titel><XmlLabel>WorkerZIPCode</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Postnummer van een gemeente.
+     Postnummer van het adres waar de werknemer gedomicilieerd is.
+     Voor de in Belgi� gedomicilieerde werknemers moet men de offici�le lijst met Belgische postcodenummers gebruiken.</Omschrijving><ToegelatenDomein>Indien het een Belgische postcode is, moet de waarde betrekking hebben op ��n van de codes die in de bijlage 23 staan.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00033-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00109</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>PPL NUMMER</Titel><XmlLabel>NOSSLPARegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving> Elke lokale of provinciale overheid die personeel in dienst heeft, moet ingeschreven zijn bij de RSZ.Deze zone wordt nooit gebruikt wanneer het een Dimona-aangifte is.</Omschrijving><ToegelatenDomein>Geheel getal en element van [00000197;99999926]. Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het PPL nummer op de waarde nul gezet worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>8</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>0 of NNNNNNCC
+     � NNNNNN is het nummer
+     � CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00299</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>PRECIES UUR VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationHour</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren, minuten, seconden en milliseconden.
+     </Omschrijving><ToegelatenDomein>UU is een element van [00;23]
+     MM is een element van [00;59]
+     SS is een element van [00;59]
+     SSS is een element van [000;999]
+     </ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>UU:MM:SS.SSS
+     . UU zijn de uren
+     . MM zijn de minuten
+     . SS zijn de seconden
+     . SSS zijn de milliseconden</Formaat><Anomalie><AnomalieCode>00299-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00299-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00615</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>REFERENTIE GEBRUIKER - NATUURLIJKE PERSOON</Titel><XmlLabel>NaturalPersonUserReference</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Referentie.
+     Referentie van de natuurlijke persoon gebruikt door de werkgever of een erkend sociaal secretariaat.Deze zone wordt nooit gebruikt wanneer het een Dimona-aangifte is.</Omschrijving><ToegelatenDomein>In dit bericht is de toegelaten lengte voor deze zone 20 tekens.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>200</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00222</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Het referentienummer.</Omschrijving><ToegelatenDomein>In dit bericht is de toegelaten lengte voor deze zone 20 tekens.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00222-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00011</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+     Indien de zone 00014 "Ondernemingsnummer" ook aanwezig is, dan heeft het RSZ-nummer voorrang.</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+     Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+     De waarde 0 is nooit toegelaten wanneer het een Dimona-aangifte is.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verplicht indien de werkgever een definitief RSZ-nummer bezit en indien het "Ondernemingsnummer" (zone 00014) niet aanwezig is.</Aanwezigheid><Formaat>0 of NNNNNNNCC
+     � NNNNNNN is het nummer
+     � CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00011-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-347</AnomalieCode><AnomalieTitel>Onverenigbaar met het identificatienummer van de Dimonaperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-235</AnomalieCode><AnomalieTitel>Niet opgenomen in het repertorium</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>01231</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>SOORT WERK</Titel><XmlLabel>EmploymentNature</XmlLabel><FunctioneelBlok>Kleine statuten - Informatie</FunctioneelBlok><Omschrijving>Met deze zone kan het soort werk gespecificeerd worden.Te specificeren in het kader van een stage of beroepsopleiding.</Omschrijving><ToegelatenDomein>EMPLOYEE = bediende
+     WORKER = arbeider</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>8</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>01231-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01231-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01231-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00110</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STATUS VAN HET ATTEST</Titel><XmlLabel>AttestationStatus</XmlLabel><FunctioneelBlok>Aangifte dagelijkse registratie</FunctioneelBlok><Omschrijving>In deze zone kan, deel uitmakend van het blok "Aangifte dagelijkse registratie" (90480), gespecifieerd worden of het gaat om een aangifte van creatie, wijziging of annulering.</Omschrijving><ToegelatenDomein>0 = Origineel
+     1 = Wijziging
+     2 = Duplicaat
+     3 = Annulatie
+     4 = Herziening
+     5 = Herinnering
+     6 = Afsluiting
+     7 = Wijziging van papieren origineel
+     8 = KopieEnkel waarde "0" wordt toegelaten als de zone deel uitmaakt van het blok "Formulier" (90059).
+     Als de zone deel uitmaakt van het blok "Aangifte dagelijkse registratie" (90480) dan zijn waardes "0" (creatie van een dagelijkse registratie), "1" (wijziging van een dagelijkse registratie) en "3" (annulering van een dagelijkse registratie) toegelaten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00110-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00110</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STATUS VAN HET ATTEST</Titel><XmlLabel>AttestationStatus</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>In deze zone kan, deel uitmakend van het blok "Aangifte dagelijkse registratie" (90480), gespecifieerd worden of het gaat om een aangifte van creatie, wijziging of annulering.</Omschrijving><ToegelatenDomein>0 = Origineel
+     1 = Wijziging
+     2 = Duplicaat
+     3 = Annulatie
+     4 = Herziening
+     5 = Herinnering
+     6 = Afsluiting
+     7 = Wijziging van papieren origineel
+     8 = KopieEnkel waarde "0" wordt toegelaten als de zone deel uitmaakt van het blok "Formulier" (90059).
+     Als de zone deel uitmaakt van het blok "Aangifte dagelijkse registratie" (90480) dan zijn waardes "0" (creatie van een dagelijkse registratie), "1" (wijziging van een dagelijkse registratie) en "3" (annulering van een dagelijkse registratie) toegelaten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00110-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00053</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STATUUT VAN DE WERKNEMER</Titel><XmlLabel>WorkerStatus</XmlLabel><FunctioneelBlok>Kleine statuten - Informatie</FunctioneelBlok><Omschrijving>Code die aanduidt of de tewerkstelling gebeurt in het kader van een bijzonder contract.
+     Specificeert de dekkings- en schadevergoedingsregeling.</Omschrijving><ToegelatenDomein>Zie bijlage 21 - Lijst codes werknemersstatuut.
+     F1 = is van toepassing op personen die werk verrichten als onderdeel van een opleiding voor betaald werk, zoals vastgelegd in de LAT voor leerlingen.
+     F2 = is van toepassing op leercontracten met een specifieke dekkings- en schadevergoedingsregeling.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00053-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00517</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STRAAT</Titel><XmlLabel>Street</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Openbare weg.
+     </Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>42</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00517-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00517-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00517-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00030</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STRAAT VAN DE WERKNEMER</Titel><XmlLabel>WorkerStreet</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Openbare weg.
+     Openbare weg waar zich de woonplaats van de werknemer bevindt.
+     De notie " verdieping " kan vermeld worden in deze zone als dat nodig is.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>35</Lengte><Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00030-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00221</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE VAN DE REFERENTIE</Titel><XmlLabel>ReferenceType</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Duidt aan naar waar de referentie (00222 Referentienummer) verwijst: naar deze aangifte, naar een aangifte die verwant is met deze aangifte of naar een verzameling aangiften (= een dossier) waar deze aangifte toe behoort, op deze aanvraag, op dit formulier.</Omschrijving><ToegelatenDomein>0 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat niet dezelfde identificatie heeft (zie bijlagen 11/302), dat verband houdt met het huidige formulier
+     1 = de referentie verwijst naar dit formulier
+     2 = de referentie is een dossiernummer en verwijst naar het dossier (= verzameling van aangiften) waartoe deze aangifte behoort of waartoe dit formulier behoort
+     3 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat dezelfde identificatie heeft (zie bijlagen 11/302) en dat verband houdt met dit formulier, bijvoorbeeld: de referentie heeft betrekking op de aangifte die geannuleerd moet worden door deze aangifte, of op de aangifte die vervangen moet worden door deze aangifte, of op de aangifte die gewijzigd moet worden, of op de aangifte die aan de oorsprong ligt van dit formulier...
+     4 = de referentie verwijst naar een aangifte in een ander scenario die verwant is met deze aangifte
+     5 = de referentie verwijst naar een aanvraag
+     6 = de referentie verwijst naar een geweigerde aangifte
+     7 = de referentie verwijst naar de werkgever die in deze aangifte wordt vermeld
+     8 = de referentie verwijst naar de werknemer die in deze aangifte wordt vermeld
+     9 = de referentie is een gestructureerde mededeling die moet worden gebruikt in het kader van een betaling en verwijst naar dit formulierDeze zone moet als waarde "1", "6", "7" of "8" hebben.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00221-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00221-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00297</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE VAN HET FORMULIER</Titel><XmlLabel>TypeForm</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Het type wijst de aard van het elektronisch formulier aan.
+     </Omschrijving><ToegelatenDomein>RE = REQUEST - het formulier vraagt inlichtingen
+     PA = PROVISIONAL ANSWER - het formulier is een tijdelijk antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+     FA = FINAL ANSWER - het formulier is een definitief antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+     LA = LIMITED ANSWER - het formulier is een beperkt antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+     SU = SUBMISSION - het formulier deelt inlichtingen mee
+     De enige waarde in dit bericht is "SU".</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00297-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00297-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00777</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>UUR - BEGINUUR</Titel><XmlLabel>StartingHour</XmlLabel><FunctioneelBlok>Aangifte dagelijkse registratie</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren en minuten.
+     Precies moment dat het begin bepaalt van de prestatie van de Dimonaperiode van een gelegenheidswerknemer of van een dagelijkse registratie.</Omschrijving><ToegelatenDomein>UU is een element van [00 ;23]
+     MM is een element van [00 ;59]
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona-aangifte IN voor een gelegenheidswerknemer (Type werknemer = EXT), een prestatie Flexi-Job van een dag (Type werknemer = FLX) of een aangifte creatie dagelijkse registratie. 
+     Facultatief indien het een wijzigende Dimona-aangifte is en dat de periode betrekking heeft op een gelegenheidswerknemer, een prestatie Flexi-Job van een dag of indien het een aangifte wijziging dagelijkse registratie is.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>UUMM
+     � UU zijn de uren 
+     � MM zijn de minuten</Formaat><Anomalie><AnomalieCode>00777-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00777-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00777-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00777</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>UUR - BEGINUUR</Titel><XmlLabel>StartingHour</XmlLabel><FunctioneelBlok>Dimona IN aangifte</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren en minuten.
+     Precies moment dat het begin bepaalt van de prestatie van de Dimonaperiode van een gelegenheidswerknemer of van een dagelijkse registratie.</Omschrijving><ToegelatenDomein>UU is een element van [00 ;23]
+     MM is een element van [00 ;59]
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona-aangifte IN voor een gelegenheidswerknemer (Type werknemer = EXT), een prestatie Flexi-Job van een dag (Type werknemer = FLX) of een aangifte creatie dagelijkse registratie. 
+     Facultatief indien het een wijzigende Dimona-aangifte is en dat de periode betrekking heeft op een gelegenheidswerknemer, een prestatie Flexi-Job van een dag of indien het een aangifte wijziging dagelijkse registratie is.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>UUMM
+     � UU zijn de uren 
+     � MM zijn de minuten</Formaat><Anomalie><AnomalieCode>00777-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00777-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00777-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00777</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>UUR - BEGINUUR</Titel><XmlLabel>StartingHour</XmlLabel><FunctioneelBlok>Dimona wijziging aangifte</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren en minuten.
+     Precies moment dat het begin bepaalt van de prestatie van de Dimonaperiode van een gelegenheidswerknemer of van een dagelijkse registratie.</Omschrijving><ToegelatenDomein>UU is een element van [00 ;23]
+     MM is een element van [00 ;59]
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona-aangifte IN voor een gelegenheidswerknemer (Type werknemer = EXT), een prestatie Flexi-Job van een dag (Type werknemer = FLX) of een aangifte creatie dagelijkse registratie. 
+     Facultatief indien het een wijzigende Dimona-aangifte is en dat de periode betrekking heeft op een gelegenheidswerknemer, een prestatie Flexi-Job van een dag of indien het een aangifte wijziging dagelijkse registratie is.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>UUMM
+     � UU zijn de uren 
+     � MM zijn de minuten</Formaat><Anomalie><AnomalieCode>00777-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00777-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00777-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00778</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>UUR - EINDUUR</Titel><XmlLabel>EndingHour</XmlLabel><FunctioneelBlok>Aangifte dagelijkse registratie</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren en minuten.
+     Precies moment dat het begin bepaalt van de prestatie van de Dimonaperiode van een gelegenheidswerknemer of van een dagelijkse registratie.</Omschrijving><ToegelatenDomein>UU is een element van [00 ;23]
+     MM is een element van [00 ;59]
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona IN-aangifte voor een Flexi-jobprestatie van een dag (type werknemer = FLX) of voor een gelegenheidswerknemer (type werknemer = EXT), met uitzondering van een gelegenheidwerknemer in de horeca voor een dagforfait.
+     Facultatief wanneer het gaat om een wijzigende Dimona-aangifte en wanneer de periode een Flexi-jobprestatie van een dag of een gelegenheidswerknemer betreft, behalve wanneer u gekozen heeft voor een dagforfait voor een gelegenheidswerknemer in de horeca, of wanneer het gaat om een aangifte creatie of wijziging dagelijkse registratie.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>UUMM
+     � UU zijn de uren 
+     � MM zijn de minuten</Formaat><Anomalie><AnomalieCode>00778-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00778-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00778-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00778-345</AnomalieCode><AnomalieTitel>Het einduur valt vroeger dan het beginuur</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00778</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>UUR - EINDUUR</Titel><XmlLabel>EndingHour</XmlLabel><FunctioneelBlok>Dimona IN aangifte</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren en minuten.
+     Precies moment dat het begin bepaalt van de prestatie van de Dimonaperiode van een gelegenheidswerknemer of van een dagelijkse registratie.</Omschrijving><ToegelatenDomein>UU is een element van [00 ;23]
+     MM is een element van [00 ;59]
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona IN-aangifte voor een Flexi-jobprestatie van een dag (type werknemer = FLX) of voor een gelegenheidswerknemer (type werknemer = EXT), met uitzondering van een gelegenheidwerknemer in de horeca voor een dagforfait.
+     Facultatief wanneer het gaat om een wijzigende Dimona-aangifte en wanneer de periode een Flexi-jobprestatie van een dag of een gelegenheidswerknemer betreft, behalve wanneer u gekozen heeft voor een dagforfait voor een gelegenheidswerknemer in de horeca, of wanneer het gaat om een aangifte creatie of wijziging dagelijkse registratie.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>UUMM
+     � UU zijn de uren 
+     � MM zijn de minuten</Formaat><Anomalie><AnomalieCode>00778-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00778-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00778-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00778-345</AnomalieCode><AnomalieTitel>Het einduur valt vroeger dan het beginuur</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00778</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>UUR - EINDUUR</Titel><XmlLabel>EndingHour</XmlLabel><FunctioneelBlok>Dimona wijziging aangifte</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren en minuten.
+     Precies moment dat het begin bepaalt van de prestatie van de Dimonaperiode van een gelegenheidswerknemer of van een dagelijkse registratie.</Omschrijving><ToegelatenDomein>UU is een element van [00 ;23]
+     MM is een element van [00 ;59]
+     </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona IN-aangifte voor een Flexi-jobprestatie van een dag (type werknemer = FLX) of voor een gelegenheidswerknemer (type werknemer = EXT), met uitzondering van een gelegenheidwerknemer in de horeca voor een dagforfait.
+     Facultatief wanneer het gaat om een wijzigende Dimona-aangifte en wanneer de periode een Flexi-jobprestatie van een dag of een gelegenheidswerknemer betreft, behalve wanneer u gekozen heeft voor een dagforfait voor een gelegenheidswerknemer in de horeca, of wanneer het gaat om een aangifte creatie of wijziging dagelijkse registratie.
+     Verboden in de andere gevallen.</Aanwezigheid><Formaat>UUMM
+     � UU zijn de uren 
+     � MM zijn de minuten</Formaat><Anomalie><AnomalieCode>00778-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00778-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00778-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00778-345</AnomalieCode><AnomalieTitel>Het einduur valt vroeger dan het beginuur</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+     <Code>00023</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>VOLGNUMMER NATUURLIJKE PERSOON</Titel><XmlLabel>NaturalPersonSequenceNbr</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Volgnummer van de natuurlijke personen binnen een aangifte.
+     Dit nummer moet uniek zijn binnen een aangifte.Deze zone wordt nooit gebruikt wanneer het een Dimona-aangifte is.</Omschrijving><ToegelatenDomein>Positief geheel getal en element van [1;9999999].</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>7</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+     </glossary>
+     <glossary>
+          <Code>00948</Code>
+          <Versie>2023/2</Versie>
+          <Publicatiedatum>25/05/2023</Publicatiedatum>
+          <Titel>VOORLOPIG RSZ-NUMMER</Titel>
+          <XmlLabel>ProvisionalNSSONbr</XmlLabel>
+          <FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok>
+          <Omschrijving>
+               Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft
+               , die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. 
+               Het gaat om een voorlopig RSZ-nummer dat aan de nieuwe werkgever toegekend is.
+               Dit voorlopig nummer mag niet meer gebruikt worden zodra de RSZ het definitieve nummer heeft meegedeeld.
+               Deze zone mag alleen gebruikt worden als de werkgever niet beschikt over een definitief RSZ-nummer (zone 00011).
+               Indien de zone 00014 "Ondernemingsnummer" ook aanwezig is, dan heeft het voorlopig RSZ-nummer voorrang.
+          </Omschrijving>
+          <ToegelatenDomein>Geheel getal en element van [5000000120;5999999989]</ToegelatenDomein>
+          <Referentie></Referentie>
+          <Type>Numeriek</Type>
+          <Lengte>10</Lengte>
+          <Aanwezigheid>Verplicht indien de werkgever een voorlopig RSZ-nummer bezit en indien het "Ondernemingsnummer" (zone 00014) niet aanwezig is.</Aanwezigheid>
+          <Formaat>0 of NNNNNNNNCC - NNNNNNNN is het nummer - CC is het controlegetal.</Formaat>
+          <Anomalie>
+               <AnomalieCode>00948-003</AnomalieCode>
+               <AnomalieTitel>Ongeldig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>00948-235</AnomalieCode>
+               <AnomalieTitel>Niet opgenomen in het repertorium</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>00948-347</AnomalieCode>
+               <AnomalieTitel>Onverenigbaar met het identificatienummer van de Dimonaperiode</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+     </glossary>
+     <glossary>
+          <Code>00026</Code>
+          <Versie>2023/2</Versie>
+          <Publicatiedatum>25/05/2023</Publicatiedatum>
+          <Titel>VOORNAAM VAN DE WERKNEMER</Titel>
+          <XmlLabel>WorkerFirstName</XmlLabel>
+          <FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok>
+          <Omschrijving>Eerste voornaam van een natuurlijk persoon.</Omschrijving>
+          <ToegelatenDomein></ToegelatenDomein>
+          <Referentie></Referentie>
+          <Type>Alfanumeriek</Type>
+          <Lengte>24</Lengte>
+          <Aanwezigheid>Verplicht indien het identificatienummer bij de sociale zekerheid (zone 00024) niet aanwezig is. Zoniet, facultatief.</Aanwezigheid>
+          <Formaat></Formaat>
+          <Anomalie>
+               <AnomalieCode>00026-003</AnomalieCode>
+               <AnomalieTitel>Ongeldig</AnomalieTitel>
+               <AnomalieErnst>B</AnomalieErnst>
+          </Anomalie>
+          <Anomalie>
+               <AnomalieCode>00026-348</AnomalieCode>
+               <AnomalieTitel>Onverenigbaar met het INSZ</AnomalieTitel>
+               <AnomalieErnst>NP</AnomalieErnst>
+          </Anomalie>
+     </glossary>
+</List>
