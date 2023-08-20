@@ -47,7 +47,19 @@
           <Versie>2023/1</Versie>
           <Publicatiedatum>28/02/2023</Publicatiedatum>
           <Titel>AANTAL WERKNEMERS</Titel>
-          <XmlLabel>NbrOfWorkers</XmlLabel><FunctioneelBlok>Informatie over de drempel van het aantal werknemers in onderbreking</FunctioneelBlok><Omschrijving>Aantal werknemers in dienst bij de werkgever.</Omschrijving><ToegelatenDomein>Positief geheel getal en element van [0;9999999].Voor de aangiftes tijdskrediet en loopbaanonderbreking: [1; 9999999].</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>01055-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01055-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01055-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>01055-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <XmlLabel>NbrOfWorkers</XmlLabel>
+          <FunctioneelBlok>Informatie over de drempel van het aantal werknemers in onderbreking</FunctioneelBlok>
+          <Omschrijving>Aantal werknemers in dienst bij de werkgever.</Omschrijving>
+          <ToegelatenDomein>Positief geheel getal en element van [0;9999999].Voor de aangiftes tijdskrediet en loopbaanonderbreking: [1; 9999999].</ToegelatenDomein>
+          <Referentie></Referentie>
+          <Type>Numeriek</Type>
+          <Lengte>7</Lengte>
+          <Aanwezigheid>Onmisbaar </Aanwezigheid>
+          <Formaat></Formaat>
+          <Anomalie><AnomalieCode>01055-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Anomalie><AnomalieCode>01055-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Anomalie><AnomalieCode>01055-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+          <Anomalie><AnomalieCode>01055-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
      </glossary>
      <glossary>
      <Code>00996</Code><Versie>2023/1</Versie><Publicatiedatum>28/02/2023</Publicatiedatum><Titel>AARD VAN DE ARBEIDSRELATIE - OVERHEIDSSECTOR</Titel><XmlLabel>PSEmploymentRelationshipNature</XmlLabel><FunctioneelBlok>Informatie over de loopbaanonderbreking of het tijdskrediet</FunctioneelBlok><Omschrijving>Code die de aard van de arbeidsrelatie van een werknemer uit de overheidssector aangeeft.</Omschrijving><ToegelatenDomein>1 : Statutair - definitief
