@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDFLUX-20231>
+   <FunctionalBlock>
+      <Code>90059</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Formulier</Naam>
+      <Zones>00296 - IDENTIFICATIE VAN HET FORMULIER</Zones>
+      <Zones>00218 - DATUM VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00299 - PRECIES UUR VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00110 - STATUS VAN HET ATTEST</Zones>
+      <Zones>00297 - TYPE VAN HET FORMULIER</Zones>
+      <XmlLabel>Form</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een formulier aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90082</NrGelinktBlok>
+      <NrGelinktBlok>90328</NrGelinktBlok>
+      <Gelinktblok>90082 - Referentie</Gelinktblok>
+      <Gelinktblok>90328 - Identificatie-informatie IDFLUX</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90326</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Geldige situatie</Naam>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>00025 - NAAM VAN DE WERKNEMER</Zones>
+      <Zones>00026 - VOORNAAM VAN DE WERKNEMER</Zones>
+      <Zones>00028 - DATUM WAAROP DE WERKNEMER GEBOREN IS</Zones>
+      <Zones>00029 - GESLACHT VAN DE WERKNEMER</Zones>
+      <Zones>00011 - RSZ-NUMMER</Zones>
+      <XmlLabel>ValidSituation</XmlLabel>
+      <Omschrijving>Functioneel blok met de geldige informatie (nieuwe situatie) </Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90328</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Identificatie-informatie IDFLUX</Naam>
+      <Zones>00536 - STAVINGSCODE</Zones>
+      <Zones>00813 - DATUM INGANGSDATUM</Zones>
+      <XmlLabel>IdfluxInformation</XmlLabel>
+      <Omschrijving>Functioneel blok met de identificatie-informatie vervoerd door IDFLUX</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90256</NrGelinktBlok>
+      <NrGelinktBlok>90326</NrGelinktBlok>
+      <NrGelinktBlok>90327</NrGelinktBlok>
+      <Gelinktblok>90256 - Identificatie van de werkgever</Gelinktblok>
+      <Gelinktblok>90326 - Geldige situatie</Gelinktblok>
+      <Gelinktblok>90327 - Verouderde situatie</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90256</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Identificatie van de werkgever</Naam>
+      <Zones>00011 - RSZ-NUMMER</Zones>
+      <Zones>00948 - VOORLOPIG RSZ-NUMMER</Zones>
+      <Zones>00109 - PPL NUMMER</Zones>
+      <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+      <XmlLabel>EmployerId</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de werkgever te identificeren.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90323</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>IDFLUX</Naam>
+      <Zones/>
+      <XmlLabel>IDFLUX</XmlLabel>
+      <Omschrijving>Root van de IDFLUX XML-boodschap</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90059</NrGelinktBlok>
+      <Gelinktblok>90059 - Formulier</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90323-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90082</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Referentie</Naam>
+      <Zones>00221 - TYPE VAN DE REFERENTIE</Zones>
+      <Zones>00298 - HERKOMST VAN DE REFERENTIE</Zones>
+      <Zones>00222 - REFERENTIENUMMER</Zones>
+      <XmlLabel>Reference</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat referenties te preciseren in verband met Ã©Ã©n of meer formulieren; een formulier kan een originele DmfA-aangifte zijn&#xA;, een wijzigende DmfA-aangifte, een ASR, een aanvraag van inlichtingen, een Dimona aangifte, enz.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90327</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Verouderde situatie</Naam>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>00025 - NAAM VAN DE WERKNEMER</Zones>
+      <Zones>00026 - VOORNAAM VAN DE WERKNEMER</Zones>
+      <Zones>00028 - DATUM WAAROP DE WERKNEMER GEBOREN IS</Zones>
+      <Zones>00029 - GESLACHT VAN DE WERKNEMER</Zones>
+      <Zones>00011 - RSZ-NUMMER</Zones>
+      <XmlLabel>OutdatedSituation</XmlLabel>
+      <Omschrijving>Functioneel blok met de verouderde informatie (vorige situatie).</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+</IDFLUX-20231>

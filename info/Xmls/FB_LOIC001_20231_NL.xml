@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<LOIC001-20231>
+   <FunctionalBlock>
+      <Code>90529</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Aanvraagformulier loopbaanonderbreking of tijdskrediet</Naam>
+      <Zones/>
+      <XmlLabel>LOIC001</XmlLabel>
+      <Omschrijving>Root-element van het XML-bericht dat toelaat aanvragen loopbaanonderbreking of tijdskrediet te maken.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90171</NrGelinktBlok>
+      <NrGelinktBlok>90257</NrGelinktBlok>
+      <NrGelinktBlok>90530</NrGelinktBlok>
+      <NrGelinktBlok>90531</NrGelinktBlok>
+      <NrGelinktBlok>90036</NrGelinktBlok>
+      <Gelinktblok>90171 - Informatie van de aangifte</Gelinktblok>
+      <Gelinktblok>90257 - Gegevens van de contactpersoon</Gelinktblok>
+      <Gelinktblok>90530 - Informatie over de loopbaanonderbreking of het tijdskrediet</Gelinktblok>
+      <Gelinktblok>90531 - Rubriek werkgever van het aanvraagformulier op onderbreking</Gelinktblok>
+      <Gelinktblok>90036 - Commentaar bij de aangifte</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90529-506</AnomalieCode>
+         <AnomalieTitel>Specifieke aanvraag - Gelieve een papieren formulier te sturen</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90529-507</AnomalieCode>
+         <AnomalieTitel>Aanvraag niet meer geldig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90022</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Adres</Naam>
+      <Zones>00517 - STRAAT</Zones>
+      <Zones>00518 - NUMMER VAN HET ADRES</Zones>
+      <Zones>00519 - BRIEVENBUS</Zones>
+      <Zones>00520 - POSTCODE</Zones>
+      <Zones>00522 - GEMEENTE</Zones>
+      <Zones>00523 - LANDCODE</Zones>
+      <XmlLabel>Address</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een adres volledig te specifiëren.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90022-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90535</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Collectieve arbeidsovereenkomst</Naam>
+      <Zones>01143 - CODE COLLECTIEVE ARBEIDSOVEREENKOMST</Zones>
+      <Zones>01144 - AANTAL BIJKOMENDE MAANDEN (CAO)</Zones>
+      <Zones>00740 - REGISTRATIENUMMER VAN DE CAO</Zones>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <Zones>00911 - DATUM EINDE</Zones>
+      <XmlLabel>CollectiveLabourAgreement</XmlLabel>
+      <Omschrijving>Functioneel blok waarmee informatie kan worden gegeven over de cao.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien een tijdskrediet wordt aangevraagd.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90535-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90535-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90535-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90036</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Commentaar bij de aangifte</Naam>
+      <Zones>00126 - ZONE VRIJE TEKST</Zones>
+      <XmlLabel>CommentDeclaration</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat commentaar bij de aangifte op te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief indien geen annulerende formulier is. Verboden in alle andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90036-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90036-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90258</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Communicatie</Naam>
+      <Zones>00677 - TELEFOONNUMMER</Zones>
+      <Zones>00636 - GSM-NUMMER</Zones>
+      <Zones>00678 - FAXNUMMER</Zones>
+      <Zones>00637 - E-MAILADRES</Zones>
+      <XmlLabel>Communication</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de informatie inzake communicatie aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90258-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90258-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90257</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Gegevens van de contactpersoon</Naam>
+      <Zones>00726 - NAAM</Zones>
+      <Zones>00727 - VOORNAAM</Zones>
+      <XmlLabel>CoordinatesContactPerson</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens van de contactpersoon aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <NrGelinktBlok>90258</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Gelinktblok>90258 - Communicatie</Gelinktblok>
+      <Aanwezigheid>Verplicht indien geen annulerende formulier is.&#xA;     Verboden in alle andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90257-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90257-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90257-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90534</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Informatie over de drempel van het aantal werknemers in onderbreking</Naam>
+      <Zones>01141 - DREMPEL WERKNEMERS IN TIJDSKREDIET</Zones>
+      <Zones>01142 - DATUM VAN DE OVEREENKOMST</Zones>
+      <Zones>01055 - AANTAL WERKNEMERS</Zones>
+      <XmlLabel>InterruptionThresholdInformation</XmlLabel>
+      <Omschrijving>Functioneel blok waarmee informatie kan worden gegeven over de drempel van het aantal werknemers in tijdskrediet.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>&#xA;               Verplicht indien een tijdskrediet wordt aangevraagd, met uitzondering van de werknemers die een tijdskrediet 1/5 aanvragen&#xA;               en die op de begindatum van de onderbreking 55+ zijn.&#xA;          </Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90534-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90534-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90534-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90530</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Informatie over de loopbaanonderbreking of het tijdskrediet</Naam>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <Zones>00911 - DATUM EINDE</Zones>
+      <Zones>01136 - TYPE ONDERBREKING</Zones>
+      <Zones>01137 - REGELING VAN DE ONDERBREKING</Zones>
+      <Zones>00096 - WETTELIJKE BASIS</Zones>
+      <Zones>00048 - GEMIDDELD AANTAL UREN PER WEEK VAN DE WERKNEMER</Zones>
+      <Zones>00049 - GEMIDDELD AANTAL UREN PER WEEK VAN DE MAATPERSOON</Zones>
+      <Zones>00046 - NUMMER VAN PARITAIR COMITÉ</Zones>
+      <Zones>00996 - AARD VAN DE ARBEIDSRELATIE - OVERHEIDSSECTOR</Zones>
+      <Zones>00975 - AANTAL UREN PER WEEK</Zones>
+      <Zones>01224 - TYPE ARBEIDSREGELING</Zones>
+      <Zones>01225 - DUUR</Zones>
+      <Zones>01226 - TIJDSEENHEID</Zones>
+      <XmlLabel>InterruptionInformation</XmlLabel>
+      <Omschrijving>Informatie over de loopbaanonderbreking of het tijdskrediet.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien geen annulerende formulier is. Verboden in alle andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90530-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90530-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90530-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90171</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Informatie van de aangifte</Naam>
+      <Zones>00156 - TAALKEUZE PDF</Zones>
+      <XmlLabel>DclInformation</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie bij de aangifte te preciseren.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90257</NrGelinktBlok>
+      <Gelinktblok>90257 - Gegevens van de contactpersoon</Gelinktblok>
+      <Aanwezigheid>Verplicht indien geen annulerende formulier is. Verboden in alle andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90171-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90171-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90171-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90531</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Rubriek werkgever van het aanvraagformulier op onderbreking</Naam>
+      <Zones>01086 - DATUM VAN HET DOCUMENT</Zones>
+      <Zones>01138 - SECTORCODE - LOOPBAANONDERBREKING OF TIJDSKREDIET</Zones>
+      <XmlLabel>EmployerInterruptionForm</XmlLabel>
+      <Omschrijving>Rubriek werkgever van het aanvraagformulier loopbaanonderbreking of tijdskrediet.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90532</NrGelinktBlok>
+      <NrGelinktBlok>90534</NrGelinktBlok>
+      <NrGelinktBlok>90535</NrGelinktBlok>
+      <Gelinktblok>90532 - Vragenlijst</Gelinktblok>
+      <Gelinktblok>90534 - Informatie over de drempel van het aantal werknemers in onderbreking</Gelinktblok>
+      <Gelinktblok>90535 - Collectieve arbeidsovereenkomst</Gelinktblok>
+      <Aanwezigheid>Verplicht indien geen annulerende formulier is.&#xA;     Verboden in alle andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90531-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90531-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90531-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90533</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Vraag - Loopbaanonderbreking</Naam>
+      <Zones>01139 - CODE VRAAG - LOOPBAANONDERBREKING</Zones>
+      <Zones>01140 - ANTWOORD - LOOPBAANONDERBREKING</Zones>
+      <XmlLabel>InterruptionQuestion</XmlLabel>
+      <Omschrijving>Functioneel blok met een bepaalde vraag en het antwoord erop.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90533-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90533-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90532</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Vragenlijst</Naam>
+      <Zones/>
+      <XmlLabel>Questionnaire</XmlLabel>
+      <Omschrijving>Fonctioneel blok dat de vragen met betrekking tot dit formulier omvat.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90533</NrGelinktBlok>
+      <Gelinktblok>90533 - Vraag - Loopbaanonderbreking</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90532-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90532-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90532-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90532-498</AnomalieCode>
+         <AnomalieTitel>Onvolledige vragenlijst</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+</LOIC001-20231>

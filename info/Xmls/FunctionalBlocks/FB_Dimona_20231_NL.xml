@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dimona-20231>
+   <FunctionalBlock>
+      <Code>90480</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Aangifte dagelijkse registratie</Naam>
+      <Zones>00110 - STATUS VAN HET ATTEST</Zones>
+      <Zones>01085 - IDENTIFICATIENUMMER VAN DE DAGELIJKSE REGISTRATIE</Zones>
+      <Zones>00913 - IDENTIFICATIENUMMER VAN DIMONAPERIODE</Zones>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <Zones>00777 - UUR - BEGINUUR</Zones>
+      <Zones>00911 - DATUM EINDE</Zones>
+      <Zones>00778 - UUR - EINDUUR</Zones>
+      <XmlLabel>DailyRegistrationDeclaration</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de informatie te geven die nodig is voor een aangifte van het type dagelijkse registratie.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien het een aangifte dagelijkse registratie betreft. Verboden in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90480-003</AnomalieCode>
+         <AnomalieTitel>Ongeldig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90480-260</AnomalieCode>
+         <AnomalieTitel>Aantal uren te hoog</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90480-334</AnomalieCode>
+         <AnomalieTitel>Overlappend</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90480-444</AnomalieCode>
+         <AnomalieTitel>Er zijn geen wijzigingen gevonden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90022</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Adres</Naam>
+      <Zones>00517 - STRAAT</Zones>
+      <Zones>00518 - NUMMER VAN HET ADRES</Zones>
+      <Zones>00519 - BRIEVENBUS</Zones>
+      <Zones>00520 - POSTCODE</Zones>
+      <Zones>00522 - GEMEENTE</Zones>
+      <Zones>00523 - LANDCODE</Zones>
+      <XmlLabel>Address</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een adres volledig te specifiëren.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien de aangifte een gebruikende onderneming vermeldt (dus indien het paritair comité = 322 voor een Dimona IN) en indien de zone "Ondernemingsnummer van een gebruikende onderneming" niet aanwezig is. Verplicht indien de aangifte de werkplaats van een student vermeldt (dus indien het type werknemer "STU" is en dat de benaming aanwezig is (de werknemer werkt niet op de hoofdzetel van de werkgever)).</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90375</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Controlekaarten voor de bouwsector</Naam>
+      <Zones>00663 - C3.2A- KAARTNUMMER VAN DE MAAND WAARIN DE DIMONAPERIODE BEGINT</Zones>
+      <Zones>00664 - C3.2A-KAARTNUMMER VAN DE MAAND DIE VOLGT OP DE MAAND WAARIN DE DIMONAPERIODE BEGINT</Zones>
+      <XmlLabel>ConstructionControlCards</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens met betrekking tot de controlekaarten C3.2A-bouwsector aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien het paritair comité (zone 00046 die bij het BF 90374 staat)&#xA;of het paritair comité van de gebruikende onderneming (zone 00046 die bij het BF 90107 staat) "124" is OF indien het paritair comité "322" is&#xA;, het paritair comité van de gebruikende onderneming afwezig is en het werknemer type "BCW" is.&#xA;Facultatief indien het paritair comité "322" is, het paritair comité van de gebruikende onderneming afwezig is &#xA;en het werknemer type "DWD", "IVT", "TRI" of "STU" is. Verboden in de andere gevallen.&#xA;</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90372</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Dimona</Naam>
+      <Zones/>
+      <XmlLabel>Dimona</XmlLabel>
+      <Omschrijving>Root van de XML-boodschap die toelaat Dimona-aangiften te genereren</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90059</NrGelinktBlok>
+      <Gelinktblok>90059 - Formulier</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90372-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90372-089</AnomalieCode>
+         <AnomalieTitel>Root niet gekend</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90379</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Dimona annulatie aangifte</Naam>
+      <Zones>00913 - IDENTIFICATIENUMMER VAN DIMONAPERIODE</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <XmlLabel>DimonaCancel</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de informatie te geven die nodig is voor een Dimona annulatie aangifte.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90256</NrGelinktBlok>
+      <Gelinktblok>90256 - Identificatie van de werkgever</Gelinktblok>
+      <Aanwezigheid>Verplicht indien het een Dimona-aangifte van annulatie is. Verboden in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90373</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Dimona IN aangifte</Naam>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <Zones>00777 - UUR - BEGINUUR</Zones>
+      <Zones>00911 - DATUM EINDE</Zones>
+      <Zones>00778 - UUR - EINDUUR</Zones>
+      <Zones>01135 - AANTAL GEPLANDE UREN</Zones>
+      <Zones>01017 - AANTAL GEPLANDE DAGEN</Zones>
+      <XmlLabel>DimonaIn</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de informatie te geven die nodig is voor een Dimona IN aangifte.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90256</NrGelinktBlok>
+      <NrGelinktBlok>90017</NrGelinktBlok>
+      <NrGelinktBlok>90374</NrGelinktBlok>
+      <NrGelinktBlok>90375</NrGelinktBlok>
+      <NrGelinktBlok>90376</NrGelinktBlok>
+      <NrGelinktBlok>90594</NrGelinktBlok>
+      <Gelinktblok>90256 - Identificatie van de werkgever</Gelinktblok>
+      <Gelinktblok>90017 - Natuurlijke persoon</Gelinktblok>
+      <Gelinktblok>90374 - Dimona karakteristieken</Gelinktblok>
+      <Gelinktblok>90375 - Controlekaarten voor de bouwsector</Gelinktblok>
+      <Gelinktblok>90376 - Plaats van tewerkstelling van de student</Gelinktblok>
+      <Gelinktblok>90594 - Kleine statuten - Informatie</Gelinktblok>
+      <Aanwezigheid>Verplicht indien het een Dimona-aangifte IN is.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90373-333</AnomalieCode>
+         <AnomalieTitel>Dubbele Dimonaperiode</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-334</AnomalieCode>
+         <AnomalieTitel>Overlappende Dimonaperiode</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-336</AnomalieCode>
+         <AnomalieTitel>Verboden om Dimona-full en Dimona-light aangiftes voor dezelfde dag te verrichten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-337</AnomalieCode>
+         <AnomalieTitel>Verboden om meerdere Dimona-light periodes te hebben voor dezelfde dag</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-338</AnomalieCode>
+         <AnomalieTitel>Onverenigbaarheid met het Dimona-full/-light systeem van de werkgever</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-339</AnomalieCode>
+         <AnomalieTitel>Prestatietype of einddatum en -uur ontbreekt</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-340</AnomalieCode>
+         <AnomalieTitel>Verboden om tegelijkertijd prestatietype en einddatum en -uur te vermelden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-341</AnomalieCode>
+         <AnomalieTitel>Te lange periode (&gt;24h)</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-343</AnomalieCode>
+         <AnomalieTitel>Werkgever niet actief in het werkgeversrepertorium</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-370</AnomalieCode>
+         <AnomalieTitel>Begin- of einddatum na 31/12/2011 niet toegelaten voor een student</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-420</AnomalieCode>
+         <AnomalieTitel>Het aantal aangegeven dagen overschrijdt het aantal dagen van de periode</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-421</AnomalieCode>
+         <AnomalieTitel>De begin- en einddatum van de periode moeten tot hetzelfde kwartaal behoren</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-450</AnomalieCode>
+         <AnomalieTitel>Type aangifte tijdelijk verboden voor de geselecteerde periode</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-460</AnomalieCode>
+         <AnomalieTitel>Laattijdige aangifte</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90373-483</AnomalieCode>
+         <AnomalieTitel>Van toepassing wanneer de voorwaarden vervuld zijn</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90374</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Dimona karakteristieken</Naam>
+      <Zones>00046 - NUMMER VAN PARITAIR COMITÉ</Zones>
+      <Zones>00655 - AARD WERKNEMER</Zones>
+      <Zones>00652 - NUMMER VAN DEELENTITEIT</Zones>
+      <XmlLabel>DimonaFeatures</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de karakteristieken van de Dimona-periode aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90107</NrGelinktBlok>
+      <Gelinktblok>90107 - Gebruikende onderneming</Gelinktblok>
+      <Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona-aangifte IN. Verboden in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90374-349</AnomalieCode>
+         <AnomalieTitel>Onverenigbaarheid tussen het paritair comité en het werknemerstype</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90377</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Dimona OUT aangifte</Naam>
+      <Zones>00913 - IDENTIFICATIENUMMER VAN DIMONAPERIODE</Zones>
+      <Zones>00911 - DATUM EINDE</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <XmlLabel>DimonaOut</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de informatie te geven die nodig is voor een Dimona OUT aangifte.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90256</NrGelinktBlok>
+      <Gelinktblok>90256 - Identificatie van de werkgever</Gelinktblok>
+      <Aanwezigheid>Verplicht indien het een Dimona-aangifte OUT is.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90378</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Dimona wijziging aangifte</Naam>
+      <Zones>00913 - IDENTIFICATIENUMMER VAN DIMONAPERIODE</Zones>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <Zones>00777 - UUR - BEGINUUR</Zones>
+      <Zones>00911 - DATUM EINDE</Zones>
+      <Zones>00778 - UUR - EINDUUR</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>01135 - AANTAL GEPLANDE UREN</Zones>
+      <Zones>01017 - AANTAL GEPLANDE DAGEN</Zones>
+      <XmlLabel>DimonaUpdate</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de informatie te geven die nodig is voor een Dimona wijziging aangifte.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90256</NrGelinktBlok>
+      <Gelinktblok>90256 - Identificatie van de werkgever</Gelinktblok>
+      <Aanwezigheid>Verplicht indien het een wijzigende Dimona-aangifte is. Verboden in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen>Het is niet meer mogelijk om een wijzigende Dimona-aangifte in te voeren voor een periode betreffende een type werknemer STX of een periode Horeca met forfait full of light.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90378-333</AnomalieCode>
+         <AnomalieTitel>Dubbele Dimonaperiode</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-334</AnomalieCode>
+         <AnomalieTitel>Overlappende Dimonaperiode</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-336</AnomalieCode>
+         <AnomalieTitel>Verboden om Dimona-full en Dimona-light aangiftes voor dezelfde dag te verrichten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-337</AnomalieCode>
+         <AnomalieTitel>Verboden om meerdere Dimona-light periodes te hebben voor dezelfde dag</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-341</AnomalieCode>
+         <AnomalieTitel>Te lange periode (&gt;24h)</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-343</AnomalieCode>
+         <AnomalieTitel>Werkgever niet actief in het werkgeversrepertorium</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-360</AnomalieCode>
+         <AnomalieTitel>Begindatum en/of einddatum verplicht</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-361</AnomalieCode>
+         <AnomalieTitel>Begindatum/beginuur en/of einddatum/einduur verplicht</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-368</AnomalieCode>
+         <AnomalieTitel>Verboden de einddatum te verwijderen voor deze periode</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-370</AnomalieCode>
+         <AnomalieTitel>Begin- of einddatum na 31/12/2011 niet toegelaten voor een student</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-420</AnomalieCode>
+         <AnomalieTitel>Het aantal aangegeven dagen overschrijdt het aantal dagen van de periode</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-421</AnomalieCode>
+         <AnomalieTitel>De begin- en einddatum van de periode moeten tot hetzelfde kwartaal behoren</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-444</AnomalieCode>
+         <AnomalieTitel>Er zijn geen wijzigingen gevonden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-450</AnomalieCode>
+         <AnomalieTitel>Type aangifte tijdelijk verboden voor de geselecteerde periode</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-460</AnomalieCode>
+         <AnomalieTitel>Laattijdige aangifte</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90378-483</AnomalieCode>
+         <AnomalieTitel>Van toepassing wanneer de voorwaarden vervuld zijn</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90059</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Formulier</Naam>
+      <Zones>00296 - IDENTIFICATIE VAN HET FORMULIER</Zones>
+      <Zones>00218 - DATUM VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00299 - PRECIES UUR VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00110 - STATUS VAN HET ATTEST</Zones>
+      <Zones>00297 - TYPE VAN HET FORMULIER</Zones>
+      <XmlLabel>Form</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een formulier aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90082</NrGelinktBlok>
+      <NrGelinktBlok>90373</NrGelinktBlok>
+      <NrGelinktBlok>90377</NrGelinktBlok>
+      <NrGelinktBlok>90378</NrGelinktBlok>
+      <NrGelinktBlok>90379</NrGelinktBlok>
+      <NrGelinktBlok>90480</NrGelinktBlok>
+      <Gelinktblok>90082 - Referentie</Gelinktblok>
+      <Gelinktblok>90373 - Dimona IN aangifte</Gelinktblok>
+      <Gelinktblok>90377 - Dimona OUT aangifte</Gelinktblok>
+      <Gelinktblok>90378 - Dimona wijziging aangifte</Gelinktblok>
+      <Gelinktblok>90379 - Dimona annulatie aangifte</Gelinktblok>
+      <Gelinktblok>90480 - Aangifte dagelijkse registratie</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90059-134</AnomalieCode>
+         <AnomalieTitel>Geen gegevens</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90107</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Gebruikende onderneming</Naam>
+      <Zones>00046 - NUMMER VAN PARITAIR COMITï¿½</Zones>
+      <Zones>00153 - BENAMING VAN DE GEBRUIKENDE ONDERNEMING</Zones>
+      <Zones>00131 - ONDERNEMINGSNUMMER VAN DE GEBRUIKENDE ONDERNEMING</Zones>
+      <Zones>01185 - BTW-NUMMER</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>01254 - AANTAL OPEENVOLGENDE DAGCONTRACTEN</Zones>
+      <XmlLabel>UsingEmployer</XmlLabel>
+      <Omschrijving>Functioneel blok voor de identificatiegegevens van de gebruikende onderneming waar de getroffene als uitzendkracht tewerkgesteld is.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>Verplicht indien het formulier betrekking heeft op een Dimona-aangifte IN voor een werknemer van de uitzendsector (Paritair comité = 322). Verboden in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90107-351</AnomalieCode>
+         <AnomalieTitel>Ondernemingsnummer of benaming ontbreekt</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90107-352</AnomalieCode>
+         <AnomalieTitel>Verboden om tegelijkertijd het ondernemingsnummer en de benaming te vermelden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90256</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Identificatie van de werkgever</Naam>
+      <Zones>00011 - RSZ-NUMMER</Zones>
+      <Zones>00948 - VOORLOPIG RSZ-NUMMER</Zones>
+      <Zones>00109 - PPL NUMMER</Zones>
+      <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+      <XmlLabel>EmployerId</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de werkgever te identificeren.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien het een Dimona-aangifte IN is.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90256-151</AnomalieCode>
+         <AnomalieTitel>Niet identificeerbaar</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90256-155</AnomalieCode>
+         <AnomalieTitel>Geen of vervallen mandaat</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90256-342</AnomalieCode>
+         <AnomalieTitel>Aangifte alleen via een beveiligd kanaal voor deze werkgever</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90256-346</AnomalieCode>
+         <AnomalieTitel>Niet-gemigreerde werkgever</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90256-364</AnomalieCode>
+         <AnomalieTitel>RSZ-nummer of ondernemingsnummer verplicht</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90256-369</AnomalieCode>
+         <AnomalieTitel>Overschrijding van het contingent</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90594</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Kleine statuten - Informatie</Naam>
+      <Zones>01231 - SOORT WERK</Zones>
+      <Zones>00041 - ACTIVITEIT TEN OPZICHTE VAN HET RISICO</Zones>
+      <Zones>00053 - STATUUT VAN DE WERKNEMER</Zones>
+      <XmlLabel>SmallStatutesInformation</XmlLabel>
+      <Omschrijving>&#xA;Functionele blok waarmee gegevens aangeven kunnen worden die nodig zijn voor de berekening van risicopremies van 'kleine statuten'&#xA;(stage en beroepsopleiding).</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht voor de werknemerstypes IVT, TRI en STG vanaf het deployment van de nieuwe versie van Dimona in december 2019.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90017</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Natuurlijke persoon</Naam>
+      <Zones>00023 - VOLGNUMMER NATUURLIJKE PERSOON</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>00167 - NUMMER VAN DE SOCIALE IDENTITEITSKAART</Zones>
+      <Zones>00025 - NAAM VAN DE WERKNEMER</Zones>
+      <Zones>00026 - VOORNAAM VAN DE WERKNEMER</Zones>
+      <Zones>00027 - INITIAAL VAN DE TWEEDE VOORNAAM VAN DE WERKNEMER</Zones>
+      <Zones>00028 - DATUM WAAROP DE WERKNEMER GEBOREN IS</Zones>
+      <Zones>00168 - GEMEENTE - GEBOORTEPLAATS VAN DE WERKNEMER</Zones>
+      <Zones>00169 - LANDCODE VAN DE GEBOORTEPLAATS VAN DE WERKNEMER</Zones>
+      <Zones>00029 - GESLACHT VAN DE WERKNEMER</Zones>
+      <Zones>00030 - STRAAT VAN DE WERKNEMER</Zones>
+      <Zones>00031 - NUMMER VAN HET ADRES VAN DE WERKNEMER</Zones>
+      <Zones>00032 - BRIEVENBUS VAN DE WERKNEMER</Zones>
+      <Zones>00033 - POSTCODE VAN DE WERKNEMER</Zones>
+      <Zones>00034 - GEMEENTE VAN DE WERKNEMER</Zones>
+      <Zones>00035 - LANDCODE VAN DE WERKNEMER</Zones>
+      <Zones>00119 - NATIONALITEIT VAN DE WERKNEMER</Zones>
+      <Zones>00615 - REFERENTIE GEBRUIKER - NATUURLIJKE PERSOON</Zones>
+      <XmlLabel>NaturalPerson</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de identificatiegegevens van een natuurlijke persoon aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen>Blokkerende (B) anomalie 369 in de gevallen T17, O17 en S17.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90017-058</AnomalieCode>
+         <AnomalieTitel>Onvoldoende prestaties</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90017-151</AnomalieCode>
+         <AnomalieTitel>Niet identificeerbaar</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90017-363</AnomalieCode>
+         <AnomalieTitel>INSZ of identificatiegegevens verplicht</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90017-369</AnomalieCode>
+         <AnomalieTitel>Overschrijding van het contingent</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90017-510</AnomalieCode>
+         <AnomalieTitel>Toegangsvoorwaarden voor flexi-jobs niet gerespecteerd</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90017-514</AnomalieCode>
+         <AnomalieTitel>Jonge werknemer zonder ervaring</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90017-515</AnomalieCode>
+         <AnomalieTitel>Technisch probleem: Controle op statuut 'Jongere zonder ervaring' onmogelijk</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90376</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Plaats van tewerkstelling van de student</Naam>
+      <Zones>00776 - BENAMING</Zones>
+      <XmlLabel>StudentPlaceOfWork</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie aan te geven in verband met de plaats van tewerkstelling van een student.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>Verplicht indien het type werknemer "STU" is, en indien de werkplaats van de student niet de hoofdzetel van de onderneming is&#xA;Verboden in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90082</Code>
+      <Versie>2023/1</Versie>
+      <Publicatiedatum>28/02/2023</Publicatiedatum>
+      <Naam>Referentie</Naam>
+      <Zones>00221 - TYPE VAN DE REFERENTIE</Zones>
+      <Zones>00298 - HERKOMST VAN DE REFERENTIE</Zones>
+      <Zones>00222 - REFERENTIENUMMER</Zones>
+      <XmlLabel>Reference</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat referenties te preciseren in verband met één of meer formulieren&#xA;een formulier kan een originele DmfA-aangifte zijn, een wijzigende DmfA-aangifte, een ASR&#xA;, een aanvraag van inlichtingen, een Dimona aangifte, enz.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>4</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90082-006</AnomalieCode>
+         <AnomalieTitel>Te veel identieke gevallen</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+</Dimona-20231>
