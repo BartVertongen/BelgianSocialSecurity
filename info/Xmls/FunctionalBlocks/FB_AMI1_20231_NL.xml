@@ -865,8 +865,8 @@
       <MaximumKardinaliteit>99</MaximumKardinaliteit>
       <NrGelinktBlok/>
       <Gelinktblok/>
-      <Aanwezigheid>Kardinaliteit 1: 1..99 VERPLICHT INDIEN ten minste Ã©Ã©n prestatie aangegeven moet worden</Aanwezigheid>
-      <ExtraBeperkingen>Een gegeven prestatie (een prestatiecode) mag slechts Ã©Ã©n keer voorkomen per tewerkstelling.&#xA;Indien de aangifte geen gegevens m.b.t. de MiniDmfA bevat, mogen de prestaties niet opgegeven worden.</ExtraBeperkingen>
+      <Aanwezigheid>Kardinaliteit 1: 1..99 VERPLICHT INDIEN ten minste één prestatie aangegeven moet worden</Aanwezigheid>
+      <ExtraBeperkingen>Een gegeven prestatie (een prestatiecode) mag slechts één keer voorkomen per tewerkstelling.&#xA;Indien de aangifte geen gegevens m.b.t. de MiniDmfA bevat, mogen de prestaties niet opgegeven worden.</ExtraBeperkingen>
 
       <Anomalie>
          <AnomalieCode>90018-091</AnomalieCode>
