@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
-<LOIC001-20231>
+<List>
    <FunctionalBlock>
       <Code>90529</Code>
       <Versie>2023/1</Versie>
@@ -213,7 +211,7 @@
       <MaximumKardinaliteit>1</MaximumKardinaliteit>
       <NrGelinktBlok/>
       <Gelinktblok/>
-      <Aanwezigheid>&#xA;               Verplicht indien een tijdskrediet wordt aangevraagd, met uitzondering van de werknemers die een tijdskrediet 1/5 aanvragen&#xA;               en die op de begindatum van de onderbreking 55+ zijn.&#xA;          </Aanwezigheid>
+      <Aanwezigheid>Verplicht indien een tijdskrediet wordt aangevraagd, met uitzondering van de werknemers die een tijdskrediet 1/5 aanvragen&#xA;en die op de begindatum van de onderbreking 55+ zijn.</Aanwezigheid>
       <ExtraBeperkingen/>
 
       <Anomalie>
@@ -332,7 +330,7 @@
       <Gelinktblok>90532 - Vragenlijst</Gelinktblok>
       <Gelinktblok>90534 - Informatie over de drempel van het aantal werknemers in onderbreking</Gelinktblok>
       <Gelinktblok>90535 - Collectieve arbeidsovereenkomst</Gelinktblok>
-      <Aanwezigheid>Verplicht indien geen annulerende formulier is.&#xA;     Verboden in alle andere gevallen.</Aanwezigheid>
+      <Aanwezigheid>Verplicht indien geen annulerende formulier is. Verboden in alle andere gevallen.</Aanwezigheid>
       <ExtraBeperkingen/>
 
       <Anomalie>
@@ -422,4 +420,4 @@
          <AnomalieErnst>B</AnomalieErnst>
       </Anomalie>
    </FunctionalBlock>
-</LOIC001-20231>
+</List>
