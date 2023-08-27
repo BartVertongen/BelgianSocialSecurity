@@ -237,9 +237,7 @@ SELECT "90594"
         , "28/02/2023"
         , "Kleine statuten - Informatie"
         , "SmallStatutesInformation"
-        , "
-Functionele blok waarmee gegevens aangeven kunnen worden die nodig zijn voor de berekening van risicopremies van 'kleine statuten'
-(stage en beroepsopleiding)."
+        , " Functionele blok waarmee gegevens aangeven kunnen worden die nodig zijn voor de berekening van risicopremies van 'kleine statuten' (stage en beroepsopleiding)."
         , "0"
         , "1"
         , "Verplicht voor de werknemerstypes IVT, TRI en STG vanaf het deployment van de nieuwe versie van Dimona in december 2019."
@@ -278,8 +276,7 @@ SELECT "90376"
         , "Functioneel blok dat toelaat informatie aan te geven in verband met de plaats van tewerkstelling van een student."
         , "0"
         , "1"
-        , "Verplicht indien het type werknemer 'STU' is, en indien de werkplaats van de student niet de hoofdzetel van de onderneming is
-Verboden in de andere gevallen."
+        , "Verplicht indien het type werknemer 'STU' is, en indien de werkplaats van de student niet de hoofdzetel van de onderneming is Verboden in de andere gevallen."
         , ""
 WHERE NOT EXISTS (SELECT * FROM functional_blocks
                     WHERE Code = '90376'

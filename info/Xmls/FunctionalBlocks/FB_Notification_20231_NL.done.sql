@@ -777,9 +777,7 @@ SELECT "90410"
         , "28/02/2023"
         , "Specifieke gegevens voor de gebruikende toepassing"
         , "ApplicationData"
-        , "Functioneel blok dat toelaat om via een notificatie informatie mee te delen in verband met een origineel bericht, namelijk:
-het originele bericht zelf EN/OF het verrijkte originele bericht  EN/OF
-het impactrapport van dit originele bericht."
+        , "Functioneel blok dat toelaat om via een notificatie informatie mee te delen in verband met een origineel bericht, namelijk:\nhet originele bericht zelf EN/OF het verrijkte originele bericht  EN/OF het impactrapport van dit originele bericht."
         , "0"
         , "1"
         , "Facultatief"
