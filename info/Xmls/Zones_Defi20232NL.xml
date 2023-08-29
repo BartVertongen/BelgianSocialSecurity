@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>00107</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>RESULTAATCODE</Titel><XmlLabel>ResultCode</XmlLabel><FunctioneelBlok>Informatie over de eindbeslissing</FunctioneelBlok><Omschrijving>Code die het algemeen resultaat van een verwerking aanduidt.In deze zone kan aangeduid worden of de eindbeslissing genomen door de sector Werkloosheid positief of negatief is.</Omschrijving><ToegelatenDomein>0 = NOK
+1 = OK
+2 = Te valideren voorstel
+3 = Tijdelijk antwoord
+4 = TimeoutAlleen de waarden '0' en '1' zijn toegelaten in dit bericht.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

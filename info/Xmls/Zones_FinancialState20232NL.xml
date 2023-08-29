@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>01075</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANTAL DAGEN VERTRAGING</Titel><XmlLabel>DelayDaysNbr</XmlLabel><FunctioneelBlok>Boeking - Detail</FunctioneelBlok><Omschrijving>Aantal dagen vertraging</Omschrijving><ToegelatenDomein>[0,99999]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01077</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AARD VAN DE BOEKING</Titel><XmlLabel>AccountingEntryNature</XmlLabel><FunctioneelBlok>Lijst van de bedragen</FunctioneelBlok><Omschrijving>Zone die toelaat de aard (rechtvaardiging) van de boeking te preciseren.</Omschrijving><ToegelatenDomein>1 = Bijdragen
+2 = Bijdrageopslagen 
+3 = Interesten</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01098</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BESLISSING OVER DE BETALINGSTERMIJN</Titel><XmlLabel>PaymentTermDecision</XmlLabel><FunctioneelBlok>Boeking - Informatie</FunctioneelBlok><Omschrijving>Zone die de beslissing over de betalingstermijn bevat.</Omschrijving><ToegelatenDomein>1 = Weigering (de werkgever heeft er geen recht op)
+2 = Toekenning (de werkgever heeft een termijn gekregen)
+3 = In verwerking (de RSZ heeft nog niet beslist)</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01112</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BESLISSING OVER HET BETALINGSPLAN</Titel><XmlLabel>PaymentPlanDecision</XmlLabel><FunctioneelBlok>Financiële toestand - Informatie</FunctioneelBlok><Omschrijving>Zone die de beslissing over de betalingsplan bevat.</Omschrijving><ToegelatenDomein>1 = Weigering (betalingsplan)
+2 = Toekenning (betalingsplan)
+3 = In verwerking (betalingsplan)In het glossarium “Financiële toestand » is 2 de enige mogelijke waarde.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01070</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BETALINGSTERMIJN</Titel><XmlLabel>PaymentTerm</XmlLabel><FunctioneelBlok>Boeking - Informatie</FunctioneelBlok><Omschrijving>Zone waarin men kan preciseren welk type termijn van toepassing is op de werkgever voor het kwartaal.</Omschrijving><ToegelatenDomein>1 = Wettelijke termijn
+2 = Reglementaire termijn
+3 = Covid termijn</ToegelatenDomein><Referentie>Délai Covid : Report de paiement au 15 décembre 2020  (article 3 de l'arrêté royal de pouvoirs spéciaux "report de paiements ONSS" (Covid-
+19)). /Covid Termijn : Uitstel van betaling tot 15 december 2020 (artikel 3 van het koninklijk besluit 'uitsel betaling RSZ' (Covid-19)).</Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01072</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BOEKHOUDKUNDIG GROEPERINGSNUMMER</Titel><XmlLabel>AccountingBulkingNbr</XmlLabel><FunctioneelBlok>Boeking - Informatie</FunctioneelBlok><Omschrijving>Volgnummer verbonden aan de periode waarvoor de boeking wordt opgesteld.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01071</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BOEKHOUDKUNDIGE GROEPERING</Titel><XmlLabel>AccountingBulking</XmlLabel><FunctioneelBlok>Boeking - Informatie</FunctioneelBlok><Omschrijving>Type periode waarvoor de boeking wordt opgesteld.</Omschrijving><ToegelatenDomein>0 = jaarlijkse vakantie 
+1 = WB (wijzigend bericht) jaarlijkse vakantie
+2 = basisperiode en bijlage aangifte
+3 = WB (wijzigend bericht) basisperiode en bijlage aangifte
+4 = debetbericht economische werkloosheid
+5 = debetbericht Vorming
+6 = debetbericht art. 22QterDe toegelaten waarden zijn: 0, 2</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00872</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM - BOEKHOUDKUNDIGE DATUM</Titel><XmlLabel>AccountingDate</XmlLabel><FunctioneelBlok>Boeking - Detail</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01066</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM VAN AFSLUITING</Titel><XmlLabel>ClosingDate</XmlLabel><FunctioneelBlok>Financiële toestand - Informatie</FunctioneelBlok><Omschrijving>
+Datum van afsluitingDatum waarop het rekeninguittreksel werd afgesloten.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01078</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GETEKEND BEDRAG</Titel><XmlLabel>SignedAmount</XmlLabel><FunctioneelBlok>Lijst van de bedragen</FunctioneelBlok><Omschrijving>Getekend bedrag</Omschrijving><ToegelatenDomein>Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01076</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GLOBAAL BEDRAG</Titel><XmlLabel>GlobalAmount</XmlLabel><FunctioneelBlok>Boeking - Detail</FunctioneelBlok><Omschrijving>Globaal bedrag van een betaling die opgesplitst werd in verschillende boekingen.</Omschrijving><ToegelatenDomein>[0,999999999999999]
+Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>15</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01074</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>HERKOMST VAN DE BOEKING</Titel><XmlLabel>AccountingEntryOrigin</XmlLabel><FunctioneelBlok>Boeking - Detail</FunctioneelBlok><Omschrijving>Zone die toelaat de herkomst van de boeking te identificeren.</Omschrijving><ToegelatenDomein>1 = Betaling - ESS Verdeellijst
+2 = Betaling - Andere
+3 = Werkgever/ ESS
+4 = RSZ</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00866</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>KWARTAAL VAN BOEKING</Titel><XmlLabel>AccountingQuarter</XmlLabel><FunctioneelBlok>Boeking - Informatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01073</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE BOEKING</Titel><XmlLabel>AccountingEntryType</XmlLabel><FunctioneelBlok>Boeking - Detail</FunctioneelBlok><Omschrijving>Zone die toelaat het type boeking te identificeren.</Omschrijving><ToegelatenDomein>Cf. specifieke bijlage FinancialState01 : Beschrijving van de boekoudkundige referenties</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01079</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE FINANCIËLE TOESTAND</Titel><XmlLabel>FinancialStateType</XmlLabel><FunctioneelBlok>Financiële toestand - Informatie</FunctioneelBlok><Omschrijving>Zone die toelaat het type financiële toestand te identificeren.</Omschrijving><ToegelatenDomein>1 = Lijst van de kredieten</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01080</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>VERVOLGD</Titel><XmlLabel>IsSued</XmlLabel><FunctioneelBlok>Financiële toestand - Informatie</FunctioneelBlok><Omschrijving>Zone waarin men kan preciseren of de werkgever vervolgd wordt of niet.</Omschrijving><ToegelatenDomein>0 = Niet vervolgd
+1 = Vervolgd</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

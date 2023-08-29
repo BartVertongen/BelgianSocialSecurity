@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT FunctionalBlock (Code+, Versie+, Publicatiedatum+, Naam+, Zones+, XmlLabel+, Omschrijving+, MinimumKardinaliteit+, MaximumKardinaliteit+, NrGelinktBlok+, Gelinktblok+, Aanwezigheid+, ExtraBeperkingen+, Anomalie+)>
+     <!ELEMENT List (FunctionalBlock+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Naam (#PCDATA)>
+     <!ELEMENT Zones (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT MinimumKardinaliteit (#PCDATA)>
+     <!ELEMENT MaximumKardinaliteit (#PCDATA)>
+     <!ELEMENT NrGelinktBlok (#PCDATA)>
+     <!ELEMENT Gelinktblok (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT ExtraBeperkingen (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<FunctionalBlock>
+<Code>90460</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Detail over de werknemers - Voorschot</Naam><Zones>01054 - TYPE WERKNEMER – VOORSCHOT</Zones><Zones>01055 - AANTAL WERKNEMERS</Zones><XmlLabel>AdvancePaymentWorker</XmlLabel><Omschrijving>Functioneel blok met informatie over de werknemers waarvoor een forfaitair voorschot moet betaald worden.</Omschrijving><MinimumKardinaliteit>2</MinimumKardinaliteit><MaximumKardinaliteit>4</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90461</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Detail van het bedrag van het voorschot</Naam><Zones>01056 - TYPE BEDRAG</Zones><Zones>01057 - BEDRAG</Zones><XmlLabel>AdvancePaymentAmount</XmlLabel><Omschrijving>Functioneel blok met informatie over het bedrag van het forfaitaire of procentuele voorschot.</Omschrijving><MinimumKardinaliteit>2</MinimumKardinaliteit><MaximumKardinaliteit>4</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar
+Kardinaliteit 2 ..4 als onder het FB Forfaitair voorschot (90459)
+Kardinaliteit 6 .. 6  als onder het FB Procentueel voorschot (90462)</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90459</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Forfaitair voorschot</Naam><Zones>01064 - NOTIE WERKGEVER - BOUWSECTOR</Zones><Zones>01052 - TYPE FORFAITAIR VOORSCHOT</Zones><Zones>00910 - DATUM BEGIN</Zones><Zones>01053 - DATUM - BEREKENINGSDATUM</Zones><Zones>01004 - KALENDERJAAR</Zones><Zones>01051 - KALENDERMAAND</Zones><XmlLabel>FixedAdvancePayment</XmlLabel><Omschrijving>Functioneel blok met informatie over het forfaitaire voorschot.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90460</NrGelinktBlok><NrGelinktBlok>90461</NrGelinktBlok><Gelinktblok>90460 - Detail over de werknemers - Voorschot</Gelinktblok><Gelinktblok>90461 - Detail van het bedrag van het voorschot</Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90458</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Informatie over het voorschot</Naam><Zones>01049 - NOTIE WERKGEVER - BIJDRAGE TE BETALEN VOOR EEN VORIG KWARTAAL</Zones><Zones>01050 - MOTIVERING VAN HET TYPE VOORSCHOT</Zones><XmlLabel>AdvancePaymentInformation</XmlLabel><Omschrijving>Functioneel blok dat ervoor zorgt dat informatie kan gegeven worden over het voorschot dat de werkgever moet betalen.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit 1
+Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90457</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Motivering van het voorschot</Naam><Zones></Zones><XmlLabel>AdvancePaymentJustification</XmlLabel><Omschrijving>Root-element van het XML-bericht waarmee de voorschotten die de werkgever moet betalen kunnen gemotiveerd worden.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90458</NrGelinktBlok><NrGelinktBlok>90459</NrGelinktBlok><NrGelinktBlok>90462</NrGelinktBlok><Gelinktblok>90458 - Informatie over het voorschot</Gelinktblok><Gelinktblok>90459 - Forfaitair voorschot</Gelinktblok><Gelinktblok>90462 - Procentueel voorschot</Gelinktblok><Aanwezigheid>Kardinaliteit 1 
+Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90462</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Procentueel voorschot</Naam><Zones>01053 - DATUM - BEREKENINGSDATUM</Zones><Zones>00013 - JAAR - KWARTAAL</Zones><XmlLabel>PercentageAdvancePayment</XmlLabel><Omschrijving>Functioneel blok met informatie over het procentuele voorschot.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90465</NrGelinktBlok><NrGelinktBlok>90461</NrGelinktBlok><Gelinktblok>90465 - Voorschotperiode</Gelinktblok><Gelinktblok>90461 - Detail van het bedrag van het voorschot</Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90465</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Voorschotperiode</Naam><Zones>01004 - KALENDERJAAR</Zones><Zones>01051 - KALENDERMAAND</Zones><Zones>01058 - PERCENTAGE VAN HET VOORSCHOT</Zones><XmlLabel>AdvPaymentPeriod</XmlLabel><Omschrijving>Functioneel blok met informatie over de periode van het procentuele voorschot.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Kardinaliteit 1
+Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+</List>

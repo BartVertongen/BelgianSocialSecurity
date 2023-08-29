@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT FunctionalBlock (Code+, Versie+, Publicatiedatum+, Naam+, Zones+, XmlLabel+, Omschrijving+, MinimumKardinaliteit+, MaximumKardinaliteit+, NrGelinktBlok+, Gelinktblok+, Aanwezigheid+, ExtraBeperkingen+, Anomalie+)>
+     <!ELEMENT List (FunctionalBlock+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Naam (#PCDATA)>
+     <!ELEMENT Zones (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT MinimumKardinaliteit (#PCDATA)>
+     <!ELEMENT MaximumKardinaliteit (#PCDATA)>
+     <!ELEMENT NrGelinktBlok (#PCDATA)>
+     <!ELEMENT Gelinktblok (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT ExtraBeperkingen (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<FunctionalBlock>
+<Code>90473</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Boeking - Detail</Naam><Zones>00872 - DATUM - BOEKHOUDKUNDIGE DATUM</Zones><Zones>01073 - TYPE BOEKING</Zones><Zones>01074 - HERKOMST VAN DE BOEKING</Zones><Zones>01075 - AANTAL DAGEN VERTRAGING</Zones><Zones>01076 - GLOBAAL BEDRAG</Zones><XmlLabel>AccountingEntryDetail</XmlLabel><Omschrijving>Functioneel blok dat toelaat de details van elke boeking te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>*</MaximumKardinaliteit><NrGelinktBlok>90474</NrGelinktBlok><Gelinktblok>90474 - Lijst van de bedragen</Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90472</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Boeking - Informatie</Naam><Zones>00866 - KWARTAAL VAN BOEKING</Zones><Zones>01070 - BETALINGSTERMIJN</Zones><Zones>01071 - BOEKHOUDKUNDIGE GROEPERING</Zones><Zones>01072 - BOEKHOUDKUNDIG GROEPERINGSNUMMER</Zones><Zones>01098 - BESLISSING OVER DE BETALINGSTERMIJN</Zones><XmlLabel>AccountingEntryInformation</XmlLabel><Omschrijving>Functioneel blok dat toelaat algemene informatie te verschaffen over een verzameling boekingen van een gegeven kwartaal.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>*</MaximumKardinaliteit><NrGelinktBlok>90473</NrGelinktBlok><Gelinktblok>90473 - Boeking - Detail</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90471</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Boekingen</Naam><Zones></Zones><XmlLabel>AccountingEntries</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens te verschaffen van alle boekingen waarop de herinnering betrekking heeft.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90472</NrGelinktBlok><Gelinktblok>90472 - Boeking - Informatie</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90475</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Financiële toestand</Naam><Zones></Zones><XmlLabel>FinancialState</XmlLabel><Omschrijving>Root-element van het XML-bericht dat het mogelijk maakt financiële toestanden aan te maken.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90476</NrGelinktBlok><NrGelinktBlok>90471</NrGelinktBlok><Gelinktblok>90476 - Financiële toestand - Informatie</Gelinktblok><Gelinktblok>90471 - Boekingen</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90476</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Financiële toestand - Informatie</Naam><Zones>01066 - DATUM VAN AFSLUITING</Zones><Zones>01079 - TYPE FINANCIËLE TOESTAND</Zones><Zones>01080 - VERVOLGD</Zones><Zones>01112 - BESLISSING OVER HET BETALINGSPLAN</Zones><XmlLabel>FinancialStateInformation</XmlLabel><Omschrijving>Functioneel blok waarmee informatie kan worden gegeven over de financiële toestand.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90474</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Lijst van de bedragen</Naam><Zones>01077 - AARD VAN DE BOEKING</Zones><Zones>01078 - GETEKEND BEDRAG</Zones><XmlLabel>ListOfAmounts</XmlLabel><Omschrijving>Functioneel blok dat toelaat de lijst te geven van de bedragen die overeenkomen met een boeking.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>3</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+</List>

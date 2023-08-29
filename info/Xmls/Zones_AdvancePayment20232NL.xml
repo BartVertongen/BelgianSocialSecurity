@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>01055</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANTAL WERKNEMERS</Titel><XmlLabel>NbrOfWorkers</XmlLabel><FunctioneelBlok>Detail over de werknemers - Voorschot</FunctioneelBlok><Omschrijving>Zone met het aantal werknemers betrokken bij het forfaitaire voorschot.</Omschrijving><ToegelatenDomein>Positief geheel getal en element van [0;9999999].</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01057</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEDRAG</Titel><XmlLabel>Amount</XmlLabel><FunctioneelBlok>Detail van het bedrag van het voorschot</FunctioneelBlok><Omschrijving>Zone met de verschillende bedragen die meegeteld worden bij de verschillende berekeningen.</Omschrijving><ToegelatenDomein>[0,999999999999999]
+Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>15</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01053</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM - BEREKENINGSDATUM</Titel><XmlLabel>CalculationDate</XmlLabel><FunctioneelBlok>Forfaitair voorschot</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01053</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM - BEREKENINGSDATUM</Titel><XmlLabel>CalculationDate</XmlLabel><FunctioneelBlok>Procentueel voorschot</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00910</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM BEGIN</Titel><XmlLabel>StartingDate</XmlLabel><FunctioneelBlok>Forfaitair voorschot</FunctioneelBlok><Omschrijving>Datum waarop het berekeningsproces van het voorschot werd gestart.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00013</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>JAAR - KWARTAAL</Titel><XmlLabel>Quarter</XmlLabel><FunctioneelBlok>Procentueel voorschot</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal.
+Bepaling van het jaar en het kwartaal van de aangifte.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01004</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>KALENDERJAAR</Titel><XmlLabel>CalendarYear</XmlLabel><FunctioneelBlok>Forfaitair voorschot</FunctioneelBlok><Omschrijving>Zone waarin het kalenderjaar wordt gepreciseerd waarvoor de werkgever de voorschotten moet betalen.</Omschrijving><ToegelatenDomein>[1900,9999]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01004</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>KALENDERJAAR</Titel><XmlLabel>CalendarYear</XmlLabel><FunctioneelBlok>Voorschotperiode</FunctioneelBlok><Omschrijving>Zone waarin het kalenderjaar wordt gepreciseerd waarvoor de werkgever de voorschotten moet betalen.</Omschrijving><ToegelatenDomein>[1900,9999]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01051</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>KALENDERMAAND</Titel><XmlLabel>CalendarMonth</XmlLabel><FunctioneelBlok>Forfaitair voorschot</FunctioneelBlok><Omschrijving>Zone waarin de kalendermaand gepreciseerd wordt waarvoor de werkgever de voorschotten moet betalen.</Omschrijving><ToegelatenDomein>[1,12]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01051</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>KALENDERMAAND</Titel><XmlLabel>CalendarMonth</XmlLabel><FunctioneelBlok>Voorschotperiode</FunctioneelBlok><Omschrijving>Zone waarin de kalendermaand gepreciseerd wordt waarvoor de werkgever de voorschotten moet betalen.</Omschrijving><ToegelatenDomein>[1,12]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01050</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>MOTIVERING VAN HET TYPE VOORSCHOT</Titel><XmlLabel>AdvPaymentTypeJustification</XmlLabel><FunctioneelBlok>Informatie over het voorschot</FunctioneelBlok><Omschrijving>Zone waarin het type voorschot wordt gemotiveerd.</Omschrijving><ToegelatenDomein>0 = Afwezigheid van DmfA-aangifte voor kwartaal K -2
+1 = Aanwezigheid van DmfA-aangifte voor kwartaal K -2 met bedrag &lt; = 6197.34 EUR
+2 = Aanwezigheid van DmfA-aangifte voor kwartaal K -2 (of K -3 als de aangifte van K -2 nog niet ingediend is) met bedrag &gt;97.34 EUR terwijl de DmfA-aangifte van kwartaal K -4 niet aanwezig is
+3 = Aanwezigheid van DmfA-aangifte voor kwartaal K -2 (of K-3 als de aangifte van K -2 nog niet ingediend is) met bedrag &gt;97.34 EUR terwijl de DmfA-aangifte van kwartaal K -4 aanwezig is
+4 = Afwezigheid van DmfA-aangifte voor kwartaal K -3 terwijl de aangifte van kwartaal K -2 nog niet ingediend is
+5 = Aanwezigheid van DmfA-aangifte voor kwartaal K -3 met bedrag &lt;197.34 EUR terwijl de aangifte van kwartaal K -2 nog niet ingediend is
+6 = Afwezigheid van DmfA-aangifte voor kwartaal K -4 terwijl de aangiftes van kwartalen K -2 en K -3 nog niet ingediend zijn
+7 = De DmfA-aangiftes voor de kwartalen K -2, K -3 en K -4 zijn nog niet ingediend
+8 = Aanwezigheid van DmfA-aangifte voor kwartaal K -4 met bedrag &lt;= 6197.34 EUR terwijl de aangiftes van kwartalen K -2 en K -3 nog niet ingediend zijn
+9 = Aanwezigheid van DmfA-aangifte voor kwartaal K -4 met bedrag &gt; 6197.34 EUR terwijl de aangiftes van kwartalen K -2 en K -3 nog niet ingediend zijn
+10 = Niet voorschotplichtigDe waarde "10" mag alleen gebruikt worden in het bericht FINO001, nooit in het bericht FINO002.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01049</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NOTIE WERKGEVER - BIJDRAGE TE BETALEN VOOR EEN VORIG KWARTAAL</Titel><XmlLabel>EmployerStarterNotion</XmlLabel><FunctioneelBlok>Informatie over het voorschot</FunctioneelBlok><Omschrijving>In deze zone kan gepreciseerd worden of de werkgever een bijdrage moet betalen in het kwartaal (of de kwartalen) K-2 en/of K-4.</Omschrijving><ToegelatenDomein>0 = De werkgever moet geen bijdrage betalen in het kwartaal (of de kwartalen) K -2 en/of K -4 (starter).
+1 = De werkgever moet een bijdrage betalen in het kwartaal (of de kwartalen) K -2 en/of K -4 (niet-starter).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01064</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NOTIE WERKGEVER - BOUWSECTOR</Titel><XmlLabel>EmployerCP124Notion</XmlLabel><FunctioneelBlok>Forfaitair voorschot</FunctioneelBlok><Omschrijving>In deze zone kan gepreciseerd worden of de werkgever tot de bouwsector (CP124) behoort of niet.</Omschrijving><ToegelatenDomein>0 = De werkgever behoort niet tot de bouwsector (PC124).
+1 = De werkgever behoort tot de bouwsector (PC124).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01058</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>PERCENTAGE VAN HET VOORSCHOT</Titel><XmlLabel>AdvPaymentPercentage</XmlLabel><FunctioneelBlok>Voorschotperiode</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>[1 tot 99]
+Geen decimaal van %</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01056</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE BEDRAG</Titel><XmlLabel>AmountType</XmlLabel><FunctioneelBlok>Detail van het bedrag van het voorschot</FunctioneelBlok><Omschrijving>Zone met het type bedrag in het kader van forfaitaire of procentuele voorschotten.</Omschrijving><ToegelatenDomein>1 = Aangegeven bedrag dat de verplichting om procentuele voorschotten te betalen bepaalt.
+2 = Bedrag van de DmfA voor het kwartaal K -4 dat meetelt in de berekening van de procentuele voorschotten.
+3 = Bedrag van de wijzigende berichten in debet voor het kwartaal K -4 dat meetelt in de berekening van de procentuele voorschotten.
+4 = Bedrag van de wijzigende berichten in credit voor het kwartaal K -4 dat meetelt in de berekening van de procentuele voorschotten.
+5 = Basisbedrag gelijk aan alle bedragen van type 2, 3 en 4; het te betalen procentuele voorschot zal gelijk zijn aan een percentage van dit bedrag.
+6 = Totaalbedrag van het procentuele voorschot van de eerste maand van het kwartal.
+7 = Totaalbedrag van het procentuele voorschot van de tweede maand van het kwartal.
+8 = Totaalbedrag van het procentuele voorschot van de derde maand van het kwartal.
+9 = Bedrag van het forfait toe te passen in het kader van het algemeen stelsel.
+10 = Totaalbedrag van het forfaitaire voorschot in het kader van het algemeen stelsel.
+11 = Bedrag van het forfait toe te passen in het kader van artikel 34bis (§1 en §2).
+12 = Totaalbedrag van het forfaitaire voorschot in het kader van artikel 34bis (§1 en §2).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01052</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE FORFAITAIR VOORSCHOT</Titel><XmlLabel>FixedAdvPaymentType</XmlLabel><FunctioneelBlok>Forfaitair voorschot</FunctioneelBlok><Omschrijving>Zone waarin het type forfaitair voorschot wordt gepreciseerd.</Omschrijving><ToegelatenDomein>1 = Forfaitair voorschot – Algemeen stelsel
+2 = Forfaitair voorschot – Bouwsector (art. 34bis §1)
+3 = Forfaitair voorschot - Bouwsector (art. 34bis §2) - toename werknemers)</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01054</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE WERKNEMER – VOORSCHOT</Titel><XmlLabel>AdvPaymentWorkerType</XmlLabel><FunctioneelBlok>Detail over de werknemers - Voorschot</FunctioneelBlok><Omschrijving>Zone met de definitie van het type werknemer in het kader van de berekening van het forfaitaire voorschot.</Omschrijving><ToegelatenDomein>1 = Aantal werknemers geteld in Dimona in het kader van het algemeen stelsel.
+2 = Aantal werknemers waarvoor er geen forfait betaald moet worden in het kader van het algemeen stelsel.
+3 = Aantal arbeiders van het paritair comité 124 geteld in Dimona in het kader van artikel 34bis (§1 en §2).
+4 = Aantal werknemers waarvoor er geen forfait moet betaald worden in het kader van artikel 34bis (§1 en §2).
+5 = Aantal arbeiders van het paritair comité 124, tewerkgesteld in kwartaal K-4, geteld in Dimona in het kader van artikel 34bis §2.
+6 = Toename van het aantal arbeiders van het paritair comité 124 in het kader van artikel 34bis §2 (verschil tussen type 3 en type 5).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

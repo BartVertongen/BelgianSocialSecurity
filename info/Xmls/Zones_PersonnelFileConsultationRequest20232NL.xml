@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>00218</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationDate</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>
+Datum waarop het formulier gecreëerd is.</Omschrijving><ToegelatenDomein>
+JJJJ is een element van [lopend jaar -1 ; lopend jaar] ;
+De datum mag zich niet in de toekomst bevinden.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00218-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00218-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00074</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM WAAROP DE REFERTEPERIODE BEGINT</Titel><XmlLabel>RefStartingDate</XmlLabel><FunctioneelBlok>Referteperiode</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien de "Datum waarop de referteperiode eindigt" (00075) niet aanwezig is.</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00074-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00075</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM WAAROP DE REFERTEPERIODE EINDIGT</Titel><XmlLabel>RefEndingDate</XmlLabel><FunctioneelBlok>Referteperiode</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien de "Datum waarop de referteperiode begint" (00074) niet aanwezig is.</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00075-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00075-014</AnomalieCode><AnomalieTitel>Einddatum voorafgaand aan de begindatum</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00298</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>HERKOMST VAN DE REFERENTIE</Titel><XmlLabel>ReferenceOrigin</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Waarde die de authentieke bron van een referentienummer aanduidt.
+</Omschrijving><ToegelatenDomein>1 = het referentienummer is toegekend door een aangever of aanvrager (een bedrijf, een sociaal secretariaat, een softwareontwikkelaar, ...)
+2 = het ticketnummer toegekend door de sociale zekerheid, dat een aangifte, een aanvraag of een antwoord op eenduidige wijze identificeert
+3 = het referentienummer is toegekend door een sector van de sociale zekerheid
+4 = het referentienummer is toegekend door de dienst ePost
+5 = het referentienummer is toegekend door de KSZ
+6 = het referentienummer is toegekend door het archiveringssysteem (DOC-ID)
+7 = het referentienummer is door de DSP aan een gearchiveerd document toegekend (DSP-ID)
+De enige waarde in dit bericht is "1".</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00298-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00296</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN HET FORMULIER</Titel><XmlLabel>Identification</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Zone die de inhoud van een formulier beschrijft.
+</Omschrijving><ToegelatenDomein>Zie bijlage 11 - Identificatie van het formulier.
+De enige waarde in dit bericht is "PFREQ".</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00296-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00296-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00296-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00295</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>LOKALISATIE VAN EEN ELEMENT IN DE BOOMSTRUCTUUR</Titel><XmlLabel>Location</XmlLabel><FunctioneelBlok>Gegevens van de optie</FunctioneelBlok><Omschrijving>Informatie die toelaat om een element te lokaliseren in de boomstructuur.</Omschrijving><ToegelatenDomein>Gebruikt met de waarde "QuotaFeatures", met deze zone kan u aanduiden of u al dan niet de karakteristieken van het contingent van elke periode wil recupereren (zie blok "QuotaFeatures" (90432) in het glossarium PersonnelFileConsultationAnswer). In dit geval moet de zone "Waarde" (00236) niet ingevuld worden.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>200</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00295-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00295-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+In het geval van een aanvraag voor een werkgever (uitgezonderd provinciale en plaatselijke besturen), heeft het "RSZ-nummer" (00011) voorrang op het ondernemingsnummer.</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het RSZ-nummer of PPL nummer niet aanwezig zijn.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00014-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-004</AnomalieCode><AnomalieTitel>Ongeldig controlegetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-090</AnomalieCode><AnomalieTitel>Fout op kardinaliteit</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-235</AnomalieCode><AnomalieTitel>Niet opgenomen in het repertorium</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00109</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>PPL NUMMER</Titel><XmlLabel>NOSSLPARegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving> Elke lokale of provinciale overheid die personeel in dienst heeft, moet ingeschreven zijn bij de RSZ.</Omschrijving><ToegelatenDomein>Geheel getal en element van [00000197;99999926]. Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het PPL nummer op de waarde nul gezet worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>8</Lengte><Aanwezigheid>Verplicht indien de werkgever een PPL nummer bezit en indien het "Ondernemingsnummer" (00014) niet aanwezig is.</Aanwezigheid><Formaat>0 of NNNNNNCC
+· NNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00109-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-004</AnomalieCode><AnomalieTitel>Ongeldig controlegetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-041</AnomalieCode><AnomalieTitel>Verkeerd RSZ/PPL nummer</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-090</AnomalieCode><AnomalieTitel>Fout op kardinaliteit</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-155</AnomalieCode><AnomalieTitel>Geen of vervallen mandaat</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-235</AnomalieCode><AnomalieTitel>Niet opgenomen in het repertorium</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00299</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>PRECIES UUR VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationHour</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren, minuten, seconden en milliseconden.
+</Omschrijving><ToegelatenDomein>UU is een element van [00;23]
+MM is een element van [00;59]
+SS is een element van [00;59]
+SSS is een element van [000;999]
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>UU:MM:SS.SSS
+. UU zijn de uren
+. MM zijn de minuten
+. SS zijn de seconden
+. SSS zijn de milliseconden</Formaat><Anomalie><AnomalieCode>00299-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00299-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Het referentienummer.</Omschrijving><ToegelatenDomein>In dit bericht is de toegelaten lengte voor deze zone 20 tekens.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00222-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00011</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+Indien het "Ondernemingsnummer" (00014) ook aanwezig is, dan heeft het RSZ-nummer voorrang.</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verplicht indien de werkgever een definitief RSZ-nummer bezit en indien het "Ondernemingsnummer" (00014) niet aanwezig is.</Aanwezigheid><Formaat>0 of NNNNNNNCC
+· NNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00011-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-004</AnomalieCode><AnomalieTitel>Ongeldig controlegetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-041</AnomalieCode><AnomalieTitel>Verkeerd RSZ/PPL nummer</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-090</AnomalieCode><AnomalieTitel>Fout op kardinaliteit</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-091</AnomalieCode><AnomalieTitel>Fout op volgorde</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-155</AnomalieCode><AnomalieTitel>Geen of vervallen mandaat</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-235</AnomalieCode><AnomalieTitel>Niet opgenomen in het repertorium</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00110</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STATUS VAN HET ATTEST</Titel><XmlLabel>AttestationStatus</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>0 = Origineel
+1 = Wijziging
+2 = Duplicaat
+3 = Annulatie
+4 = Herziening
+5 = Herinnering
+6 = Afsluiting
+7 = Wijziging van papieren origineel
+8 = KopieEnkel de waarde "0" is toegelaten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00110-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00221</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE VAN DE REFERENTIE</Titel><XmlLabel>ReferenceType</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Duidt aan naar waar de referentie (00222 Referentienummer) verwijst: naar deze aangifte, naar een aangifte die verwant is met deze aangifte of naar een verzameling aangiften (= een dossier) waar deze aangifte toe behoort, op deze aanvraag, op dit formulier.</Omschrijving><ToegelatenDomein>0 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat niet dezelfde identificatie heeft (zie bijlagen 11/302), dat verband houdt met het huidige formulier
+1 = de referentie verwijst naar dit formulier
+2 = de referentie is een dossiernummer en verwijst naar het dossier (= verzameling van aangiften) waartoe deze aangifte behoort of waartoe dit formulier behoort
+3 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat dezelfde identificatie heeft (zie bijlagen 11/302) en dat verband houdt met dit formulier, bijvoorbeeld: de referentie heeft betrekking op de aangifte die geannuleerd moet worden door deze aangifte, of op de aangifte die vervangen moet worden door deze aangifte, of op de aangifte die gewijzigd moet worden, of op de aangifte die aan de oorsprong ligt van dit formulier...
+4 = de referentie verwijst naar een aangifte in een ander scenario die verwant is met deze aangifte
+5 = de referentie verwijst naar een aanvraag
+6 = de referentie verwijst naar een geweigerde aangifte
+7 = de referentie verwijst naar de werkgever die in deze aangifte wordt vermeld
+8 = de referentie verwijst naar de werknemer die in deze aangifte wordt vermeld
+9 = de referentie is een gestructureerde mededeling die moet worden gebruikt in het kader van een betaling en verwijst naar dit formulierEnkel de waarde "1" is toegelaten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00221-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00221-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00221-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00221-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00297</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE VAN HET FORMULIER</Titel><XmlLabel>TypeForm</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Het type wijst de aard van het elektronisch formulier aan.
+</Omschrijving><ToegelatenDomein>RE = REQUEST - het formulier vraagt inlichtingen
+PA = PROVISIONAL ANSWER - het formulier is een tijdelijk antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+FA = FINAL ANSWER - het formulier is een definitief antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+LA = LIMITED ANSWER - het formulier is een beperkt antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+SU = SUBMISSION - het formulier deelt inlichtingen mee
+De enige waarde in dit bericht is "RE".</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00297-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00297-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00297-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00948</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>VOORLOPIG RSZ-NUMMER</Titel><XmlLabel>ProvisionalNSSONbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. 
+Het gaat om een voorlopig RSZ-nummer dat aan de nieuwe werkgever toegekend is.
+Dit voorlopig nummer mag niet meer gebruikt worden zodra de RSZ het definitieve nummer heeft meegedeeld.Deze zone wordt niet gebruikt voor in de aanvraag tot massale consultatie.</Omschrijving><ToegelatenDomein>Geheel getal en element van [5000000120;5999999989]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>0 of NNNNNNNNCC
+· NNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00236</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WAARDE</Titel><XmlLabel>Value</XmlLabel><FunctioneelBlok>Gegevens van de optie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>999999999999999</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00236-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+</List>

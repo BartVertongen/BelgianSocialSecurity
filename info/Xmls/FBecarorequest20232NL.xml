@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT FunctionalBlock (Code+, Versie+, Publicatiedatum+, Naam+, Zones+, XmlLabel+, Omschrijving+, MinimumKardinaliteit+, MaximumKardinaliteit+, NrGelinktBlok+, Gelinktblok+, Aanwezigheid+, ExtraBeperkingen+, Anomalie+)>
+     <!ELEMENT List (FunctionalBlock+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Naam (#PCDATA)>
+     <!ELEMENT Zones (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT MinimumKardinaliteit (#PCDATA)>
+     <!ELEMENT MaximumKardinaliteit (#PCDATA)>
+     <!ELEMENT NrGelinktBlok (#PCDATA)>
+     <!ELEMENT Gelinktblok (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT ExtraBeperkingen (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<FunctionalBlock>
+<Code>90538</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Ecaro consultatie gegevens</Naam><Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones><Zones>00910 - DATUM BEGIN</Zones><XmlLabel>EcaroRequestData</XmlLabel><Omschrijving>Functioneel blok dat toelaat een consultatievraag voor Ecaro gegevens (records die recht geven op DmfA bijdrageverminderingen) van een persoon mee te geven.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>*</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90537</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Naam>Ecaro Request</Naam><Zones></Zones><XmlLabel>EcaroRequest</XmlLabel><Omschrijving>Functioneel blok dat dient als root element voor een Ecaro Request boodschap.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90538</NrGelinktBlok><Gelinktblok>90538 - Ecaro consultatie gegevens</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+</List>

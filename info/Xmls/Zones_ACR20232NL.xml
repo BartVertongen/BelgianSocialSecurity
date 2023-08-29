@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>00218</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationDate</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>
+Datum waarop het formulier gecreëerd is.</Omschrijving><ToegelatenDomein>
+JJJJ is een element van [lopend jaar -1 ; lopend jaar] ;
+De datum mag zich niet in de toekomst bevinden.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00218-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00218-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00218-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00218-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00298</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>HERKOMST VAN DE REFERENTIE</Titel><XmlLabel>ReferenceOrigin</XmlLabel><FunctioneelBlok>Referentie van het ontvangen bestand</FunctioneelBlok><Omschrijving>Waarde die de authentieke bron van een referentienummer aanduidt.
+De herkomst duidt aan wie de referentie gecreëerd heeft.</Omschrijving><ToegelatenDomein>1 = het referentienummer is toegekend door een aangever of aanvrager (een bedrijf, een sociaal secretariaat, een softwareontwikkelaar, ...)
+2 = het ticketnummer toegekend door de sociale zekerheid, dat een aangifte, een aanvraag of een antwoord op eenduidige wijze identificeert
+3 = het referentienummer is toegekend door een sector van de sociale zekerheid
+4 = het referentienummer is toegekend door de dienst ePost
+5 = het referentienummer is toegekend door de KSZ
+6 = het referentienummer is toegekend door het archiveringssysteem (DOC-ID)
+7 = het referentienummer is door de DSP aan een gearchiveerd document toegekend (DSP-ID)
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00298-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00108</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN DE FOUT</Titel><XmlLabel>ErrorID</XmlLabel><FunctioneelBlok>Resultaat van de ontvangstverwerking</FunctioneelBlok><Omschrijving>Identificatie van de fout.</Omschrijving><ToegelatenDomein>Alfanumeriek gegeven bestaande uit twee getallen gescheiden door een streepje. 
+De 5 eerste cijfers verwijzen naar de zone of het FB waarop de anomalie betrekking heeft en de 3 laatste cijfers verwijzen naar het type foutcode. Voor deze laatste, zie bijlage 30 - Algemene lijst van foutcodes.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verplicht indien een fout wordt gevonden</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00296</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN HET FORMULIER</Titel><XmlLabel>Identification</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Zone die de inhoud van een formulier beschrijft.
+</Omschrijving><ToegelatenDomein>Zie bijlage 11 - Identificatie van het formulier.
+Deze zone moet ACRF001 als waarde hebben.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00296-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00296-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00296-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00106</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NAAM VAN HET BESTAND</Titel><XmlLabel>FileName</XmlLabel><FunctioneelBlok>Referentie van het ontvangen bestand</FunctioneelBlok><Omschrijving>Naam van het bestand.Naam van het bestand waarop het antwoord betrekking heeft.</Omschrijving><ToegelatenDomein>De maximumlengte van deze zone is onbeperkt.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00106-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00299</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>PRECIES UUR VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationHour</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren, minuten, seconden en milliseconden.
+</Omschrijving><ToegelatenDomein>UU is een element van [00;23]
+MM is een element van [00;59]
+SS is een element van [00;59]
+SSS is een element van [000;999]
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>UU:MM:SS.SSS
+. UU zijn de uren
+. MM zijn de minuten
+. SS zijn de seconden
+. SSS zijn de milliseconden</Formaat><Anomalie><AnomalieCode>00299-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00299-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00299-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Referentie van het ontvangen bestand</FunctioneelBlok><Omschrijving>Het referentienummer.</Omschrijving><ToegelatenDomein>In dit bericht is de toegelaten lengte voor deze zone 20 tekens.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00222-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00107</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>RESULTAATCODE</Titel><XmlLabel>ResultCode</XmlLabel><FunctioneelBlok>Resultaat van de ontvangstverwerking</FunctioneelBlok><Omschrijving>Code die het algemeen resultaat van een verwerking aanduidt.</Omschrijving><ToegelatenDomein>0 = NOK
+1 = OK
+2 = Te valideren voorstel
+3 = Tijdelijk antwoord
+4 = TimeoutIn ACR de enige toegelaten waarden zijn 0 en 1</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00107-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00107-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00107-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00107-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00110</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STATUS VAN HET ATTEST</Titel><XmlLabel>AttestationStatus</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>0 = Origineel
+1 = Wijziging
+2 = Duplicaat
+3 = Annulatie
+4 = Herziening
+5 = Herinnering
+6 = Afsluiting
+7 = Wijziging van papieren origineel
+8 = KopieDe toegelaten waarde is "0".</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00110-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00297</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE VAN HET FORMULIER</Titel><XmlLabel>TypeForm</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Het type wijst de aard van het elektronisch formulier aan.
+</Omschrijving><ToegelatenDomein>RE = REQUEST - het formulier vraagt inlichtingen
+PA = PROVISIONAL ANSWER - het formulier is een tijdelijk antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+FA = FINAL ANSWER - het formulier is een definitief antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+LA = LIMITED ANSWER - het formulier is een beperkt antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+SU = SUBMISSION - het formulier deelt inlichtingen mee
+De toegelaten waarden zijn "FA" of "PA".</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00297-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00297-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00297-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+</List>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>00116</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>AANDUIDING ARBEIDSONGEVAL</Titel><XmlLabel>WorkAccidentIndicator</XmlLabel><FunctioneelBlok>Maandelijkse aangifte van arbeid in een programma ter activering van de werkloosheidsuitkering</FunctioneelBlok><Omschrijving>Code die aanduidt of de werknemer al dan niet een arbeidsongeval gehad heeft in de loop van de maand.</Omschrijving><ToegelatenDomein>0 = NEE
+1 = JA</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00116-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00116-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00116-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00116-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00047</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>AANTAL DAGEN PER WEEK VAN DE ARBEIDSREGELING</Titel><XmlLabel>WorkingDaysSystem</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>Als het een vaste wekelijkse arbeidsregeling betreft, dan gaat het om het aantal dagen per week van de werknemer. De arbeidsregeling wordt vast genoemd wanneer de werknemer een vast aantal dagen per week werkt. Het kan dan de waarden 1, 2, 3, 4, 5, 6 of 7 dagen/week aannemen.
+Als het een variabele wekelijkse arbeidsregeling betreft, dan gaat het om het gemiddeld aantal dagen per week tijdens dewelke de werknemer verondersteld wordt arbeid te verrichten, rekening houdend met de te werken dagen tijdens het geheel van de arbeidscyclus.</Omschrijving><ToegelatenDomein>[1; 700] voor alle werknemers, met uitzondering van de hierna vermelde. 
+0 indien de werknemer in volledige loopbaanonderbreking is of als het gaat om een statutaire werknemer tewerkgesteld in het kader van een maatregel tot reorganisatie van de arbeidstijd waarvoor hij geen enkele prestatie verricht (maatregel tot reorganisatie = 513, 516, 517, 542, 543, 545, 546 of 599).
+[0; 700] voor een werknemer die in de loop van de periode waarop de aangifte betrekking heeft, geen enkele prestatie heeft moeten leveren (verantwoording van de dagen = 7) of als het gaat om een statutaire werknemer tewerkgesteld in het kader van een maatregel tot reorganisatie van de arbeidstijd waarvoor hij prestaties mag verrichten (maatregel tot reorganisatie = 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 515, 531, 541 of 544).
+Indien het aantal dagen per week van de arbeidsregeling gelijk is aan nul, moet het gemiddeld aantal uren per week van de werknemer gelijk zijn aan nul, en omgekeerd.
+500 voor een onthaalouder (werknemerskengetal 497 (bijlage 2) en 761 (bijlage 28)) of een federaal / regionaal parlements- of regeringslid of een lokale mandataris die prestaties levert.
+Bij omzetting van de prestaties naar het stelsel van 5 dagen/week (alleen voor de kwartaalaangiften die dateren van voor het derde kwartaal 2004), moet het gelijk zijn aan 500.
+Aandacht : de dagen worden uitgedrukt in honderdsten van dagen.
+Voorbeelden  :
+- 5 dagen/week wordt uitgedrukt onder de vorm  : 500.
+- 2,66 dagen/week wordt uitgedrukt onder de vorm : 266.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00047-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00047-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00047-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00529</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>AANTAL UREN WAARVOOR LOON VERSCHULDIGD IS</Titel><XmlLabel>HadSalaryHoursNumber</XmlLabel><FunctioneelBlok>Werkuitkering</FunctioneelBlok><Omschrijving>Het aantal uren, gesitueerd in de betrokken kalendermaand, waarvoor een loon is verschuldigd.Het aantal uren moet 0 zijn bij een “Bedrag code exact loon” (zone 00124) gelijk aan 0.</Omschrijving><ToegelatenDomein>geheel getal en element van [0 ; 25000].
+Aandacht : de uren worden uitgedrukt in honderdsten van uren. 
+Voorbeeld : 110 uren 40 min. wordt uitgedrukt onder de vorm : 11066.Het aantal uren is gelijk aan 0 als het “Bedrag code exact loon” (zone 00124) = 0 EUR.</ToegelatenDomein><Referentie>AR-KB 19.12.2001 </Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00529-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00529-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00529-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00529-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00124</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>BEDRAG CODE EXACT LOON</Titel><XmlLabel>ExactSalaryAmount</XmlLabel><FunctioneelBlok>Exact loon</FunctioneelBlok><Omschrijving>Bedrag, uitgedrukt in cent, dat overeenstemt met een code exact loon.</Omschrijving><ToegelatenDomein>Positief geheel getal en element van [0; 99999999].
+Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>8</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00124-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00124-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00124-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00124-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00531</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>BEDRAG VAN DE WERKUITKERING</Titel><XmlLabel>WorkAllowanceAmount</XmlLabel><FunctioneelBlok>Werkuitkering</FunctioneelBlok><Omschrijving>De werkuitkering is een geactiveerde werkloosheidsuitkering die de werkgever in mindering kan brengen van het te betalen nettoloon. Het bedrag van de werkuitkering voor een beschouwde kalendermaand wordt verkregen door respectievelijk 125, 250, 350, 500, 600, 700, 750, 800, 900, 1000 of 1100 euro te vermenigvuldigen met een breuk waarvan: 
+
+- de noemer gelijk is aan de gemiddelde wekelijkse arbeidsduur van een voltijdse werknemer met inbegrip van de betaalde inhaalrust in het kader van arbeidsduurvermindering (= factor S of de gemiddelde wekelijkse arbeidsduur van de maatpersoon), vermenigvuldigd met 4.
+- de teller gelijk is aan het aantal uren waarvoor loon is verschuldigd tijdens de periode van de arbeidsovereenkomst gelegen in de beschouwde kalendermaand.
+
+De werkuitkering wordt beperkt tot respectievelijk 125, 250, 350, 500, 600, 700, 750, 800, 900, 1000 of 1100 euro per maand door de sector werkloosheid.
+
+De werkuitkering moet 0 zijn bij een “Bedrag code exact loon” (zone 00124) gelijk aan 0.
+
+De werkuitkering wordt berekend per arbeidsovereenkomst (een ononderbroken tewerkstelling mag als één tewerkstelling beschouwd worden, zie ook zonenr. 00044: Datum waarop de tewerkstelling begint), afgerond op 4 cijfers na de komma, en uitgedrukt als een geheel getal, in honderdsten van cent. 
+Uitzondering: In geval van arbeidsovereenkomsten van korte duur (minder dan 2 maanden), wordt het bedrag van de werkuitkering afgerond tot 2 cijfers na de komma (uitgedrukt in centen).</Omschrijving><ToegelatenDomein>De berekening van de werkuitkering wordt bepaald door de volgende formule :
+
+0 EUR als het “Bedrag code exact loon” (zone 00124) = 0 EUR, anders : 
+In geval van type 003: 500, 750, 1000 of 1100 (1) * xxx,xx (2) / xx,xx (S) * 4 = xxxxx,xxxx EUR (3)
+In geval van type 007: 900 of 1100 * xxx,xx (2) / xx,xx (S) * 4 = xxxxx,xxxx EUR (3)
+In geval van een type 010: 125, 250 of 500 * xxx,xx (2) / xx,xx (S) * 4 = xxxxx,xxxx EUR (3)
+In geval van een type 011: 125, 250 of 500 * xxx,xx (2) / xx,xx (S) * 4 = xxxxx,xxxx EUR (3)
+In geval van een type 012: 700 * xxx,xx (2) / xx,xx (S) * 4 = xxxxx,xxxx EUR (3)
+In geval van een type 020: 350 of 800 * xxx,xx (2) / xx,xx (S) * 4 = xxxxx,xxxx EUR (3)
+In geval van een type 021: 600 of 750 * xxx,xx (2) / xx,xx (S) * 4 = xxxxx,xxxx EUR (3)
+(1) In geval van gebruik van type 3 zijn de nieuwe verhoogde bedragen van de werkuitkering (750, 1000 en 1100 euro) niet van toepassing op werknemers die werken in het systeem van de dienstencheques. Voor werknemers die werken in het systeem van de dienstencheques kan de werkgever wel genieten van de gewone werkuitkering van 500 euro.
+(2) Komt overeen met het aantal uren waarvoor een loon verschuldigd is (zone 00529);
+(3) Het bedrag van de werkuitkering moet uitgedrukt worden in een geheel getal in honderdsten van centen volgens deze afrondingsregels:
+Als het 5e cijfer na de komma 5 is of meer, dan wordt het 4e cijfer afgerond naar de hogere eenheid; als het 5e cijfer na de komma kleiner is dan 5, dan wordt het weggelaten (bv. 343,47535 EUR wordt afgerond op 343,4754 EUR; 343,47334 wordt afgerond op 343,4733 EUR).</ToegelatenDomein><Referentie>AR-KB 19.12.2002</Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00531-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00531-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00531-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00531-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00531-045</AnomalieCode><AnomalieTitel>Te groot bedrag</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00056</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>BEZOLDIGINGSWIJZE</Titel><XmlLabel>RemunMethod</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>Code die aanduidt of de werknemer betaald wordt volgens een bijzondere bezoldigingswijze.
+</Omschrijving><ToegelatenDomein>1 = werknemer die een stuk- of taakloon ontvangt of die per taak (= prestatie) wordt betaald
+2 = werknemer die geheel of gedeeltelijk met een commissieloon wordt betaald
+3 = werknemer betaald via het systeem van dienstencheques
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00056-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00056-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00056-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00056-030</AnomalieCode><AnomalieTitel>Onverenigbaar met het werknemerskengetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00056-212</AnomalieCode><AnomalieTitel>Onverenigbaar met het werknemersstatuut</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00519</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>BRIEVENBUS</Titel><XmlLabel>PostBox</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Nummer van een brievenbus.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00519-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00519-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00032</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>BRIEVENBUS VAN DE WERKNEMER</Titel><XmlLabel>WorkerPostBox</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Nummer van een brievenbus.
+Busnummer in het adres van de werknemer.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00032-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00032-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00122</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>CODE EXACT LOON</Titel><XmlLabel>ExactSalaryCode</XmlLabel><FunctioneelBlok>Exact loon</FunctioneelBlok><Omschrijving>Code die overeenstemt met de bezoldigingscodes volgens de DmfA(PPL), en overige bezoldigingscodes voor de samenstelling van de exacte bezoldiging.
+Code die toelaat het type te bepalen van het loongegeven dat werd aangegeven voor de tewerkstelling van de betreffende werknemer.</Omschrijving><ToegelatenDomein> Zie Bijlage 7 - Codificatie van bezoldigingen.
+Voor een provinciaal of plaatselijke bestuur, zie Bijlage 32 - Codificatie van bezoldigingen PPO.
+Deze zone dient de waarde 32 (= nettoloon activeringsprogramma's) te bevatten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00122-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00122-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00122-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00122-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01095</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>CODE WERKSCHEMA</Titel><XmlLabel>WorkScheduleCode</XmlLabel><FunctioneelBlok>Kenmerken van de tewerkstelling</FunctioneelBlok><Omschrijving>Code die het werkschema beschrijft.</Omschrijving><ToegelatenDomein>01 = Vast identiek wekelijks werkschema (voltijds)
+02 = Vast werkschema, anders dan wekelijks (voltijds)
+03 = Deeltijdse werkhervatting in een periode van arbeidsongeschiktheid (voltijds)
+04 = Weekendoverbruggingsploeg (voltijds)
+10 = Vast uurrooster met elke week hetzelfde aantal vaste arbeidsdagen (deeltijds)
+11 = Vast uurrooster met wekelijks wisselende arbeidsdagen of wisselend aantal arbeidsdagen (deeltijds) 
+12 = Variabel uurrooster (deeltijds)
+13 = Vast maandloon met wisselende prestaties per maand of maanden zonder prestaties (deeltijds)
+14 = Deeltijdse werkhervatting in een periode van arbeidsongeschiktheid (deeltijds)
+98 = Tewerkstelling als leerkracht (alleen toegelaten voor de Duitse, Franse of Vlaamse Gemeenschap)
+99 = Geen van de andere codes</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>2</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00218</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>DATUM VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationDate</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>
+Datum waarop het formulier gecreëerd is.</Omschrijving><ToegelatenDomein>
+JJJJ is een element van [lopend jaar -1 ; lopend jaar] ;
+De datum mag zich niet in de toekomst bevinden.JJJJ ligt niet vóór 2003.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00218-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00218-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00218-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00530</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>DATUM WAAROP DE ONONDERBROKEN ACTIVA/SINE-TEWERKSTELLING BEGINT</Titel><XmlLabel>UninterruptedOcStartingDate</XmlLabel><FunctioneelBlok>Maandelijkse aangifte van arbeid in een programma ter activering van de werkloosheidsuitkering</FunctioneelBlok><Omschrijving>Begindatum van een ononderbroken tewerkstellingsperiode, in het kader van het Activaplan of een sociale inschakelingstewerkstelling (type 003, 004, 007, 010, 011, 012, 020 of 021).</Omschrijving><ToegelatenDomein>De begindatum van de ononderbroken Activa/SINE-tewerkstelling mag niet vóór 01-01-2002 gelegen zijn voor de types 003 en 007.
+De begindatum van de ononderbroken Activa/SINE-tewerkstelling mag niet vóór 01-07-2017 gelegen zijn voor de types 010, 011 en 012.
+De begindatum van de ononderbroken Activa/SINE-tewerkstelling mag niet vóór 01-10-2017 gelegen zijn voor de types 020 en 021.
+Deze datum moet gelegen zijn vóór of gelijk zijn aan de begindatum van de tewerkstelling van het blok "tewerkstelling".</ToegelatenDomein><Referentie>AR-KB 19.12.2001</Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien de identificatie van het risico "003", "004", "007", “010”, “011”, “012”, “020” of “021” is.</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00530-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00530-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00530-005</AnomalieCode><AnomalieTitel>Verboden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00530-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00530-099</AnomalieCode><AnomalieTitel>Onverenigbaarheid tewerkstelling</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00074</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>DATUM WAAROP DE REFERTEPERIODE BEGINT</Titel><XmlLabel>RefStartingDate</XmlLabel><FunctioneelBlok>Referteperiode</FunctioneelBlok><Omschrijving>Aanduiding van de begindatum van de referteperiode.</Omschrijving><ToegelatenDomein>JJJJ is ofwel het lopende jaar ofwel één van de jaren voorafgaand aan het lopende jaar met 2003 als ondergrens en 2099 als bovengrens.
+MM is ofwel de lopende maand ofwel één van de maanden voorafgaand aan de lopende maand.
+De begindatum van de referteperiode is verplicht gelijk aan de eerste kalenderdag van de maand.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00074-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00074-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00074-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00075</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>DATUM WAAROP DE REFERTEPERIODE EINDIGT</Titel><XmlLabel>RefEndingDate</XmlLabel><FunctioneelBlok>Referteperiode</FunctioneelBlok><Omschrijving>Aanduiding van de einddatum van de referteperiode.</Omschrijving><ToegelatenDomein>JJJJ is ofwel het lopende jaar ofwel één van de jaren voorafgaand aan het lopende jaar met 2003 als ondergrens en 2099 als bovengrens.
+MM is ofwel de lopende maand ofwel één van de maanden voorafgaand aan de lopende maand.
+De einddatum van de referteperiode is verplicht gelijk aan de laatste kalenderdag van de maand die is opgegeven in de begindatum van de referteperiode.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00075-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00075-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00075-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00075-098</AnomalieCode><AnomalieTitel>Onverenigbaarheid begindatum</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00044</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>DATUM WAAROP DE TEWERKSTELLING BEGINT</Titel><XmlLabel>OccupationStartingDate</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>
+Dit is de begindatum van de tewerkstelling waarop de aangifte betrekking heeft.
+Als de tewerkstelling van de werknemer niet veranderd is sedert zijn indiensttreding bij de werkgever, dan komt deze datum overeen met de datum van indiensttreding bij de werkgever.
+Als de tewerkstelling gewijzigd werd (voorbeeld : de werknemer is van een voltijds arbeidsregeling overgegaan naar een deeltijds arbeidsregeling, de prestatiebreuk werd gewijzigd, enz.), dan komt de begindatum van de tewerkstelling overeen met het begin van de periode waarop de nieuwe tewerkstellingsgegevens betrekking hebben.
+Wanneer de arbeidsovereenkomst beëindigd wordt en er verbrekingsvergoedingen worden betaald aan de werknemer, dan moet men de verschillende periodes aangeven die gedekt worden door een verbrekingsvergoeding en dit onder de vorm van een nieuwe tewerkstelling per periode. Het gaat dan om de begindatum van de periode die gedekt wordt door de verbrekingsvergoeding.Opmerking in geval van een uitzendkracht:
+In geval van aaneensluitende tewerkstellingen met dezelfde kenmerken maar bestaande uit meerdere uitzendovereenkomsten, volstaat het de begindatum van de eerste uitzendovereenkomst te geven en moet dus niet telkens de begin- en einddatum van elke uitzendovereenkomst worden gegeven.
+Indien de code 'Onderbreking van de tewerkstelling' (zone 00769) 3 of 4 is of wanneer de refertemaand na 2015 ligt en Q &lt; S, dan is dit ofwel de begindatum van deze tewerkstelling als deze in de refertemaand begint ofwel is dit de eerste dag van de refertemaand.</Omschrijving><ToegelatenDomein>
+Wanneer de tewerkstelling geen betrekking heeft op een door verbrekingsvergoedingen gedekte periode, dan moet het jaar een element zijn van [jaar van de aangifte - 100 ; jaar van de aangifte].
+
+Als de tewerkstelling bovendien betrekking heeft op een vrijwillig brandweerlid (werknemersstatuut = B), een vrijwillige ambulancier (werknemersstatuut = VA) of een vrijwilliger van de Civiele Bescherming (werknemersstatuut = VA), dan moet de datum gelegen zijn tussen de begin- en einddatum van het socialezekerheidskwartaal.
+
+Wanneer de tewerkstelling betrekking heeft op een periode gedekt door verbrekingsvergoedingen, dan moet de datum groter zijn dan of gelijk aan de begindatum van het socialezekerheidskwartaal.De datum waarop de tewerkstelling begint mag niet gelegen zijn ná de refertemaand.
+Er is geen recht op een werkuitkering tijdens een tewerkstelling gedekt door een verbrekingsvergoeding.
+Indien de code 'Onderbreking van de tewerkstelling' (zone 00769) 3 of 4 is of wanneer de refertemaand na 2015 ligt en Q &lt; S, dan moet de begindatum in de refertemaand liggen.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00044-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00044-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00044-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00044-097</AnomalieCode><AnomalieTitel>Onverenigbaarheid referteperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00044-278</AnomalieCode><AnomalieTitel>Begindatum tewerkstelling valt voor datum inschrijving werkgever</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00045</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>DATUM WAAROP DE TEWERKSTELLING EINDIGT</Titel><XmlLabel>OccupationEndingDate</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>
+Dit is de einddatum van de tewerkstelling waarop de aangifte betrekking heeft.
+Als de tewerkstelling van de werknemer niet veranderd is en blijft voortduren in het volgende kwartaal, dan wordt deze datum niet ingevuld.
+Als het einde van de tewerkstelling leidt tot een verbreking van de band van ondergeschiktheid tussen de werknemer en de werkgever, dan komt deze datum overeen met de datum van uitdiensttreding bij de werkgever.
+Wanneer de arbeidsovereenkomst beëindigd wordt en er verbrekingsvergoedingen worden betaald aan de werknemer, dan moet men de verschillende periodes aangeven die gedekt worden door een verbrekingsvergoeding en dit onder de vorm van een nieuwe tewerkstelling per periode. Het gaat dan om de einddatum van de periode die gedekt wordt door de verbrekingsvergoeding.Houd in het huidige scenario enkel rekening met de volgende elementen:
+Dit is de einddatum van de tewerkstelling waarop de aangifte betrekking heeft.
+Als het einde van de tewerkstelling leidt tot een verbreking van de band van ondergeschiktheid tussen de werknemer en de werkgever, dan komt deze datum overeen met de datum van uitdiensttreding bij de werkgever.
+Indien de code 'Onderbreking van de tewerkstelling' (zone 00769) 3 of 4 is of wanneer de refertemaand na 2015 ligt en Q &lt; S, is dit ofwel de einddatum van deze tewerkstelling als deze in de refertemaand eindigt ofwel is dit de laatste dag van de refertemaand.</Omschrijving><ToegelatenDomein>
+Wanneer de tewerkstelling geen betrekking heeft op een periode gedekt door verbrekingsvergoedingen, dan moet zij gelegen zijn tussen de begin- en einddata van het socialezekerheidskwartaal. 
+Wanneer de tewerkstelling betrekking heeft op een periode gedekt door verbrekingsvergoedingen, dan
+- moet het jaar gelijk zijn aan het jaar van de begindatum van de tewerkstelling.
+- moet de datum groter zijn dan of gelijk aan de begindatum van het socialezekerheidskwartaal.Houd in het huidige scenario enkel rekening met de volgende elementen:
+
+De datum moet groter zijn dan of gelijk aan de begindatum van de tewerkstelling.
+
+INDIEN de refertemaand na 2015 ligt moet de datum in de refertemaand liggen.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien de code 'Onderbreking van de tewerkstelling' (zone 00769) 3 of 4 is. 
+
+Verplicht indien de refertemaand na 2015 ligt en Q &lt; S.
+
+Verplicht indien  de refertemaand na 2015 ligt en de einddatum van de tewerkstelling gelegen is in de refertemaand.
+
+Verplicht indien  de refertemaand voor 2016 ligt en de einddatum van de tewerkstelling gekend is. Verboden in alle andere gevallen.</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode>00045-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00045-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00045-014</AnomalieCode><AnomalieTitel>Einddatum voorafgaand aan de begindatum</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00045-097</AnomalieCode><AnomalieTitel>Onverenigbaarheid referteperiode</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00028</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>DATUM WAAROP DE WERKNEMER GEBOREN IS</Titel><XmlLabel>WorkerBirthdate</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Geboortedatum van de natuurlijke persoon.</Omschrijving><ToegelatenDomein> JJJJ is een element van [jaar van de aangifte -120; jaar van de aangifte].</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat>JJJJ-MM-DD (geldige datum)
+JJJJ-00-00</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00770</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>DEELTIJDSE TEWERKSTELLING - OVERSCHRIJDING VAN DE GEMIDDELDE WEKELIJKSE ARBEIDSDUUR</Titel><XmlLabel>DeviationFromQ</XmlLabel><FunctioneelBlok>Kenmerken van de tewerkstelling</FunctioneelBlok><Omschrijving>Zone die toelaat aan te duiden of het gaat om een deeltijdse tewerkstelling waarvoor de effectieve arbeidsduur voor dit kwartaal niet overeenstemt met de gemiddelde wekelijkse arbeidsduur (factor Q) van de werknemer, bijvoorbeeld in geval van bijkomende uren of overuren waarvoor geen inhaalrust werd toegekend.</Omschrijving><ToegelatenDomein>0 = geen overschrijding van de gemiddelde wekelijkse arbeidsduur
+1 = overschrijding van de gemiddelde wekelijkse arbeidsduur</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00637</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>E-MAILADRES</Titel><XmlLabel>EmailAddress</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>60</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00637-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00637-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00678</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>FAXNUMMER</Titel><XmlLabel>FaxNbr</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00678-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00678-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00068</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>FREQUENTIE IN MAANDEN VAN DE BETALING VAN DE PREMIE</Titel><XmlLabel>BonusPaymentFrequency</XmlLabel><FunctioneelBlok>Exact loon</FunctioneelBlok><Omschrijving>Frequentie die maanden gebruikt als meeteenheid.
+Voorbeelden :
+Een keer per maand = 1
+Een keer per jaar = 12
+Om de twee jaar = 24
+Niet-periodiek = 0
+Dit gegeven is niet van toepassing voor de sector werkloosheid.</Omschrijving><ToegelatenDomein>
+Geheel getal en element van [0; 99].</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00068-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00068-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00068-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00522</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>GEMEENTE</Titel><XmlLabel>City</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00522-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00522-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00522-160</AnomalieCode><AnomalieTitel>Onverenigbaarheid postcode-gemeente</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00522-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00168</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>GEMEENTE - GEBOORTEPLAATS VAN DE WERKNEMER</Titel><XmlLabel>WorkerBirthplace</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+Naam van de gemeente waar de natuurlijke persoon geboren is.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00034</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>GEMEENTE VAN DE WERKNEMER</Titel><XmlLabel>WorkerCity</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+Naam van de gemeente waar de werknemer gedomicilieerd is.</Omschrijving><ToegelatenDomein>
+Indien het gaat om een Belgische gemeente, moet de waarde verwijzen naar één van de namen die in bijlage 23 overeenstemmen met de in zone 00033 (postcode van de werknemer) opgegeven postcode.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00034-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00034-160</AnomalieCode><AnomalieTitel>Onverenigbaarheid postcode-gemeente</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00034-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00049</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>GEMIDDELD AANTAL UREN PER WEEK VAN DE MAATPERSOON</Titel><XmlLabel>RefMeanWorkingHours</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>Gemiddeld aantal uren per week (uitgedrukt in honderdsten van uren) tijdens dewelke de maatpersoon verondersteld wordt arbeid te verrichten.
+Het gaat om het aantal uren per week van een persoon die voltijds tewerkgesteld is in dezelfde onderneming, of, bij gebrek hieraan, in dezelfde activiteitstak, in een functie analoog.
+Het gemiddeld aantal uren per week van de werknemer gedeeld door het gemiddeld aantal uren per week van de maatpersoon bepaalt de prestatiebreuk van de werknemer.</Omschrijving><ToegelatenDomein>[1;4800]voor alle werknemers, met uitzondering van de hierna vermelde.
+[1;5000] voor een thuiswerker - onthaalouder - Vlaamse Gemeenschap (werknemersstatuut = D1).
+[1;6000] voor een geneesheer-specialist in opleiding vanaf 2022/4 (werkgeverscategorien 072, 272, 372 of 772) of voor een thuiswerker - onthaalouder - Franse Gemeenschap (werknemersstatuut = D2).
+3800 voor een federaal / regionaal parlements- of regeringslid of een lokale mandataris.
+Aandacht : De uren worden uitgedrukt in honderdsten van uren.
+Voorbeelden: 
+. 38 uren 20 min. wordt uitgedrukt onder de vorm : 3833
+. 38 uren wordt uitgedrukt onder de vorm : 3800
+Voor een onthaalouder moet het gemiddelde aantal uren per week van de maatpersoon altijd gelijk zijn aan 38 uur per week (3800)</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00049-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00049-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00049-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00049-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00048</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>GEMIDDELD AANTAL UREN PER WEEK VAN DE WERKNEMER</Titel><XmlLabel>MeanWorkingHours</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>Gemiddeld aantal uren per week (uitgedrukt in honderdsten van uren) tijdens dewelke de werknemer geacht wordt arbeid uit te voeren overeenkomstig zijn arbeidsovereenkomst, een eventuele schorsing van de overeenkomst buiten beschouwing gelaten.
+Het gemiddeld aantal uren per week van de werknemer gedeeld door het gemiddeld aantal uren per week van de maatpersoon bepaalt de prestatiebreuk van de werknemer.
+Onder maatpersoon verstaan we de persoon die voltijds tewerkgesteld is in dezelfde onderneming, of, bij gebrek hieraan, in dezelfde activiteitstak, in een functie analoog aan die van de werknemer.Voor een ononderbroken deeltijdse tewerkstelling is dit de gemiddelde Q in de refertemaand van de tewerkstellingen die hiervan deel uitmaken.
+Deze Q wordt berekend volgens de formule :
+[(Q x cdo) + (Q' x cdo') + …]
+------------------------------------------------
+cdo + cdo' + …
+
+-   waarbij cdo = Calender Days Occupation : kalenderdagen gelegen tijdens de tewerkstelling gedurende de betreffende refertemaand. 
+- Tewerkstellingsperiodes waar Q = 0 komen niet in aanmerking voor een ononderbroken deeltijdse tewerkstelling en moeten apart aangegeven worden. 
+Het resultaat van de berekening wordt afgekapt na twee decimalen.</Omschrijving><ToegelatenDomein>[1;4800] voor alle werknemers, met uitzondering van de hierna vermelde. 
+0 indien de werknemer in volledige loopbaanonderbreking is of als het gaat om een statutaire werknemer tewerkgesteld in het kader van een maatregel tot reorganisatie van de arbeidstijd waarvoor hij geen enkele prestatie verricht (maatregel tot reorganisatie = 513, 516, 517, 542, 543, 545, 546 of 599).
+[0;4800] voor een werknemer die in de loop van de periode waarop de aangifte betrekking heeft, geen enkele prestatie heeft moeten leveren (verantwoording van de dagen = 7) of als het gaat om een statutaire werknemer tewerkgesteld in het kader van een maatregel tot reorganisatie van de arbeidstijd waarvoor hij prestaties mag verrichten (maatregel tot reorganisatie = 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 515, 531, 541 of 544).
+[0;5000] voor een thuiswerker - onthaalouder - Vlaamse Gemeenschap (werknemersstatuut = D1).
+[0;6000] voor een geneesheer-specialist in opleiding vanaf 2022/4 (werkgeverscategorien 072, 272, 372 of 772) of voor een thuiswerker - onthaalouder - Franse Gemeenschap (werknemersstatuut = D2).
+3800 voor een federaal / regionaal parlements- of regeringslid of een lokale mandataris die prestaties levert.
+Indien het aantal dagen per week van de arbeidsregeling gelijk is aan nul, moet het gemiddeld aantal uren per week van de werknemer gelijk zijn aan nul, en omgekeerd.
+Aandacht : De uren worden uitgedrukt in honderdsten van uren.
+Voorbeelden : 
+. 38 uren 20 min. wordt uitgedrukt onder de vorm : 3833
+. 38 uren wordt uitgedrukt onder de vorm : 3800Het gemiddeld aantal uren per week van de werknemer (=Q, zone 00048) moet kleiner dan of gelijk aan het gemiddeld aantal uren per week van de maatpersoon (=S, zone 00049) zijn, behalve wanneer de code 'Onderbreking van de tewerkstelling' (zone 00769) gelijk is aan 3 of 4. 
+Wanneer de code 'Onderbreking van de tewerkstelling' (zone 00769) gelijk is aan 3 of 4, mag Q niet 0 zijn.
+Wanneer de code 'Onderbreking van de tewerkstelling' (zone 00769) gelijk is aan 4, moet Q groter dan of gelijk aan S zijn.
+Voor een risico “012” (Wallonië – Inschakelingscontract) (zone 00430), moet Q gelijk zijn aan S.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00048-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00048-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00048-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00048-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00029</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>GESLACHT VAN DE WERKNEMER</Titel><XmlLabel>WorkerSex</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Geslacht van een natuurlijk persoon.
+</Omschrijving><ToegelatenDomein>1 = man
+2 = vrouw
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00636</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>GSM-NUMMER</Titel><XmlLabel>GSMNbr</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00636-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00636-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00298</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>HERKOMST VAN DE REFERENTIE</Titel><XmlLabel>ReferenceOrigin</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Waarde die de authentieke bron van een referentienummer aanduidt.
+De herkomst duidt aan wie de referentie gecreëerd heeft.</Omschrijving><ToegelatenDomein>1 = het referentienummer is toegekend door een aangever of aanvrager (een bedrijf, een sociaal secretariaat, een softwareontwikkelaar, ...)
+2 = het ticketnummer toegekend door de sociale zekerheid, dat een aangifte, een aanvraag of een antwoord op eenduidige wijze identificeert
+3 = het referentienummer is toegekend door een sector van de sociale zekerheid
+4 = het referentienummer is toegekend door de dienst ePost
+5 = het referentienummer is toegekend door de KSZ
+6 = het referentienummer is toegekend door het archiveringssysteem (DOC-ID)
+7 = het referentienummer is door de DSP aan een gearchiveerd document toegekend (DSP-ID)
+De toegelaten waarden zijn: '1' en '2'.
+De waarde '2' is niet toegelaten indien het type van de referentie (= zone 00221) de waarde '1' heeft.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00298-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00298-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00296</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>IDENTIFICATIE VAN HET FORMULIER</Titel><XmlLabel>Identification</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Zone die de inhoud van een formulier beschrijft.
+</Omschrijving><ToegelatenDomein>Zie bijlage 11 - Identificatie van het formulier.
+Deze zone dient de waarde "WECH008" (= Werkloosheid scenario 8  - Maandelijkse Aangifte van Arbeid in een Programma ter Activering van de Werkloosheidsuitkering).</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00296-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00296-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00296-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00430</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>IDENTIFICATIE VAN HET RISICO</Titel><XmlLabel>IdentificationOfRisk</XmlLabel><FunctioneelBlok>Identificatie risico</FunctioneelBlok><Omschrijving>Identificeert het risico.
+</Omschrijving><ToegelatenDomein>Zie bijlage 12  - Identificatie van het risico.
+Deze zone dient één van de volgende waarden te bevatten :  
+"001" (= Aangifte voor de berekening van de integratie-uitkering toegekend aan werknemers tewerkgesteld in een doorstromingsprogramma).
+"003" (= Aangifte voor de berekening van de werkuitkering - Activa)
+"004" (= Aangifte voor de berekening van de SINE-uitkering toegekend aan werknemers tewerkgesteld in een sociale inschakelingstewerkstelling).
+"007" (= Aangifte voor de berekening van de werkuitkering - Activa-veiligheids- en preventiepersoneel).
+"008" (= Aangifte voor de berekening van de werkuitkering - Activa-START).
+ "010" (= Aangifte voor de berekening van de werkuitkering - Wallonië - Langdurig werkzoekenden).
+"011" (= Aangifte voor de berekening van de werkuitkering - Wallonië - Jonge werkzoekenden).
+"012" (= Aangifte voor de berekening van de werkuitkering - Wallonië – Inschakelingscontract).
+"020" (= Aangifte voor de berekening van de werkuitkering - Brussel - Langdurig werkzoekenden).
+"021" (= Aangifte voor de berekening van de werkuitkering - Brussel - Verminderd arbeidsgeschikten).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00430-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00430-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00430-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00430-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein>De waarde 0 is niet toegelaten</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00024-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00024-004</AnomalieCode><AnomalieTitel>Ongeldig controlegetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00027</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>INITIAAL VAN DE TWEEDE VOORNAAM VAN DE WERKNEMER</Titel><XmlLabel>WorkerInitial</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Initiaal van de tweede voornaam van een natuurlijk persoon.
+</Omschrijving><ToegelatenDomein>Een letter uit het alfabet.
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>1</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00523</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>LANDCODE</Titel><XmlLabel>Country</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00523-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00523-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00523-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00523-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00169</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>LANDCODE VAN DE GEBOORTEPLAATS VAN DE WERKNEMER</Titel><XmlLabel>WorkerBirthplaceCountry</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+Code om het land van de geboorteplaats van de natuurlijke persoon op een unieke wijze te identificeren.</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00035</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>LANDCODE VAN DE WERKNEMER</Titel><XmlLabel>WorkerCountry</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+Code waarmee men het land kan identificeren waar de werknemer gedomicilieerd is.</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00035-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00035-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00035-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00726</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>NAAM</Titel><XmlLabel>Name</XmlLabel><FunctioneelBlok>Gegevens van de contactpersoon</FunctioneelBlok><Omschrijving>Familienaam van een natuurlijk persoon.
+Men moet de naam vermelden die op het paspoort of de identiteitskaart staat.
+Voor vrouwen van Belgische nationaliteit gaat het om de meisjesnaam.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>48</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00726-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00726-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00025</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>NAAM VAN DE WERKNEMER</Titel><XmlLabel>WorkerName</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Familienaam van een natuurlijk persoon.
+Men moet de naam vermelden die op het paspoort of de identiteitskaart staat.
+Voor vrouwen van Belgische nationaliteit gaat het om de meisjesnaam.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>48</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00119</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>NATIONALITEIT VAN DE WERKNEMER</Titel><XmlLabel>Nationality</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Code die de nationaliteit van de werknemer aanduidt.</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00012</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>NOTIE CURATELE</Titel><XmlLabel>Trusteeship</XmlLabel><FunctioneelBlok>Link met aangifte werkgever</FunctioneelBlok><Omschrijving>Code die aanduidt of de aangifte al dan niet betrekking heeft op een periode onder curatele.</Omschrijving><ToegelatenDomein>0 = periode niet onder curatele
+1 = periode onder curatele</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00012-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00012-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00012-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00012-022</AnomalieCode><AnomalieTitel>Onverenigbaar met het repertorium</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00012-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00054</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>NOTIE GEPENSIONEERD</Titel><XmlLabel>Retired</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>Code die aanduidt dat de persoon een beroepsactiviteit blijft uitoefenen hoewel hij/zij gepensioneerd is.</Omschrijving><ToegelatenDomein>0 = niet gepensioneerd
+1 = gepensioneerd</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00054-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00054-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00054-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00167</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>NUMMER VAN DE SOCIALE IDENTITEITSKAART</Titel><XmlLabel>SIS</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Nummer van de sociale identiteitskaart van een natuurlijk persoon (SIS).
+</Omschrijving><ToegelatenDomein>Getal van 10 cijfers.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00518</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>NUMMER VAN HET ADRES</Titel><XmlLabel>HouseNbr</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00518-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00518-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00518-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00031</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>NUMMER VAN HET ADRES VAN DE WERKNEMER</Titel><XmlLabel>WorkerHouseNbr</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>
+Nummer van de woonplaats van de werknemer.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00031-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00031-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00046</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>NUMMER VAN PARITAIR COMITÉ</Titel><XmlLabel>JointCommissionNbr</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>Nummer van het paritair comité waaronder de werknemer valt in het kader van de aangegeven tewerkstelling of op het moment waarop de aanvullende vergoeding voor het eerst werd toegekend.
+</Omschrijving><ToegelatenDomein>- CCC : De paritaire comités ; reeks van 3 cijfers, links uitgelijnd. 
+ - CCC.CC : De paritaire subcomités ; reeks van 3 cijfers gevolgd door een punt en 2 cijfers, links uitgelijnd.
+- CCC.CC.CC : De paritaire sub-subcomités ;  reeks van 3 cijfers gevolgd door een punt en 2 cijfers nogmaals gevolgd door een punt en 2 cijfers.
+- Als de werknemer onder geen enkel paritair comité of subcomité of sub-subcomité valt, dan is de in te vullen waarde 999.
+Als de aangifte een provinciaal of plaatselijk bestuur betreft, dan moet het paritair comité gelijk zijn aan 999.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>CCC of CCC.CC of CCC.CC.CC</Formaat><Anomalie><AnomalieCode>00046-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-030</AnomalieCode><AnomalieTitel>Onverenigbaar met het werknemerskengetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-314</AnomalieCode><AnomalieTitel>Paritaire comité 999 niet toegelaten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-035</AnomalieCode><AnomalieTitel>Onverenigbaarheid kwartaal - werkgeverscategorie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-085</AnomalieCode><AnomalieTitel>Onverenigbaar met de werkgeverscategorie en het werknemerskengetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00046-495</AnomalieCode><AnomalieTitel>Onverenigbaar met de sector</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00769</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>ONDERBREKING VAN DE TEWERKSTELLING</Titel><XmlLabel>OccupationInterruption</XmlLabel><FunctioneelBlok>Kenmerken van de tewerkstelling</FunctioneelBlok><Omschrijving>Zone die toelaat aan te duiden of de tewerkstelling onderbroken is geweest en de soort tewerkstelling aan te duiden.Deze zone heeft betrekking op de tewerkstelling in de refertemaand. </Omschrijving><ToegelatenDomein>0 = geen onderbreking van de tewerkstelling in de loop van het kwartaal
+1 = onderbreking van de tewerkstelling in de loop van het kwartaal
+2 = tewerkstelling met dezelfde factor Q voor de volledige maand
+3 = ononderbroken deeltijdse tewerkstelling in de refertemaand (wijzigende factor Q)
+4 = deeltijdse tewerkstelling die in de refertemaand tijdelijk minstens voltijds is
+5 = tewerkstelling (voltijds of deeltijds) waarvan de factor Q identiek is en het "aantal arbeidsdagen per week" en/of de "code werkschema" niet identiek zijn in de refertemaandToegelaten waarden: 2, 3 en 4.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00769-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00769-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00769-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00769-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Link met aangifte werkgever</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00014-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-004</AnomalieCode><AnomalieTitel>Ongeldig controlegetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-155</AnomalieCode><AnomalieTitel>Geen of vervallen mandaat</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-051</AnomalieCode><AnomalieTitel>Niet aanwezig in het repertorium voor het aangiftekwartaal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-022</AnomalieCode><AnomalieTitel>Onverenigbaar met het repertorium</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-235</AnomalieCode><AnomalieTitel>Niet opgenomen in het repertorium</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Link met werkgeversaangifte PPL</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00014-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-004</AnomalieCode><AnomalieTitel>Ongeldig controlegetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-155</AnomalieCode><AnomalieTitel>Geen of vervallen mandaat</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-051</AnomalieCode><AnomalieTitel>Niet aanwezig in het repertorium voor het aangiftekwartaal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-022</AnomalieCode><AnomalieTitel>Onverenigbaar met het repertorium</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00014-235</AnomalieCode><AnomalieTitel>Niet opgenomen in het repertorium</AnomalieTitel><AnomalieErnst>NP</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00520</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>POSTCODE</Titel><XmlLabel>ZIPCode</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Postnummer van een gemeente.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00520-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00520-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00520-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00520-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00033</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>POSTCODE VAN DE WERKNEMER</Titel><XmlLabel>WorkerZIPCode</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Postnummer van een gemeente.
+Postnummer van het adres waar de werknemer gedomicilieerd is.
+Voor de in België gedomicilieerde werknemers moet men de officiële lijst met Belgische postcodenummers gebruiken.</Omschrijving><ToegelatenDomein>Als het om een Belgische postcode gaat, moet de waarde verwijzen naar één van de codes vermeld in bijlage 23</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00033-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00033-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00033-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00109</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>PPL NUMMER</Titel><XmlLabel>NOSSLPARegistrationNbr</XmlLabel><FunctioneelBlok>Link met werkgeversaangifte PPL</FunctioneelBlok><Omschrijving> Elke lokale of provinciale overheid die personeel in dienst heeft, moet ingeschreven zijn bij de RSZ.</Omschrijving><ToegelatenDomein>Geheel getal en element van [00000197;99999926]. Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het PPL nummer op de waarde nul gezet worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>8</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNCC
+· NNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00109-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-004</AnomalieCode><AnomalieTitel>Ongeldig controlegetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-155</AnomalieCode><AnomalieTitel>Geen of vervallen mandaat</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00109-051</AnomalieCode><AnomalieTitel>Niet aanwezig in het repertorium voor het aangiftekwartaal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00299</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>PRECIES UUR VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationHour</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren, minuten, seconden en milliseconden.
+</Omschrijving><ToegelatenDomein>UU is een element van [00;23]
+MM is een element van [00;59]
+SS is een element van [00;59]
+SSS is een element van [000;999]
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>UU:MM:SS.SSS
+. UU zijn de uren
+. MM zijn de minuten
+. SS zijn de seconden
+. SSS zijn de milliseconden</Formaat><Anomalie><AnomalieCode>00299-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00299-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00615</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>REFERENTIE GEBRUIKER - NATUURLIJKE PERSOON</Titel><XmlLabel>NaturalPersonUserReference</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Referentie.
+Referentie van de natuurlijke persoon gebruikt door de werkgever of een erkend sociaal secretariaat.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>200</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00615-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00615-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Het referentienummer.</Omschrijving><ToegelatenDomein>In dit bericht is de toegelaten lengte voor deze zone 20 tekens.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00222-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-004</AnomalieCode><AnomalieTitel>Ongeldig controlegetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-207</AnomalieCode><AnomalieTitel>Onverenigbaar met het RSZ/PPL nummer en/of met het INSZ</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-238</AnomalieCode><AnomalieTitel>Stemt niet overeen met een aanvaard formulier voor deze sector</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-023</AnomalieCode><AnomalieTitel>Onverenigbaarheid met het risico</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-234</AnomalieCode><AnomalieTitel>Formulier waarnaar verwezen wordt niet gevonden</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-181</AnomalieCode><AnomalieTitel>Wijziging of annulatie niet toegelaten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-180</AnomalieCode><AnomalieTitel>De wijziging of annulatie heeft geen betrekking op de laatste situatie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00222-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00011</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Link met aangifte werkgever</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNCC
+· NNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode>00011-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-004</AnomalieCode><AnomalieTitel>Ongeldig controlegetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-155</AnomalieCode><AnomalieTitel>Geen of vervallen mandaat</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00011-051</AnomalieCode><AnomalieTitel>Niet aanwezig in het repertorium voor het aangiftekwartaal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00110</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>STATUS VAN HET ATTEST</Titel><XmlLabel>AttestationStatus</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>0 = Origineel
+1 = Wijziging
+2 = Duplicaat
+3 = Annulatie
+4 = Herziening
+5 = Herinnering
+6 = Afsluiting
+7 = Wijziging van papieren origineel
+8 = KopieDe toegelaten waarden zijn "0", "1", "3", "7".</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00110-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00110-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00053</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>STATUUT VAN DE WERKNEMER</Titel><XmlLabel>WorkerStatus</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>Code die aanduidt of de tewerkstelling gebeurt in het kader van een bijzonder contract.
+</Omschrijving><ToegelatenDomein>Zie bijlage 21 - Lijst codes werknemersstatuut.
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>2</Lengte><Aanwezigheid>Verplicht indien de tewerkstelling van de werknemer gebeurt in het kader van een bijzonder contract vermeld in bijlage 21.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00053-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-034</AnomalieCode><AnomalieTitel>Onverenigbaar met kwartaal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-030</AnomalieCode><AnomalieTitel>Onverenigbaar met het werknemerskengetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-025</AnomalieCode><AnomalieTitel>Onverenigbaar met werkgeverscategorie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-020</AnomalieCode><AnomalieTitel>Onverenigbaar met het paritair comité</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00053-379</AnomalieCode><AnomalieTitel>Waarde niet toegelaten voor deze werkgever</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00517</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>STRAAT</Titel><XmlLabel>Street</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Openbare weg.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>42</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00517-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00517-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00517-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00030</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>STRAAT VAN DE WERKNEMER</Titel><XmlLabel>WorkerStreet</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Openbare weg.
+Openbare weg waar zich de woonplaats van de werknemer bevindt.
+De notie " verdieping " kan vermeld worden in deze zone als dat nodig is.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>35</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00030-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00030-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00156</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>TAALKEUZE PDF</Titel><XmlLabel>LanguageCodePdf</XmlLabel><FunctioneelBlok>Informatie van de aangifte</FunctioneelBlok><Omschrijving>De keuze van de taal van het afdrukbare document (pdf).</Omschrijving><ToegelatenDomein>1 = Nederlands
+2 = Frans
+3 = Duits</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00156-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00156-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00156-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00156-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00677</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>TELEFOONNUMMER</Titel><XmlLabel>PhoneNbr</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00677-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00677-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00050</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>TYPE ARBEIDSOVEREENKOMST</Titel><XmlLabel>ContractType</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>Code die aanduidt of de tewerkstelling plaatsvindt in het kader van een voltijds of een deeltijds contract.
+</Omschrijving><ToegelatenDomein>0 = voltijds
+1 = deeltijds
+1 indien de aangifte een onthaalouder betreft (werknemerskengetal 497 (bijlage 2) en 761 (bijlage 28)), tot en met 2/2005.
+0 indien de aangifte betrekking heeft op een lokale mandataris.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00050-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00050-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00050-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00050-030</AnomalieCode><AnomalieTitel>Onverenigbaar met het werknemerskengetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00055</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>TYPE LEERLING</Titel><XmlLabel>Apprenticeship</XmlLabel><FunctioneelBlok>Link met tewerkstelling werknemerslijn</FunctioneelBlok><Omschrijving>Code die toelaat een leerling te onderscheiden.
+</Omschrijving><ToegelatenDomein>Vanaf het kwartaal 2019/4:
+1 = leerling - alternerend leren 
+
+Vóór het kwartaal 2019/4:
+1 = erkende leerling van de middenstand
+2 = leerling met industrieel leercontract
+3 = leerling in opleiding tot ondernemingshoofd 
+4 = leerling met een overeenkomst voor socioprofessionele inpassing, erkend door de gemeenschappen en gewesten
+5 = stagiair met een beroepsinlevingsovereenkomst
+Vanaf het kwartaal 2019/4, alleen de waarde 1 is toegelaten in een ASR-aangifte.
+
+Vóór het kwartaal 2019/4:
+De enige toegelaten waarden in het kader van een ASR-aangifte van een provinciaal of plaatselijk bestuur zijn:
+- 3, 4
+- 5 (toegelaten vanaf het kwartaal 2006/1)
+
+Alle waarden zijn toegelaten in het kader van een andere ASR-aangifte.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00055-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00055-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00055-030</AnomalieCode><AnomalieTitel>Onverenigbaar met het werknemerskengetal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00055-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00221</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>TYPE VAN DE REFERENTIE</Titel><XmlLabel>ReferenceType</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Duidt aan naar waar de referentie (00222 Referentienummer) verwijst: naar deze aangifte, naar een aangifte die verwant is met deze aangifte of naar een verzameling aangiften (= een dossier) waar deze aangifte toe behoort, op deze aanvraag, op dit formulier.</Omschrijving><ToegelatenDomein>0 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat niet dezelfde identificatie heeft (zie bijlagen 11/302), dat verband houdt met het huidige formulier
+1 = de referentie verwijst naar dit formulier
+2 = de referentie is een dossiernummer en verwijst naar het dossier (= verzameling van aangiften) waartoe deze aangifte behoort of waartoe dit formulier behoort
+3 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat dezelfde identificatie heeft (zie bijlagen 11/302) en dat verband houdt met dit formulier, bijvoorbeeld: de referentie heeft betrekking op de aangifte die geannuleerd moet worden door deze aangifte, of op de aangifte die vervangen moet worden door deze aangifte, of op de aangifte die gewijzigd moet worden, of op de aangifte die aan de oorsprong ligt van dit formulier...
+4 = de referentie verwijst naar een aangifte in een ander scenario die verwant is met deze aangifte
+5 = de referentie verwijst naar een aanvraag
+6 = de referentie verwijst naar een geweigerde aangifte
+7 = de referentie verwijst naar de werkgever die in deze aangifte wordt vermeld
+8 = de referentie verwijst naar de werknemer die in deze aangifte wordt vermeld
+9 = de referentie is een gestructureerde mededeling die moet worden gebruikt in het kader van een betaling en verwijst naar dit formulierDeze zone dient de waarde "1" ou "3" te bevatten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00221-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00221-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00221-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00221-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00297</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>TYPE VAN HET FORMULIER</Titel><XmlLabel>TypeForm</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Het type wijst de aard van het elektronisch formulier aan.
+</Omschrijving><ToegelatenDomein>RE = REQUEST - het formulier vraagt inlichtingen
+PA = PROVISIONAL ANSWER - het formulier is een tijdelijk antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+FA = FINAL ANSWER - het formulier is een definitief antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+LA = LIMITED ANSWER - het formulier is een beperkt antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+SU = SUBMISSION - het formulier deelt inlichtingen mee
+Deze zone dient de waarde "SU" te bevatten.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00297-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00297-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00297-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00023</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>VOLGNUMMER NATUURLIJKE PERSOON</Titel><XmlLabel>NaturalPersonSequenceNbr</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Volgnummer van de natuurlijke personen binnen een aangifte.
+Dit nummer moet uniek zijn binnen een aangifte.</Omschrijving><ToegelatenDomein>Positief geheel getal en element van [1;9999999].</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00023-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00023-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00023-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00023-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00727</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>VOORNAAM</Titel><XmlLabel>FirstName</XmlLabel><FunctioneelBlok>Gegevens van de contactpersoon</FunctioneelBlok><Omschrijving>Eerste voornaam van een natuurlijk persoon.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>24</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00727-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00727-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00026</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>VOORNAAM VAN DE WERKNEMER</Titel><XmlLabel>WorkerFirstName</XmlLabel><FunctioneelBlok>Natuurlijke persoon</FunctioneelBlok><Omschrijving>Eerste voornaam van een natuurlijk persoon.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>24</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00036</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>WERKGEVERSCATEGORIE</Titel><XmlLabel>EmployerClass</XmlLabel><FunctioneelBlok>Link met werknemerslijn</FunctioneelBlok><Omschrijving>Het categoriekengetal laat toe een onderscheid te maken tussen de werkgevers naargelang hun verplichtingen in functie van de bijzondere kenmerken die eigen zijn aan de uitgeoefende activiteit. Het wordt toegekend door de RSZ.
+Voor een provinciaal of plaatselijk bestuur bepaalt deze categorie-aanduiding de bijdrageverplichtingen van de besturen in functie van de vakantieregeling die zij op hun contractuele personeelsleden toepassen of van de pensioenregeling waarbij hun vastbenoemde personeelsleden aangesloten zijn.</Omschrijving><ToegelatenDomein>Getal van 3 cijfers toegekend door de RSZ.
+In de ASR zijn geen derde betalers (= werkgeverscategorieën 099, 199, 299, 699, 898), geen werkgeverscategorieën 027 (FEDRIS - arbeidsongevallen)  en 028 (FEDRIS -  beroepsziekten), geen reders  (= werkgeverscategorieën 105, 205, 305 et 405) toegelaten.
+Voor een provinciaal of plaatselijk bestuur, zie bijlage 29 - Lijst van de werkgeverscategorieën PPO ; alleen de categorieën waarvoor de aanwezigheidscode gelijk is aan 6.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00036-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00036-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00036-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00036-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00036-034</AnomalieCode><AnomalieTitel>Onverenigbaar met kwartaal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00036-051</AnomalieCode><AnomalieTitel>Niet aanwezig in het repertorium voor het aangiftekwartaal</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00037</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>WERKNEMERSKENGETAL</Titel><XmlLabel>WorkerCode</XmlLabel><FunctioneelBlok>Link met werknemerslijn</FunctioneelBlok><Omschrijving>Deze code laat toe het type werknemer te bepalen waarvoor een specifieke bijdrage vereist is (gewone bijdrage, Fedris bijdrage, bijzondere bijdrage bruggepensioneerde, bijzondere bijdrage ontslagen statutair personeel, bijzondere bijdrage student of bijzondere bijdrage aanvullende vergoedingen).</Omschrijving><ToegelatenDomein>Zie bijlage 2 - Lijst der werknemerskengetallen waarvoor de bijdragen van toepassing zijn ; alleen de werknemerskengetallen waarvoor de aanwezigheid gelijk is aan 1 of 3.
+Voor een provinciaal of plaatselijk bestuur, zie bijlage 28 - Lijst der werknemerskengetallen waarvoor de bijdragen van toepassing zijn PPO; alleen de werknemerskengetallen waarvoor de aanwezigheid gelijk is aan 1 of 3.In de ASR zijn geen studenten (= werknemerskengetallen 840 en 841 (bijlage 2) en 701 (bijlage 28)), geen bruggepensioneerden (= werknemerskengetal 879 (bijlage 2) en 771 (bijlage 28)), geen statutaire werknemers met standplaats in het buitenland (= werknemerskengetal 676 (bijlage 2)), geen parlements- of regeringsleden (= werknemerskengetallen 406 en 407 (bijlage 2)), geen stagiairs (= werknemerskengetallen 848 en 849 (bijlage 2)) toegelaten.
+
+In de scenario's Werkloosheid zijn bovendien geen onthaalouders (= werknemerskengetal 497 (bijlage 2) en werknemerskengetal 761 (bijlage 28)) en geen ontslagen werknemers waarvoor er een bijdrage verschuldigd is op de aanvullende vergoedingen (= werknemerskengetal 883 (bijlage 2)) toegelaten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00037-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00037-002</AnomalieCode><AnomalieTitel>Niet numeriek</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00037-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00037-008</AnomalieCode><AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00037-035</AnomalieCode><AnomalieTitel>Onverenigbaarheid kwartaal - werkgeverscategorie</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00037-060</AnomalieCode><AnomalieTitel>Werknemer te oud</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00037-077</AnomalieCode><AnomalieTitel>Werknemer voldoet niet aan de leeftijdsvereisten</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00126</Code><Versie>2023/2</Versie><Publicatiedatum></Publicatiedatum><Titel>ZONE VRIJE TEKST</Titel><XmlLabel>CommentOfDeclaration</XmlLabel><FunctioneelBlok>Commentaar bij de aangifte</FunctioneelBlok><Omschrijving>Deze zone laat toe alle informatie toe te voegen die noodzakelijk is voor dit formulier.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>200</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode>00126-001</AnomalieCode><AnomalieTitel>Niet aanwezig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00126-003</AnomalieCode><AnomalieTitel>Ongeldig</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie><Anomalie><AnomalieCode>00126-093</AnomalieCode><AnomalieTitel>Foutieve lengte</AnomalieTitel><AnomalieErnst>B</AnomalieErnst></Anomalie>
+</glossary>
+</List>

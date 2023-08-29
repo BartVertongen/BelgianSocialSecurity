@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>01057</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEDRAG</Titel><XmlLabel>Amount</XmlLabel><FunctioneelBlok>Informatie over de betwisting</FunctioneelBlok><Omschrijving>Totaalbedrag van de betwisting.</Omschrijving><ToegelatenDomein>[0,999999999999999]
+Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>15</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00776</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BENAMING</Titel><XmlLabel>Denomination</XmlLabel><FunctioneelBlok>Aanvrager</FunctioneelBlok><Omschrijving>Benaming van de hoofdaanvrager van een berekening van de sociale schulden.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01066</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM VAN AFSLUITING</Titel><XmlLabel>ClosingDate</XmlLabel><FunctioneelBlok>Resultaat van de berekening van de sociale schulden</FunctioneelBlok><Omschrijving>
+Datum van afsluitingWanneer de zone zich in het functioneel blok "BalanceAnalysesResult" (90502) bevindt, dan gaat het om de datum waarop de berekening van de sociale schulden uitgevoerd werd.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00298</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>HERKOMST VAN DE REFERENTIE</Titel><XmlLabel>ReferenceOrigin</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Waarde die de authentieke bron van een referentienummer aanduidt.
+</Omschrijving><ToegelatenDomein>1 = het referentienummer is toegekend door een aangever of aanvrager (een bedrijf, een sociaal secretariaat, een softwareontwikkelaar, ...)
+2 = het ticketnummer toegekend door de sociale zekerheid, dat een aangifte, een aanvraag of een antwoord op eenduidige wijze identificeert
+3 = het referentienummer is toegekend door een sector van de sociale zekerheid
+4 = het referentienummer is toegekend door de dienst ePost
+5 = het referentienummer is toegekend door de KSZ
+6 = het referentienummer is toegekend door het archiveringssysteem (DOC-ID)
+7 = het referentienummer is door de DSP aan een gearchiveerd document toegekend (DSP-ID)
+De toegelaten waarden in zone ReferenceOrigin zijn: '1' en '5'.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00108</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN DE FOUT</Titel><XmlLabel>ErrorID</XmlLabel><FunctioneelBlok>Resultaat van een verwerking</FunctioneelBlok><Omschrijving>Identificatie van de fout.</Omschrijving><ToegelatenDomein>Alfanumeriek gegeven bestaande uit twee getallen gescheiden door een streepje. 
+De 5 eerste cijfers verwijzen naar de zone of het FB waarop de anomalie betrekking heeft en de 3 laatste cijfers verwijzen naar het type foutcode. Voor deze laatste, zie bijlage 30 - Algemene lijst van foutcodes.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verplicht indien de verwerking foutief is (zone ResultCode (00107) = 0)</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Identificatie van een natuurlijk persoon of rechtspersoon</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00042</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER VAN DE LOKALE EENHEID</Titel><XmlLabel>LocalUnitID</XmlLabel><FunctioneelBlok>Aanvrager</FunctioneelBlok><Omschrijving>Dit is het nummer dat een vestigingseenheid identificeert (nummer toegekend door de Kruispuntbank van Ondernemingen).
+</Omschrijving><ToegelatenDomein>Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelegen tussen 2 en 8;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Vanaf de aangiftes van 2014/1 kan het gebruik van een fictief nummer noodzakelijk zijn: 
+- 8999999993 = Buitenlandse werkgever zonder VE in België voor werknemers die niet op Belgisch grondgebied tewerkgesteld worden
+- 8999999104 = Buitenlandse werkgever zonder VE in België voor werknemers die op Belgisch grondgebied tewerkgesteld worden of werkgever van huispersoneel (werkgeverscategorieën 037, 039 en werknemerskengetallen 035, 439, 043 en 044 voor de werkgeverscategorieën 094 en 193) - Vlaams Gewest
+- 8999999203 = Buitenlandse werkgever zonder VE in België voor werknemers die op Belgisch grondgebied tewerkgesteld worden of werkgever van huispersoneel (werkgeverscategorieën 037, 039 en werknemerskengetallen 035, 439, 043 en 044 voor de werkgeverscategorieën 094 en 193) - Brussels Hoofdstedelijk Gewest
+- 8999999302 = Buitenlandse werkgever zonder VE in België voor werknemers die op Belgisch grondgebied tewerkgesteld worden of werkgever van huispersoneel (werkgeverscategorieën 037, 039 en werknemerskengetallen 035, 439, 043 en 044 voor de werkgeverscategorieën 094 en193) - Waals Gewest zonder de gemeenten die behoren tot de bevoegdheid van de Duitstalige gemeenschap 
+- 8999999401 = Buitenlandse werkgever zonder VE in België voor werknemers die op Belgisch grondgebied tewerkgesteld worden of werkgever van huispersoneel (werkgeverscategorieën 037, 039 en werknemerskengetallen 035, 439, 043 en 044 voor de werkgeverscategorieën 094 en193) - Waals Gewest voor de gemeenten die behoren tot de bevoegdheid van de Duitstalige gemeenschap
+- 8999999005 = Werkgever in afwachting van een nummer van VE
+- 8999999894 = Niet van toepassing - derde betalenden (werkgeverscategorieën 033, 099, 199, 299 en 699) - Verbrekingsvergoeding of uittredingvergoeding - Statutair met standplaats in het buitenland</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00013</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>JAAR - KWARTAAL</Titel><XmlLabel>Quarter</XmlLabel><FunctioneelBlok>Lijst van kwartalen met een ontbrekende aangifte</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01101</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>JAAR - KWARTAAL VAN AFSLUITING</Titel><XmlLabel>ClosingQuarter</XmlLabel><FunctioneelBlok>Resultaat van de berekening van de sociale schulden</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal van afsluiting.Het betreft het laatste kwartaal tot wanneer de berekening van de sociale schulden uitgevoerd werd.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01102</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NOTIE NALEVEN BETALINGSPLAN</Titel><XmlLabel>IsPaymentPlanFollowed</XmlLabel><FunctioneelBlok>Resultaat van de berekening van de sociale schulden</FunctioneelBlok><Omschrijving>Notie van het naleven van een betalingsplan</Omschrijving><ToegelatenDomein>0 = Heeft het betalingsplan niet nageleefd
+1 = Heeft het betalingsplan nageleefd</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Verplicht indien de aanvrager het nodige mandaat heeft om deze informatie te ontvangen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00479</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN SOCIAAL SECRETARIAAT</Titel><XmlLabel>SocialSecretariatNumber</XmlLabel><FunctioneelBlok>Identificatie van een natuurlijk persoon of rechtspersoon</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+Wanneer de zone zich in het functioneel blok "PersonIdentification" (90498) bevindt, gaat het om het ondernemingsnummer van de aanvrager.
+
+Wanneer de zone zich in het functioneel blok "EmployerId" (90256) bevindt, gaat het om het ondernemingsnummer van de werkgever waarvoor een aanvraag tot berekening van sociale schulden werd gedaan.</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Identificatie van een natuurlijk persoon of rechtspersoon</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+Wanneer de zone zich in het functioneel blok "PersonIdentification" (90498) bevindt, gaat het om het ondernemingsnummer van de aanvrager.
+
+Wanneer de zone zich in het functioneel blok "EmployerId" (90256) bevindt, gaat het om het ondernemingsnummer van de werkgever waarvoor een aanvraag tot berekening van sociale schulden werd gedaan.</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00109</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>PPL NUMMER</Titel><XmlLabel>NOSSLPARegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving> Elke lokale of provinciale overheid die personeel in dienst heeft, moet ingeschreven zijn bij de RSZ.</Omschrijving><ToegelatenDomein>Geheel getal en element van [00000197;99999926]. Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het PPL nummer op de waarde nul gezet worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>8</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat>0 of NNNNNNCC
+· NNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00109</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>PPL NUMMER</Titel><XmlLabel>NOSSLPARegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van een natuurlijk persoon of rechtspersoon</FunctioneelBlok><Omschrijving> Elke lokale of provinciale overheid die personeel in dienst heeft, moet ingeschreven zijn bij de RSZ.</Omschrijving><ToegelatenDomein>Geheel getal en element van [00000197;99999926]. Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het PPL nummer op de waarde nul gezet worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>8</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat>0 of NNNNNNCC
+· NNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Het referentienummer.In het blok RequestInformation kan de aanvrager met de zone ReferenceNbr zijn gehele aanvraag op unieke wijze identificeren.
+
+In het blok RequestDetail kan de aanvrager met de zone ReferenceNbr een business en of technische identificatie associëren met de berekening van de sociale schulden.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00107</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>RESULTAATCODE</Titel><XmlLabel>ResultCode</XmlLabel><FunctioneelBlok>Resultaat van een verwerking</FunctioneelBlok><Omschrijving>Code die het algemeen resultaat van een verwerking aanduidt.</Omschrijving><ToegelatenDomein>0 = NOK
+1 = OK
+2 = Te valideren voorstel
+3 = Tijdelijk antwoord
+4 = TimeoutDe toegelaten waarden zijn: 0, 1,  3 en 4.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00011</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat>0 of NNNNNNNCC
+· NNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00011</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van een natuurlijk persoon of rechtspersoon</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat>0 of NNNNNNNCC
+· NNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00545</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STAVING</Titel><XmlLabel>Justification</XmlLabel><FunctioneelBlok>Informatie over het attest</FunctioneelBlok><Omschrijving>Staving
+Motivatie van weigering van de aanvraag van een attest.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>5000</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01099</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TIMESTAMP</Titel><XmlLabel>Timestamp</XmlLabel><FunctioneelBlok>Informatie over de aanvraag</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>24</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01105</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TOTAALBEDRAG INTRESTEN</Titel><XmlLabel>TotalInterests</XmlLabel><FunctioneelBlok>Bedragen berekend tijdens de berekening van de sociale schulden</FunctioneelBlok><Omschrijving>Totaalbedrag (met teken) van de intresten.</Omschrijving><ToegelatenDomein>Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>16</Lengte><Aanwezigheid>Verplicht indien de aanvrager het nodige mandaat heeft om deze informatie te ontvangen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01106</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TOTAALBEDRAG JURIDISCHE KOSTEN</Titel><XmlLabel>TotalLegalCosts</XmlLabel><FunctioneelBlok>Bedragen berekend tijdens de berekening van de sociale schulden</FunctioneelBlok><Omschrijving>Totaalbedrag (met teken) juridische kosten</Omschrijving><ToegelatenDomein>Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>16</Lengte><Aanwezigheid>Verplicht indien de aanvrager het nodige mandaat heeft om deze informatie te ontvangen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00426</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TOTAALBEDRAG VAN DE BIJDRAGEN</Titel><XmlLabel>ContributionTotalAmount</XmlLabel><FunctioneelBlok>Bedragen berekend tijdens de berekening van de sociale schulden</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01104</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TOTAALBEDRAG VAN DE BIJDRAGEOPSLAGEN</Titel><XmlLabel>TotalIncreases</XmlLabel><FunctioneelBlok>Bedragen berekend tijdens de berekening van de sociale schulden</FunctioneelBlok><Omschrijving>Totaalbedrag (met teken) van de bijdrageopslagen.</Omschrijving><ToegelatenDomein>Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>16</Lengte><Aanwezigheid>Verplicht indien de aanvrager het nodige mandaat heeft om deze informatie te ontvangen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01107</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE BETWISTING</Titel><XmlLabel>DisputeType</XmlLabel><FunctioneelBlok>Informatie over de betwisting</FunctioneelBlok><Omschrijving>Type betwisting</Omschrijving><ToegelatenDomein>1 = De achterstallige bijdragen hebben uitsluitend betrekking op een juridische betwisting betreffende het lidmaatschap van een bepaald paritair comité dat momenteel hangende is voor de rechtbank.
+2 = De ambtshalve verbeteringen van de aangiftes van de werkgever werden opgesteld door de RSZ. Deze verbeteringen maken het voorwerp uit van een principebetwisting voor de rechtbank.
+3 = De achterstallige bijdragen vermeld in dit document vloeien voort uit het feit dat de verhoogde Maribel-vermindering niet toegekend werd. Deze vermindering werd niet toegekend door de RSZ omdat de werkgever niet voldeed aan alle formele voorwaarden die nodig waren om het recht op deze vermindering te bewijzen.
+4 = De niet-betaalde socialezekerheidsbijdragen betreffen de tewerkstelling van mindervaliden die verbonden zijn door een speciaal leercontract voor de professionele revalidatie van mindervaliden of een opleidingscontract of contract voor professionele revalidatie beoogd door artikel 17, § 2 en 3 van de wet van 16 april 1963 m.b.t. de sociale reclassering van mindervaliden, en die daarenboven werkloosheidsuitkeringen of ziekteverzekering kunnen genieten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01100</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE DOCUMENT - INNINGSDIENST</Titel><XmlLabel>CDSDocumentId</XmlLabel><FunctioneelBlok>Resultaat van de berekening van de sociale schulden</FunctioneelBlok><Omschrijving>Type document van de Inningsdienst van de RSZ overgemaakt aan de buitenwereld.</Omschrijving><ToegelatenDomein>De eerste positie stelt de directie voor die het document heeft opgesteld
+
+	1 = Rekeningen
+	2 = Communicatie
+	3 = Artikel 30bis-ter
+	
+De tweede positie stelt het soort document voor:
+
+	A = Betalingstermijn
+	B = Betalingsplan
+	C = Attesten
+	D = Rekeningstand
+
+De derde en vierde positie stellen een volgnummer voor van het document (01 tot 99).</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00221</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE VAN DE REFERENTIE</Titel><XmlLabel>ReferenceType</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Duidt aan naar waar de referentie (00222 Referentienummer) verwijst: naar deze aangifte, naar een aangifte die verwant is met deze aangifte of naar een verzameling aangiften (= een dossier) waar deze aangifte toe behoort, op deze aanvraag, op dit formulier.</Omschrijving><ToegelatenDomein>0 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat niet dezelfde identificatie heeft (zie bijlagen 11/302), dat verband houdt met het huidige formulier
+1 = de referentie verwijst naar dit formulier
+2 = de referentie is een dossiernummer en verwijst naar het dossier (= verzameling van aangiften) waartoe deze aangifte behoort of waartoe dit formulier behoort
+3 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat dezelfde identificatie heeft (zie bijlagen 11/302) en dat verband houdt met dit formulier, bijvoorbeeld: de referentie heeft betrekking op de aangifte die geannuleerd moet worden door deze aangifte, of op de aangifte die vervangen moet worden door deze aangifte, of op de aangifte die gewijzigd moet worden, of op de aangifte die aan de oorsprong ligt van dit formulier...
+4 = de referentie verwijst naar een aangifte in een ander scenario die verwant is met deze aangifte
+5 = de referentie verwijst naar een aanvraag
+6 = de referentie verwijst naar een geweigerde aangifte
+7 = de referentie verwijst naar de werkgever die in deze aangifte wordt vermeld
+8 = de referentie verwijst naar de werknemer die in deze aangifte wordt vermeld
+9 = de referentie is een gestructureerde mededeling die moet worden gebruikt in het kader van een betaling en verwijst naar dit formulier</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00948</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>VOORLOPIG RSZ-NUMMER</Titel><XmlLabel>ProvisionalNSSONbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. 
+Het gaat om een voorlopig RSZ-nummer dat aan de nieuwe werkgever toegekend is.
+Dit voorlopig nummer mag niet meer gebruikt worden zodra de RSZ het definitieve nummer heeft meegedeeld.</Omschrijving><ToegelatenDomein>Geheel getal en element van [5000000120;5999999989]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat>0 of NNNNNNNNCC
+· NNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00948</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>VOORLOPIG RSZ-NUMMER</Titel><XmlLabel>ProvisionalNSSONbr</XmlLabel><FunctioneelBlok>Identificatie van een natuurlijk persoon of rechtspersoon</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. 
+Het gaat om een voorlopig RSZ-nummer dat aan de nieuwe werkgever toegekend is.
+Dit voorlopig nummer mag niet meer gebruikt worden zodra de RSZ het definitieve nummer heeft meegedeeld.</Omschrijving><ToegelatenDomein>Geheel getal en element van [5000000120;5999999989]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verboden </Aanwezigheid><Formaat>0 of NNNNNNNNCC
+· NNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01179</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WETTELIJKE REFERENTIE</Titel><XmlLabel>LegalContext</XmlLabel><FunctioneelBlok>Informatie over de wettelijke referentie</FunctioneelBlok><Omschrijving>Code die verwijst naar een wettelijke context waarbinnen het attest wordt aangevraagd.</Omschrijving><ToegelatenDomein>Zie Bijlage_Attesten voor derden</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>00614</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANDUIDING VAN BESLISSING VAN DE SUBGROEP</Titel><XmlLabel>SubGroupDecisionIndicator</XmlLabel><FunctioneelBlok>Subgroep - Informatie</FunctioneelBlok><Omschrijving>Toont de beslissing genomen door de sociale zekerheid bij de weigering van het geheel van de onzekere verbeteringen met betrekking tot een originele aangifte.Deze zone wordt nooit opgenomen in de Beware-notificatie</Omschrijving><ToegelatenDomein>"R" (Refused) = het geheel van de onzekere verbeteringen met betrekking tot een originele aangifte wordt geweigerd en de betreffende elementen worden vrijgegeven</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00878</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANTAL BETROKKEN WERKNEMERS</Titel><XmlLabel>NbrOfWorkersInvolved</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Verminderingscode</FunctioneelBlok><Omschrijving>Aantal werknemers waarop het boekhoudkundig overzicht betrekking heeft.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>6</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00878</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANTAL BETROKKEN WERKNEMERS</Titel><XmlLabel>NbrOfWorkersInvolved</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - werknemerskengetal bijdrage</FunctioneelBlok><Omschrijving>Aantal werknemers waarop het boekhoudkundig overzicht betrekking heeft.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>6</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00846</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANVRAAG VOOR BEREKENING – ARTIKEL 54 TER</Titel><XmlLabel>CalculationRequestArt54ter</XmlLabel><FunctioneelBlok>Informatie van de Beware-notificatie</FunctioneelBlok><Omschrijving>Aanvraag voor berekening van de sanctie artikel 54 ter door een agent of een inspecteur, zonder te oordelen of de sanctie van toepassing is.In dit bericht betekent de aanwezigheid van deze zone dat de Beware-notificatie het resultaat is van de verwerking van verbeteringen waarvoor de berekening van de sanctie artikel 54 ter gevraagd werd, zonder te oordelen of de sanctie van toepassing is.</Omschrijving><ToegelatenDomein>S = aanvraag voor berekening van de sanctie artikel 54 ter</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00847</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>AANVRAAG VOOR BEREKENING – SANCTIE CO2</Titel><XmlLabel>CalculationRequestCO2</XmlLabel><FunctioneelBlok>Boeking</FunctioneelBlok><Omschrijving>Aanvraag voor berekening van de sanctie CO2 door een agent of een inspecteur, zonder te oordelen of de sanctie van toepassing is.Deze zone mag alleen gebruikt worden in combinatie met een boeking met boekhoudkundige referentie "128" en betekent dat deze boeking onderworpen is aan de sanctie CO2.</Omschrijving><ToegelatenDomein>S = aanvraag voor berekening van de sanctie CO2</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00884</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEDRAG VAN DE BIJDRAGE NIET GEBONDEN AAN EEN NATUURLIJKE PERSOON (MET TEKEN)</Titel><XmlLabel>SignedCUNPAmount</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Werknemerskengetal voor een bijdrage die niet gebonden is aan een natuurlijke persoon</FunctioneelBlok><Omschrijving>Bedrag (met teken) van de bijdrage die niet gebonden is aan een natuurlijke persoon.</Omschrijving><ToegelatenDomein>Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00880</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEDRAG VAN DE BIJDRAGE (MET TEKEN)</Titel><XmlLabel>SignedContributionAmount</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - werknemerskengetal bijdrage</FunctioneelBlok><Omschrijving>Bedrag (met teken) van de verschuldigde bijdrage.</Omschrijving><ToegelatenDomein>Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01260</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEDRAG VAN DE COMPENSATIE (MET TEKEN)</Titel><XmlLabel>SignedCompensationAmount</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Werkgeverscompensatie</FunctioneelBlok><Omschrijving>Bedrag (met teken) van de compensatie.</Omschrijving><ToegelatenDomein>Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00877</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEDRAG VAN DE NOTIFICATIE VAN WIJZIGING</Titel><XmlLabel>DmfANotAmount</XmlLabel><FunctioneelBlok>Informatie van de multifunctionele aangifte</FunctioneelBlok><Omschrijving>Dit bedrag komt overeen hetzij met de zone "Bedrag in debet van de wijziging", hetzij met de zone "Bedrag in credit van de wijziging" die voorkomt in de notificatie van wijziging.</Omschrijving><ToegelatenDomein>Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00882</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEDRAG VAN DE VERMINDERING (MET TEKEN)</Titel><XmlLabel>SignedDeductionAmount</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Verminderingscode</FunctioneelBlok><Omschrijving>Bedrag (met teken) van de aangevraagde vermindering.</Omschrijving><ToegelatenDomein>Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01023</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEDRAG VERBONDEN AAN DE INSTRUCTIE</Titel><XmlLabel>InstructionAmount</XmlLabel><FunctioneelBlok>Instructie voor de werkgever</FunctioneelBlok><Omschrijving>Bedrag verbonden aan de instructie</Omschrijving><ToegelatenDomein>[1,999999999999999]
+Het bedrag wordt uitgedrukt in eurocenten.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>15</Lengte><Aanwezigheid>Verplicht indien het type instructie = 1, 3 of 4</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00776</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BENAMING</Titel><XmlLabel>Denomination</XmlLabel><FunctioneelBlok>Gegevens van de mandataris</FunctioneelBlok><Omschrijving>In dit bericht gaat het om de benaming van de eventuele mandataris van de werkgever (niet het sociaal secretariaat of de dienstverlener).</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00157</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BENAMING VAN DE WERKGEVER</Titel><XmlLabel>EmployerDenomination</XmlLabel><FunctioneelBlok>Coördinaten werkgever</FunctioneelBlok><Omschrijving>De benaming van de werkgever.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00883</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEREKENINGSBASIS VAN DE BIJDRAGE NIET GEBONDEN AAN EEN NATUURLIJKE PERSOON (MET TEKEN)</Titel><XmlLabel>SignedCUNPCalcBasis</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Werknemerskengetal voor een bijdrage die niet gebonden is aan een natuurlijke persoon</FunctioneelBlok><Omschrijving>Basisbedrag (met teken) dat toelaat om het bedrag te berekenen van de bijdrage die verschuldigd is en niet gebonden is aan een natuurlijke persoon.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00879</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEREKENINGSBASIS VAN DE BIJDRAGE (MET TEKEN)</Titel><XmlLabel>SignedContributionCalcBasis</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - werknemerskengetal bijdrage</FunctioneelBlok><Omschrijving>Bedrag (met teken) waarop een percentage moet worden toegepast om het bedrag te kennen van de verschuldigde bijdrage.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00881</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BEREKENINGSBASIS VAN DE VERMINDERING (MET TEKEN)</Titel><XmlLabel>SignedDeductionCalcBasis</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Verminderingscode</FunctioneelBlok><Omschrijving>Bedrag (met teken) waarop een percentage moet worden toegepast om het bedrag te kennen van de aangevraagde vermindering.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00568</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BOEKHOUDKUNDIGE REFERENTIE</Titel><XmlLabel>AccountingRef</XmlLabel><FunctioneelBlok>Boeking</FunctioneelBlok><Omschrijving>Zie bijlage 41 : lijst van de boekhoudkundige referenties</Omschrijving><ToegelatenDomein>In dit bericht zijn de enige toegelaten waarden 121, 221, 128, 228, 132, 232, 316 en 356.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00519</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>BRIEVENBUS</Titel><XmlLabel>PostBox</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Nummer van een brievenbus.
+Deze zone betreft ofwel de werkgever, ofwel, indien nodig, zijn eventuele mandataris (niet het sociaal secretariaat of de dienstverlener).</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00867</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>CLASSIFICATIE VAN DE VERBETERING</Titel><XmlLabel>CorrectionClassification</XmlLabel><FunctioneelBlok>Sectie wijzigend bericht</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>1 = Verbetering van de socialezekerheids-bijdragen (met uitsluiting van de bijdragen die deelnemen aan het debetbericht van de jaarlijkse vakantie).
+2 = Sanctie
+3 =	Verbetering van de bijdragen die deelnemen aan het debetbericht van de jaarlijkse vakantie</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00887</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>COMMENTAAR</Titel><XmlLabel>Comment</XmlLabel><FunctioneelBlok>Instructie voor de werkgever</FunctioneelBlok><Omschrijving>CommentaarzoneDoor de rekeningbeheerder ingebrachte commentaar die uitleg geeft over de instructies indien nodig</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>200</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00872</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM - BOEKHOUDKUNDIGE DATUM</Titel><XmlLabel>AccountingDate</XmlLabel><FunctioneelBlok>Bericht van wijziging der bijdragen</FunctioneelBlok><Omschrijving>Datum waarop het bericht van wijziging der bijdragen geboekt is.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01024</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM - VERVALDATUM</Titel><XmlLabel>DueDate</XmlLabel><FunctioneelBlok>Instructie voor de werkgever</FunctioneelBlok><Omschrijving>
+Datum waarop de werkgever het bedrag verbonden aan de instructie dient te betalen</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het type instructie = 1</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00218</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationDate</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>
+Datum waarop het formulier gecreëerd is.</Omschrijving><ToegelatenDomein>
+JJJJ is een element van [lopend jaar -1 ; lopend jaar] ;
+De datum mag zich niet in de toekomst bevinden.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00537</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM VAN DE STAVING</Titel><XmlLabel>JustificationDate</XmlLabel><FunctioneelBlok>Subgroep - Informatie</FunctioneelBlok><Omschrijving>
+Datum die de stavingscode eventueel vervolledigt.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00870</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM VERWERKINGSDATUM</Titel><XmlLabel>ProcessingDate</XmlLabel><FunctioneelBlok>Informatie van de Beware-notificatie</FunctioneelBlok><Omschrijving>Datum waarop de verbeteringen aangebracht in de multifunctionele aangifte van de werkgever werden verwerkt en gegroepeerd om te worden opgenomen in de Beware-notificatie.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01025</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DATUM WAAROP DE REKENING GESALDEERD IS</Titel><XmlLabel>BalancingDate</XmlLabel><FunctioneelBlok>Instructie voor de werkgever</FunctioneelBlok><Omschrijving>
+Datum waarop de rekening gesaldeerd is</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het type instructie = 5</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00874</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>DEELNAME AAN EEN WIJZIGEND BERICHT</Titel><XmlLabel>AccountUpdateReportParticipation</XmlLabel><FunctioneelBlok>Sectie verwerkte verbeteringen</FunctioneelBlok><Omschrijving>Aanduiding die aangeeft of de verbeteringen van een kwartaal deelnemen aan de opstelling van een bericht van wijziging der bijdragen, op grond van de tolerantieregels gedefinieerd door de RSZ.</Omschrijving><ToegelatenDomein>0 = de verbeteringen nemen niet deel aan de opstelling van een wijzigend bericht
+1 = de verbeteringen nemen deel aan de opstelling van een wijzigend bericht</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00637</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>E-MAILADRES</Titel><XmlLabel>EmailAddress</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>60</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00678</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>FAXNUMMER</Titel><XmlLabel>FaxNbr</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00535</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>FOUTIEVE CODE</Titel><XmlLabel>FaultyCode</XmlLabel><FunctioneelBlok>Informatie van de Beware-notificatie</FunctioneelBlok><Omschrijving>Code toegekend door de sociale zekerheid in het geval van een wijziging waarbij de werkgever als foutief beschouwd wordt vanuit het standpunt van de penaliteiten.In dit bericht betekent de aanwezigheid van deze zone dat de Beware-notificatie het resultaat is van verbeteringen waarbij de werkgever als foutief beschouwd wordt vanuit het standpunt van de penaliteiten.</Omschrijving><ToegelatenDomein>"F" = de werkgever wordt als foutief beschouwd vanuit het standpunt van de penaliteiten.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00873</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GEBOEKT BEDRAG</Titel><XmlLabel>AccountingAmount</XmlLabel><FunctioneelBlok>Boeking</FunctioneelBlok><Omschrijving>Bedrag geboekt als wijziging voor het betrokken kwartaal.</Omschrijving><ToegelatenDomein>Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00631</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GEBRUIKERS COMMENTAAR</Titel><XmlLabel>UserComment</XmlLabel><FunctioneelBlok>Informatie van de multifunctionele aangifte</FunctioneelBlok><Omschrijving>In de Beware-notificatie bevat deze zone de referentie die eventueel gebruikt werd door de aangever.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00522</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GEMEENTE</Titel><XmlLabel>City</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+Deze zone betreft ofwel de werkgever, ofwel, indien nodig, zijn eventuele mandataris (niet het sociaal secretariaat of de dienstverlener).</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00636</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>GSM-NUMMER</Titel><XmlLabel>GSMNbr</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving>Deze zone wordt nooit opgenomen in de Beware-notificatie.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00298</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>HERKOMST VAN DE REFERENTIE</Titel><XmlLabel>ReferenceOrigin</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Waarde die de authentieke bron van een referentienummer aanduidt.
+</Omschrijving><ToegelatenDomein>1 = het referentienummer is toegekend door een aangever of aanvrager (een bedrijf, een sociaal secretariaat, een softwareontwikkelaar, ...)
+2 = het ticketnummer toegekend door de sociale zekerheid, dat een aangifte, een aanvraag of een antwoord op eenduidige wijze identificeert
+3 = het referentienummer is toegekend door een sector van de sociale zekerheid
+4 = het referentienummer is toegekend door de dienst ePost
+5 = het referentienummer is toegekend door de KSZ
+6 = het referentienummer is toegekend door het archiveringssysteem (DOC-ID)
+7 = het referentienummer is door de DSP aan een gearchiveerd document toegekend (DSP-ID)
+De mogelijke waarden in dit bericht zijn "2" en “3”</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00486</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>HOEDANIGHEID VAN DE AANGEVER</Titel><XmlLabel>UserQuality</XmlLabel><FunctioneelBlok>Subgroep - Informatie</FunctioneelBlok><Omschrijving>Kenmerkt de hoedanigheid van de persoon of de instelling Kenmerkt de hoedanigheid van de persoon of de instelling die aan de oorsprong ligt van de wijziging of de verbetering aangebracht aan de wijziging.</Omschrijving><ToegelatenDomein>Zie bijlage 39 - Identificatie van de hoedanigheid van de aangever.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00871</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>HOEDANIGHEIDSKLASSE VAN DE AANGEVER</Titel><XmlLabel>UserQualityClass</XmlLabel><FunctioneelBlok>Informatie van de Beware-notificatie</FunctioneelBlok><Omschrijving>De waarde van deze zone wordt toegekend op basis van het aangegeven deel van de verbetering.</Omschrijving><ToegelatenDomein>01: RSZ in de brede zin
+02:  werkgever in de brede zin</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00296</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN HET FORMULIER</Titel><XmlLabel>Identification</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Zone die de inhoud van een formulier beschrijft.
+</Omschrijving><ToegelatenDomein>Zie bijlage 11 - Identificatie van het formulier.
+De enige mogelijke waarde in dit bericht is "BEWARE".</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00013</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>JAAR - KWARTAAL</Titel><XmlLabel>Quarter</XmlLabel><FunctioneelBlok>Sectie verwerkte verbeteringen</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal.
+Bepaling van het jaar en het kwartaal van de aangifte.</Omschrijving><ToegelatenDomein>Het moet gelegen zijn tussen het eerste kwartaal 2003 (20031) en het laatste afgelopen kalenderkwartaal (lopend JJJJK -1).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01026</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>JAAR - KWARTAAL VERBONDEN AAN DE INSTRUCTIE</Titel><XmlLabel>InstructionQuarter</XmlLabel><FunctioneelBlok>Instructie voor de werkgever</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal.
+Als er een bedrag in mindering gebracht moet worden bij de eerstvolgende betaling (instructietype = 4), dan is dit het kwartaal waarin de storting plaatsvindt.
+In het geval van een gesaldeerde rekening (instructietype = 5), is dit het kwartaal waarvoor de rekening gesaldeerd is.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Verplicht indien het type instructie = 4 of 5</Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00470</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>KANTOORNUMMER</Titel><XmlLabel>OfficeNumber</XmlLabel><FunctioneelBlok>Informatie over de sector</FunctioneelBlok><Omschrijving>RSZ-kantoornummer (Controledienst)</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00866</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>KWARTAAL VAN BOEKING</Titel><XmlLabel>AccountingQuarter</XmlLabel><FunctioneelBlok>Sectie wijzigend bericht</FunctioneelBlok><Omschrijving>Deze zone bevat het kwartaal van de boeking.</Omschrijving><ToegelatenDomein>Het moet gelegen zijn tussen het eerste kwartaal 2003 (20031) en het laatste afgelopen kalenderkwartaal (lopend JJJJK -1).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00523</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>LANDCODE</Titel><XmlLabel>Country</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+Deze zone betreft ofwel de werkgever, ofwel, indien nodig, zijn eventuele mandataris (niet het sociaal secretariaat of de dienstverlener).</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00726</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NAAM</Titel><XmlLabel>Name</XmlLabel><FunctioneelBlok>Gegevens van de contactpersoon</FunctioneelBlok><Omschrijving>Familienaam van een natuurlijk persoon.
+Men moet de naam vermelden die op het paspoort of de identiteitskaart staat.
+Voor vrouwen van Belgische nationaliteit gaat het om de meisjesnaam.
+In dit bericht gaat het om de familienaam van de contactpersoon van de RSZ (Controledienst).</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>48</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00917</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NOTIE 22 QUATER</Titel><XmlLabel>Notion22Quater</XmlLabel><FunctioneelBlok>Informatie van de Beware-notificatie</FunctioneelBlok><Omschrijving>Code toegekend door een agent van de RSZ om te melden dat de aangifte betrekking heeft op een solidariteitsbijdrage krachtens Art. 22 Quater.De aanwezigheid van deze zone in dit bericht betekent dat de Beware-notificatie het resultaat is van de verwerking van correcties betreffende de solidariteitsbijdrage Art. 22 Quater.</Omschrijving><ToegelatenDomein>« Q » = De wijzigende aangifte heeft betrekking op de solidariteitsbijdrage Art. 22 Quater voor ontbrekende DIMONA</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01027</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NOTIE WAAR HET REKENINGNUMMER VAN DE WERKGEVER WORDT GEVRAAGD</Titel><XmlLabel>AskAccountNotion</XmlLabel><FunctioneelBlok>Instructie voor de werkgever</FunctioneelBlok><Omschrijving>Notie waarin aan de werkgever wordt gevraagd aan de RSZ het rekeningnummer mee te delen waarop de terugbetaling kan gebeuren</Omschrijving><ToegelatenDomein>0 = De werkgever dient het rekeningnummer niet mee te delen aan de RSZ
+1 = De werkgever dient zijn rekeningnummer mee te delen aan de RSZ </ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>1</Lengte><Aanwezigheid>Verplicht indien het type instructie = 3</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00150</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN ERKEND SOCIAAL SECRETARIAAT BIJKANTOOR</Titel><XmlLabel>FilialSecSocNbr</XmlLabel><FunctioneelBlok>Gegevens van het sociaal secretariaat</FunctioneelBlok><Omschrijving>Deze zone wordt  in dit bericht nooit gebruikt.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00518</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN HET ADRES</Titel><XmlLabel>HouseNbr</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Deze zone betreft ofwel de werkgever, ofwel, indien nodig, zijn eventuele mandataris (niet het sociaal secretariaat of de dienstverlener).</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00479</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN SOCIAAL SECRETARIAAT</Titel><XmlLabel>SocialSecretariatNumber</XmlLabel><FunctioneelBlok>Gegevens van het sociaal secretariaat</FunctioneelBlok><Omschrijving>In het functioneel blok "CoordinatesSocialSecretariat" komt deze zone overeen met het filiaalnummer van het sociaal secretariaat waarbij de werkgever aangesloten is op het ogenblik dat de Beware-notificatie wordt aangemaakt.
+In het functioneel blok "DmfAInformation" komt deze zone overeen met het filiaalnummer van het sociaal secretariaat dat aan de oorsprong ligt van de betreffende verbetering.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar in het FB "CoordinatesSocialSecretariat". Elders facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00479</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>NUMMER VAN SOCIAAL SECRETARIAAT</Titel><XmlLabel>SocialSecretariatNumber</XmlLabel><FunctioneelBlok>Informatie van de multifunctionele aangifte</FunctioneelBlok><Omschrijving>In het functioneel blok "CoordinatesSocialSecretariat" komt deze zone overeen met het filiaalnummer van het sociaal secretariaat waarbij de werkgever aangesloten is op het ogenblik dat de Beware-notificatie wordt aangemaakt.
+In het functioneel blok "DmfAInformation" komt deze zone overeen met het filiaalnummer van het sociaal secretariaat dat aan de oorsprong ligt van de betreffende verbetering.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar in het FB "CoordinatesSocialSecretariat". Elders facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Informatie van de Beware-notificatie</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00520</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>POSTCODE</Titel><XmlLabel>ZIPCode</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Postnummer van een gemeente.
+Deze zone betreft ofwel de werkgever, ofwel, indien nodig, zijn eventuele mandataris (niet het sociaal secretariaat of de dienstverlener).</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00299</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>PRECIES UUR VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationHour</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren, minuten, seconden en milliseconden.
+</Omschrijving><ToegelatenDomein>UU is een element van [00;23]
+MM is een element van [00;59]
+SS is een element van [00;59]
+SSS is een element van [000;999]
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>UU:MM:SS.SSS
+. UU zijn de uren
+. MM zijn de minuten
+. SS zijn de seconden
+. SSS zijn de milliseconden</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01028</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>REFERENTIE VAN DE REKENINGSTAND</Titel><XmlLabel>AccountSituationReference</XmlLabel><FunctioneelBlok>Rekeningstand</FunctioneelBlok><Omschrijving>Geeft de referentie van het document dat de rekeningstand bevat. Het document wordt via de post verstuurd.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>25</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Het referentienummer.Als de zone "Herkomst van de referentie" de waarde 2 heeft, dan bevat de zone "Referentienummer" het ticketnummer dat werd toegewezen aan het bericht bij de elektronische verzending ervan.
+Als de zone "Herkomst van de referentie" de waarde 3 heeft, dan bevat de zone "Referentienummer" het uniek identificatienummer van de Beware-notificatie (ook zendingsnummer-ingangsnummer genoemd).</Omschrijving><ToegelatenDomein>In dit bericht is de toegelaten lengte voor deze zone 20 tekens.
+
+Als de zone "Herkomst van de referentie" de waarde 3 heeft, dan heeft de zone "Referentienummer" het formaat JJKXX-YYYYY waarbij
+- JJ het lopende jaar is en groter is dan of gelijk aan 07
+- K het lopende kwartaal is en een element van [1..4]
+ - XX een volgnummer is in JJK en een element van [01..99]
+(JJKXX wordt "zendingsnummer" genoemd)
+- YYYYY een volgnummer is in JJKXX en een element van [00001..99999]
+(YYYYY wordt "ingangsnummer" genoemd)</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00011</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Informatie van de Beware-notificatie</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+In dit bericht is de waarde "0" niet toegelaten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNCC
+· NNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00110</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STATUS VAN HET ATTEST</Titel><XmlLabel>AttestationStatus</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>0 = Origineel
+1 = Wijziging
+2 = Duplicaat
+3 = Annulatie
+4 = Herziening
+5 = Herinnering
+6 = Afsluiting
+7 = Wijziging van papieren origineel
+8 = KopieDe enige mogelijke waarden in dit bericht zijn "0" en "2".</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00545</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STAVING</Titel><XmlLabel>Justification</XmlLabel><FunctioneelBlok>Subgroep - Informatie</FunctioneelBlok><Omschrijving>Staving
+Beschrijft het voorwerp van de wijziging onder de vorm van vrije tekst.</Omschrijving><ToegelatenDomein>
+In dit bericht is de toegelaten lengte voor deze zone 560 tekens.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>5000</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00536</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STAVINGSCODE</Titel><XmlLabel>JustificationCode</XmlLabel><FunctioneelBlok>Informatie van de Beware-notificatie</FunctioneelBlok><Omschrijving>Beschrijft, onder de vorm van een code, de staving van de wijziging doorgevoerd door de Sociale zekerheid.- In het blok "BewareInformation" is de enige mogelijke waarde "05". Zij betekent dat de Beware-notificatie het resultaat is van de groepering van verbeteringen ingevoerd op vraag van het FSO.
+- In het blok "SubGroupInformation" zijn alle waarden van bijlage 40 mogelijk</Omschrijving><ToegelatenDomein>Zie bijlage 40 - Stavingscode.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00536</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STAVINGSCODE</Titel><XmlLabel>JustificationCode</XmlLabel><FunctioneelBlok>Subgroep - Informatie</FunctioneelBlok><Omschrijving>Beschrijft, onder de vorm van een code, de staving van de wijziging doorgevoerd door de Sociale zekerheid.- In het blok "BewareInformation" is de enige mogelijke waarde "05". Zij betekent dat de Beware-notificatie het resultaat is van de groepering van verbeteringen ingevoerd op vraag van het FSO.
+- In het blok "SubGroupInformation" zijn alle waarden van bijlage 40 mogelijk</Omschrijving><ToegelatenDomein>Zie bijlage 40 - Stavingscode.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00517</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>STRAAT</Titel><XmlLabel>Street</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Openbare weg.
+Deze zone betreft ofwel de werkgever, ofwel, indien nodig, zijn eventuele mandataris (niet het sociaal secretariaat of de dienstverlener).</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>42</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00481</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>SUBGROEP</Titel><XmlLabel>SubGroup</XmlLabel><FunctioneelBlok>Subgroep - Informatie</FunctioneelBlok><Omschrijving>Kenmerkt de verschillende delen van eenzelfde aangifte (zelfde ticketnummer).</Omschrijving><ToegelatenDomein>1 = deel dat de aangegeven en aanvaarde elementen bevat
+2 = deel dat de systeemverbeteringen bevat
+3 = deel dat de ter validatie voorgelegde elementen bevat
+4 = deel dat de verbeteringen bevat van de ter validatie voorgelegde en gecontroleerde elementen</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00677</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TELEFOONNUMMER</Titel><XmlLabel>PhoneNbr</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00876</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TICKETNUMMER VAN DE NOTIFICATIE VAN WIJZIGING</Titel><XmlLabel>DmfANotTicketNbr</XmlLabel><FunctioneelBlok>Informatie van de multifunctionele aangifte</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>13</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00875</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TICKETNUMMER VAN EEN (ORIGINELE OF WIJZIGENDE) MULTIFUNCTIONELE AANGIFTE</Titel><XmlLabel>DmfATicketNbr</XmlLabel><FunctioneelBlok>Informatie van de multifunctionele aangifte</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>13</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00426</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TOTAALBEDRAG VAN DE BIJDRAGEN</Titel><XmlLabel>ContributionTotalAmount</XmlLabel><FunctioneelBlok>Bericht van wijziging der bijdragen</FunctioneelBlok><Omschrijving>In het functioneel blok "AccountUpdateReport" bevat deze zone het totale bedrag van de socialezekerheidsbijdragen en de verminderingen waarmee rekening werd gehouden bij de opstelling van het wijzigend bericht (met uitsluiting van de bijdragen die deelnemen aan het debetbericht van de jaarlijkse vakantie).
+In het functioneel blok "ProcessedCorrectionsSection" bevat deze zone het bedrag van de socialezekerheidsbijdragen en de verminderingen per kwartaal verwerkt in de Beware-notificatie (met uitsluiting van de bijdragen die deelnemen aan het debetbericht van de jaarlijkse vakantie). Het is op basis van dit bedrag dat de door de RSZ gedefinieerde tolerantieregels worden toegepast om te bepalen welke kwartalen al dan niet deelnemen aan de opstelling van het wijzigend bericht.</Omschrijving><ToegelatenDomein>Het bedrag wordt uitgedrukt in eurocenten.Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00426</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TOTAALBEDRAG VAN DE BIJDRAGEN</Titel><XmlLabel>ContributionTotalAmount</XmlLabel><FunctioneelBlok>Sectie verwerkte verbeteringen</FunctioneelBlok><Omschrijving>In het functioneel blok "AccountUpdateReport" bevat deze zone het totale bedrag van de socialezekerheidsbijdragen en de verminderingen waarmee rekening werd gehouden bij de opstelling van het wijzigend bericht (met uitsluiting van de bijdragen die deelnemen aan het debetbericht van de jaarlijkse vakantie).
+In het functioneel blok "ProcessedCorrectionsSection" bevat deze zone het bedrag van de socialezekerheidsbijdragen en de verminderingen per kwartaal verwerkt in de Beware-notificatie (met uitsluiting van de bijdragen die deelnemen aan het debetbericht van de jaarlijkse vakantie). Het is op basis van dit bedrag dat de door de RSZ gedefinieerde tolerantieregels worden toegepast om te bepalen welke kwartalen al dan niet deelnemen aan de opstelling van het wijzigend bericht.</Omschrijving><ToegelatenDomein>Het bedrag wordt uitgedrukt in eurocenten.Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00864</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TOTAALBEDRAG VAN DE BIJDRAGEN DIE DEELNEMEN AAN HET DEBETBERICHT VAN DE JAARLIJKSE VAKANTIE</Titel><XmlLabel>AnnualHolidaysContribTotalAmount</XmlLabel><FunctioneelBlok>Bericht van wijziging der bijdragen</FunctioneelBlok><Omschrijving>Totaalbedrag van de wijzigingen van bijdragen die deelnemen aan het debetbericht van de jaarlijkse vakantie, berekend bij de opstelling van het wijzigend bericht.</Omschrijving><ToegelatenDomein>Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00863</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TOTAALBEDRAG VAN DE SANCTIES</Titel><XmlLabel>SanctionsTotalAmount</XmlLabel><FunctioneelBlok>Bericht van wijziging der bijdragen</FunctioneelBlok><Omschrijving>Totaalbedrag van de sancties (54TER en CO2) berekend </Omschrijving><ToegelatenDomein>Deze zone is altijd positief.
+Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00865</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TOTAALBEDRAG VAN HET WIJZIGEND BERICHT</Titel><XmlLabel>AccountUpdateReportTotalAmount</XmlLabel><FunctioneelBlok>Bericht van wijziging der bijdragen</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>Een positief bedrag wijst op een bedrag in het voordeel van de RSZ.
+Een negatief bedrag wijst op een bedrag in het voordeel van de werkgever.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>16</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00083</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE BIJDRAGE</Titel><XmlLabel>ContributionType</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - werknemerskengetal bijdrage</FunctioneelBlok><Omschrijving>Het type bijdrage laat toe, in combinatie met het werknemerskengetal bijdrage, de aangegeven bijdrage te identificeren, te bepalen of de bijdrage verschuldigd is en het percentage of het forfait van de bijdrage te kennen.</Omschrijving><ToegelatenDomein>De toegelaten waarden in functie van het werknemerskengetal bijdrage bevinden zich in bijlage 3 - Toegelaten waarden voor het "type bijdrage" in functie van de werknemerskengetallen bijdragen.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01022</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE INSTRUCTIE</Titel><XmlLabel>InstructionType</XmlLabel><FunctioneelBlok>Instructie voor de werkgever</FunctioneelBlok><Omschrijving>Type instructie die de werkgever moet volgen met betrekking tot het bedrag verbonden aan deze instructie</Omschrijving><ToegelatenDomein>1 = Bedrag door de werkgever te betalen aan de RSZ
+2 = Bedrag reeds door de werkgever betaald aan de RSZ
+3 = Bedrag door de RSZ terug te betalen aan de werkgever
+4 = Bedrag door de werkgever in mindering te brengen bij zijn eerstvolgende betaling
+5 = Rekening gesaldeerd</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00221</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE VAN DE REFERENTIE</Titel><XmlLabel>ReferenceType</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Duidt aan naar waar de referentie (00222 Referentienummer) verwijst: naar deze aangifte, naar een aangifte die verwant is met deze aangifte of naar een verzameling aangiften (= een dossier) waar deze aangifte toe behoort, op deze aanvraag, op dit formulier.</Omschrijving><ToegelatenDomein>0 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat niet dezelfde identificatie heeft (zie bijlagen 11/302), dat verband houdt met het huidige formulier
+1 = de referentie verwijst naar dit formulier
+2 = de referentie is een dossiernummer en verwijst naar het dossier (= verzameling van aangiften) waartoe deze aangifte behoort of waartoe dit formulier behoort
+3 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat dezelfde identificatie heeft (zie bijlagen 11/302) en dat verband houdt met dit formulier, bijvoorbeeld: de referentie heeft betrekking op de aangifte die geannuleerd moet worden door deze aangifte, of op de aangifte die vervangen moet worden door deze aangifte, of op de aangifte die gewijzigd moet worden, of op de aangifte die aan de oorsprong ligt van dit formulier...
+4 = de referentie verwijst naar een aangifte in een ander scenario die verwant is met deze aangifte
+5 = de referentie verwijst naar een aanvraag
+6 = de referentie verwijst naar een geweigerde aangifte
+7 = de referentie verwijst naar de werkgever die in deze aangifte wordt vermeld
+8 = de referentie verwijst naar de werknemer die in deze aangifte wordt vermeld
+9 = de referentie is een gestructureerde mededeling die moet worden gebruikt in het kader van een betaling en verwijst naar dit formulierDe enige mogelijke waarden in dit bericht zijn "1" en "9".</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00297</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE VAN HET FORMULIER</Titel><XmlLabel>TypeForm</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Het type wijst de aard van het elektronisch formulier aan.
+</Omschrijving><ToegelatenDomein>RE = REQUEST - het formulier vraagt inlichtingen
+PA = PROVISIONAL ANSWER - het formulier is een tijdelijk antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+FA = FINAL ANSWER - het formulier is een definitief antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+LA = LIMITED ANSWER - het formulier is een beperkt antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+SU = SUBMISSION - het formulier deelt inlichtingen mee
+De enige mogelijke waarde in dit bericht is "SU".</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01250</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>TYPE WERKGEVERSCOMPENSATIE</Titel><XmlLabel>CompensationCode</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Werkgeverscompensatie</FunctioneelBlok><Omschrijving>Zone die aanduidt welk type compensatie de werkgever geniet.</Omschrijving><ToegelatenDomein>01 = Competitiviteit</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00086</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>VERMINDERINGSCODE</Titel><XmlLabel>DeductionCode</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Verminderingscode</FunctioneelBlok><Omschrijving>Code die de aangevraagde vermindering aanduidt.</Omschrijving><ToegelatenDomein>De codes DmfA vermeld in bijlage 4 - Lijst van de verminderingscodes.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00727</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>VOORNAAM</Titel><XmlLabel>FirstName</XmlLabel><FunctioneelBlok>Gegevens van de contactpersoon</FunctioneelBlok><Omschrijving>Eerste voornaam van een natuurlijk persoon.
+In dit bericht gaat het om de voornaam van de contactpersoon van de RSZ (Controledienst).</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>24</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00036</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WERKGEVERSCATEGORIE</Titel><XmlLabel>EmployerClass</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Verminderingscode</FunctioneelBlok><Omschrijving>Het categoriekengetal laat toe een onderscheid te maken tussen de werkgevers naargelang hun verplichtingen in functie van de bijzondere kenmerken die eigen zijn aan de uitgeoefende activiteit. Het wordt toegekend door de RSZ.
+Voor een provinciaal of plaatselijk bestuur bepaalt deze categorie-aanduiding de bijdrageverplichtingen van de besturen in functie van de vakantieregeling die zij op hun contractuele personeelsleden toepassen of van de pensioenregeling waarbij hun vastbenoemde personeelsleden aangesloten zijn.</Omschrijving><ToegelatenDomein>Getal van 3 cijfers toegekend door de RSZ.
+- In het functioneel blok "BewareInformation" is de enige mogelijke waarde "021". Zij betekent dat de Beware-notificatie het resultaat is van de groepering van verbeteringen met betrekking tot de categorie 021.
+- In het functioneel blok "AccountingEntry" is de enige mogelijke waarde "021". Zij betekent dat de boeking alleen betrekking heeft op elementen van categorie 021.
+- In de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview" zijn alle waarden van bijlage 27 mogelijk.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar in de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview". Anders facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00036</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WERKGEVERSCATEGORIE</Titel><XmlLabel>EmployerClass</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - werknemerskengetal bijdrage</FunctioneelBlok><Omschrijving>Het categoriekengetal laat toe een onderscheid te maken tussen de werkgevers naargelang hun verplichtingen in functie van de bijzondere kenmerken die eigen zijn aan de uitgeoefende activiteit. Het wordt toegekend door de RSZ.
+Voor een provinciaal of plaatselijk bestuur bepaalt deze categorie-aanduiding de bijdrageverplichtingen van de besturen in functie van de vakantieregeling die zij op hun contractuele personeelsleden toepassen of van de pensioenregeling waarbij hun vastbenoemde personeelsleden aangesloten zijn.</Omschrijving><ToegelatenDomein>Getal van 3 cijfers toegekend door de RSZ.
+- In het functioneel blok "BewareInformation" is de enige mogelijke waarde "021". Zij betekent dat de Beware-notificatie het resultaat is van de groepering van verbeteringen met betrekking tot de categorie 021.
+- In het functioneel blok "AccountingEntry" is de enige mogelijke waarde "021". Zij betekent dat de boeking alleen betrekking heeft op elementen van categorie 021.
+- In de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview" zijn alle waarden van bijlage 27 mogelijk.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar in de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview". Anders facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00036</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WERKGEVERSCATEGORIE</Titel><XmlLabel>EmployerClass</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Werknemerskengetal voor een bijdrage die niet gebonden is aan een natuurlijke persoon</FunctioneelBlok><Omschrijving>Het categoriekengetal laat toe een onderscheid te maken tussen de werkgevers naargelang hun verplichtingen in functie van de bijzondere kenmerken die eigen zijn aan de uitgeoefende activiteit. Het wordt toegekend door de RSZ.
+Voor een provinciaal of plaatselijk bestuur bepaalt deze categorie-aanduiding de bijdrageverplichtingen van de besturen in functie van de vakantieregeling die zij op hun contractuele personeelsleden toepassen of van de pensioenregeling waarbij hun vastbenoemde personeelsleden aangesloten zijn.</Omschrijving><ToegelatenDomein>Getal van 3 cijfers toegekend door de RSZ.
+- In het functioneel blok "BewareInformation" is de enige mogelijke waarde "021". Zij betekent dat de Beware-notificatie het resultaat is van de groepering van verbeteringen met betrekking tot de categorie 021.
+- In het functioneel blok "AccountingEntry" is de enige mogelijke waarde "021". Zij betekent dat de boeking alleen betrekking heeft op elementen van categorie 021.
+- In de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview" zijn alle waarden van bijlage 27 mogelijk.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar in de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview". Anders facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00036</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WERKGEVERSCATEGORIE</Titel><XmlLabel>EmployerClass</XmlLabel><FunctioneelBlok>Boeking</FunctioneelBlok><Omschrijving>Het categoriekengetal laat toe een onderscheid te maken tussen de werkgevers naargelang hun verplichtingen in functie van de bijzondere kenmerken die eigen zijn aan de uitgeoefende activiteit. Het wordt toegekend door de RSZ.
+Voor een provinciaal of plaatselijk bestuur bepaalt deze categorie-aanduiding de bijdrageverplichtingen van de besturen in functie van de vakantieregeling die zij op hun contractuele personeelsleden toepassen of van de pensioenregeling waarbij hun vastbenoemde personeelsleden aangesloten zijn.</Omschrijving><ToegelatenDomein>Getal van 3 cijfers toegekend door de RSZ.
+- In het functioneel blok "BewareInformation" is de enige mogelijke waarde "021". Zij betekent dat de Beware-notificatie het resultaat is van de groepering van verbeteringen met betrekking tot de categorie 021.
+- In het functioneel blok "AccountingEntry" is de enige mogelijke waarde "021". Zij betekent dat de boeking alleen betrekking heeft op elementen van categorie 021.
+- In de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview" zijn alle waarden van bijlage 27 mogelijk.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar in de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview". Anders facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00036</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WERKGEVERSCATEGORIE</Titel><XmlLabel>EmployerClass</XmlLabel><FunctioneelBlok>Informatie van de Beware-notificatie</FunctioneelBlok><Omschrijving>Het categoriekengetal laat toe een onderscheid te maken tussen de werkgevers naargelang hun verplichtingen in functie van de bijzondere kenmerken die eigen zijn aan de uitgeoefende activiteit. Het wordt toegekend door de RSZ.
+Voor een provinciaal of plaatselijk bestuur bepaalt deze categorie-aanduiding de bijdrageverplichtingen van de besturen in functie van de vakantieregeling die zij op hun contractuele personeelsleden toepassen of van de pensioenregeling waarbij hun vastbenoemde personeelsleden aangesloten zijn.</Omschrijving><ToegelatenDomein>Getal van 3 cijfers toegekend door de RSZ.
+- In het functioneel blok "BewareInformation" is de enige mogelijke waarde "021". Zij betekent dat de Beware-notificatie het resultaat is van de groepering van verbeteringen met betrekking tot de categorie 021.
+- In het functioneel blok "AccountingEntry" is de enige mogelijke waarde "021". Zij betekent dat de boeking alleen betrekking heeft op elementen van categorie 021.
+- In de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview" zijn alle waarden van bijlage 27 mogelijk.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar in de functionele blokken "WorkerContAccountingOverview", "DeductionAccountingOverview" en "CUNPAccountingOverview". Anders facultatief.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00037</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WERKNEMERSKENGETAL</Titel><XmlLabel>WorkerCode</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Verminderingscode</FunctioneelBlok><Omschrijving>Deze code laat toe het type werknemer te bepalen waarvoor een specifieke bijdrage vereist is (gewone bijdrage, Fedris bijdrage, bijzondere bijdrage bruggepensioneerde, bijzondere bijdrage ontslagen statutair personeel, bijzondere bijdrage student of bijzondere bijdrage aanvullende vergoedingen).</Omschrijving><ToegelatenDomein>Zie bijlage 2 - Lijst der werknemerskengetallen waarvoor de bijdragen van toepassing zijn ; alleen de werknemerskengetallen waarvoor de aanwezigheid gelijk is aan 1 of 3.
+Voor een provinciaal of plaatselijk bestuur, zie bijlage 28 - Lijst der werknemerskengetallen waarvoor de bijdragen van toepassing zijn PPO; alleen de werknemerskengetallen waarvoor de aanwezigheid gelijk is aan 1 of 3.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00037</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WERKNEMERSKENGETAL</Titel><XmlLabel>WorkerCode</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - werknemerskengetal bijdrage</FunctioneelBlok><Omschrijving>Deze code laat toe het type werknemer te bepalen waarvoor een specifieke bijdrage vereist is (gewone bijdrage, Fedris bijdrage, bijzondere bijdrage bruggepensioneerde, bijzondere bijdrage ontslagen statutair personeel, bijzondere bijdrage student of bijzondere bijdrage aanvullende vergoedingen).</Omschrijving><ToegelatenDomein>Zie bijlage 2 - Lijst der werknemerskengetallen waarvoor de bijdragen van toepassing zijn ; alleen de werknemerskengetallen waarvoor de aanwezigheid gelijk is aan 1 of 3.
+Voor een provinciaal of plaatselijk bestuur, zie bijlage 28 - Lijst der werknemerskengetallen waarvoor de bijdragen van toepassing zijn PPO; alleen de werknemerskengetallen waarvoor de aanwezigheid gelijk is aan 1 of 3.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00082</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WERKNEMERSKENGETAL BIJDRAGE</Titel><XmlLabel>ContributionWorkerCode</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - werknemerskengetal bijdrage</FunctioneelBlok><Omschrijving>Het werknemerskengetal bijdrage laat toe, in combinatie met het type bijdrage, de aangeven bijdrage te identificeren, te bepalen of de bijdrage verschuldigd is en het percentage of het forfait van de bijdrage te kennen.</Omschrijving><ToegelatenDomein>De werknemerskengetallen voor een gewone bijdrage, een Fedris bijdrage, een supplementaire bijdrage of een bijzondere bijdrage aanvullende vergoedingen (zie bijlage 2 ;  voor een provinciaal of plaatselijk bestuur, zie bijlage 28 - Lijst der werknemerskengetallen waarvoor de bijdragen van toepassing zijn - aanwezigheid = 2, 3 ou 5).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00020</Code><Versie>2023/2</Versie><Publicatiedatum>25/05/2023</Publicatiedatum><Titel>WERKNEMERSKENGETAL VOOR EEN BIJDRAGE DIE NIET GEBONDEN IS AAN EEN NATUURLIJKE PERSOON</Titel><XmlLabel>UnrelatedWorkerCode</XmlLabel><FunctioneelBlok>Boekhoudkundig overzicht - Werknemerskengetal voor een bijdrage die niet gebonden is aan een natuurlijke persoon</FunctioneelBlok><Omschrijving>Dit werknemerskengetal laat het identificeren toe van een bijdrage die niet gebonden is aan een natuurlijke persoon maar die verschuldigd is op niveau van de werkgeverscategorie.</Omschrijving><ToegelatenDomein>De werknemerskengetallen die overeenstemmen met een bijdrage die niet gebonden is aan een natuurlijke persoon (zie bijlage 2 -  Lijst der werknemerskengetallen waarvoor de bijdragen van toepassing zijn).</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>
