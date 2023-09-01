@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <glossary>
+      <Code>01177</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>BEREKENDE ECONOMISCHE WERKLOOSHEIDSDAGEN BUITEN DE BOUWSECTOR</Titel>
+      <XmlLabel>CalculatedEcoUnemploymentDaysNbr</XmlLabel>
+      <FunctioneelBlok>Detail Economische werkloosheidsdagen buiten bouwsector : Consultation</FunctioneelBlok>
+      <Omschrijving>Economische werkloosheidsdagen buiten de bouwsector waarmee rekening wordt gehouden om het forfait te bepalen van de bijdrage "economische werkloosheidsdagen buiten de bouwsector".</Omschrijving>
+      <ToegelatenDomein>[1;36600]&#xA;&#xA;Aandacht : De dagen worden uitgedrukt in honderdsten van dagen. &#xA;&#xA;Voorbeelden :	&#xA;. 62,22 dagen wordt uitgedrukt onder de vorm : 6222&#xA;. 65 dagen wordt uitgedrukt onder de vorm : 6500</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>5</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00024</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel>
+      <XmlLabel>INSS</XmlLabel>
+      <FunctioneelBlok>Detail Economische werkloosheidsdagen buiten bouwsector : Consultation</FunctioneelBlok>
+      <Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.&#xA;</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>11</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat>0 of NNNNNNNNNCC&#xA;· NNNNNNNNN is het nummer&#xA;· CC is het controlegetal.</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00013</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>JAAR - KWARTAAL</Titel>
+      <XmlLabel>Quarter</XmlLabel>
+      <FunctioneelBlok>Detail Economische werkloosheidsdagen buiten bouwsector : Consultation</FunctioneelBlok>
+      <Omschrijving>Bepaling van het jaar en het kwartaal.&#xA;</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>5</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat>JJJJK&#xA;. JJJJ is het jaar&#xA;. K is het kwartaal</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00609</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>RESULTAATCODE VAN DE OPZOEKING</Titel>
+      <XmlLabel>ResultCodeResearch</XmlLabel>
+      <FunctioneelBlok>Economische werkloosheidsdagen buiten de bouwsector - Consultation</FunctioneelBlok>
+      <Omschrijving>Code die aanduidt of het verzoek al dan niet resultaat heeft opgeleverd, en eventueel de reden waarom er geen resultaat kan worden meegedeeld.</Omschrijving>
+      <ToegelatenDomein>0 = geen anomalie&#xA;1 = geen enkel resultaat voor dit verzoek&#xA; 2 = dit gegeven werd geannuleerd&#xA;3 = dit gegeven werd niet gevonden binnen de vereiste aangifte&#xA;4 = deze natuurlijke persoon kon niet geïdentificeerd worden door Sigedis&#xA;5 = te veel resultaten voor dit verzoekDe enige toegelaten waarden zijn 0 en 1.</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>2</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+</List>

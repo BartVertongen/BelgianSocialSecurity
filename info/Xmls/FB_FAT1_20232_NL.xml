@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <FunctionalBlock>
+      <Code>90031</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Aanvullende berekeningsbasis van de uitkering</Naam>
+      <Zones>00378 - CODE EINDEJAARSPREMIE</Zones>
+      <Zones>00387 - BEDRAG OVEREENSTEMMEND MET DE CODE EINDEJAARSPREMIE</Zones>
+      <Zones>00111 - WAARDE OVEREENSTEMMEND MET DE CODE EINDEJAARSPREMIE</Zones>
+      <Zones>00112 - AANTAL UREN OVEREENSTEMMEND MET DE CODE EINDEJAARSPREMIE</Zones>
+      <Zones>00382 - ANDERE VOORDELEN NIET GEVISEERD IN EEN ANDERE RUBRIEK</Zones>
+      <Zones>00383 - AARD VAN DE VOORDELEN</Zones>
+      <XmlLabel>SupplementaryCalculationBaseAllowance</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat aanvullende informatie die door sommige sectoren gebruikt wordt om de uitkering te berekenen.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief indien de werknemer een stagiair is die niet onderworpen is aan de RSZ (werknemerskengetal = 848 of 849).&#xA;Verplicht in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90031-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90031-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90080</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Aanwezigheid</Naam>
+      <Zones>00300 - WERD ER EEN PROCES-VERBAAL OPGESTELD ?</Zones>
+      <Zones>00301 - AANWEZIGHEID VAN GETUIGEN OF WAREN ER GETUIGEN AANWEZIG ?</Zones>
+      <Zones>00302 - KUNNEN EEN OF MEERDERE DERDEN VERANTWOORDELIJK GESTELD WORDEN VOOR HET ONGEVAL ?</Zones>
+      <XmlLabel>Presence</XmlLabel>
+      <Omschrijving>Functioneel blok om aan te geven of er al dan niet een proces-verbaal of een derde verantwoordelijke was of getuigen.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90081</NrGelinktBlok>
+      <NrGelinktBlok>90087</NrGelinktBlok>
+      <NrGelinktBlok>90088</NrGelinktBlok>
+      <Gelinktblok>90081 - Proces verbaal</Gelinktblok>
+      <Gelinktblok>90087 - Getuige</Gelinktblok>
+      <Gelinktblok>90088 - Derde verantwoordelijke</Gelinktblok>
+      <Aanwezigheid>Verplicht indien 00430 IdentificationOfRisk = "001"&#xA;Verboden indien 00430 IdentificationOfRisk = "002"</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90080-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90080-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90080-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90022</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Adres</Naam>
+      <Zones>00517 - STRAAT</Zones>
+      <Zones>00518 - NUMMER VAN HET ADRES</Zones>
+      <Zones>00519 - BRIEVENBUS</Zones>
+      <Zones>00520 - POSTCODE</Zones>
+      <Zones>00522 - GEMEENTE</Zones>
+      <Zones>00523 - LANDCODE</Zones>
+      <XmlLabel>Address</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een adres volledig te specifiëren.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90023</NrGelinktBlok>
+      <Gelinktblok>90023 - Beschrijving van het adres</Gelinktblok>
+      <Aanwezigheid>Verplicht indien het gaat om het correspondentieadres (TypeOfAddress=="1") en indien het verschilt van het officiële adres van het slachtoffer</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90022-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90022-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90362</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Andere werkgever</Naam>
+      <Zones>00157 - BENAMING VAN DE WERKGEVER</Zones>
+      <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+      <XmlLabel>OtherEmployer</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de identificatiegegevens van de andere werkgever aan te geven</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>Verplicht indien de zone  00244 - VictimWorkingAtOtherEmployer = "1"  &#xA;En indien de zone 00430  IdentificationOfRisk = "001"&#xA;Verboden indien de zone 00430  IdentificationOfRisk = "002" (vereenvoudigde aangifte)	</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90362-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90362-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90362-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90132</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>AOAT001</Naam>
+      <Zones/>
+      <XmlLabel>AOAT001</XmlLabel>
+      <Omschrijving>Root van de XML-boodschap die toelaat aangiften van dit scenario te doen.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90059</NrGelinktBlok>
+      <Gelinktblok>90059 - Formulier</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90132-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90070</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Arts</Naam>
+      <Zones>00320 - IDENTIFICATIENUMMER RIZIV EXTERNE GENEESHEER</Zones>
+      <Zones>00324 - NAAM EXTERNE GENEESHEER</Zones>
+      <Zones>00323 - VOORNAAM EXTERNE GENEESHEER</Zones>
+      <XmlLabel>Doctor</XmlLabel>
+      <Omschrijving>Functioneel blok met de identificatiegegevens van een arts.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>VERPLICHT INDIEN 00294 (Werden er zorgen verstrekt door een externe geneesheer ?) = "001" (ja) en 00430 IdentificationOfRisk = "001" &#xA;VERBODEN in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90070-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90070-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90070-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90032</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Berekeningsbasis van de uitkeringen</Naam>
+      <Zones>00189 - TIJDSEENHEID VAN DE BEZOLDIGING</Zones>
+      <Zones>00190 - CYCLUS</Zones>
+      <Zones>00191 - BASISBEDRAG VAN DE BEZOLDIGING</Zones>
+      <Zones>00192 - BASISBEDRAG VAN DE BEZOLDIGING VOOR WERKNEMERS DIE PER UUR BETAALD WORDEN</Zones>
+      <Zones>01160 - AANDUIDING STABIELE TEWERKSTELLING</Zones>
+      <XmlLabel>CalculationBaseAllowance</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens van de berekeningsbasis van de uitkeringen aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief indien de werknemer een stagiair is die niet onderworpen is aan de RSZ (werknemerskengetal = 848 of 849). Verplicht in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90032-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90032-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90053</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Beschrijving arbeidsongeval</Naam>
+      <Zones/>
+      <XmlLabel>IndustrialAccidentDescription</XmlLabel>
+      <Omschrijving>Functioneel blok dat geen gegevens bevat, enkel een reeks andere functionele blokken die tesamen het arbeidsongeval volledig beschrijven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90024</NrGelinktBlok>
+      <NrGelinktBlok>90090</NrGelinktBlok>
+      <NrGelinktBlok>90056</NrGelinktBlok>
+      <NrGelinktBlok>90027</NrGelinktBlok>
+      <NrGelinktBlok>90080</NrGelinktBlok>
+      <Gelinktblok>90024 - Ongeval</Gelinktblok>
+      <Gelinktblok>90090 - Slachtoffer</Gelinktblok>
+      <Gelinktblok>90056 - Werkgever</Gelinktblok>
+      <Gelinktblok>90027 - Verzekering</Gelinktblok>
+      <Gelinktblok>90080 - Aanwezigheid</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90053-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90053-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90023</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Beschrijving van het adres</Naam>
+      <Zones>00516 - ADRESTYPE</Zones>
+      <XmlLabel>AddressDescription</XmlLabel>
+      <Omschrijving>Functioneel blok dat aangeeft aan wie het adres behoort en om welk type adres het gaat.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90023-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90023-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90041</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Coördinaten derde verantwoordelijke</Naam>
+      <Zones>00318 - NAAM VAN DE VERMOEDELIJK VERANTWOORDELIJKE DERDE</Zones>
+      <Zones>00330 - VOORNAAM VAN DE VERMOEDELIJK VERANTWOORDELIJKE DERDE</Zones>
+      <XmlLabel>CoordinatesThirdResponsable</XmlLabel>
+      <Omschrijving>Functioneel blok voor de identificatiegegevens van een derde verantwoordelijke.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>FACULTATIEF</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90041-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90040</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Coördinaten getuige</Naam>
+      <Zones>00309 - NAAM VAN DE GETUIGE</Zones>
+      <Zones>00310 - VOORNAAM VAN DE GETUIGE</Zones>
+      <XmlLabel>CoordinatesWitness</XmlLabel>
+      <Omschrijving>Functioneel blok voor de identificatiegegevens van een getuige.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>FACULTATIEF</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90040-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90088</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Derde verantwoordelijke</Naam>
+      <Zones>00326 - IS DE VERMOEDELIJK VERANTWOORDELIJKE DERDE GEKEND ?</Zones>
+      <XmlLabel>ThirdResponsable</XmlLabel>
+      <Omschrijving>Functioneel blok om aan te duiden of de derde verantwoordelijke gekend is.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90041</NrGelinktBlok>
+      <NrGelinktBlok>90028</NrGelinktBlok>
+      <Gelinktblok>90041 - Coördinaten derde verantwoordelijke</Gelinktblok>
+      <Gelinktblok>90028 - Verzekering derde verantwoordelijke</Gelinktblok>
+      <Aanwezigheid>VERPLICHT INDIEN Kunnen één of meerdere derden verantwoordelijk ... = "1" (ja) VERBODEN in de andere gevallen</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90088-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90088-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90088-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90039</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Economische gevolgen</Naam>
+      <Zones>00264 - GEVOLGEN VAN HET ONGEVAL</Zones>
+      <Zones>00266 - DATUM VAN STOPZETTING VAN DE BEROEPSACTIVITEIT</Zones>
+      <Zones>00276 - UUR VAN STOPZETTING VAN DE BEROEPSACTIVITEIT</Zones>
+      <Zones>00272 - WAARSCHIJNLIJKE DUUR VAN DE TIJDELIJKE ARBEIDSONGESCHIKTHEID OF VAN HET AANGEPAST WERK</Zones>
+      <Zones>00752 - IS DE HERVATTINGSDATUM MET ZEKERHEID GEKEND ?</Zones>
+      <XmlLabel>EconomicConsequences</XmlLabel>
+      <Omschrijving>Functioneel blok dat aangeeft wat de economische gevolgen zijn van het arbeidsongeval (welke soort ongeschiktheid, ongeschiktheidsduur,...).</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90016</NrGelinktBlok>
+      <Gelinktblok>90016 - Werkhervatting</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90039-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90039-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90059</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Formulier</Naam>
+      <Zones>00296 - IDENTIFICATIE VAN HET FORMULIER</Zones>
+      <Zones>00218 - DATUM VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00299 - PRECIES UUR VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00110 - STATUS VAN HET ATTEST</Zones>
+      <Zones>00297 - TYPE VAN HET FORMULIER</Zones>
+      <XmlLabel>Form</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een formulier aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90171</NrGelinktBlok>
+      <NrGelinktBlok>90064</NrGelinktBlok>
+      <NrGelinktBlok>90082</NrGelinktBlok>
+      <NrGelinktBlok>90067</NrGelinktBlok>
+      <Gelinktblok>90171 - Informatie van de aangifte</Gelinktblok>
+      <Gelinktblok>90064 - Identificatie risico</Gelinktblok>
+      <Gelinktblok>90082 - Referentie</Gelinktblok>
+      <Gelinktblok>90067 - Link met aangifte werkgever</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90059-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90059-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90059-452</AnomalieCode>
+         <AnomalieTitel>Bepaling tijdsindicatie sociaal risico onmogelijk</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90059-163</AnomalieCode>
+         <AnomalieTitel>Niet verwerkbaar formulier</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90107</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Gebruikende onderneming</Naam>
+      <Zones>00046 - NUMMER VAN PARITAIR COMITÉ</Zones>
+      <Zones>00153 - BENAMING VAN DE GEBRUIKENDE ONDERNEMING</Zones>
+      <Zones>00131 - ONDERNEMINGSNUMMER VAN DE GEBRUIKENDE ONDERNEMING</Zones>
+      <Zones>01185 - BTW-NUMMER</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>01254 - AANTAL OPEENVOLGENDE DAGCONTRACTEN</Zones>
+      <XmlLabel>UsingEmployer</XmlLabel>
+      <Omschrijving>Functioneel blok voor de identificatiegegevens van de gebruikende onderneming waar de getroffene als uitzendkracht tewerkgesteld is.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>VERPLICHT INDIEN 00265 (Is de getroffene een uitzendkracht ?) = "1" (ja) en 00430 IdentificationOfRisk ="001"&#xA;VERBODEN indien 00430 IdentificationOfRisk = "002"</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90107-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90107-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90107-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90087</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Getuige</Naam>
+      <Zones>00307 - SOORT GETUIGE</Zones>
+      <XmlLabel>Witness</XmlLabel>
+      <Omschrijving>Functioneel blok om aan te duiden over welk type getuige het gaat.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>3</MaximumKardinaliteit>
+      <NrGelinktBlok>90040</NrGelinktBlok>
+      <Gelinktblok>90040 - Coördinaten getuige</Gelinktblok>
+      <Aanwezigheid>VERPLICHT INDIEN 00301 Aanwezigheid van getuigen of ... = "1" (ja) VERBODEN in de andere gevallen</Aanwezigheid>
+      <ExtraBeperkingen>Het blok moet minstens één keer aanwezig zijn als de hierboven gespecifieerde voorwaarde vervuld is.&#xA;</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90087-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90087-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90087-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90064</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Identificatie risico</Naam>
+      <Zones>00430 - IDENTIFICATIE VAN HET RISICO</Zones>
+      <XmlLabel>RiskIdentification</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat het risico te identificeren.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90064-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90064-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90035</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Indeling</Naam>
+      <Zones>00342 - CODE INTERN RISICO</Zones>
+      <XmlLabel>Classification</XmlLabel>
+      <Omschrijving>Functioneel blok dat bedrijfseigen risicocodes bevat die de werkgever toelaten het ongeval toe te wijzen aan een specifiek onderdeel van zijn onderneming.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>5</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>FACULTATIEF &#xA;Verboden indien 00430 IdentificationOfRisk = "002"</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90035-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90035-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90360</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Informatie over de beschermingsmiddelen</Naam>
+      <Zones>00888 - BESCHERMINGSMIDDEL</Zones>
+      <Zones>00887 - COMMENTAAR</Zones>
+      <XmlLabel>ProtectionMeansInformation</XmlLabel>
+      <Omschrijving>Functioneel blok waarmee meegedeeld kan worden welke beschermingsmiddelen het slachtoffer gebruikte op het moment van het ongeval.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien dezone 00430 IdentificationOfRisk = "001"&#xA;Verboden indien de zone 00430 IdentificationOfRisk = "002"</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90360-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90360-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90360-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90361</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Informatie over de plaats van het ongeval</Naam>
+      <Zones>00889 - PLAATS VAN HET ONGEVAL</Zones>
+      <Zones>00890 - NOTIE VERKEERSONGEVAL</Zones>
+      <Zones>00821 - NUMMER VAN DE AANGIFTE VAN DE WERF</Zones>
+      <Zones>00816 - STRAAT VAN DE PLAATS VAN HET ONGEVAL</Zones>
+      <Zones>00817 - NUMMER VAN HET ADRES VAN DE PLAATS VAN HET ONGEVAl</Zones>
+      <Zones>00818 - BRIEVENBUS VAN DE PLAATS VAN HET ONGEVAL</Zones>
+      <Zones>00242 - POSTCODE VAN DE PLAATS VAN HET ONGEVAL</Zones>
+      <Zones>00243 - GEMEENTE VAN DE PLAATS VAN HET ONGEVAL</Zones>
+      <Zones>00241 - LANDCODE VAN DE PLAATS VAN HET ONGEVAL</Zones>
+      <XmlLabel>AccidentPlaceInformation</XmlLabel>
+      <Omschrijving>Functioneel blok waarin de informatie met betrekking tot de plaats van het arbeidsongeval kan worden meegedeeld</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90361-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90361-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90171</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Informatie van de aangifte</Naam>
+      <Zones>00156 - TAALKEUZE PDF</Zones>
+      <XmlLabel>DclInformation</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie bij de aangifte te preciseren.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90171-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90171-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90067</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Link met aangifte werkgever</Naam>
+      <Zones>00011 - RSZ-NUMMER</Zones>
+      <Zones>00012 - NOTIE CURATELE</Zones>
+      <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+      <XmlLabel>EmployerDeclarationLink</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens van de link met de werkgeversaangifte aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90017</NrGelinktBlok>
+      <Gelinktblok>90017 - Natuurlijke persoon</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90067-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90067-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90067-151</AnomalieCode>
+         <AnomalieTitel>Niet identificeerbaar</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90068</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Link met tewerkstelling werknemerslijn</Naam>
+      <Zones>00044 - DATUM WAAROP DE TEWERKSTELLING BEGINT</Zones>
+      <Zones>00045 - DATUM WAAROP DE TEWERKSTELLING EINDIGT</Zones>
+      <Zones>00046 - NUMMER VAN PARITAIR COMITÉ</Zones>
+      <Zones>00047 - AANTAL DAGEN PER WEEK VAN DE ARBEIDSREGELING</Zones>
+      <Zones>00048 - GEMIDDELD AANTAL UREN PER WEEK VAN DE WERKNEMER</Zones>
+      <Zones>00049 - GEMIDDELD AANTAL UREN PER WEEK VAN DE MAATPERSOON</Zones>
+      <Zones>00053 - STATUUT VAN DE WERKNEMER</Zones>
+      <Zones>00054 - NOTIE GEPENSIONEERD</Zones>
+      <Zones>00055 - TYPE LEERLING</Zones>
+      <Zones>00050 - TYPE ARBEIDSOVEREENKOMST</Zones>
+      <Zones>00056 - BEZOLDIGINGSWIJZE</Zones>
+      <XmlLabel>OccupationLink</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens in verband met de link met een tewerkstelling aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90031</NrGelinktBlok>
+      <NrGelinktBlok>90032</NrGelinktBlok>
+      <NrGelinktBlok>90061</NrGelinktBlok>
+      <NrGelinktBlok>90033</NrGelinktBlok>
+      <NrGelinktBlok>90053</NrGelinktBlok>
+      <Gelinktblok>90031 - Aanvullende berekeningsbasis van de uitkering</Gelinktblok>
+      <Gelinktblok>90032 - Berekeningsbasis van de uitkeringen</Gelinktblok>
+      <Gelinktblok>90061 - Verloren werkuren</Gelinktblok>
+      <Gelinktblok>90033 - Verandering van functie</Gelinktblok>
+      <Gelinktblok>90053 - Beschrijving arbeidsongeval</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90068-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90068-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90068-244</AnomalieCode>
+         <AnomalieTitel>Prestatiebreuk ongeldig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90068-159</AnomalieCode>
+         <AnomalieTitel>Toekenning van een tewerkstellingsnummer onmogelijk. Gegevens incoherent</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90063</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Link met werknemerslijn</Naam>
+      <Zones>00036 - WERKGEVERSCATEGORIE</Zones>
+      <Zones>00037 - WERKNEMERSKENGETAL</Zones>
+      <XmlLabel>WorkerRecordLink</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens in verband met de link met een werknemerslijn aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90068</NrGelinktBlok>
+      <Gelinktblok>90068 - Link met tewerkstelling werknemerslijn</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90063-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90063-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90038</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Medische gevolgen</Naam>
+      <Zones>00259 - HOE IS HET SLACHTOFFER GEWOND GERAAKT- FYSISCH OF PSYCHISCH LETSEL ? GELIEVE NAUWKEURIG ALLE VERSCHILLENDE CONTACTEN DIE DE VERWONDING(EN) HEBBEN VEROORZAAKT TE BESCHRIJVEN, ALSMEDE DE DAARBIJ BETROKKEN VOORWERPEN IN ORDE VAN BELANGRIJKHEID</Zones>
+      <Zones>00280 - ALSMEDE DE DAARBIJ BETROKKEN VOORWERPEN IN ORDE VAN BELANGRIJKHEID</Zones>
+      <Zones>00282 - CODE M.B.T. DE AARD VAN DE OPGELOPEN LETSELS</Zones>
+      <Zones>00284 - CODE M.B.T. HET VERWOND DEEL VAN HET LICHAAM</Zones>
+      <Zones>00286 - BESCHRIJVING MBT HET VERWOND DEEL VAN HET LICHAAM</Zones>
+      <Zones>00288 - DATUMRIJVING MBT DE PLAATS VAN DE OPGELOPEN LETSELS</Zones>
+      <Zones>00289 - DATUM VAN OVERLIJDEN</Zones>
+      <Zones>00290 - DATUMN ER ZORGEN VERSTREKT BIJ DE WERKGEVER ?</Zones>
+      <Zones>00291 - DATUM VAN DE INTERNE VERZORGING</Zones>
+      <Zones>00292 - UUR VAN DE VERZORGING</Zones>
+      <Zones>00293 - HOEDANIGHEID VAN DE VERSTREKKER</Zones>
+      <Zones>00294 - WERDEN ER ZORGEN VERSTREKT DOOR EEN EXTERNE GENEESHEER ?</Zones>
+      <Zones>00308 - DATUMN ER ZORGEN VERSTREKT DOOR EEN EXTERNE GENEESHEER ?</Zones>
+      <Zones>00311 - DATUM VAN DE MEDISCHE TUSSENKOMST DOOR DE EXTERNE GENEESHEER</Zones>
+      <Zones>00313 - WERDEN ER ZORGEN VERSTREKT IN EEN ZIEKENHUIS ?</Zones>
+      <Zones>00316 - DATUMN ER ZORGEN VERSTREKT IN EEN ZIEKENHUIS ?</Zones>
+      <Zones>00317 - DATUM VAN DE MEDISCHE TUSSENKOMST ZIEKENHUIS</Zones>
+      <XmlLabel>MedicalConsequences</XmlLabel>
+      <Omschrijving>Functioneel blok dat aangeeft wat de medische gevolgen zijn van het arbeidsongeval (verwondingen,...).</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90070</NrGelinktBlok>
+      <NrGelinktBlok>90062</NrGelinktBlok>
+      <Gelinktblok>90070 - Arts</Gelinktblok>
+      <Gelinktblok>90062 - Ziekenhuis</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90038-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90038-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90017</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Natuurlijke persoon</Naam>
+      <Zones>00023 - VOLGNUMMER NATUURLIJKE PERSOON</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>00167 - NUMMER VAN DE SOCIALE IDENTITEITSKAART</Zones>
+      <Zones>00025 - NAAM VAN DE WERKNEMER</Zones>
+      <Zones>00026 - VOORNAAM VAN DE WERKNEMER</Zones>
+      <Zones>00027 - INITIAAL VAN DE TWEEDE VOORNAAM VAN DE WERKNEMER</Zones>
+      <Zones>00028 - DATUM WAAROP DE WERKNEMER GEBOREN IS</Zones>
+      <Zones>00168 - GEMEENTE - GEBOORTEPLAATS VAN DE WERKNEMER</Zones>
+      <Zones>00169 - LANDCODE VAN DE GEBOORTEPLAATS VAN DE WERKNEMER</Zones>
+      <Zones>00029 - GESLACHT VAN DE WERKNEMER</Zones>
+      <Zones>00030 - STRAAT VAN DE WERKNEMER</Zones>
+      <Zones>00031 - NUMMER VAN HET ADRES VAN DE WERKNEMER</Zones>
+      <Zones>00032 - BRIEVENBUS VAN DE WERKNEMER</Zones>
+      <Zones>00033 - POSTCODE VAN DE WERKNEMER</Zones>
+      <Zones>00034 - GEMEENTE VAN DE WERKNEMER</Zones>
+      <Zones>00035 - LANDCODE VAN DE WERKNEMER</Zones>
+      <Zones>00119 - NATIONALITEIT VAN DE WERKNEMER</Zones>
+      <Zones>00615 - REFERENTIE GEBRUIKER - NATUURLIJKE PERSOON</Zones>
+      <XmlLabel>NaturalPerson</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de identificatiegegevens van een natuurlijke persoon aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90063</NrGelinktBlok>
+      <Gelinktblok>90063 - Link met werknemerslijn</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen>Het adres van de werknemer is verplicht aan te geven om het voor de verzekeraar mogelijk te maken het dossier van het slachtoffer af te werken.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90017-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90017-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90017-151</AnomalieCode>
+         <AnomalieTitel>Niet identificeerbaar</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90017-152</AnomalieCode>
+         <AnomalieTitel>Geen geldige werkrelatie gevonden voor de opgegeven periode of datum.</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90024</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Ongeval</Naam>
+      <Zones>00237 - DATUM VAN HET ONGEVAL</Zones>
+      <Zones>00238 - ZIJN HET UUR / MINUTEN VAN HET ONGEVAL GEKEND ?</Zones>
+      <Zones>00239 - UUR / MINUTEN VAN HET ONGEVAL</Zones>
+      <Zones>00240 - AARD VAN HET ONGEVAL</Zones>
+      <Zones>00252 - TYPE WERKPLAATS</Zones>
+      <Zones>00570 - UUR - BEGIN VAN DE NORMALE WERKUREN VAN HET SLACHTOFFER DE DAG VAN DE ONGEVALSFEITEN</Zones>
+      <Zones>00248 - UUR PAUZE VAN</Zones>
+      <Zones>00251 - UUR PAUZE TOT</Zones>
+      <Zones>00253 - UUR - EINDE VAN DE NORMALE WERKUREN VAN HET SLACHTOFFER DE DAG VAN DE ONGEVALSFEITEN</Zones>
+      <Zones>00246 - IN WELKE OMGEVING OF OP WELKE SOORT PLAATS BEVOND DE WERKNEMER ZICH TOEN HET ONGEVAL ZICH VOORDEED ? GELIEVE DE PLAATS NAUWKEURIG TE BEPALEN</Zones>
+      <Zones>00247 - DATUM VAN KENNISGEVING VAN HET ONGEVAL DOOR HET SLACHTOFFER AAN DE WERKGEVER</Zones>
+      <Zones>00249 - UUR VAN KENNISGEVING VAN HET ONGEVAL DOOR HET SLACHTOFFER AAN DE WERKGEVER</Zones>
+      <Zones>00250 - SOORT WERK DAT DE WERKNEMER AAN HET VERRICHTEN WAS</Zones>
+      <Zones>TAAK DIE HIJ AAN HET UITVOEREN WAS TOEN HET ONGEVAL ZICH VOORDEED ? GELIEVE HET SOORT WERK NAUWKEURIG TE BEPALEN</Zones>
+      <Zones>00255 - WAT WAS DE WERKNEMER PRECIES AAN HET DOEN TOEN HET ONGEVAL ZICH VOORDEED ? GELIEVE NAUWKEURIG DE SPECIFIEKE ACTIVITEIT EN DE BETROKKEN VOORWERPEN TE VERMELDEN</Zones>
+      <Zones>DIE ER EVENTUEEL BIJ BETROKKEN WAREN</Zones>
+      <Zones>00256 - WELKE VAN DE NORMALE GANG VAN HET WERK AFWIJKENDE GEBEURTENIS(SEN) HEEFT (HEBBEN) TOT HET ONGEVAL GELEID ? GELIEVE NAUWKEURIG ALLE ABNORMALE GEBEURTENISSEN TE VERMELDEN</Zones>
+      <Zones>ALSMEDE DE DAARBIJ BETROKKEN VOORWERPEN INDIEN ZE EEN ROL SPELEN OF GESPEELD HEBBEN BIJ DE ABNORMALE GEBEURTENIS</Zones>
+      <Zones>00257 - CODE VAN DE LAATSTE AFWIJKENDE GEBEURTENIS</Zones>
+      <Zones>00258 - CODE VAN HET BIJ DE AFWIJKENDE GEBEURTENIS BETROKKEN VOORWERP</Zones>
+      <Zones>00261 - JAAR VAN DE ONGEVALLENSTEEKKAART</Zones>
+      <Zones>00263 - VOLGNUMMER VAN DE ONGEVALLENSTEEKKAART</Zones>
+      <Zones>00753 - VEREENVOUDIGDE BESCHRIJVING VAN HET ONGEVAL</Zones>
+      <XmlLabel>Accident</XmlLabel>
+      <Omschrijving>Functioneel blok dat het arbeidsongeval en de omstandigheden waarin het gebeurde, beschrijft.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90039</NrGelinktBlok>
+      <NrGelinktBlok>90038</NrGelinktBlok>
+      <NrGelinktBlok>90035</NrGelinktBlok>
+      <NrGelinktBlok>90361</NrGelinktBlok>
+      <Gelinktblok>90039 - Economische gevolgen</Gelinktblok>
+      <Gelinktblok>90038 - Medische gevolgen</Gelinktblok>
+      <Gelinktblok>90035 - Indeling</Gelinktblok>
+      <Gelinktblok>90361 - Informatie over de plaats van het ongeval</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90024-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90024-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90071</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Preventiemaatregel</Naam>
+      <Zones>00273 - PREVENTIEMAATREGELEN DIE GETROFFEN WERDEN OF TE TREFFEN ZIJN OM GELIJKAARDIGE ONGEVALLEN TE VERMIJDEN</Zones>
+      <Zones>00274 - CODE PREVENTIEMAATREGEL</Zones>
+      <XmlLabel>PreventionMeasure</XmlLabel>
+      <Omschrijving>Functioneel blok ter beschrijving van preventiemaatregelen voor het voorkomen van arbeidsongevallen.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>2</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>FACULTATIEF&#xA;Verboden indien 00430 IdentificationOfRisk = "002"</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90071-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90071-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90081</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Proces verbaal</Naam>
+      <Zones>00303 - PLAATS WAAR HET PROCES-VERBAAL WERD OPGESTELD</Zones>
+      <Zones>00304 - VERBALISERENDE OVERHEID/ INSTANTIES</Zones>
+      <Zones>00305 - DATUM VAN DE OPSTELLING VAN HET PV</Zones>
+      <Zones>00306 - IDENTIFICATIENUMMER VAN HET PV</Zones>
+      <XmlLabel>VerbalLawsuit</XmlLabel>
+      <Omschrijving>Functioneel blok dat de gegevens van een proces-verbaal, opgesteld naar aanleiding van het arbeidsongeval, bevat</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>FACULTATIEF</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90081-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90082</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Referentie</Naam>
+      <Zones>00221 - TYPE VAN DE REFERENTIE</Zones>
+      <Zones>00298 - HERKOMST VAN DE REFERENTIE</Zones>
+      <Zones>00222 - REFERENTIENUMMER</Zones>
+      <XmlLabel>Reference</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat referenties te preciseren in verband met één of meer formulieren; een formulier kan een originele DmfA-aangifte zijn, een wijzigende DmfA-aangifte, een ASR, een aanvraag van inlichtingen, een Dimona aangifte, enz.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>FACULTATIEF. Er mag geen ticketnummer van de sociale zekerheid (00298 = "2" ) met een verwijzing naar een te wijzigen of te annuleren aangifte (00221 = "3") opgegeven worden.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90082-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90082-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90090</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Slachtoffer</Naam>
+      <Zones>00343 - TAALCODE VAN HET SLACHTOFFER</Zones>
+      <Zones>00359 - GRAAD VAN VERWANTSCHAP MET DE WERKGEVER</Zones>
+      <Zones>00514 - REKENINGNUMMER VAN DE SOCIAAL VERZEKERDE - SLACHTOFFER</Zones>
+      <Zones>00869 - FORMAAT VAN HET REKENINGNUMMER</Zones>
+      <Zones>00868 - BANKIDENTIFICATIECODE (BIC)</Zones>
+      <Zones>00154 - TELEFOONNUMMER VAN HET SLACHTOFFER</Zones>
+      <XmlLabel>Victim</XmlLabel>
+      <Omschrijving>Functioneel blok met extra gegevens over de getroffene: het betreft gegevens die niet voorkomen in het blok Natuurlijke Persoon.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <NrGelinktBlok>90073</NrGelinktBlok>
+      <NrGelinktBlok>90004</NrGelinktBlok>
+      <NrGelinktBlok>90360</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Gelinktblok>90073 - Ziekenfonds</Gelinktblok>
+      <Gelinktblok>90004 - Werk</Gelinktblok>
+      <Gelinktblok>90360 - Informatie over de beschermingsmiddelen</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90090-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90090-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90033</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Verandering van functie</Naam>
+      <Zones>00432 - IS HET SLACHTOFFER VAN FUNCTIE VERANDERD TIJDENS HET JAAR DAT VOORAFGAAT AAN HET ARBEIDSONGEVAL ?</Zones>
+      <Zones>00381 - DATUM LAATSTE WIJZIGING FUNCTIE</Zones>
+      <XmlLabel>FunctionChange</XmlLabel>
+      <Omschrijving>Functioneel blok om aan te geven of de getroffene in het jaar voorafgaand aan het arbeidsongeval eventueel van functie veranderd is.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien 00430 IdentificationOfRisk = "001"&#xA;Verboden indien 00430 IdentificationOfRisk = "002"</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90033-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90033-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90033-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90061</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Verloren werkuren</Naam>
+      <Zones>00384 - AANTAL VERLOREN ARBEIDSUREN</Zones>
+      <Zones>00379 - LOONVERLIES VOOR DE VERLOREN ARBEIDSUREN</Zones>
+      <XmlLabel>LostWorkingHours</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie over de verloren arbeidsuren aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90061-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90061-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90027</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Verzekering</Naam>
+      <Zones>00275 - IDENTIFICATIENUMMER WETSVERZEKERAAR</Zones>
+      <Zones>00277 - POLISNUMMER VAN DE WETSVERZEKERAAR</Zones>
+      <Zones>00278 - WERKT UW VERZEKERAAR VOOR HET VERMELDE POLISNUMMER MET EEN BIJKOMENDE ONDERVERDELING VAN TOEPASSING VOOR DIT SPECIFIEKE ONGEVAL ?</Zones>
+      <Zones>00281 - NUMMER VAN DE ONDERVERDELING</Zones>
+      <Zones>00283 - TARIEFCODE VAN HET SLACHTOFFER IN OVEREENSTEMMING MET DE VERZEKERINGSPOLIS</Zones>
+      <XmlLabel>Insurance</XmlLabel>
+      <Omschrijving>Functioneel blok ter identificatie van de arbeidsongevallenpolis die van toepassing is op het ongeval.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90027-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90027-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90028</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Verzekering derde verantwoordelijke</Naam>
+      <Zones>00287 - NUMMER VAN DE AANSPRAKELIJKHEIDSPOLIS VAN DE VERMOEDELIJK VERANTWOORDELIJKE DERDE</Zones>
+      <Zones>00571 - NAAM VAN DE VERZEKERAAR VAN DE VERMOEDELIJK VERANTWOORDELIJKE DERDE</Zones>
+      <XmlLabel>InsuranceThirdResponsable</XmlLabel>
+      <Omschrijving>Functioneel blok voor de gegevens in verband met de verzekering van de derde verantwoordelijke.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>FACULTATIEF</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90028-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90004</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Werk</Naam>
+      <Zones>00244 - NOTIE 'ANDERE WERKGEVER' IN WIENS VESTIGING HET SLACHTOFFER WERKTE</Zones>
+      <Zones>00260 - IS DE DATUM VAN UITDIENSTTREDING GEKEND ?</Zones>
+      <Zones>00385 - DATUM WAAROP DE RELATIE WERKGEVER-WERKNEMER EINDIGT</Zones>
+      <Zones>00265 - IS DE GETROFFENE EEN UITZENDKRACHT ?</Zones>
+      <Zones>00267 - DIMONANUMMER</Zones>
+      <Zones>00368 - ISCO-CODE VAN HET SLACHTOFFER</Zones>
+      <Zones>00369 - GEWOON BEROEP IN DE ONDERNEMING</Zones>
+      <Zones>00885 - CODE DIE DE DUUR VAN DE ARBEIDSOVEREENKOMST PRECISEERT</Zones>
+      <Zones>00886 - ANCIENNITEIT IN HET GEWONE BEROEP</Zones>
+      <XmlLabel>Work</XmlLabel>
+      <Omschrijving>Functioneel blok dat gegevens verschaft in verband met de functie van de getroffene.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90107</NrGelinktBlok>
+      <NrGelinktBlok>90362</NrGelinktBlok>
+      <Gelinktblok>90107 - Gebruikende onderneming</Gelinktblok>
+      <Gelinktblok>90362 - Andere werkgever</Gelinktblok>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90004-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90004-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90056</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Werkgever</Naam>
+      <Zones>00268 - REKENINGNUMMER BIJ EEN FINANCIELE INSTELLING</Zones>
+      <Zones>00869 - FORMAAT VAN HET REKENINGNUMMER</Zones>
+      <Zones>00868 - BANKIDENTIFICATIECODE (BIC)</Zones>
+      <Zones>00269 - TELEFOONNUMMER VAN DE CONTACTPERSOON</Zones>
+      <Zones>00042 - IDENTIFICATIENUMMER VAN DE LOKALE EENHEID</Zones>
+      <XmlLabel>Employer</XmlLabel>
+      <Omschrijving>Functioneel blok met extra gegevens over de werkgever: het betreft gegevens die niet voorkomen in het blok Aangifte Werkgever.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90071</NrGelinktBlok>
+      <Gelinktblok>90071 - Preventiemaatregel</Gelinktblok>
+      <Aanwezigheid>Verplicht indien er verschillende lokale eenheden bestaan.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90056-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90056-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90016</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Werkhervatting</Naam>
+      <Zones>00128 - DATUM VAN WERKHERVATTING</Zones>
+      <XmlLabel>WorkRecovery</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie over werkhervatting aan te geven</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Omnisbaar  indien WorkRecoveryDateKnow = "1"  (ja) &#xA;Verboden in de andere gevallen</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90016-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90016-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90016-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90073</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Ziekenfonds</Naam>
+      <Zones>00118 - CODE VAN HET ZIEKENFONDS</Zones>
+      <Zones>00361 - BENAMING VAN HET ZIEKENFONDS VAN DE GETROFFENE</Zones>
+      <Zones>00362 - AANSLUITINGSNUMMER VAN DE GETROFFENE BIJ HET ZIEKENFONDS</Zones>
+      <XmlLabel>Mutuality</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat het ziekenfonds te identificeren.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>FACULTATIEF</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90073-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90062</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Ziekenhuis</Naam>
+      <Zones>00334 - IDENTIFICATIENUMMER RIZIV ZIEKENHUIS</Zones>
+      <Zones>00335 - BENAMING ZIEKENHUIS</Zones>
+      <XmlLabel>Hospital</XmlLabel>
+      <Omschrijving>Functioneel blok met de identificatiegegevens van een ziekenhuis.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>VERPLICHT INDIEN 00313 Werden er zorgen verstrekt in een ziekenhuis ? = "1" (ja). VERBODEN in de andere gevallen.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90062-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90062-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90062-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+</List>

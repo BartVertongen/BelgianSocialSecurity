@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <FunctionalBlock>
+      <Code>90543</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Andere verminderingscodes</Naam>
+      <Zones>00086 - VERMINDERINGSCODE</Zones>
+      <XmlLabel>AlternativeDeductions</XmlLabel>
+      <Omschrijving>Functioneel blok dat een lijst met DmfA verminderingscodes waarop de gegevens in de record recht geven bevat.&#xA;Hier worden de codes vermeld die gebruikt worden in de kwartaalaangifte, maar die minder voordelig zijn dan de codes vermeldt in het blok met meest gunstige verminderingscodes. &#xA;Opmerking hierbij is dat er nog andere factoren zijn die het recht op de vermindering bepalen, bijvoorbeeld de prestatiebreuk.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatie</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90539</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Ecaro Answer</Naam>
+      <Zones/>
+      <XmlLabel>EcaroAnswer</XmlLabel>
+      <Omschrijving>Functioneel blok dat dient als root element voor een Ecaro Answer boodschap.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90540</NrGelinktBlok>
+      <NrGelinktBlok>90541</NrGelinktBlok>
+      <Gelinktblok>90540 - Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</Gelinktblok>
+      <Gelinktblok>90541 - Record met gegevens Vlaamse tewerkstellingsmaatregel voor een natuurlijke persoon</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90544</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Geldigheidsperiode</Naam>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <Zones>00911 - DATUM EINDE</Zones>
+      <XmlLabel>ValidityPeriod</XmlLabel>
+      <Omschrijving>Geldigheidsperiode</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90548</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Geldigheidsperiode scholingsgraad zonder portfolio</Naam>
+      <Zones>01156 - DATUM BEGIN PERIODE WAARIN DE SCHOLINGSGRAAD GELDIG IS ONGEACHT ANDERE VOORWAARDEN</Zones>
+      <Zones>01157 - DATUM EINDE PERIODE WAARIN DE SCHOLINGSGRAAD GELDIG IS ONGEACHT ANDERE VOORWAARDEN</Zones>
+      <XmlLabel>ValidityPeriodWithoutCareerPortfolio</XmlLabel>
+      <Omschrijving>Proforma periode, de periode waarin de scholingsgraad geldig is ongeacht andere voorwaarden voor de doelgroep. Deze periode komt dus niet noodzakelijk overen met de periode waarin de persoon deel uitmaakt van de doelgroep.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90545</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Geldigheidsperiode vermindering</Naam>
+      <Zones>00090 - DATUM VANAF DEWELKE HET RECHT OP DE VERMINDERING GELDT</Zones>
+      <Zones>01155 - DATUM TOT DEWELKE HET RECHT OP DE VERMINDERING GELDT</Zones>
+      <XmlLabel>DeductionRightPeriod</XmlLabel>
+      <Omschrijving>Geldigheidsperiode vermindering.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90542</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Meest gunstige verminderingscodes</Naam>
+      <Zones>00086 - VERMINDERINGSCODE</Zones>
+      <XmlLabel>MostAdvantageousDeductions</XmlLabel>
+      <Omschrijving>Functioneel blok dat een lijst met DmfA verminderingscodes waarop de gegevens in de record recht geven bevat.&#xA;Hier worden de codes vermeld die gebruikt worden in de kwartaalaangifte en die in principe aan de werkgever het grootste voordeel geven voor de betrokken persoon.&#xA;Opmerking hierbij is dat er nog andere factoren zijn die het recht op de vermindering bepalen, bijvoorbeeld de prestatiebreuk.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90546</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Record met gegevens rond de Vlaamse doelgroep jongeren</Naam>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>01201 - DATUM AANVRAAG CONSULTATIE</Zones>
+      <Zones>01149 - TYPE BIJDRAGEVERMINDERING</Zones>
+      <Zones>00938 - DATUM VAN DE LAATSTE BIJWERKING</Zones>
+      <Zones>00898 - DATUM VAN ONTVANGST</Zones>
+      <Zones>00808 - SECTORCODE</Zones>
+      <Zones>01152 - SCHOLINGSGRAAD</Zones>
+      <XmlLabel>YoungWorkerInformation</XmlLabel>
+      <Omschrijving>Record met gegevens rond de Vlaamse doelgroep jongeren</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90542</NrGelinktBlok>
+      <NrGelinktBlok>90543</NrGelinktBlok>
+      <NrGelinktBlok>90544</NrGelinktBlok>
+      <NrGelinktBlok>90548</NrGelinktBlok>
+      <Gelinktblok>90542 - Meest gunstige verminderingscodes</Gelinktblok>
+      <Gelinktblok>90543 - Andere verminderingscodes</Gelinktblok>
+      <Gelinktblok>90544 - Geldigheidsperiode</Gelinktblok>
+      <Gelinktblok>90548 - Geldigheidsperiode scholingsgraad zonder portfolio</Gelinktblok>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90554</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding</Naam>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>01201 - DATUM AANVRAAG CONSULTATIE</Zones>
+      <Zones>01149 - TYPE BIJDRAGEVERMINDERING</Zones>
+      <Zones>00938 - DATUM VAN DE LAATSTE BIJWERKING</Zones>
+      <Zones>00898 - DATUM VAN ONTVANGST</Zones>
+      <Zones>00808 - SECTORCODE</Zones>
+      <Zones>01163 - DATUM BEGIN - LOOPBAANPORTFOLIO</Zones>
+      <XmlLabel>PartTimeYoungWorkerInformation</XmlLabel>
+      <Omschrijving>Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90542</NrGelinktBlok>
+      <NrGelinktBlok>90543</NrGelinktBlok>
+      <NrGelinktBlok>90544</NrGelinktBlok>
+      <Gelinktblok>90542 - Meest gunstige verminderingscodes</Gelinktblok>
+      <Gelinktblok>90543 - Andere verminderingscodes</Gelinktblok>
+      <Gelinktblok>90544 - Geldigheidsperiode</Gelinktblok>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90547</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Record met gegevens rond de Vlaamse doelgroep ouderen</Naam>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>01201 - DATUM AANVRAAG CONSULTATIE</Zones>
+      <Zones>01149 - TYPE BIJDRAGEVERMINDERING</Zones>
+      <Zones>00938 - DATUM VAN DE LAATSTE BIJWERKING</Zones>
+      <Zones>00898 - DATUM VAN ONTVANGST</Zones>
+      <Zones>00808 - SECTORCODE</Zones>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <XmlLabel>OlderWorkerInformation</XmlLabel>
+      <Omschrijving>Record met gegevens rond de Vlaamse doelgroep ouderen</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90542</NrGelinktBlok>
+      <NrGelinktBlok>90543</NrGelinktBlok>
+      <Gelinktblok>90542 - Meest gunstige verminderingscodes</Gelinktblok>
+      <Gelinktblok>90543 - Andere verminderingscodes</Gelinktblok>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90540</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</Naam>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>01201 - DATUM AANVRAAG CONSULTATIE</Zones>
+      <Zones>01149 - TYPE BIJDRAGEVERMINDERING</Zones>
+      <Zones>00938 - DATUM VAN DE LAATSTE BIJWERKING</Zones>
+      <Zones>00898 - DATUM VAN ONTVANGST</Zones>
+      <Zones>00808 - SECTORCODE</Zones>
+      <Zones>01087 - REFERENTIE VAN HET DOCUMENT</Zones>
+      <Zones>01150 - DATUM VAN AFLEVERING VAN DE WERKKAART</Zones>
+      <Zones>01151 - DATUM VAN AFLEVERING VAN DE STARTBAANKAART</Zones>
+      <Zones>01152 - SCHOLINGSGRAAD</Zones>
+      <Zones>01153 - BUITENLANDSE AFKOMST</Zones>
+      <Zones>01154 - MINDERVALIDE</Zones>
+      <Zones>00044 - DATUM WAAROP DE TEWERKSTELLING BEGINT</Zones>
+      <Zones>00011 - RSZ-NUMMER</Zones>
+      <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+      <XmlLabel>WorkerEmploymentMeasuresRecord</XmlLabel>
+      <Omschrijving>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon.&#xA;Deze gegevens zijn afkomstig van RVA, Forem, Actiris of ADG.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90542</NrGelinktBlok>
+      <NrGelinktBlok>90543</NrGelinktBlok>
+      <NrGelinktBlok>90544</NrGelinktBlok>
+      <NrGelinktBlok>90545</NrGelinktBlok>
+      <Gelinktblok>90542 - Meest gunstige verminderingscodes</Gelinktblok>
+      <Gelinktblok>90543 - Andere verminderingscodes</Gelinktblok>
+      <Gelinktblok>90544 - Geldigheidsperiode</Gelinktblok>
+      <Gelinktblok>90545 - Geldigheidsperiode vermindering</Gelinktblok>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90541</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Record met gegevens Vlaamse tewerkstellingsmaatregel voor een natuurlijke persoon</Naam>
+      <Zones/>
+      <XmlLabel>WorkerEmploymentMeasuresRecordFlanders</XmlLabel>
+      <Omschrijving>Record met gegevens Vlaamse tewerkstellingsmaatregel voor een natuurlijke persoon.&#xA;Deze gegevens zijn afkomstig van de VDAB.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90546</NrGelinktBlok>
+      <NrGelinktBlok>90547</NrGelinktBlok>
+      <NrGelinktBlok>90554</NrGelinktBlok>
+      <Gelinktblok>90546 - Record met gegevens rond de Vlaamse doelgroep jongeren</Gelinktblok>
+      <Gelinktblok>90547 - Record met gegevens rond de Vlaamse doelgroep ouderen</Gelinktblok>
+      <Gelinktblok>90554 - Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding</Gelinktblok>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+</List>

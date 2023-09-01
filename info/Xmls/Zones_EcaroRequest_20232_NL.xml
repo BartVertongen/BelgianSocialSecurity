@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <glossary>
+      <Code>00910</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>DATUM BEGIN</Titel>
+      <XmlLabel>StartingDate</XmlLabel>
+      <FunctioneelBlok>Ecaro consultatie gegevens</FunctioneelBlok>
+      <Omschrijving>Dit is de datum van aanwerving van de betrokken werknemer of de datum waarop hij het potentieel recht opent op de vermindering.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>10</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat>JJJJ-MM-DD&#xA;· JJJJ is het jaar&#xA;· MM is de maand&#xA;. DD is de dag</Formaat>
+
+      <Anomalie>
+         <AnomalieCode>00910-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00910-003</AnomalieCode>
+         <AnomalieTitel>Ongeldig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00910-008</AnomalieCode>
+         <AnomalieTitel>Niet in het toegelaten domein</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00910-093</AnomalieCode>
+         <AnomalieTitel>Foutieve lengte</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00910-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00910-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00024</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel>
+      <XmlLabel>INSS</XmlLabel>
+      <FunctioneelBlok>Ecaro consultatie gegevens</FunctioneelBlok>
+      <Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.&#xA;</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>11</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat>0 of NNNNNNNNNCC&#xA;· NNNNNNNNN is het nummer&#xA;· CC is het controlegetal.</Formaat>
+
+      <Anomalie>
+         <AnomalieCode>00024-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-002</AnomalieCode>
+         <AnomalieTitel>Niet numeriek</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-003</AnomalieCode>
+         <AnomalieTitel>Ongeldig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-004</AnomalieCode>
+         <AnomalieTitel>Ongeldig controlegetal</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-093</AnomalieCode>
+         <AnomalieTitel>Foutieve lengte</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-006</AnomalieCode>
+         <AnomalieTitel>Te veel identieke gevallen</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-098</AnomalieCode>
+         <AnomalieTitel>Onverenigbaarheid begindatum</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-134</AnomalieCode>
+         <AnomalieTitel>Geen gegevens</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-054</AnomalieCode>
+         <AnomalieTitel>Geen recht</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>00024-152</AnomalieCode>
+         <AnomalieTitel>Geen geldige werkrelatie gevonden voor de opgegeven periode of datum</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </glossary>
+</List>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <FunctionalBlock>
+      <Code>90022</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Adres</Naam>
+      <Zones>00517 - STRAAT</Zones>
+      <Zones>00518 - NUMMER VAN HET ADRES</Zones>
+      <Zones>00519 - BRIEVENBUS</Zones>
+      <Zones>00520 - POSTCODE</Zones>
+      <Zones>00522 - GEMEENTE</Zones>
+      <Zones>00523 - LANDCODE</Zones>
+      <XmlLabel>Address</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een adres volledig te specifiëren.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90258</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Communicatie</Naam>
+      <Zones>00677 - TELEFOONNUMMER</Zones>
+      <Zones>00636 - GSM-NUMMER</Zones>
+      <Zones>00678 - FAXNUMMER</Zones>
+      <Zones>00637 - E-MAILADRES</Zones>
+      <XmlLabel>Communication</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de informatie inzake communicatie aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90265</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Coördinaten werkgever</Naam>
+      <Zones>00157 - BENAMING VAN DE WERKGEVER</Zones>
+      <XmlLabel>CoordinatesEmployer</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de coördinaten van een werkgever aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90466</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Financiële situatie</Naam>
+      <Zones/>
+      <XmlLabel>FinancialSituation</XmlLabel>
+      <Omschrijving>Root-element van het XML-bericht dat het mogelijk maakt financiële situaties door te sturen.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90467</NrGelinktBlok>
+      <NrGelinktBlok>90468</NrGelinktBlok>
+      <NrGelinktBlok>90257</NrGelinktBlok>
+      <NrGelinktBlok>90367</NrGelinktBlok>
+      <NrGelinktBlok>90506</NrGelinktBlok>
+      <Gelinktblok>90467 - Financiële situatie - Informatie</Gelinktblok>
+      <Gelinktblok>90468 - Financiële situatie - Detail</Gelinktblok>
+      <Gelinktblok>90257 - Gegevens van de contactpersoon</Gelinktblok>
+      <Gelinktblok>90367 - Informatie over de bestemmeling</Gelinktblok>
+      <Gelinktblok>90506 - Informatie betreffende de werkgever</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90468</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Financiële situatie - Detail</Naam>
+      <Zones/>
+      <XmlLabel>FinancialSituationDetail</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de details van de financiële situatie te geven (door middel van berichten zoals Financiële toestand).</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90410</NrGelinktBlok>
+      <Gelinktblok>90410 - Specifieke gegevens voor de gebruikende toepassing</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90467</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Financiële situatie - Informatie</Naam>
+      <Zones>00222 - REFERENTIENUMMER</Zones>
+      <Zones>01038 - INITIATOR - FINANCIEEL ELEMENT</Zones>
+      <Zones>01039 - DOMEIN - FINANCIEEL ELEMENT</Zones>
+      <Zones>00011 - RSZ-NUMMER</Zones>
+      <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+      <Zones>00805 - DATUM VERZENDING</Zones>
+      <XmlLabel>FinancialSituationInformation</XmlLabel>
+      <Omschrijving>Functioneel blok waarmee informatie kan worden gegeven over de financiële situatie.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90257</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Gegevens van de contactpersoon</Naam>
+      <Zones>00726 - NAAM</Zones>
+      <Zones>00727 - VOORNAAM</Zones>
+      <XmlLabel>CoordinatesContactPerson</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens van de contactpersoon aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>2</MaximumKardinaliteit>
+      <NrGelinktBlok>90258</NrGelinktBlok>
+      <NrGelinktBlok>90366</NrGelinktBlok>
+      <Gelinktblok>90258 - Communicatie</Gelinktblok>
+      <Gelinktblok>90366 - Informatie over de sector</Gelinktblok>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90369</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Gegevens van de mandataris</Naam>
+      <Zones>00776 - BENAMING</Zones>
+      <XmlLabel>CoordinatesRepresentative</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens van een mandataris mee te delen</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90368</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Gegevens van het sociaal secretariaat</Naam>
+      <Zones>00479 - NUMMER VAN SOCIAAL SECRETARIAAT</Zones>
+      <Zones>00150 - NUMMER VAN ERKEND SOCIAAL SECRETARIAAT BIJKANTOOR</Zones>
+      <XmlLabel>CoordinatesSocialSecretariat</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens van een sociaal secretariaat aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90508</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Informatie betreffende de categorie van de werkgever</Naam>
+      <Zones>00036 - WERKGEVERSCATEGORIE</Zones>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <Zones>00911 - DATUM EINDE</Zones>
+      <XmlLabel>EmployerClassInformation</XmlLabel>
+      <Omschrijving>Functioneel blok waarmee de informatie betreffende de categorie van de werkgever kan worden hernomen.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90506</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Informatie betreffende de werkgever</Naam>
+      <Zones>00157 - BENAMING VAN DE WERKGEVER</Zones>
+      <Zones>01108 - GERECHTELIJKE ARRONDISSEMENT</Zones>
+      <Zones>00219 - RECHTSVORM</Zones>
+      <Zones>00164 - BELANGRIJKHEIDSCODE</Zones>
+      <Zones>00228 - NACE-CODE</Zones>
+      <XmlLabel>EmployerInformation</XmlLabel>
+      <Omschrijving>Functioneel blok waarmee informatie kan worden gegeven over de werkgever.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90369</NrGelinktBlok>
+      <NrGelinktBlok>90507</NrGelinktBlok>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <NrGelinktBlok>90508</NrGelinktBlok>
+      <Gelinktblok>90369 - Gegevens van de mandataris</Gelinktblok>
+      <Gelinktblok>90507 - Informatie over de activiteitsperiode van de werkgever</Gelinktblok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Gelinktblok>90508 - Informatie betreffende de categorie van de werkgever</Gelinktblok>
+      <Aanwezigheid>Niet aanwezig indien de zone "IDENTIFICATIE VAN HET FORMULIER" (00296) in het bericht Generieke uitwisseling gelijk is aan "FISI001". &#xA;Facultatief indien deze gelijk is aan "FISI002" of "FISI003". </Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90507</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Informatie over de activiteitsperiode van de werkgever</Naam>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <Zones>01109 - JAAR - KWARTAAL - BEGINKWARTAAL</Zones>
+      <Zones>01024 - DATUM - VERVALDATUM</Zones>
+      <Zones>00911 - DATUM EINDE</Zones>
+      <Zones>01110 - JAAR - KWARTAAL - EINDKWARTAAL</Zones>
+      <XmlLabel>EmployerActivityPeriod</XmlLabel>
+      <Omschrijving>Functioneel blok waarmee informatie over de activiteitsperiode van de werkgever kan worden hernomen.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90367</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Informatie over de bestemmeling</Naam>
+      <Zones/>
+      <XmlLabel>ReceiverInformation</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie over de bestemmeling te communiceren.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90368</NrGelinktBlok>
+      <NrGelinktBlok>90265</NrGelinktBlok>
+      <NrGelinktBlok>90257</NrGelinktBlok>
+      <NrGelinktBlok>90369</NrGelinktBlok>
+      <NrGelinktBlok>90022</NrGelinktBlok>
+      <Gelinktblok>90368 - Gegevens van het sociaal secretariaat</Gelinktblok>
+      <Gelinktblok>90265 - Coördinaten werkgever</Gelinktblok>
+      <Gelinktblok>90257 - Gegevens van de contactpersoon</Gelinktblok>
+      <Gelinktblok>90369 - Gegevens van de mandataris</Gelinktblok>
+      <Gelinktblok>90022 - Adres</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90366</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Informatie over de sector</Naam>
+      <Zones>00470 - KANTOORNUMMER</Zones>
+      <XmlLabel>SectorInformation</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie over de sector aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90410</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Specifieke gegevens voor de gebruikende toepassing</Naam>
+      <Zones/>
+      <XmlLabel>ApplicationData</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat om via een notificatie informatie mee te delen in verband met een origineel bericht, namelijk:&#xA;het originele bericht zelf &#xA;EN/OF&#xA;het verrijkte originele bericht &#xA;EN/OF&#xA;het impactrapport van dit originele bericht.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+</List>

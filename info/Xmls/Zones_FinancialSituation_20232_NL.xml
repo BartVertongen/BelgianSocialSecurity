@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <glossary>
+      <Code>00164</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>BELANGRIJKHEIDSCODE</Titel>
+      <XmlLabel>ImportanceCode</XmlLabel>
+      <FunctioneelBlok>Informatie betreffende de werkgever</FunctioneelBlok>
+      <Omschrijving>Code die wijst op de grootte van de onderneming.</Omschrijving>
+      <ToegelatenDomein>1 = 1 tot 4 werknemers&#xA;2 = 5 tot 9&#xA;3 = 10 tot 19&#xA;4 = 20 tot 49&#xA;5 = 50 tot 99&#xA;6 = 100 tot 199&#xA;7 = 200 tot 499&#xA;8 = 500 tot 999&#xA;9 = 1000 en meer</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>1</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00776</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>BENAMING</Titel>
+      <XmlLabel>Denomination</XmlLabel>
+      <FunctioneelBlok>Gegevens van de mandataris</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>96</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00157</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>BENAMING VAN DE WERKGEVER</Titel>
+      <XmlLabel>EmployerDenomination</XmlLabel>
+      <FunctioneelBlok>Coördinaten werkgever</FunctioneelBlok>
+      <Omschrijving>De benaming van de werkgever.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>96</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00157</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>BENAMING VAN DE WERKGEVER</Titel>
+      <XmlLabel>EmployerDenomination</XmlLabel>
+      <FunctioneelBlok>Informatie betreffende de werkgever</FunctioneelBlok>
+      <Omschrijving>De benaming van de werkgever.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>96</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00519</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>BRIEVENBUS</Titel>
+      <XmlLabel>PostBox</XmlLabel>
+      <FunctioneelBlok>Adres</FunctioneelBlok>
+      <Omschrijving>Nummer van een brievenbus.&#xA;</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>4</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>01024</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>DATUM - VERVALDATUM</Titel>
+      <XmlLabel>DueDate</XmlLabel>
+      <FunctioneelBlok>Informatie over de activiteitsperiode van de werkgever</FunctioneelBlok>
+      <Omschrijving>&#xA;Datum waarop de werkgever het bedrag verbonden aan de instructie dient te betalenDatum vanaf wanneer de RSZ de gegevens over het (her)aansluitingstrimester in een communicatie zal opnemen.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>10</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat>JJJJ-MM-DD&#xA;· JJJJ is het jaar&#xA;· MM is de maand&#xA;. DD is de dag</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00910</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>DATUM BEGIN</Titel>
+      <XmlLabel>StartingDate</XmlLabel>
+      <FunctioneelBlok>Informatie betreffende de categorie van de werkgever</FunctioneelBlok>
+      <Omschrijving>Begindatum van de werkgeversactiviteit.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>10</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat>JJJJ-MM-DD&#xA;· JJJJ is het jaar&#xA;· MM is de maand&#xA;. DD is de dag</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00910</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>DATUM BEGIN</Titel>
+      <XmlLabel>StartingDate</XmlLabel>
+      <FunctioneelBlok>Informatie over de activiteitsperiode van de werkgever</FunctioneelBlok>
+      <Omschrijving>Begindatum van de werkgeversactiviteit.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>10</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat>JJJJ-MM-DD&#xA;· JJJJ is het jaar&#xA;· MM is de maand&#xA;. DD is de dag</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00911</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>DATUM EINDE</Titel>
+      <XmlLabel>EndingDate</XmlLabel>
+      <FunctioneelBlok>Informatie betreffende de categorie van de werkgever</FunctioneelBlok>
+      <Omschrijving>Einddatum van de werkgeversactiviteit.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>10</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat>JJJJ-MM-DD&#xA;· JJJJ is het jaar&#xA;· MM is de maand&#xA;. DD is de dag</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00911</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>DATUM EINDE</Titel>
+      <XmlLabel>EndingDate</XmlLabel>
+      <FunctioneelBlok>Informatie over de activiteitsperiode van de werkgever</FunctioneelBlok>
+      <Omschrijving>Einddatum van de werkgeversactiviteit.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>10</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat>JJJJ-MM-DD&#xA;· JJJJ is het jaar&#xA;· MM is de maand&#xA;. DD is de dag</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00805</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>DATUM VERZENDING</Titel>
+      <XmlLabel>DateSubmission</XmlLabel>
+      <FunctioneelBlok>Financiële situatie - Informatie</FunctioneelBlok>
+      <Omschrijving>&#xA;Datum van de verzending</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>10</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat>JJJJ-MM-DD&#xA;· JJJJ is het jaar&#xA;· MM is de maand&#xA;. DD is de dag</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>01039</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>DOMEIN - FINANCIEEL ELEMENT</Titel>
+      <XmlLabel>FinancialTransactionDomain</XmlLabel>
+      <FunctioneelBlok>Financiële situatie - Informatie</FunctioneelBlok>
+      <Omschrijving>Zone die toelaat te preciseren tot welk domein het financiële element behoort.In dit bericht gaat het om het domein waartoe de financiële situatie behoort.</Omschrijving>
+      <ToegelatenDomein>1 = Wijzigend bericht&#xA;2 = Voorschot&#xA;3 = Herinnering&#xA;4 = Inhouding op factuur&#xA;5 = Lijst van de kredieten&#xA;6 = Analyse van rekening&#xA;7 = Debetbericht</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>2</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00637</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>E-MAILADRES</Titel>
+      <XmlLabel>EmailAddress</XmlLabel>
+      <FunctioneelBlok>Communicatie</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>60</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00678</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>FAXNUMMER</Titel>
+      <XmlLabel>FaxNbr</XmlLabel>
+      <FunctioneelBlok>Communicatie</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>20</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00522</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>GEMEENTE</Titel>
+      <XmlLabel>City</XmlLabel>
+      <FunctioneelBlok>Adres</FunctioneelBlok>
+      <Omschrijving>Naam van een gemeente.&#xA;</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>40</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>01108</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>GERECHTELIJKE ARRONDISSEMENT</Titel>
+      <XmlLabel>LegalDistrict</XmlLabel>
+      <FunctioneelBlok>Informatie betreffende de werkgever</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein>Zie bijlage "Lijst met gerechtelijke arrondissementen".</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>3</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00636</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>GSM-NUMMER</Titel>
+      <XmlLabel>GSMNbr</XmlLabel>
+      <FunctioneelBlok>Communicatie</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>20</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>01038</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>INITIATOR - FINANCIEEL ELEMENT</Titel>
+      <XmlLabel>FinancialNoteInitiator</XmlLabel>
+      <FunctioneelBlok>Financiële situatie - Informatie</FunctioneelBlok>
+      <Omschrijving>Zone die toelaat te preciseren welke toepassing of welk proces het financiële element heeft aangemaakt.In dit bericht verwijst het financiële element naar de financiële situatie.</Omschrijving>
+      <ToegelatenDomein>1 = Beware ( toepassing die toelaat de boekhoudkundige informatie mee te delen in verband met de wijzigingen van de DmfA en, eventueel, de gegevens in verband met het bericht van wijziging der bijdragen dat hiervan het resultaat is)&#xA;&#xA;2 = Voorschotten (toepassing die toelaat het bedrag aan voorschotten te berekenen en mee te delen dat maandelijks betaald moet worden door de werkgevers (uitgezonderd provinciale en plaatselijke besturen) voor de bijdragen van het lopende kwartaal)&#xA;&#xA;3 = ADFAN (ondersteuning voor geautomatiseerd toezicht op de werkgeversrekeningen, geëxploiteerd door de Inningdiensten van de RSZ)&#xA;&#xA;4 = PPR (toepassing waarmee de betrokkenen kunnen nagaan of een inhoudingsplicht van toepassing is op de factuur die door een bepaalde onderneming wordt voorgelegd voor de uitvoering van werken)&#xA;&#xA;5 = Lijst van de kredieten (toepassing waarmee de betalingen van het huidige trimester voor werkgevers (uitgezonderd provinciale en plaatselijke besturen) berekend en gecommuniceerd worden)&#xA;&#xA;6 = Analyse van rekening gestart door de buitenwereld&#xA;&#xA;7 = Analyse van rekening gestart door de RSZ&#xA;&#xA;8 = Debetberichten (toepassing die toelaat om boekhoudkundige informatie mee te delen in verband met de specifieke bijdragen)</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>2</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>01109</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>JAAR - KWARTAAL - BEGINKWARTAAL</Titel>
+      <XmlLabel>StartingQuarter</XmlLabel>
+      <FunctioneelBlok>Informatie over de activiteitsperiode van de werkgever</FunctioneelBlok>
+      <Omschrijving>Bepaling van het jaar en het kwartaal.&#xA;Bepaling van het jaar en het beginkwartaal.Kwartaal waarvoor een eerste aangifte verwacht wordt in functie van de (her)aansluitingsdatum.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>5</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat>JJJJK&#xA;. JJJJ is het jaar&#xA;. K is het kwartaal</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>01110</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>JAAR - KWARTAAL - EINDKWARTAAL</Titel>
+      <XmlLabel>EndingQuarter</XmlLabel>
+      <FunctioneelBlok>Informatie over de activiteitsperiode van de werkgever</FunctioneelBlok>
+      <Omschrijving>Bepaling van het jaar en het kwartaal.&#xA;Bepaling van het jaar en het eindkwartaal.Eindkwartaal van activiteit van de werkgever.</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>5</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat>JJJJK&#xA;. JJJJ is het jaar&#xA;. K is het kwartaal</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00470</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>KANTOORNUMMER</Titel>
+      <XmlLabel>OfficeNumber</XmlLabel>
+      <FunctioneelBlok>Informatie over de sector</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>3</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00523</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>LANDCODE</Titel>
+      <XmlLabel>Country</XmlLabel>
+      <FunctioneelBlok>Adres</FunctioneelBlok>
+      <Omschrijving>Code die toelaat een land te identificeren.&#xA;</Omschrijving>
+      <ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.&#xA;</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>5</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00726</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>NAAM</Titel>
+      <XmlLabel>Name</XmlLabel>
+      <FunctioneelBlok>Gegevens van de contactpersoon</FunctioneelBlok>
+      <Omschrijving>Familienaam van een natuurlijk persoon.&#xA;Men moet de naam vermelden die op het paspoort of de identiteitskaart staat.&#xA;Voor vrouwen van Belgische nationaliteit gaat het om de meisjesnaam.&#xA;</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>48</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00228</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>NACE-CODE</Titel>
+      <XmlLabel>ActivityCode</XmlLabel>
+      <FunctioneelBlok>Informatie betreffende de werkgever</FunctioneelBlok>
+      <Omschrijving>Code die de economische activiteiten van een werkgever of van zijn vestigingseenheden aanduidt. Het gaat om de nomenclatuur NACE-BEL, gebruikt op Europees niveau</Omschrijving>
+      <ToegelatenDomein>Zie Bijlage 31 - Lijst van de NACE-codes.</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>5</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00150</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>NUMMER VAN ERKEND SOCIAAL SECRETARIAAT BIJKANTOOR</Titel>
+      <XmlLabel>FilialSecSocNbr</XmlLabel>
+      <FunctioneelBlok>Gegevens van het sociaal secretariaat</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>3</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00518</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>NUMMER VAN HET ADRES</Titel>
+      <XmlLabel>HouseNbr</XmlLabel>
+      <FunctioneelBlok>Adres</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>10</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00479</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>NUMMER VAN SOCIAAL SECRETARIAAT</Titel>
+      <XmlLabel>SocialSecretariatNumber</XmlLabel>
+      <FunctioneelBlok>Gegevens van het sociaal secretariaat</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>3</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00014</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>ONDERNEMINGSNUMMER</Titel>
+      <XmlLabel>CompanyID</XmlLabel>
+      <FunctioneelBlok>Financiële situatie - Informatie</FunctioneelBlok>
+      <Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.&#xA;</Omschrijving>
+      <ToegelatenDomein>&#xA;Getal van 10 cijfers waarvan :&#xA;de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;&#xA;de posities 9 en 10 overeenkomen met een controlegetal.&#xA;Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>10</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00520</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>POSTCODE</Titel>
+      <XmlLabel>ZIPCode</XmlLabel>
+      <FunctioneelBlok>Adres</FunctioneelBlok>
+      <Omschrijving>Postnummer van een gemeente.&#xA;</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>9</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00219</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>RECHTSVORM</Titel>
+      <XmlLabel>LegalForm</XmlLabel>
+      <FunctioneelBlok>Informatie betreffende de werkgever</FunctioneelBlok>
+      <Omschrijving>Rechtsvorm van de onderneming.</Omschrijving>
+      <ToegelatenDomein>Zie bijlage 22 - Lijst met de afkortingen van de rechtsvormen.</ToegelatenDomein>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>20</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00222</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>REFERENTIENUMMER</Titel>
+      <XmlLabel>ReferenceNbr</XmlLabel>
+      <FunctioneelBlok>Financiële situatie - Informatie</FunctioneelBlok>
+      <Omschrijving>Het referentienummer.</Omschrijving>
+      <ToegelatenDomein>In dit bericht is de toegelaten lengte voor deze zone 20 tekens.</ToegelatenDomein>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>64</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00011</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>RSZ-NUMMER</Titel>
+      <XmlLabel>NOSSRegistrationNbr</XmlLabel>
+      <FunctioneelBlok>Financiële situatie - Informatie</FunctioneelBlok>
+      <Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.&#xA;</Omschrijving>
+      <ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.&#xA;Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.&#xA;</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>9</Lengte>
+      <Aanwezigheid>Verplicht indien de zone "IDENTIFICATIE VAN HET FORMULIER" (00296) in het bericht Generieke uitwisseling gelijk is aan "FISI001".&#xA;Facultatief indien deze gelijk is aan "FISI002" of "FISI003".  </Aanwezigheid>
+      <Formaat>0 of NNNNNNNCC&#xA;· NNNNNNN is het nummer&#xA;· CC is het controlegetal.</Formaat>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00517</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>STRAAT</Titel>
+      <XmlLabel>Street</XmlLabel>
+      <FunctioneelBlok>Adres</FunctioneelBlok>
+      <Omschrijving>Openbare weg.&#xA;</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>42</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00677</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>TELEFOONNUMMER</Titel>
+      <XmlLabel>PhoneNbr</XmlLabel>
+      <FunctioneelBlok>Communicatie</FunctioneelBlok>
+      <Omschrijving/>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>20</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00727</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>VOORNAAM</Titel>
+      <XmlLabel>FirstName</XmlLabel>
+      <FunctioneelBlok>Gegevens van de contactpersoon</FunctioneelBlok>
+      <Omschrijving>Eerste voornaam van een natuurlijk persoon.&#xA;</Omschrijving>
+      <ToegelatenDomein/>
+      <Referentie/>
+      <Type>Alfanumeriek</Type>
+      <Lengte>24</Lengte>
+      <Aanwezigheid>Facultatief </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+
+   <glossary>
+      <Code>00036</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>WERKGEVERSCATEGORIE</Titel>
+      <XmlLabel>EmployerClass</XmlLabel>
+      <FunctioneelBlok>Informatie betreffende de categorie van de werkgever</FunctioneelBlok>
+      <Omschrijving>Het categoriekengetal laat toe een onderscheid te maken tussen de werkgevers naargelang hun verplichtingen in functie van de bijzondere kenmerken die eigen zijn aan de uitgeoefende activiteit. Het wordt toegekend door de RSZ.&#xA;Voor een provinciaal of plaatselijk bestuur bepaalt deze categorie-aanduiding de bijdrageverplichtingen van de besturen in functie van de vakantieregeling die zij op hun contractuele personeelsleden toepassen of van de pensioenregeling waarbij hun vastbenoemde personeelsleden aangesloten zijn.</Omschrijving>
+      <ToegelatenDomein>Getal van 3 cijfers toegekend door de RSZ.&#xA;</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>3</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+</List>

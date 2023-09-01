@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <FunctionalBlock>
+      <Code>90563</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Detail Economische werkloosheidsdagen buiten bouwsector : Consultation</Naam>
+      <Zones>00013 - JAAR - KWARTAAL</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>01177 - BEREKENDE ECONOMISCHE WERKLOOSHEIDSDAGEN BUITEN DE BOUWSECTOR</Zones>
+      <XmlLabel>EcoUnemploymentDaysConsultDetail</XmlLabel>
+      <Omschrijving>Functioneel blok met de gedetailleerde gegevens over de gevraagde economische werkloosheidsdagen.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90562</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Economische werkloosheidsdagen buiten de bouwsector - Consultation</Naam>
+      <Zones>00609 - RESULTAATCODE VAN DE OPZOEKING</Zones>
+      <XmlLabel>EcoUnemploymentDaysConsultation</XmlLabel>
+      <Omschrijving>Functioneel blok met gegevens over de gevraagde economische werkloosheidsdagen.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90563</NrGelinktBlok>
+      <Gelinktblok>90563 - Detail Economische werkloosheidsdagen buiten bouwsector : Consultation</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90561</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Economische werkloosheidsdagen buiten de bouwsector - Consultation Answer</Naam>
+      <Zones/>
+      <XmlLabel>EcoUnemploymentDaysConsultAnswer</XmlLabel>
+      <Omschrijving>Root-element van het XML-bericht dat het mogelijk maakt om te beantwoorden aan een aanvraag tot consultatie van het aantal economische werkloosheidsdagen buiten de bouwsector.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90562</NrGelinktBlok>
+      <Gelinktblok>90562 - Economische werkloosheidsdagen buiten de bouwsector - Consultation</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+</List>
