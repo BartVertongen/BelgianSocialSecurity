@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <FunctionalBlock>
+      <Code>90487</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Informatie over de eindbeslissing</Naam>
+      <Zones>00107 - RESULTAATCODE</Zones>
+      <XmlLabel>FinalDecisionInformation</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie over de eindbeslissing (van de sector Werkloosheid) te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>ONMISBAAR</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+</List>

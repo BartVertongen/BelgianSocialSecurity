@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>01262</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>AANDUIDING ARTIKEL 147/1</Titel><XmlLabel>Art147Indicator</XmlLabel><FunctioneelBlok>Gegevens responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Zone die aanduidt of artikel 147/1 van toepassing is op de werkgever of niet.</Omschrijving><ToegelatenDomein>0 = Artikel 147/1 is niet van toepassing voor de werkgever
+1 = Artikel 147/1 is van toepassing voor de werkgever</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01109</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>JAAR - KWARTAAL - BEGINKWARTAAL</Titel><XmlLabel>StartingQuarter</XmlLabel><FunctioneelBlok>Berekeningsresultaten - responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal.
+Bepaling van het jaar en het beginkwartaal.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01110</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>JAAR - KWARTAAL - EINDKWARTAAL</Titel><XmlLabel>EndingQuarter</XmlLabel><FunctioneelBlok>Berekeningsresultaten - responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal.
+Bepaling van het jaar en het eindkwartaal.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00866</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KWARTAAL VAN BOEKING</Titel><XmlLabel>AccountingQuarter</XmlLabel><FunctioneelBlok>Gegevens responsabilisering invaliditeit</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00228</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NACE-CODE</Titel><XmlLabel>ActivityCode</XmlLabel><FunctioneelBlok>Gegevens responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Code die de economische activiteiten van een werkgever of van zijn vestigingseenheden aanduidt. Het gaat om de nomenclatuur NACE-BEL, gebruikt op Europees niveau</Omschrijving><ToegelatenDomein>Zie Bijlage 31 - Lijst van de NACE-codes.Zie bijlage 1 : Lijst van de NACE-codes (5 niveaus) 
+De geaccepteerde codes zijn die in de kolom "Parent code", op maximaal 4 posities.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01265</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>RATIO INVALIDITEIT - PRIVÉSECTOR</Titel><XmlLabel>RatioPrivate</XmlLabel><FunctioneelBlok>Berekeningsresultaten - responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Aantal werknemers die instromen in invaliditeit in verhouding tot totaal aantal VTEs van de privésector.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>6</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01266</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>RATIO INVALIDITEIT – SECTOR VAN DE WERKGEVER</Titel><XmlLabel>RatioSector</XmlLabel><FunctioneelBlok>Berekeningsresultaten - responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Aantal werknemers die instromen in invaliditeit in verhouding tot totaal aantal VTEs van de sector van de werkgever.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>6</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01264</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>RATIO INVALIDITEIT - WERKGEVER</Titel><XmlLabel>RatioEmployer</XmlLabel><FunctioneelBlok>Berekeningsresultaten - responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Aantal werknemers die instromen in invaliditeit in verhouding tot totaal aantal VTEs van de werkgever.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>6</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01261</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REDEN VAN DE PROACTIEVE MEDEDELING</Titel><XmlLabel>ProactiveInformationReason</XmlLabel><FunctioneelBlok>Gegevens responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Criterium waarom de werkgever een proactieve mededeling ontvangt.</Omschrijving><ToegelatenDomein>1 = De werkgevers die in de refertekwartalen op zijn minst een gemiddelde ratio hebben die 2 keer hoger ligt dan die van de eigen activiteitensector en 3 keer hoger dan die van de privé sector en 2 werknemers hebben die in de invaliditeit zijn getreden en die het risico lopen om de responsabiliseringsbijdrage te moeten betalen als een bijkomende werknemer in de invaliditeit zou treden in het volgende kwartaal.
+
+2 = De werkgevers die in de refertekwartalen op zijn minst 3 werknemers hebben die in de invaliditeit zijn getreden en een gemiddelde ratio hebben die 1,5 keer hoger ligt dan die van de eigen activiteitensector en 2,5 keer hoger dan die van de privé sector en die het risico lopen om de responsabiliseringsbijdrage te moeten betalen als bij hun de instroom van werknemers in de invaliditeit ongunstig evolueert.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01269</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TOTAAL AANTAL WERKNEMERS IN INVALIDITEIT</Titel><XmlLabel>TotalNbrInvalidityWorkers</XmlLabel><FunctioneelBlok>Berekeningsresultaten - responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Totaal aantal werknemers die instromen in invaliditeit voor referentieperiode.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01268</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VERHOUDING PERCENTAGE WERKGEVER EN PRIVÉSECTOR</Titel><XmlLabel>ProportionPrivate</XmlLabel><FunctioneelBlok>Berekeningsresultaten - responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Verhouding van het percentage voor de werkgever van de werknemers die instromen in de invaliditeit tot het percentage voor de privésector.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01267</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VERHOUDING PERCENTAGE WERKGEVER EN SECTOR</Titel><XmlLabel>ProportionSector</XmlLabel><FunctioneelBlok>Berekeningsresultaten - responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Verhouding van het percentage voor de werkgever van de werknemers die instromen in de invaliditeit tot het percentage voor de sector van de werkgever.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01263</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VOLGNUMMER VAN DE SEQUENTIE VAN KWARTALEN</Titel><XmlLabel>QuarterSequenceNbr</XmlLabel><FunctioneelBlok>Berekeningsresultaten - responsabilisering invaliditeit</FunctioneelBlok><Omschrijving>Volgnummer van de sequentie van kwartalen</Omschrijving><ToegelatenDomein>[1;6]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

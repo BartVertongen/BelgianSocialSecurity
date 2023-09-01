@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>00868</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BANKIDENTIFICATIECODE (BIC)</Titel><XmlLabel>BankIdentifierCode</XmlLabel><FunctioneelBlok>Bankrekening</FunctioneelBlok><Omschrijving>Het betreft een internationale code die een financiële instelling identificeert. Naargelang het geval bestaat deze code uit 8 of 11 karakters zonder spatie.</Omschrijving><ToegelatenDomein>Positie 1-4: dit is de "bankcode" die de bank eenduidig definieert. Deze code bestaat uit vier alfanumerieke karakters die behoren tot de verzameling [A ; Z]; 
+Positie 5-6: dit is de "landcode" (ISO). Deze code bestaat uit twee alfanumerieke karakters die behoren tot de verzameling [A ; Z]; de code is opgenomen in bijlage Nr 5 - Lijst met landcodes.
+
+Positie 7-8: dit is de "plaatscode", twee (alfanumerieke of numerieke) karakters om de banken van eenzelfde land (stad, staat, provincie) te onderscheiden.
+Positie 9-11: dit is de "kantoorcode", 3 optionele karakters die het agentschap definiëren als een tak van de bank ("XXX" voor de hoofdzetel, "LYO" voor een tak in Lyon). Deze code bestaat uit drie alfanumerieke of numerieke karakters.
+Als de code slechts 8 karakters bevat, dan gaat het om de nationale hoofdzetel.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>11</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00776</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BENAMING</Titel><XmlLabel>Denomination</XmlLabel><FunctioneelBlok>Details van de schuldeiser</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00776</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BENAMING</Titel><XmlLabel>Denomination</XmlLabel><FunctioneelBlok>Gegevens van de mandataris</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00157</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BENAMING VAN DE WERKGEVER</Titel><XmlLabel>EmployerDenomination</XmlLabel><FunctioneelBlok>Coördinaten werkgever</FunctioneelBlok><Omschrijving>De benaming van de werkgever.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00519</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BRIEVENBUS</Titel><XmlLabel>PostBox</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Nummer van een brievenbus.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01040</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM - FACTUURDATUM</Titel><XmlLabel>InvoiceDate</XmlLabel><FunctioneelBlok>Financiële transactie</FunctioneelBlok><Omschrijving>
+Datum waarop de factuur aangemaakt is.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM - VERVALDATUM</Titel><XmlLabel>DueDate</XmlLabel><FunctioneelBlok>Financiële transactie</FunctioneelBlok><Omschrijving>
+Datum waarop de werkgever het bedrag verbonden aan de instructie dient te betalen</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00805</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VERZENDING</Titel><XmlLabel>DateSubmission</XmlLabel><FunctioneelBlok>Financiële transactie</FunctioneelBlok><Omschrijving>
+Datum van de verzendingDatum van de verzending van de factuur.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01039</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DOMEIN - FINANCIEEL ELEMENT</Titel><XmlLabel>FinancialTransactionDomain</XmlLabel><FunctioneelBlok>Financiële transactie</FunctioneelBlok><Omschrijving>Zone die toelaat te preciseren tot welk domein het financiële element behoort.</Omschrijving><ToegelatenDomein>1 = Wijzigend bericht
+2 = Voorschot
+3 = Herinnering
+4 = Inhouding op factuur
+5 = Lijst van de kredieten
+6 = Analyse van rekening
+7 = Debetbericht
+De enige mogelijke waarden zijn "1", "2", "3" en "7".</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00637</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>E-MAILADRES</Titel><XmlLabel>EmailAddress</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>60</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00678</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>FAXNUMMER</Titel><XmlLabel>FaxNbr</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00869</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>FORMAAT VAN HET REKENINGNUMMER</Titel><XmlLabel>AccountNbrFormat</XmlLabel><FunctioneelBlok>Bankrekening</FunctioneelBlok><Omschrijving>Deze code laat toe het formaat van het rekeningnummer te identificeren</Omschrijving><ToegelatenDomein>1 = Nationaal formaat (van het land van herkomst van het rekeningnummer)
+2 = IBAN-formaat</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00522</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>GEMEENTE</Titel><XmlLabel>City</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01042</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>GESTRUCTUREERD</Titel><XmlLabel>IsStructured</XmlLabel><FunctioneelBlok>Details van de mededeling van de bankoverschrijving</FunctioneelBlok><Omschrijving>Laat toe aan te duiden of het element dat met deze zone geassocieerd is, al dan niet gestructureerd is.</Omschrijving><ToegelatenDomein>0 = niet gestructureerd
+1 = gestructureerd</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00636</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>GSM-NUMMER</Titel><XmlLabel>GSMNbr</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00298</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>HERKOMST VAN DE REFERENTIE</Titel><XmlLabel>ReferenceOrigin</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Waarde die de authentieke bron van een referentienummer aanduidt.
+</Omschrijving><ToegelatenDomein>1 = het referentienummer is toegekend door een aangever of aanvrager (een bedrijf, een sociaal secretariaat, een softwareontwikkelaar, ...)
+2 = het ticketnummer toegekend door de sociale zekerheid, dat een aangifte, een aanvraag of een antwoord op eenduidige wijze identificeert
+3 = het referentienummer is toegekend door een sector van de sociale zekerheid
+4 = het referentienummer is toegekend door de dienst ePost
+5 = het referentienummer is toegekend door de KSZ
+6 = het referentienummer is toegekend door het archiveringssysteem (DOC-ID)
+7 = het referentienummer is door de DSP aan een gearchiveerd document toegekend (DSP-ID)
+De enkel mogelijke waarde in dit bericht is “3”.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00871</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>HOEDANIGHEIDSKLASSE VAN DE AANGEVER</Titel><XmlLabel>UserQualityClass</XmlLabel><FunctioneelBlok>Herkomst van de betalingsnota</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>01: RSZ in de brede zin
+02:  werkgever in de brede zin</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01038</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>INITIATOR - FINANCIEEL ELEMENT</Titel><XmlLabel>FinancialNoteInitiator</XmlLabel><FunctioneelBlok>Herkomst van de betalingsnota</FunctioneelBlok><Omschrijving>Zone die toelaat te preciseren welke toepassing of welk proces het financiële element heeft aangemaakt.</Omschrijving><ToegelatenDomein>1 = Beware ( toepassing die toelaat de boekhoudkundige informatie mee te delen in verband met de wijzigingen van de DmfA en, eventueel, de gegevens in verband met het bericht van wijziging der bijdragen dat hiervan het resultaat is)
+
+2 = Voorschotten (toepassing die toelaat het bedrag aan voorschotten te berekenen en mee te delen dat maandelijks betaald moet worden door de werkgevers (uitgezonderd provinciale en plaatselijke besturen) voor de bijdragen van het lopende kwartaal)
+
+3 = ADFAN (ondersteuning voor geautomatiseerd toezicht op de werkgeversrekeningen, geëxploiteerd door de Inningdiensten van de RSZ)
+
+4 = PPR (toepassing waarmee de betrokkenen kunnen nagaan of een inhoudingsplicht van toepassing is op de factuur die door een bepaalde onderneming wordt voorgelegd voor de uitvoering van werken)
+
+5 = Lijst van de kredieten (toepassing waarmee de betalingen van het huidige trimester voor werkgevers (uitgezonderd provinciale en plaatselijke besturen) berekend en gecommuniceerd worden)
+
+6 = Analyse van rekening gestart door de buitenwereld
+
+7 = Analyse van rekening gestart door de RSZ
+
+8 = Debetberichten (toepassing die toelaat om boekhoudkundige informatie mee te delen in verband met de specifieke bijdragen)
+De enige mogelijke waarden zijn "1", "2", "3" en "8".</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00470</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KANTOORNUMMER</Titel><XmlLabel>OfficeNumber</XmlLabel><FunctioneelBlok>Informatie over de sector</FunctioneelBlok><Omschrijving>RSZ-kantoornummer</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00523</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>LANDCODE</Titel><XmlLabel>Country</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01043</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>MEDEDELING VAN DE BANKOVERSCHRIJVING</Titel><XmlLabel>RemittanceInformation</XmlLabel><FunctioneelBlok>Details van de mededeling van de bankoverschrijving</FunctioneelBlok><Omschrijving>Gestructureerde of vrije mededeling van de bankoverschrijving.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00726</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NAAM</Titel><XmlLabel>Name</XmlLabel><FunctioneelBlok>Gegevens van de contactpersoon</FunctioneelBlok><Omschrijving>Familienaam van een natuurlijk persoon.
+Men moet de naam vermelden die op het paspoort of de identiteitskaart staat.
+Voor vrouwen van Belgische nationaliteit gaat het om de meisjesnaam.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>48</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00015</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NETTO TE BETALEN BEDRAG</Titel><XmlLabel>NetOwedAmount</XmlLabel><FunctioneelBlok>Financiële transactie</FunctioneelBlok><Omschrijving>Netto te betalen bedrag, door de werkgever verschuldigd aan de RSZ.Eindbedrag van de factuur in eurocent.</Omschrijving><ToegelatenDomein>[0;999999999999999].</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>15</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00150</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NUMMER VAN ERKEND SOCIAAL SECRETARIAAT BIJKANTOOR</Titel><XmlLabel>FilialSecSocNbr</XmlLabel><FunctioneelBlok>Gegevens van het sociaal secretariaat</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00518</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NUMMER VAN HET ADRES</Titel><XmlLabel>HouseNbr</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00479</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NUMMER VAN SOCIAAL SECRETARIAAT</Titel><XmlLabel>SocialSecretariatNumber</XmlLabel><FunctioneelBlok>Gegevens van het sociaal secretariaat</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Herkomst van de betalingsnota</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.In dit bericht is de waarde "0" niet toegelaten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00520</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>POSTCODE</Titel><XmlLabel>ZIPCode</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Postnummer van een gemeente.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Financiële transactie</FunctioneelBlok><Omschrijving>Het referentienummer.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Het referentienummer.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00268</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REKENINGNUMMER BIJ EEN FINANCIELE INSTELLING</Titel><XmlLabel>AccountNumber</XmlLabel><FunctioneelBlok>Bankrekening</FunctioneelBlok><Omschrijving>Een rekeningnummer bij een financiële instelling; het nummer wordt voorafgegaan door de ISO-code die refereert aan het land van herkomst van het rekeningnummer.
+</Omschrijving><ToegelatenDomein>NATIONAAL FORMAAT
+Positie 1-2: ISO-code voor het land van herkomst van het rekeningnummer. Deze code bestaat uit twee alfanumerieke karakters van de verzameling [A;Z]; de code is opgenomen in bijlage 5 - Landcodes.
+Positie 3-34: rekeningnummer genoteerd volgens de voorstellingswijze voor rekeningnummers van het land waar het rekeningnummer werd toegekend. Deze posities bevatten alfanumerieke karakters uit de verzamelingen [0; 9], [a;z] of [A; Z]. Indien het rekeningnummer betekenisloze karakters zoals spatie, /, \, -, ... bevat, mogen deze niet genoteerd worden.
+IBAN-FORMAAT
+Positie 1-2 : ISO-code voor het land van herkomst van het rekeningnummer. Deze code bestaat uit twee alfanumerieke karakters van de verzameling [A; Z]; de code is opgenomen in bijlage 5 - Landcodes.
+Positie 3-4 : Numeriek gegeven.
+Deze posities bevatten elk een cijfer uit de verzameling [0; 9].
+Deze twee cijfers bevatten de controlewaarde voor de IBAN-codificatie.
+Positie 5-34 : Rekeningnummer, genoteerd volgens de voorstellingswijze voor rekeningnummers van het land waar het rekeningnummer toegekend werd. Deze posities bevatten alfanumerieke karakters uit de verzamelingen [0; 9], [a;z] of [A; Z]. Indien het rekeningnummer betekenisloze karakters zoals spatie, /, \, -, ... bevat, mogen deze niet genoteerd worden.
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>34</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00011</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Herkomst van de betalingsnota</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+In dit bericht is de waarde "0" niet toegelaten.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>0 of NNNNNNNCC
+· NNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00517</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>STRAAT</Titel><XmlLabel>Street</XmlLabel><FunctioneelBlok>Adres</FunctioneelBlok><Omschrijving>Openbare weg.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>42</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00677</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TELEFOONNUMMER</Titel><XmlLabel>PhoneNbr</XmlLabel><FunctioneelBlok>Communicatie</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00221</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE VAN DE REFERENTIE</Titel><XmlLabel>ReferenceType</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Duidt aan naar waar de referentie (00222 Referentienummer) verwijst: naar deze aangifte, naar een aangifte die verwant is met deze aangifte of naar een verzameling aangiften (= een dossier) waar deze aangifte toe behoort, op deze aanvraag, op dit formulier.</Omschrijving><ToegelatenDomein>0 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat niet dezelfde identificatie heeft (zie bijlagen 11/302), dat verband houdt met het huidige formulier
+1 = de referentie verwijst naar dit formulier
+2 = de referentie is een dossiernummer en verwijst naar het dossier (= verzameling van aangiften) waartoe deze aangifte behoort of waartoe dit formulier behoort
+3 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat dezelfde identificatie heeft (zie bijlagen 11/302) en dat verband houdt met dit formulier, bijvoorbeeld: de referentie heeft betrekking op de aangifte die geannuleerd moet worden door deze aangifte, of op de aangifte die vervangen moet worden door deze aangifte, of op de aangifte die gewijzigd moet worden, of op de aangifte die aan de oorsprong ligt van dit formulier...
+4 = de referentie verwijst naar een aangifte in een ander scenario die verwant is met deze aangifte
+5 = de referentie verwijst naar een aanvraag
+6 = de referentie verwijst naar een geweigerde aangifte
+7 = de referentie verwijst naar de werkgever die in deze aangifte wordt vermeld
+8 = de referentie verwijst naar de werknemer die in deze aangifte wordt vermeld
+9 = de referentie is een gestructureerde mededeling die moet worden gebruikt in het kader van een betaling en verwijst naar dit formulierDe enige mogelijke waarde in dit bericht is "1".</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00727</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VOORNAAM</Titel><XmlLabel>FirstName</XmlLabel><FunctioneelBlok>Gegevens van de contactpersoon</FunctioneelBlok><Omschrijving>Eerste voornaam van een natuurlijk persoon.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>24</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01041</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VORM VAN DE FINANCIËLE TRANSACTIE</Titel><XmlLabel>FinancialTransactionType</XmlLabel><FunctioneelBlok>Financiële transactie</FunctioneelBlok><Omschrijving>Zone die toelaat te preciseren of de transactie voortvloeit uit een debet- of creditactie.</Omschrijving><ToegelatenDomein>1 = Credit 
+2 = Debet
+3 = Nulbedrag</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

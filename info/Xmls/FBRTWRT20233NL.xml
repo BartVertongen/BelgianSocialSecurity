@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT FunctionalBlock (Code+, Versie+, Publicatiedatum+, Naam+, Zones+, XmlLabel+, Omschrijving+, MinimumKardinaliteit+, MaximumKardinaliteit+, NrGelinktBlok+, Gelinktblok+, Aanwezigheid+, ExtraBeperkingen+, Anomalie+)>
+     <!ELEMENT List (FunctionalBlock+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Naam (#PCDATA)>
+     <!ELEMENT Zones (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT MinimumKardinaliteit (#PCDATA)>
+     <!ELEMENT MaximumKardinaliteit (#PCDATA)>
+     <!ELEMENT NrGelinktBlok (#PCDATA)>
+     <!ELEMENT Gelinktblok (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT ExtraBeperkingen (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<FunctionalBlock>
+<Code>90612</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Berekeningsresultaten - responsabilisering invaliditeit</Naam><Zones>01109 - JAAR - KWARTAAL - BEGINKWARTAAL</Zones><Zones>01110 - JAAR - KWARTAAL - EINDKWARTAAL</Zones><Zones>01263 - VOLGNUMMER VAN DE SEQUENTIE VAN KWARTALEN</Zones><Zones>01264 - RATIO INVALIDITEIT - WERKGEVER</Zones><Zones>01266 - RATIO INVALIDITEIT – SECTOR VAN DE WERKGEVER</Zones><Zones>01265 - RATIO INVALIDITEIT - PRIVÉSECTOR</Zones><Zones>01267 - VERHOUDING PERCENTAGE WERKGEVER EN SECTOR</Zones><Zones>01268 - VERHOUDING PERCENTAGE WERKGEVER EN PRIVÉSECTOR</Zones><Zones>01269 - TOTAAL AANTAL WERKNEMERS IN INVALIDITEIT</Zones><XmlLabel>RTWRTCalculationResults</XmlLabel><Omschrijving>Functioneel blok dat de resultaten van de berekening rond de wetgeving « Responsabiliseringsbijdrage werkgevers inzake invaliditeit » voor een sequentie van kwartalen bevat.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>6</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90611</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Gegevens responsabilisering invaliditeit</Naam><Zones>01261 - REDEN VAN DE PROACTIEVE MEDEDELING</Zones><Zones>00228 - NACE-CODE</Zones><Zones>01262 - AANDUIDING ARTIKEL 147/1</Zones><Zones>00866 - KWARTAAL VAN BOEKING</Zones><XmlLabel>RTWRTData</XmlLabel><Omschrijving>Functioneel blok dat al de data bevat gerelateerd aan de responsabilisering invaliditeit die geen betrekking hebben op de berekening.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90610</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Responsabilisering Invaliditeit</Naam><Zones></Zones><XmlLabel>RTWRT</XmlLabel><Omschrijving>Root-element van het XML-bericht waarmee communicatie rond de wetgeving “Responsabiliseringsbijdrage werkgevers inzake invaliditeit” kan opgesteld worden.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90611</NrGelinktBlok><NrGelinktBlok>90612</NrGelinktBlok><Gelinktblok>90611 - Gegevens responsabilisering invaliditeit</Gelinktblok><Gelinktblok>90612 - Berekeningsresultaten - responsabilisering invaliditeit</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+</List>

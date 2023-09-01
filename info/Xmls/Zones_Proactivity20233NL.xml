@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>01169</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BETAALD BEDRAG</Titel><XmlLabel>PaidAmount</XmlLabel><FunctioneelBlok>Informatie over de actie van het ESS</FunctioneelBlok><Omschrijving>Betaald bedrag.Bedrag betaald door de werkgever aan de RSZ.</Omschrijving><ToegelatenDomein>[0;999999999999999]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>15</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01169</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BETAALD BEDRAG</Titel><XmlLabel>PaidAmount</XmlLabel><FunctioneelBlok>Informatie over de te ondernemen actie door de RSZ</FunctioneelBlok><Omschrijving>Betaald bedrag.Bedrag betaald door de werkgever aan de RSZ.</Omschrijving><ToegelatenDomein>[0;999999999999999]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>15</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01066</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN AFSLUITING</Titel><XmlLabel>ClosingDate</XmlLabel><FunctioneelBlok>Informatie over de actie van het ESS</FunctioneelBlok><Omschrijving>
+Datum van afsluiting Datum waarop het rekeninguittreksel afgesloten is.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01170</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN DE ACTIE</Titel><XmlLabel>ProactivityActionDate</XmlLabel><FunctioneelBlok>Informatie over de actie van het ESS</FunctioneelBlok><Omschrijving>
+Datum van de actieDatum waarop de proactiviteitsactie uitgevoerd werd.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01086</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN HET DOCUMENT</Titel><XmlLabel>DocumentDate</XmlLabel><FunctioneelBlok>Informatie over de actie van het ESS</FunctioneelBlok><Omschrijving>Creatiedatum van het document.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00866</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KWARTAAL VAN BOEKING</Titel><XmlLabel>AccountingQuarter</XmlLabel><FunctioneelBlok>Informatie over de actie van het ESS</FunctioneelBlok><Omschrijving>Kwartaal waarop de actie betrekking heeft.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00866</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KWARTAAL VAN BOEKING</Titel><XmlLabel>AccountingQuarter</XmlLabel><FunctioneelBlok>Informatie over de te ondernemen actie door de RSZ</FunctioneelBlok><Omschrijving>Kwartaal waarop de actie betrekking heeft.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00015</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NETTO TE BETALEN BEDRAG</Titel><XmlLabel>NetOwedAmount</XmlLabel><FunctioneelBlok>Informatie over de actie van het ESS</FunctioneelBlok><Omschrijving>Netto te betalen bedrag, door de werkgever verschuldigd aan de RSZ.</Omschrijving><ToegelatenDomein>[0;999999999999999].</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>15</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00015</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NETTO TE BETALEN BEDRAG</Titel><XmlLabel>NetOwedAmount</XmlLabel><FunctioneelBlok>Informatie over de te ondernemen actie door de RSZ</FunctioneelBlok><Omschrijving>Netto te betalen bedrag, door de werkgever verschuldigd aan de RSZ.</Omschrijving><ToegelatenDomein>[0;999999999999999].</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>15</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01167</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>OORSPRONG VAN DE PROACTIVITEIT</Titel><XmlLabel>ProactivityReason</XmlLabel><FunctioneelBlok>Informatie over de proactiviteit</FunctioneelBlok><Omschrijving>Zone die de context beschrijft waarin een proactiviteitsactie ondernomen wordt door een erkend sociaal secretariaat of door de RSZ.</Omschrijving><ToegelatenDomein>1 = De werkgever heeft zijn voorziening(en) nog niet betaald
+2 = De werkgever heeft recht op de reglementaire termijn en heeft nog niet betaald voor de wettelijke termijn
+3 = De werkgever heeft de herinnering C397 nog niet betaald</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Informatie over de proactiviteit</FunctioneelBlok><Omschrijving>Het referentienummer.Referentienummer van de feedback.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00545</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>STAVING</Titel><XmlLabel>Justification</XmlLabel><FunctioneelBlok>Informatie over de actie van het ESS</FunctioneelBlok><Omschrijving>Staving
+Rechtvaardiging van de actie.</Omschrijving><ToegelatenDomein>
+In dit bericht is de toegelaten lengte voor deze zone 560 tekens.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>5000</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00545</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>STAVING</Titel><XmlLabel>Justification</XmlLabel><FunctioneelBlok>Informatie over de te ondernemen actie door de RSZ</FunctioneelBlok><Omschrijving>Staving
+Rechtvaardiging van de actie.</Omschrijving><ToegelatenDomein>
+In dit bericht is de toegelaten lengte voor deze zone 560 tekens.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>5000</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01168</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE PROACTIVITEITSACTIE</Titel><XmlLabel>ProactivityAction</XmlLabel><FunctioneelBlok>Informatie over de actie van het ESS</FunctioneelBlok><Omschrijving>Geeft aan welke proactiviteitsactie ondernomen wordt.In het functioneel blok Informatie over de actie van het ESS (90558) geeft deze zone aan welke actie er uitgevoerd werd door het erkend sociaal secretariaat.
+
+In het functioneel blok Informatie over de te ondernemen actie door de RSZ (90559) geeft deze zone aan welke actie uitgevoerd moet worden door de RSZ met betrekking tot de werkgever.</Omschrijving><ToegelatenDomein>1 = De werkgever contacteren
+2 = De werkgever niet contacteren
+3 = Het document ter herinnering werd verstuurd naar de werkgever
+4 = Het document ter herinnering werd niet verstuurd naar de werkgever
+5 = Het document ter herinnering werd aangepast en verstuurdIn het functioneel blok Informatie over de actie van het ESS (90558) zijn enkel de waarden 3, 4 en 5 mogelijk.
+
+In het functioneel blok Informatie over de te ondernemen actie door de RSZ (90559) zijn enkel de waarden 1 en 2 mogelijk.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01168</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE PROACTIVITEITSACTIE</Titel><XmlLabel>ProactivityAction</XmlLabel><FunctioneelBlok>Informatie over de te ondernemen actie door de RSZ</FunctioneelBlok><Omschrijving>Geeft aan welke proactiviteitsactie ondernomen wordt.In het functioneel blok Informatie over de actie van het ESS (90558) geeft deze zone aan welke actie er uitgevoerd werd door het erkend sociaal secretariaat.
+
+In het functioneel blok Informatie over de te ondernemen actie door de RSZ (90559) geeft deze zone aan welke actie uitgevoerd moet worden door de RSZ met betrekking tot de werkgever.</Omschrijving><ToegelatenDomein>1 = De werkgever contacteren
+2 = De werkgever niet contacteren
+3 = Het document ter herinnering werd verstuurd naar de werkgever
+4 = Het document ter herinnering werd niet verstuurd naar de werkgever
+5 = Het document ter herinnering werd aangepast en verstuurdIn het functioneel blok Informatie over de actie van het ESS (90558) zijn enkel de waarden 3, 4 en 5 mogelijk.
+
+In het functioneel blok Informatie over de te ondernemen actie door de RSZ (90559) zijn enkel de waarden 1 en 2 mogelijk.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

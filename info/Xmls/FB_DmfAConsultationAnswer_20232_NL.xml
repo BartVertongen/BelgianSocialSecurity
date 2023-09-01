@@ -1,0 +1,1534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <FunctionalBlock>
+      <Code>90338</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Aanvullende vergoeding - Actie</Naam>
+      <Zones>00815 - NOTIE WERKGEVER</Zones>
+      <Zones>00046 - NUMMER VAN PARITAIR COMITÉ</Zones>
+      <Zones>00228 - NACE-CODE</Zones>
+      <Zones>00949 - TYPE DEBITEUR</Zones>
+      <Zones>00823 - DATUM EERSTE TOEKENNING AANVULLENDE VERGOEDING</Zones>
+      <Zones>00824 - NOTIE TYPE AKKOORD VAN DE AANVULLENDE VERGOEDING</Zones>
+      <Zones>00825 - NOTIE HALFTIJDSE LOOPBAANONDERBREKING OF HALFTIJDS BRUGPENSIOEN</Zones>
+      <Zones>00826 - NOTIE VRIJSTELLING VAN PRESTATIES</Zones>
+      <Zones>00827 - NOTIE CONFORME VERVANGING</Zones>
+      <Zones>00749 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ VAN DE VERVANGER</Zones>
+      <Zones>00853 - MAATREGELEN VOORZIEN IN GEVAL VAN WERKHERVATTING</Zones>
+      <Zones>00950 - AANTAL DELEN VAN DE AANVULLENDE VERGOEDING</Zones>
+      <Zones>00951 - DATUM VAN BETEKENING VAN DE OPZEGGING</Zones>
+      <Zones>00952 - NOTIE ONDERNEMING IN MOEILIJKHEDEN OF IN HERSTRUCTURERING</Zones>
+      <Zones>00953 - DATUM BEGIN VAN ERKENNING</Zones>
+      <Zones>00954 - DATUM EIND VAN ERKENNING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>ComplementaryIndemnityAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat om de algemene gegevens betreffende de vergoedingen die betaald worden als aanvulling bij de uitkeringen bij brugpensioen, werkloosheid of loopbaanonderbreking aan werknemers van 50 jaar of ouder aan te geven en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90339</NrGelinktBlok>
+      <Gelinktblok>90339 - Aanvullende vergoeding - Bijdrage - Actie</Gelinktblok>
+      <Aanwezigheid>Kardinaliteit 0 als de werknemerslijn geen betrekking heeft op een werknemer waarvoor er een bijdrage op de aanvullende vergoedingen verschuldigd is (zie bijlage 2 voor een DmfA of bijlage 28 voor een DmfAPPL).&#xA;Kardinaliteit 1..* als de werknemerslijn betrekking heeft op een werknemer waarvoor er een bijdrage op de aanvullende vergoedingen verschuldigd is (zie bijlage 2 voor een DmfA of bijlage 28 voor een DmfAPPL).</Aanwezigheid>
+      <ExtraBeperkingen>Een gegeven aanvullende vergoeding (een combinatie notie werkgever / nummer paritaire comité / notie type akkoord van de aanvullende vergoeding / notie halftijdse loopbaanonderbreking / notie vrijstelling van prestaties / notie vervanging in overeenkomst met een CAO) mag slechts één keer voorkomen per werknemerslijn.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90338-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90338-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90338-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90339</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Aanvullende vergoeding - Bijdrage - Actie</Naam>
+      <Zones>00082 - WERKNEMERSKENGETAL BIJDRAGE</Zones>
+      <Zones>00083 - TYPE BIJDRAGE</Zones>
+      <Zones>01129 - PERIODECODE</Zones>
+      <Zones>00829 - NOTIE AANPASSING BEDRAG VAN DE AANVULLENDE VERGOEDING OF DE SOCIALE UITKERING</Zones>
+      <Zones>00955 - VOLGNUMMER BIJDRAGE</Zones>
+      <Zones>00830 - BEDRAG VAN DE AANVULLENDE VERGOEDING</Zones>
+      <Zones>00892 - NOTIE KAPITALISATIE</Zones>
+      <Zones>00956 - THEORETISCH BEDRAG VAN DE SOCIALE UITKERING</Zones>
+      <Zones>00831 - AANTAL MAANDEN - AANVULLENDE VERGOEDING</Zones>
+      <Zones>00957 - DECIMALEN VOOR HET AANTAL MAANDEN</Zones>
+      <Zones>00958 - AANTAL DAGEN - ONVOLLEDIGE MAAND</Zones>
+      <Zones>00959 - ONVOLLEDIGE MAAND - REDEN</Zones>
+      <Zones>00960 - NOTIE TOEPASSING VAN DE DREMPEL</Zones>
+      <Zones>00085 - BEDRAG VAN DE BIJDRAGE</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>ComplIndemnityContributionAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat om de gegevens betreffende de bijdragen op de aanvullende vergoedingen toegekend bovenop de uitkeringen bij brugpensioen, werkloosheid of loopbaanonderbreking aan te geven (patronaal deel of persoonlijk deel) en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit 0 als het om een DmfAPPL gaat.&#xA;Kardinaliteit 0 als het om een DmfA gaat en er geen enkele bijdrage verschuldigd is in het kader van de aanvullende vergoedingen toegekend bovenop de uitkeringen bij brugpensioen, werkloosheid of loopbaanonderbreking. &#xA;Kardinaliteit 1... * als het om een DmfA gaat en (er) een (of meerdere) bijdrage(n) verschuldigd is (zijn) in het kader van de aanvullende vergoedingen toegekend bovenop de uitkeringen bij brugpensioen, werkloosheid of loopbaanonderbreking.</Aanwezigheid>
+      <ExtraBeperkingen>Een gegeven bijdrage (een combinatie werknemerskengetal bijdrage / type bijdrage / notie aanpassing bedrag van de vergoeding / volgnummer bijdrage) mag slechts één keer voorkomen per werknemerslijn.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90339-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90339-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90339-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90579</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Activering - Inlichtingen - Actie</Naam>
+      <Zones>01191 - DATUM VAN BEGIN VRIJSTELLING PRESTATIES</Zones>
+      <Zones>01192 - DATUM VAN BEGIN STATUS VORMING</Zones>
+      <Zones>01193 - STATUS VORMING</Zones>
+      <Zones>01244 - STATUS AANDEEL ACTIVERING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>ActivationInformationAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat gegevens bevat om de activeringsbijdrage te berekenen alsook de actie die wordt gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit 0 als de zone « Notie vrijstelling prestaties » (00826) niet aanwezig is of  2 in alle blokken Tewerkstelling  Inlichtingen (90313).&#xA;Kardinaliteit 1 indien de zone « Notie vrijstelling prestaties » (00826) = 2 in minstens 1 blok Tewerkstelling  Inlichtingen (90313).</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90579-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90579-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90579-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90605</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Adres - Actie</Naam>
+      <Zones>00517 - STRAAT</Zones>
+      <Zones>00518 - NUMMER VAN HET ADRES</Zones>
+      <Zones>00519 - BRIEVENBUS</Zones>
+      <Zones>00520 - POSTCODE</Zones>
+      <Zones>00522 - GEMEENTE</Zones>
+      <Zones>00523 - LANDCODE</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>AddressAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een adres volledig te specifiëren, en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit 0 indien, voor het deel verbetering, het betreffende functioneel blok niet gewijzigd werd.&#xA;Kardinaliteit 0 als de tewerkstelling of de bijdrage werknemer-student geannuleerd is.&#xA;Kardinaliteit 0 als de werknemerslijn geen betrekking heeft op een uitzendkracht.&#xA;Kardinaliteit 1 als de gebruikende onderneming aangegeven is maar niet geïdentificeerd door zijn KBO-nummer.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90605-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90605-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90605-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90605-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90605-053</AnomalieCode>
+         <AnomalieTitel>Niet van toepassing</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90176</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Anomalierapport</Naam>
+      <Zones>00108 - IDENTIFICATIE VAN DE FOUT</Zones>
+      <Zones>00235 - NAAM VAN DE TAG</Zones>
+      <Zones>00236 - WAARDE</Zones>
+      <Zones>00497 - ERNST VAN DE ANOMALIE</Zones>
+      <Zones>00628 - OMSCHRIJVING VAN DE FOUTCODE</Zones>
+      <XmlLabel>AnomalyReport</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een foutenrapport op te stellen.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90178</NrGelinktBlok>
+      <Gelinktblok>90178 - Pad</Gelinktblok>
+      <Aanwezigheid>Verplicht indien in de consultatieaanvraag gevraagd werd om de anomalieën te ontvangen en er nog minstens één anomalie verbeterd moet worden voor het huidige element.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90424</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Baremieke wedde - Actie</Naam>
+      <Zones>00970 - DATUM BEGIN - BAREMIEKE WEDDE</Zones>
+      <Zones>00971 - DATUM EIND - BAREMIEKE WEDDE</Zones>
+      <Zones>00972 - DATUM VAN RANGINNEMING IN DE GELDELIJKE ANCIËNNITEIT</Zones>
+      <Zones>00973 - REFERENTIE VAN DE WEDDESCHAAL</Zones>
+      <Zones>00974 - BEDRAG VAN DE BAREMIEKE WEDDE</Zones>
+      <Zones>00975 - AANTAL UREN PER WEEK</Zones>
+      <Zones>00976 - AANTAL UREN PER WEEK - VOLLEDIGE BAREMIEKE WEDDE</Zones>
+      <Zones>01235 - NOTIE VERMINDERDE BAREMIEKE WEDDE</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>ScaleSalaryAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens te vermelden die betrekking hebben op de baremieke wedde die in aanmerking komt voor de berekening van het rustpensioen in de overheidssector en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>99</MaximumKardinaliteit>
+      <NrGelinktBlok>90425</NrGelinktBlok>
+      <Gelinktblok>90425 - Weddebijslag - Actie</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen>Een blok Baremieke wedde - Actie (een combinatie van de volgende zones: DATUM BEGIN - BAREMIEKE WEDDE, DATUM VAN RANGINNEMING IN DE GELDELIJKE ANCIËNNITEIT, REFERENTIE VAN DE WEDDESCHAAL) mag slechts één keer voorkomen per blok Gegevens van de tewerkstelling met betrekking tot de overheidssector - Actie.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90424-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90424-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90295</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Bedrijfsvoertuig - Actie</Naam>
+      <Zones>00780 - VOLGNUMMER BEDRIJFSVOERTUIG</Zones>
+      <Zones>00781 - NUMMERPLAAT</Zones>
+      <Zones>01217 - MILIEUVRIENDELIJK VOERTUIG</Zones>
+      <Zones>00782 - VERSIENUMMER BEDRIJFSVOERTUIG</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>CompanyVehicleAction</XmlLabel>
+      <Omschrijving> Functioneel blok dat toelaat de gegevens aan te geven in verband met een bedrijfsvoertuig en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit 0 als het bedrijf niet over een bedrijfsvoertuig beschikt of als de consultatieaanvraag alleen betrekking heeft op natuurlijke personen of bijdragen niet gebonden aan een natuurlijk persoon die geen betrekking hebben op het gebruik van een bedrijfsvoertuig.&#xA;Kardinaliteit 1 ... * als het bedrijf beschikt over ten minste één bedrijfsvoertuig en als de consultatieaanvraag betrekking heeft op de volledige aangifte of op ten minste één bijdrage niet gebonden aan een natuurlijk persoon die betrekking heeft op een bedrijfsvoertuig.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90295-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90295-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90295-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90228</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Bezoldiging van de tewerkstelling werknemerslijn - Actie</Naam>
+      <Zones>00066 - LIJNNUMMER BEZOLDIGING</Zones>
+      <Zones>00067 - BEZOLDIGINGSCODE</Zones>
+      <Zones>00068 - FREQUENTIE IN MAANDEN VAN DE BETALING VAN DE PREMIE</Zones>
+      <Zones>00069 - PERCENTAGE VAN DE BEZOLDIGING OP JAARBASIS</Zones>
+      <Zones>00070 - BEZOLDIGING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>RemunAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met de bezoldigingen van een werknemer voor een tewerkstelling van de werknemerslijn en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien ten minste één bezoldiging aanwezig is in de DB DmfA voor de tewerkstelling</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90228-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90228-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90235</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Bijdrage bruggepensioneerd werknemer - Actie</Naam>
+      <Zones>00079 - CODE BIJDRAGE BRUGPENSIOEN</Zones>
+      <Zones>00080 - AANTAL MAANDEN BRUGPENSIOEN</Zones>
+      <Zones>00081 - BIJDRAGE BRUGPENSIOEN</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>EarlyRetirementContAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met de bijdragen verschuldigd voor een bruggepensioneerde werknemer en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>2</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit 0 voor een DmfAPPL.&#xA;Kardinaliteit 0 als de werknemerslijn in de DB DmfA geen betrekking heeft op een bruggepensioneerde werknemer of, vanaf de DmfA van 2/2010, als de werknemerslijn betrekking heeft op een bruggepensioneerde werknemer. &#xA;Kardinaliteit 1 ... 2 tot deDmfA van 1/2010, als de werknemerslijn betrekking heeft op een bruggepensioneerde werknemervoor.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90235-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90235-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90235-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90216</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Bijdrage niet gebonden aan een natuurlijke persoon - Consultatie</Naam>
+      <Zones>00019 - WERKGEVERSCATEGORIE WAARVOOR EEN BIJDRAGE VERSCHULDIGD IS DIE NIET GEBONDEN IS AAN EEN NATUURLIJKE PERSOON</Zones>
+      <Zones>00020 - WERKNEMERSKENGETAL VOOR EEN BIJDRAGE DIE NIET GEBONDEN IS AAN EEN NATUURLIJKE PERSOON</Zones>
+      <Zones>00021 - BEREKENINGSBASIS VAN DE BIJDRAGE DIE NIET GEBONDEN IS AAN EEN NATUURLIJKE PERSOON</Zones>
+      <Zones>00022 - BEDRAG VAN DE BIJDRAGE DIE NIET GEBONDEN IS AAN EEN NATUURLIJK PERSOON</Zones>
+      <Zones>00611 - VERSIENUMMER BIJDRAGE NIET GEBONDEN AAN EEN NATUURLIJKE PERSOON</Zones>
+      <Zones>00425 - CODE ONDERWERPING</Zones>
+      <Zones>00609 - RESULTAATCODE VAN DE OPZOEKING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>ContributionUnrelatedToNPConsult</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven met betrekking tot de consultatie van een bijdrage niet gebonden aan een natuurlijke persoon</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90176</NrGelinktBlok>
+      <Gelinktblok>90176 - Anomalierapport</Gelinktblok>
+      <Aanwezigheid>Verplicht indien de aanvraag tot consultatie betrekking heeft op ten minste één bijdrage niet gebonden aan een natuurlijk persoon en de aangifte niet geannuleerd is</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90216-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90216-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90233</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Bijdrage ontslagen statutaire werknemer - Actie</Naam>
+      <Zones>00071 - REFERTEBRUTOLOON</Zones>
+      <Zones>00072 - BIJDRAGE REFERTEBRUTOLOON</Zones>
+      <Zones>00073 - REFERTE-AANTAL DAGEN</Zones>
+      <Zones>00127 - DATUM WAAROP DE PERIODE VAN ONDERWERPING BEGINT</Zones>
+      <Zones>00129 - DATUM WAAROP DE PERIODE VAN ONDERWERPING EINDIGT</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>DismissedStatWorkerContAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met de bijdragen verschuldigd voor een ontslagen statutaire werknemer en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien de werknemerslijn betrekking heeft op een ontslagen statutaire werknemer</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90233-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90233-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90233-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90230</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Bijdrage verschuldigd voor de werknemerslijn - Actie</Naam>
+      <Zones>00082 - WERKNEMERSKENGETAL BIJDRAGE</Zones>
+      <Zones>00083 - TYPE BIJDRAGE</Zones>
+      <Zones>00084 - BEREKENINGSBASIS BIJDRAGE</Zones>
+      <Zones>00085 - BEDRAG VAN DE BIJDRAGE</Zones>
+      <Zones>00896 - DATUM EERSTE AANWERVING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>WorkerContributionAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met de bijdragen verschuldigd voor een werknemerslijn en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien ten minste één verschuldigde bijdrage aanwezig is in de DB DmfA voor de werknemerslijn</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90230-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90230-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90234</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Bijdrage werknemer-student - Actie</Naam>
+      <Zones>00076 - LOON STUDENT</Zones>
+      <Zones>00077 - BIJDRAGE STUDENT</Zones>
+      <Zones>00078 - AANTAL DAGEN STUDENT</Zones>
+      <Zones>01158 - AANTAL UREN STUDENT</Zones>
+      <Zones>00042 - IDENTIFICATIENUMMER VAN DE LOKALE EENHEID</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>StudentContributionAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met een solidariteitsbijdrage verschuldigd voor een student en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90604</NrGelinktBlok>
+      <Gelinktblok>90604 - Gebruikende onderneming - Actie</Gelinktblok>
+      <Aanwezigheid>Verplicht indien de werknemerslijn betrekking heeft op een werknemer student</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90234-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90234-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90234-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90251</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Detailgegevens vermindering tewerkstelling - Actie</Naam>
+      <Zones>00138 - VOLGNUMMER DETAIL VERMINDERING</Zones>
+      <Zones>00143 - DATUM OORSPRONG RECHT</Zones>
+      <Zones>00914 - DATUM BEEINDIGING RECHT</Zones>
+      <Zones>00147 - GEMIDDELDE WEKELIJKSE ARBEIDSDUUR VOOR DE ARBEIDSDUURVERMINDERING</Zones>
+      <Zones>00148 - GEMIDDELDE WEKELIJKSE ARBEIDSDUUR NA DE ARBEIDSDUURVERMINDERING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>OccupationDeductionDetailAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gedetailleerde gegevens aan te geven in verband met bepaalde verminderingen tewerkstelling (cf. Bijlage dmfas02) en de actie gevraagd of uitgevoerd op dit blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit 0 voor een DmfAPPL&#xA;Kardinaliteit 1 ..* voor een DmfA, indien ten minste één detail gegevens vermindering tewerkstelling aanwezig is in de DB DmfA voor de vermindering tewerkstelling</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90251-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90232</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Detailgegevens vermindering werknemerslijn - Actie</Naam>
+      <Zones>00138 - VOLGNUMMER DETAIL VERMINDERING</Zones>
+      <Zones>00141 - BEDRAG VAN DE VERMINDERING - DETAIL</Zones>
+      <Zones>00142 - REGISTRATIENUMMER VAN HET ARBEIDSREGLEMENT</Zones>
+      <Zones>00143 - DATUM OORSPRONG RECHT</Zones>
+      <Zones>00147 - GEMIDDELDE WEKELIJKSE ARBEIDSDUUR VOOR DE ARBEIDSDUURVERMINDERING</Zones>
+      <Zones>00148 - GEMIDDELDE WEKELIJKSE ARBEIDSDUUR NA DE ARBEIDSDUURVERMINDERING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>DeductionDetailAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de detailgegevens aan te geven in verband met bepaalde verminderingen werknemerslijn (cf. Bijlage dmfas02) en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit 0 voor een DmfAPPL&#xA;Kardinaliteit 1..* voor een DmfA, indien ten minste één detail gegevens vermindering werknemerslijn aanwezig is in de DB DmfA voor de vermindering werknemerslijn</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90232-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90232-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90203</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>DmfAConsultationAnswer</Naam>
+      <Zones/>
+      <XmlLabel>DmfAConsultationAnswer</XmlLabel>
+      <Omschrijving>Root van de XML-boodschap die toelaat te antwoorden op een aanvraag tot consultatie van de laatste situatie van een multifunctionele aangifte</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90059</NrGelinktBlok>
+      <Gelinktblok>90059 - Formulier</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90203-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90203-089</AnomalieCode>
+         <AnomalieTitel>Root niet gekend</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90203-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90203-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90059</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Formulier</Naam>
+      <Zones>00296 - IDENTIFICATIE VAN HET FORMULIER</Zones>
+      <Zones>00218 - DATUM VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00299 - PRECIES UUR VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00110 - STATUS VAN HET ATTEST</Zones>
+      <Zones>00297 - TYPE VAN HET FORMULIER</Zones>
+      <XmlLabel>Form</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een formulier aan te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90102</NrGelinktBlok>
+      <NrGelinktBlok>90154</NrGelinktBlok>
+      <NrGelinktBlok>90082</NrGelinktBlok>
+      <NrGelinktBlok>90155</NrGelinktBlok>
+      <NrGelinktBlok>90201</NrGelinktBlok>
+      <Gelinktblok>90102 - Referentie van het ontvangen bestand</Gelinktblok>
+      <Gelinktblok>90154 - Verrijkt blok origineel formulier</Gelinktblok>
+      <Gelinktblok>90082 - Referentie</Gelinktblok>
+      <Gelinktblok>90155 - Verrijkt blok referentie</Gelinktblok>
+      <Gelinktblok>90201 - Werkgeversaangifte - Consultatie</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90059-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90059-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90059-134</AnomalieCode>
+         <AnomalieTitel>Geen gegevens</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90059-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90604</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Gebruikende onderneming - Actie</Naam>
+      <Zones>00153 - BENAMING VAN DE GEBRUIKENDE ONDERNEMING</Zones>
+      <Zones>00131 - ONDERNEMINGSNUMMER VAN DE GEBRUIKENDE ONDERNEMING</Zones>
+      <Zones>01185 - BTW-NUMMER</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>01254 - AANTAL OPEENVOLGENDE DAGCONTRACTEN</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>UsingEmployerAction</XmlLabel>
+      <Omschrijving>Functioneel blok voor de identificatiegegevens van de gebruikende onderneming waar de betrokkene als uitzendkracht tewerkgesteld is, en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90605</NrGelinktBlok>
+      <Gelinktblok>90605 - Adres - Actie</Gelinktblok>
+      <Aanwezigheid>Kardinaliteit 0 indien, voor het deel verbetering, noch het betreffende functioneel blok noch één van de kinderen hiervan gewijzigd werd. &#xA;Kardinaliteit 0 als de tewerkstelling of de bijdrage werknemer-student geannuleerd is. &#xA;Kardinaliteit 0 als de werknemerslijn geen betrekking heeft op een uitzendkracht. &#xA;Kardinaliteit 1 als de werknemerslijn betrekking heeft op een niet student uitzendkracht. Kardinaliteit 1..99 als de werknemerslijn betrekking heeft op een student uitzendkracht.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90604-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90604-005</AnomalieCode>
+         <AnomalieTitel>Verboden</AnomalieTitel>
+         <AnomalieErnst>NP</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90604-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90604-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90604-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90423</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Gegevens van de tewerkstelling met betrekking tot de overheidssector - Actie</Naam>
+      <Zones>00964 - DATUM BEGIN - GEGEVENS VAN DE TEWERKSTELLING MET BETREKKING TOT DE OVERHEIDSSECTOR</Zones>
+      <Zones>00965 - DATUM EIND - GEGEVENS VAN DE TEWERKSTELLING MET BETREKKING TOT DE OVERHEIDSSECTOR</Zones>
+      <Zones>00961 - TYPE VAN DE INSTELLING VAN DE OVERHEIDSSECTOR</Zones>
+      <Zones>00962 - PERSONEELSCATEGORIE VAN DE OVERHEIDSSECTOR</Zones>
+      <Zones>00963 - GRAAD- OF FUNCTIEBENAMING</Zones>
+      <Zones>00966 - TAALROL</Zones>
+      <Zones>00967 - AARD VAN DE DIENST</Zones>
+      <Zones>00968 - AARD VAN DE FUNCTIE</Zones>
+      <Zones>00969 - REDEN VAN HET EINDE VAN DE STATUTAIRE RELATIE</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>OccupationPSDAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat gegevens van de tewerkstelling te vermelden die specifiek zijn voor de pensioenregimes van de overheidssector en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>99</MaximumKardinaliteit>
+      <NrGelinktBlok>90424</NrGelinktBlok>
+      <Gelinktblok>90424 - Baremieke wedde - Actie</Gelinktblok>
+      <Aanwezigheid>Kardinaliteit 0 indien de werknemerslijn een combinatie tussen een werkgeverscategorie en een werknemerskengetal betreft die niet tot de lijst van de combinaties voor dewelke een lijn Gegevens met betrekking tot de overheidssector - Actie noodzakelijk is.&#xA;Kardinaliteit 0 indien de tewerkstelling van de werknemerslijn een periode betreft die gedekt is door een verbrekingsvergoeding.&#xA;Kardinaliteit 199 indien de werknemerslijn een combinatie tussen een werkgeverscategorie en een werknemerskengetal betreft die tot de lijst van de combinaties voor dewelke een lijn Gegevens met betrekking tot de overheidssector - Actie noodzakelijk is.</Aanwezigheid>
+      <ExtraBeperkingen>Een blok Gegevens van de tewerkstelling met betrekking tot de overheidssector - Actie (een combinatie van de volgende zones: DATUM BEGIN - GEGEVENS VAN DE TEWERKSTELLING MET BETREKKING TOT DE OVERHEIDSSECTOR, TYPE VAN DE INSTELLING VAN DE OVERHEIDSSECTOR, PERSONEELSCATEGORIE VAN DE OVERHEIDSSECTOR, AARD VAN DE DIENST, AARD VAN DE FUNCTIE) mag slechts één keer voorkomen per Tewerkstelling van de werknemerslijn - Consultatie.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90423-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90423-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90439</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Gelijktijdige maatregelen tot reorganisatie van de arbeidstijd - Informatie - Actie</Naam>
+      <Zones>00051 - MAATREGEL TOT REORGANISATIE VAN DE ARBEIDSTIJD</Zones>
+      <Zones>01030 - PERCENTAGE VAN DE MAATREGEL TOT REORGANISATIE VAN DE ARBEIDSTIJD</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>ReorgMeasureInformationAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie op te geven over gelijktijdige maatregelen tot reorganisatie van de arbeidstijd alsook de actie die wordt gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit n indien de zone 00051 op niveau tewerkstelling is ingevuld met de waarde 599.&#xA;Anders, kardinaliteit 0.</Aanwezigheid>
+      <ExtraBeperkingen>Een maatregel tot reorganisatie van de arbeidstijd mag slechts één keer voorkomen per tewerkstelling.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90439-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90439-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90439-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90202</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Natuurlijke persoon - Consultatie</Naam>
+      <Zones>00023 - VOLGNUMMER NATUURLIJKE PERSOON</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>00025 - NAAM VAN DE WERKNEMER</Zones>
+      <Zones>00026 - VOORNAAM VAN DE WERKNEMER</Zones>
+      <Zones>00615 - REFERENTIE GEBRUIKER - NATUURLIJKE PERSOON</Zones>
+      <Zones>00549 - PERMANENTE IDENTIFICATIECODE VAN DE NATUURLIJKE PERSOON</Zones>
+      <Zones>00548 - PERMANENTE IDENTIFICATIECODE VAN DE AANGEGEVEN NATUURLIJKE PERSOON</Zones>
+      <Zones>00620 - VERSIENUMMER VAN DE AANGEGEVEN NATUURLIJKE PERSOON</Zones>
+      <Zones>00609 - RESULTAATCODE VAN DE OPZOEKING</Zones>
+      <XmlLabel>NaturalPersonConsult</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven met betrekking tot de consultatie van een natuurlijke persoon.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90204</NrGelinktBlok>
+      <NrGelinktBlok>90176</NrGelinktBlok>
+      <Gelinktblok>90204 - Werknemerslijn - Consultatie</Gelinktblok>
+      <Gelinktblok>90176 - Anomalierapport</Gelinktblok>
+      <Aanwezigheid>Verplicht indien de aanvraag tot consultatie betrekking heeft op ten minste één natuurlijke persoon en de aangifte niet geannuleerd is.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90202-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90202-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90178</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Pad</Naam>
+      <Zones>00013 - JAAR - KWARTAAL</Zones>
+      <Zones>00011 - RSZ-NUMMER</Zones>
+      <Zones>00109 - PPL NUMMER</Zones>
+      <Zones>00012 - NOTIE CURATELE</Zones>
+      <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+      <Zones>00019 - WERKGEVERSCATEGORIE WAARVOOR EEN BIJDRAGE VERSCHULDIGD IS DIE NIET GEBONDEN IS AAN EEN NATUURLIJKE PERSOON</Zones>
+      <Zones>00020 - WERKNEMERSKENGETAL VOOR EEN BIJDRAGE DIE NIET GEBONDEN IS AAN EEN NATUURLIJKE PERSOON</Zones>
+      <Zones>00023 - VOLGNUMMER NATUURLIJKE PERSOON</Zones>
+      <Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones>
+      <Zones>00036 - WERKGEVERSCATEGORIE</Zones>
+      <Zones>00037 - WERKNEMERSKENGETAL</Zones>
+      <Zones>00043 - TEWERKSTELLINGSNUMMER</Zones>
+      <Zones>00051 - MAATREGEL TOT REORGANISATIE VAN DE ARBEIDSTIJD</Zones>
+      <Zones>00061 - NUMMER PRESTATIELIJN</Zones>
+      <Zones>00062 - PRESTATIECODE</Zones>
+      <Zones>00066 - LIJNNUMMER BEZOLDIGING</Zones>
+      <Zones>00067 - BEZOLDIGINGSCODE</Zones>
+      <Zones>00068 - FREQUENTIE IN MAANDEN VAN DE BETALING VAN DE PREMIE</Zones>
+      <Zones>00069 - PERCENTAGE VAN DE BEZOLDIGING OP JAARBASIS</Zones>
+      <Zones>00086 - VERMINDERINGSCODE</Zones>
+      <Zones>00138 - VOLGNUMMER DETAIL VERMINDERING</Zones>
+      <Zones>00815 - NOTIE WERKGEVER</Zones>
+      <Zones>00046 - NUMMER VAN PARITAIR COMITÉ</Zones>
+      <Zones>00228 - NACE-CODE</Zones>
+      <Zones>00824 - NOTIE TYPE AKKOORD VAN DE AANVULLENDE VERGOEDING</Zones>
+      <Zones>00825 - NOTIE HALFTIJDSE LOOPBAANONDERBREKING OF HALFTIJDS BRUGPENSIOEN</Zones>
+      <Zones>00826 - NOTIE VRIJSTELLING VAN PRESTATIES</Zones>
+      <Zones>00827 - NOTIE CONFORME VERVANGING</Zones>
+      <Zones>00082 - WERKNEMERSKENGETAL BIJDRAGE</Zones>
+      <Zones>00083 - TYPE BIJDRAGE</Zones>
+      <Zones>00829 - NOTIE AANPASSING BEDRAG VAN DE AANVULLENDE VERGOEDING OF DE SOCIALE UITKERING</Zones>
+      <Zones>00955 - VOLGNUMMER BIJDRAGE</Zones>
+      <Zones>00079 - CODE BIJDRAGE BRUGPENSIOEN</Zones>
+      <Zones>00144 - AARD VAN DE VERGOEDING</Zones>
+      <Zones>00145 - GRAAD VAN ONGESCHIKTHEID</Zones>
+      <Zones>00615 - REFERENTIE GEBRUIKER - NATUURLIJKE PERSOON</Zones>
+      <Zones>00616 - REFERENTIE GEBRUIKER - WERKNEMERSLIJN</Zones>
+      <Zones>00617 - REFERENTIE GEBRUIKER - TEWERKSTELLING VAN DE WERKNEMERSLIJN</Zones>
+      <Zones>00780 - VOLGNUMMER BEDRIJFSVOERTUIG</Zones>
+      <Zones>00901 - BEDRAG BEREKEND PER NATUURLIJKE PERSOON</Zones>
+      <Zones>00902 - BEDRAG BEREKEND PER BIJDRAGE NIET GEBONDEN AAN EEN NATUURLIJKE PERSOON</Zones>
+      <Zones>00940 - IDENTIFICATIENUMMER VAN DE BETROKKENE VERBONDEN AAN HET CONTRACT MET BETREKKING TOT DE WERKEN</Zones>
+      <Zones>00964 - DATUM BEGIN - GEGEVENS VAN DE TEWERKSTELLING MET BETREKKING TOT DE OVERHEIDSSECTOR</Zones>
+      <Zones>01006 - VOLGNUMMER WERKGEVER</Zones>
+      <Zones>00993 - VOLGNUMMER VAN HET ELEMENT VAN DE LOOPBAANGESCHIEDENIS</Zones>
+      <Zones>00961 - TYPE VAN DE INSTELLING VAN DE OVERHEIDSSECTOR</Zones>
+      <Zones>00962 - PERSONEELSCATEGORIE VAN DE OVERHEIDSSECTOR</Zones>
+      <Zones>00967 - AARD VAN DE DIENST</Zones>
+      <Zones>00968 - AARD VAN DE FUNCTIE</Zones>
+      <Zones>01000 - VOLGNUMMER VAN DE BAREMIEKE WEDDE</Zones>
+      <Zones>00970 - DATUM BEGIN - BAREMIEKE WEDDE</Zones>
+      <Zones>00972 - DATUM VAN RANGINNEMING IN DE GELDELIJKE ANCIËNNITEIT</Zones>
+      <Zones>00973 - REFERENTIE VAN DE WEDDESCHAAL</Zones>
+      <Zones>01001 - VOLGNUMMER VAN DE WEDDEBIJSLAG</Zones>
+      <Zones>00977 - REFERENTIE VAN DE WEDDEBIJSLAG</Zones>
+      <Zones>00978 - DATUM BEGIN - WEDDEBIJSLAG</Zones>
+      <Zones>01002 - CODE VOOR NIET-SITUEERBARE AFWEZIGHEID</Zones>
+      <Zones>01004 - KALENDERJAAR</Zones>
+      <Zones>00910 - DATUM BEGIN</Zones>
+      <Zones>01250 - TYPE WERKGEVERSCOMPENSATIE</Zones>
+      <Zones>00131 - ONDERNEMINGSNUMMER VAN DE GEBRUIKENDE ONDERNEMING</Zones>
+      <Zones>01185 - BTW-NUMMER</Zones>
+      <XmlLabel>Path</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie over het pad naar de fouten op te geven.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90227</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Prestatie van de tewerkstelling werknemerslijn - Actie</Naam>
+      <Zones>00061 - NUMMER PRESTATIELIJN</Zones>
+      <Zones>00062 - PRESTATIECODE</Zones>
+      <Zones>00063 - AANTAL DAGEN VAN DE PRESTATIE</Zones>
+      <Zones>00064 - AANTAL UREN VAN DE PRESTATIE</Zones>
+      <Zones>00065 - AANTAL VLUCHTMINUTEN</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>ServiceAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met de prestaties van een werknemer voor een tewerkstelling van de werknemerslijn en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien ten minste één prestatie aanwezig is in de DB DmfA voor de tewerkstelling</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90227-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90227-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90082</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Referentie</Naam>
+      <Zones>00221 - TYPE VAN DE REFERENTIE</Zones>
+      <Zones>00298 - HERKOMST VAN DE REFERENTIE</Zones>
+      <Zones>00222 - REFERENTIENUMMER</Zones>
+      <XmlLabel>Reference</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat referenties te preciseren in verband met één of meer formulieren; een formulier kan een originele DmfA-aangifte zijn, een wijzigende DmfA-aangifte, een ASR, een aanvraag van inlichtingen, een Dimona aangifte, enz.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Verplicht indien de aanvraag tot consultatie een referentieblok bevat</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90082-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90082-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90082-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90102</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Referentie van het ontvangen bestand</Naam>
+      <Zones>00106 - NAAM VAN HET BESTAND</Zones>
+      <Zones>00298 - HERKOMST VAN DE REFERENTIE</Zones>
+      <Zones>00222 - REFERENTIENUMMER</Zones>
+      <XmlLabel>FileReference</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat een referentie naar het ontvangen bestand op te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>facultatief</Aanwezigheid>
+      <ExtraBeperkingen>Dit blok wordt momenteel niet meegedeeld.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90102-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90102-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90102-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90314</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Tewerkstelling - Inlichtingen - Actie</Naam>
+      <Zones>00795 - EXTRA</Zones>
+      <Zones>00893 - TER BESCHIKKING GESTELD PERSONEEL</Zones>
+      <Zones>00794 - MAATREGELEN NON-PROFIT</Zones>
+      <Zones>00812 - UURLOON</Zones>
+      <Zones>00862 - UURLOON IN DUIZENDSTEN VAN EURO</Zones>
+      <Zones>00728 - DATUM WAAROP HET VASTBENOEMDE PERSONEELSLID SINDS ZES MAANDEN OF MEER ZIEK IS</Zones>
+      <Zones>01010 - AANTAL DAGEN GEWAARBORGD LOON EERSTE WEEK</Zones>
+      <Zones>01011 - BRUTOLOON BETAALD IN GEVAL VAN ZIEKTE</Zones>
+      <Zones>01012 - VRIJSTELLING VAN AANGIFTE VAN GEGEVENS VAN DE TEWERKSTELLING MET BETREKKING TOT DE OVERHEIDSSECTOR</Zones>
+      <Zones>01013 - AFWIJKING AANVULLENDE PENSIOENREGELING</Zones>
+      <Zones>01063 - CONTROLEGEGEVEN - VERPLICHTING</Zones>
+      <Zones>01092 - DATUM VASTE BENOEMING</Zones>
+      <Zones>01148 - DATUM TOEKENNING NIEUWE POST SOCIALE MARIBEL</Zones>
+      <Zones>01176 - BIJDRAGE OVERHEIDSPENSIOEN VOOR STATUTAIRE WERKNEMERS - AFWIJKENDE BEREKENINGSBASIS</Zones>
+      <Zones>01194 - LOOPBAANMAATREGEL</Zones>
+      <Zones>00826 - NOTIE VRIJSTELLING VAN PRESTATIES</Zones>
+      <Zones>00197 - AANTAL VAKANTIEDAGEN</Zones>
+      <Zones>01215 - SECTORDETAIL</Zones>
+      <Zones>01216 - MOBILITEITSBUDGET</Zones>
+      <Zones>01232 - AANTAL UREN VLAAMS OPLEIDINGSVERLOF</Zones>
+      <Zones>01237 - REGIONALE TEWERKSTELLINGSMAATREGEL</Zones>
+      <Zones>01243 - WERKGEVERSBIJDRAGE BESTEMD VOOR INZETBAARHEIDSVERHOGENDE MAATREGELEN</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>OccupationInformationsAction</XmlLabel>
+      <Omschrijving>Functioneel blok waarmee inlichtingen met betrekking tot een tewerkstelling kunnen worden aangegeven, alsook de actie die wordt gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit 0 als er geen inlichtingen met betrekking tot de tewerkstelling moeten worden aangegeven.&#xA;Kardinaliteit 1 als er ten minste één inlichting met betrekking tot de tewerkstelling moet worden aangegeven, vanaf de aangiften van het kwartaal 2/2005</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90314-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90314-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90314-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90226</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Tewerkstelling van de werknemerslijn - Consultatie</Naam>
+      <Zones>00043 - TEWERKSTELLINGSNUMMER</Zones>
+      <Zones>00044 - DATUM WAAROP DE TEWERKSTELLING BEGINT</Zones>
+      <Zones>00045 - DATUM WAAROP DE TEWERKSTELLING EINDIGT</Zones>
+      <Zones>00046 - NUMMER VAN PARITAIR COMITÉ</Zones>
+      <Zones>00047 - AANTAL DAGEN PER WEEK VAN DE ARBEIDSREGELING</Zones>
+      <Zones>00050 - TYPE ARBEIDSOVEREENKOMST</Zones>
+      <Zones>00049 - GEMIDDELD AANTAL UREN PER WEEK VAN DE MAATPERSOON</Zones>
+      <Zones>00053 - STATUUT VAN DE WERKNEMER</Zones>
+      <Zones>00048 - GEMIDDELD AANTAL UREN PER WEEK VAN DE WERKNEMER</Zones>
+      <Zones>00051 - MAATREGEL TOT REORGANISATIE VAN DE ARBEIDSTIJD</Zones>
+      <Zones>00052 - MAATREGEL TER BEVORDERING VAN DE WERKGELEGENHEID</Zones>
+      <Zones>00054 - NOTIE GEPENSIONEERD</Zones>
+      <Zones>00055 - TYPE LEERLING</Zones>
+      <Zones>00056 - BEZOLDIGINGSWIJZE</Zones>
+      <Zones>00057 - FUNCTIENUMMER</Zones>
+      <Zones>00059 - KLASSE VAN HET VLIEGEND PERSONEEL</Zones>
+      <Zones>00060 - ONDERWIJS - BETALINGSWIJZE</Zones>
+      <Zones>00617 - REFERENTIE GEBRUIKER - TEWERKSTELLING VAN DE WERKNEMERSLIJN</Zones>
+      <Zones>00625 - VERANTWOORDING VAN DE DAGEN</Zones>
+      <Zones>00228 - NACE-CODE</Zones>
+      <Zones>00619 - VERSIENUMMER VAN DE TEWERKSTELLING VAN DE WERKNEMERSLIJN</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <Zones>00042 - IDENTIFICATIENUMMER VAN DE LOKALE EENHEID</Zones>
+      <Zones>01195 - IDENTIFICATIENUMMER VAN HET SCHIP</Zones>
+      <Zones>01199 - PERSONEELSKLASSE</Zones>
+      <Zones>01203 - GEMIDDELD AANTAL GESUBSIDIEERDE UREN PER WEEK VAN DE WERKNEMER</Zones>
+      <XmlLabel>OccupationConsultation</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met een tewerkstelling en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90314</NrGelinktBlok>
+      <NrGelinktBlok>90591</NrGelinktBlok>
+      <NrGelinktBlok>90227</NrGelinktBlok>
+      <NrGelinktBlok>90228</NrGelinktBlok>
+      <NrGelinktBlok>90423</NrGelinktBlok>
+      <NrGelinktBlok>90439</NrGelinktBlok>
+      <NrGelinktBlok>90604</NrGelinktBlok>
+      <NrGelinktBlok>90229</NrGelinktBlok>
+      <Gelinktblok>90314 - Tewerkstelling - Inlichtingen - Actie</Gelinktblok>
+      <Gelinktblok>90591 - Tweede pensioenpijler - Inlichtingen - Actie</Gelinktblok>
+      <Gelinktblok>90227 - Prestatie van de tewerkstelling werknemerslijn - Actie</Gelinktblok>
+      <Gelinktblok>90228 - Bezoldiging van de tewerkstelling werknemerslijn - Actie</Gelinktblok>
+      <Gelinktblok>90423 - Gegevens van de tewerkstelling met betrekking tot de overheidssector - Actie</Gelinktblok>
+      <Gelinktblok>90439 - Gelijktijdige maatregelen tot reorganisatie van de arbeidstijd - Informatie - Actie</Gelinktblok>
+      <Gelinktblok>90604 - Gebruikende onderneming - Actie</Gelinktblok>
+      <Gelinktblok>90229 - Vermindering tewerkstelling - Actie</Gelinktblok>
+      <Aanwezigheid>Verplicht indien ten minste één tewerkstelling aanwezig is in de DB DmfA voor de werknemerslijn</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90226-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90226-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90591</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Tweede pensioenpijler - Inlichtingen - Actie</Naam>
+      <Zones>01219 - REFERTEJAAR EN -MAAND</Zones>
+      <Zones>01220 - MAANDWEDDE</Zones>
+      <Zones>01221 - MAANDELIJKS WEDDESUPPLEMENT EN BONIFICATIE</Zones>
+      <Zones>01222 - MAANDELIJKSE HAARD- EN STANDPLAATSVERGOEDING</Zones>
+      <Zones>00966 - TAALROL</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>SecondPillarInformationAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat gegevens aan te geven in verband met een tweede pensioenpijler en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90236</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Vergoeding AO-BZ - Actie</Naam>
+      <Zones>00144 - AARD VAN DE VERGOEDING</Zones>
+      <Zones>00145 - GRAAD VAN ONGESCHIKTHEID</Zones>
+      <Zones>00146 - BEDRAG VAN DE VERGOEDING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>IndemnityWAPMAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met  vergoedingen betaald aan een werknemer die het slachtoffer werd van een arbeidsongeval of een beroepsziekte en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Kardinaliteit 0 voor een DmfAPPL&#xA;Kardinaliteit 1..* voor een DmfA, indien ten minste één uitkering AO - BZ aanwezig is in de DB DmfA voor de werknemerslijn</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90236-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90236-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90229</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Vermindering tewerkstelling - Actie</Naam>
+      <Zones>00086 - VERMINDERINGSCODE</Zones>
+      <Zones>00088 - BEREKENINGSBASIS VERMINDERING</Zones>
+      <Zones>00089 - BEDRAG VAN DE VERMINDERING</Zones>
+      <Zones>00090 - DATUM VANAF DEWELKE HET RECHT OP DE VERMINDERING GELDT</Zones>
+      <Zones>00091 - AANTAL MAANDEN ADMINISTRATIEKOSTEN ESS</Zones>
+      <Zones>00092 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ VAN DE VERVANGEN PERSOON</Zones>
+      <Zones>00093 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ VAN DE PERSOON DIE HET RECHT OP DE VERMINDERING GEOPEND HEEFT</Zones>
+      <Zones>00094 - HERKOMST VAN HET ATTEST</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>OccupationDeductionAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met de verminderingen gevraagd voor een tewerkstelling en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90251</NrGelinktBlok>
+      <Gelinktblok>90251 - Detailgegevens vermindering tewerkstelling - Actie</Gelinktblok>
+      <Aanwezigheid>Verplicht indien ten minste één vermindering aanwezig is in de DB DmfA voor de tewerkstelling</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90229-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90229-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90231</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Vermindering werknemerslijn - Actie</Naam>
+      <Zones>00086 - VERMINDERINGSCODE</Zones>
+      <Zones>00088 - BEREKENINGSBASIS VERMINDERING</Zones>
+      <Zones>00089 - BEDRAG VAN DE VERMINDERING</Zones>
+      <Zones>00090 - DATUM VANAF DEWELKE HET RECHT OP DE VERMINDERING GELDT</Zones>
+      <Zones>00091 - AANTAL MAANDEN ADMINISTRATIEKOSTEN ESS</Zones>
+      <Zones>00092 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ VAN DE VERVANGEN PERSOON</Zones>
+      <Zones>00093 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ VAN DE PERSOON DIE HET RECHT OP DE VERMINDERING GEOPEND HEEFT</Zones>
+      <Zones>00094 - HERKOMST VAN HET ATTEST</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>WorkerDeductionAction</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven in verband met de verminderingen gevraagd voor een werknemerslijn en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90232</NrGelinktBlok>
+      <Gelinktblok>90232 - Detailgegevens vermindering werknemerslijn - Actie</Gelinktblok>
+      <Aanwezigheid>Verplicht indien ten minste één vermindering aanwezig is in de DB DmfA voor de werknemerslijn</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90231-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90231-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90154</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Verrijkt blok origineel formulier</Naam>
+      <Zones>00296 - IDENTIFICATIE VAN HET FORMULIER</Zones>
+      <Zones>00218 - DATUM VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00299 - PRECIES UUR VAN CREATIE VAN HET FORMULIER</Zones>
+      <Zones>00110 - STATUS VAN HET ATTEST</Zones>
+      <Zones>00297 - TYPE VAN HET FORMULIER</Zones>
+      <XmlLabel>HandledOriginalForm</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat verrijkte informatie over het originele formulier op te geven.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90154-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90154-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90154-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90154-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90155</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Verrijkt blok referentie</Naam>
+      <Zones>00221 - TYPE VAN DE REFERENTIE</Zones>
+      <Zones>00298 - HERKOMST VAN DE REFERENTIE</Zones>
+      <Zones>00222 - REFERENTIENUMMER</Zones>
+      <XmlLabel>HandledReference</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat informatie aan te geven omtrent de verrijkte referentie.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90155-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90155-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90155-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90155-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90425</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Weddebijslag - Actie</Naam>
+      <Zones>00978 - DATUM BEGIN - WEDDEBIJSLAG</Zones>
+      <Zones>00979 - DATUM EIND - WEDDEBIJSLAG</Zones>
+      <Zones>00977 - REFERENTIE VAN DE WEDDEBIJSLAG</Zones>
+      <Zones>00980 - BASISBEDRAG VAN DE WEDDEBIJSLAG</Zones>
+      <Zones>00981 - PERCENTAGE VAN DE WEDDEBIJSLAG</Zones>
+      <Zones>00982 - AANTAL UREN OF PRESTATIES</Zones>
+      <Zones>00983 - BEDRAG VAN DE WEDDEBIJSLAG</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>AdditionalScaleSalaryAction</XmlLabel>
+      <Omschrijving>Functioneel blok waarin de elementen worden vermeld die betrekking hebben op de weddebijslagen die aanneembaar zijn voor de berekening van het rustpensioen of voor de perequatie van de pensioenen van de overheidssector en de actie gevraagd of uitgevoerd op dit functioneel blok.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>99</MaximumKardinaliteit>
+      <NrGelinktBlok/>
+      <Gelinktblok/>
+      <Aanwezigheid>Facultatief</Aanwezigheid>
+      <ExtraBeperkingen>Een blok Weddebijslag - Actie (een combinatie van de volgende zones: REFERENTIE VAN DE WEDDEBIJSLAG, DATUM BEGIN  WEDDEBIJSLAG) mag slechts één keer voorkomen per blok Baremieke wedde - Actie.</ExtraBeperkingen>
+
+      <Anomalie>
+         <AnomalieCode>90425-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90425-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90201</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Werkgeversaangifte - Consultatie</Naam>
+      <Zones>00013 - JAAR - KWARTAAL</Zones>
+      <Zones>00011 - RSZ-NUMMER</Zones>
+      <Zones>00012 - NOTIE CURATELE</Zones>
+      <Zones>00109 - PPL NUMMER</Zones>
+      <Zones>00014 - ONDERNEMINGSNUMMER</Zones>
+      <Zones>00016 - CONVERSIE NAAR REGIME 5</Zones>
+      <Zones>00534 - PERMANENTE IDENTIFICATIECODE VAN DE WERKGEVERSAANGIFTE</Zones>
+      <Zones>00832 - VERSIENUMMER VAN DE WERKGEVERSAANGIFTE</Zones>
+      <Zones>00609 - RESULTAATCODE VAN DE OPZOEKING</Zones>
+      <Zones>00852 - VERZENDING VAN DE ANOMALIEËN</Zones>
+      <XmlLabel>EmployerDeclarationConsult</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven met betrekking tot de consultatie van een werkgeversaangifte.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90202</NrGelinktBlok>
+      <NrGelinktBlok>90295</NrGelinktBlok>
+      <NrGelinktBlok>90216</NrGelinktBlok>
+      <NrGelinktBlok>90602</NrGelinktBlok>
+      <Gelinktblok>90202 - Natuurlijke persoon - Consultatie</Gelinktblok>
+      <Gelinktblok>90295 - Bedrijfsvoertuig - Actie</Gelinktblok>
+      <Gelinktblok>90216 - Bijdrage niet gebonden aan een natuurlijke persoon - Consultatie</Gelinktblok>
+      <Gelinktblok>90602 - Werkgeverscompensatie  Consultatie</Gelinktblok>
+      <Aanwezigheid>Onmisbaar</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90201-001</AnomalieCode>
+         <AnomalieTitel>Niet aanwezig</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90201-090</AnomalieCode>
+         <AnomalieTitel>Fout op kardinaliteit</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90201-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90201-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90602</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Werkgeverscompensatie  Consultatie</Naam>
+      <Zones>01250 - TYPE WERKGEVERSCOMPENSATIE</Zones>
+      <Zones>01251 - BEDRAG VAN DE COMPENSATIE</Zones>
+      <Zones>01252 - WERKGEVERSCOMPENSATIE - AFWIJKING</Zones>
+      <Zones>01253 - VERSIENUMMER WERKGEVERSCOMPENSATIE</Zones>
+      <Zones>00425 - CODE ONDERWERPING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>EmployerCompensationConsult</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven met betrekking tot de consultatie van een werkgeverscompensatie.</Omschrijving>
+      <MinimumKardinaliteit>0</MinimumKardinaliteit>
+      <MaximumKardinaliteit>1</MaximumKardinaliteit>
+      <NrGelinktBlok>90176</NrGelinktBlok>
+      <Gelinktblok>90176 - Anomalierapport</Gelinktblok>
+      <Aanwezigheid>Verplicht indien de aanvraag tot consultatie betrekking heeft op ten minste één werkgeverscompensatie en de aangifte niet geannuleerd is.</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90602-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90602-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+
+   <FunctionalBlock>
+      <Code>90204</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Naam>Werknemerslijn - Consultatie</Naam>
+      <Zones>00036 - WERKGEVERSCATEGORIE</Zones>
+      <Zones>00037 - WERKNEMERSKENGETAL</Zones>
+      <Zones>00038 - DATUM WAAROP HET SOCIALEZEKERHEIDSKWARTAAL BEGINT</Zones>
+      <Zones>00039 - DATUM WAAROP HET SOCIALEZEKERHEIDSKWARTAAL EINDIGT</Zones>
+      <Zones>00040 - NOTIE GRENSARBEIDER</Zones>
+      <Zones>00041 - ACTIVITEIT TEN OPZICHTE VAN HET RISICO</Zones>
+      <Zones>00042 - IDENTIFICATIENUMMER VAN DE LOKALE EENHEID</Zones>
+      <Zones>00616 - REFERENTIE GEBRUIKER - WERKNEMERSLIJN</Zones>
+      <Zones>00574 - PERMANENTE IDENTIFICATIECODE VAN DE WERKNEMERSLIJN</Zones>
+      <Zones>00610 - VERSIENUMMER WERKNEMERSLIJN</Zones>
+      <Zones>00425 - CODE ONDERWERPING</Zones>
+      <Zones>00411 - ACTIECODE</Zones>
+      <XmlLabel>WorkerRecordConsult</XmlLabel>
+      <Omschrijving>Functioneel blok dat toelaat de gegevens aan te geven met betrekking tot de consultatie van een werknemerslijn.</Omschrijving>
+      <MinimumKardinaliteit>1</MinimumKardinaliteit>
+      <MaximumKardinaliteit>*</MaximumKardinaliteit>
+      <NrGelinktBlok>90226</NrGelinktBlok>
+      <NrGelinktBlok>90579</NrGelinktBlok>
+      <NrGelinktBlok>90230</NrGelinktBlok>
+      <NrGelinktBlok>90231</NrGelinktBlok>
+      <NrGelinktBlok>90233</NrGelinktBlok>
+      <NrGelinktBlok>90234</NrGelinktBlok>
+      <NrGelinktBlok>90235</NrGelinktBlok>
+      <NrGelinktBlok>90236</NrGelinktBlok>
+      <NrGelinktBlok>90338</NrGelinktBlok>
+      <Gelinktblok>90226 - Tewerkstelling van de werknemerslijn - Consultatie</Gelinktblok>
+      <Gelinktblok>90579 - Activering - Inlichtingen - Actie</Gelinktblok>
+      <Gelinktblok>90230 - Bijdrage verschuldigd voor de werknemerslijn - Actie</Gelinktblok>
+      <Gelinktblok>90231 - Vermindering werknemerslijn - Actie</Gelinktblok>
+      <Gelinktblok>90233 - Bijdrage ontslagen statutaire werknemer - Actie</Gelinktblok>
+      <Gelinktblok>90234 - Bijdrage werknemer-student - Actie</Gelinktblok>
+      <Gelinktblok>90235 - Bijdrage bruggepensioneerd werknemer - Actie</Gelinktblok>
+      <Gelinktblok>90236 - Vergoeding AO-BZ - Actie</Gelinktblok>
+      <Gelinktblok>90338 - Aanvullende vergoeding - Actie</Gelinktblok>
+      <Aanwezigheid>Verplicht indien ten minste één werknemerslijn aanwezig is in de DB DmfA voor de gevraagde natuurlijke persoon</Aanwezigheid>
+      <ExtraBeperkingen/>
+
+      <Anomalie>
+         <AnomalieCode>90204-091</AnomalieCode>
+         <AnomalieTitel>Fout op volgorde</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90204-134</AnomalieCode>
+         <AnomalieTitel>Geen gegevens</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+
+      <Anomalie>
+         <AnomalieCode>90204-146</AnomalieCode>
+         <AnomalieTitel>Niet toegelaten</AnomalieTitel>
+         <AnomalieErnst>B</AnomalieErnst>
+      </Anomalie>
+   </FunctionalBlock>
+</List>

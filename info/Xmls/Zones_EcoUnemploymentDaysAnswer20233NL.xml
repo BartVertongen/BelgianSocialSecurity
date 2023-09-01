@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>01177</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BEREKENDE ECONOMISCHE WERKLOOSHEIDSDAGEN BUITEN DE BOUWSECTOR</Titel><XmlLabel>CalculatedEcoUnemploymentDaysNbr</XmlLabel><FunctioneelBlok>Detail Economische werkloosheidsdagen buiten bouwsector : Consultation</FunctioneelBlok><Omschrijving>Economische werkloosheidsdagen buiten de bouwsector waarmee rekening wordt gehouden om het forfait te bepalen van de bijdrage "economische werkloosheidsdagen buiten de bouwsector".</Omschrijving><ToegelatenDomein>[1;36600]
+
+Aandacht : De dagen worden uitgedrukt in honderdsten van dagen. 
+
+Voorbeelden :	
+. 62,22 dagen wordt uitgedrukt onder de vorm : 6222
+. 65 dagen wordt uitgedrukt onder de vorm : 6500</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Detail Economische werkloosheidsdagen buiten bouwsector : Consultation</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00013</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>JAAR - KWARTAAL</Titel><XmlLabel>Quarter</XmlLabel><FunctioneelBlok>Detail Economische werkloosheidsdagen buiten bouwsector : Consultation</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00609</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>RESULTAATCODE VAN DE OPZOEKING</Titel><XmlLabel>ResultCodeResearch</XmlLabel><FunctioneelBlok>Economische werkloosheidsdagen buiten de bouwsector - Consultation</FunctioneelBlok><Omschrijving>Code die aanduidt of het verzoek al dan niet resultaat heeft opgeleverd, en eventueel de reden waarom er geen resultaat kan worden meegedeeld.</Omschrijving><ToegelatenDomein>0 = geen anomalie
+1 = geen enkel resultaat voor dit verzoek
+ 2 = dit gegeven werd geannuleerd
+3 = dit gegeven werd niet gevonden binnen de vereiste aangifte
+4 = deze natuurlijke persoon kon niet geïdentificeerd worden door Sigedis
+5 = te veel resultaten voor dit verzoekDe enige toegelaten waarden zijn 0 en 1.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

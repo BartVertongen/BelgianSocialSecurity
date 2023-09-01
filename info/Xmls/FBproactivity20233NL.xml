@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT FunctionalBlock (Code+, Versie+, Publicatiedatum+, Naam+, Zones+, XmlLabel+, Omschrijving+, MinimumKardinaliteit+, MaximumKardinaliteit+, NrGelinktBlok+, Gelinktblok+, Aanwezigheid+, ExtraBeperkingen+, Anomalie+)>
+     <!ELEMENT List (FunctionalBlock+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Naam (#PCDATA)>
+     <!ELEMENT Zones (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT MinimumKardinaliteit (#PCDATA)>
+     <!ELEMENT MaximumKardinaliteit (#PCDATA)>
+     <!ELEMENT NrGelinktBlok (#PCDATA)>
+     <!ELEMENT Gelinktblok (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT ExtraBeperkingen (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<FunctionalBlock>
+<Code>90557</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Gegevens over de proactiviteitsactie</Naam><Zones></Zones><XmlLabel>ProactivityFeedback</XmlLabel><Omschrijving>Functioneel blok met de gegevens over de proactiviteitsactie ondernomen door het erkend sociaal secretariaat of te ondernemen door de RSZ.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90558</NrGelinktBlok><NrGelinktBlok>90559</NrGelinktBlok><Gelinktblok>90558 - Informatie over de actie van het ESS</Gelinktblok><Gelinktblok>90559 - Informatie over de te ondernemen actie door de RSZ</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90558</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Informatie over de actie van het ESS</Naam><Zones>01168 - TYPE PROACTIVITEITSACTIE</Zones><Zones>00545 - STAVING</Zones><Zones>00015 - NETTO TE BETALEN BEDRAG</Zones><Zones>01169 - BETAALD BEDRAG</Zones><Zones>01170 - DATUM VAN DE ACTIE</Zones><Zones>01086 - DATUM VAN HET DOCUMENT</Zones><Zones>01066 - DATUM VAN AFSLUITING</Zones><Zones>00866 - KWARTAAL VAN BOEKING</Zones><XmlLabel>SocialSecretariatActionInformation</XmlLabel><Omschrijving>Functioneel blok dat de actie ondernomen door het sociaal secretariaat beschrijft in het kader van de proactiviteit.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90556</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Informatie over de proactiviteit</Naam><Zones>01167 - OORSPRONG VAN DE PROACTIVITEIT</Zones><Zones>00222 - REFERENTIENUMMER</Zones><XmlLabel>ProactivityInformation</XmlLabel><Omschrijving>Functioneel blok met de gegevens over het type proactiviteit.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90559</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Informatie over de te ondernemen actie door de RSZ</Naam><Zones>01168 - TYPE PROACTIVITEITSACTIE</Zones><Zones>00545 - STAVING</Zones><Zones>00015 - NETTO TE BETALEN BEDRAG</Zones><Zones>01169 - BETAALD BEDRAG</Zones><Zones>00866 - KWARTAAL VAN BOEKING</Zones><XmlLabel>NSSOActionInformation</XmlLabel><Omschrijving>Functioneel blok dat de te ondernemen actie door de RSZ beschrijft in het kader van de proactiviteit.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90555</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Proactiviteit</Naam><Zones></Zones><XmlLabel>Proactivity</XmlLabel><Omschrijving>Root-element van het XML-bericht dat het mogelijk maakt proactiviteitsrapporten aan te maken.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90556</NrGelinktBlok><NrGelinktBlok>90557</NrGelinktBlok><Gelinktblok>90556 - Informatie over de proactiviteit</Gelinktblok><Gelinktblok>90557 - Gegevens over de proactiviteitsactie</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+</List>

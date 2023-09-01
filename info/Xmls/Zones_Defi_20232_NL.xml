@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<List>
+   <glossary>
+      <Code>00107</Code>
+      <Versie>2023/2</Versie>
+      <Publicatiedatum>25/05/2023</Publicatiedatum>
+      <Titel>RESULTAATCODE</Titel>
+      <XmlLabel>ResultCode</XmlLabel>
+      <FunctioneelBlok>Informatie over de eindbeslissing</FunctioneelBlok>
+      <Omschrijving>Code die het algemeen resultaat van een verwerking aanduidt.In deze zone kan aangeduid worden of de eindbeslissing genomen door de sector Werkloosheid positief of negatief is.</Omschrijving>
+      <ToegelatenDomein>0 = NOK&#xA;1 = OK&#xA;2 = Te valideren voorstel&#xA;3 = Tijdelijk antwoord&#xA;4 = TimeoutAlleen de waarden '0' en '1' zijn toegelaten in dit bericht.</ToegelatenDomein>
+      <Referentie/>
+      <Type>Numeriek</Type>
+      <Lengte>1</Lengte>
+      <Aanwezigheid>Onmisbaar </Aanwezigheid>
+      <Formaat/>
+
+      <Anomalie>
+         <AnomalieCode/>
+         <AnomalieTitel/>
+         <AnomalieErnst/>
+      </Anomalie>
+   </glossary>
+</List>

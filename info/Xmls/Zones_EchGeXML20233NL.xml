@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>00164</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BELANGRIJKHEIDSCODE</Titel><XmlLabel>ImportanceCode</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving>Code die wijst op de grootte van de onderneming.</Omschrijving><ToegelatenDomein>1 = 1 tot 4 werknemers
+2 = 5 tot 9
+3 = 10 tot 19
+4 = 20 tot 49
+5 = 50 tot 99
+6 = 100 tot 199
+7 = 200 tot 499
+8 = 500 tot 999
+9 = 1000 en meer</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00776</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BENAMING</Titel><XmlLabel>Denomination</XmlLabel><FunctioneelBlok>Coördinaten bestemmeling</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00776</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BENAMING</Titel><XmlLabel>Denomination</XmlLabel><FunctioneelBlok>Titel van het document</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00776</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BENAMING</Titel><XmlLabel>Denomination</XmlLabel><FunctioneelBlok>Verzender</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00157</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BENAMING VAN DE WERKGEVER</Titel><XmlLabel>EmployerDenomination</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving>De benaming van de werkgever.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>96</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01234</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BENAMING (LANGE VERSIE)</Titel><XmlLabel>TitleLongValue</XmlLabel><FunctioneelBlok>Titel van het document</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>400</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01113</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BESTEMMELING</Titel><XmlLabel>Addressee</XmlLabel><FunctioneelBlok>Gegevens over de oorsprong van de verzending</FunctioneelBlok><Omschrijving>Identificatie van de bestemmeling</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01113</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BESTEMMELING</Titel><XmlLabel>Addressee</XmlLabel><FunctioneelBlok>Identificatiegegevens van de eindbestemmeling</FunctioneelBlok><Omschrijving>Identificatie van de bestemmeling</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01113</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BESTEMMELING</Titel><XmlLabel>Addressee</XmlLabel><FunctioneelBlok>Identificatiesgegevens van de bestemmeling</FunctioneelBlok><Omschrijving>Identificatie van de bestemmeling</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00519</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BRIEVENBUS</Titel><XmlLabel>PostBox</XmlLabel><FunctioneelBlok>Coördinaten bestemmeling</FunctioneelBlok><Omschrijving>Nummer van een brievenbus.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00519</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BRIEVENBUS</Titel><XmlLabel>PostBox</XmlLabel><FunctioneelBlok>Verzender</FunctioneelBlok><Omschrijving>Nummer van een brievenbus.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00160</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BRIEVENBUS VAN DE WERKGEVER</Titel><XmlLabel>EmployerPostBox</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving>Nummer van een brievenbus.
+Nummer van de brievenbus van de hoofdzetel van de werkgever.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>4</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01116</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM</Titel><XmlLabel>Date</XmlLabel><FunctioneelBlok>Criteria inzake het mandaat</FunctioneelBlok><Omschrijving>
+Datum</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM - VERVALDATUM</Titel><XmlLabel>DueDate</XmlLabel><FunctioneelBlok>Gegevens omtrent de status van de Case</FunctioneelBlok><Omschrijving>
+Datum waarop de werkgever het bedrag verbonden aan de instructie dient te betalenVervaldatum van de betaling (Fino004).</Omschrijving><ToegelatenDomein>Datum onder de vorm JJJJ-MM-DD.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01120</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN CREATIE</Titel><XmlLabel>CreationDate</XmlLabel><FunctioneelBlok>Gegevens omtrent de Case</FunctioneelBlok><Omschrijving>
+Creatiedatum</Omschrijving><ToegelatenDomein>Groter dan 2012-12-31 (startdatum ede).
+De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief Om de aanwezigheidsvoowaarde te weten, kunt u de inleiding van dit glossarium nakijken.</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00218</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationDate</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>
+Datum waarop het formulier gecreëerd is.</Omschrijving><ToegelatenDomein>
+JJJJ is een element van [lopend jaar -1 ; lopend jaar] ;
+De datum mag zich niet in de toekomst bevinden.De datum zal groter zijn dan of gelijk zijn aan de begindatum van de geldigheid van de betrokken uitwisseling (identificatie). Deze datum wordt in de inleiding van dit glossarium gepreciseerd.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01086</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN HET DOCUMENT</Titel><XmlLabel>DocumentDate</XmlLabel><FunctioneelBlok>Gegevens over het document</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00898</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN ONTVANGST</Titel><XmlLabel>ReceptionDate</XmlLabel><FunctioneelBlok>Informatie over de ontvangst van het bestand</FunctioneelBlok><Omschrijving>Ontvangstdatum van het aangiftebestand</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00805</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VERZENDING</Titel><XmlLabel>DateSubmission</XmlLabel><FunctioneelBlok>Gegevens over de oorsprong van de verzending</FunctioneelBlok><Omschrijving>
+Datum van de verzending</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01119</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DIENST VAN DE RSZ</Titel><XmlLabel>NSSOService</XmlLabel><FunctioneelBlok>Gegevens omtrent de Case</FunctioneelBlok><Omschrijving>Dienst van de RSZ die behoort tot een Algemene Directie of een Directie.</Omschrijving><ToegelatenDomein>INNI = Directie Inning
+REJU = Directie Gerechtelijke Navordering
+RIPAD = Directie Risicobeheer</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>5</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01059</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DOCUMENT VAN HET FORMAAT BASE64</Titel><XmlLabel>DocumentBase64</XmlLabel><FunctioneelBlok>Niet-XML-document</FunctioneelBlok><Omschrijving>Deze zone bevat het document (niet-XML) van het formaat Base64</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>999999999999999</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00637</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>E-MAILADRES</Titel><XmlLabel>EmailAddress</XmlLabel><FunctioneelBlok>Gegevens verzending van een document</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>60</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00522</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>GEMEENTE</Titel><XmlLabel>City</XmlLabel><FunctioneelBlok>Coördinaten bestemmeling</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00522</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>GEMEENTE</Titel><XmlLabel>City</XmlLabel><FunctioneelBlok>Verzender</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00162</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>GEMEENTE VAN DE WERKGEVER</Titel><XmlLabel>EmployerCity</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving>Naam van een gemeente.
+Naam van de gemeente van de hoofdzetel van de werkgever</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01159</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>GROEPNAAM</Titel><XmlLabel>GroupName</XmlLabel><FunctioneelBlok>Referentiegegevens</FunctioneelBlok><Omschrijving>Zone die aangeeft tot welke groep het behandelde document behoort.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>20</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00298</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>HERKOMST VAN DE REFERENTIE</Titel><XmlLabel>ReferenceOrigin</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Waarde die de authentieke bron van een referentienummer aanduidt.
+</Omschrijving><ToegelatenDomein>1 = het referentienummer is toegekend door een aangever of aanvrager (een bedrijf, een sociaal secretariaat, een softwareontwikkelaar, ...)
+2 = het ticketnummer toegekend door de sociale zekerheid, dat een aangifte, een aanvraag of een antwoord op eenduidige wijze identificeert
+3 = het referentienummer is toegekend door een sector van de sociale zekerheid
+4 = het referentienummer is toegekend door de dienst ePost
+5 = het referentienummer is toegekend door de KSZ
+6 = het referentienummer is toegekend door het archiveringssysteem (DOC-ID)
+7 = het referentienummer is door de DSP aan een gearchiveerd document toegekend (DSP-ID)
+Voor het blok Referentie (90082) zie de inleiding van dit glossarium voor de toegelaten waarden in functie van de betrokken identificatie.
+In een blok FileReference (90102) is de oorsprong verplicht gelijk aan 2.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00298</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>HERKOMST VAN DE REFERENTIE</Titel><XmlLabel>ReferenceOrigin</XmlLabel><FunctioneelBlok>Referentie van het ontvangen bestand</FunctioneelBlok><Omschrijving>Waarde die de authentieke bron van een referentienummer aanduidt.
+</Omschrijving><ToegelatenDomein>1 = het referentienummer is toegekend door een aangever of aanvrager (een bedrijf, een sociaal secretariaat, een softwareontwikkelaar, ...)
+2 = het ticketnummer toegekend door de sociale zekerheid, dat een aangifte, een aanvraag of een antwoord op eenduidige wijze identificeert
+3 = het referentienummer is toegekend door een sector van de sociale zekerheid
+4 = het referentienummer is toegekend door de dienst ePost
+5 = het referentienummer is toegekend door de KSZ
+6 = het referentienummer is toegekend door het archiveringssysteem (DOC-ID)
+7 = het referentienummer is door de DSP aan een gearchiveerd document toegekend (DSP-ID)
+Voor het blok Referentie (90082) zie de inleiding van dit glossarium voor de toegelaten waarden in functie van de betrokken identificatie.
+In een blok FileReference (90102) is de oorsprong verplicht gelijk aan 2.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01122</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN DE CASE</Titel><XmlLabel>CaseId</XmlLabel><FunctioneelBlok>Gegevens omtrent de Case</FunctioneelBlok><Omschrijving>Identificatie van de case.</Omschrijving><ToegelatenDomein>1 tot 18 alfanumerieke karakters.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>18</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01124</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN DE INDEX</Titel><XmlLabel>IndexId</XmlLabel><FunctioneelBlok>Indexeringscriteria</FunctioneelBlok><Omschrijving>Identificatie van de index waarmee rekening moet worden gehouden bij het indexeringsproces.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>28</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00296</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN HET FORMULIER</Titel><XmlLabel>Identification</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Zone die de inhoud van een formulier beschrijft.
+</Omschrijving><ToegelatenDomein>Zie bijlage 11 - Identificatie van het formulier.
+Versie geldig vanaf 2016/4:
+
+Om de toegestane identificaties in het blok Form (90059) te kennen zie inleiding van het glossarium GXD.
+
+Om de toegestane identificaties in het blok AddresseeData (90514) te kennen zie de inleiding van het glossarium GXD.
+
+Merk op dat indien het formulier (of document) doorgestuurd wordt in een bestand, de identificatie dan coherent moet zijn met het onderwerp in de naam van dit bestand (tweede onderdeel van de naam van het bestand).
+
+Voor bepaalde uitwisselingen hebben de sectoren van de Sociale zekerheid de mogelijkheid om met behulp van berichten te communiceren. In dit geval moet de identificatie coherent zijn met deze die zich in het prefixgedeelte van het bericht (RFH2) bevindt. Dit prefixgedeelte hoort bij het formulier in het bericht. 
+
+In de versie 2016/3, deze zone eveneens waarden van bijlage 302 bevatten, alsook de identificaties van elk ander xml-bericht dat niet is opgenomen in deze bijlage.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00296</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIE VAN HET FORMULIER</Titel><XmlLabel>Identification</XmlLabel><FunctioneelBlok>Identificatiesgegevens van de bestemmeling</FunctioneelBlok><Omschrijving>Zone die de inhoud van een formulier beschrijft.
+</Omschrijving><ToegelatenDomein>Zie bijlage 11 - Identificatie van het formulier.
+Versie geldig vanaf 2016/4:
+
+Om de toegestane identificaties in het blok Form (90059) te kennen zie inleiding van het glossarium GXD.
+
+Om de toegestane identificaties in het blok AddresseeData (90514) te kennen zie de inleiding van het glossarium GXD.
+
+Merk op dat indien het formulier (of document) doorgestuurd wordt in een bestand, de identificatie dan coherent moet zijn met het onderwerp in de naam van dit bestand (tweede onderdeel van de naam van het bestand).
+
+Voor bepaalde uitwisselingen hebben de sectoren van de Sociale zekerheid de mogelijkheid om met behulp van berichten te communiceren. In dit geval moet de identificatie coherent zijn met deze die zich in het prefixgedeelte van het bericht (RFH2) bevindt. Dit prefixgedeelte hoort bij het formulier in het bericht. 
+
+In de versie 2016/3, deze zone eveneens waarden van bijlage 302 bevatten, alsook de identificaties van elk ander xml-bericht dat niet is opgenomen in deze bijlage.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>7</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01127</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIECODE VAN DE TOEGEWEZEN GEBRUIKER</Titel><XmlLabel>AssignedUserId</XmlLabel><FunctioneelBlok>Criteria voor identificatie van de toegewezen gebruiker</FunctioneelBlok><Omschrijving>Identificatiecode van de toegewezen gebruiker</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Gegevens over het document</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein>In het functionele blok ReferenceData verwijst deze zone naar het INSZ van de verzekerde.
+In het functionele blok DocumentData verwijst deze zone naar het INSZ van de agent van de sector van de sociale zekerheid die het document gevalideerd heeft.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Referentiegegevens</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein>In het functionele blok ReferenceData verwijst deze zone naar het INSZ van de verzekerde.
+In het functionele blok DocumentData verwijst deze zone naar het INSZ van de agent van de sector van de sociale zekerheid die het document gevalideerd heeft.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Verrijkte identificatie van de verzender</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein>In het functionele blok ReferenceData verwijst deze zone naar het INSZ van de verzekerde.
+In het functionele blok DocumentData verwijst deze zone naar het INSZ van de agent van de sector van de sociale zekerheid die het document gevalideerd heeft.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01165</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER VAN DE BIJLAGE</Titel><XmlLabel>AttachmentId</XmlLabel><FunctioneelBlok>Technische beschrijving</FunctioneelBlok><Omschrijving>Identificatienummer van de bijlage</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>7</Lengte><Aanwezigheid>Verplicht indien het deel « DATA » (FB 90370) behelst een bijlage.
+Verboden in alle andere gevallen (zie de inleiding van dit glossarium voor meer inlichtingen).</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00002</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER VAN DE VERZENDER</Titel><XmlLabel>SenderId</XmlLabel><FunctioneelBlok>Verrijkt blok origineel bestand</FunctioneelBlok><Omschrijving>Dit nummer wordt door de RSZ toegekend aan een verzender (werkgever of mandataris) in het kader van de transmissie van documenten via elektronische weg.
+Het is nutteloos documenten elektronisch te verzenden als men niet in het bezit is van dit identificatienummer.</Omschrijving><ToegelatenDomein>[000001;999999]</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>6</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00013</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>JAAR - KWARTAAL</Titel><XmlLabel>Quarter</XmlLabel><FunctioneelBlok>Criteria inzake het mandaat</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal.
+Bepaling van het jaar en het kwartaal van de aangifte.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Verplicht indien  de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00013</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>JAAR - KWARTAAL</Titel><XmlLabel>Quarter</XmlLabel><FunctioneelBlok>Referentiegegevens</FunctioneelBlok><Omschrijving>Bepaling van het jaar en het kwartaal.
+Bepaling van het jaar en het kwartaal van de aangifte.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Verplicht indien  de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>JJJJK
+. JJJJ is het jaar
+. K is het kwartaal</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00737</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KANAAL</Titel><XmlLabel>Channel</XmlLabel><FunctioneelBlok>Gegevens verzending van een document</FunctioneelBlok><Omschrijving>Transmissiekanaal.</Omschrijving><ToegelatenDomein>0: FTP
+1: MQ-Link
+2: Isabel
+3: WEB
+4: Magnetische drager
+5: Papier
+6: MQ-Series
+7: Client/Serveur
+8: Odysseus
+9: Geen kanaal
+10: WEB onbeveiligd
+11: SMS
+12: Vocaal server
+13: Webservice
+14 : sFTP
+15 : Webservice MTOM
+16 : Mobiel WEB
+17 : E-mailAls de zone zich op het niveau van het functionele blok FileReceptionInformation (90390) bevindt, dan zijn de enige toegelaten waarden 0 en 14.
+Als de zone zich op het niveau van het functionele blok DocumentSendingData (90567) bevindt, dan zijn de enige toegelaten waarden 3 en 5.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00737</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KANAAL</Titel><XmlLabel>Channel</XmlLabel><FunctioneelBlok>Informatie over de ontvangst van het bestand</FunctioneelBlok><Omschrijving>Transmissiekanaal.</Omschrijving><ToegelatenDomein>0: FTP
+1: MQ-Link
+2: Isabel
+3: WEB
+4: Magnetische drager
+5: Papier
+6: MQ-Series
+7: Client/Serveur
+8: Odysseus
+9: Geen kanaal
+10: WEB onbeveiligd
+11: SMS
+12: Vocaal server
+13: Webservice
+14 : sFTP
+15 : Webservice MTOM
+16 : Mobiel WEB
+17 : E-mailAls de zone zich op het niveau van het functionele blok FileReceptionInformation (90390) bevindt, dan zijn de enige toegelaten waarden 0 en 14.
+Als de zone zich op het niveau van het functionele blok DocumentSendingData (90567) bevindt, dan zijn de enige toegelaten waarden 3 en 5.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01046</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KARAKTERFORMAAT</Titel><XmlLabel>CharacterFormat</XmlLabel><FunctioneelBlok>Technische beschrijving</FunctioneelBlok><Omschrijving>Formaat gebruikt om elke byte weer te geven</Omschrijving><ToegelatenDomein>"NATIVE"
+"Base64"De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>30</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01045</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KARAKTERSET</Titel><XmlLabel>CharacterSet</XmlLabel><FunctioneelBlok>Technische beschrijving</FunctioneelBlok><Omschrijving>Weergave gebruikt voor de karakters</Omschrijving><ToegelatenDomein>"UTF-8"</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>30</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01115</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KWALITEIT VAN DE BESTEMMELING</Titel><XmlLabel>AddresseeQuality</XmlLabel><FunctioneelBlok>Gegevens over de oorsprong van de verzending</FunctioneelBlok><Omschrijving>Kwaliteit van de bestemmeling</Omschrijving><ToegelatenDomein>De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01115</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KWALITEIT VAN DE BESTEMMELING</Titel><XmlLabel>AddresseeQuality</XmlLabel><FunctioneelBlok>Identificatiegegevens van de eindbestemmeling</FunctioneelBlok><Omschrijving>Kwaliteit van de bestemmeling</Omschrijving><ToegelatenDomein>De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01115</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>KWALITEIT VAN DE BESTEMMELING</Titel><XmlLabel>AddresseeQuality</XmlLabel><FunctioneelBlok>Identificatiesgegevens van de bestemmeling</FunctioneelBlok><Omschrijving>Kwaliteit van de bestemmeling</Omschrijving><ToegelatenDomein>De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01147</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>LAATSTE FORMULIER</Titel><XmlLabel>IsLastForm</XmlLabel><FunctioneelBlok>Referentiegegevens</FunctioneelBlok><Omschrijving>Zone waarmee aangegeven wordt of het al dan niet gaat om het laatste formulier van een bestand.</Omschrijving><ToegelatenDomein>0 = dit is niet het laatste formulier van een bestand 
+1 = dit is het laatste formulier van een bestand </ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00523</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>LANDCODE</Titel><XmlLabel>Country</XmlLabel><FunctioneelBlok>Coördinaten bestemmeling</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00523</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>LANDCODE</Titel><XmlLabel>Country</XmlLabel><FunctioneelBlok>Verzender</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00163</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>LANDCODE VAN DE WERKGEVER</Titel><XmlLabel>EmployerCountry</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving>Code die toelaat een land te identificeren.
+INS-code die toelaat het land te identificeren waar zich de hoofdzetel van de werkgever bevindt.</Omschrijving><ToegelatenDomein>Zie Bijlage 5 - Lijst met landcodes.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>5</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01048</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>METHODE OM DE INTEGRITEIT TE BEREKENEN</Titel><XmlLabel>IntegrityMethod</XmlLabel><FunctioneelBlok>Integriteitscontrole</FunctioneelBlok><Omschrijving>Methode gebruikt om de integriteit van een document te verifiëren. Integriteitscontrole van de gegevens waarmee de integriteit van de gegevens kan gecontroleerd worden.</Omschrijving><ToegelatenDomein>"SHA-256"
+"SHA-512"
+"MD5"De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>30</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01044</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>MIME-TYPE</Titel><XmlLabel>MimeType</XmlLabel><FunctioneelBlok>Technische beschrijving</FunctioneelBlok><Omschrijving>Identificatie van het formaat van de gegevens. Het formaat van de gegevens van een document wordt beschreven via de tag MimeType die toelaat een formaat te specificeren volgens de MIME-conventies. Naar een aantal van hen wordt verwezen door de IANA (http://www.iana.org/assignments/media-types/index.html).
+
+De MIME-types om het formaat van de gegevens van een document te beschrijven, moeten gebruikt worden conform de richtlijnen beschreven in de ad hoc RFC's.</Omschrijving><ToegelatenDomein>application/pdf
+application/xml
+application/msword
+application/vnd.openxmlformats-officedocument.wordprocessingml.document
+application/vnd.ms-excel
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+application/zip
+image/jpeg
+image/tiff
+text/plain
+application
+application/vnd.oasis.opendocument.textDe algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>255</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00106</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NAAM VAN HET BESTAND</Titel><XmlLabel>FileName</XmlLabel><FunctioneelBlok>Referentie van het ontvangen bestand</FunctioneelBlok><Omschrijving>Naam van het bestand.Naam van het ontvangen bestand.</Omschrijving><ToegelatenDomein>In het functionele blok FileReference verwijst deze zone naar de naam van het ontvangen bestand.
+In het functionele blok TechnicalDescription verwijst deze zone naar de naam van het gegevensbestand in de ontvangen Zip.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar in het functionele blok FileReference.
+Onmisbaar of verboden in het functionele blok TechnicalDescription in functie van de betrokken identificatie (zie de algemene inleiding van dit glossarium).</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00106</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NAAM VAN HET BESTAND</Titel><XmlLabel>FileName</XmlLabel><FunctioneelBlok>Technische beschrijving</FunctioneelBlok><Omschrijving>Naam van het bestand.Naam van het ontvangen bestand.</Omschrijving><ToegelatenDomein>In het functionele blok FileReference verwijst deze zone naar de naam van het ontvangen bestand.
+In het functionele blok TechnicalDescription verwijst deze zone naar de naam van het gegevensbestand in de ontvangen Zip.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar in het functionele blok FileReference.
+Onmisbaar of verboden in het functionele blok TechnicalDescription in functie van de betrokken identificatie (zie de algemene inleiding van dit glossarium).</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00518</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NUMMER VAN HET ADRES</Titel><XmlLabel>HouseNbr</XmlLabel><FunctioneelBlok>Coördinaten bestemmeling</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00518</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NUMMER VAN HET ADRES</Titel><XmlLabel>HouseNbr</XmlLabel><FunctioneelBlok>Verzender</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00159</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NUMMER VAN HET ADRES VAN DE WERKGEVER</Titel><XmlLabel>EmployerHouseNbr</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving>
+Nummer van het adres van de hoofdzetel van de werkgever.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00479</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>NUMMER VAN SOCIAAL SECRETARIAAT</Titel><XmlLabel>SocialSecretariatNumber</XmlLabel><FunctioneelBlok>Verrijkte identificatie van de verzender</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01117</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>OBJECT</Titel><XmlLabel>Object</XmlLabel><FunctioneelBlok>Criteria inzake het object</FunctioneelBlok><Omschrijving>Object waarover een recht toegekend is via een mandaat of via curatele.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Gegevens over het document</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.In het kader van deze uitwisseling mag deze zone niet gelijk zijn aan nul indien geen van de drie nummers (RSZ/PPL of voorlopig) meegedeeld werd of indien de waarde ervan gelijk is aan nul.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het gegevensgedeelte een organisme betreft dat geïdentificeerd is met een ondernemingsnummer (00014).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.In het kader van deze uitwisseling mag deze zone niet gelijk zijn aan nul indien geen van de drie nummers (RSZ/PPL of voorlopig) meegedeeld werd of indien de waarde ervan gelijk is aan nul.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het gegevensgedeelte een organisme betreft dat geïdentificeerd is met een ondernemingsnummer (00014).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Verrijkte identificatie van de verzender</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.In het kader van deze uitwisseling mag deze zone niet gelijk zijn aan nul indien geen van de drie nummers (RSZ/PPL of voorlopig) meegedeeld werd of indien de waarde ervan gelijk is aan nul.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het gegevensgedeelte een organisme betreft dat geïdentificeerd is met een ondernemingsnummer (00014).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00693</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>OUTPUTKANAAL</Titel><XmlLabel>OutputChannel</XmlLabel><FunctioneelBlok>Criterium van de subgroep</FunctioneelBlok><Omschrijving>Deze zone wordt gebruikt in het kader van de GenericXml-uitwisselingen.Hiermee kan het outputkanaal gepreciseerd worden waarvoor het hergroeperingscriterium geldig is.</Omschrijving><ToegelatenDomein>BATCH
+PRINT</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00520</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>POSTCODE</Titel><XmlLabel>ZIPCode</XmlLabel><FunctioneelBlok>Coördinaten bestemmeling</FunctioneelBlok><Omschrijving>Postnummer van een gemeente.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00520</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>POSTCODE</Titel><XmlLabel>ZIPCode</XmlLabel><FunctioneelBlok>Verzender</FunctioneelBlok><Omschrijving>Postnummer van een gemeente.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00161</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>POSTCODE VAN DE WERKGEVER</Titel><XmlLabel>EmployerZIPCode</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving>Postnummer van een gemeente.
+Postnummer van het adres waar de hoofdzetel van de werkgever zich bevindt. Voor werkgevers die in België gedomicilieerd zijn, moet men de officiële lijst van de Belgische postcodes gebruiken.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>9</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00109</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>PPL NUMMER</Titel><XmlLabel>NOSSLPARegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving> Elke lokale of provinciale overheid die personeel in dienst heeft, moet ingeschreven zijn bij de RSZ.</Omschrijving><ToegelatenDomein>Geheel getal en element van [00000197;99999926]. Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het PPL nummer op de waarde nul gezet worden.Indien in het kader van deze uitwisseling het uniek ondernemingsnummer (00014 verschillend van nul) gekend is en niet het PPL nummer, dan moet het PPL nummer verplicht de waarde 0 bevatten om aan te geven dat het ondernemingsnummer (00014) een werkgever van een een provinciaal of plaatselijk bestuur betreft. De waarde ervan kan echter niet gelijk zijn aan nul als geen enkel ander nummer (RSZ of voorlopig nummer) meegedeeld werd of gelijk is aan nul en het ondernemingsnummer (00014) niet meegedeeld is of gelijk is aan nul.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>8</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>0 of NNNNNNCC
+· NNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00109</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>PPL NUMMER</Titel><XmlLabel>NOSSLPARegistrationNbr</XmlLabel><FunctioneelBlok>Verrijkte identificatie van de verzender</FunctioneelBlok><Omschrijving> Elke lokale of provinciale overheid die personeel in dienst heeft, moet ingeschreven zijn bij de RSZ.</Omschrijving><ToegelatenDomein>Geheel getal en element van [00000197;99999926]. Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het PPL nummer op de waarde nul gezet worden.Indien in het kader van deze uitwisseling het uniek ondernemingsnummer (00014 verschillend van nul) gekend is en niet het PPL nummer, dan moet het PPL nummer verplicht de waarde 0 bevatten om aan te geven dat het ondernemingsnummer (00014) een werkgever van een een provinciaal of plaatselijk bestuur betreft. De waarde ervan kan echter niet gelijk zijn aan nul als geen enkel ander nummer (RSZ of voorlopig nummer) meegedeeld werd of gelijk is aan nul en het ondernemingsnummer (00014) niet meegedeeld is of gelijk is aan nul.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>8</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>0 of NNNNNNCC
+· NNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00299</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>PRECIES UUR VAN CREATIE VAN HET FORMULIER</Titel><XmlLabel>FormCreationHour</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren, minuten, seconden en milliseconden.
+</Omschrijving><ToegelatenDomein>UU is een element van [00;23]
+MM is een element van [00;59]
+SS is een element van [00;59]
+SSS is een element van [000;999]
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>UU:MM:SS.SSS
+. UU zijn de uren
+. MM zijn de minuten
+. SS zijn de seconden
+. SSS zijn de milliseconden</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00935</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>PRECIES UUR VAN ONTVANGST</Titel><XmlLabel>ReceptionHour</XmlLabel><FunctioneelBlok>Informatie over de ontvangst van het bestand</FunctioneelBlok><Omschrijving>Tijdstip, uitgedrukt in uren, minuten, seconden en milliseconden.
+Betreft de ontvangst van het aangiftesbestaand.</Omschrijving><ToegelatenDomein>UU is een element van [00;23]
+MM is een element van [00;59]
+SS is een element van [00;59]
+SSS is een element van [000;999]
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>UU:MM:SS.SSS
+. UU zijn de uren
+. MM zijn de minuten
+. SS zijn de seconden
+. SSS zijn de milliseconden</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00219</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>RECHTSVORM</Titel><XmlLabel>LegalForm</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving>Rechtsvorm van de onderneming.</Omschrijving><ToegelatenDomein>Zie bijlage 22 - Lijst met de afkortingen van de rechtsvormen.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01087</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REFERENTIE VAN HET DOCUMENT</Titel><XmlLabel>DocumentReference</XmlLabel><FunctioneelBlok>Gegevens over het document</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Gegevens over de referentie van de Case</FunctioneelBlok><Omschrijving>Het referentienummer.Het referentienummer is een ticketnummer dat goedgekend wordt aan het formulier met uitzondering van het referentienummer van het blok FileReference dat een ticketnummer is toegekend aan het bestand of aan het ontvangen bericht.</Omschrijving><ToegelatenDomein>De maximale lengte van een referentienummer bedraagt 64 posities behalve indien de Oorsprong van de gespecificeerde referentie (00298) gelijk is aan 2 of 4 dan bedraagt de lengte verplicht 13 posities.  
+De socialezekerheidsnummers zullen gekend moeten zijn.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Het referentienummer.Het referentienummer is een ticketnummer dat goedgekend wordt aan het formulier met uitzondering van het referentienummer van het blok FileReference dat een ticketnummer is toegekend aan het bestand of aan het ontvangen bericht.</Omschrijving><ToegelatenDomein>De maximale lengte van een referentienummer bedraagt 64 posities behalve indien de Oorsprong van de gespecificeerde referentie (00298) gelijk is aan 2 of 4 dan bedraagt de lengte verplicht 13 posities.  
+De socialezekerheidsnummers zullen gekend moeten zijn.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00222</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REFERENTIENUMMER</Titel><XmlLabel>ReferenceNbr</XmlLabel><FunctioneelBlok>Referentie van het ontvangen bestand</FunctioneelBlok><Omschrijving>Het referentienummer.Het referentienummer is een ticketnummer dat goedgekend wordt aan het formulier met uitzondering van het referentienummer van het blok FileReference dat een ticketnummer is toegekend aan het bestand of aan het ontvangen bericht.</Omschrijving><ToegelatenDomein>De maximale lengte van een referentienummer bedraagt 64 posities behalve indien de Oorsprong van de gespecificeerde referentie (00298) gelijk is aan 2 of 4 dan bedraagt de lengte verplicht 13 posities.  
+De socialezekerheidsnummers zullen gekend moeten zijn.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00011</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+Indien in het kader van deze uitwisseling het uniek ondernemingsnummer (00014) gekend is en niet het RSZ-nummer dan moet het RSZ-nummer verplicht de waarde 0 bevatten om aan te geven dat het ondernemingsnummer een werkgever (uitgezonderd provinciale en plaatselijke besturen) betreft. Zijn waarde kan echter niet gelijk zijn aan nul als geen enkel ander nummer (PPL of voorlopig nummer) meegedeeld werd of gelijk is aan nul en het ondernemingsnummer (00014) niet meegedeeld werd of gelijk is aan nul.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>0 of NNNNNNNCC
+· NNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00011</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Verrijkte identificatie van de verzender</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+Indien in het kader van deze uitwisseling het uniek ondernemingsnummer (00014) gekend is en niet het RSZ-nummer dan moet het RSZ-nummer verplicht de waarde 0 bevatten om aan te geven dat het ondernemingsnummer een werkgever (uitgezonderd provinciale en plaatselijke besturen) betreft. Zijn waarde kan echter niet gelijk zijn aan nul als geen enkel ander nummer (PPL of voorlopig nummer) meegedeeld werd of gelijk is aan nul en het ondernemingsnummer (00014) niet meegedeeld werd of gelijk is aan nul.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>0 of NNNNNNNCC
+· NNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00110</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>STATUS VAN HET ATTEST</Titel><XmlLabel>AttestationStatus</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>0 = Origineel
+1 = Wijziging
+2 = Duplicaat
+3 = Annulatie
+4 = Herziening
+5 = Herinnering
+6 = Afsluiting
+7 = Wijziging van papieren origineel
+8 = KopieDe algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.
+Als de zone zich op het niveau van het functionele blok DocumentSendingData (90567) bevindt, dan zijn de enige toegelaten waarden 0 en 8.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00110</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>STATUS VAN HET ATTEST</Titel><XmlLabel>AttestationStatus</XmlLabel><FunctioneelBlok>Gegevens verzending van een document</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>0 = Origineel
+1 = Wijziging
+2 = Duplicaat
+3 = Annulatie
+4 = Herziening
+5 = Herinnering
+6 = Afsluiting
+7 = Wijziging van papieren origineel
+8 = KopieDe algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.
+Als de zone zich op het niveau van het functionele blok DocumentSendingData (90567) bevindt, dan zijn de enige toegelaten waarden 0 en 8.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00517</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>STRAAT</Titel><XmlLabel>Street</XmlLabel><FunctioneelBlok>Coördinaten bestemmeling</FunctioneelBlok><Omschrijving>Openbare weg.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>42</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00517</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>STRAAT</Titel><XmlLabel>Street</XmlLabel><FunctioneelBlok>Verzender</FunctioneelBlok><Omschrijving>Openbare weg.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>42</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00158</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>STRAAT VAN DE WERKGEVER</Titel><XmlLabel>EmployerStreet</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving>Openbare weg.
+Openbare weg waar de hoofdzetel van de werkgever zich bevindt.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>35</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01121</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>SUBTYPE VAN DE CASE</Titel><XmlLabel>CaseSubType</XmlLabel><FunctioneelBlok>Gegevens omtrent de Case</FunctioneelBlok><Omschrijving>Zone waarmee de subtype van de case gedefinieerd kan worden.</Omschrijving><ToegelatenDomein>TYP_SC_026 = Openbare aanbesteding
+TYP_SC_119 = Publicités de Créances
+TYP_SC_214 = Vonnis
+TYP_SC_215 = Dwangbevel-3W
+TYP_SC_216 = Dwangbevel-DCA
+TYP_SC_217 = Dwangbevel-B
+TYP_SC_246 = Dienstencheques Vlaanderen/Wallonië/Brussel
+TYP_SC_247 = Interim Vlaanderen/Wallonië/Brussel 	
+TYP_SC_283 = Dwangbevel-MAP
+TYP_SC_284 = Dwangbevel
+TYP_SC_502 = Sociale schulden</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waarden heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01047</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TAAL</Titel><XmlLabel>Language</XmlLabel><FunctioneelBlok>Coördinaten bestemmeling</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>1 = Nederlands
+2 = Frans
+3 = Duits
+4 = Engels
+5 = Nederlands/Frans</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief in het blok HandledEmployerId (90550).
+
+Verplicht in het blok TechnicalDescription (90454) indien de identificatie van het blok Form (90059) bepaalde waarden heeft (zie de algemene inleiding van dit glossarium).
+Onmisbaar in het blok CoordinatesReceiver (90266).
+
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01047</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TAAL</Titel><XmlLabel>Language</XmlLabel><FunctioneelBlok>Technische beschrijving</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>1 = Nederlands
+2 = Frans
+3 = Duits
+4 = Engels
+5 = Nederlands/Frans</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief in het blok HandledEmployerId (90550).
+
+Verplicht in het blok TechnicalDescription (90454) indien de identificatie van het blok Form (90059) bepaalde waarden heeft (zie de algemene inleiding van dit glossarium).
+Onmisbaar in het blok CoordinatesReceiver (90266).
+
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01047</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TAAL</Titel><XmlLabel>Language</XmlLabel><FunctioneelBlok>Titel van het document</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>1 = Nederlands
+2 = Frans
+3 = Duits
+4 = Engels
+5 = Nederlands/Frans</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief in het blok HandledEmployerId (90550).
+
+Verplicht in het blok TechnicalDescription (90454) indien de identificatie van het blok Form (90059) bepaalde waarden heeft (zie de algemene inleiding van dit glossarium).
+Onmisbaar in het blok CoordinatesReceiver (90266).
+
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01047</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TAAL</Titel><XmlLabel>Language</XmlLabel><FunctioneelBlok>Verrijkte identificatie werkgever</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>1 = Nederlands
+2 = Frans
+3 = Duits
+4 = Engels
+5 = Nederlands/Frans</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief in het blok HandledEmployerId (90550).
+
+Verplicht in het blok TechnicalDescription (90454) indien de identificatie van het blok Form (90059) bepaalde waarden heeft (zie de algemene inleiding van dit glossarium).
+Onmisbaar in het blok CoordinatesReceiver (90266).
+
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01047</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TAAL</Titel><XmlLabel>Language</XmlLabel><FunctioneelBlok>Verzender</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>1 = Nederlands
+2 = Frans
+3 = Duits
+4 = Engels
+5 = Nederlands/Frans</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief in het blok HandledEmployerId (90550).
+
+Verplicht in het blok TechnicalDescription (90454) indien de identificatie van het blok Form (90059) bepaalde waarden heeft (zie de algemene inleiding van dit glossarium).
+Onmisbaar in het blok CoordinatesReceiver (90266).
+
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01126</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TOEGEWEZEN TYPE GEBRUIKER</Titel><XmlLabel>AssignedUserType</XmlLabel><FunctioneelBlok>Criteria voor identificatie van de toegewezen gebruiker</FunctioneelBlok><Omschrijving>Toegewezen type gebruiker</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>15</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00704</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE BESTEMMING</Titel><XmlLabel>DestinationType</XmlLabel><FunctioneelBlok>Vestigingsgegevens van de bestemming</FunctioneelBlok><Omschrijving>Zone die de bron van de gegevens aangeeft die gevraagd moeten worden om de bestemmelingen van de definitieve zending(en) te kennen.</Omschrijving><ToegelatenDomein>De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>40</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01164</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE DOCUMENT</Titel><XmlLabel>DocumentType</XmlLabel><FunctioneelBlok>Technische beschrijving</FunctioneelBlok><Omschrijving>Type van documentZone om aan te geven of het document opgenomen in “DATA” (FB 90370) het voornaamste document is of een bijlage.</Omschrijving><ToegelatenDomein>MAIN = Voornaamste document
+ATTACHMENT = bijlage</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien meer dan een blok Data (90370).
+Verboden in alle andere gevallen (zie de inleiding van dit glossarium voor meer inlichtingen).</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01091</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE GROEP</Titel><XmlLabel>GroupType</XmlLabel><FunctioneelBlok>Criterium van de subgroep</FunctioneelBlok><Omschrijving>Deze zone wordt gebruikt in het kader van de GenericXml-uitwisselingen. Zij maakt het mogelijk het groeperingscriterium te specificeren.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01114</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE IDENTIFICATIE VAN DE BESTEMMELING</Titel><XmlLabel>AddresseeType</XmlLabel><FunctioneelBlok>Gegevens over de oorsprong van de verzending</FunctioneelBlok><Omschrijving>Zone waarin het type identificatie vermeld kan worden.</Omschrijving><ToegelatenDomein>De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01114</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE IDENTIFICATIE VAN DE BESTEMMELING</Titel><XmlLabel>AddresseeType</XmlLabel><FunctioneelBlok>Identificatiegegevens van de eindbestemmeling</FunctioneelBlok><Omschrijving>Zone waarin het type identificatie vermeld kan worden.</Omschrijving><ToegelatenDomein>De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01114</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE IDENTIFICATIE VAN DE BESTEMMELING</Titel><XmlLabel>AddresseeType</XmlLabel><FunctioneelBlok>Identificatiesgegevens van de bestemmeling</FunctioneelBlok><Omschrijving>Zone waarin het type identificatie vermeld kan worden.</Omschrijving><ToegelatenDomein>De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01118</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE OBJECT</Titel><XmlLabel>ObjectType</XmlLabel><FunctioneelBlok>Criteria inzake het object</FunctioneelBlok><Omschrijving>Zone waarmee de sector, de toepassing of de groep van toepassingen waarvoor een mandaatcontrole (via Mahis) moet worden uitgevoerd, geïdentificeerd kan worden. </Omschrijving><ToegelatenDomein>SECTOR = Sector gedefinieerd in het Mahis-systeem om mandaten op te zoeken per sector
+GROUP = Groep van toepassingen gedefinieerd in het Mahis-systeem om mandaten op te zoeken per groep
+APPLICATION = Toepassing gedefinieerd in het Mahis-systeem om mandaten op te zoeken op basis van een toepassing
+</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>20</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00221</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE VAN DE REFERENTIE</Titel><XmlLabel>ReferenceType</XmlLabel><FunctioneelBlok>Criteria voor de identificatie van de bestemmeling</FunctioneelBlok><Omschrijving>Duidt aan naar waar de referentie (00222 Referentienummer) verwijst: naar deze aangifte, naar een aangifte die verwant is met deze aangifte of naar een verzameling aangiften (= een dossier) waar deze aangifte toe behoort, op deze aanvraag, op dit formulier.</Omschrijving><ToegelatenDomein>0 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat niet dezelfde identificatie heeft (zie bijlagen 11/302), dat verband houdt met het huidige formulier
+1 = de referentie verwijst naar dit formulier
+2 = de referentie is een dossiernummer en verwijst naar het dossier (= verzameling van aangiften) waartoe deze aangifte behoort of waartoe dit formulier behoort
+3 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat dezelfde identificatie heeft (zie bijlagen 11/302) en dat verband houdt met dit formulier, bijvoorbeeld: de referentie heeft betrekking op de aangifte die geannuleerd moet worden door deze aangifte, of op de aangifte die vervangen moet worden door deze aangifte, of op de aangifte die gewijzigd moet worden, of op de aangifte die aan de oorsprong ligt van dit formulier...
+4 = de referentie verwijst naar een aangifte in een ander scenario die verwant is met deze aangifte
+5 = de referentie verwijst naar een aanvraag
+6 = de referentie verwijst naar een geweigerde aangifte
+7 = de referentie verwijst naar de werkgever die in deze aangifte wordt vermeld
+8 = de referentie verwijst naar de werknemer die in deze aangifte wordt vermeld
+9 = de referentie is een gestructureerde mededeling die moet worden gebruikt in het kader van een betaling en verwijst naar dit formulierDe algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00221</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE VAN DE REFERENTIE</Titel><XmlLabel>ReferenceType</XmlLabel><FunctioneelBlok>Referentie</FunctioneelBlok><Omschrijving>Duidt aan naar waar de referentie (00222 Referentienummer) verwijst: naar deze aangifte, naar een aangifte die verwant is met deze aangifte of naar een verzameling aangiften (= een dossier) waar deze aangifte toe behoort, op deze aanvraag, op dit formulier.</Omschrijving><ToegelatenDomein>0 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat niet dezelfde identificatie heeft (zie bijlagen 11/302), dat verband houdt met het huidige formulier
+1 = de referentie verwijst naar dit formulier
+2 = de referentie is een dossiernummer en verwijst naar het dossier (= verzameling van aangiften) waartoe deze aangifte behoort of waartoe dit formulier behoort
+3 = de referentie heeft betrekking op een eerder uitgewisseld formulier dat dezelfde identificatie heeft (zie bijlagen 11/302) en dat verband houdt met dit formulier, bijvoorbeeld: de referentie heeft betrekking op de aangifte die geannuleerd moet worden door deze aangifte, of op de aangifte die vervangen moet worden door deze aangifte, of op de aangifte die gewijzigd moet worden, of op de aangifte die aan de oorsprong ligt van dit formulier...
+4 = de referentie verwijst naar een aangifte in een ander scenario die verwant is met deze aangifte
+5 = de referentie verwijst naar een aanvraag
+6 = de referentie verwijst naar een geweigerde aangifte
+7 = de referentie verwijst naar de werkgever die in deze aangifte wordt vermeld
+8 = de referentie verwijst naar de werknemer die in deze aangifte wordt vermeld
+9 = de referentie is een gestructureerde mededeling die moet worden gebruikt in het kader van een betaling en verwijst naar dit formulierDe algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01123</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE VAN DE REFERENTIE VAN DE CASE</Titel><XmlLabel>CaseReferenceType</XmlLabel><FunctioneelBlok>Gegevens over de referentie van de Case</FunctioneelBlok><Omschrijving>Type van de referentie van de case.</Omschrijving><ToegelatenDomein>PRODUCER_REF =  Referentie eigen aan een andere businesstoepassing van de RSZ die rechtstreeks verband houdt met het beheer van de case/document
+NOSS_REF = Referentie eigen aan de RSZ voor deze case/document
+EXTERNAL_REF = Referentie die afkomstig is van buiten de RSZ in verband met de behandeling van de case/document </ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>12</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00297</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE VAN HET FORMULIER</Titel><XmlLabel>TypeForm</XmlLabel><FunctioneelBlok>Formulier</FunctioneelBlok><Omschrijving>Het type wijst de aard van het elektronisch formulier aan.
+</Omschrijving><ToegelatenDomein>RE = REQUEST - het formulier vraagt inlichtingen
+PA = PROVISIONAL ANSWER - het formulier is een tijdelijk antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+FA = FINAL ANSWER - het formulier is een definitief antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+LA = LIMITED ANSWER - het formulier is een beperkt antwoord op een aanvraag van inlichtingen of een mededeling van inlichtingen
+SU = SUBMISSION - het formulier deelt inlichtingen mee
+De algemene inleiding van dit glossarium bekijken voor de toegelaten waarden in functie van de betrokken identificatie.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>2</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01128</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE VAN MANDAAT</Titel><XmlLabel>MandateType</XmlLabel><FunctioneelBlok>Criteria inzake het mandaat</FunctioneelBlok><Omschrijving>Type van mandaatIn deze zone preciseert u de gegevens die in aanmerking genomen moeten worden voor de berekening van het mandaat.</Omschrijving><ToegelatenDomein>ReferenceData = Referentiegegevens</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>32</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01184</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE VERWERKING VAN HET DOCUMENT</Titel><XmlLabel>ProcessType</XmlLabel><FunctioneelBlok>Gegevens omtrent de Case</FunctioneelBlok><Omschrijving>Identificatie van de manier waarop een document verwerkt moet worden.</Omschrijving><ToegelatenDomein>SUBMITDOCUMENT = Het document moet ingevoegd worden in een nieuw case. 
+SUBMITCASEID = Het document moet ingevoegd worden in een reeds bestaand case.
+SUBMITARCHIVE = Het document moet gearchiveerd worden.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>14</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in de andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01227</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VERWERKINGSSLEUTEL</Titel><XmlLabel>ProcessingKey</XmlLabel><FunctioneelBlok>Verwerkingssleutels/waarden</FunctioneelBlok><Omschrijving>Sleutel voor een verwerkingsproces van de DSP</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>50</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01181</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VERZENDINGSWIJZE VAN HET DOCUMENT</Titel><XmlLabel>DocumentSendingModus</XmlLabel><FunctioneelBlok>Gegevens verzending van een document</FunctioneelBlok><Omschrijving>Zone waarmee de verzendingswijze van een document kan bepaald worden.</Omschrijving><ToegelatenDomein>NORMAL = Normale verzending
+REGISTERED = Aangetekende verzending</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00220</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VOLGNUMMER VAN HET FORMULIER</Titel><XmlLabel>FormSequenceNbr</XmlLabel><FunctioneelBlok>Referentiegegevens</FunctioneelBlok><Omschrijving>Volgnummer van een formulier in eenzelfde bestand.</Omschrijving><ToegelatenDomein>Geheel getal en element van [1;10000000].</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>8</Lengte><Aanwezigheid>Verplicht indien de Identificatie van het blok Form (90059) bepaalde waardes heeft (zie de algemene inleiding van dit glossarium).
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00948</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VOORLOPIG RSZ-NUMMER</Titel><XmlLabel>ProvisionalNSSONbr</XmlLabel><FunctioneelBlok>Identificatie van de werkgever</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. 
+Het gaat om een voorlopig RSZ-nummer dat aan de nieuwe werkgever toegekend is.
+Dit voorlopig nummer mag niet meer gebruikt worden zodra de RSZ het definitieve nummer heeft meegedeeld.</Omschrijving><ToegelatenDomein>Geheel getal en element van [5000000120;5999999989]Indien het uniek ondernemingsnummer gekend is (zone 00014 niet gelijk aan nul) en niet het voorlopige RSZ-nummer, dan zal het voorlopige nummer verplicht de waarde nul bevatten om aan te geven dat het ondernemingsnummer een werkgever (uitgezonderd provinciale en plaatselijke besturen) betreft, die ingeschreven wordt bij de RSZ. De waarde ervan kan echter niet gelijk zijn aan nul als geen enkel ander nummer (RSZ, PPL) meegedeeld werd of gelijk is aan nul en het ondernemingsnummer (00014) niet meegedeeld is of gelijk is aan nul.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het gegevensgedeelte een RSZ-werkgever betreft die opnieuw ingeschreven wordt bij de RSZ.
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>0 of NNNNNNNNCC
+· NNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00948</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VOORLOPIG RSZ-NUMMER</Titel><XmlLabel>ProvisionalNSSONbr</XmlLabel><FunctioneelBlok>Verrijkte identificatie van de verzender</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. 
+Het gaat om een voorlopig RSZ-nummer dat aan de nieuwe werkgever toegekend is.
+Dit voorlopig nummer mag niet meer gebruikt worden zodra de RSZ het definitieve nummer heeft meegedeeld.</Omschrijving><ToegelatenDomein>Geheel getal en element van [5000000120;5999999989]Indien het uniek ondernemingsnummer gekend is (zone 00014 niet gelijk aan nul) en niet het voorlopige RSZ-nummer, dan zal het voorlopige nummer verplicht de waarde nul bevatten om aan te geven dat het ondernemingsnummer een werkgever (uitgezonderd provinciale en plaatselijke besturen) betreft, die ingeschreven wordt bij de RSZ. De waarde ervan kan echter niet gelijk zijn aan nul als geen enkel ander nummer (RSZ, PPL) meegedeeld werd of gelijk is aan nul en het ondernemingsnummer (00014) niet meegedeeld is of gelijk is aan nul.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Verplicht indien het gegevensgedeelte een RSZ-werkgever betreft die opnieuw ingeschreven wordt bij de RSZ.
+Verboden in alle andere gevallen.</Aanwezigheid><Formaat>0 of NNNNNNNNCC
+· NNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00236</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>WAARDE</Titel><XmlLabel>Value</XmlLabel><FunctioneelBlok>Integriteitscontrole</FunctioneelBlok><Omschrijving>De waarde van deze zone moet berekend worden op basis van het algoritme gespecificeerd in de zone "METHODE OM DE INTEGRITEIT TE BEREKENEN" (01048).  De waarde die op die manier verkregen wordt, zal hexadecimaal gecodeerd moeten worden.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>999999999999999</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01125</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>WAARDE VAN DE INDEX</Titel><XmlLabel>IndexValue</XmlLabel><FunctioneelBlok>Indexeringscriteria</FunctioneelBlok><Omschrijving>Waarde van de index.</Omschrijving><ToegelatenDomein>3 of 10 alfanumerieke karakters.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01228</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>WAARDE VERBONDEN AAN EEN VERWERKINGSSLEUTEL</Titel><XmlLabel>ProcessingValue</XmlLabel><FunctioneelBlok>Verwerkingssleutels/waarden</FunctioneelBlok><Omschrijving>Waarde verbonden aan een verwerkingssleutel van een proces van de DSP.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>200</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

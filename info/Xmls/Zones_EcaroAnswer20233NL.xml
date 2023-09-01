@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT glossary (Code+, Versie+, Publicatiedatum+, Titel+, XmlLabel+, FunctioneelBlok+, Omschrijving+, ToegelatenDomein+, Referentie+, Type+, Lengte+, Aanwezigheid+, Formaat+, Anomalie+)>
+     <!ELEMENT List (glossary+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Titel (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT FunctioneelBlok (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT ToegelatenDomein (#PCDATA)>
+     <!ELEMENT Referentie (#PCDATA)>
+     <!ELEMENT Type (#PCDATA)>
+     <!ELEMENT Lengte (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT Formaat (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<glossary>
+<Code>01153</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>BUITENLANDSE AFKOMST</Titel><XmlLabel>ForeignOrigin</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Zone die aangeeft of de betrokken persoon al dan niet onder de definitie “buitenlandse afkomst” valt.</Omschrijving><ToegelatenDomein>0 = Geen buitenlandse afkomst
+1 = Buitenlandse afkomst</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01201</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM AANVRAAG CONSULTATIE</Titel><XmlLabel>RequestDate</XmlLabel><FunctioneelBlok>Gegevens Vlaamse doelgroep personen zonder werkervaring</FunctioneelBlok><Omschrijving>
+Dit is de datum die vermeld is in de aanvraag tot raadpleging van de gegevens.Begindatum opgegeven in het EcaroRequest bestand.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01201</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM AANVRAAG CONSULTATIE</Titel><XmlLabel>RequestDate</XmlLabel><FunctioneelBlok>Gegevens Waalse doelgroep ouderen</FunctioneelBlok><Omschrijving>
+Dit is de datum die vermeld is in de aanvraag tot raadpleging van de gegevens.Begindatum opgegeven in het EcaroRequest bestand.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01201</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM AANVRAAG CONSULTATIE</Titel><XmlLabel>RequestDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren</FunctioneelBlok><Omschrijving>
+Dit is de datum die vermeld is in de aanvraag tot raadpleging van de gegevens.Begindatum opgegeven in het EcaroRequest bestand.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01201</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM AANVRAAG CONSULTATIE</Titel><XmlLabel>RequestDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding</FunctioneelBlok><Omschrijving>
+Dit is de datum die vermeld is in de aanvraag tot raadpleging van de gegevens.Begindatum opgegeven in het EcaroRequest bestand.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01201</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM AANVRAAG CONSULTATIE</Titel><XmlLabel>RequestDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep ouderen</FunctioneelBlok><Omschrijving>
+Dit is de datum die vermeld is in de aanvraag tot raadpleging van de gegevens.Begindatum opgegeven in het EcaroRequest bestand.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01201</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM AANVRAAG CONSULTATIE</Titel><XmlLabel>RequestDate</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>
+Dit is de datum die vermeld is in de aanvraag tot raadpleging van de gegevens.Begindatum opgegeven in het EcaroRequest bestand.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00910</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM BEGIN</Titel><XmlLabel>StartingDate</XmlLabel><FunctioneelBlok>Gegevens Vlaamse doelgroep personen zonder werkervaring</FunctioneelBlok><Omschrijving>In het FB "Geldigheidsperiode" (90544) : startdatum van de geldigheid van het record.
+In de FB "Record met gegevens rond de Vlaamse doelgroep ouderen" (90547) en "Gegevens Vlaamse doelgroep personen zonder werkervaring" (90609) : datum vanaf dewelke de persoon deel uitmaakt van de doelgroep.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar in het FB "Record met gegevens rond de Vlaamse doelgroep ouderen" (90547).
+Onmisbaar in het FB "Gegevens Vlaamse doelgroep personen zonder werkervaring" (90609). 
+Facultatief in het FB "Geldigheidsperiode" (90544).</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00910</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM BEGIN</Titel><XmlLabel>StartingDate</XmlLabel><FunctioneelBlok>Geldigheidsperiode</FunctioneelBlok><Omschrijving>In het FB "Geldigheidsperiode" (90544) : startdatum van de geldigheid van het record.
+In de FB "Record met gegevens rond de Vlaamse doelgroep ouderen" (90547) en "Gegevens Vlaamse doelgroep personen zonder werkervaring" (90609) : datum vanaf dewelke de persoon deel uitmaakt van de doelgroep.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar in het FB "Record met gegevens rond de Vlaamse doelgroep ouderen" (90547).
+Onmisbaar in het FB "Gegevens Vlaamse doelgroep personen zonder werkervaring" (90609). 
+Facultatief in het FB "Geldigheidsperiode" (90544).</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00910</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM BEGIN</Titel><XmlLabel>StartingDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep ouderen</FunctioneelBlok><Omschrijving>In het FB "Geldigheidsperiode" (90544) : startdatum van de geldigheid van het record.
+In de FB "Record met gegevens rond de Vlaamse doelgroep ouderen" (90547) en "Gegevens Vlaamse doelgroep personen zonder werkervaring" (90609) : datum vanaf dewelke de persoon deel uitmaakt van de doelgroep.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar in het FB "Record met gegevens rond de Vlaamse doelgroep ouderen" (90547).
+Onmisbaar in het FB "Gegevens Vlaamse doelgroep personen zonder werkervaring" (90609). 
+Facultatief in het FB "Geldigheidsperiode" (90544).</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01163</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM BEGIN - LOOPBAANPORTFOLIO</Titel><XmlLabel>PortfolioStartDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding</FunctioneelBlok><Omschrijving>
+Begindatum loopbaanportfolio</Omschrijving><ToegelatenDomein>
+[1900-01-01 ; 9999-31-12]</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01156</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM BEGIN PERIODE WAARIN DE SCHOLINGSGRAAD GELDIG IS ONGEACHT ANDERE VOORWAARDEN</Titel><XmlLabel>StartDateWithoutCareerPortfolio</XmlLabel><FunctioneelBlok>Geldigheidsperiode scholingsgraad zonder portfolio</FunctioneelBlok><Omschrijving>
+Begindatum periode waarin de scholingsgraad geldig is ongeacht andere voorwaarden.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00911</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM EINDE</Titel><XmlLabel>EndingDate</XmlLabel><FunctioneelBlok>Geldigheidsperiode</FunctioneelBlok><Omschrijving>Einddatum van de geldigheid van de record.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01157</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM EINDE PERIODE WAARIN DE SCHOLINGSGRAAD GELDIG IS ONGEACHT ANDERE VOORWAARDEN</Titel><XmlLabel>EndDateWithoutCareerPortfolio</XmlLabel><FunctioneelBlok>Geldigheidsperiode scholingsgraad zonder portfolio</FunctioneelBlok><Omschrijving>
+Einddatum periode waarin de scholingsgraad geldig is ongeacht andere voorwaarden.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01155</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM TOT DEWELKE HET RECHT OP DE VERMINDERING GELDT</Titel><XmlLabel>DeductionRightEndingDate</XmlLabel><FunctioneelBlok>Geldigheidsperiode vermindering</FunctioneelBlok><Omschrijving>
+Datum tot dewelke het recht op de vermindering geldt</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01151</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN AFLEVERING VAN DE STARTBAANKAART</Titel><XmlLabel>StartCardDeliveryDate</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>
+Datum waarop aan de betrokken persoon een startbaankaart werd afgeleverd door de bevoegde instelling.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01150</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN AFLEVERING VAN DE WERKKAART</Titel><XmlLabel>WorkCardDeliveryDate</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>
+Datum waarop aan de betrokken persoon een werkkaart werd afgeleverd door de bevoegde instelling.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00938</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN DE LAATSTE BIJWERKING</Titel><XmlLabel>LastUpdateDate</XmlLabel><FunctioneelBlok>Gegevens Vlaamse doelgroep personen zonder werkervaring</FunctioneelBlok><Omschrijving>Datum laatste bijwerking van het record bij de bevoegde instelling.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar .
+Facultatief in het FB "Gegevens Waalse doelgroep ouderen" (90608).</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00938</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN DE LAATSTE BIJWERKING</Titel><XmlLabel>LastUpdateDate</XmlLabel><FunctioneelBlok>Gegevens Waalse doelgroep ouderen</FunctioneelBlok><Omschrijving>Datum laatste bijwerking van het record bij de bevoegde instelling.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar .
+Facultatief in het FB "Gegevens Waalse doelgroep ouderen" (90608).</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00938</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN DE LAATSTE BIJWERKING</Titel><XmlLabel>LastUpdateDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren</FunctioneelBlok><Omschrijving>Datum laatste bijwerking van het record bij de bevoegde instelling.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar .
+Facultatief in het FB "Gegevens Waalse doelgroep ouderen" (90608).</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00938</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN DE LAATSTE BIJWERKING</Titel><XmlLabel>LastUpdateDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding</FunctioneelBlok><Omschrijving>Datum laatste bijwerking van het record bij de bevoegde instelling.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar .
+Facultatief in het FB "Gegevens Waalse doelgroep ouderen" (90608).</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00938</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN DE LAATSTE BIJWERKING</Titel><XmlLabel>LastUpdateDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep ouderen</FunctioneelBlok><Omschrijving>Datum laatste bijwerking van het record bij de bevoegde instelling.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar .
+Facultatief in het FB "Gegevens Waalse doelgroep ouderen" (90608).</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00938</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN DE LAATSTE BIJWERKING</Titel><XmlLabel>LastUpdateDate</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Datum laatste bijwerking van het record bij de bevoegde instelling.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar .
+Facultatief in het FB "Gegevens Waalse doelgroep ouderen" (90608).</Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00898</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN ONTVANGST</Titel><XmlLabel>ReceptionDate</XmlLabel><FunctioneelBlok>Gegevens Vlaamse doelgroep personen zonder werkervaring</FunctioneelBlok><Omschrijving>Ontvangsdatum van het record.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00898</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN ONTVANGST</Titel><XmlLabel>ReceptionDate</XmlLabel><FunctioneelBlok>Gegevens Waalse doelgroep ouderen</FunctioneelBlok><Omschrijving>Ontvangsdatum van het record.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00898</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN ONTVANGST</Titel><XmlLabel>ReceptionDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren</FunctioneelBlok><Omschrijving>Ontvangsdatum van het record.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00898</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN ONTVANGST</Titel><XmlLabel>ReceptionDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding</FunctioneelBlok><Omschrijving>Ontvangsdatum van het record.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00898</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN ONTVANGST</Titel><XmlLabel>ReceptionDate</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep ouderen</FunctioneelBlok><Omschrijving>Ontvangsdatum van het record.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00898</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VAN ONTVANGST</Titel><XmlLabel>ReceptionDate</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Ontvangsdatum van het record.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00090</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM VANAF DEWELKE HET RECHT OP DE VERMINDERING GELDT</Titel><XmlLabel>DeductionRightStartingDate</XmlLabel><FunctioneelBlok>Geldigheidsperiode vermindering</FunctioneelBlok><Omschrijving>
+Datum waarop de vermindering ingaat voor deze tewerkstellingslijn of werknemerslijn.
+Deze datum komt niet noodzakelijk overeen met de datum van indiensttreding van de werknemer bij de werkgever.Datum vanaf wanneer het recht op de vermindering voor deze record geldt.</Omschrijving><ToegelatenDomein>
+Het toegelaten domein varieert in functie van de gevraagde vermindering (zie bijlage 4).</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00044</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>DATUM WAAROP DE TEWERKSTELLING BEGINT</Titel><XmlLabel>OccupationStartingDate</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>
+Dit is de begindatum van de tewerkstelling waarop de aangifte betrekking heeft.
+Als de tewerkstelling van de werknemer niet veranderd is sedert zijn indiensttreding bij de werkgever, dan komt deze datum overeen met de datum van indiensttreding bij de werkgever.
+Als de tewerkstelling gewijzigd werd (voorbeeld : de werknemer is van een voltijds arbeidsregeling overgegaan naar een deeltijds arbeidsregeling, de prestatiebreuk werd gewijzigd, enz.), dan komt de begindatum van de tewerkstelling overeen met het begin van de periode waarop de nieuwe tewerkstellingsgegevens betrekking hebben.
+Wanneer de arbeidsovereenkomst beëindigd wordt en er verbrekingsvergoedingen worden betaald aan de werknemer, dan moet men de verschillende periodes aangeven die gedekt worden door een verbrekingsvergoeding en dit onder de vorm van een nieuwe tewerkstelling per periode. Het gaat dan om de begindatum van de periode die gedekt wordt door de verbrekingsvergoeding.Voor wat betreft Ecaro heeft dit gegeven belang voor een beperkt aantal verminderingen.  Het geeft de aanwervingsdatum weer zoals hij gekend is bij de bevoegde instelling.</Omschrijving><ToegelatenDomein>
+Wanneer de tewerkstelling geen betrekking heeft op een door verbrekingsvergoedingen gedekte periode, dan moet het jaar een element zijn van [jaar van de aangifte - 100 ; jaar van de aangifte].
+
+Als de tewerkstelling bovendien betrekking heeft op een vrijwillig brandweerlid (werknemersstatuut = B), een vrijwillige ambulancier (werknemersstatuut = VA) of een vrijwilliger van de Civiele Bescherming (werknemersstatuut = VA), dan moet de datum gelegen zijn tussen de begin- en einddatum van het socialezekerheidskwartaal.
+
+Wanneer de tewerkstelling betrekking heeft op een periode gedekt door verbrekingsvergoedingen, dan moet de datum groter zijn dan of gelijk aan de begindatum van het socialezekerheidskwartaal.</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>JJJJ-MM-DD
+· JJJJ is het jaar
+· MM is de maand
+. DD is de dag</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Gegevens Vlaamse doelgroep personen zonder werkervaring</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Gegevens Waalse doelgroep ouderen</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep ouderen</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00024</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Titel><XmlLabel>INSS</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Identificatienummer van een natuurlijk persoon binnen de sociale zekerheid. Dit is het identificatienummer van de natuurlijke persoon in het rijksregister of in het bisregister van de natuurlijke personen.
+</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>11</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat>0 of NNNNNNNNNCC
+· NNNNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01154</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>MINDERVALIDE</Titel><XmlLabel>Disabled</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Zone die aangeeft of de betrokken persoon al dan niet onder de definitie “mindervalide” valt.</Omschrijving><ToegelatenDomein>0 = Niet mindervalide
+1 = Mindervalide</ToegelatenDomein><Referentie></Referentie><Type></Type><Lengte>1</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00014</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>ONDERNEMINGSNUMMER</Titel><XmlLabel>CompanyID</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Nummer dat een werkgever eenduidig identificeert, of het nu gaat om een natuurlijk persoon, een groepering van natuurlijke personen of een rechtspersoon.
+</Omschrijving><ToegelatenDomein>
+Getal van 10 cijfers waarvan :
+de posities 1 tot 8 overeenkomen met een volgnummer, met op de eerste positie een cijfer gelijk aan nul of 1;
+de posities 9 en 10 overeenkomen met een controlegetal.
+Als het ondernemingsnummer niet gekend is, dient de waarde nul meegedeeld te worden.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>10</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01087</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>REFERENTIE VAN HET DOCUMENT</Titel><XmlLabel>DocumentReference</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving></Omschrijving><ToegelatenDomein>De codes die vermeld zijn op het papieren document dat aan de rechthebbende is overgemaakt</ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>64</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00011</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>RSZ-NUMMER</Titel><XmlLabel>NOSSRegistrationNbr</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Iedere werkgever, of het nu een natuurlijke persoon, een groepering van natuurlijke personen of een rechtspersoon betreft, die personeel in dienst heeft dat onderworpen is aan de wet van 27 juni 1969, moet ingeschreven zijn bij de RSZ. Het gaat om een definitief RSZ-nummer.
+</Omschrijving><ToegelatenDomein>Geheel getal en element van [100006;199999934] voor de definitieve nummers.
+Als het uniek ondernemingsnummer gekend is (zone 00014 verschillend van nul), kan het RSZ-nummer op de waarde nul gezet worden.
+</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>9</Lengte><Aanwezigheid>Facultatief </Aanwezigheid><Formaat>0 of NNNNNNNCC
+· NNNNNNN is het nummer
+· CC is het controlegetal.</Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01152</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>SCHOLINGSGRAAD</Titel><XmlLabel>EducationLevel</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren</FunctioneelBlok><Omschrijving>Opleidingsniveau of scholingsgraad</Omschrijving><ToegelatenDomein>1 = Middengeschoold
+2 =Laaggeschoold
+3 = Erg laaggeschoold</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar in het FB "Record met gegevens rond de Vlaamse doelgroep jongeren" (90546).
+Facultatief in het FB "Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon(90540).</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01152</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>SCHOLINGSGRAAD</Titel><XmlLabel>EducationLevel</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Opleidingsniveau of scholingsgraad</Omschrijving><ToegelatenDomein>1 = Middengeschoold
+2 =Laaggeschoold
+3 = Erg laaggeschoold</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>1</Lengte><Aanwezigheid>Onmisbaar in het FB "Record met gegevens rond de Vlaamse doelgroep jongeren" (90546).
+Facultatief in het FB "Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon(90540).</Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00808</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>SECTORCODE</Titel><XmlLabel>SectorCode</XmlLabel><FunctioneelBlok>Gegevens Vlaamse doelgroep personen zonder werkervaring</FunctioneelBlok><Omschrijving>Code van de sector</Omschrijving><ToegelatenDomein>018 = werkloosheid/RVA
+025 = KSZ
+031 = fondsen voor bestaandszekerheid/VSI
+053 = VDAB
+054 = Actiris
+055 = Forem
+056 = ADG</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00808</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>SECTORCODE</Titel><XmlLabel>SectorCode</XmlLabel><FunctioneelBlok>Gegevens Waalse doelgroep ouderen</FunctioneelBlok><Omschrijving>Code van de sector</Omschrijving><ToegelatenDomein>018 = werkloosheid/RVA
+025 = KSZ
+031 = fondsen voor bestaandszekerheid/VSI
+053 = VDAB
+054 = Actiris
+055 = Forem
+056 = ADG</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00808</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>SECTORCODE</Titel><XmlLabel>SectorCode</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren</FunctioneelBlok><Omschrijving>Code van de sector</Omschrijving><ToegelatenDomein>018 = werkloosheid/RVA
+025 = KSZ
+031 = fondsen voor bestaandszekerheid/VSI
+053 = VDAB
+054 = Actiris
+055 = Forem
+056 = ADG</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00808</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>SECTORCODE</Titel><XmlLabel>SectorCode</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding</FunctioneelBlok><Omschrijving>Code van de sector</Omschrijving><ToegelatenDomein>018 = werkloosheid/RVA
+025 = KSZ
+031 = fondsen voor bestaandszekerheid/VSI
+053 = VDAB
+054 = Actiris
+055 = Forem
+056 = ADG</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00808</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>SECTORCODE</Titel><XmlLabel>SectorCode</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep ouderen</FunctioneelBlok><Omschrijving>Code van de sector</Omschrijving><ToegelatenDomein>018 = werkloosheid/RVA
+025 = KSZ
+031 = fondsen voor bestaandszekerheid/VSI
+053 = VDAB
+054 = Actiris
+055 = Forem
+056 = ADG</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00808</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>SECTORCODE</Titel><XmlLabel>SectorCode</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Code van de sector</Omschrijving><ToegelatenDomein>018 = werkloosheid/RVA
+025 = KSZ
+031 = fondsen voor bestaandszekerheid/VSI
+053 = VDAB
+054 = Actiris
+055 = Forem
+056 = ADG</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>3</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01149</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE BIJDRAGEVERMINDERING</Titel><XmlLabel>DeductionType</XmlLabel><FunctioneelBlok>Gegevens Vlaamse doelgroep personen zonder werkervaring</FunctioneelBlok><Omschrijving>Zone die aangeeft voor welke soort vermindering betrokkene in aanmerking kan komen volgens de aangeleverde gegevens.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>128</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01149</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE BIJDRAGEVERMINDERING</Titel><XmlLabel>DeductionType</XmlLabel><FunctioneelBlok>Gegevens Waalse doelgroep ouderen</FunctioneelBlok><Omschrijving>Zone die aangeeft voor welke soort vermindering betrokkene in aanmerking kan komen volgens de aangeleverde gegevens.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>128</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01149</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE BIJDRAGEVERMINDERING</Titel><XmlLabel>DeductionType</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren</FunctioneelBlok><Omschrijving>Zone die aangeeft voor welke soort vermindering betrokkene in aanmerking kan komen volgens de aangeleverde gegevens.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>128</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01149</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE BIJDRAGEVERMINDERING</Titel><XmlLabel>DeductionType</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep jongeren in alternerende opleiding</FunctioneelBlok><Omschrijving>Zone die aangeeft voor welke soort vermindering betrokkene in aanmerking kan komen volgens de aangeleverde gegevens.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>128</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01149</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE BIJDRAGEVERMINDERING</Titel><XmlLabel>DeductionType</XmlLabel><FunctioneelBlok>Record met gegevens rond de Vlaamse doelgroep ouderen</FunctioneelBlok><Omschrijving>Zone die aangeeft voor welke soort vermindering betrokkene in aanmerking kan komen volgens de aangeleverde gegevens.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>128</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>01149</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>TYPE BIJDRAGEVERMINDERING</Titel><XmlLabel>DeductionType</XmlLabel><FunctioneelBlok>Record met gegevens tewerkstellingsmaatregel voor een natuurlijke persoon</FunctioneelBlok><Omschrijving>Zone die aangeeft voor welke soort vermindering betrokkene in aanmerking kan komen volgens de aangeleverde gegevens.</Omschrijving><ToegelatenDomein></ToegelatenDomein><Referentie></Referentie><Type>Alfanumeriek</Type><Lengte>128</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00086</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VERMINDERINGSCODE</Titel><XmlLabel>DeductionCode</XmlLabel><FunctioneelBlok>Andere verminderingscodes</FunctioneelBlok><Omschrijving>Code die de aangevraagde vermindering aanduidt.Code bijdragevermindering te gebruiken in de kwartaalaangifte</Omschrijving><ToegelatenDomein>De codes DmfA vermeld in bijlage 4 - Lijst van de verminderingscodes.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+<glossary>
+<Code>00086</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Titel>VERMINDERINGSCODE</Titel><XmlLabel>DeductionCode</XmlLabel><FunctioneelBlok>Meest gunstige verminderingscodes</FunctioneelBlok><Omschrijving>Code die de aangevraagde vermindering aanduidt.Code bijdragevermindering te gebruiken in de kwartaalaangifte</Omschrijving><ToegelatenDomein>De codes DmfA vermeld in bijlage 4 - Lijst van de verminderingscodes.</ToegelatenDomein><Referentie></Referentie><Type>Numeriek</Type><Lengte>4</Lengte><Aanwezigheid>Onmisbaar </Aanwezigheid><Formaat></Formaat><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</glossary>
+</List>

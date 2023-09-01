@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT FunctionalBlock (Code+, Versie+, Publicatiedatum+, Naam+, Zones+, XmlLabel+, Omschrijving+, MinimumKardinaliteit+, MaximumKardinaliteit+, NrGelinktBlok+, Gelinktblok+, Aanwezigheid+, ExtraBeperkingen+, Anomalie+)>
+     <!ELEMENT List (FunctionalBlock+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Naam (#PCDATA)>
+     <!ELEMENT Zones (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT MinimumKardinaliteit (#PCDATA)>
+     <!ELEMENT MaximumKardinaliteit (#PCDATA)>
+     <!ELEMENT NrGelinktBlok (#PCDATA)>
+     <!ELEMENT Gelinktblok (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT ExtraBeperkingen (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<FunctionalBlock>
+<Code>90022</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Adres</Naam><Zones>00517 - STRAAT</Zones><Zones>00518 - NUMMER VAN HET ADRES</Zones><Zones>00519 - BRIEVENBUS</Zones><Zones>00520 - POSTCODE</Zones><Zones>00522 - GEMEENTE</Zones><Zones>00523 - LANDCODE</Zones><XmlLabel>Address</XmlLabel><Omschrijving>Functioneel blok dat toelaat een adres volledig te specifiëren.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90449</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Bankrekening</Naam><Zones>00268 - REKENINGNUMMER BIJ EEN FINANCIELE INSTELLING</Zones><Zones>00868 - BANKIDENTIFICATIECODE (BIC)</Zones><Zones>00869 - FORMAAT VAN HET REKENINGNUMMER</Zones><XmlLabel>BankAccount</XmlLabel><Omschrijving>Functioneel blok dat toelaat informatie te geven over de bankrekening.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90443</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Betalingsnota</Naam><Zones></Zones><XmlLabel>FinancialNote</XmlLabel><Omschrijving>Root-element van het XML-bericht dat toelaat betalingsnota's te maken.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90082</NrGelinktBlok><NrGelinktBlok>90444</NrGelinktBlok><Gelinktblok>90082 - Referentie</Gelinktblok><Gelinktblok>90444 - Details van de betalingsnota</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90447</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Betalingsopdracht</Naam><Zones></Zones><XmlLabel>PaymentOrder</XmlLabel><Omschrijving>Functioneel blok dat toelaat informatie te geven over de betalingsopdracht.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90448</NrGelinktBlok><NrGelinktBlok>90450</NrGelinktBlok><Gelinktblok>90448 - Details van de schuldeiser</Gelinktblok><Gelinktblok>90450 - Details van de mededeling van de bankoverschrijving</Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90258</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Communicatie</Naam><Zones>00677 - TELEFOONNUMMER</Zones><Zones>00636 - GSM-NUMMER</Zones><Zones>00678 - FAXNUMMER</Zones><Zones>00637 - E-MAILADRES</Zones><XmlLabel>Communication</XmlLabel><Omschrijving>Functioneel blok dat toelaat de informatie inzake communicatie aan te geven.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90265</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Coördinaten werkgever</Naam><Zones>00157 - BENAMING VAN DE WERKGEVER</Zones><XmlLabel>CoordinatesEmployer</XmlLabel><Omschrijving>Functioneel blok dat toelaat de coördinaten van een werkgever aan te geven.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90444</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Details van de betalingsnota</Naam><Zones></Zones><XmlLabel>FinancialNoteDetail</XmlLabel><Omschrijving>Functioneel blok dat toelaat de informatie met betrekking tot de betalingsnota mee te delen.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90445</NrGelinktBlok><NrGelinktBlok>90446</NrGelinktBlok><NrGelinktBlok>90257</NrGelinktBlok><NrGelinktBlok>90367</NrGelinktBlok><Gelinktblok>90445 - Herkomst van de betalingsnota</Gelinktblok><Gelinktblok>90446 - Financiële transactie</Gelinktblok><Gelinktblok>90257 - Gegevens van de contactpersoon</Gelinktblok><Gelinktblok>90367 - Informatie over de bestemmeling</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90450</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Details van de mededeling van de bankoverschrijving</Naam><Zones>01042 - GESTRUCTUREERD</Zones><Zones>01043 - MEDEDELING VAN DE BANKOVERSCHRIJVING</Zones><XmlLabel>EndToEndId</XmlLabel><Omschrijving>Functioneel blok dat toelaat informatie te geven over de mededeling van de bankoverschrijving.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatif</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90448</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Details van de schuldeiser</Naam><Zones>00776 - BENAMING</Zones><XmlLabel>CreditorDetail</XmlLabel><Omschrijving>Functioneel blok dat toelaat informatie te geven over de schuldeiser.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90449</NrGelinktBlok><Gelinktblok>90449 - Bankrekening</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90446</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Financiële transactie</Naam><Zones>00222 - REFERENTIENUMMER</Zones><Zones>01039 - DOMEIN - FINANCIEEL ELEMENT</Zones><Zones>01040 - DATUM - FACTUURDATUM</Zones><Zones>01041 - VORM VAN DE FINANCIËLE TRANSACTIE</Zones><Zones>00805 - DATUM VERZENDING</Zones><Zones>01024 - DATUM - VERVALDATUM</Zones><Zones>00015 - NETTO TE BETALEN BEDRAG</Zones><XmlLabel>FinancialTransaction</XmlLabel><Omschrijving>Functioneel blok dat toelaat de details mee te delen met betrekking tot de uit te voeren financiële transactie.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90447</NrGelinktBlok><NrGelinktBlok>90451</NrGelinktBlok><Gelinktblok>90447 - Betalingsopdracht</Gelinktblok><Gelinktblok>90451 - Rechtvaardiging van de financiële transactie</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90257</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Gegevens van de contactpersoon</Naam><Zones>00726 - NAAM</Zones><Zones>00727 - VOORNAAM</Zones><XmlLabel>CoordinatesContactPerson</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens van de contactpersoon aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90258</NrGelinktBlok><NrGelinktBlok>90366</NrGelinktBlok><Gelinktblok>90258 - Communicatie</Gelinktblok><Gelinktblok>90366 - Informatie over de sector</Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90369</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Gegevens van de mandataris</Naam><Zones>00776 - BENAMING</Zones><XmlLabel>CoordinatesRepresentative</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens van een mandataris mee te delen</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatief </Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90368</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Gegevens van het sociaal secretariaat</Naam><Zones>00479 - NUMMER VAN SOCIAAL SECRETARIAAT</Zones><Zones>00150 - NUMMER VAN ERKEND SOCIAAL SECRETARIAAT BIJKANTOOR</Zones><XmlLabel>CoordinatesSocialSecretariat</XmlLabel><Omschrijving>Functioneel blok dat toelaat de gegevens van een sociaal secretariaat aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatief </Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90445</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Herkomst van de betalingsnota</Naam><Zones>01038 - INITIATOR - FINANCIEEL ELEMENT</Zones><Zones>00871 - HOEDANIGHEIDSKLASSE VAN DE AANGEVER</Zones><Zones>00014 - ONDERNEMINGSNUMMER</Zones><Zones>00011 - RSZ-NUMMER</Zones><XmlLabel>FinancialNoteOrigin</XmlLabel><Omschrijving>Functioneel blok dat toelaat informatie te geven over de herkomst van de betalingsnota.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90367</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Informatie over de bestemmeling</Naam><Zones></Zones><XmlLabel>ReceiverInformation</XmlLabel><Omschrijving>Functioneel blok dat toelaat informatie over de bestemmeling te communiceren.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90368</NrGelinktBlok><NrGelinktBlok>90265</NrGelinktBlok><NrGelinktBlok>90369</NrGelinktBlok><NrGelinktBlok>90022</NrGelinktBlok><Gelinktblok>90368 - Gegevens van het sociaal secretariaat</Gelinktblok><Gelinktblok>90265 - Coördinaten werkgever</Gelinktblok><Gelinktblok>90369 - Gegevens van de mandataris</Gelinktblok><Gelinktblok>90022 - Adres</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90366</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Informatie over de sector</Naam><Zones>00470 - KANTOORNUMMER</Zones><XmlLabel>SectorInformation</XmlLabel><Omschrijving>Functioneel blok dat toelaat informatie over de sector aan te geven.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90451</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Rechtvaardiging van de financiële transactie</Naam><Zones></Zones><XmlLabel>FinancialTransactJustification</XmlLabel><Omschrijving>Functioneel blok dat toelaat informatie te geven over de rechtvaardiging van de financiële transactie.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90410</NrGelinktBlok><Gelinktblok>90410 - Specifieke gegevens voor de gebruikende toepassing</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90082</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Referentie</Naam><Zones>00221 - TYPE VAN DE REFERENTIE</Zones><Zones>00298 - HERKOMST VAN DE REFERENTIE</Zones><Zones>00222 - REFERENTIENUMMER</Zones><XmlLabel>Reference</XmlLabel><Omschrijving>Functioneel blok dat toelaat referenties te preciseren in verband met één of meer formulieren; een formulier kan een originele DmfA-aangifte zijn, een wijzigende DmfA-aangifte, een ASR, een aanvraag van inlichtingen, een Dimona aangifte, enz.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90410</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Specifieke gegevens voor de gebruikende toepassing</Naam><Zones></Zones><XmlLabel>ApplicationData</XmlLabel><Omschrijving>Functioneel blok dat toelaat om via een notificatie informatie mee te delen in verband met een origineel bericht, namelijk:
+het originele bericht zelf 
+EN/OF
+het verrijkte originele bericht 
+EN/OF
+het impactrapport van dit originele bericht.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>*</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+</List>

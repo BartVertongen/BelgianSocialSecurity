@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE List [
+     <!ELEMENT FunctionalBlock (Code+, Versie+, Publicatiedatum+, Naam+, Zones+, XmlLabel+, Omschrijving+, MinimumKardinaliteit+, MaximumKardinaliteit+, NrGelinktBlok+, Gelinktblok+, Aanwezigheid+, ExtraBeperkingen+, Anomalie+)>
+     <!ELEMENT List (FunctionalBlock+)>
+     <!ELEMENT Code (#PCDATA)>
+     <!ELEMENT Versie (#PCDATA)>
+     <!ELEMENT Publicatiedatum (#PCDATA)>
+     <!ELEMENT Naam (#PCDATA)>
+     <!ELEMENT Zones (#PCDATA)>
+     <!ELEMENT XmlLabel (#PCDATA)>
+     <!ELEMENT Omschrijving (#PCDATA)>
+     <!ELEMENT MinimumKardinaliteit (#PCDATA)>
+     <!ELEMENT MaximumKardinaliteit (#PCDATA)>
+     <!ELEMENT NrGelinktBlok (#PCDATA)>
+     <!ELEMENT Gelinktblok (#PCDATA)>
+     <!ELEMENT Aanwezigheid (#PCDATA)>
+     <!ELEMENT ExtraBeperkingen (#PCDATA)>
+     <!ELEMENT Anomalie (AnomalieCode+,AnomalieTitel+,AnomalieErnst+)>     <!ELEMENT AnomalieCode (#PCDATA)>     <!ELEMENT AnomalieTitel (#PCDATA)>     <!ELEMENT AnomalieErnst (#PCDATA)>
+]>
+<List>
+<FunctionalBlock>
+<Code>90528</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Detailgegevens verminderingen - Consultatie</Naam><Zones>00013 - JAAR - KWARTAAL</Zones><Zones>00012 - NOTIE CURATELE</Zones><Zones>00024 - IDENTIFICATIENUMMER BIJ DE SOCIALE ZEKERHEID - INSZ</Zones><Zones>00086 - VERMINDERINGSCODE</Zones><Zones>00090 - DATUM VANAF DEWELKE HET RECHT OP DE VERMINDERING GELDT</Zones><XmlLabel>ReductionConsultationDetail</XmlLabel><Omschrijving>Functioneel blok dat de detailgegevens van de gevraagde verminderingen bevat.
+Momenteel zijn enkel gegevens over de verminderingen eerste aanwervingen opvraagbaar.</Omschrijving><MinimumKardinaliteit>0</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok></NrGelinktBlok><Gelinktblok></Gelinktblok><Aanwezigheid>Facultatief</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90527</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Gegevens verminderingen - Consultatie</Naam><Zones>00609 - RESULTAATCODE VAN DE OPZOEKING</Zones><XmlLabel>ReductionConsultation</XmlLabel><Omschrijving>Functioneel blok dat de gegevens van de gevraagde verminderingen bevat.
+Momenteel zijn enkel gegevens over de verminderingen eerste aanwervingen opvraagbaar.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90528</NrGelinktBlok><Gelinktblok>90528 - Detailgegevens verminderingen - Consultatie</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+<FunctionalBlock>
+<Code>90526</Code><Versie>2023/3</Versie><Publicatiedatum>31/08/2023</Publicatiedatum><Naam>Reduction Consultation Answer</Naam><Zones></Zones><XmlLabel>ReductionConsultationAnswer</XmlLabel><Omschrijving>Root van de XML-boodschap die toelaat te antwoorden op een aanvraag tot consultatie van de laatste situatie van de verminderingen voor een bepaalde werkgever.
+Momenteel zijn enkel gegevens over de verminderingen eerste aanwervingen opvraagbaar.</Omschrijving><MinimumKardinaliteit>1</MinimumKardinaliteit><MaximumKardinaliteit>1</MaximumKardinaliteit><NrGelinktBlok>90527</NrGelinktBlok><Gelinktblok>90527 - Gegevens verminderingen - Consultatie</Gelinktblok><Aanwezigheid>Onmisbaar</Aanwezigheid><ExtraBeperkingen></ExtraBeperkingen><Anomalie><AnomalieCode></AnomalieCode><AnomalieTitel></AnomalieTitel><AnomalieErnst></AnomalieErnst></Anomalie>
+</FunctionalBlock>
+</List>
